@@ -2,14 +2,6 @@
 
 作者及版权方：晴笙墨染（墨安）、KlparetlR。
 
-## 相关链接
-
-[![Vault Patcher](https://img.shields.io/badge/github-Vault%20Patcher-blue)](https://github.com/3093FengMing/VaultPatcher)
-[![modrinth-VP](https://img.shields.io/badge/modrinth-Vault%20Patcher-green)](https://modrinth.com/mod/vault-patcher/versions)
-[![Hardcode Patcher](https://img.shields.io/badge/github-Hardcode%20Patcher-F16436)](https://github.com/LocalizedMC/HardcodePatcher)
-[![mcmod-VP](https://img.shields.io/badge/mcmod-Vault%20Patcher-blue)](https://www.mcmod.cn/class/8765.html)
-[![mcmod-HP](https://img.shields.io/badge/mcmod-Hardcode%20Patcher-blue)](https://www.mcmod.cn/class/9315.html)
-
 ## 专门为[Vault Patcher模组](https://github.com/3093FengMing/VaultPatcher)而生的配置编写工具
 
 由 KlparetlR 提出的方案， 晴笙墨染（墨安） 实现的基础代码和bug修复，外包修饰由 KlparetlR 自学py编写
