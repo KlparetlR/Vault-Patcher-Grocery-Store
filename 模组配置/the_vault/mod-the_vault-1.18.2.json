@@ -1,0 +1,1494 @@
+[
+    {
+        "authors": "KlparetlR、VM汉化组",
+        "name": "宝藏猎人核心模组硬编码汉化",
+        "desc": "包含tooltip、GUI、item。CC4.0协议，VPGS库特供，硬编码汉化版号：VP-VH3rd-V1.1.0",
+        "mods": "the_vault"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Abilities",
+        "value": "VP.modify.the_vault.1"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Archetypes",
+        "value": "VP.modify.the_vault.2"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Researches",
+        "value": "VP.modify.the_vault.3"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Statistics",
+        "value": "VP.modify.the_vault.4"
+    },
+    {
+        "key": "Talents",
+        "value": "VP.modify.the_vault.5"
+    },
+    {
+        "key": "Overview",
+        "value": "VP.modify.the_vault.6"
+    },
+    {
+        "key": "unspent regret points",
+        "value": "@VP.modify.the_vault.7"
+    },
+    {
+        "key": "unspent archetype points",
+        "value": "@VP.modify.the_vault.8"
+    },
+    {
+        "key": "unspent knowledge points",
+        "value": "@VP.modify.the_vault.9"
+    },
+    {
+        "key": "unspent skill points",
+        "value": "@VP.modify.the_vault.10"
+    },
+    {
+        "key": "[NONE]",
+        "value": "@VP.modify.the_vault.11"
+    },
+    {
+        "key": "keybind:",
+        "value": "@VP.modify.the_vault.12"
+    },
+    {
+        "key": "Open Vault History",
+        "value": "VP.modify.the_vault.13"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Damage",
+        "value": "VP.modify.the_vault.14"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Hearts",
+        "value": "VP.modify.the_vault.15"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Defense",
+        "value": "VP.modify.the_vault.16"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Mana",
+        "value": "VP.modify.the_vault.17"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Greed",
+        "value": "VP.modify.the_vault.18"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Completed",
+        "value": "VP.modify.the_vault.19"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Survived",
+        "value": "VP.modify.the_vault.20"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Failed",
+        "value": "VP.modify.the_vault.21"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Experience",
+        "value": "VP.modify.the_vault.22"
+    },
+    {
+        "key": "Generic Info",
+        "value": "VP.modify.the_vault.23"
+    },
+    {
+        "key": "Loot Info",
+        "value": "VP.modify.the_vault.24"
+    },
+    {
+        "key": "Combat Info",
+        "value": "VP.modify.the_vault.25"
+    },
+    {
+        "key": "Vault Seed",
+        "value": "VP.modify.the_vault.26"
+    },
+    {
+        "key": "Seed:",
+        "value": "@VP.modify.the_vault.27"
+    },
+    {
+        "key": "Vault Level",
+        "value": "VP.modify.the_vault.28"
+    },
+    {
+        "key": "Ores Mined",
+        "value": "VP.modify.the_vault.29"
+    },
+    {
+        "key": "Time Left",
+        "value": "VP.modify.the_vault.30"
+    },
+    {
+        "key": "Time Spent",
+        "value": "@VP.modify.the_vault.31"
+    },
+    {
+        "key": "Trapped:",
+        "value": "@VP.modify.the_vault.32"
+    },
+    {
+        "key": "Favorite",
+        "value": "VP.modify.the_vault.33"
+    },
+    {
+        "key": "Un-Favorite",
+        "value": "VP.modify.the_vault.34"
+    },
+    {
+        "key": "Share Vault",
+        "value": "VP.modify.the_vault.35"
+    },
+    {
+        "key": "Previous 50 Vaults",
+        "value": "VP.modify.the_vault.36"
+    },
+    {
+        "key": "Open Vault Stats",
+        "value": "VP.modify.the_vault.37"
+    },
+    {
+        "key": "Back to History",
+        "value": "VP.modify.the_vault.38"
+    },
+    {
+        "key": "Claim Rewards",
+        "value": "VP.modify.the_vault.39"
+    },
+    {
+        "key": "Experience Multiplier",
+        "value": "VP.modify.the_vault.40"
+    },
+    {
+        "key": "Multiplier:",
+        "value": "@VP.modify.the_vault.41"
+    },
+    {
+        "key": "Mobs Unalived",
+        "value": "@VP.modify.the_vault.42"
+    },
+    {
+        "key": "Damage Dealt",
+        "value": "VP.modify.the_vault.43"
+    },
+    {
+        "key": "Crystal Modifiers",
+        "value": "VP.modify.the_vault.44"
+    },
+    {
+        "key": "Loot",
+        "value": "VP.modify.the_vault.45"
+    },
+    {
+        "key": "Combat Stats",
+        "value": "VP.modify.the_vault.46"
+    },
+    {
+        "key": "Coop",
+        "value": "VP.modify.the_vault.47"
+    },
+    {
+        "key": "Coin Piles Collected",
+        "value": "VP.modify.the_vault.48"
+    },
+    {
+        "key": "Total Chests Looted:",
+        "value": "@VP.modify.the_vault.49"
+    },
+    {
+        "key": "Rewards:",
+        "value": "@VP.modify.the_vault.50"
+    },
+    {
+        "key": "Total Coin Piles Collected:",
+        "value": "@VP.modify.the_vault.51"
+    },
+    {
+        "key": "Coin Piles:",
+        "value": "@VP.modify.the_vault.52"
+    },
+    {
+        "key": "Treasure Sand Broken",
+        "value": "VP.modify.the_vault.53"
+    },
+    {
+        "key": "Treasure Sand:",
+        "value": "@VP.modify.the_vault.54"
+    },
+    {
+        "key": "Treasure Rooms Opened",
+        "value": "VP.modify.the_vault.55"
+    },
+    {
+        "key": "Value:",
+        "value": "@VP.modify.the_vault.56"
+    },
+    {
+        "key": "Chests Looted",
+        "value": "VP.modify.the_vault.57"
+    },
+    {
+        "key": "Damage Received",
+        "value": "VP.modify.the_vault.58"
+    },
+    {
+        "key": "Hold <SHIFT> for more info.",
+        "value": "VP.modify.the_vault.59"
+    },
+    {
+        "key": "Complete an Idona altar for a chance to gain favour with Idona. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.",
+        "value": "VP.modify.the_vault.60"
+    },
+    {
+        "key": "Complete a Tenos altar for a chance to gain favour with Tenos. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.",
+        "value": "VP.modify.the_vault.61"
+    },
+    {
+        "key": "Complete a Velara altar for a chance to gain favour with Velara. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.",
+        "value": "VP.modify.the_vault.62"
+    },
+    {
+        "key": "Complete a Wendarr altar for a chance to gain favour with Wendarr. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.",
+        "value": "VP.modify.the_vault.63"
+    },
+    {
+        "key": "Armor",
+        "value": "VP.modify.the_vault.64"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Attack Damage",
+        "value": "@VP.modify.the_vault.65"
+    },
+    {
+        "key": "Attack Speed",
+        "value": "@VP.modify.the_vault.66"
+    },
+    {
+        "key": "Baneful",
+        "value": "@VP.modify.the_vault.67"
+    },
+    {
+        "key": "Block Chance",
+        "value": "@VP.modify.the_vault.68"
+    },
+    {
+        "key": "Chaining Attack",
+        "value": "VP.modify.the_vault.69"
+    },
+    {
+        "key": "Cleave Range",
+        "value": "@VP.modify.the_vault.70"
+    },
+    {
+        "key": "Cooldown Reduction",
+        "value": "VP.modify.the_vault.71"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Crit Hit Resistance",
+        "value": "@VP.modify.the_vault.72"
+    },
+    {
+        "key": "Critical Hit Chance",
+        "value": "VP.modify.the_vault.73"
+    },
+    {
+        "key": "Fatal Strike Chance",
+        "value": "VP.modify.the_vault.74"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Fatal Strike Damage",
+        "value": "@VP.modify.the_vault.75"
+    },
+    {
+        "key": "Fire Immunity",
+        "value": "VP.modify.the_vault.76"
+    },
+    {
+        "key": "Healing Efficiency",
+        "value": "VP.modify.the_vault.77"
+    },
+    {
+        "key": "Holy",
+        "value": "VP.modify.the_vault.78"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Increased Damage",
+        "value": "@VP.modify.the_vault.79"
+    },
+    {
+        "key": "Increased Durability",
+        "value": "VP.modify.the_vault.80"
+    },
+    {
+        "key": "Item Quantity",
+        "value": "@VP.modify.the_vault.81"
+    },
+    {
+        "key": "Item Rarity",
+        "value": "VP.modify.the_vault.82"
+    },
+    {
+        "key": "Knockback Resist",
+        "value": "VP.modify.the_vault.83"
+    },
+    {
+        "key": "Leech",
+        "value": "VP.modify.the_vault.84"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Mana Regen",
+        "value": "@VP.modify.the_vault.85"
+    },
+    {
+        "key": "Reach",
+        "value": "@VP.modify.the_vault.86"
+    },
+    {
+        "key": "Resistance",
+        "value": "VP.modify.the_vault.87"
+    },
+    {
+        "key": "Soul Chance",
+        "value": "@VP.modify.the_vault.88"
+    },
+    {
+        "key": "Soulbound",
+        "value": "VP.modify.the_vault.89"
+    },
+    {
+        "key": "Spiteful",
+        "value": "@VP.modify.the_vault.90"
+    },
+    {
+        "key": "Stun Attack Chance",
+        "value": "@VP.modify.the_vault.91"
+    },
+    {
+        "key": "Sweeping Hit Chance",
+        "value": "@VP.modify.the_vault.92"
+    },
+    {
+        "key": "Thorns Chance",
+        "value": "VP.modify.the_vault.93"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Thorns Damage",
+        "value": "@VP.modify.the_vault.94"
+    },
+    {
+        "key": "Trap Disarm Chance",
+        "value": "VP.modify.the_vault.95"
+    },
+    {
+        "key": "Velara Affinity",
+        "value": "VP.modify.the_vault.96"
+    },
+    {
+        "key": "Tenos Affinity",
+        "value": "VP.modify.the_vault.97"
+    },
+    {
+        "key": "Wendarr Affinity",
+        "value": "VP.modify.the_vault.98"
+    },
+    {
+        "key": "Idona Affinity",
+        "value": "VP.modify.the_vault.99"
+    },
+    {
+        "key": "Total Vaults",
+        "value": "VP.modify.the_vault.100"
+    },
+    {
+        "key": "Completed",
+        "value": "VP.modify.the_vault.101"
+    },
+    {
+        "key": "Survived",
+        "value": "VP.modify.the_vault.102"
+    },
+    {
+        "key": "Failed",
+        "value": "VP.modify.the_vault.103"
+    },
+    {
+        "key": "Experience",
+        "value": "VP.modify.the_vault.104"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Damage Dealt",
+        "value": "@VP.modify.the_vault.105"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Damage Taken",
+        "value": "@VP.modify.the_vault.106"
+    },
+    {
+        "key": "Mobs Unalived",
+        "value": "VP.modify.the_vault.107"
+    },
+    {
+        "key": "Blocks Mined",
+        "value": "VP.modify.the_vault.108"
+    },
+    {
+        "key": "Trapped Chests",
+        "value": "VP.modify.the_vault.109"
+    },
+    {
+        "key": "Chests Looted",
+        "value": "VP.modify.the_vault.110"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Treasure Rooms Opened",
+        "value": "@VP.modify.the_vault.111"
+    },
+    {
+        "key": "Crystals Crafted",
+        "value": "VP.modify.the_vault.112"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Favorites",
+        "value": "VP.modify.the_vault.113"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "History",
+        "value": "VP.modify.the_vault.114"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Close",
+        "value": "VP.modify.the_vault.115"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Vault Xp",
+        "value": "VP.modify.the_vault.116"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Open",
+        "value": "VP.modify.the_vault.117"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Claim",
+        "value": "VP.modify.the_vault.118"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Back",
+        "value": "VP.modify.the_vault.119"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Close",
+        "value": "VP.modify.the_vault.120"
+    },
+    {
+        "key": "Tenos the Omniscient",
+        "value": "VP.modify.the_vault.121"
+    },
+    {
+        "key": "Idona the Malevolent",
+        "value": "VP.modify.the_vault.122"
+    },
+    {
+        "key": "Velara the Benevolent",
+        "value": "VP.modify.the_vault.123"
+    },
+    {
+        "key": "Wendarr the Timekeeper",
+        "value": "VP.modify.the_vault.124"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "opened a Vault!",
+        "value": "@VP.modify.the_vault.125"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "opened the Final Vault!",
+        "value": "@VP.modify.the_vault.126"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "entered a ",
+        "value": "@VP.modify.the_vault.127"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "entered an ",
+        "value": "@VP.modify.the_vault.128"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "completed the Vault!",
+        "value": "@VP.modify.the_vault.129"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "survived.",
+        "value": "@VP.modify.the_vault.130"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "was defeated.",
+        "value": "@VP.modify.the_vault.131"
+    },
+    {
+        "key": "Right Click to Loot!",
+        "value": "VP.modify.the_vault.132"
+    },
+    {
+        "key": "Not Researched",
+        "value": "VP.modify.the_vault.133"
+    },
+    {
+        "key": "Researched",
+        "value": "VP.modify.the_vault.134"
+    },
+    {
+        "key": "A vault that doesn't exist.\nThe Vault gods are not responsible for events that transpire here.\n\nThis realm may also harbor additional riches.",
+        "value": "VP.modify.the_vault.135"
+    },
+    {
+        "key": "Vault that doesn't exist!",
+        "value": "VP.modify.the_vault.136"
+    },
+    {
+        "key": "Branch Cleared!",
+        "value": "VP.modify.the_vault.137"
+    },
+    {
+        "key": "Good luck",
+        "value": "@VP.modify.the_vault.138"
+    },
+    {
+        "key": "No exit this time",
+        "value": "@VP.modify.the_vault.139"
+    },
+    {
+        "key": "Assembles:",
+        "value": "@VP.modify.the_vault.140"
+    },
+    {
+        "key": "Craft a Relic Pedestal to assemble",
+        "value": "VP.modify.the_vault.141"
+    },
+    {
+        "key": "this fragment into a Relic",
+        "value": "VP.modify.the_vault.142"
+    },
+    {
+        "key": "Relic Fragment Id:",
+        "value": "@VP.modify.the_vault.143"
+    },
+    {
+        "key": "Press <SHIFT> for fragment id",
+        "value": "VP.modify.the_vault.144"
+    },
+    {
+        "key": "You cannot exit this Vault!",
+        "value": "VP.modify.the_vault.145"
+    },
+    {
+        "key": "(Relic Fragment)",
+        "value": "@VP.modify.the_vault.146"
+    },
+    {
+        "key": "Find the Exit",
+        "value": "@VP.modify.the_vault.147"
+    },
+    {
+        "key": "Find the Monoliths",
+        "value": "@VP.modify.the_vault.148"
+    },
+    {
+        "key": "Find the cakes",
+        "value": "@VP.modify.the_vault.149"
+    },
+    {
+        "key": "Hunt The Guardians",
+        "value": "@VP.modify.the_vault.150"
+    },
+    {
+        "key": "Use to remove selected specialization",
+        "value": "VP.modify.the_vault.151"
+    },
+    {
+        "key": "of ability ",
+        "value": "@VP.modify.the_vault.152"
+    },
+    {
+        "key": "Hold <SHIFT> for Vault Loot Info",
+        "value": "VP.modify.the_vault.153"
+    },
+    {
+        "key": "Found in:",
+        "value": "VP.modify.the_vault.154"
+    },
+    {
+        "key": "Soul Value:",
+        "value": "@VP.modify.the_vault.155"
+    },
+    {
+        "key": "Socket with a Vault Pickaxe to add",
+        "value": "@VP.modify.the_vault.156"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Shoveling",
+        "value": "@VP.modify.the_vault.157"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Sturdy",
+        "value": "@VP.modify.the_vault.158"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Farming",
+        "value": "@VP.modify.the_vault.159"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Smelting",
+        "value": "@VP.modify.the_vault.160"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Immortal",
+        "value": "@VP.modify.the_vault.161"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Reinforced",
+        "value": "@VP.modify.the_vault.162"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Shattering",
+        "value": "@VP.modify.the_vault.163"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Excavating",
+        "value": "@VP.modify.the_vault.164"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Pulverising",
+        "value": "@VP.modify.the_vault.165"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Quick",
+        "value": "@VP.modify.the_vault.166"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Axing",
+        "value": "@VP.modify.the_vault.167"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Hammering",
+        "value": "@VP.modify.the_vault.168"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Durability",
+        "value": "@VP.modify.the_vault.169"
+    },
+    {
+        "key": "Revives a unalived eternal",
+        "value": "VP.modify.the_vault.170"
+    },
+    {
+        "key": "Rerolls an eternal's available auras",
+        "value": "VP.modify.the_vault.171"
+    },
+    {
+        "key": "Hold in the off hand to instantly identify vault gear.",
+        "value": "VP.modify.the_vault.172"
+    },
+    {
+        "key": "Contains a random modded item from any of your unlocked mods",
+        "value": "VP.modify.the_vault.173"
+    },
+    {
+        "key": "Reveals all curses on a Vault Crystal.",
+        "value": "VP.modify.the_vault.174"
+    },
+    {
+        "key": "Removes a random curse from a Vault Crystal.",
+        "value": "VP.modify.the_vault.175"
+    },
+    {
+        "key": "Removes all curses from a Vault Crystal.",
+        "value": "VP.modify.the_vault.176"
+    },
+    {
+        "key": "When this charm is in your inventory",
+        "value": "VP.modify.the_vault.177"
+    },
+    {
+        "key": "it will automatically void any item",
+        "value": "VP.modify.the_vault.178"
+    },
+    {
+        "key": "whitelisted in the Vault Controller",
+        "value": "VP.modify.the_vault.179"
+    },
+    {
+        "key": "on pickup in a Vault.",
+        "value": "VP.modify.the_vault.180"
+    },
+    {
+        "key": "Can't be consumed after Level: 25",
+        "value": "VP.modify.the_vault.181"
+    },
+    {
+        "key": "Layout: ",
+        "value": "@VP.modify.the_vault.182"
+    },
+    {
+        "key": "Vault Charm Upgrade (Tier",
+        "value": "@VP.modify.the_vault.183"
+    },
+    {
+        "key": "Hammer Size",
+        "value": "@VP.modify.the_vault.184"
+    },
+    {
+        "key": "Item Rarity",
+        "value": "@VP.modify.the_vault.185"
+    },
+    {
+        "key": "Crafting Potential:",
+        "value": "@VP.modify.the_vault.186"
+    },
+    {
+        "key": "Fatal Strike Damage",
+        "value": "@VP.modify.the_vault.187"
+    },
+    {
+        "key": "Sweeping Hit Chance",
+        "value": "@VP.modify.the_vault.188"
+    },
+    {
+        "key": "Soulbound",
+        "value": "@VP.modify.the_vault.189"
+    },
+    {
+        "key": "Total:",
+        "value": "@VP.modify.the_vault.190"
+    },
+    {
+        "key": "Stun Attack Chance",
+        "value": "@VP.modify.the_vault.191"
+    },
+    {
+        "key": "Fatal Strike Chance",
+        "value": "@VP.modify.the_vault.192"
+    },
+    {
+        "key": "Soul Chance",
+        "value": "@VP.modify.the_vault.193"
+    },
+    {
+        "key": "Critical Hit Mitigation",
+        "value": "@VP.modify.the_vault.194"
+    },
+    {
+        "key": "Power Manager",
+        "value": "@VP.modify.the_vault.195"
+    },
+    {
+        "key": "Poison Avoidance",
+        "value": "@VP.modify.the_vault.196"
+    },
+    {
+        "key": "Wither Avoidance",
+        "value": "@VP.modify.the_vault.197"
+    },
+    {
+        "key": "Slowness Avoidance",
+        "value": "@VP.modify.the_vault.198"
+    },
+    {
+        "key": "Trap Disarming",
+        "value": "@VP.modify.the_vault.199"
+    },
+    {
+        "key": "Knockback Resist",
+        "value": "@VP.modify.the_vault.200"
+    },
+    {
+        "key": "Prefixes:",
+        "value": "@VP.modify.the_vault.201"
+    },
+    {
+        "key": "Suffixes:",
+        "value": "@VP.modify.the_vault.202"
+    },
+    {
+        "key": "Implicits:",
+        "value": "@VP.modify.the_vault.203"
+    },
+    {
+        "key": "Implicit:",
+        "value": "@VP.modify.the_vault.204"
+    },
+    {
+        "key": "Prefix:",
+        "value": "@VP.modify.the_vault.205"
+    },
+    {
+        "key": "Suffix:",
+        "value": "@VP.modify.the_vault.206"
+    },
+    {
+        "key": "Level:",
+        "value": "@VP.modify.the_vault.207"
+    },
+    {
+        "key": "Rarity:",
+        "value": "@VP.modify.the_vault.208"
+    },
+    {
+        "key": "Model:",
+        "value": "@VP.modify.the_vault.209"
+    },
+    {
+        "key": "Repairs:",
+        "value": "@VP.modify.the_vault.210"
+    },
+    {
+        "key": "Durability:",
+        "value": "@VP.modify.the_vault.211"
+    },
+    {
+        "key": "Crafted by:",
+        "value": "@VP.modify.the_vault.212"
+    },
+    {
+        "key": "Etching:",
+        "value": "@VP.modify.the_vault.213"
+    },
+    {
+        "key": "when Hit",
+        "value": "@VP.modify.the_vault.214"
+    },
+    {
+        "key": "Capacity:",
+        "value": "@VP.modify.the_vault.215"
+    },
+    {
+        "key": "Mining Speed",
+        "value": "@VP.modify.the_vault.216"
+    },
+    {
+        "key": "Uses:",
+        "value": "@VP.modify.the_vault.217"
+    },
+    {
+        "key": "Time:",
+        "value": "@VP.modify.the_vault.218"
+    },
+    {
+        "key": "Unmodifiable",
+        "value": "VP.modify.the_vault.219"
+    },
+    {
+        "key": "Instability:",
+        "value": "@VP.modify.the_vault.220"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Velocity",
+        "value": "@VP.modify.the_vault.221"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Range",
+        "value": "@VP.modify.the_vault.222"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Reaping",
+        "value": "@VP.modify.the_vault.223"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Shovelling",
+        "value": "@VP.modify.the_vault.224"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Picking",
+        "value": "@VP.modify.the_vault.225"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Coin Affinity",
+        "value": "@VP.modify.the_vault.226"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Living Affinity",
+        "value": "@VP.modify.the_vault.227"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Gilded Affinity",
+        "value": "@VP.modify.the_vault.228"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Ornate Affinity",
+        "value": "@VP.modify.the_vault.229"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Wooden Affinity",
+        "value": "@VP.modify.the_vault.230"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Pulverizing",
+        "value": "@VP.modify.the_vault.231"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Copiously",
+        "value": "@VP.modify.the_vault.232"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Vanilla Immortality",
+        "value": "@VP.modify.the_vault.233"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Block Cap",
+        "value": "@VP.modify.the_vault.234"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Cooldown Reduction Cap",
+        "value": "@VP.modify.the_vault.235"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Resistance Cap",
+        "value": "@VP.modify.the_vault.236"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Shocking Hit Chance",
+        "value": "@VP.modify.the_vault.237"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Sweeping Hit Chance",
+        "value": "@VP.modify.the_vault.238"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Cleave Range",
+        "value": "@VP.modify.the_vault.239"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Chaining Attack",
+        "value": "@VP.modify.the_vault.240"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Thorns Chance",
+        "value": "@VP.modify.the_vault.241"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Fatal Strike Damage",
+        "value": "@VP.modify.the_vault.242"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Fatal Strike Chance",
+        "value": "@VP.modify.the_vault.243"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Increased Durability",
+        "value": "@VP.modify.the_vault.244"
+    },
+    {
+        "key": "☹ Disabled in the Vaults",
+        "value": "VP.modify.the_vault.245"
+    },
+    {
+        "key": "Increases the amount of slots",
+        "value": "VP.modify.the_vault.246"
+    },
+    {
+        "key": "that items can be added to the",
+        "value": "VP.modify.the_vault.247"
+    },
+    {
+        "key": "Vault Charm Whitelist to ",
+        "value": "@VP.modify.the_vault.248"
+    },
+    {
+        "key": "Unidentified ",
+        "value": "@VP.modify.the_vault.249"
+    },
+    {
+        "key": "A magical pear with a strange taste",
+        "value": "VP.modify.the_vault.250"
+    },
+    {
+        "key": "- Inflicts with either Wither or Poison effect",
+        "value": "VP.modify.the_vault.251"
+    },
+    {
+        "key": "- Adds 5 minutes to the Vault Timer",
+        "value": "VP.modify.the_vault.252"
+    },
+    {
+        "key": "A magical orange with a sour taste",
+        "value": "VP.modify.the_vault.253"
+    },
+    {
+        "key": "- Adds 60 seconds to the Vault Timer",
+        "value": "VP.modify.the_vault.254"
+    },
+    {
+        "key": "A magical lemon with a bitter taste",
+        "value": "VP.modify.the_vault.255"
+    },
+    {
+        "key": "It is grown on the gorgeous trees of Iskallia.",
+        "value": "VP.modify.the_vault.256"
+    },
+    {
+        "key": "- Removes 10% max health",
+        "value": "VP.modify.the_vault.257"
+    },
+    {
+        "key": "- Adds 30 seconds to the Vault Timer",
+        "value": "VP.modify.the_vault.258"
+    },
+    {
+        "key": "[!] Only edible inside a Vault",
+        "value": "VP.modify.the_vault.259"
+    },
+    {
+        "key": "Right-Click to identify...",
+        "value": "VP.modify.the_vault.260"
+    },
+    {
+        "key": "Right click to identify.",
+        "value": "VP.modify.the_vault.261"
+    },
+    {
+        "key": "Crouch right-click an Animal to catch",
+        "value": "VP.modify.the_vault.262"
+    },
+    {
+        "key": "For use in the Animal Pen",
+        "value": "VP.modify.the_vault.263"
+    },
+    {
+        "key": "Animals can not be released when caught",
+        "value": "VP.modify.the_vault.264"
+    },
+    {
+        "key": "Contains : ",
+        "value": "@VP.modify.the_vault.265"
+    },
+    {
+        "key": "Count : ",
+        "value": "@VP.modify.the_vault.266"
+    },
+    {
+        "key": "Theme:",
+        "value": "@VP.modify.the_vault.267"
+    },
+    {
+        "key": "Objective: ",
+        "value": "@VP.modify.the_vault.268"
+    },
+    {
+        "key": "Hunt the Guardians",
+        "value": "@VP.modify.the_vault.269"
+    },
+    {
+        "key": "Cake Hunt",
+        "value": "@VP.modify.the_vault.270"
+    },
+    {
+        "key": "Elixir Rush",
+        "value": "@VP.modify.the_vault.271"
+    },
+    {
+        "key": "Light the Monoliths",
+        "value": "@VP.modify.the_vault.272"
+    },
+    {
+        "key": "Scavenger Hunt",
+        "value": "@VP.modify.the_vault.273"
+    },
+    {
+        "key": "Speedrun",
+        "value": "@VP.modify.the_vault.274"
+    },
+    {
+        "key": "Objective -",
+        "value": "VP.modify.the_vault.275"
+    },
+    {
+        "key": "Mobs Unalived -",
+        "value": "VP.modify.the_vault.276"
+    },
+    {
+        "key": "Treasure Rooms -",
+        "value": "VP.modify.the_vault.277"
+    },
+    {
+        "key": "Mined Blocks -",
+        "value": "VP.modify.the_vault.278"
+    },
+    {
+        "key": "Chests -",
+        "value": "VP.modify.the_vault.279"
+    }
+]
