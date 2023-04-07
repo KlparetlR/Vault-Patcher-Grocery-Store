@@ -20,6 +20,8 @@
 
 请在`模组配置`文件夹中提交你的PR，格式为`模组配置/<CurseForge 项目名称>/<ModID>/`(`ModID`又名模组注册名)
 
+PR格式为`<模组英文名> <简述>`
+
 可以参考CFPA的[i18n库](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/main/CONTRIBUTING.md)
 
 ## 调用后的要求和限制 **（必看，须知）**
