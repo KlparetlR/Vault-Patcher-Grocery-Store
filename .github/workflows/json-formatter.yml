@@ -3,7 +3,7 @@ name: json-formatter
 on:
   pull_request:
     paths:
-      - '**/*.json'
+      - 'ModConfigs/*.json'
 
 jobs:
   check-json:
