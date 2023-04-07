@@ -1,6 +1,6 @@
 # **Vault Patcher Grocery Store丨Vault Patcher杂货铺**
 
-维护：KlparetlR、TexTrue
+维护：KlparetlR、TexTrue、X209
 
 ## 相关链接
 
