@@ -26,7 +26,7 @@ PR格式为`<模组英文名> <简述>`
 
 ## 调用后的要求和限制 **（必看，须知）**
 
-本库的协议为CC-BY-NC-ND 4.0，即
+本库的协议为[CC-BY-NC-ND 4.0](https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/LICENSE.txt)，即
 
 BY（Attribution，署名归属）：您可自由地分享和改编本作品，但您必须注明创作者的版权归属。
 
