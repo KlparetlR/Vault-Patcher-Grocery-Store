@@ -18,7 +18,7 @@
 
 ## 配置及翻译上传的要求及格式
 
-请在`模组配置`文件夹中提交你的PR，格式为`模组配置/<CurseForge 项目名称>/<ModID>/`(`ModID`又名模组注册名)
+请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/<CurseForge 项目名称>/<ModID>/`(`ModID`又名模组注册名)
 
 PR格式为`<模组英文名> <简述>`
 
