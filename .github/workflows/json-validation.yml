@@ -2,9 +2,8 @@ name: Validate JSON
 
 on:
   pull_request:
-      branches:
-         paths:
-           - '**.json'
+    paths:
+      - '**.json'
 
 jobs:
   validate-json:
@@ -20,7 +19,7 @@ jobs:
 
     - name: Validate JSON
       run: |
-        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' $(git diff --name-only HEAD $(git merge-base HEAD origin/main) | grep '\.json$') | grep -q true; then
+        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' $(git diff --name-only HEAD $(git merge-base HEAD $GITHUB_BASE_REF) | grep '\.json$') | grep -q true; then
           echo "The JSON file is valid and contains the required parameters."
         else
           echo "The JSON file is invalid or missing required parameters."
