@@ -13,6 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Set up job environment
+      env:
+        CI: true
+      if: always()
+      run: |
+        set -e
+
     - name: Checkout code
       uses: actions/checkout@v2
 
