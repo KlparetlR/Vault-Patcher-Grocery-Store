@@ -2,8 +2,9 @@ name: Validate JSON
 
 on:
   pull_request:
-    paths:
-      - '**.json'
+      branches:
+         paths:
+           - '**.json'
 
 jobs:
   validate-json:
