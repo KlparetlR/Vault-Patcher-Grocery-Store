@@ -16,6 +16,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
+
+      - name: Install jq
         run: npm install -g jq
 
       - name: Check for JSON files
