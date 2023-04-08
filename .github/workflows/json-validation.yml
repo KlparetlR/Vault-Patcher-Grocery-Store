@@ -1,0 +1,30 @@
+name: Validate JSON
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        npm install -g ajv-cli
+
+    - name: Validate JSON
+      run: |
+        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' ModConfigs/**/**/*.json | grep -q true; then
+          echo "The JSON file is valid and contains the required parameters."
+        else
+          echo "The JSON file is invalid or missing required parameters."
+          exit 1
+        fi
