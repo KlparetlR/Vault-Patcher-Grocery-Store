@@ -6,7 +6,7 @@ on:
       - 'ModConfigs/**/**/*.json'
 
 jobs:
-  check-json:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
