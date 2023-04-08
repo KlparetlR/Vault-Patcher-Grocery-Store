@@ -6,11 +6,17 @@ on:
       - 'ModConfigs/*/*.json'
 
 jobs:
-  check-json:
+  check_json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2.7.0
+
+      - name: Setup jq
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+        run: npm install -g jq
 
       - name: Check for JSON files
         run: |
