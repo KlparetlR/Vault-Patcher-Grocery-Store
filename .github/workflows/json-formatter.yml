@@ -6,7 +6,7 @@ on:
       - 'ModConfigs/*/*.json'
 
 jobs:
-  check_json:
+  check-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,7 +20,7 @@ jobs:
 
       - name: Check for JSON files
         run: |
-          json_files=$(git diff --name-only HEAD~1 | grep '.json$')
+          json_files=$(git diff --name-only HEAD~1 HEAD | grep '.json$')
           if [ -n "$json_files" ]; then
             echo "JSON files detected in PR:"
             echo "$json_files"
@@ -29,7 +29,7 @@ jobs:
 
       - name: Check object parameters
         run: |
-          for file in $(git diff --name-only HEAD~1 | grep '.json$'); do
+          for file in $(git diff --name-only HEAD~1 HEAD | grep '.json$'); do
             first_object_params=$(jq -r '.[0] | length' "$file")
             if [ "$first_object_params" -ne 4 ]; then
               echo "File $file has first object with $first_object_params parameters instead of 4."
