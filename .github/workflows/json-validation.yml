@@ -1,30 +1,43 @@
-name: Validate JSON
+name: Validate JSON files and ModConfigs
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
+    paths:
+      - 'ModConfigs/**/**/*.json'
 
 jobs:
-  validate-json:
+  validate_json:
+    name: Validate JSON
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        npm install -g ajv-cli
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
 
-    - name: Validate JSON
-      run: |
-        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' ModConfigs/**/**/*.json | grep -q true; then
-          echo "The JSON file is valid and contains the required parameters."
-        else
-          echo "The JSON file is invalid or missing required parameters."
-          exit 1
-        fi
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate JSON files
+        run: npm run validate-json
+
+  validate_modconfigs:
+    name: Validate ModConfigs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate ModConfigs
+        run: npm run validate-modconfigs
