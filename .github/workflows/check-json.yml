@@ -1,0 +1,28 @@
+name: Check JSON files
+on:
+  pull_request:
+    paths:
+    - 'ModConfigs/*/*/*.json'
+
+jobs:
+  json-lint:
+    name: JSON Lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install dependencies
+      run: |
+      sudo apt-get update -y && sudo apt-get install -y python3-pip
+      sudo pip3 install jsonlint jq
+    - name: Check JSON syntax
+      run: |
+        jsonlint -q ModConfigs/*/*/*.json || exit 1
+    - name: Check JSON structure
+      run: |
+        for file in ModConfigs/*/*/*.json; do
+          if ! jq -e '.[0].mods and .[0].desc and .[0].name and .[0].authors' $file > /dev/null; then
+            echo "JSON file $file does not contain the required parameters." >&2
+            exit 1
+          fi
+        done
