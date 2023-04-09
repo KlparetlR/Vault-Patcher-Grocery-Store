@@ -3,7 +3,7 @@ name: Check JSON files
 on:
   pull_request:
     paths:
-      - 'ModConfigs/**/*.json'
+      - '**/ModConfigs/**/*.json'
       - '!**/lang/**/*.json'
 
 jobs:
@@ -20,8 +20,8 @@ jobs:
       run: npm install -g ajv-cli
     - name: Check JSON files
       run: |
-        npx jsonlint -q ModConfigs/**/*.json
-        for f in $(git diff --name-only origin/main ${{ github.event.pull_request.head.sha }} --diff-filter=AM -- 'ModConfigs/**/*.json' -- ':!:ModConfigs/lang/**/*.json'); do
+        npx jsonlint -q **/ModConfigs/**/*.json
+        for f in $(git diff --name-only origin/main ${{ github.event.pull_request.head.sha }} --diff-filter=AM -- '**/ModConfigs/**/*.json' -- ':!:**/lang/**/*.json'); do
           if ! grep -q '"mods"\|mods\|desc\|name\|authors' "$f"; then
             echo "The file $f does not contain the required parameters."
             exit 1
