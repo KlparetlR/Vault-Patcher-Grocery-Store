@@ -19,8 +19,12 @@ jobs:
 
     - name: Validate JSON
       run: |
-        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' ModConfigs/**/**/*.json | grep -q true; then
-          echo "The JSON file is valid and contains the required parameters."
-        else
-          echo "The JSON file is invalid or missing required parameters."
-          exit 1
+          if git diff --name-only HEAD $(echo $GITHUB_BASE_REF) -- | grep -q 'ModConfigs/' && \
+              git diff --name-only HEAD $(echo $GITHUB_BASE_REF) -- | grep -q '\.json$' && \
+              jq -e 'if .mods and .desc and .name and .authors then true else false end' \
+              $(git diff --name-only HEAD $(echo $GITHUB_BASE_REF) -- | grep 'ModConfigs/' | grep '\.json$') >/dev/null 2>&1; then
+            echo "The JSON files are valid and contain the required parameters."
+          else
+            echo "The JSON files are invalid or missing required parameters."
+            exit 1
+          fi
