@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: '14.x'
     - name: Install dependencies
-      run: npm ci
+      run: npm install -g ajv-cli
     - name: Check JSON files
       run: |
         npx jsonlint -q ./**/*.json
