@@ -19,9 +19,16 @@ jobs:
 
     - name: Validate JSON
       run: |
-          if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' ${{ github.event.pull_request.head.repo.clone_url }}/ModConfigs/**/**/*.json | grep -q true; then
-            echo "The JSON files are valid and contain the required parameters."
-          else
-            echo "The JSON files are invalid or missing required parameters."
-            exit 1
-          fi
+        if jq 'if .[0].mods and .[0].desc and .[0].name and .[0].authors then true else false end' ${{ github.workspace }}/ModConfigs/**/**/*.json | grep -q true; then
+          echo "The JSON file is valid and contains the required parameters."
+        else
+          echo "The JSON file is invalid or missing required parameters."
+          exit 1
+
+        # Check if any files failed the validation
+        if [ $? -eq 0 ]; then
+          echo "All JSON files passed validation."
+        else
+          echo "Some JSON files failed validation."
+          exit 1
+        fi
