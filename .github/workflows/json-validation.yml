@@ -24,5 +24,3 @@ jobs:
         else
           echo "The JSON file is invalid or missing required parameters."
           exit 1
-        fi
-        name: Validate JSON
