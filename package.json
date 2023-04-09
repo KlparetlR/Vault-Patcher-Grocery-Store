@@ -1,0 +1,12 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "scripts": {
+      "validate-json": "jsonlint ModConfigs/**/*.json",
+      "check-modconfigs": "node check-modconfigs.js"
+    },
+    "devDependencies": {
+      "jsonlint": "^1.6.3"
+    }
+  }
+  
