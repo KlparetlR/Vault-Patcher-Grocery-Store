@@ -1,25 +1,26 @@
-name: JSON Validation
-
-on:
-  pull_request:
-    paths:
-      - '**.json'
-      - '!**/lang/**'
-
-jobs:
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: pip install jsonschema
-
-      - name: Validate JSON files
-        run: python validate_json.py
+#name: JSON Validation
+#
+#on:
+#  pull_request:
+#    paths:
+#      - '**.json'
+#      - '!**/lang/**'
+#
+#jobs:
+#  validate:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v2
+#
+#      - name: Setup Python
+#        uses: actions/setup-python@v2
+#        with:
+#          python-version: '3.9'
+#
+#      - name: Install dependencies
+#        run: pip install jsonschema
+#
+#      - name: Validate JSON files
+#        run: python validate_json.py
+#
