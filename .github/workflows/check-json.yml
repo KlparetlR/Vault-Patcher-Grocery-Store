@@ -2,7 +2,7 @@ name: Check JSON files
 on:
   pull_request:
     paths:
-    - 'ModConfigs/*/*/*.json'
+      - 'ModConfigs/*/*/*.json'
 
 jobs:
   json-lint:
