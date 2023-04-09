@@ -1,29 +1,27 @@
-name: Check JSON files
+name: Check JSON file format
 
 on:
   pull_request:
     paths:
-      - '**/ModConfigs/**/*.json'
-      - '!**/lang/**/*.json'
+      - 'ModConfigs/**/*.json'
+      - '!lang/*.json'
 
 jobs:
-  json_check:
+  check-json:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14.x'
-    - name: Install dependencies
-      run: npm install -g ajv-cli
-    - name: Check JSON files
-      run: |
-        npx jsonlint -q **/ModConfigs/**/*.json
-        for f in $(git diff --name-only origin/main ${{ github.event.pull_request.head.sha }} --diff-filter=AM -- '**/ModConfigs/**/*.json' -- ':!:**/lang/**/*.json'); do
-          if ! grep -q '"mods"\|mods\|desc\|name\|authors' "$f"; then
-            echo "The file $f does not contain the required parameters."
-            exit 1
-          fi
-        done
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Check JSON files
+        run: |
+          for file in $(find . -type f -name '*.json'); do
+            echo "Checking $file"
+            cat $file | jq empty > /dev/null || { echo "Invalid JSON in $file"; exit 1; }
+            cat $file | jq '.[0] | has("mods") and has("desc") and has("name") and has("authors")' > /dev/null || { echo "Missing required fields in $file"; exit 1; }
+          done
