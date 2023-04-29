@@ -2,12 +2,34 @@
     {
         "authors": "KlparetlR、VM汉化组",
         "name": "宝藏猎人核心模组硬编码汉化",
-        "desc": "包含tooltip、GUI、item。CC4.0协议，VPGS库特供，硬编码汉化版号：VP-VH3rd-V1.1.0",
+        "desc": "包含tooltip、GUI、item。VPGS库特供，硬编码汉化版号：VP-VH3rd-V2.0.0",
         "mods": "the_vault"
     },
     {
+        "key": "identify vault gear.",
+        "value": " "
+    },
+    {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen.java",
+            "name": "#iskallia.vault.client.gui.framework.render.Tooltips",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Hold ",
+        "value": "@\u00a77\u6309\u4f4f\u00a7f"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.event.ClientEvents",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Hold ",
+        "value": "@\u00a77\u6309\u4f4f\u00a7f"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -16,7 +38,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen.java",
+            "name": "#iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -25,7 +47,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen.java",
+            "name": "#iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -34,7 +56,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen.java",
+            "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -66,11 +88,21 @@
         "value": "@VP.modify.the_vault.10"
     },
     {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
         "key": "[NONE]",
         "value": "@VP.modify.the_vault.11"
     },
     {
-        "key": "keybind:",
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Keybind:",
         "value": "@VP.modify.the_vault.12"
     },
     {
@@ -240,7 +272,7 @@
     },
     {
         "key": "Damage Dealt",
-        "value": "VP.modify.the_vault.43"
+        "value": "@VP.modify.the_vault.43"
     },
     {
         "key": "Crystal Modifiers",
@@ -299,11 +331,11 @@
         "value": "VP.modify.the_vault.57"
     },
     {
-        "key": "Damage Received",
-        "value": "VP.modify.the_vault.58"
+        "key": "保留键",
+        "value": "@VP.modify.the_vault.58"
     },
     {
-        "key": "Hold <SHIFT> for more info.",
+        "key": " for more info.",
         "value": "VP.modify.the_vault.59"
     },
     {
@@ -323,16 +355,21 @@
         "value": "VP.modify.the_vault.63"
     },
     {
+        "target_class": {
+            "name": "#iskallia.vault.init.ModGearAttributes",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
         "key": "Armor",
         "value": "VP.modify.the_vault.64"
     },
     {
         "target_class": {
-            "name": "@iskallia.vault",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
-        "key": "Attack Damage",
+        "key": " Attack Damage",
         "value": "@VP.modify.the_vault.65"
     },
     {
@@ -436,7 +473,7 @@
         "value": "@VP.modify.the_vault.85"
     },
     {
-        "key": "Reach",
+        "key": "+ Reach",
         "value": "@VP.modify.the_vault.86"
     },
     {
@@ -468,11 +505,6 @@
         "value": "VP.modify.the_vault.93"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
         "key": "Thorns Damage",
         "value": "@VP.modify.the_vault.94"
     },
@@ -517,11 +549,6 @@
         "value": "VP.modify.the_vault.104"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
         "key": "Damage Dealt",
         "value": "@VP.modify.the_vault.105"
     },
@@ -565,7 +592,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -574,7 +601,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -583,7 +610,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -592,7 +619,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -601,7 +628,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -610,7 +637,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -619,7 +646,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -628,7 +655,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen.class",
+            "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -653,7 +680,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -662,7 +689,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -671,7 +698,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -680,7 +707,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -689,7 +716,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -698,7 +725,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -707,7 +734,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic.java",
+            "name": "#iskallia.vault.core.vault.playericListenersLogic",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -719,12 +746,12 @@
         "value": "VP.modify.the_vault.132"
     },
     {
-        "key": "Not Researched",
-        "value": "VP.modify.the_vault.133"
+        "key": "Not 研发",
+        "value": "@VP.modify.the_vault.133"
     },
     {
         "key": "Researched",
-        "value": "VP.modify.the_vault.134"
+        "value": "@VP.modify.the_vault.134"
     },
     {
         "key": "A vault that doesn't exist.\nThe Vault gods are not responsible for events that transpire here.\n\nThis realm may also harbor additional riches.",
@@ -799,8 +826,13 @@
         "value": "@VP.modify.the_vault.152"
     },
     {
-        "key": "Hold <SHIFT> for Vault Loot Info",
-        "value": "VP.modify.the_vault.153"
+        "target_class": {
+            "name": "#iskallia.vault.event.ClientEvents",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": " for Vault Loot Info",
+        "value": "@VP.modify.the_vault.153"
     },
     {
         "key": "Found in:",
@@ -816,7 +848,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -825,7 +857,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -834,7 +866,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -843,7 +875,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -852,7 +884,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -861,7 +893,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -870,7 +902,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -879,7 +911,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -888,7 +920,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -897,7 +929,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -906,7 +938,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -915,7 +947,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -924,7 +956,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem.java",
+            "name": "#iskallia.vault.item.tool.PaxelItem",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -933,67 +965,67 @@
     },
     {
         "key": "Revives a unalived eternal",
-        "value": "VP.modify.the_vault.170"
+        "value": "让已倒下的永恒者重生"
     },
     {
         "key": "Rerolls an eternal's available auras",
-        "value": "VP.modify.the_vault.171"
+        "value": "刷新永恒者可用的光环"
     },
     {
-        "key": "Hold in the off hand to instantly identify vault gear.",
-        "value": "VP.modify.the_vault.172"
+        "key": "Hold in the off hand to instantly",
+        "value": "放在副手以在获得宝库装备后立即鉴定"
     },
     {
         "key": "Contains a random modded item from any of your unlocked mods",
-        "value": "VP.modify.the_vault.173"
+        "value": "包含你未解锁的模组中的一个随机物品"
     },
     {
         "key": "Reveals all curses on a Vault Crystal.",
-        "value": "VP.modify.the_vault.174"
+        "value": "在宝库水晶上展现所有诅咒"
     },
     {
         "key": "Removes a random curse from a Vault Crystal.",
-        "value": "VP.modify.the_vault.175"
+        "value": "从宝库水晶上随机移除一条诅咒"
     },
     {
         "key": "Removes all curses from a Vault Crystal.",
-        "value": "VP.modify.the_vault.176"
+        "value": "从宝库水晶上移除所有诅咒"
     },
     {
         "key": "When this charm is in your inventory",
-        "value": "VP.modify.the_vault.177"
+        "value": "当这个护符在你的物品栏里"
     },
     {
         "key": "it will automatically void any item",
-        "value": "VP.modify.the_vault.178"
+        "value": "它将自动使任何物品失效"
     },
     {
         "key": "whitelisted in the Vault Controller",
-        "value": "VP.modify.the_vault.179"
+        "value": "物品将进入宝库控制器中的白名单"
     },
     {
         "key": "on pickup in a Vault.",
-        "value": "VP.modify.the_vault.180"
+        "value": "在宝库拾取物品时。"
     },
     {
         "key": "Can't be consumed after Level: 25",
-        "value": "VP.modify.the_vault.181"
+        "value": "在以下等级后无法被消耗：25"
     },
     {
         "key": "Layout: ",
-        "value": "@VP.modify.the_vault.182"
+        "value": "@布局："
     },
     {
         "key": "Vault Charm Upgrade (Tier",
-        "value": "@VP.modify.the_vault.183"
+        "value": "@宝库护符升级（阶段"
     },
     {
         "key": "Hammer Size",
-        "value": "@VP.modify.the_vault.184"
+        "value": "@锤子大小"
     },
     {
         "key": "Item Rarity",
-        "value": "@VP.modify.the_vault.185"
+        "value": "@掉落物稀有度"
     },
     {
         "key": "Crafting Potential:",
@@ -1137,7 +1169,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1145,17 +1177,12 @@
         "value": "@VP.modify.the_vault.221"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
-        "key": "Range",
+        "key": "+ Range",
         "value": "@VP.modify.the_vault.222"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1164,7 +1191,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1173,7 +1200,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1182,7 +1209,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1191,7 +1218,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1200,7 +1227,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1209,7 +1236,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1218,7 +1245,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1227,7 +1254,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1236,7 +1263,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1245,7 +1272,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1254,7 +1281,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1263,7 +1290,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1272,7 +1299,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1281,7 +1308,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1290,7 +1317,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1299,7 +1326,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1308,7 +1335,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1317,7 +1344,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1326,7 +1353,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1335,7 +1362,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1344,7 +1371,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes.java",
+            "name": "#iskallia.vault.init.ModGearAttributes",
             "mapping": "SRG",
             "stack_depth": -1
         },
@@ -1368,6 +1395,11 @@
         "value": "@VP.modify.the_vault.248"
     },
     {
+        "target_class": {
+            "name": "#iskallia.vault.gear.VaultGearHelper",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
         "key": "Unidentified ",
         "value": "@VP.modify.the_vault.249"
     },
@@ -1412,12 +1444,12 @@
         "value": "VP.modify.the_vault.259"
     },
     {
-        "key": "Right-Click to identify...",
-        "value": "VP.modify.the_vault.260"
+        "key": "Right-Click to identify",
+        "value": "@VP.modify.the_vault.260"
     },
     {
-        "key": "Right click to identify.",
-        "value": "VP.modify.the_vault.261"
+        "key": "Right click to identify",
+        "value": "@VP.modify.the_vault.261"
     },
     {
         "key": "Crouch right-click an Animal to catch",
@@ -1473,22 +1505,460 @@
     },
     {
         "key": "Objective -",
-        "value": "VP.modify.the_vault.275"
+        "value": "@VP.modify.the_vault.275"
     },
     {
         "key": "Mobs Unalived -",
-        "value": "VP.modify.the_vault.276"
+        "value": "@VP.modify.the_vault.276"
     },
     {
         "key": "Treasure Rooms -",
-        "value": "VP.modify.the_vault.277"
+        "value": "@VP.modify.the_vault.277"
     },
     {
         "key": "Mined Blocks -",
-        "value": "VP.modify.the_vault.278"
+        "value": "@VP.modify.the_vault.278"
     },
     {
         "key": "Chests -",
-        "value": "VP.modify.the_vault.279"
+        "value": "@VP.modify.the_vault.279"
+    },
+    {
+        "key": " Cloud",
+        "value": "@VP.modify.the_vault.280"
+    },
+    {
+        "key": " has discovered ",
+        "value": "@VP.modify.the_vault.281"
+    },
+    {
+        "key": " transmog.",
+        "value": "@VP.modify.the_vault.282"
+    },
+    {
+        "key": " Wooden Chest",
+        "value": "@VP.modify.the_vault.283"
+    },
+    {
+        "key": " Altar Chest",
+        "value": "@VP.modify.the_vault.284"
+    },
+    {
+        "key": " Ornate Chest",
+        "value": "@VP.modify.the_vault.285"
+    },
+    {
+        "key": " Living Chest",
+        "value": "@VP.modify.the_vault.286"
+    },
+    {
+        "key": " Gilded Chest",
+        "value": "@VP.modify.the_vault.287"
+    },
+    {
+        "key": "common",
+        "value": "@VP.modify.the_vault.288"
+    },
+    {
+        "key": "rare",
+        "value": "@VP.modify.the_vault.289"
+    },
+    {
+        "key": "epic",
+        "value": "@VP.modify.the_vault.290"
+    },
+    {
+        "key": "omega",
+        "value": "@VP.modify.the_vault.291"
+    },
+    {
+        "key": "Common",
+        "value": "@VP.modify.the_vault.292"
+    },
+    {
+        "key": "Rare",
+        "value": "@VP.modify.the_vault.293"
+    },
+    {
+        "key": "Epic",
+        "value": "@VP.modify.the_vault.294"
+    },
+    {
+        "key": "Omega",
+        "value": "@VP.modify.the_vault.295"
+    },
+    {
+        "key": "Requires level:",
+        "value": "@VP.modify.the_vault.296"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "Research (",
+        "value": "@VP.modify.the_vault.297"
+    },
+    {
+        "key": "Not 已选择",
+        "value": "@VP.modify.the_vault.299"
+    },
+    {
+        "key": "Not selected",
+        "value": "@VP.modify.the_vault.299"
+    },
+    {
+        "key": "Not 已学习 Yet",
+        "value": "@VP.modify.the_vault.300"
+    },
+    {
+        "key": "Not 已学习 yet",
+        "value": "@VP.modify.the_vault.300"
+    },
+    {
+        "key": "Not learned yet",
+        "value": "@VP.modify.the_vault.300"
+    },
+    {
+        "key": "Selected",
+        "value": "@VP.modify.the_vault.301"
+    },
+    {
+        "key": "Select (",
+        "value": "@VP.modify.the_vault.302"
+    },
+    {
+        "key": "Learn (",
+        "value": "@VP.modify.the_vault.303"
+    },
+    {
+        "key": "Unlearn",
+        "value": "@VP.modify.the_vault.304"
+    },
+    {
+        "key": "Learned",
+        "value": "@VP.modify.the_vault.305"
+    },
+    {
+        "key": "Upgrade (",
+        "value": "@VP.modify.the_vault.306"
+    },
+    {
+        "key": "Vault Party",
+        "value": "@VP.modify.the_vault.307"
+    },
+    {
+        "key": "Scrappy",
+        "value": "@VP.modify.the_vault.308"
+    },
+    {
+        "key": "increased 伤害",
+        "value": "@VP.modify.the_vault.309"
+    },
+    {
+        "key": "进入 Vault!",
+        "value": "@VP.modify.the_vault.310"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic",
+            "mapping": "SRG",
+            "stack_depth": -1
+        },
+        "key": "The Vault",
+        "value": "VP.modify.the_vault.311"
+    },
+    {
+        "key": "Haste",
+        "value": "VP.modify.the_vault.312"
+    },
+    {
+        "key": "Strength",
+        "value": "VP.modify.the_vault.313"
+    },
+    {
+        "key": "Speed",
+        "value": "VP.modify.the_vault.314"
+    },
+    {
+        "key": "Unbreakable",
+        "value": "VP.modify.the_vault.315"
+    },
+    {
+        "key": "Stone Skin",
+        "value": "VP.modify.the_vault.316"
+    },
+    {
+        "key": "Critical Strike",
+        "value": "VP.modify.the_vault.317"
+    },
+    {
+        "key": "Undead Mastery",
+        "value": "VP.modify.the_vault.318"
+    },
+    {
+        "key": "Arthropod Mastery",
+        "value": "VP.modify.the_vault.319"
+    },
+    {
+        "key": "Illager Mastery",
+        "value": "VP.modify.the_vault.320"
+    },
+    {
+        "key": "Angel",
+        "value": "VP.modify.the_vault.321"
+    },
+    {
+        "key": "Experienced",
+        "value": "VP.modify.the_vault.322"
+    },
+    {
+        "key": "Lucky Altar",
+        "value": "VP.modify.the_vault.323"
+    },
+    {
+        "key": "Weakness Affinity",
+        "value": "VP.modify.the_vault.324"
+    },
+    {
+        "key": "Wither Affinity",
+        "value": "VP.modify.the_vault.325"
+    },
+    {
+        "key": "Slowness Affinity",
+        "value": "VP.modify.the_vault.326"
+    },
+    {
+        "key": "Bartering",
+        "value": "VP.modify.the_vault.327"
+    },
+    {
+        "key": "Blacksmith",
+        "value": "VP.modify.the_vault.328"
+    },
+    {
+        "key": "Last Stand",
+        "value": "VP.modify.the_vault.329"
+    },
+    {
+        "key": "Berserking",
+        "value": "VP.modify.the_vault.330"
+    },
+    {
+        "key": "Methodical",
+        "value": "VP.modify.the_vault.331"
+    },
+    {
+        "key": "Depleted",
+        "value": "VP.modify.the_vault.332"
+    },
+    {
+        "key": "Heal",
+        "value": "VP.modify.the_vault.333"
+    },
+    {
+        "key": "Dash",
+        "value": "VP.modify.the_vault.334"
+    },
+    {
+        "key": "Nova",
+        "value": "VP.modify.the_vault.335"
+    },
+    {
+        "key": "Execute",
+        "value": "VP.modify.the_vault.336"
+    },
+    {
+        "key": "Ghost Walk",
+        "value": "VP.modify.the_vault.337"
+    },
+    {
+        "key": "Mega Jump",
+        "value": "VP.modify.the_vault.338"
+    },
+    {
+        "key": "Rampage",
+        "value": "VP.modify.the_vault.339"
+    },
+    {
+        "key": "Summon Eternal",
+        "value": "VP.modify.the_vault.340"
+    },
+    {
+        "key": "Tank",
+        "value": "VP.modify.the_vault.341"
+    },
+    {
+        "key": "Vein Miner",
+        "value": "VP.modify.the_vault.342"
+    },
+    {
+        "key": "Hunter",
+        "value": "VP.modify.the_vault.343"
+    },
+    {
+        "key": "Farmer",
+        "value": "VP.modify.the_vault.344"
+    },
+    {
+        "key": "Mana Shield",
+        "value": "VP.modify.the_vault.345"
+    },
+    {
+        "key": "Taunt",
+        "value": "VP.modify.the_vault.346"
+    },
+    {
+        "key": "Stonefall",
+        "value": "VP.modify.the_vault.347"
+    },
+    {
+        "key": "Colossal Chests",
+        "value": "VP.modify.the_vault.348"
+    },
+    {
+        "key": "Simple Storage Network",
+        "value": "VP.modify.the_vault.349"
+    },
+    {
+        "key": "Waystones",
+        "value": "VP.modify.the_vault.350"
+    },
+    {
+        "key": "Torch Master",
+        "value": "VP.modify.the_vault.351"
+    },
+    {
+        "key": "Trashcans",
+        "value": "VP.modify.the_vault.352"
+    },
+    {
+        "key": "Building Gadgets",
+        "value": "VP.modify.the_vault.353"
+    },
+    {
+        "key": "Mining Gadgets",
+        "value": "VP.modify.the_vault.354"
+    },
+    {
+        "key": "Drawers",
+        "value": "VP.modify.the_vault.355"
+    },
+    {
+        "key": "Refined Storage",
+        "value": "VP.modify.the_vault.356"
+    },
+    {
+        "key": "Applied Energistics",
+        "value": "VP.modify.the_vault.357"
+    },
+    {
+        "key": "Iron Furnaces",
+        "value": "VP.modify.the_vault.358"
+    },
+    {
+        "key": "Elevators",
+        "value": "VP.modify.the_vault.359"
+    },
+    {
+        "key": "Modular Routers",
+        "value": "VP.modify.the_vault.360"
+    },
+    {
+        "key": "Weirding Gadgets",
+        "value": "VP.modify.the_vault.361"
+    },
+    {
+        "key": "Botania",
+        "value": "VP.modify.the_vault.362"
+    },
+    {
+        "key": "Mekanism",
+        "value": "VP.modify.the_vault.363"
+    },
+    {
+        "key": "Easy Villagers",
+        "value": "VP.modify.the_vault.364"
+    },
+    {
+        "key": "Easy Piglins",
+        "value": "VP.modify.the_vault.365"
+    },
+    {
+        "key": "Create",
+        "value": "VP.modify.the_vault.366"
+    },
+    {
+        "key": "SNAD",
+        "value": "VP.modify.the_vault.367"
+    },
+    {
+        "key": "Cagerium",
+        "value": "VP.modify.the_vault.368"
+    },
+    {
+        "key": "Botany Pots",
+        "value": "VP.modify.the_vault.369"
+    },
+    {
+        "key": "Flux Networks",
+        "value": "VP.modify.the_vault.370"
+    },
+    {
+        "key": "Thermal Expansion",
+        "value": "VP.modify.the_vault.371"
+    },
+    {
+        "key": "Mekanism Generators",
+        "value": "VP.modify.the_vault.372"
+    },
+    {
+        "key": "Automatic Genius",
+        "value": "VP.modify.the_vault.373"
+    },
+    {
+        "key": "Mekanism QIO",
+        "value": "VP.modify.the_vault.374"
+    },
+    {
+        "key": "Vault Compass",
+        "value": "VP.modify.the_vault.375"
+    },
+    {
+        "key": "Thermal Dynamos",
+        "value": "VP.modify.the_vault.376"
+    },
+    {
+        "key": "Digital Miner",
+        "value": "VP.modify.the_vault.377"
+    },
+    {
+        "key": "Phytogenic Insulator",
+        "value": "VP.modify.the_vault.378"
+    },
+    {
+        "key": "Junk Management",
+        "value": "VP.modify.the_vault.379"
+    },
+    {
+        "key": "Pouches",
+        "value": "VP.modify.the_vault.380"
+    },
+    {
+        "key": "Double Pouches",
+        "value": "VP.modify.the_vault.381"
+    },
+    {
+        "key": "Belts",
+        "value": "VP.modify.the_vault.382"
+    },
+    {
+        "key": "Backpacks",
+        "value": "VP.modify.the_vault.383"
+    },
+    {
+        "key": "Big Backpacks",
+        "value": "VP.modify.the_vault.384"
     }
 ]
