@@ -1,5 +1,5 @@
 '''
-项目地址：https://gist.github.com/KlparetlR/b7aa7c3004852575683ce9b3338db604
+项目地址：https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/VPtool%E7%BC%96%E5%86%99%E5%B7%A5%E5%85%B7/VPtool-2.7.py
 专门为VP模组而生的配置编写工具（https://github.com/3093FengMing/VaultPatcher  ）
 作者及版权方：晴笙墨染（莫安）、KlparetlR。
 提出支持Fabric的是textrue，编写这部分的是KlparetlR（https://github.com/LocalizedMC/HardcodeTextPatcher-Fabric  ）
