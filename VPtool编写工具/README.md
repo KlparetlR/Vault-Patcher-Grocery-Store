@@ -136,6 +136,7 @@ KEY
 @;KEY
 @bm;KEY
 @bm;@;key
+\u
 #END
 #B
 KEY
