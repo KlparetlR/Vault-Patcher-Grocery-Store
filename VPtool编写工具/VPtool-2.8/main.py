@@ -167,6 +167,8 @@ if __name__ == "__main__":
                         continue
             elif tempFileTxt[0:4] == '#END':
                 isClass = False
+                className = ''
+                tempclassName = ' '
                 index += 1
                 continue
             # 开启包名 和 半匹配 和 有类匹配(优先)
@@ -272,8 +274,6 @@ if __name__ == "__main__":
         # 关闭文件流
         fp.close()
         fp2.close()
-        # 成功提示
-        dialogs.show_message('VPtool',f'VPtool 成功将 {fileName}.txt 文件转换为 {loadername} 模组配置格式。\n并储存在 {folderpath} 目录中。')
         # 打开文件资源管理器并选中文件夹
         def open_folder(folderpath):
             if os.path.exists(folderpath):
@@ -283,5 +283,7 @@ if __name__ == "__main__":
                 dialogs.show_message('VPtool','错误！文件路径丢失！')
                 subprocess.Popen([sys.executable] + sys.argv)
                 sys.exit()
-        open_folder(folderpath)
+            open_folder(folderpath)
+        # 成功提示
+        dialogs.show_message('VPtool',f'VPtool 成功将 {fileName}.txt 文件转换为 {loadername} 模组配置格式。\n并储存在 {folderpath} 目录中。')
     root.mainloop()
