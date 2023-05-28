@@ -2,7 +2,7 @@
     {
         "authors": "KlparetlR、VM汉化组",
         "name": "宝藏猎人核心模组硬编码汉化",
-        "desc": "包含tooltip、GUI、item。VPGS库特供，硬编码汉化版号：VP-VH3rd-V2.0.0",
+        "desc": "包含tooltip、GUI、item。分发、抄袭必追责，硬编码汉化版号：VP-VH3rd-V2.1.1",
         "mods": "the_vault"
     },
     {
@@ -12,25 +12,25 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.framework.render.Tooltips",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Hold ",
-        "value": "@\u00a77\u6309\u4f4f\u00a7f"
+        "value": "@\u00a78\u6309\u4f4f \u00a7f"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.event.ClientEvents",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Hold ",
-        "value": "@\u00a77\u6309\u4f4f\u00a7f"
+        "value": "@\u00a78\u6309\u4f4f \u00a7f"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Abilities",
@@ -39,7 +39,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Archetypes",
@@ -48,7 +48,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Researches",
@@ -57,7 +57,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Statistics",
@@ -72,25 +72,41 @@
         "value": "VP.modify.the_vault.6"
     },
     {
-        "key": "unspent regret points",
+        "key": "unspent regret point",
         "value": "@VP.modify.the_vault.7"
     },
     {
-        "key": "unspent archetype points",
+        "key": "unspent archetype point",
         "value": "@VP.modify.the_vault.8"
     },
     {
-        "key": "unspent knowledge points",
+        "key": "unspent knowledge point",
         "value": "@VP.modify.the_vault.9"
     },
     {
-        "key": "unspent skill points",
+        "key": "unspent skill point",
+        "value": "@VP.modify.the_vault.10"
+    },
+    {
+        "key": "未用后悔点s",
+        "value": "@VP.modify.the_vault.7"
+    },
+    {
+        "key": "未用本源点s",
+        "value": "@VP.modify.the_vault.8"
+    },
+    {
+        "key": "未用知识点s",
+        "value": "@VP.modify.the_vault.9"
+    },
+    {
+        "key": "未用技能点s",
         "value": "@VP.modify.the_vault.10"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "[NONE]",
@@ -99,29 +115,29 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Keybind:",
-        "value": "@VP.modify.the_vault.12"
+        "key": "Keybind: ",
+        "value": "VP.modify.the_vault.12"
     },
     {
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+            "method": "",
+            "stack_depth": -1
+        },
         "key": "Open Vault History",
         "value": "VP.modify.the_vault.13"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
-        "key": "Damage",
-        "value": "VP.modify.the_vault.14"
+        "key": "Roll:",
+        "value": "@VP.modify.the_vault.128"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Hearts",
@@ -130,7 +146,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Defense",
@@ -139,16 +155,16 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Mana",
+        "key": "保留Mana",
         "value": "VP.modify.the_vault.17"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Greed",
@@ -157,7 +173,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Completed",
@@ -166,7 +182,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Survived",
@@ -175,7 +191,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Failed",
@@ -184,11 +200,11 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Experience",
-        "value": "VP.modify.the_vault.22"
+        "value": "@VP.modify.the_vault.22"
     },
     {
         "key": "Generic Info",
@@ -259,7 +275,7 @@
         "value": "VP.modify.the_vault.39"
     },
     {
-        "key": "Experience Multiplier",
+        "key": "经验 Multiplier",
         "value": "VP.modify.the_vault.40"
     },
     {
@@ -271,8 +287,13 @@
         "value": "@VP.modify.the_vault.42"
     },
     {
-        "key": "Damage Dealt",
-        "value": "@VP.modify.the_vault.43"
+        "target_class": {
+            "name": "#iskallia.vault.client.gui.screen.player",
+            "method": "",
+            "stack_depth": -1
+        },
+        "key": "保留",
+        "value": "VP.modify.the_vault.43"
     },
     {
         "key": "Crystal Modifiers",
@@ -331,8 +352,8 @@
         "value": "VP.modify.the_vault.57"
     },
     {
-        "key": "保留键",
-        "value": "@VP.modify.the_vault.58"
+        "key": "- Adds 10 seconds to the Vault Timer",
+        "value": "VP.modify.the_vault.58"
     },
     {
         "key": " for more info.",
@@ -356,20 +377,20 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "name": "@iskallia.vault",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Armor",
-        "value": "VP.modify.the_vault.64"
+        "value": "@VP.modify.the_vault.64"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "name": "@iskallia.vault",
+            "method": "",
             "stack_depth": -1
         },
-        "key": " Attack Damage",
+        "key": "Attack Damage",
         "value": "@VP.modify.the_vault.65"
     },
     {
@@ -389,63 +410,53 @@
         "value": "VP.modify.the_vault.69"
     },
     {
-        "key": "Cleave Range",
+        "key": "Cleave 范围",
         "value": "@VP.modify.the_vault.70"
     },
     {
         "key": "Cooldown Reduction",
-        "value": "VP.modify.the_vault.71"
+        "value": "@VP.modify.the_vault.71"
     },
     {
         "target_class": {
             "name": "@iskallia.vault",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Crit Hit Resistance",
+        "key": "Crit Hit 抗性提升",
         "value": "@VP.modify.the_vault.72"
     },
     {
         "key": "Critical Hit Chance",
-        "value": "VP.modify.the_vault.73"
+        "value": "@VP.modify.the_vault.73"
     },
     {
         "key": "Fatal Strike Chance",
-        "value": "VP.modify.the_vault.74"
+        "value": "@VP.modify.the_vault.74"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
         "key": "Fatal Strike Damage",
         "value": "@VP.modify.the_vault.75"
     },
     {
         "key": "Fire Immunity",
-        "value": "VP.modify.the_vault.76"
+        "value": "@VP.modify.the_vault.76"
     },
     {
         "key": "Healing Efficiency",
-        "value": "VP.modify.the_vault.77"
+        "value": "@VP.modify.the_vault.77"
     },
     {
         "key": "Holy",
         "value": "VP.modify.the_vault.78"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
-        "key": "Increased Damage",
+        "key": " increased Damage",
         "value": "@VP.modify.the_vault.79"
     },
     {
-        "key": "Increased Durability",
-        "value": "VP.modify.the_vault.80"
+        "key": "Vault Level:",
+        "value": "@VP.modify.the_vault.80"
     },
     {
         "key": "Item Quantity",
@@ -464,21 +475,16 @@
         "value": "VP.modify.the_vault.84"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
         "key": "Mana Regen",
         "value": "@VP.modify.the_vault.85"
     },
     {
-        "key": "+ Reach",
+        "key": " Reach",
         "value": "@VP.modify.the_vault.86"
     },
     {
-        "key": "Resistance",
-        "value": "VP.modify.the_vault.87"
+        "key": " Resistance",
+        "value": "@VP.modify.the_vault.87"
     },
     {
         "key": "Soul Chance",
@@ -510,23 +516,23 @@
     },
     {
         "key": "Trap Disarm Chance",
-        "value": "VP.modify.the_vault.95"
+        "value": "@VP.modify.the_vault.95"
     },
     {
         "key": "Velara Affinity",
-        "value": "VP.modify.the_vault.96"
+        "value": "@VP.modify.the_vault.96"
     },
     {
         "key": "Tenos Affinity",
-        "value": "VP.modify.the_vault.97"
+        "value": "@VP.modify.the_vault.97"
     },
     {
         "key": "Wendarr Affinity",
-        "value": "VP.modify.the_vault.98"
+        "value": "@VP.modify.the_vault.98"
     },
     {
         "key": "Idona Affinity",
-        "value": "VP.modify.the_vault.99"
+        "value": "@VP.modify.the_vault.99"
     },
     {
         "key": "Total Vaults",
@@ -545,7 +551,7 @@
         "value": "VP.modify.the_vault.103"
     },
     {
-        "key": "Experience",
+        "key": "保留Experience",
         "value": "VP.modify.the_vault.104"
     },
     {
@@ -553,11 +559,6 @@
         "value": "@VP.modify.the_vault.105"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
         "key": "Damage Taken",
         "value": "@VP.modify.the_vault.106"
     },
@@ -580,7 +581,7 @@
     {
         "target_class": {
             "name": "@iskallia.vault",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Treasure Rooms Opened",
@@ -593,7 +594,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Favorites",
@@ -602,7 +603,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "History",
@@ -611,7 +612,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Close",
@@ -620,7 +621,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Vault Xp",
@@ -629,7 +630,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Open",
@@ -638,7 +639,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Claim",
@@ -647,7 +648,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Back",
@@ -656,7 +657,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.summary.VaultEndScreen",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Close",
@@ -681,7 +682,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "opened a Vault!",
@@ -690,7 +691,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "opened the Final Vault!",
@@ -699,7 +700,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "entered a ",
@@ -708,16 +709,16 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "entered an ",
-        "value": "@VP.modify.the_vault.128"
+        "value": "@VP.modify.the_vault.127"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "completed the Vault!",
@@ -726,7 +727,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "survived.",
@@ -735,7 +736,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "was defeated.",
@@ -826,12 +827,7 @@
         "value": "@VP.modify.the_vault.152"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.event.ClientEvents",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
-        "key": " for Vault Loot Info",
+        "key": "for Vault Loot Info",
         "value": "@VP.modify.the_vault.153"
     },
     {
@@ -839,7 +835,7 @@
         "value": "VP.modify.the_vault.154"
     },
     {
-        "key": "Soul Value:",
+        "key": "Soul ",
         "value": "@VP.modify.the_vault.155"
     },
     {
@@ -849,7 +845,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Shoveling",
@@ -858,7 +854,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Sturdy",
@@ -867,7 +863,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Farming",
@@ -876,7 +872,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Smelting",
@@ -885,7 +881,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Immortal",
@@ -894,16 +890,16 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Reinforced",
+        "key": " Reinforced",
         "value": "@VP.modify.the_vault.162"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Shattering",
@@ -912,7 +908,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Excavating",
@@ -921,7 +917,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Pulverising",
@@ -930,7 +926,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Quick",
@@ -939,7 +935,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Axing",
@@ -948,7 +944,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Hammering",
@@ -957,7 +953,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.item.tool.PaxelItem",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Durability",
@@ -965,15 +961,15 @@
     },
     {
         "key": "Revives a unalived eternal",
-        "value": "让已倒下的永恒者重生"
+        "value": "VP.modify.the_vault.170"
     },
     {
         "key": "Rerolls an eternal's available auras",
-        "value": "刷新永恒者可用的光环"
+        "value": "VP.modify.the_vault.171"
     },
     {
         "key": "Hold in the off hand to instantly",
-        "value": "放在副手以在获得宝库装备后立即鉴定"
+        "value": "VP.modify.the_vault.172"
     },
     {
         "key": "Contains a random modded item from any of your unlocked mods",
@@ -1128,7 +1124,7 @@
         "value": "@VP.modify.the_vault.210"
     },
     {
-        "key": "Durability:",
+        "key": "保留Durability:",
         "value": "@VP.modify.the_vault.211"
     },
     {
@@ -1170,20 +1166,20 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Velocity",
         "value": "@VP.modify.the_vault.221"
     },
     {
-        "key": "+ Range",
+        "key": " Range",
         "value": "@VP.modify.the_vault.222"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Reaping",
@@ -1192,7 +1188,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Shovelling",
@@ -1201,7 +1197,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Picking",
@@ -1210,7 +1206,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Coin Affinity",
@@ -1219,7 +1215,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Living Affinity",
@@ -1228,7 +1224,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Gilded Affinity",
@@ -1237,7 +1233,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Ornate Affinity",
@@ -1246,7 +1242,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Wooden Affinity",
@@ -1255,7 +1251,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Pulverizing",
@@ -1264,7 +1260,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Copiously",
@@ -1273,7 +1269,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Vanilla Immortality",
@@ -1282,34 +1278,29 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Block Cap",
         "value": "@VP.modify.the_vault.234"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
-            "stack_depth": -1
-        },
-        "key": "Cooldown Reduction Cap",
+        "key": "冷却缩减 Cap",
         "value": "@VP.modify.the_vault.235"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Resistance Cap",
+        "key": "抗性提升 Cap",
         "value": "@VP.modify.the_vault.236"
     },
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Shocking Hit Chance",
@@ -1318,7 +1309,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Sweeping Hit Chance",
@@ -1327,7 +1318,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Cleave Range",
@@ -1336,7 +1327,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Chaining Attack",
@@ -1345,7 +1336,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Thorns Chance",
@@ -1354,7 +1345,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Fatal Strike Damage",
@@ -1363,7 +1354,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Fatal Strike Chance",
@@ -1372,15 +1363,15 @@
     {
         "target_class": {
             "name": "#iskallia.vault.init.ModGearAttributes",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
-        "key": "Increased Durability",
+        "key": "Increased 耐久度",
         "value": "@VP.modify.the_vault.244"
     },
     {
-        "key": "☹ Disabled in the Vaults",
-        "value": "VP.modify.the_vault.245"
+        "key": "Disabled in the Vaults",
+        "value": "@VP.modify.the_vault.245"
     },
     {
         "key": "Increases the amount of slots",
@@ -1397,7 +1388,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.gear.VaultGearHelper",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Unidentified ",
@@ -1594,7 +1585,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "Research (",
@@ -1653,7 +1644,7 @@
         "value": "@VP.modify.the_vault.308"
     },
     {
-        "key": "increased 伤害",
+        "key": "increased Damage",
         "value": "@VP.modify.the_vault.309"
     },
     {
@@ -1663,7 +1654,7 @@
     {
         "target_class": {
             "name": "#iskallia.vault.core.vault.player.ClassicListenersLogic",
-            "mapping": "SRG",
+            "method": "",
             "stack_depth": -1
         },
         "key": "The Vault",
@@ -1678,7 +1669,7 @@
         "value": "VP.modify.the_vault.313"
     },
     {
-        "key": "Speed",
+        "key": "保留Speed",
         "value": "VP.modify.the_vault.314"
     },
     {
@@ -1710,7 +1701,7 @@
         "value": "VP.modify.the_vault.321"
     },
     {
-        "key": "Experienced",
+        "key": "经验d",
         "value": "VP.modify.the_vault.322"
     },
     {
@@ -1886,8 +1877,8 @@
         "value": "VP.modify.the_vault.365"
     },
     {
-        "key": "Create",
-        "value": "VP.modify.the_vault.366"
+        "key": "Charges: ",
+        "value": "@VP.modify.the_vault.366"
     },
     {
         "key": "SNAD",
@@ -1938,8 +1929,8 @@
         "value": "VP.modify.the_vault.378"
     },
     {
-        "key": "Junk Management",
-        "value": "VP.modify.the_vault.379"
+        "key": "Recharges every ",
+        "value": "@VP.modify.the_vault.379"
     },
     {
         "key": "Pouches",
@@ -1954,11 +1945,107 @@
         "value": "VP.modify.the_vault.382"
     },
     {
-        "key": "Backpacks",
-        "value": "VP.modify.the_vault.383"
+        "key": " mob kills",
+        "value": "@VP.modify.the_vault.383"
     },
     {
-        "key": "Big Backpacks",
-        "value": "VP.modify.the_vault.384"
+        "key": "Attack 范围",
+        "value": "@VP.modify.the_vault.384"
+    },
+    {
+        "key": "Expertise",
+        "value": "VP.modify.the_vault.385"
+    },
+    {
+        "key": " unspent expertise point",
+        "value": "@VP.modify.the_vault.386"
+    },
+    {
+        "key": " 未用专长点s",
+        "value": "@VP.modify.the_vault.386"
+    },
+    {
+        "key": "Arthropods Damage",
+        "value": "@VP.modify.the_vault.387"
+    },
+    {
+        "key": "Vault 经验",
+        "value": "VP.modify.the_vault.388"
+    },
+    {
+        "key": "保留 经验: ",
+        "value": "@VP.modify.the_vault.389"
+    },
+    {
+        "key": "Positive Modifiers",
+        "value": "VP.modify.the_vault.390"
+    },
+    {
+        "key": "Negative Modifiers",
+        "value": "VP.modify.the_vault.391"
+    },
+    {
+        "key": "Other Modifiers",
+        "value": "VP.modify.the_vault.392"
+    },
+    {
+        "key": "Lucky Hit Chance",
+        "value": "@VP.modify.the_vault.393"
+    },
+    {
+        "key": "Nether Damage",
+        "value": "@VP.modify.the_vault.394"
+    },
+    {
+        "key": "Undead Damage",
+        "value": "@VP.modify.the_vault.395"
+    },
+    {
+        "key": " Avoidance",
+        "value": "@VP.modify.the_vault.396"
+    },
+    {
+        "key": "Illager Damage",
+        "value": "@VP.modify.the_vault.397"
+    },
+    {
+        "key": "Completion: ",
+        "value": "@VP.modify.the_vault.398"
+    },
+    {
+        "key": " Immunity",
+        "value": "@VP.modify.the_vault.399"
+    },
+    {
+        "key": "Cooldoun:",
+        "value": "@VP.modify.the_vault.400"
+    },
+    {
+        "key": "Duration:",
+        "value": "@VP.modify.the_vault.401"
+    },
+    {
+        "key": "Damage:",
+        "value": "@VP.modify.the_vault.402"
+    },
+    {
+        "key": "Min 等级",
+        "value": "@VP.modify.the_vault.403"
+    },
+    {
+        "key": "Mana Cost:",
+        "value": "@VP.modify.the_vault.404"
+    },
+    {
+        "key": "You have completed this vault without taking any damage at all!",
+        "value": "VP.modify.the_vault.405"
+    },
+    {
+        "key": "You have completed this vault without any healing!",
+        "value": "VP.modify.the_vault.406"
+    },
+    {
+        "key": "You have completed this vault without using any mana at all!",
+        "value": "VP.modify.the_vault.407"
     }
 ]

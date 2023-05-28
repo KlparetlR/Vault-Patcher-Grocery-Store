@@ -1,16 +1,17 @@
 """
+*-*<适配版本：1.2.10+>*-*
 项目地址：https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/VPtool%E7%BC%96%E5%86%99%E5%B7%A5%E5%85%B7/
-专门为VP模组而生的配置编写工具（https://github.com/3093FengMing/VaultPatcher  ）
+专门为VP模组而生的配置编写工具（https://github.com/3093FengMing/VaultPatcher ）
 作者及版权方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian
-提出支持Fabric的是textrue，编写这部分的是KlparetlR（https://github.com/LocalizedMC/HardcodeTextPatcher-Fabric ）
+Fabric通用（https://github.com/LocalizedMC/HardcodeTextPatcher-Fabric ）
 弹窗使用https://github.com/rdbende/Sun-Valley-messageboxes
 ttk UI用了sv-ttk模块，没有会自己下载
 """
 
 if __name__ == "__main__":
     from tkinter import filedialog, StringVar, Tk, ttk
-    from tkinter.ttk import Button, Label, Entry, Combobox
-    import os,codecs,copy,json,dialogs,sys,subprocess
+    from tkinter.ttk import Button, Label, Entry
+    import os,codecs,copy,json,dialogs,sys,subprocess,re
     try:
         import sv_ttk
     except ImportError:
@@ -29,10 +30,6 @@ if __name__ == "__main__":
         icon_lb.grid(row=r, column=0,pady=5,padx=20)
         icon_entry.grid(row=r, column=1,pady=5)
         IconButton.grid(row=r, column=2,pady=5,padx=10)
-        r += 1
-        packName_lb.grid(row=r, column=0,pady=5)
-        packName_entry.current(0)
-        packName_entry.grid(row=r, column=1,pady=5)
         r += 1
         authors_lb.grid(row=r, column=0,pady=5,padx=20)
         authors_entry.grid(row=r, column=1,pady=5,padx=20)
@@ -59,7 +56,7 @@ if __name__ == "__main__":
                 dialogs.show_message("错误", "你需要选择一个文件夹。")
         vp()
     root = Tk()
-    root.title("VPtool 2.8")
+    root.title("VPtool 2.9")
     FileGUI = StringVar(value="(必填)")
     packName = StringVar()
     icon_var = StringVar(value="(必填)")
@@ -68,14 +65,10 @@ if __name__ == "__main__":
     desc_vaule = StringVar(value="(选填)")
     mods_vaule = StringVar(value="(选填)")
     file_entry = Entry(root, textvariable=FileGUI)
-    pack_name = packName.get()
-    combo_list = ["Forge", "Fabric"]
-    packName_entry = Combobox(root,  textvariable=packName,state="readonly", values=combo_list)
     icon_lb = Label(root, text="保存的文件夹")
     icon_entry = Entry(root, textvariable=icon_var)
     IconButton = Button(root, text="选择", command=browseIcon)
     file_lb = Label(root, text="处理的文件")
-    packName_lb = Label(root, text="模组加载器")
     packButton = Button(root, text="选择", command=browseStruct)
     authors_lb = Label(root, text="汉化作者-署名")
     authors_entry = Entry(root, textvariable=authors_vaule)
@@ -109,20 +102,16 @@ if __name__ == "__main__":
         # 类名
         className = ''
         tempclassName = ' '
+        pattern = re.compile(r"&*;") 
+        methoddata = ""
+        methodResult = ""
         # 包名备份
         packName = ''
         # 汉化占位基础文本
         valueTxt = ''
-        loadertype, loadername=None,None
-        if packName_entry.get() == "Forge":
-            loadertype = 'SRG'
-            loadername = 'VaultPatcher'
-        elif packName_entry.get() == "Fabric":
-            loadertype = 'Intermediaty'
-            loadername = 'HardcodePatcher'
         # 基础字典模板
         placeholder = {"authors": f"{authors_vaule}", "name": f"{name_vaule}", "desc": f"{desc_vaule}", "mods": f"{mods_vaule}"}
-        targetClass = {'name': 'nametype', 'mapping': f'{loadertype}', 'stack_depth': -1}
+        targetClass = {'name': 'nametype', 'method': 'method', 'stack_depth': -1}
         # 最终结果输出
         resultList = []
         resultList2 = {}
@@ -171,6 +160,11 @@ if __name__ == "__main__":
                 tempclassName = ' '
                 index += 1
                 continue
+            # 后判断 method有没有
+            methodResult = re.search(pattern,tempFileTxt)
+            if methodResult != None and isClass != False:
+               methoddata = "".join(re.findall(r"&(.+?);",tempFileTxt))
+               tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
             # 开启包名 和 半匹配 和 有类匹配(优先)
             if "@bm;" in tempFileTxt and "@;" in tempFileTxt and isClass:
                 txtResult['key'] = tempTxt = tempFileTxt.split(';')[2]
@@ -249,6 +243,9 @@ if __name__ == "__main__":
                 resultDictionaries.update(txtResult)
                 resultList.append(txtResult)
                 resultList2[tempTxt2] = tempTxt
+            targetClass['method'] = methoddata
+            methoddata = ""
+            methodResult = ""
             index += 1
             valueIndex += 1
         # 确保目标文件夹存在
@@ -283,7 +280,7 @@ if __name__ == "__main__":
                 dialogs.show_message('VPtool','错误！文件路径丢失！')
                 subprocess.Popen([sys.executable] + sys.argv)
                 sys.exit()
-            open_folder(folderpath)
+        open_folder(folderpath)
         # 成功提示
-        dialogs.show_message('VPtool',f'VPtool 成功将 {fileName}.txt 文件转换为 {loadername} 模组配置格式。\n并储存在 {folderpath} 目录中。')
+        dialogs.show_message('VPtool',f'VPtool 成功将 {fileName}.txt 文件转换为 VP或HP模组 的配置格式。\n并储存在 {folderpath} 目录中。')
     root.mainloop()
