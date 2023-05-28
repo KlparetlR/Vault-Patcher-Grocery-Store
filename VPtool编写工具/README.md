@@ -122,6 +122,12 @@ Researches
 
 如果你使用IDEA来反编译获取key，那么在IDEA打开.jar解压的文件夹（叫作项目），在你反编译（双击）一个.class文件后，在文件栏右键单击这个文件，选择`复制路径/引用...`,再选择`来自内容根的路径`，同样要把`\`全部改成`.`即可。
 
+#### 方法名匹配（`&<method>;`）
+
+`method`如何获取：指的是java中的`方法名`，详见[教程](https://www.runoob.com/java/java-methods.html)，要配合类匹配使用
+
+`&<method>;`，这里的`<method>`部分就是`方法名`
+
 ### 全功能配置文件
 ```txt
 @iskallia.vault
@@ -132,10 +138,10 @@ KEY
 @bm;KEY
 @bm;@;key
 #A
-KEY
-@;KEY
+&mt1;KEY
+@;&mt2;KEY
 @bm;KEY
-@bm;@;key
+@bm;&mt3;@;key
 \u
 #END
 #B
