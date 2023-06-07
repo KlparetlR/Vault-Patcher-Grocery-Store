@@ -102,9 +102,6 @@ if __name__ == "__main__":
         # 类名
         className = ''
         tempclassName = ' '
-        pattern = re.compile(r"&*;") 
-        methoddata = ""
-        methodResult = ""
         # 包名备份
         packName = ''
         # 汉化占位基础文本
@@ -115,6 +112,10 @@ if __name__ == "__main__":
         # 最终结果输出
         resultList = []
         resultList2 = {}
+        # 重启tool
+        def restart():
+            subprocess.Popen([sys.executable] + sys.argv)
+            sys.exit()
         # 获取文件行内容
         with open(filePath, 'r', encoding='utf8') as f:
             # 逐行读取加入列表
@@ -134,6 +135,7 @@ if __name__ == "__main__":
             txtResult = {'key': "测试被汉化文本", 'value': '测试汉化文本'}
             # 判断开始
             print(tempFileTxt)
+            methoddata = ""
             # 先判断 是否启动类匹配开关
             if tempFileTxt[0] == '#' and tempFileTxt[1:4] != 'END':
                 if tempclassName == ' ':
@@ -146,8 +148,7 @@ if __name__ == "__main__":
                     if tempclassName[0] == '#' and tempFileTxt[1:4] != 'END':
                         print ("ERROR for <"+tempclassName+">")
                         dialogs.show_message('VPtool',f'转换时出现错误！请检查类匹配的#END有没有漏！\nERROR for <{tempclassName}>')
-                        subprocess.Popen([sys.executable] + sys.argv)
-                        sys.exit()
+                        restart()
                     else:
                         isClass = True
                         className = tempFileTxt
@@ -161,10 +162,16 @@ if __name__ == "__main__":
                 index += 1
                 continue
             # 后判断 method有没有
-            methodResult = re.search(pattern,tempFileTxt)
-            if methodResult != None and isClass != False:
-               methoddata = "".join(re.findall(r"&(.+?);",tempFileTxt))
+            methoddata = "".join(re.findall(r"&(.+?);",tempFileTxt))
+            if isClass != False:
                tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
+            if methoddata != "" and isClass == False:
+               print ("ERROR for <&"+methoddata+";>")
+               yan1 = dialogs.ask_yes_no('VPtool',f'转换时出现问题！方法名不在类匹配的范围内！\nERROR for <&{methoddata};>，是否继续转化？')
+               if yan1 == True:
+                   tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
+               else:
+                   restart()
             # 开启包名 和 半匹配 和 有类匹配(优先)
             if "@bm;" in tempFileTxt and "@;" in tempFileTxt and isClass:
                 txtResult['key'] = tempTxt = tempFileTxt.split(';')[2]

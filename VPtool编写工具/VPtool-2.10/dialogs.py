@@ -29,7 +29,7 @@ def ask_yes_no(title="Title", details="Description", *, parent=None, icon=None):
         title,
         details,
         icon,
-        buttons=[("确认", True, "accent"), ("No", False)],
+        buttons=[("确认", True, "accent"), ("不", False)],
     )
 
 
@@ -39,7 +39,7 @@ def ask_yes_no_cancel(title="Title", details="Description", *, parent=None, icon
         title,
         details,
         icon,
-        buttons=[("确认", True, "accent"), ("No", False), ("取消", None)],
+        buttons=[("确认", True, "accent"), ("不", False), ("取消", None)],
     )
 
 
