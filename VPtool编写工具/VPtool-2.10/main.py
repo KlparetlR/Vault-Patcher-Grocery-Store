@@ -163,13 +163,14 @@ if __name__ == "__main__":
                 continue
             # 后判断 method有没有
             methoddata = "".join(re.findall(r"&(.+?);",tempFileTxt))
-            if isClass != False:
+            if methoddata != "" and isClass != False:
                tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
             if methoddata != "" and isClass == False:
                print ("ERROR for <&"+methoddata+";>")
                yan1 = dialogs.ask_yes_no('VPtool',f'转换时出现问题！方法名不在类匹配的范围内！\nERROR for <&{methoddata};>，是否继续转化？')
                if yan1 == True:
                    tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
+                   methoddata = ""
                else:
                    restart()
             # 开启包名 和 半匹配 和 有类匹配(优先)
