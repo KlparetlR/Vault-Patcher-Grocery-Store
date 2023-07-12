@@ -26,12 +26,12 @@ if __name__ == "__main__":
         icon_lb.config(text=a9)
         IconButton.config(text=a10)
         cGuilang_lb.config(text=a8)
-        mods_vaule.set(a3)
-        desc_vaule.set(a3)
+        mods_vaule.set(a4)
+        desc_vaule.set(a4)
         name_vaule.set(a4)
         authors_vaule.set(a4)
-        icon_var.set(a4)
-        FileGUI.set(a4)
+        icon_var.set(a3)
+        FileGUI.set(a3)
     def runlangGui():
         global zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6,langcurrent
         zdy,a0 = zdyconfig()
