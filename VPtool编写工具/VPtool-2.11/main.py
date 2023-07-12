@@ -2,34 +2,78 @@
 *-*<适配版本：1.2.10+>*-*
 项目地址：https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/VPtool%E7%BC%96%E5%86%99%E5%B7%A5%E5%85%B7/
 专门为VP模组而生的配置编写工具（https://github.com/3093FengMing/VaultPatcher ）
-作者及版权方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian
+作者及版权方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian, 技术辅助：XDawned
 Fabric通用（https://github.com/LocalizedMC/HardcodeTextPatcher-Fabric ）
 弹窗使用https://github.com/rdbende/Sun-Valley-messageboxes
-ttk UI用了sv-ttk模块，没有会自己下载
 """
 
+from tkinter import filedialog, StringVar, Tk, ttk
+from tkinter.ttk import Button, Label, Entry,Combobox
+import os,codecs,copy,json,dialogs,sys,subprocess,re,sv_ttk,ctypes,LANG
+from LANG import zhlangtext,zdyconfig,zdylangtext
+
 if __name__ == "__main__":
-    from tkinter import filedialog, StringVar, Tk, ttk
-    from tkinter.ttk import Button, Label, Entry
-    import os,codecs,copy,json,dialogs,sys,subprocess,re
-    try:
-        import sv_ttk
-    except ImportError:
-        os.system("pip install sv-ttk")
+    vaulelang = hex(ctypes.windll.kernel32.GetSystemDefaultUILanguage())
+    def updateGui():
+        file_lb.config(text=a1)
+        savelangButton.config(text=a15)
+        saveButton.config(text=a16)
+        mods_lb.config(text=a14)
+        desc_lb.config(text=a13)
+        name_lb.config(text=a12)
+        authors_lb.config(text=a11)
+        packButton.config(text=a10)
+        icon_lb.config(text=a9)
+        IconButton.config(text=a10)
+        cGuilang_lb.config(text=a8)
+        mods_vaule.set(a3)
+        desc_vaule.set(a3)
+        name_vaule.set(a4)
+        authors_vaule.set(a4)
+        icon_var.set(a4)
+        FileGUI.set(a4)
+    def runlangGui():
+        global zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6,langcurrent
+        zdy,a0 = zdyconfig()
+        if vaulelang == "0x804":
+           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6 = zhlangtext()
+           def langcurrent():
+               cGuilang_entry.current(0)
+        if vaulelang == f"{a0}":
+           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6 = zdylangtext()
+           def langcurrent():
+               cGuilang_entry.current(2)
+    runlangGui()
+    def runclangGui():
+        global zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6
+        zdy,a0 = zdyconfig()
+        if cGuilang_entry.get() == "中文简体":
+            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6 = zhlangtext()
+        if cGuilang_entry.get() == f"{zdy}":
+            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,vp1,vp2,vp3,vp4,vp5,vp6 = zdylangtext()
+        updateGui()
+        root.update()
     def browseStruct():
-        FileGUI.set(filedialog.askopenfilename(filetypes=(("处理的文件", "*.txt *.TXT"),),initialdir=os.path.abspath(os.path.dirname(__file__))))
+        FileGUI.set(filedialog.askopenfilename(filetypes=(("%s" % (a1), "*.txt *.TXT"),),initialdir=os.path.abspath(os.path.dirname(__file__))))
     def browseIcon():
-        icon_var.set(filedialog.askdirectory(title='选择要保存的文件夹地址',initialdir=os.path.abspath(os.path.dirname(__file__))))
+        icon_var.set(filedialog.askdirectory(title="%s" % (a2),initialdir=os.path.abspath(os.path.dirname(__file__))))
     def box_checked():
         saveButton.grid_forget()
         r = 0
+        cGuilang_lb.grid(row=r, column=0,pady=5)
+        langcurrent()
+        cGuilang_entry.grid(row=r, column=1,pady=5)
+        savelangButton.grid(row=r, column=2,pady=5,padx=20)
+        r += 1
+        empty_lb.grid(row=r, column=1,pady=5)
+        r += 1
         file_lb.grid(row=r, column=0,pady=5)
         file_entry.grid(row=r, column=1,pady=5)
         packButton.grid(row=r, column=2,pady=5)
         r += 1
         icon_lb.grid(row=r, column=0,pady=5,padx=20)
         icon_entry.grid(row=r, column=1,pady=5)
-        IconButton.grid(row=r, column=2,pady=5,padx=10)
+        IconButton.grid(row=r, column=2,pady=5,padx=20)
         r += 1
         authors_lb.grid(row=r, column=0,pady=5,padx=20)
         authors_entry.grid(row=r, column=1,pady=5,padx=20)
@@ -43,42 +87,45 @@ if __name__ == "__main__":
         mods_lb.grid(row=r, column=0,pady=5,padx=20)
         mods_entry.grid(row=r, column=1,pady=5,padx=20)
         r += 1
-        saveButton.grid(row=r, column=2,pady=5,padx=10)
+        saveButton.grid(row=r, column=2,pady=5,padx=20)
         r += 1
     def runFromGui():
-        global pack_name
-        if FileGUI.get() and icon_var.get() == "(必填)" or len(FileGUI.get() and icon_var.get()) == 0:
-            dialogs.show_message("错误", "你需要选择一个txt文件和一个文件夹。")
+        if FileGUI.get() and icon_var.get() == "%s" % (a3) or len(FileGUI.get() and icon_var.get()) == 0:
+            dialogs.show_message("ERROR", "%s" % (a5))
         else:
-            if FileGUI.get() == "(必填)" or len(FileGUI.get()) == 0:
-                dialogs.show_message("错误", "你需要选择一个txt文件。")
-            if icon_var.get() == "(必填)" or len(icon_var.get()) == 0:
-                dialogs.show_message("错误", "你需要选择一个文件夹。")
+            if FileGUI.get() == "%s" % (a3) or len(FileGUI.get()) == 0:
+                dialogs.show_message("ERROR", "%s" % (a6))
+            if icon_var.get() == "%s" % (a3) or len(icon_var.get()) == 0:
+                dialogs.show_message("ERROR", "%s" % (a7))
         vp()
     root = Tk()
-    root.title("VPtool 2.9")
-    FileGUI = StringVar(value="(必填)")
-    packName = StringVar()
-    icon_var = StringVar(value="(必填)")
-    authors_vaule = StringVar(value="(选填)")
-    name_vaule = StringVar(value="(选填)")
-    desc_vaule = StringVar(value="(选填)")
-    mods_vaule = StringVar(value="(选填)")
+    root.title("VPtool 2.11")
+    cGuilang_lb = Label(root, text="%s" % (a8))
+    combo_list = ["中文简体",f"{zdy}"]
+    empty_lb = Label(root, text="")
+    cGuilang_entry = Combobox(root,state="readonly", values=combo_list)
+    FileGUI = StringVar(value="%s" % (a3))
+    icon_var = StringVar(value="%s" % (a3))
+    authors_vaule = StringVar(value="%s" % (a4))
+    name_vaule = StringVar(value="%s" % (a4))
+    desc_vaule = StringVar(value="%s" % (a4))
+    mods_vaule = StringVar(value="%s" % (a4))
     file_entry = Entry(root, textvariable=FileGUI)
-    icon_lb = Label(root, text="保存的文件夹")
+    icon_lb = Label(root, text="%s" % (a9))
     icon_entry = Entry(root, textvariable=icon_var)
-    IconButton = Button(root, text="选择", command=browseIcon)
-    file_lb = Label(root, text="处理的文件")
-    packButton = Button(root, text="选择", command=browseStruct)
-    authors_lb = Label(root, text="汉化作者-署名")
+    IconButton = Button(root, text="%s" % (a10), command=browseIcon)
+    file_lb = Label(root, text="%s" % (a1))
+    packButton = Button(root, text="%s" % (a10), command=browseStruct)
+    authors_lb = Label(root, text="%s" % (a11))
     authors_entry = Entry(root, textvariable=authors_vaule)
-    name_lb = Label(root, text="此汉化名称")
+    name_lb = Label(root, text="%s" % (a12))
     name_entry = Entry(root, textvariable=name_vaule)
-    desc_lb = Label(root, text="此汉化描述")
+    desc_lb = Label(root, text="%s" % (a13))
     desc_entry = Entry(root, textvariable=desc_vaule)
-    mods_lb = Label(root, text="汉化的模组")
+    mods_lb = Label(root, text="%s" % (a14))
     mods_entry = Entry(root, textvariable=mods_vaule)
-    saveButton = Button(root, text="生成", command=runFromGui)
+    saveButton = Button(root, text="%s" % (a16), command=runFromGui)
+    savelangButton = Button(root, text="%s" % (a15), command=runclangGui)
     box_checked()
     sv_ttk.use_light_theme()
     root.update_idletasks()
@@ -88,10 +135,11 @@ if __name__ == "__main__":
     y = (root.winfo_screenheight() // 2) - (height // 2) - 200
     root.geometry('{}x{}+{}+{}'.format(width,height,x,y))
     root.resizable(False, False)
+    dialogs.show_message('VPtool-welcome',info)
     def vp():
         # 文件地址
         filePath = FileGUI.get()
-        folderpath = icon_var.get()+'/硬编码配置/'
+        folderpath = icon_var.get()+'/%s/' % (vp1)
         fileName = os.path.basename(os.path.splitext(filePath)[0])
         # 文件初始内容
         fileTxtList = []
@@ -102,8 +150,10 @@ if __name__ == "__main__":
         # 类名
         className = ''
         tempclassName = ' '
+        # 堆键
+        Reactordepth = ''
         # 包名备份
-        packName = ''
+        packname = ''
         # 汉化占位基础文本
         valueTxt = ''
         # 基础字典模板
@@ -121,7 +171,7 @@ if __name__ == "__main__":
             # 逐行读取加入列表
             fileTxtList = f.read().splitlines()
         # nametype
-        packName = fileTxtList[0]
+        packname = fileTxtList[0]
         # value基础值
         valueTxt = fileTxtList[1]
         # 起始值
@@ -136,6 +186,7 @@ if __name__ == "__main__":
             # 判断开始
             print(tempFileTxt)
             methoddata = ""
+            Reactordata = ""
             # 先判断 是否启动类匹配开关
             if tempFileTxt[0] == '#' and tempFileTxt[1:4] != 'END':
                 if tempclassName == ' ':
@@ -147,7 +198,7 @@ if __name__ == "__main__":
                 elif tempclassName != ' ':
                     if tempclassName[0] == '#' and tempFileTxt[1:4] != 'END':
                         print ("ERROR for <"+tempclassName+">")
-                        dialogs.show_message('VPtool',f'转换时出现错误！请检查类匹配的#END有没有漏！\nERROR for <{tempclassName}>')
+                        dialogs.show_message('VPtool',f'{vp2}' % (tempclassName))
                         restart()
                     else:
                         isClass = True
@@ -167,10 +218,22 @@ if __name__ == "__main__":
                tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
             if methoddata != "" and isClass == False:
                print ("ERROR for <&"+methoddata+";>")
-               yan1 = dialogs.ask_yes_no('VPtool',f'转换时出现问题！方法名不在类匹配的范围内！\nERROR for <&{methoddata};>，是否继续转化？')
+               yan1 = dialogs.ask_yes_no('VPtool',f'{vp3}' % (methoddata))
                if yan1 == True:
                    tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
                    methoddata = ""
+               else:
+                   restart()
+            # 判断 堆键深度有没有
+            Reactordata = "".join(re.findall(r":(.+?);",tempFileTxt))
+            if Reactordata != "" and isClass != False:
+               tempFileTxt = tempFileTxt.replace(":"+Reactordata+";","")
+            if Reactordata != "" and isClass == False:
+               print ("ERROR for <:"+Reactordata+";>")
+               yan1 = dialogs.ask_yes_no('VPtool',f'{vp6}' % (Reactordata))
+               if yan1 == True:
+                   tempFileTxt = tempFileTxt.replace(":"+Reactordata+";","")
+                   Reactordata = ""
                else:
                    restart()
             # 开启包名 和 半匹配 和 有类匹配(优先)
@@ -186,7 +249,7 @@ if __name__ == "__main__":
                 resultList2[tempTxt3] = tempTxt
             # 开启包名 和 半匹配 和 无类匹配
             elif "@bm;" in tempFileTxt and "@;" in tempFileTxt and isClass != True:
-                targetClass['name'] = packName
+                targetClass['name'] = packname
                 txtResult['key'] = tempTxt = tempFileTxt.split(';')[2]
                 txtResult['value'] = tempTxt2 = "@" + valueTxt + str(valueIndex)
                 tempTxt3 = valueTxt + str(valueIndex)
@@ -207,7 +270,7 @@ if __name__ == "__main__":
                 resultList2[tempTxt2] = tempTxt
             # 开启包名 和 无类匹配
             elif "@bm;" in tempFileTxt and "@;" not in tempFileTxt and isClass != True:
-                targetClass['name'] = packName
+                targetClass['name'] = packname
                 txtResult['key'] = tempTxt = tempFileTxt.split(';')[1]
                 txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
                 tempTargetClass = copy.deepcopy(targetClass)
@@ -252,8 +315,9 @@ if __name__ == "__main__":
                 resultList.append(txtResult)
                 resultList2[tempTxt2] = tempTxt
             targetClass['method'] = methoddata
+            targetClass['stack_depth'] = Reactordata
             methoddata = ""
-            methodResult = ""
+            Reactordata = ""
             index += 1
             valueIndex += 1
         # 确保目标文件夹存在
@@ -284,11 +348,11 @@ if __name__ == "__main__":
             if os.path.exists(folderpath):
                 os.startfile(folderpath)
             else:
-                print ("ERROR 文件路径丢失！")
-                dialogs.show_message('VPtool','错误！文件路径丢失！')
+                print ("ERROR: File path lost!")
+                dialogs.show_message('VPtool',f'{vp4}')
                 subprocess.Popen([sys.executable] + sys.argv)
                 sys.exit()
         open_folder(folderpath)
         # 成功提示
-        dialogs.show_message('VPtool',f'VPtool 成功将 {fileName}.txt 文件转换为 VP或HP模组 的配置格式。\n并储存在 {folderpath} 目录中。')
+        dialogs.show_message('VPtool',f'{vp5}' % (fileName,folderpath))
     root.mainloop()
