@@ -10,7 +10,7 @@
 [![mcmod-VP](https://img.shields.io/badge/mcmod-Vault%20Patcher-blue)](https://www.mcmod.cn/class/8765.html)
 [![mcmod-HP](https://img.shields.io/badge/mcmod-Hardcode%20Patcher-blue)](https://www.mcmod.cn/class/9315.html)
 
-[![Download-tool](https://shields.io/github/downloads/KlparetlR/Vault-Patcher-Grocery-Store/total?label=Downloads)](https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/releases)
+[![Down tool](https://shields.io/github/downloads/KlparetlR/Vault-Patcher-Grocery-Store/total?label=Downloads)](https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/releases)
 
 ## 介绍
 
