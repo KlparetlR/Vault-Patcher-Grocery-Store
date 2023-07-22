@@ -1,0 +1,280 @@
+[
+  {
+    "authors": "ByF",
+    "name": "gear",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectAvoidanceGearAttribute$Generator",
+      "method": ""
+    },
+    "key": " Avoidance",
+    "value": "回避概率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectAvoidanceGearAttribute$Reader",
+      "method": ""
+    },
+    "key": " Avoidance",
+    "value": "回避概率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectCloudAttribute$Reader",
+      "method": ""
+    },
+    "key": " when Hit",
+    "value": "(受击时)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectCloudAttribute$Reader",
+      "method": ""
+    },
+    "key": "Effect Cloud",
+    "value": "效果云"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectCloudAttribute$Reader",
+      "method": ""
+    },
+    "key": " Cloud",
+    "value": " 效果云"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixCategory",
+      "method": ""
+    },
+    "key": "Legendary",
+    "value": "传奇"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixCategory",
+      "method": ""
+    },
+    "key": "Abyssal",
+    "value": "深渊"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixCategory",
+      "method": ""
+    },
+    "key": "Enhancement",
+    "value": "强化"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixCategory",
+      "method": ""
+    },
+    "key": "Crafted",
+    "value": "手工制作"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Prefixes",
+    "value": "前缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Prefix",
+    "value": "前缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Suffixes",
+    "value": "后缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Suffix",
+    "value": "后缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Implicits",
+    "value": "属性"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+    "key": "Implicit",
+    "value": "属性"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier",
+      "method": ""
+    },
+    "key": " [new]",
+    "value": " [新]"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.crafting.recipe.ToolForgeRecipe",
+      "method": ""
+    },
+    "key": "Requires Level ",
+    "value": "需要等级 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.crafting.recipe.VaultForgeRecipe",
+      "method": ""
+    },
+    "key": "Undiscovered",
+    "value": "尚未发现"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.reader.EffectImmunityModifierReader",
+      "method": ""
+    },
+    "key": " Immunity",
+    "value": "免疫"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem$1",
+      "method": ""
+    },
+    "key": "Crafted by: ",
+    "value": "制作者: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Corrupted",
+    "value": "损坏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "  Unmodifiable Item",
+    "value": "  不可编辑物品"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Repairs: ",
+    "value": "修复次数: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Etching: ",
+    "value": "蚀刻: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Model: ",
+    "value": "模型: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Roll: ",
+    "value": "铸造等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Rarity: ",
+    "value": "稀有度: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Level: ",
+    "value": "等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Crafting Potential: ",
+    "value": "工艺潜能: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Capacity: ",
+    "value": "容量: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "empty %s",
+    "value": "空 %s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "Durability: ",
+    "value": "耐久度: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+    "key": "BROKEN",
+    "value": "损坏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.VaultGearHelper",
+      "method": ""
+    },
+    "key": "Unidentified ",
+    "value": "未鉴定的"
+  }
+]

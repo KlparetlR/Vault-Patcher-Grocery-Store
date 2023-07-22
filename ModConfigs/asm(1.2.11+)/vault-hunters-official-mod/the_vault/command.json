@@ -1,0 +1,600 @@
+[
+  {
+    "authors": "ByF",
+    "name": "command",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.CrystalCommand",
+      "method": ""
+    },
+    "key": "Not holding crystal!",
+    "value": "\u9700\u8981\u624b\u6301\u5b9d\u5e93\u6c34\u6676!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Not holding VaultGear item",
+    "value": "\u9700\u8981\u624b\u6301\u5b9d\u5e93\u88c5\u5907"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Unknown ability: ",
+    "value": "\u672a\u77e5\u80fd\u529bid: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Altar Level: ",
+    "value": "\u796d\u575b\u7b49\u7ea7: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultAlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires Level %s",
+    "value": "\u9700\u8981\u7b49\u7ea7 %s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultAlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Alchemy Archives",
+    "value": "\u9700\u8981\u5148\u5728\u70bc\u91d1\u6863\u6848\u53f0\u4e2d\u53d1\u73b0\u5bf9\u5e94\u8bcd\u6761"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Dash",
+    "value": "\u51b2\u523a"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Summon Eternal",
+    "value": "\u53ec\u5524\u6c38\u751f\u8005"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Farmer",
+    "value": "\u519c\u6c11"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk",
+    "value": "\u9b3c\u5f71\u6b65"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Heal",
+    "value": "\u6cbb\u7597"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Hunter",
+    "value": "\u730e\u4eba"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Mana Shield",
+    "value": "\u9b54\u529b\u62a4\u76fe"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Mega Jump",
+    "value": "\u8d85\u7ea7\u8df3"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Nova",
+    "value": "\u8d85\u65b0\u661f"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Rampage",
+    "value": "\u72c2\u66b4"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "\u5f3a\u5316"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Taunt",
+    "value": "\u5632\u8bbd"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Execute",
+    "value": "\u5904\u51b3"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "\u5f3a\u5316"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires Level %s",
+    "value": "\u9700\u8981\u7b49\u7ea7 %s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Modifier Archives",
+    "value": "\u9700\u8981\u5148\u5728\u8bcd\u7f00\u6863\u6848\u53f0\u4e2d\u53d1\u73b0\u5bf9\u5e94\u8bcd\u6761"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash: Bullet",
+    "value": "\u51b2\u523a: \u5b50\u5f39"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash: Warp",
+    "value": "\u51b2\u523a: \u4ea4\u6362"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash",
+    "value": "\u51b2\u523a"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower: Ice Armor",
+    "value": "\u5f3a\u5316: \u51b0\u971c\u62a4\u4f53"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower: Slowness Aura",
+    "value": "\u5f3a\u5316: \u7f13\u6162\u5149\u73af"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "\u5f3a\u5316"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Cultivator",
+    "value": "\u519c\u6c11: \u8015\u79cd"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Gardener",
+    "value": "\u519c\u6c11: \u683d\u57f9"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Rancher",
+    "value": "\u519c\u6c11: \u755c\u7267"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer",
+    "value": "\u519c\u6c11"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk: Spirit",
+    "value": "\u9b3c\u5f71\u6b65: \u7075\u5f71\u6b65"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk",
+    "value": "\u9b3c\u5f71\u6b65"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal: Aid",
+    "value": "\u6cbb\u7597: \u7fa4\u4f53"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal: Cleanse",
+    "value": "\u6cbb\u7597: \u51c0\u5316"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal",
+    "value": "\u6cbb\u7597"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Observer",
+    "value": "\u730e\u4eba: \u89c2\u5bdf\u8005"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Wooden",
+    "value": "\u730e\u4eba: \u6728\u8d28\u5b9d\u7bb1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Gilded",
+    "value": "\u730e\u4eba: \u9540\u91d1\u5b9d\u7bb1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Living",
+    "value": "\u730e\u4eba: \u6d3b\u5316\u5b9d\u7bb1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Ornate",
+    "value": "\u730e\u4eba: \u534e\u4e3d\u5b9d\u7bb1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Coins",
+    "value": "\u730e\u4eba: \u94b1\u5e01\u5806"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter",
+    "value": "\u730e\u4eba"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Piercing",
+    "value": "\u6807\u67aa: \u7a7f\u523a"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Scatter",
+    "value": "\u6807\u67aa: \u6563\u5c04"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Sight",
+    "value": "\u6807\u67aa: \u58f0\u5450"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin",
+    "value": "\u6807\u67aa"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mana Shield: Retribution",
+    "value": "\u9b54\u529b\u62a4\u76fe: \u56de\u51fb"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mana Shield",
+    "value": "\u9b54\u529b\u62a4\u76fe"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump: Drill",
+    "value": "\u8d85\u7ea7\u8df3: \u94bb\u63a2"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump: Dig",
+    "value": "\u8d85\u7ea7\u8df3: \u6316\u6398"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump",
+    "value": "\u8d85\u7ea7\u8df3"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova: Frost",
+    "value": "\u8d85\u65b0\u661f: \u971c\u51bb"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova: Poison",
+    "value": "\u8d85\u65b0\u661f: \u5267\u6bd2"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova",
+    "value": "\u8d85\u65b0\u661f"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage: Vampire",
+    "value": "\u72c2\u66b4: \u5438\u8840\u9b3c"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage: Chain",
+    "value": "\u72c2\u66b4: \u8fde\u9501"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage",
+    "value": "\u72c2\u66b4"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell: Porcupine",
+    "value": "\u9f9f\u7532: \u8c6a\u732a"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell: Quill",
+    "value": "\u9f9f\u7532: \u7fce\u7fbd"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell",
+    "value": "\u9f9f\u7532"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Stonefall: Coldsnap",
+    "value": "\u77f3\u843d: \u51b0\u7ed3"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Stonefall",
+    "value": "\u77f3\u843d"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt: Fear",
+    "value": "\u5632\u8bbd: \u6050\u60e7"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt: Charm",
+    "value": "\u5632\u8bbd: \u9b45\u60d1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt",
+    "value": "\u5632\u8bbd"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/10/20/30/40/50",
+    "value": "\u7b49\u7ea7: 0/10/20/30/40/50"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/10/20",
+    "value": "\u7b49\u7ea7: 0/10/20"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/1",
+    "value": "\u7b49\u7ea7: 0/1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0",
+    "value": "\u7b49\u7ea7: 0"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "%s (Level: %d+)",
+    "value": "%s (\u7b49\u7ea7: %d+)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "%d to %d",
+    "value": "%d - %d"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": " (ERROR)",
+    "value": " (\u9519\u8bef)"
+  }
+]

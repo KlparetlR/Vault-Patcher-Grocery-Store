@@ -1,0 +1,120 @@
+[
+  {
+    "authors": "ByF",
+    "name": "block-render",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "count: ",
+    "value": "数量: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "breed in: ",
+    "value": "下次喂食: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "wool in: ",
+    "value": "羊毛收获: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "eggs in: ",
+    "value": "蛋类收获: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "Eggs ready!",
+    "value": "蛋类可收获"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "(grab a bucket)",
+    "value": "(手持空桶右击)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "honey level: ",
+    "value": "蜂蜜等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "Honey ready!",
+    "value": "蜂蜜可收获"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "gathering pollen: ",
+    "value": "采集花粉: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.AnimalPenRenderer",
+      "method": ""
+    },
+    "key": "No Animal",
+    "value": "没有动物"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.CrakePedestalRenderer",
+      "method": ""
+    },
+    "key": "Consume to complete the Vault!",
+    "value": "右击以完成宝库!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.EnhancementAltarRenderer",
+      "method": ""
+    },
+    "key": "Completed",
+    "value": "已完成"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.FillableAltarRenderer",
+      "method": ""
+    },
+    "key": "Right Click to Loot!",
+    "value": "右击获取战利品!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.VaultAltarRenderer",
+      "method": ""
+    },
+    "key": "Complete",
+    "value": "完成"
+  }
+]

@@ -2,7 +2,7 @@
     {
         "authors": "KlparetlR、VM汉化组",
         "name": "宝藏猎人核心模组硬编码汉化",
-        "desc": "包含tooltip、GUI、item。分发、抄袭必追责，硬编码汉化版号：VP-VH3rd-V2.1.1",
+        "desc": "包含tooltip、GUI、item。分发、抄袭必追责，硬编码汉化版号：VP-VH3rd-V2.3.0",
         "mods": "the_vault"
     },
     {
@@ -10,35 +10,59 @@
         "value": " "
     },
     {
+        "key": "LeYangZi",
+        "value": "\u00a7l\u00a76汉化贡献者\u00a7f✪\u00a7cLeYangZi"
+    },
+    {
+        "key": "KIparetIR",
+        "value": "\u00a7l\u00a76汉化主作者\u00a7f✪\u00a71KIparetIR"
+    },
+    {
+        "key": "DrIceTea",
+        "value": "\u00a7l\u00a76汉化维护者\u00a7f✪\u00a7aDrIceTea"
+    },
+    {
+        "key": "akk3476",
+        "value": "\u00a7l\u00a76汉化贡献者\u00a7f✪\u00a7bakk3476"
+    },
+    {
+        "key": "_ZUZIE_",
+        "value": "\u00a7l\u00a76汉化模组提供者\u00a7f✪\u00a7d_ZUZIE_"
+    },
+        {
+        "key": "MaZa_RinE",
+        "value": "\u00a7l\u00a76汉化贡献者\u00a7f✪\u00a7dMaZa_RinE"
+    },
+    {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.framework.render.Tooltips",
+            "name": "@iskallia.vault.client.gui.framework.render",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 55
         },
         "key": "Hold ",
         "value": "@\u00a78\u6309\u4f4f \u00a7f"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.event.ClientEvents",
+            "name": "@iskallia.vault.event",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 42
         },
         "key": "Hold ",
         "value": "@\u00a78\u6309\u4f4f \u00a7f"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen",
+            "name": "@iskallia.vault.client.gui.screen.player",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 56
         },
         "key": "Abilities",
         "value": "VP.modify.the_vault.1"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen",
+            "name": "@iskallia.vault.client.gui.screen.player",
             "method": "",
             "stack_depth": -1
         },
@@ -47,18 +71,18 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen",
+            "name": "@iskallia.vault.client.gui.screen.player",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 56
         },
         "key": "Researches",
         "value": "VP.modify.the_vault.3"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+            "name": "@iskallia.vault.client.gui.screen.player",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 55
         },
         "key": "Statistics",
         "value": "VP.modify.the_vault.4"
@@ -135,49 +159,8 @@
         "value": "@VP.modify.the_vault.128"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "Hearts",
-        "value": "VP.modify.the_vault.15"
-    },
-    {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "Defense",
-        "value": "VP.modify.the_vault.16"
-    },
-    {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "保留Mana",
-        "value": "VP.modify.the_vault.17"
-    },
-    {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "Greed",
-        "value": "VP.modify.the_vault.18"
-    },
-    {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "Completed",
-        "value": "VP.modify.the_vault.19"
+        "key": "seconds...",
+        "value": "@VP.modify.the_vault.17"
     },
     {
         "target_class": {
@@ -287,12 +270,7 @@
         "value": "@VP.modify.the_vault.42"
     },
     {
-        "target_class": {
-            "name": "#iskallia.vault.client.gui.screen.player",
-            "method": "",
-            "stack_depth": -1
-        },
-        "key": "保留",
+        "key": "Incomplete",
         "value": "VP.modify.the_vault.43"
     },
     {
@@ -341,11 +319,11 @@
     },
     {
         "key": "Treasure Rooms Opened",
-        "value": "VP.modify.the_vault.55"
+        "value": "@VP.modify.the_vault.55"
     },
     {
-        "key": "Value:",
-        "value": "@VP.modify.the_vault.56"
+        "key": "Description:",
+        "value": "VP.modify.the_vault.56"
     },
     {
         "key": "Chests Looted",
@@ -379,17 +357,12 @@
         "target_class": {
             "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 69
         },
         "key": "Armor",
         "value": "@VP.modify.the_vault.64"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "method": "",
-            "stack_depth": -1
-        },
         "key": "Attack Damage",
         "value": "@VP.modify.the_vault.65"
     },
@@ -418,11 +391,6 @@
         "value": "@VP.modify.the_vault.71"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "method": "",
-            "stack_depth": -1
-        },
         "key": "Crit Hit 抗性提升",
         "value": "@VP.modify.the_vault.72"
     },
@@ -451,11 +419,11 @@
         "value": "VP.modify.the_vault.78"
     },
     {
-        "key": " increased Damage",
+        "key": "Increased 伤害",
         "value": "@VP.modify.the_vault.79"
     },
     {
-        "key": "Vault Level:",
+        "key": "Vault 等级：",
         "value": "@VP.modify.the_vault.80"
     },
     {
@@ -540,7 +508,7 @@
     },
     {
         "key": "Completed",
-        "value": "VP.modify.the_vault.101"
+        "value": "@VP.modify.the_vault.101"
     },
     {
         "key": "Survived",
@@ -551,8 +519,8 @@
         "value": "VP.modify.the_vault.103"
     },
     {
-        "key": "保留Experience",
-        "value": "VP.modify.the_vault.104"
+        "key": "Teleporting back in",
+        "value": "@VP.modify.the_vault.104"
     },
     {
         "key": "Damage Dealt",
@@ -579,13 +547,8 @@
         "value": "VP.modify.the_vault.110"
     },
     {
-        "target_class": {
-            "name": "@iskallia.vault",
-            "method": "",
-            "stack_depth": -1
-        },
         "key": "Treasure Rooms Opened",
-        "value": "@VP.modify.the_vault.111"
+        "value": "VP.modify.the_vault.111"
     },
     {
         "key": "Crystals Crafted",
@@ -681,16 +644,16 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 54
         },
         "key": "opened a Vault!",
         "value": "@VP.modify.the_vault.125"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
             "stack_depth": -1
         },
@@ -699,34 +662,25 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 52
         },
         "key": "entered a ",
         "value": "@VP.modify.the_vault.127"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
-        },
-        "key": "entered an ",
-        "value": "@VP.modify.the_vault.127"
-    },
-    {
-        "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
-            "method": "",
-            "stack_depth": -1
+            "stack_depth": 54
         },
         "key": "completed the Vault!",
         "value": "@VP.modify.the_vault.129"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
             "stack_depth": -1
         },
@@ -735,7 +689,7 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.core.vault.playericListenersLogic",
+            "name": "@iskallia.vault",
             "method": "",
             "stack_depth": -1
         },
@@ -835,7 +789,12 @@
         "value": "VP.modify.the_vault.154"
     },
     {
-        "key": "Soul ",
+        "target_class": {
+            "name": "@iskallia.vault",
+            "method": "",
+            "stack_depth": 53
+        },
+        "key": "Soul Value:",
         "value": "@VP.modify.the_vault.155"
     },
     {
@@ -844,117 +803,117 @@
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Shoveling",
         "value": "@VP.modify.the_vault.157"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Sturdy",
         "value": "@VP.modify.the_vault.158"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Farming",
         "value": "@VP.modify.the_vault.159"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Smelting",
         "value": "@VP.modify.the_vault.160"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Immortal",
         "value": "@VP.modify.the_vault.161"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
-        "key": " Reinforced",
+        "key": "Reinforced",
         "value": "@VP.modify.the_vault.162"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Shattering",
         "value": "@VP.modify.the_vault.163"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Excavating",
         "value": "@VP.modify.the_vault.164"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Pulverising",
         "value": "@VP.modify.the_vault.165"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Quick",
         "value": "@VP.modify.the_vault.166"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Axing",
         "value": "@VP.modify.the_vault.167"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Hammering",
         "value": "@VP.modify.the_vault.168"
     },
     {
         "target_class": {
-            "name": "#iskallia.vault.item.tool.PaxelItem",
+            "name": "@iskallia.vault",
             "method": "",
-            "stack_depth": -1
+            "stack_depth": 174
         },
         "key": "Durability",
         "value": "@VP.modify.the_vault.169"
@@ -1004,8 +963,8 @@
         "value": "在宝库拾取物品时。"
     },
     {
-        "key": "Can't be consumed after Level: 25",
-        "value": "在以下等级后无法被消耗：25"
+        "key": "Can't be consumed after 等级：",
+        "value": "@在以下等级后无法被使用："
     },
     {
         "key": "Layout: ",
@@ -1048,12 +1007,8 @@
         "value": "@VP.modify.the_vault.191"
     },
     {
-        "key": "Fatal Strike Chance",
+        "key": "保留Fatal Strike Chance",
         "value": "@VP.modify.the_vault.192"
-    },
-    {
-        "key": "Soul Chance",
-        "value": "@VP.modify.the_vault.193"
     },
     {
         "key": "Critical Hit Mitigation",
@@ -1124,7 +1079,7 @@
         "value": "@VP.modify.the_vault.210"
     },
     {
-        "key": "保留Durability:",
+        "key": "Quest Overview",
         "value": "@VP.modify.the_vault.211"
     },
     {
@@ -1467,7 +1422,7 @@
         "value": "@VP.modify.the_vault.267"
     },
     {
-        "key": "Objective: ",
+        "key": "Objective:",
         "value": "@VP.modify.the_vault.268"
     },
     {
@@ -1515,8 +1470,31 @@
         "value": "@VP.modify.the_vault.279"
     },
     {
-        "key": " Cloud",
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.objective",
+            "method": "",
+            "stack_depth": -1
+        },
+        "key": "from loot, ores & mobs!",
         "value": "@VP.modify.the_vault.280"
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.objective",
+            "method": "",
+            "stack_depth": -1
+        },
+        "key": " Elixir ",
+        "value": "@ "
+    },
+    {
+        "target_class": {
+            "name": "#iskallia.vault.core.vault.objective",
+            "method": "",
+            "stack_depth": -1
+        },
+        "key": "Gather",
+        "value": "@ "
     },
     {
         "key": " has discovered ",
@@ -1644,7 +1622,7 @@
         "value": "@VP.modify.the_vault.308"
     },
     {
-        "key": "increased Damage",
+        "key": "Status:",
         "value": "@VP.modify.the_vault.309"
     },
     {
@@ -1661,23 +1639,15 @@
         "value": "VP.modify.the_vault.311"
     },
     {
-        "key": "Haste",
-        "value": "VP.modify.the_vault.312"
-    },
-    {
-        "key": "Strength",
-        "value": "VP.modify.the_vault.313"
-    },
-    {
-        "key": "保留Speed",
+        "key": "Vault Gear level is locked to your Vault Level at the time of Bounty generation.",
         "value": "VP.modify.the_vault.314"
     },
     {
-        "key": "Unbreakable",
-        "value": "VP.modify.the_vault.315"
+        "key": "Vanilla 不朽的效果ity",
+        "value": "@VP.modify.the_vault.315"
     },
     {
-        "key": "Stone Skin",
+        "key": "Consume a Lodestone!",
         "value": "VP.modify.the_vault.316"
     },
     {
@@ -1697,251 +1667,63 @@
         "value": "VP.modify.the_vault.320"
     },
     {
-        "key": "Angel",
-        "value": "VP.modify.the_vault.321"
-    },
-    {
         "key": "经验d",
         "value": "VP.modify.the_vault.322"
-    },
-    {
-        "key": "Lucky Altar",
-        "value": "VP.modify.the_vault.323"
-    },
-    {
-        "key": "Weakness Affinity",
-        "value": "VP.modify.the_vault.324"
-    },
-    {
-        "key": "Wither Affinity",
-        "value": "VP.modify.the_vault.325"
-    },
-    {
-        "key": "Slowness Affinity",
-        "value": "VP.modify.the_vault.326"
-    },
-    {
-        "key": "Bartering",
-        "value": "VP.modify.the_vault.327"
     },
     {
         "key": "Blacksmith",
         "value": "VP.modify.the_vault.328"
     },
     {
-        "key": "Last Stand",
-        "value": "VP.modify.the_vault.329"
+        "key": "Vault 完成!",
+        "value": "@VP.modify.the_vault.332"
     },
     {
-        "key": "Berserking",
-        "value": "VP.modify.the_vault.330"
-    },
-    {
-        "key": "Methodical",
-        "value": "VP.modify.the_vault.331"
-    },
-    {
-        "key": "Depleted",
-        "value": "VP.modify.the_vault.332"
-    },
-    {
-        "key": "Heal",
+        "key": "Assist your Allies!",
         "value": "VP.modify.the_vault.333"
     },
     {
-        "key": "Dash",
-        "value": "VP.modify.the_vault.334"
-    },
-    {
-        "key": "Nova",
-        "value": "VP.modify.the_vault.335"
-    },
-    {
-        "key": "Execute",
-        "value": "VP.modify.the_vault.336"
-    },
-    {
-        "key": "Ghost Walk",
-        "value": "VP.modify.the_vault.337"
-    },
-    {
-        "key": "Mega Jump",
-        "value": "VP.modify.the_vault.338"
-    },
-    {
-        "key": "Rampage",
-        "value": "VP.modify.the_vault.339"
-    },
-    {
-        "key": "Summon Eternal",
-        "value": "VP.modify.the_vault.340"
-    },
-    {
-        "key": "Tank",
-        "value": "VP.modify.the_vault.341"
-    },
-    {
-        "key": "Vein Miner",
-        "value": "VP.modify.the_vault.342"
-    },
-    {
-        "key": "Hunter",
-        "value": "VP.modify.the_vault.343"
-    },
-    {
-        "key": "Farmer",
+        "key": "Bounty Table",
         "value": "VP.modify.the_vault.344"
     },
     {
-        "key": "Mana Shield",
-        "value": "VP.modify.the_vault.345"
-    },
-    {
-        "key": "Taunt",
-        "value": "VP.modify.the_vault.346"
-    },
-    {
-        "key": "Stonefall",
-        "value": "VP.modify.the_vault.347"
-    },
-    {
-        "key": "Colossal Chests",
-        "value": "VP.modify.the_vault.348"
-    },
-    {
-        "key": "Simple Storage Network",
-        "value": "VP.modify.the_vault.349"
-    },
-    {
-        "key": "Waystones",
-        "value": "VP.modify.the_vault.350"
-    },
-    {
-        "key": "Torch Master",
-        "value": "VP.modify.the_vault.351"
-    },
-    {
-        "key": "Trashcans",
+        "key": "Select a bounty!",
         "value": "VP.modify.the_vault.352"
     },
     {
-        "key": "Building Gadgets",
-        "value": "VP.modify.the_vault.353"
-    },
-    {
-        "key": "Mining Gadgets",
-        "value": "VP.modify.the_vault.354"
-    },
-    {
-        "key": "Drawers",
+        "key": "Bounty Selection",
         "value": "VP.modify.the_vault.355"
     },
     {
-        "key": "Refined Storage",
-        "value": "VP.modify.the_vault.356"
-    },
-    {
-        "key": "Applied Energistics",
-        "value": "VP.modify.the_vault.357"
-    },
-    {
-        "key": "Iron Furnaces",
-        "value": "VP.modify.the_vault.358"
-    },
-    {
-        "key": "Elevators",
-        "value": "VP.modify.the_vault.359"
-    },
-    {
-        "key": "Modular Routers",
-        "value": "VP.modify.the_vault.360"
-    },
-    {
-        "key": "Weirding Gadgets",
-        "value": "VP.modify.the_vault.361"
-    },
-    {
-        "key": "Botania",
+        "key": "Claim your reward at the Bounty Table!",
         "value": "VP.modify.the_vault.362"
     },
     {
-        "key": "Mekanism",
+        "key": "Bounty Complete!",
         "value": "VP.modify.the_vault.363"
-    },
-    {
-        "key": "Easy Villagers",
-        "value": "VP.modify.the_vault.364"
-    },
-    {
-        "key": "Easy Piglins",
-        "value": "VP.modify.the_vault.365"
     },
     {
         "key": "Charges: ",
         "value": "@VP.modify.the_vault.366"
     },
     {
-        "key": "SNAD",
-        "value": "VP.modify.the_vault.367"
+        "key": "Progress:",
+        "value": "@VP.modify.the_vault.367"
     },
     {
-        "key": "Cagerium",
+        "key": "Activate",
         "value": "VP.modify.the_vault.368"
-    },
-    {
-        "key": "Botany Pots",
-        "value": "VP.modify.the_vault.369"
-    },
-    {
-        "key": "Flux Networks",
-        "value": "VP.modify.the_vault.370"
-    },
-    {
-        "key": "Thermal Expansion",
-        "value": "VP.modify.the_vault.371"
-    },
-    {
-        "key": "Mekanism Generators",
-        "value": "VP.modify.the_vault.372"
-    },
-    {
-        "key": "Automatic Genius",
-        "value": "VP.modify.the_vault.373"
-    },
-    {
-        "key": "Mekanism QIO",
-        "value": "VP.modify.the_vault.374"
-    },
-    {
-        "key": "Vault Compass",
-        "value": "VP.modify.the_vault.375"
-    },
-    {
-        "key": "Thermal Dynamos",
-        "value": "VP.modify.the_vault.376"
-    },
-    {
-        "key": "Digital Miner",
-        "value": "VP.modify.the_vault.377"
-    },
-    {
-        "key": "Phytogenic Insulator",
-        "value": "VP.modify.the_vault.378"
     },
     {
         "key": "Recharges every ",
         "value": "@VP.modify.the_vault.379"
     },
     {
-        "key": "Pouches",
+        "key": "Abandon",
         "value": "VP.modify.the_vault.380"
     },
     {
-        "key": "Double Pouches",
-        "value": "VP.modify.the_vault.381"
-    },
-    {
-        "key": "Belts",
+        "key": "Blacklisted Items:",
         "value": "VP.modify.the_vault.382"
     },
     {
@@ -1961,7 +1743,7 @@
         "value": "@VP.modify.the_vault.386"
     },
     {
-        "key": " 未用专长点s",
+        "key": " 未用专精点s",
         "value": "@VP.modify.the_vault.386"
     },
     {
@@ -1973,7 +1755,7 @@
         "value": "VP.modify.the_vault.388"
     },
     {
-        "key": "保留 经验: ",
+        "key": "OFFLINE",
         "value": "@VP.modify.the_vault.389"
     },
     {
@@ -2017,7 +1799,7 @@
         "value": "@VP.modify.the_vault.399"
     },
     {
-        "key": "Cooldoun:",
+        "key": "cooldown:",
         "value": "@VP.modify.the_vault.400"
     },
     {
@@ -2029,7 +1811,7 @@
         "value": "@VP.modify.the_vault.402"
     },
     {
-        "key": "Min 等级",
+        "key": "Min 等级：",
         "value": "@VP.modify.the_vault.403"
     },
     {
@@ -2047,5 +1829,902 @@
     {
         "key": "You have completed this vault without using any mana at all!",
         "value": "VP.modify.the_vault.407"
+    },
+    {
+        "key": "Reward:",
+        "value": "VP.modify.the_vault.408"
+    },
+    {
+        "key": "Black Market",
+        "value": "VP.modify.the_vault.409"
+    },
+    {
+        "key": "Transmogrification Table",
+        "value": "VP.modify.the_vault.410"
+    },
+    {
+        "key": "Transmogrify",
+        "value": "VP.modify.the_vault.411"
+    },
+    {
+        "key": "Select a model",
+        "value": "VP.modify.the_vault.412"
+    },
+    {
+        "key": "Item Level required:",
+        "value": "@VP.modify.the_vault.413"
+    },
+    {
+        "key": "Requires discovery in the Modifier Archives",
+        "value": "VP.modify.the_vault.414"
+    },
+    {
+        "key": "Requires a Tool",
+        "value": "VP.modify.the_vault.415"
+    },
+    {
+        "key": "Requires at least one Jewel",
+        "value": "VP.modify.the_vault.416"
+    },
+    {
+        "key": "Craft:",
+        "value": "@VP.modify.the_vault.417"
+    },
+    {
+        "key": "Proficiency:",
+        "value": "@VP.modify.the_vault.418"
+    },
+    {
+        "key": "Undiscovered",
+        "value": "VP.modify.the_vault.419"
+    },
+    {
+        "key": "You have completed a quest!",
+        "value": "VP.modify.the_vault.420"
+    },
+    {
+        "key": "You are not in a research-sharing team!",
+        "value": "VP.modify.the_vault.421"
+    },
+    {
+        "key": "Successfully created a party.",
+        "value": "VP.modify.the_vault.422"
+    },
+    {
+        "key": "The party was disbanded.",
+        "value": "VP.modify.the_vault.423"
+    },
+    {
+        "key": "Successfully left your research-sharing team!",
+        "value": "VP.modify.the_vault.424"
+    },
+    {
+        "key": "joined the research-sharing team.",
+        "value": "@VP.modify.the_vault.425"
+    },
+    {
+        "key": "Unable to accept a invite! You were not invited by",
+        "value": "@VP.modify.the_vault.426"
+    },
+    {
+        "key": "Unable to accept a invite! You are already in a research-sharing team!",
+        "value": "VP.modify.the_vault.427"
+    },
+    {
+        "key": "Successfully joined a research-sharing team!",
+        "value": "VP.modify.the_vault.428"
+    },
+    {
+        "key": "You are sharing new researches with:",
+        "value": "@VP.modify.the_vault.429"
+    },
+    {
+        "key": "You are not in a party!",
+        "value": "VP.modify.the_vault.430"
+    },
+    {
+        "key": "Successfully left the party.",
+        "value": "VP.modify.the_vault.431"
+    },
+    {
+        "key": "has left the party.",
+        "value": "@VP.modify.the_vault.432"
+    },
+    {
+        "key": "You are already in a party! Please leave or disband it first.",
+        "value": "VP.modify.the_vault.433"
+    },
+    {
+        "key": "This player not in your party.",
+        "value": "VP.modify.the_vault.434"
+    },
+    {
+        "key": "was removed from the party.",
+        "value": "@VP.modify.the_vault.435"
+    },
+    {
+        "key": "This player is in another party.",
+        "value": "VP.modify.the_vault.436"
+    },
+    {
+        "key": "Click to accept!",
+        "value": "VP.modify.the_vault.437"
+    },
+    {
+        "key": "This player is already in another party.",
+        "value": "VP.modify.the_vault.438"
+    },
+    {
+        "key": "Members:",
+        "value": "@VP.modify.the_vault.439"
+    },
+    {
+        "key": " Cloud",
+        "value": "@VP.modify.the_vault.440"
+    },
+    {
+        "key": "\n\nNo Level requirements",
+        "value": "VP.modify.the_vault.448"
+    },
+    {
+        "key": "\n\nLevel requirement: ",
+        "value": "@VP.modify.the_vault.449"
+    },
+    {
+        "key": "Currently selected",
+        "value": "VP.modify.the_vault.450"
+    },
+    {
+        "key": "Already enchanted with this enchantment",
+        "value": "VP.modify.the_vault.451"
+    },
+    {
+        "key": "Enchanting with this will ",
+        "value": "VP.modify.the_vault.452"
+    },
+    {
+        "key": "remove following enchantment(s):",
+        "value": "@VP.modify.the_vault.453"
+    },
+    {
+        "key": " EXP Levels",
+        "value": "@VP.modify.the_vault.454"
+    },
+    {
+        "key": "Missing ingredients.",
+        "value": "VP.modify.the_vault.455"
+    },
+    {
+        "key": "Vault Bronze Cost: ",
+        "value": "@VP.modify.the_vault.456"
+    },
+    {
+        "key": "Currently Focused Ability",
+        "value": "VP.modify.the_vault.457"
+    },
+    {
+        "key": "Current Cost:",
+        "value": "@VP.modify.the_vault.458"
+    },
+    {
+        "key": "Reroll Selected Bounty",
+        "value": "VP.modify.the_vault.459"
+    },
+    {
+        "key": "Only \"Available\" bounties can be rerolled.",
+        "value": "VP.modify.the_vault.460"
+    },
+    {
+        "key": "Select a bounty to see the cost of reroll",
+        "value": "VP.modify.the_vault.461"
+    },
+    {
+        "key": "Active",
+        "value": "VP.modify.the_vault.462"
+    },
+    {
+        "key": "Available",
+        "value": "VP.modify.the_vault.463"
+    },
+    {
+        "key": "Complete",
+        "value": "VP.modify.the_vault.464"
+    },
+    {
+        "key": "Legendary Treasure",
+        "value": "VP.modify.the_vault.465"
+    },
+    {
+        "key": "Grouped talents have a max amount of skill points",
+        "value": "VP.modify.the_vault.466"
+    },
+    {
+        "key": "that can be spent per group",
+        "value": "VP.modify.the_vault.467"
+    },
+    {
+        "key": "Vault Junk 升级",
+        "value": "@VP.modify.the_vault.468"
+    },
+    {
+        "key": "Vault Junk Whitelist to ",
+        "value": "@VP.modify.the_vault.469"
+    },
+    {
+        "key": "Unable to accept a invite! You were not invited by ",
+        "value": "@VP.modify.the_vault.470"
+    },
+    {
+        "key": "You can't invite yourself!",
+        "value": "VP.modify.the_vault.471"
+    },
+    {
+        "key": "Invited ",
+        "value": "@VP.modify.the_vault.472"
+    },
+    {
+        "key": " to the research-sharing team.",
+        "value": "@VP.modify.the_vault.473"
+    },
+    {
+        "key": " invited you to a research-sharing team.",
+        "value": "@VP.modify.the_vault.474"
+    },
+    {
+        "key": "Run '",
+        "value": "@VP.modify.the_vault.475"
+    },
+    {
+        "key": "' to accept their invite!",
+        "value": "@VP.modify.the_vault.476"
+    },
+    {
+        "key": " joined the research-sharing team.",
+        "value": "@VP.modify.the_vault.477"
+    },
+    {
+        "key": " has left the party.",
+        "value": "@VP.modify.the_vault.478"
+    },
+    {
+        "key": " has invited you to their party.",
+        "value": "@VP.modify.the_vault.479"
+    },
+    {
+        "key": "You already are in a party!",
+        "value": "VP.modify.the_vault.480"
+    },
+    {
+        "key": "This player has left their party.",
+        "value": "VP.modify.the_vault.481"
+    },
+    {
+        "key": "Successfully added ",
+        "value": "@VP.modify.the_vault.482"
+    },
+    {
+        "key": " to the party.",
+        "value": "@VP.modify.the_vault.483"
+    },
+    {
+        "key": "'s party.",
+        "value": "@VP.modify.the_vault.484"
+    },
+    {
+        "key": "You have been added to ",
+        "value": "@VP.modify.the_vault.485"
+    },
+    {
+        "key": "Inviting ",
+        "value": "@VP.modify.the_vault.486"
+    },
+    {
+        "key": " was removed from the party.",
+        "value": "@VP.modify.the_vault.487"
+    },
+    {
+        "key": "You have been removed from ",
+        "value": "@VP.modify.the_vault.488"
+    },
+    {
+        "key": "Vault Hunters Introduction",
+        "value": "VP.modify.the_vault.489"
+    },
+    {
+        "key": "Chromatic Iron",
+        "value": "VP.modify.the_vault.490"
+    },
+    {
+        "key": "Vault Stone",
+        "value": "VP.modify.the_vault.491"
+    },
+    {
+        "key": "Vault Rocks",
+        "value": "VP.modify.the_vault.492"
+    },
+    {
+        "key": "The Vault Altar",
+        "value": "VP.modify.the_vault.493"
+    },
+    {
+        "key": "Vault Crystals",
+        "value": "VP.modify.the_vault.494"
+    },
+    {
+        "key": "Skills and Talents",
+        "value": "VP.modify.the_vault.495"
+    },
+    {
+        "key": "Better Enchanting",
+        "value": "VP.modify.the_vault.496"
+    },
+    {
+        "key": "Better Health Potions",
+        "value": "VP.modify.the_vault.497"
+    },
+    {
+        "key": "Collecting Soul Shards",
+        "value": "VP.modify.the_vault.498"
+    },
+    {
+        "key": "Vault Hunting",
+        "value": "VP.modify.the_vault.499"
+    },
+    {
+        "key": "Bounties and Rewards",
+        "value": "VP.modify.the_vault.500"
+    },
+    {
+        "key": "The Tool Station",
+        "value": "VP.modify.the_vault.501"
+    },
+    {
+        "key": "Vault Tools",
+        "value": "VP.modify.the_vault.502"
+    },
+    {
+        "key": "Jewels on Tools",
+        "value": "VP.modify.the_vault.503"
+    },
+    {
+        "key": "Expertises",
+        "value": "VP.modify.the_vault.504"
+    },
+    {
+        "key": "Forging Gear",
+        "value": "VP.modify.the_vault.505"
+    },
+    {
+        "key": "Magnets",
+        "value": "VP.modify.the_vault.506"
+    },
+    {
+        "key": "Artisan Station Modifying",
+        "value": "VP.modify.the_vault.507"
+    },
+    {
+        "key": "Rerolling Gear Modifiers",
+        "value": "VP.modify.the_vault.508"
+    },
+    {
+        "key": "Scrapping Vault Gear",
+        "value": "VP.modify.the_vault.509"
+    },
+    {
+        "key": "Gaining More Exp",
+        "value": "VP.modify.the_vault.510"
+    },
+    {
+        "key": "Vault Objectives",
+        "value": "VP.modify.the_vault.511"
+    },
+    {
+        "key": "Elixir Vaults",
+        "value": "VP.modify.the_vault.512"
+    },
+    {
+        "key": "God Altars",
+        "value": "VP.modify.the_vault.513"
+    },
+    {
+        "key": "Perfecting Jewels",
+        "value": "VP.modify.the_vault.514"
+    },
+    {
+        "key": "Black Market Goods",
+        "value": "VP.modify.the_vault.515"
+    },
+    {
+        "key": "Using Knowledge",
+        "value": "VP.modify.the_vault.516"
+    },
+    {
+        "key": "Level 20 Changes",
+        "value": "VP.modify.the_vault.517"
+    },
+    {
+        "key": "The Spirit Extractor",
+        "value": "VP.modify.the_vault.518"
+    },
+    {
+        "key": "Using Infused Catalysts",
+        "value": "VP.modify.the_vault.519"
+    },
+    {
+        "key": "The Soul Diffuser",
+        "value": "VP.modify.the_vault.520"
+    },
+    {
+        "key": "Modifier Workbench",
+        "value": "VP.modify.the_vault.521"
+    },
+    {
+        "key": "Storing Gear",
+        "value": "VP.modify.the_vault.522"
+    },
+    {
+        "key": "Multiple Builds",
+        "value": "VP.modify.the_vault.523"
+    },
+    {
+        "key": "Transmogrification",
+        "value": "VP.modify.the_vault.524"
+    },
+    {
+        "key": "Seals and Crystals",
+        "value": "VP.modify.the_vault.525"
+    },
+    {
+        "key": "Inscriptions",
+        "value": "VP.modify.the_vault.526"
+    },
+    {
+        "key": "Unlocking Doors",
+        "value": "VP.modify.the_vault.527"
+    },
+    {
+        "key": "Treasure!",
+        "value": "VP.modify.the_vault.528"
+    },
+    {
+        "key": "Collecting Artifacts",
+        "value": "VP.modify.the_vault.529"
+    },
+    {
+        "key": "More to come!",
+        "value": "VP.modify.the_vault.530"
+    },
+    {
+        "key": "Colossal Chests",
+        "value": "VP.modify.the_vault.553"
+    },
+    {
+        "key": "Simple Storage Network",
+        "value": "VP.modify.the_vault.554"
+    },
+    {
+        "key": "Waystones",
+        "value": "VP.modify.the_vault.555"
+    },
+    {
+        "key": "Torch Master",
+        "value": "VP.modify.the_vault.556"
+    },
+    {
+        "key": "Trashcans",
+        "value": "VP.modify.the_vault.557"
+    },
+    {
+        "key": "Building Gadgets",
+        "value": "VP.modify.the_vault.558"
+    },
+    {
+        "key": "Mining Gadgets",
+        "value": "VP.modify.the_vault.559"
+    },
+    {
+        "key": "Drawers",
+        "value": "VP.modify.the_vault.560"
+    },
+    {
+        "key": "Refined Storage",
+        "value": "VP.modify.the_vault.561"
+    },
+    {
+        "key": "Applied Energistics",
+        "value": "VP.modify.the_vault.562"
+    },
+    {
+        "key": "Iron Furnaces",
+        "value": "VP.modify.the_vault.563"
+    },
+    {
+        "key": "Elevators",
+        "value": "VP.modify.the_vault.564"
+    },
+    {
+        "key": "Modular Routers",
+        "value": "VP.modify.the_vault.566"
+    },
+    {
+        "key": "Weirding Gadgets",
+        "value": "VP.modify.the_vault.568"
+    },
+    {
+        "key": "Mob Spawners",
+        "value": "VP.modify.the_vault.569"
+    },
+    {
+        "key": "Botania",
+        "value": "VP.modify.the_vault.570"
+    },
+    {
+        "key": "Mekanism",
+        "value": "VP.modify.the_vault.571"
+    },
+    {
+        "key": "Easy Villagers",
+        "value": "VP.modify.the_vault.572"
+    },
+    {
+        "key": "Easy Piglins",
+        "value": "VP.modify.the_vault.573"
+    },
+    {
+        "key": "Cagerium",
+        "value": "VP.modify.the_vault.577"
+    },
+    {
+        "key": "Botany Pots",
+        "value": "VP.modify.the_vault.578"
+    },
+    {
+        "key": "Flux Networks",
+        "value": "VP.modify.the_vault.579"
+    },
+    {
+        "key": "Thermal Expansion",
+        "value": "VP.modify.the_vault.580"
+    },
+    {
+        "key": "Iron Generators",
+        "value": "VP.modify.the_vault.582"
+    },
+    {
+        "key": "Mekanism Generators",
+        "value": "VP.modify.the_vault.583"
+    },
+    {
+        "key": "Automatic Genius",
+        "value": "VP.modify.the_vault.616"
+    },
+    {
+        "key": "Mekanism QIO",
+        "value": "VP.modify.the_vault.617"
+    },
+    {
+        "key": "Vault Compass",
+        "value": "VP.modify.the_vault.618"
+    },
+    {
+        "key": "Altar Automation",
+        "value": "VP.modify.the_vault.619"
+    },
+    {
+        "key": "Thermal Dynamos",
+        "value": "VP.modify.the_vault.620"
+    },
+    {
+        "key": "Potions",
+        "value": "VP.modify.the_vault.621"
+    },
+    {
+        "key": "Mixtures",
+        "value": "VP.modify.the_vault.622"
+    },
+    {
+        "key": "Brews",
+        "value": "VP.modify.the_vault.623"
+    },
+    {
+        "key": "Digital Miner",
+        "value": "VP.modify.the_vault.624"
+    },
+    {
+        "key": "Phytogenic Insulator",
+        "value": "VP.modify.the_vault.625"
+    },
+    {
+        "key": "Junk Management",
+        "value": "VP.modify.the_vault.626"
+    },
+    {
+        "key": "Pouches",
+        "value": "VP.modify.the_vault.627"
+    },
+    {
+        "key": "Double Pouches",
+        "value": "VP.modify.the_vault.628"
+    },
+    {
+        "key": "Belts",
+        "value": "VP.modify.the_vault.629"
+    },
+    {
+        "key": "Ability Power",
+        "value": "@VP.modify.the_vault.630"
+    },
+    {
+        "key": "法术伤害 Percentile",
+        "value": "@VP.modify.the_vault.631"
+    },
+    {
+        "key": "Increased 法术伤害",
+        "value": "@VP.modify.the_vault.632"
+    },
+    {
+        "key": "Damage Received",
+        "value": "VP.modify.the_vault.633"
+    },
+    {
+        "key": "Gather Elixir",
+        "value": "VP.modify.the_vault.634"
+    },
+    {
+        "key": "Any Vault",
+        "value": "VP.modify.the_vault.635"
+    },
+    {
+        "key": "Find The Cakes",
+        "value": "VP.modify.the_vault.636"
+    },
+    {
+        "key": "Obelisks",
+        "value": "VP.modify.the_vault.637"
+    },
+    {
+        "key": "Complete Vaults!",
+        "value": "VP.modify.the_vault.638"
+    },
+    {
+        "key": "Deal Damage to ",
+        "value": "@VP.modify.the_vault.639"
+    },
+    {
+        "key": "Kill ",
+        "value": "@VP.modify.the_vault.641"
+    },
+    {
+        "key": " Mobs in:",
+        "value": "@VP.modify.the_vault.642"
+    },
+    {
+        "key": "Click to view in Bestiary.",
+        "value": "VP.modify.the_vault.643"
+    },
+    {
+        "key": "Mine ",
+        "value": "@VP.modify.the_vault.644"
+    },
+    {
+        "key": " in The Vault!",
+        "value": "@VP.modify.the_vault.645"
+    },
+    {
+        "target_class": {
+            "name": "@iskallia.vault.client.gui.screen.bounty.element.task",
+            "method": "",
+            "stack_depth": 55
+        },
+        "key": "Submit ",
+        "value": "@VP.modify.the_vault.646"
+    },
+    {
+        "key": "at the Bounty Table",
+        "value": "@VP.modify.the_vault.647"
+    },
+    {
+        "key": "Min 等级：",
+        "value": "@VP.modify.the_vault.649"
+    },
+    {
+        "key": "Select Specialization",
+        "value": "VP.modify.the_vault.650"
+    },
+    {
+        "key": "  + Soul Shard Drop %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Idona.1"
+    },
+    {
+        "key": "  + Damage %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Idona.2"
+    },
+    {
+        "key": "  + Life Leech %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Idona.3"
+    },
+    {
+        "key": "  - Chest Trap Chance %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Tenos.3"
+    },
+    {
+        "key": "  + Regeneration",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Velara.1"
+    },
+    {
+        "key": "  + Max Health %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Velara.3"
+    },
+    {
+        "key": "  + Maximum Mana %",
+        "value": "screen.the_vault.StatisticsElementContainerScreenData.Wendarr.2"
+    },
+    {
+        "key": "Legendary Treasure",
+        "value": "VP.modify.the_vault.651"
+    },
+    {
+        "key": "An echo imbued pog",
+        "value": "VP.modify.the_vault.652"
+    },
+    {
+        "key": "Next",
+        "value": "VP.modify.the_vault.653"
+    },
+    {
+        "key": "New Bounty in:",
+        "value": "@VP.modify.the_vault.654"
+    },
+    {
+        "key": "Abandon Penalty:",
+        "value": "@VP.modify.the_vault.655"
+    },
+    {
+        "key": "Item already has a modifier of this group.",
+        "value": "VP.modify.the_vault.656"
+    },
+    {
+        "key": "Already enchanted with this enchantment",
+        "value": "VP.modify.the_vault.657"
+    },
+    {
+        "key": "remove following enchantment(s):",
+        "value": "VP.modify.the_vault.658"
+    },
+    {
+        "key": "Scroll: Zoom",
+        "value": "VP.modify.the_vault.659"
+    },
+    {
+        "key": "Item has no open ",
+        "value": "@VP.modify.the_vault.660"
+    },
+    {
+        "key": "Right Click: Move",
+        "value": "VP.modify.the_vault.661"
+    },
+    {
+        "key": "Left Click: Rotate",
+        "value": "VP.modify.the_vault.662"
+    },
+    {
+        "key": "Apply all Jewels",
+        "value": "VP.modify.the_vault.663"
+    },
+    {
+        "key": "Requires at least one Jewel",
+        "value": "VP.modify.the_vault.664"
+    },
+    {
+        "key": "Requires a larger capacity",
+        "value": "VP.modify.the_vault.665"
+    },
+    {
+        "key": "Cannot cut size to lower than 10",
+        "value": "VP.modify.the_vault.666"
+    },
+    {
+        "key": "Not Assembled Before",
+        "value": "VP.modify.the_vault.667"
+    },
+    {
+        "key": "Failure Chance: ",
+        "value": "@VP.modify.the_vault.668"
+    },
+    {
+        "key": "Modifier Chance: ",
+        "value": "VP.modify.the_vault.669"
+    },
+    {
+        "key": "Select an option for",
+        "value": "VP.modify.the_vault.670"
+    },
+    {
+        "key": "Confirm",
+        "value": "VP.modify.the_vault.671"
+    },
+    {
+        "key": "Shop resets in",
+        "value": "VP.modify.the_vault.672"
+    },
+    {
+        "key": "Rolls Left: ",
+        "value": "@VP.modify.the_vault.673"
+    },
+    {
+        "key": "Unlock Marketer Expertise to Re-roll",
+        "value": "VP.modify.the_vault.674"
+    },
+    {
+        "key": "Junk Whitelist - ",
+        "value": "@VP.modify.the_vault.675"
+    },
+    {
+        "key": " - Any Dimension",
+        "value": "VP.modify.the_vault.676"
+    },
+    {
+        "key": " - The Vault",
+        "value": "VP.modify.the_vault.677"
+    },
+    {
+        "key": "Select a bounty to see the cost of reroll",
+        "value": "VP.modify.the_vault.678"
+    },
+    {
+        "key": "in Treasure Rooms!",
+        "value": "@VP.modify.the_vault.679"
+    },
+    {
+        "key": "Reroll 已选择 Bounty",
+        "value": "VP.modify.the_vault.680"
+    },
+    {
+        "key": "You must activate a bounty to view its progress.",
+        "value": "VP.modify.the_vault.681"
+    },
+    {
+        "key": "Botania Flux Field",
+        "value": "VP.modify.the_vault.682"
+    },
+    {
+        "key": "Eternals",
+        "value": "@VP.modify.the_vault.683"
+    },
+    {
+        "key": "Eternal set!",
+        "value": "VP.modify.the_vault.684"
+    },
+    {
+        "key": "Not holding cryochamber!",
+        "value": "VP.modify.the_vault.685"
+    },
+    {
+        "key": "Eternal removed!",
+        "value": "VP.modify.the_vault.686"
+    },
+    {
+        "key": "Specified eternal does not exist!",
+        "value": "VP.modify.the_vault.687"
+    },
+    {
+        "key": "灵魂碎片掉落率 Percentile",
+        "value": "@VP.modify.the_vault.688"
+    },
+    {
+        "key": "Area of Effect",
+        "value": "@VP.modify.the_vault.689"
+    },
+    {
+        "key": "幸运一击概率 Percent Of Base",
+        "value": "@VP.modify.the_vault.690"
+    },
+    {
+        "key": "Movement Speed",
+        "value": "@VP.modify.the_vault.691"
+    },
+    {
+        "key": "冷却缩减 Percentile",
+        "value": "@VP.modify.the_vault.692"
     }
 ]

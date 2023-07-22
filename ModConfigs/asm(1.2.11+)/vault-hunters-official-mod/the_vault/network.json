@@ -1,0 +1,32 @@
+[
+  {
+    "authors": "ByF",
+    "name": "network-message",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.bounty.ClientboundBountyCompleteMessage",
+      "method": ""
+    },
+    "key": "Bounty Complete!",
+    "value": "悬赏完成!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.bounty.ClientboundBountyCompleteMessage",
+      "method": ""
+    },
+    "key": "Claim your reward at the Bounty Table!",
+    "value": "在悬赏桌处领取奖励!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.ServerboundChangeDifficultyMesasage",
+      "method": ""
+    },
+    "key": "You do not have permission to change server difficulty.",
+    "value": "你没有权限修改服务器难度"
+  }
+]

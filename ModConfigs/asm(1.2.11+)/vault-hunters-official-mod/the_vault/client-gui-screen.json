@@ -1,0 +1,88 @@
+[
+  {
+    "authors": "ByF",
+    "name": "client-gui-screen",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.AbilitySelectionScreen",
+      "method": ""
+    },
+    "key": "Currently Focused Ability",
+    "value": "当前选定能力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.LootStatueScreen",
+      "method": ""
+    },
+    "key": "Select an option for",
+    "value": "配置雕像生成选项"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.RenameScreen",
+      "method": ""
+    },
+    "key": "Confirm",
+    "value": "确认"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.LootStatueScreen",
+      "method": ""
+    },
+    "key": "the statue to generate.",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.ShardTradeScreen",
+      "method": ""
+    },
+    "key": "Black Market",
+    "value": "黑市"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.ShardTradeScreen",
+      "method": ""
+    },
+    "key": "Shop resets in",
+    "value": "黑市刷新时间"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.ShardTradeScreen",
+      "method": ""
+    },
+    "key": "Rolls Left: ",
+    "value": "剩余刷新次数: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.ShardTradeScreen",
+      "method": ""
+    },
+    "key": "Unlock Marketer Expertise to Re-roll",
+    "value": "解锁对应专精以解锁刷新"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.VaultCharmControllerScreen",
+      "method": ""
+    },
+    "key": "Junk Whitelist - ",
+    "value": "废料处理白名单 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.VaultCharmControllerScreen",
+      "method": ""
+    },
+    "key": " slots",
+    "value": " 栏位"
+  }
+]

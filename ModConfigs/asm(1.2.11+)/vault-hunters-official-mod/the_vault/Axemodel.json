@@ -1,0 +1,216 @@
+[
+  {
+    "authors": "ByF",
+    "name": "axemodel",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_0",
+    "value": "0号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_1",
+    "value": "1号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_2",
+    "value": "2号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_3",
+    "value": "3号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_4",
+    "value": "4号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_5",
+    "value": "5号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_6",
+    "value": "6号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_7",
+    "value": "7号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_8",
+    "value": "8号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_9",
+    "value": "9号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_10",
+    "value": "10号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_11",
+    "value": "11号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_12",
+    "value": "12号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Axe_13",
+    "value": "13号斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Janitor's Broomstick",
+    "value": "清洁工扫帚"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Big Choppa",
+    "value": "巨型粉碎机"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Evil Mace",
+    "value": "恶魔权杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Greathammer",
+    "value": "长柄锤"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Tiny Hammer",
+    "value": "短柄锤"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Blood Chopper",
+    "value": "血染巨斧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Blood Cleaver",
+    "value": "鲜血收割者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Last Sight",
+    "value": "终末之洞察"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Idona's Scythe",
+    "value": "伊多纳的巨镰"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Tenos' Staff",
+    "value": "特诺斯的手杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Velara's Hammer",
+    "value": "维拉拉的巨锤"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Axes",
+      "method": ""
+    },
+    "key": "Wendarr's Clockaxe",
+    "value": "文达的时间之斧"
+  }
+]

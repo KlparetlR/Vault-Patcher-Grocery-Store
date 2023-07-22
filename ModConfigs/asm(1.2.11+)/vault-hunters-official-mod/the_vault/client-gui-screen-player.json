@@ -1,0 +1,800 @@
+[
+  {
+    "authors": "ByF",
+    "name": "client-gui-screen-player",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.PointLabelContainerElement$AbstractPointLabelElement",
+      "method": ""
+    },
+    "key": " unspent ",
+    "value": " 可用"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.PointLabelContainerElement$AbstractPointLabelElement",
+      "method": ""
+    },
+    "key": " point",
+    "value": "点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.PointLabelContainerElement$KnowledgePointLabelElement",
+      "method": ""
+    },
+    "key": "knowledge",
+    "value": "知识"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.PointLabelContainerElement$SkillPointLabelElement",
+      "method": ""
+    },
+    "key": "skill",
+    "value": "技能"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.StatLabelElementBuilder",
+      "method": ""
+    },
+    "key": "Stat value of ",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.element.StatLabelElementBuilder",
+      "method": ""
+    },
+    "key": " capped at ",
+    "value": "的上限为 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Select Specialization",
+    "value": "选择专精"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Learn (",
+    "value": "学习 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Fully Learned",
+    "value": "已满级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Upgrade (",
+    "value": "升级 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Unlearn (",
+    "value": "降级 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Unlearn",
+    "value": "降级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Selected",
+    "value": "已选择此专精"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Not selected",
+    "value": "未选择此专精"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Not learned yet",
+    "value": "尚未学习"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.AbilityDialog",
+      "method": ""
+    },
+    "key": "Level: ",
+    "value": "等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+      "method": ""
+    },
+    "key": "Not Researched",
+    "value": "未研究"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+      "method": ""
+    },
+    "key": "Researched",
+    "value": "已研究"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+      "method": ""
+    },
+    "key": "Research (",
+    "value": "研究 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+      "method": ""
+    },
+    "key": "Sharing new researches with:",
+    "value": "与下列玩家共享研究进度:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "Learn (",
+    "value": "学习 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "Not Learned Yet",
+    "value": "尚未学习"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "Learned",
+    "value": "已满级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "Cost: ",
+    "value": "花费: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "\n\nLevel requirement: ",
+    "value": "\n\n等级需求: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "Upgrade (",
+    "value": "升级 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.SkillDialog",
+      "method": ""
+    },
+    "key": "\n\nNo Level requirements",
+    "value": "\n\n无等级需求"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.TalentDialog",
+      "method": ""
+    },
+    "key": "Unlearn (",
+    "value": "降级 ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.TalentDialog",
+      "method": ""
+    },
+    "key": "Unlearn",
+    "value": "降级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.AbilityPanRegion",
+      "method": ""
+    },
+    "key": "Abilities Tab",
+    "value": "能力标签"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.ArchetypePanRegion",
+      "method": ""
+    },
+    "key": "Archetypes Tab",
+    "value": "本源标签"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.ResearchPanRegion",
+      "method": ""
+    },
+    "key": "Researches Tab",
+    "value": "研究标签"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.ExpertisePanRegion",
+      "method": ""
+    },
+    "key": "Talents Tab",
+    "value": "天赋标签"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.TalentPanRegion",
+      "method": ""
+    },
+    "key": "Talents Tab",
+    "value": "天赋标签"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+      "method": ""
+    },
+    "key": "Already using ",
+    "value": "已经选择了"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+      "method": ""
+    },
+    "key": "Requires level: ",
+    "value": "需要等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+      "method": ""
+    },
+    "key": "[NONE]",
+    "value": "[空]"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+      "method": ""
+    },
+    "key": "Keybind: ",
+    "value": "绑定键位: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.ArchetypeWidgetSelectable",
+      "method": ""
+    },
+    "key": "Requires level: ",
+    "value": "需要等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.ResearchWidget",
+      "method": ""
+    },
+    "key": " any of",
+    "value": "下列任意一种"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.ResearchWidget",
+      "method": ""
+    },
+    "key": "Requires",
+    "value": "需要"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.SkillWidget",
+      "method": ""
+    },
+    "key": "Cannot be unlocked alongside:",
+    "value": "不能与下列技能同时解锁:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.SkillWidget",
+      "method": ""
+    },
+    "key": "Requires:",
+    "value": "需要:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.SkillWidget",
+      "method": ""
+    },
+    "key": "Requires level: ",
+    "value": "需要等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.TalentGroupWidget",
+      "method": ""
+    },
+    "key": "Grouped talents have a max amount of skill points",
+    "value": "每个天赋组所能花费的技能点数存在上限"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.TalentGroupWidget",
+      "method": ""
+    },
+    "key": "that can be spent per group",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent skill point",
+    "value": " 可用技能点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent skill point",
+    "value": " 可用技能点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent regret point",
+    "value": " 可用悔憾点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent knowledge point",
+    "value": " 可用知识点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent archetype point",
+    "value": " 可用本源点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.LegacySkillTreeElementContainerScreen",
+      "method": ""
+    },
+    "key": "s",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Abilities",
+    "value": "能力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ArchetypesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Archetypes",
+    "value": "本源"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ExpertisesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Expertise",
+    "value": "专精"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ExpertisesElementContainerScreen",
+      "method": ""
+    },
+    "key": " unspent expertise point",
+    "value": " 可用专精点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ExpertisesElementContainerScreen",
+      "method": ""
+    },
+    "key": "s",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Researches",
+    "value": "研究"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+      "method": ""
+    },
+    "key": "Open Vault History",
+    "value": "打开宝库历史记录"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+      "method": ""
+    },
+    "key": "Quests",
+    "value": "任务"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+      "method": ""
+    },
+    "key": "Statistics",
+    "value": "基础属性"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Vault Experience",
+    "value": "宝库经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Experience: ",
+    "value": "经验值: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Level: ",
+    "value": "等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Soul Shard Drop %",
+    "value": "  + 灵魂碎片掉落几率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Damage %",
+    "value": "  + 攻击力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Life Leech %",
+    "value": "  + 生命吸取"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Item Rarity %",
+    "value": "  + 战利品稀有度"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Item Quantity %",
+    "value": "  + 战利品数量"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  - Chest Trap Chance %",
+    "value": "  - 陷阱箱概率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Regeneration",
+    "value": "  + 生命恢复"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Healing Efficiency %",
+    "value": "  + 治疗效率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Max Health %",
+    "value": "  + 生命值上限"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Mana Regeneration %",
+    "value": "  + 魔力再生"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "  + Maximum Mana %",
+    "value": "  + 魔力值上限"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": " + Cooldown Reduction %",
+    "value": " + 冷却减免"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Complete a%s %s altar for a chance to gain favour with %s. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.",
+    "value": "完成一个%s%s的祭坛有概率获得%s的眷顾。一次眷顾会在下次进入宝库时获得一项增益。完成该宝库会获得一个对应宝库之神的名誉点数。名誉点数会给予玩家永久增益。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Positive Influences",
+    "value": "正面影响"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "n",
+    "value": ""
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Negative Influences",
+    "value": "负面影响"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Damage",
+    "value": "攻击力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Health",
+    "value": "生命值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Defense",
+    "value": "防御力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Mana",
+    "value": "魔力值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Greed",
+    "value": "贪婪值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Total Vaults",
+    "value": "总宝库数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Completed",
+    "value": "总完成数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Survived",
+    "value": "总存活数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Failed",
+    "value": "总失败数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Experience",
+    "value": "总经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Damage Dealt",
+    "value": "总造成伤害"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Damage Taken",
+    "value": "总受到伤害"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Mobs Unalived",
+    "value": "总击杀数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Blocks Mined",
+    "value": "总挖掘方块数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Trapped Chests",
+    "value": "触发陷阱箱数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Chests Looted",
+    "value": "总开箱数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Treasure Rooms Opened",
+    "value": "总开启宝藏房数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+    "key": "Crystals Crafted",
+    "value": "总合成水晶数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.TalentsElementContainerScreen",
+      "method": ""
+    },
+    "key": "Talents",
+    "value": "天赋"
+  }
+]

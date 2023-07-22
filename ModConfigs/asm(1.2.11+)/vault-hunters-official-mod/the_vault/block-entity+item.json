@@ -1,0 +1,216 @@
+[
+  {
+    "authors": "ByF",
+    "name": "block-entity+item",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.BloodAltarTileEntity",
+      "method": ""
+    },
+    "key": "Health Points",
+    "value": "生命值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.BloodAltarTileEntity",
+      "method": ""
+    },
+    "key": "hearts",
+    "value": "颗心"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.SoulAltarTileEntity",
+      "method": ""
+    },
+    "key": "Monster Soul",
+    "value": "怪物灵魂"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.SoulAltarTileEntity",
+      "method": ""
+    },
+    "key": "kills",
+    "value": "击杀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.TimeAltarTileEntity",
+      "method": ""
+    },
+    "key": "mana",
+    "value": "魔力"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.XpAltarTileEntity",
+      "method": ""
+    },
+    "key": "EXP Levels",
+    "value": "经验值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.XpAltarTileEntity",
+      "method": ""
+    },
+    "key": "levels",
+    "value": "等级"
+    }, 
+    {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.TimeAltarTileEntity",
+      "method": ""
+    },
+    "key": "Mana",
+    "value": "魔力值"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.CyroChamberTileEntity",
+      "method": ""
+    },
+    "key": "Cryo Chamber",
+    "value": "低温箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.EternalPedestalTileEntity",
+      "method": ""
+    },
+    "key": "Rename Eternal",
+    "value": "重命名永生者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.EternalPedestalTileEntity",
+      "method": ""
+    },
+    "key": "Cryo Chamber",
+    "value": "低温箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.CyroChamberTileEntity",
+      "method": ""
+    },
+    "key": "Rename Eternal",
+    "value": "重命名永生者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Wooden Chest",
+    "value": "木质宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Gilded Chest",
+    "value": "镀金宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Living Chest",
+    "value": "活化宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Ornate Chest",
+    "value": "华丽宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": "Treasure Chest",
+    "value": "宝藏宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Altar Chest",
+    "value": "祭坛宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Ornate Strongbox",
+    "value": "华丽保险箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Gilded Strongbox",
+    "value": "镀金保险箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.VaultChestTileEntity",
+      "method": ""
+    },
+    "key": " Living Strongbox",
+    "value": "活化保险箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.VaultChampionTrophyBlockItem",
+      "method": ""
+    },
+    "key": "Mighty ",
+    "value": "属于伟大的"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.LootStatueBlockItem",
+      "method": ""
+    },
+    "key": "Player: ",
+    "value": "玩家: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.LootStatueBlockItem",
+      "method": ""
+    },
+    "key": "NOT SELECTED",
+    "value": "未选定"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.LootStatueBlockItem",
+      "method": ""
+    },
+    "key": "Item: ",
+    "value": "物品: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.VaultChampionTrophyBlockItem",
+      "method": ""
+    },
+    "key": "Vault Champion",
+    "value": "宝库冠军"
+  }
+]

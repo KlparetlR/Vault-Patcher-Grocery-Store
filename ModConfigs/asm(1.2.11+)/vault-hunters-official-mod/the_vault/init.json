@@ -1,0 +1,240 @@
+[
+  {
+    "authors": "ByF",
+    "name": "test",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have collected ",
+    "value": "你在此宝库内收集了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "x Soul Shards this Vault!",
+    "value": " 个灵魂碎片!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have stunned ",
+    "value": "你在此宝库内击晕了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "x monsters this Vault!",
+    "value": " 只怪物!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have ",
+    "value": "你在此宝库内成功打出了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "-chain attacked ",
+    "value": "个目标对象的连锁攻击，并一共打出了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " times this Vault!",
+    "value": " 次!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have dealt ",
+    "value": "你在此宝库内一共造成了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " thorns reflection damage this Vault!",
+    "value": " 荆棘伤害!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have blocked ",
+    "value": "你在此宝库内连续格挡了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " attacks in a row this Vault!",
+    "value": " 次攻击!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have unalived ",
+    "value": "你在穿着海龟壳时在宝库内击杀了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " Guardians while wearing a Turtle Helmet this Vault!",
+    "value": "个宝库守卫!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have leeched ",
+    "value": "你在此宝库内吸取了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " health this Vault!",
+    "value": " 点生命值!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have placed ",
+    "value": "你在此宝库内种植了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " bamboos this Vault!",
+    "value": " 根竹子!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have revived a spirit ",
+    "value": "你以超过 189 枚宝库金币的价格赎回了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " for at least 189 gold!",
+    "value": " 次宝库猎人灵魂!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " mobs with a projectile this Vault!",
+    "value": " 只怪物!(使用弹射物)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have killed ",
+    "value": "你在此宝库中杀死了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " slowed mobs this Vault!",
+    "value": " 只缓慢状态下的怪物!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " mobs this Vault!",
+    "value": " 只怪物!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " poisoned mobs this Vault!",
+    "value": " 只中毒状态下的怪物!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": " mobs with an Axe this Vault!",
+    "value": " 只怪物!(使用宝库斧)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have completed this vault without taking any damage at all!",
+    "value": "你没有受到任何伤害就完成了宝库!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have completed this vault without using any mana at all!",
+    "value": "你没有消耗任何魔力就完成了宝库!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+    "key": "You have completed this vault without any healing!",
+    "value": "你没有使用任何治疗手段就完成了宝库!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModels$ItemPropertyFunction",
+      "method": ""
+    },
+    "key": "Vault Compass",
+    "value": "宝藏罗盘"
+  }
+]

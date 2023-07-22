@@ -1,0 +1,376 @@
+[
+  {
+    "authors": "ByF",
+    "name": "client-gui-screen-bounty",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": "Status: ",
+    "value": "状态: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": "Description:",
+    "value": "描述:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": "Progress:",
+    "value": "进度:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": "Rewards: (",
+    "value": "奖励: ("
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": " Vault XP",
+    "value": " 宝库经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": "Vault Gear level is locked to your Vault Level at the time of Bounty generation.",
+    "value": "宝库装备的等级取决于该悬赏生成时玩家的宝库等级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": " - The Vault",
+    "value": " - 宝库世界"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+    "key": " - Any Dimension",
+    "value": " - 任意维度"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.CompletionTaskElement",
+      "method": ""
+    },
+    "key": "Complete Vaults!",
+    "value": "完成宝库!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.CompletionTaskElement",
+      "method": ""
+    },
+    "key": "Objective:",
+    "value": "主题:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemDiscoveryTaskElement",
+      "method": ""
+    },
+    "key": "Find ",
+    "value": "在宝库中找到"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemDiscoveryTaskElement",
+      "method": ""
+    },
+    "key": " in the Vault!",
+    "value": "!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemSubmissionTaskElement",
+      "method": ""
+    },
+    "key": "Submit ",
+    "value": "在悬赏桌提交"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemSubmissionTaskElement",
+      "method": ""
+    },
+    "key": " at the Bounty Table",
+    "value": "!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.KillEntityTaskElement",
+      "method": ""
+    },
+    "key": "Kill ",
+    "value": "在以下维度击杀 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.KillEntityTaskElement",
+      "method": ""
+    },
+    "key": " Mobs in:",
+    "value": ":"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.KillEntityTaskElement",
+      "method": ""
+    },
+    "key": "Click to view in Bestiary.",
+    "value": "点击查阅怪物图鉴"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.MiningTaskElement",
+      "method": ""
+    },
+    "key": "Mine ",
+    "value": "在宝库中挖掘 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.MiningTaskElement",
+      "method": ""
+    },
+    "key": " in The Vault!",
+    "value": "!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement",
+      "method": ""
+    },
+    "key": "Select a bounty!",
+    "value": "选择一个悬赏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement",
+      "method": ""
+    },
+    "key": "Claim Reward",
+    "value": "领取奖励"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement",
+      "method": ""
+    },
+    "key": "Abandon",
+    "value": "放弃悬赏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement",
+      "method": ""
+    },
+    "key": "Activate",
+    "value": "激活悬赏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$Status",
+      "method": ""
+    },
+    "key": "Complete",
+    "value": "已完成"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$Status",
+      "method": ""
+    },
+    "key": "Legendary",
+    "value": "传奇"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$Status",
+      "method": ""
+    },
+    "key": "Active",
+    "value": "激活"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$Status",
+      "method": ""
+    },
+    "key": "Available",
+    "value": "可用"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$ExpirationElement",
+      "method": ""
+    },
+    "key": "Abandon Penalty: ",
+    "value": "惩罚冷却: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$ExpirationElement",
+      "method": ""
+    },
+    "key": "New Bounty in: ",
+    "value": "新的悬赏: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Select a bounty to see the cost of reroll",
+    "value": "选择一个悬赏以查看刷新费用"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Bounty Table",
+    "value": "悬赏桌"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Only \"Available\" bounties can be rerolled.",
+    "value": "仅\"可用\"状态的悬赏可以刷新"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Reroll Selected Bounty",
+    "value": "刷新选定悬赏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Current Cost: ",
+    "value": "刷新费用: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Bounty Selection",
+    "value": "悬赏列表"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Legendary:",
+    "value": "传奇悬赏:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "Find Legendary Bounties",
+    "value": "在宝藏房中找到古代悬赏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+    "key": "in Treasure Rooms!",
+    "value": "以激活传奇悬赏!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyProgressScreen",
+      "method": ""
+    },
+    "key": "You must activate a bounty to view its progress.",
+    "value": "激活一个悬赏以查看其进度"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Obelisks",
+    "value": "点亮方尖碑"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Hunt The Guardians",
+    "value": "击败宝库守卫"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Find The Cakes",
+    "value": "找到蛋糕"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Scavenger Hunt",
+    "value": "拾荒者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Any Vault",
+    "value": "任意宝库"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Light the Monoliths",
+    "value": "点亮远古石碑"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.BountyScreen",
+      "method": ""
+    },
+    "key": "Gather Elixir",
+    "value": "收集圣水"
+  }
+]

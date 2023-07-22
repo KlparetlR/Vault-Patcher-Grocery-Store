@@ -1,0 +1,416 @@
+[
+  {
+    "authors": "ByF",
+    "name": "client-gui-screen-summary",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Overview",
+    "value": "概览"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Crystal Modifiers",
+    "value": "水晶修饰语"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Loot",
+    "value": "战利品"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Combat Stats",
+    "value": "战斗统计"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Coop",
+    "value": "队伍"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Claim",
+    "value": "领取"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Back",
+    "value": "返回"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Close",
+    "value": "关闭"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Rewards: ",
+    "value": "奖励: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Vault Xp",
+    "value": "宝库经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Claim Rewards",
+    "value": "领取奖励"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+    "key": "Back to History",
+    "value": "返回历史记录"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Vault Experience",
+    "value": "宝库经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Experience: ",
+    "value": "经验值: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "  Chests - ",
+    "value": "  宝箱 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "  Mined Blocks - ",
+    "value": "  挖掘方块 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "  Treasure Rooms - ",
+    "value": "  宝藏房 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "  Mobs Unalived - ",
+    "value": "  击杀怪物 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "  Objective - ",
+    "value": "  宝库目标 - "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Coin Piles Collected",
+    "value": "收集钱币堆"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Coin Piles: ",
+    "value": "钱币堆: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Chests Looted",
+    "value": "搜刮战利品箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Value: ",
+    "value": "经验: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Ores Mined",
+    "value": "挖掘矿石"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Treasure Rooms Opened",
+    "value": "开启宝藏房"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Mobs Unalived",
+    "value": "击杀怪物"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Damage Dealt",
+    "value": "造成伤害"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Damage Received",
+    "value": "受到伤害"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Dealt: ",
+    "value": "造成伤害: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Received: ",
+    "value": "受到伤害: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Vault Seed",
+    "value": "宝库种子"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Seed: ",
+    "value": "种子: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Vault Level",
+    "value": "宝库等级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Level: ",
+    "value": "等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Time Left",
+    "value": "剩余时间"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Time Spent: ",
+    "value": "已用时间: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Time Spent",
+    "value": "已用时间"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Experience Multiplier",
+    "value": "经验倍率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+    "key": "Multiplier: ",
+    "value": "乘数: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$FavoritesDisplayElement",
+      "method": ""
+    },
+    "key": "Un-Favorite",
+    "value": "取消收藏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$FavoritesDisplayElement",
+      "method": ""
+    },
+    "key": "Favorite",
+    "value": "收藏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Vault Level: ",
+    "value": "宝库等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Vault Xp",
+    "value": "宝库经验"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Open Vault Stats",
+    "value": "查看详细信息"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Open",
+    "value": "打开"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Vault Exit",
+    "value": "结算"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+    "key": "Share Vault",
+    "value": "分享宝库"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
+      "method": ""
+    },
+    "key": "Previous 50 Vaults",
+    "value": "最近50个宝库"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
+      "method": ""
+    },
+    "key": "Favorites",
+    "value": "收藏"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
+      "method": ""
+    },
+    "key": "History",
+    "value": "历史记录"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
+      "method": ""
+    },
+    "key": "Close",
+    "value": "关闭"
+  }
+]

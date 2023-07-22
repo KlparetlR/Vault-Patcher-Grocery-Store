@@ -1,0 +1,72 @@
+[
+  {
+    "authors": "ByF",
+    "name": "test",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Wooden Wand",
+    "value": "木质法杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Ender Wand",
+    "value": "末影法杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Archmage Wand",
+    "value": "大法师法杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Mage Wand",
+    "value": "法师法杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Master Wand",
+    "value": "大师法杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Twig",
+    "value": "纤细嫩枝"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Starlight Wand",
+    "value": "星光之杖"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModDynamicModels$Wands",
+      "method": ""
+    },
+    "key": "Druid Wand",
+    "value": "德鲁伊手杖"
+  }
+]
