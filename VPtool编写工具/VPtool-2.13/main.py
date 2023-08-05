@@ -35,26 +35,30 @@ if __name__ == "__main__":
         FileGUI.set(a3)
         func_entry.configure(values=func_list_data)
         func_entry.current(0)
+        if sv_ttk_theme_entry.get() == "Light":
+            sv_ttk.use_light_theme()
+        if sv_ttk_theme_entry.get() == "Dark":
+            sv_ttk.use_dark_theme()
     def runlangGui():
-        global zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,langcurrent
+        global zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,langcurrent
         zdy,a0 = zdyconfig()
         if vaulelang == "0x804":
-           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21 = zhguitext()
+           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22 = zhguitext()
            def langcurrent():
                cGuilang_entry.current(0)
         if vaulelang == f"{a0}":
-           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21 = zdyguitext()
+           info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22 = zdyguitext()
            def langcurrent():
                cGuilang_entry.current(2)
     runlangGui()
     def runclangGui():
-        global func_list_data,zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21
+        global func_list_data,zdy,a0,info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22
         zdy,a0 = zdyconfig()
         if cGuilang_entry.get() == "中文简体":
-            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21 = zhguitext()
+            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22 = zhguitext()
             func_list_data =[f"{a17}",f"{a18}",f"{a19}"]
         if cGuilang_entry.get() == f"{zdy}":
-            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21 = zdyguitext()
+            info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22 = zdyguitext()
             func_list_data =[f"{a17}",f"{a18}",f"{a19}"]
         updateGui()
         root.update()
@@ -69,6 +73,10 @@ if __name__ == "__main__":
         langcurrent()
         cGuilang_entry.grid(row=r, column=1,pady=5)
         savelangButton.grid(row=r, column=2,pady=5,padx=20)
+        r += 1
+        sv_ttk_theme_lb.grid(row=r, column=0,pady=5)
+        sv_ttk_theme_entry.current(0)
+        sv_ttk_theme_entry.grid(row=r, column=1,pady=5)
         r += 1
         func_lb.grid(row=r, column=0,pady=5)
         func_entry.current(0)
@@ -96,8 +104,7 @@ if __name__ == "__main__":
         mods_lb.grid(row=r, column=0,pady=5,padx=20)
         mods_entry.grid(row=r, column=1,pady=5,padx=20)
         r += 1
-        saveButton.grid(row=r, column=2,pady=5,padx=20)
-        r += 1
+        saveButton.grid(row=r, column=2,pady=45,padx=20)
     def runFromGui():
         if FileGUI.get() and icon_var.get() == "%s" % (a3) or len(FileGUI.get() and icon_var.get()) == 0:
             dialogs.show_message("ERROR", "%s" % (a5))
@@ -116,10 +123,10 @@ if __name__ == "__main__":
             print (f"{a20}{a19}")
             lse(icon_var.get(),FileGUI.get(),cGuilang_entry.get())
     root = Tk()
-    root.title("VPtool 2.12")
+    root.title("VPtool 2.13")
     cGuilang_lb = Label(root, text="%s" % (a8))
     combo_list = ["中文简体",f"{zdy}"]
-    empty_lb = Label(root, text="")
+    empty_lb = Label(root, text=" ✿－＿＾)✧✧(＾＿－✿ ")
     cGuilang_entry = Combobox(root,state="readonly", values=combo_list)
     FileGUI = StringVar(value="%s" % (a3))
     icon_var = StringVar(value="%s" % (a3))
@@ -146,9 +153,12 @@ if __name__ == "__main__":
     func_lb = Label(root, text="%s" % (a21))
     func_list = [f"{a17}",f"{a18}",f"{a19}"]
     func_entry = Combobox(root,state="readonly", values=func_list)
+    sv_ttk_theme_lb = Label(root, text="%s" % (a22))
+    sv_ttk_theme_list = ["Light","Dark"]
+    sv_ttk_theme_entry = Combobox(root,state="readonly", values=sv_ttk_theme_list)
     box_checked()
-    sv_ttk.use_light_theme()
     root.update_idletasks()
+    sv_ttk.use_light_theme()
     width = root.winfo_width()
     height = root.winfo_height()
     x = (root.winfo_screenwidth() // 2) - (width // 2)
