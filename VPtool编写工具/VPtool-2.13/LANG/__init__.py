@@ -1,0 +1,2 @@
+from .zh_cn import zhguitext,zh_func_tc_text,zh_gui_tca_text,zh_func_lse_text
+from .custom_lang import zdyguitext,zdyconfig,zdy_gui_tc_text,zdy_gui_tca_text,zdy_gui_lse_text
