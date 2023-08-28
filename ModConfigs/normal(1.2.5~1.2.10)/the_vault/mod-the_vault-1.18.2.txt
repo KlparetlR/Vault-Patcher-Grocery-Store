@@ -1,0 +1,397 @@
+@iskallia.vault
+VP.modify.the_vault.
+1
+LeYangZi
+akk3476
+KIparetIR
+akk3476
+_ZUZIE_
+MaZa_RinE
+DrIceTea
+:56;@iskallia.vault.client.gui.screen.player;Abilities
+@;Expertise
+:56;@iskallia.vault.client.gui.screen.player;Researches
+:55;@iskallia.vault.client.gui.screen.player;Statistics
+Talents
+@;unspent regret point
+@;unspent expertise point
+@;unspent knowledge point
+@;unspent skill point
+@;未用后悔点s
+@;未用专精点s
+@;未用知识点s
+@;未用技能点s
+@;Teleporting back in
+@;seconds...
+Vault Level
+Complete an Idona altar for a chance to gain favour with Idona. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.
+Complete a Tenos altar for a chance to gain favour with Tenos. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.
+Complete a Velara altar for a chance to gain favour with Velara. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.
+Complete a Wendarr altar for a chance to gain favour with Wendarr. A favour will grant a buff in the subsequent vault. Completing the objective in said vault will grant a reputation point which slowly increases the power of the buffs.
+@;Vault 等级：
+Knockback Resist
+Tenos the Omniscient
+Idona the Malevolent
+Velara the Benevolent
+Wendarr the Timekeeper
+Right Click to Loot!
+@;Researched
+@;Not 已研究
+A vault that doesnt exist.\nThe Vault gods are not responsible for events that transpire here.\n\nThis realm may also harbor additional riches.
+Vault that doesnt exist!
+Branch Cleared!
+@;Good luck
+@;No exit this time
+You cannot exit this Vault!
+@;Find the Exit
+@;Find the Monoliths
+@;Find the cakes
+@;Hunt The Guardians
+Use to remove selected specialization
+@;of ability 
+:53;@iskallia.vault;@;Soul Value:
+Revives a unalived eternal
+Rerolls an eternals available auras
+@;Layout: 
+@;Total:
+@;Critical Hit Mitigation
+@;Power Manager
+@;Trap Disarming
+@;Knockback Resist
+@;Quest Overview
+Increases the amount of slots
+that items can be added to the
+@;Vault Charm Whitelist to 
+Crouch right-click an Animal to catch
+For use in the Animal Pen
+Animals can not be released when caught
+@;Contains : 
+@;Count : 
+@;Objective:
+@;Hunt the Guardians
+@;Cake Hunt
+@;Elixir Rush
+@;Light the Monoliths
+@;Scavenger Hunt
+@;Speedrun
+@;from loot, ores & mobs!
+@; has discovered 
+@; 获得了名为 trinket: 
+@; transmog.
+@; Wooden Chest
+@; Altar Chest
+@; Ornate Chest
+@; Living Chest
+@; Gilded Chest
+@; Hardened Chest
+@; Flesh Chest
+@; Enigma Chest
+@iskallia.vault;@;common
+@iskallia.vault;@;rare
+@iskallia.vault;@;epic
+@iskallia.vault;@;omega
+@iskallia.vault;@;Common
+@iskallia.vault;@;Rare
+@iskallia.vault;@;Epic
+@iskallia.vault;@;Omega
+@iskallia.vault;@;COMMON
+@iskallia.vault;@;RARE
+@iskallia.vault;@;EPIC
+@iskallia.vault;@;OMEGA
+@;Research (
+@;Not 已选择
+@;Not selected
+@;Not 已学习 Yet
+@;Not learned yet
+@;Selected
+@;Select (
+@;Learn (
+@;Unlearn
+@;Learned
+@;Upgrade (
+@;Vault Party
+@;Scrappy
+@;Status:
+@iskallia.vault;The Vault
+Vault Gear level is locked to your Vault Level at the time of Bounty generation.
+Consume a Lodestone!
+Critical Strike
+@;Vault 完成!
+Assist your Allies!
+Bounty Table
+Select a bounty!
+Bounty Selection
+Claim your reward at the Bounty Table!
+Bounty Complete!
+@;Progress:
+Activate
+Abandon
+Blacklisted Items:
+Vault 经验
+@;OFFLINE
+Positive Modifiers
+Negative Modifiers
+Other Modifiers
+@;Completion: 
+You have completed this vault without taking any damage at all!
+You have completed this vault without any healing!
+You have completed this vault without using any mana at all!
+Reward:
+@;Black Market
+Unlock Marketer 专精 to Re-roll
+@;Transmogrification Table
+Transmogrify
+Select a model
+Requires a Tool
+Requires at least one Jewel
+@iskallia.vault;@;Craft:
+@; Proficiency:
+Undiscovered
+You have completed a quest!
+You are not in a party!
+Members: 
+This player is already in another party.
+@;Inviting 
+@; to the party.
+Click to accept!
+ to accept their invite!
+@; has invited you to their party.
+You already are in a party!
+This player has left their party.
+@;Successfully added 
+@;You have been added to 
+@;You are not invited to 
+@;s party.
+This player is in another party.
+@; was removed from the party.
+@;You have been removed from 
+This player not in your party.
+Successfully created a party.
+You are already in a party! Please leave or disband it first.
+@; has left the party.
+Successfully left the party.
+The party was disbanded.
+You cant invite yourself!
+@iskallia.vault;@;Invited 
+@; to the research-sharing team.
+@; invited you to a research-sharing team.
+@; is already part of a team!
+@; is already part of your team!
+Unable to accept a invite! You are already in a research-sharing team!
+@;Unable to accept a invite! You were not invited by
+Successfully joined a research-sharing team!
+@; joined the research-sharing team.
+Successfully left your research-sharing team!
+You are not in a research-sharing team!
+You are sharing new researches with:
+\n\nNo Level requirements
+@;\n\nLevel requirement: 
+Currently selected
+@iskallia.vault;@; EXP Levels
+Missing ingredients.
+@;Vault Bronze Cost: 
+Currently Focused Ability
+Only Available bounties can be rerolled.
+Select a bounty to see the cost of reroll
+Legendary Treasure
+Grouped talents have a max amount of skill points
+that can be spent per group
+@;Vault Junk 升级
+@iskallia.vault;@;(Tier
+@;Vault Junk Whitelist to 
+Vault Hunters Introduction
+Chromatic Iron
+Vault Stone
+Vault Rocks 
+The Vault Altar
+Vault Crystals
+Skills and Talents
+Better Enchanting
+@;Better Health 中级宝库药剂
+Vault Hunting
+Bounties and Rewards
+The Tool Station
+Vault Tools
+Jewels on Tools
+专精s
+Forging Gear
+Magnets
+Artisan Station Modifying
+Rerolling Gear Modifiers
+Scrapping Vault Gear
+Gaining More Exp
+Vault Objectives
+Elixir Vaults
+God Altars
+Perfecting Jewels
+黑市 Goods
+Using Knowledge
+Level 20 Changes
+The Spirit Extractor
+Using Infused Catalysts
+The 灵魂提取器
+Modifier Workbench
+Storing Gear
+Multiple Builds
+Transmogrification
+Seals and Crystals
+Inscriptions
+Unlocking Doors
+Treasure!
+Collecting Artifacts
+More to come!
+Looting!
+The Bounty Hunter
+Trinkets
+Forgetting 专精s
+Regretting Decisions
+Identification Stand
+The Soul Diffuser
+@;Made-By-VM-Translate-Group
+Colossal Chests
+Simple Storage Network
+Waystones
+Torch Master
+Trashcans
+Building Gadgets
+挖矿 Gadgets
+Drawers
+Refined Storage
+Applied Energistics
+Iron Furnaces
+Elevators
+Modular Routers
+Weirding Gadgets
+Mob Spawners
+Botania
+Mekanism
+Easy Villagers
+Easy Piglins
+SNAD
+Botany Pots
+Flux Networks
+Thermal Expansion
+Iron Generators
+Mekanism Generators
+Automatic Genius
+Mekanism QIO
+Vault Compass
+Altar Automation
+Thermal Dynamos
+@;Potions
+Mixtures
+Brews
+Digital Miner
+Phytogenic Insulator
+Junk Management
+Double Pouches
+Belts
+Stack Upgrading
+Auto Refill
+Auto Feeding
+@iskallia.vault.client.gui.screen.player;@;Backpacks
+@iskallia.vault.client.gui.screen.player;@;Big 小背包
+@iskallia.vault.client.gui.screen.player;Create
+Gather Elixir
+Any Vault
+Find The Cakes
+Obelisks
+Complete Vaults!
+@;Deal Damage to 
+@;at the Bounty Table
+Item already has a modifier of this group.
+Already enchanted with this enchantment
+@;Item has no open 
+Scroll: Zoom
+Right Click: Move
+Left Click: Rotate
+Apply all Jewels
+Requires at least one Jewel
+Requires a larger capacity
+Cannot cut size to lower than 10
+Relic Assembly
+Not Assembled Before
+Assemble Relic
+Select a relic
+Place all fragments to assemble
+Click to assemble
+@;has assembled 
+@; for the first time.
+@;Failure Chance: 
+Modifier Chance: 
+Select an option for
+the statue to generate.
+Confirm
+Shop resets in
+@;Rolls Left: 
+@;Junk Whitelist - 
+@; slots
+@;in Treasure Rooms!
+You must activate a bounty to view its progress.
+Botania Flux Field
+Eternal set!
+Not holding cryochamber!
+Eternal removed!
+Specified eternal does not exist!
+@iskallia.vault;@;count: 
+@iskallia.vault;@;breed in: 
+@iskallia.vault;@;wool in: 
+@iskallia.vault;@;eggs in: 
+Eggs ready!
+(grab a bucket)
+@iskallia.vault;@;honey level: 
+Honey ready!
+@iskallia.vault;@;gathering pollen: 
+No Animal
+Consume to complete the Vault!
+You cant hold me with that in offhand
+You cant pick me up with that in offhand
+You gained a favour!
+@iskallia.vault;@; Helmet
+@iskallia.vault;@; Chestplate
+@iskallia.vault;@; Leggings
+@iskallia.vault;@; Boots
+@iskallia.vault;@; empty prefix
+@iskallia.vault;@; empty suffix
+@iskallia.vault;@;Increased
+@iskallia.vault;@;Item Discovery
+@iskallia.vault;@;Mining
+@iskallia.vault;@;Kill Entity
+@iskallia.vault;@;Item Submission
+@iskallia.vault;@;Completion
+Description:
+Reward:
+Fully 已学习
+@iskallia.vault;@;legendary
+@iskallia.vault;@;Legendary
+@;Effect Cloud when Hit
+#iskallia.vault.block.entity.DungeonDoorTileEntity
+&getDisplay;@;Normal
+&getDisplay;@;Hard
+&getDisplay;@;Challenging
+&getDisplay;@;Extreme
+&getDisplay;@;Impossible
+#END
+#iskallia.vault.item.ItemShardPouch
+Empty
+@; Shard
+@; 碎片s
+#END
+#iskallia.vault.item.BottleItem
+Charges: 
+#END
+@iskallia.vault;@;Challenge
+@iskallia.vault;@;Cryo Chamber
+@iskallia.vault;@;Wardrobe
+@iskallia.vault;@;Spirit Extractor
+Click to open
+@iskallia.vault;@;Damage Dealt:
+@iskallia.vault;@;Damage Taken:
+#iskallia.vault.client.gui.screen.summary.element.CombatStatsContainerElement
+@;x Mobs Unalived
+#END
+@iskallia.vault.client.gui.screen.player;@;Requires:
+Vault Hunters Option
+This vault is reserved for allowed party members.
+You do not have permission to change server difficulty.
+#END
