@@ -13,20 +13,20 @@ class Code:
     def __init__(self, instructions):
         self.instructions = instructions
 
-def lse(FileGUI,icon_var,cGuilang_entry):
+def lse(File_vaule,save_address_vaule,cGuilang_entry):
     global CONST_SOURCE,CONST_JAR,filePath,fileName
-    CONST_SOURCE = icon_var
-    fileName = os.path.basename(os.path.splitext(icon_var)[0])
-    CONST_JAR = FileGUI+"/extracted"
-    filePath = FileGUI+"/output.json"
-    def runtcGui():
+    CONST_SOURCE = save_address_vaule
+    fileName = os.path.basename(os.path.splitext(save_address_vaule)[0])
+    CONST_JAR = File_vaule+"/extracted"
+    filePath = File_vaule+"/output.json"
+    def runGui():
         global zdy,a0,lse1,lse2,lse3,lse4,lse5,lse6,lse7,lse8,lse9,lse10,lse11,lse12,lse13,lse14,lse15,lse16,lse17,lse18
         zdy,a0 = zdyconfig()
         if cGuilang_entry == "中文简体":
             lse1,lse2,lse3,lse4,lse5,lse6,lse7,lse8,lse9,lse10,lse11,lse12,lse13,lse14,lse15,lse16,lse17,lse18 = zh_func_lse_text()
         if cGuilang_entry == f"{zdy}":
             lse1,lse2,lse3,lse4,lse5,lse6,lse7,lse8,lse9,lse10,lse11,lse12,lse13,lse14,lse15,lse16,lse17,lse18 = zdy_gui_lse_text()
-    runtcGui()
+    runGui()
     aaeeoo()
 
 logt = ''

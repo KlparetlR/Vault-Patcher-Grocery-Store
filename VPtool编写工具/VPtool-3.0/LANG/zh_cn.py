@@ -14,7 +14,7 @@ def zhguitext():
     a12 = "此翻译名称"
     a13 = "此翻译描述"
     a14 = "翻译的模组"
-    a15 = "选定"
+    a15 = "json配置&lang文件合并"
     a16 = "生成"
     a17 = "2.10版-文本转json"
     a18 = "asm版-文本转json"
@@ -22,16 +22,19 @@ def zhguitext():
     a20 = "开始运行功能："
     a21 = "功能选择"
     a22 = "Gui主题"
-    return info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22
+    a23 = "硬编码配置逆向提取"
+    a24 = "lang文件必填"
+    return info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24
 def zh_func_tc_text():
     vp1 = "硬编码配置"
     vp2 = "转换时出现错误！请检查类匹配的#END有没有漏！\nERROR for <%s>"
-    vp3 = "转换时出现问题！方法名不在类匹配的范围内！\nERROR for <&%s;>，是否继续转化？"
+    vp3 = "转换时出现问题！方法名不在包名和类匹配的范围内！\nERROR for <:%s;>，是否继续转化？"
     vp4 = "错误！文件路径丢失！"
     vp5 = "VPtool 成功将 %s.txt 文件转换为 VP或HP模组 的配置格式。\n并储存在 %s 目录中。"
-    vp6 = "转换时出现问题！堆键深度值不在类匹配的范围内！\nERROR for <&%s;>，是否继续转化？"
+    vp6 = "转换时出现问题！堆键深度值不在包名和类匹配的范围内！\nERROR for <&%s;>，是否继续转化？"
     vp7 = "文件无法访问，可能是文件夹设为只读或其它问题！"
-    return vp1,vp2,vp3,vp4,vp5,vp6,vp7
+    vp8_a4 = "(选填)"
+    return vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4
 def zh_gui_tca_text():
     vp8 = "key：%s，不在类匹配范围内，因此替换不生效，是否跳过该key"
     return vp8
@@ -55,3 +58,9 @@ def zh_func_lse_text():
     lse17 = "按回车键继续..."
     lse18 = "完成！"
     return lse1,lse2,lse3,lse4,lse5,lse6,lse7,lse8,lse9,lse10,lse11,lse12,lse13,lse14,lse15,lse16,lse17,lse18
+def zh_func_cre_text():
+    cre1 = "VPtool 成功将 %s.json 文件转换为 VPtool 的配置格式。\n并储存在 %s 目录中。"
+    return cre1
+def zh_func_kmm_text():
+    kmm1 = "json配置&lang文件合并成功~"
+    return kmm1

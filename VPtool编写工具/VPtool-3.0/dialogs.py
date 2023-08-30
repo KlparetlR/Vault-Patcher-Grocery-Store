@@ -9,7 +9,7 @@ def show_message(title="Title", details="Description", *, parent=None, icon=None
         title,
         details,
         icon,
-        buttons=[("确认", None, "default")],
+        buttons=[("Yes", None, "default")],
     )
 
 
@@ -19,7 +19,7 @@ def ask_ok_cancel(title="Title", details="Description", *, parent=None, icon=Non
         title,
         details,
         icon,
-        buttons=[("确认", True, "accent"), ("取消", None)],
+        buttons=[("Yes", True, "accent"), ("Cancel", None)],
     )
 
 
@@ -29,7 +29,7 @@ def ask_yes_no(title="Title", details="Description", *, parent=None, icon=None):
         title,
         details,
         icon,
-        buttons=[("确认", True, "accent"), ("不", False)],
+        buttons=[("Yes", True, "accent"), ("No", False)],
     )
 
 
@@ -39,7 +39,7 @@ def ask_yes_no_cancel(title="Title", details="Description", *, parent=None, icon
         title,
         details,
         icon,
-        buttons=[("确认", True, "accent"), ("不", False), ("取消", None)],
+        buttons=[("Yes", True, "accent"), ("No", False), ("Cancel", None)],
     )
 
 
@@ -49,7 +49,7 @@ def ask_retry_cancel(title="Title", details="Description", *, parent=None, icon=
         title,
         details,
         icon,
-        buttons=[("重试", True, "accent"), ("取消", None)],
+        buttons=[("重试", True, "accent"), ("Cancel", None)],
     )
 
 

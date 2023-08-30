@@ -1,56 +1,79 @@
 import os,codecs,copy,json,dialogs,sys,subprocess,re
 from LANG import zh_func_tc_text,zdy_gui_tc_text,zdyconfig,zh_gui_tca_text,zdy_gui_tca_text
 
-def tca(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_vaule):
-    def runtcGui():
-        global zdy,a0,vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8
+def tca(File_vaule,save_address_vaule,cGuilang_entry,tempauthors,tempname,tempdesc,tempmods):
+    global KeyName,valueIndex,authors,name,desc,mods
+    authors,name,desc,mods = tempauthors,tempname,tempdesc,tempmods
+    def runGui():
+        global zdy,a0,vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8,vp8_a4
         zdy,a0 = zdyconfig()
         if cGuilang_entry == "中文简体":
-            vp1,vp2,vp3,vp4,vp5,vp6,vp7 = zh_func_tc_text()
+            vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4 = zh_func_tc_text()
             vp8 = zh_gui_tca_text()
         if cGuilang_entry == f"{zdy}":
-            vp1,vp2,vp3,vp4,vp5,vp6,vp7 = zdy_gui_tc_text()
+            vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4 = zdy_gui_tc_text()
             vp8 = zdy_gui_tca_text()
-    runtcGui()
+    runGui()
     # 文件地址
-    filePath = icon_var
-    folderpath = FileGUI+'/%s/' % (vp1)
+    filePath = save_address_vaule
+    folderpath = File_vaule+'/%s/' % (vp1)
     fileName = os.path.basename(os.path.splitext(filePath)[0])
     # 文件初始内容
     fileTxtList = []
-    # 1号下标
-    index = 2
     # 类匹配开关
     isClass = False
     # 类名
     className = ''
     tempclassName = ' '
     # 汉化占位基础文本
-    valueTxt = ''
+    KeyName = 'VP.modify.<Modid>.'
     # 基础字典模板
-    placeholder = {"authors": f"{authors_vaule}", "name": f"{name_vaule}", "desc": f"{desc_vaule}", "mods": f"{mods_vaule}"}
-    targetClass = {'name': '', 'method': ''}
+    targetClass = {'name': 'nametype', 'method': 'method', 'stack_depth': -1}
     # 最终结果输出
     resultList = []
     resultList2 = {}
+    # 起始值
+    valueIndex = 1
     # 重启tool
     def restart():
         subprocess.Popen([sys.executable] + sys.argv)
         sys.exit()
-    # 获取文件行内容
-    try:
-        with open(filePath, 'r', encoding='utf8') as f:
-            # 逐行读取加入列表
-            fileTxtList = f.read().splitlines()
-    except TypeError:
-        dialogs.show_message('VPtool',f'{vp7}')
-        print(f'{vp7}')
-    # value基础值
-    valueTxt = fileTxtList[0]
-    # 起始值
-    valueIndex = int(fileTxtList[1])
+    with open(filePath, 'r', encoding='utf8') as f:
+        # 逐行读取加入列表
+        fileTxtList = f.read().splitlines()
+        # 找到{#INFO}和{#VPCONFIG}的位置
+        start = fileTxtList.index("{#INFO}")
+        end = fileTxtList.index("{#VPCONFIG}")
+        # 截取{#INFO}和{#VPCONFIG}之间的内容
+        info = "\n".join(fileTxtList[(start+1) : end])
+        # 按行分割内容
+        lines = info.split("\n")
+        # 遍历每一行
+        for line in lines:
+            # 如果有等号
+            if "=" in line:
+                # 分割等号前后的内容
+                key, value = line.split("=")
+                # 去掉空格
+                key = key.strip()
+                value = value.strip()
+                if key in ["KeyName", "valueIndex", "authors", "name", "desc", "mods"]:
+                    exec(f'globals()["{key}"] = "{value}"')
+                    exec(f'locals()["{key}"] = "{value}"')
+    if tempauthors != f"{vp8_a4}" and authors != tempauthors:
+        authors=tempauthors
+    if tempname == f"{vp8_a4}"and name!=tempname:
+        name=tempname
+    if tempdesc == f"{vp8_a4}"and desc!=tempdesc:
+        desc=tempdesc
+    if tempmods == f"{vp8_a4}"and mods != tempmods:
+        mods = tempmods
+    placeholder = {"authors": f"{authors}", "name": f"{name}", "desc": f"{desc}", "mods": f"{mods}"}
+    valueIndex = int(valueIndex)
+    # 1号下标
+    index = end+1
     # 遍历文本内容
-    for _ in range(len(fileTxtList) - 2):
+    for _ in range(len(fileTxtList) - (end+1)):
         resultDictionaries = {}
         # 获取当前临时文本
         tempFileTxt = fileTxtList[index]
@@ -72,7 +95,7 @@ def tca(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods
                 continue
             elif tempclassName != ' ':
                 if tempclassName[0] == '#' and tempFileTxt[1:4] != 'END':
-                    print ("ERROR for <"+tempFileTxt+">,line:"+str(index))
+                    print ("ERROR for <"+tempFileTxt+">,line:"+str(index+1))
                     dialogs.show_message('VPtool',f'{vp2}' % (tempFileTxt))
                     restart()
                 else:
@@ -101,7 +124,7 @@ def tca(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods
                restart()
         if isClass:
             txtResult['key'] = tempTxt = tempFileTxt
-            txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = KeyName + str(valueIndex)
             targetClass['name'] = className
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}

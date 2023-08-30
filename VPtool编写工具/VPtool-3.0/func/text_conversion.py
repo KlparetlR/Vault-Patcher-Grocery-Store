@@ -1,58 +1,81 @@
 import os,codecs,copy,json,dialogs,sys,subprocess,re
 from LANG import zh_func_tc_text,zdy_gui_tc_text,zdyconfig
 
-def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_vaule):
-    def runtcGui():
-        global zdy,a0,vp1,vp2,vp3,vp4,vp5,vp6,vp7
+def tc(File_vaule,save_address_vaule,cGuilang_entry,tempauthors,tempname,tempdesc,tempmods):
+    global Packname,KeyName,valueIndex,authors,name,desc,mods
+    authors,name,desc,mods = tempauthors,tempname,tempdesc,tempmods
+    def runGui():
+        global zdy,a0,vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4
         zdy,a0 = zdyconfig()
         if cGuilang_entry == "中文简体":
-            vp1,vp2,vp3,vp4,vp5,vp6,vp7 = zh_func_tc_text()
+            vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4 = zh_func_tc_text()
         if cGuilang_entry == f"{zdy}":
-            vp1,vp2,vp3,vp4,vp5,vp6,vp7 = zdy_gui_tc_text()
-    runtcGui()
+            vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4 = zdy_gui_tc_text()
+    runGui()
     # 文件地址
-    filePath = icon_var
-    folderpath = FileGUI+'/%s/' % (vp1)
+    filePath = save_address_vaule
+    folderpath = File_vaule+'/%s/' % (vp1)
     fileName = os.path.basename(os.path.splitext(filePath)[0])
     # 文件初始内容
     fileTxtList = []
-    # 1号下标
-    index = 3
     # 类匹配开关
     isClass = False
     # 类名
     className = ''
     tempclassName = ' '
     # 包名备份
-    packname = ''
+    Packname = '@<Packname>'
     # 汉化占位基础文本
-    valueTxt = ''
+    KeyName = 'VP.modify.<Modid>.'
     # 基础字典模板
-    placeholder = {"authors": f"{authors_vaule}", "name": f"{name_vaule}", "desc": f"{desc_vaule}", "mods": f"{mods_vaule}"}
     targetClass = {'name': 'nametype', 'method': 'method', 'stack_depth': -1}
     # 最终结果输出
     resultList = []
     resultList2 = {}
+    # 起始值
+    valueIndex = 1
     # 重启tool
     def restart():
         subprocess.Popen([sys.executable] + sys.argv)
         sys.exit()
-    # 获取文件行内容
-    try:
-        with open(filePath, 'r', encoding='utf8') as f:
-            # 逐行读取加入列表
-            fileTxtList = f.read().splitlines()
-    except TypeError:
-        dialogs.show_message('VPtool',f'{vp7}')
-        print(f'{vp7}')
+    with open(filePath, 'r', encoding='utf8') as f:
+        # 逐行读取加入列表
+        fileTxtList = f.read().splitlines()
+        # 找到{#INFO}和{#VPCONFIG}的位置
+        start = fileTxtList.index("{#INFO}")
+        end = fileTxtList.index("{#VPCONFIG}")
+        # 截取{#INFO}和{#VPCONFIG}之间的内容
+        info = "\n".join(fileTxtList[(start+1) : end])
+        # 按行分割内容
+        lines = info.split("\n")
+        # 遍历每一行
+        for line in lines:
+            # 如果有等号
+            if "=" in line:
+                # 分割等号前后的内容
+                key, value = line.split("=")
+                # 去掉空格
+                key = key.strip()
+                value = value.strip()
+                if key in ["Packname", "KeyName", "valueIndex", "authors", "name", "desc", "mods"]:
+                    exec(f'globals()["{key}"] = "{value}"')
+                    exec(f'locals()["{key}"] = "{value}"')
+    if tempauthors != f"{vp8_a4}" and authors != tempauthors:
+        authors=tempauthors
+    if tempname == f"{vp8_a4}"and name!=tempname:
+        name=tempname
+    if tempdesc == f"{vp8_a4}"and desc!=tempdesc:
+        desc=tempdesc
+    if tempmods == f"{vp8_a4}"and mods != tempmods:
+        mods = tempmods
+    placeholder = {"authors": f"{authors}", "name": f"{name}", "desc": f"{desc}", "mods": f"{mods}"}
+    valueIndex = int(valueIndex)
     # nametype
-    packname = fileTxtList[0]
-    # value基础值
-    valueTxt = fileTxtList[1]
-    # 起始值
-    valueIndex = int(fileTxtList[2])
+    tempPackname = Packname
+    # 1号下标
+    index = end+1
     # 遍历文本内容
-    for _ in range(len(fileTxtList) - 3):
+    for _ in range(len(fileTxtList) - (end+1)):
         resultDictionaries = {}
         # 获取当前临时文本
         tempFileTxt = fileTxtList[index]
@@ -75,7 +98,7 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
                 continue
             elif tempclassName != ' ':
                 if tempclassName[0] == '#' and tempFileTxt[1:4] != 'END':
-                    print ("ERROR for <"+tempFileTxt+">,line:"+str(index))
+                    print ("ERROR for <"+tempFileTxt+">,line:"+str(index+1))
                     dialogs.show_message('VPtool',f'{vp2}' % (tempFileTxt))
                     restart()
                 else:
@@ -90,36 +113,43 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
             tempclassName = ' '
             index += 1
             continue
+        # 判断 包名有没有
+        packdata = "".join(re.findall(r"@(.+?);",tempFileTxt))
+        if packdata != "" and packdata != "bm" and not "@bm;" in tempFileTxt:
+            tempFileTxt = tempFileTxt.replace("@"+packdata+";","@bm;")
+            Packname = "@"+packdata
         # 后判断 method有没有
         methoddata = "".join(re.findall(r"&(.+?);",tempFileTxt))
-        if methoddata != "" and isClass != False:
-           tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
-        if methoddata != "" and isClass == False:
-           print ("ERROR for <&"+methoddata+";>,line:"+str(index))
-           yan = dialogs.ask_yes_no('VPtool',f'{vp3}' % (methoddata))
-           if yan == True:
+        if methoddata != "":
+            if isClass != False or packdata != "":
                tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
-               methoddata = ""
-           else:
-               restart()
+            if isClass == False and packdata == "":
+               print ("ERROR for <&"+methoddata+";>,line:"+str(index))
+               yan = dialogs.ask_yes_no('VPtool',f'{vp3}' % (methoddata))
+               if yan == True:
+                   tempFileTxt = tempFileTxt.replace("&"+methoddata+";","")
+                   methoddata = ""
+               else:
+                   restart()
         # 判断 堆键深度有没有
         Reactordata = "".join(re.findall(r":(.+?);",tempFileTxt))
-        if Reactordata != "" and isClass != False:
-           tempFileTxt = tempFileTxt.replace(":"+Reactordata+";","")
-        if Reactordata != "" and isClass == False:
-           print ("ERROR for <:"+Reactordata+";>,line:"+str(index))
-           yan = dialogs.ask_yes_no('VPtool',f'{vp6}' % (Reactordata))
-           if yan == True:
+        if Reactordata != "":
+            if isClass != False or packdata != "":
                tempFileTxt = tempFileTxt.replace(":"+Reactordata+";","")
-               Reactordata = ""
-           else:
-               restart()
+            if isClass == False and packdata == "":
+               print ("ERROR for <:"+Reactordata+";>,line:"+str(index))
+               yan = dialogs.ask_yes_no('VPtool',f'{vp6}' % (Reactordata))
+               if yan == True:
+                   tempFileTxt = tempFileTxt.replace(":"+Reactordata+";","")
+                   Reactordata = ""
+               else:
+                   restart()
         # 开启包名 和 半匹配 和 有类匹配(优先)
         if "@bm;" in tempFileTxt and "@;" in tempFileTxt and isClass:
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[2]
-            txtResult['value'] = tempTxt2 = "@" + valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = "@" + KeyName + str(valueIndex)
             targetClass['name'] = className
-            tempTxt3 = valueTxt + str(valueIndex)
+            tempTxt3 = KeyName + str(valueIndex)
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
             resultDictionaries.update(txtResult)
@@ -127,10 +157,10 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
             resultList2[tempTxt3] = tempTxt
         # 开启包名 和 半匹配 和 无类匹配
         elif "@bm;" in tempFileTxt and "@;" in tempFileTxt and isClass != True:
-            targetClass['name'] = packname
+            targetClass['name'] = Packname
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[2]
-            txtResult['value'] = tempTxt2 = "@" + valueTxt + str(valueIndex)
-            tempTxt3 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = "@" + KeyName + str(valueIndex)
+            tempTxt3 = KeyName + str(valueIndex)
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
             resultDictionaries.update(txtResult)
@@ -139,7 +169,7 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
         # 开启包名 和 有类匹配 类匹配优先
         elif "@bm;" in tempFileTxt and "@;" not in tempFileTxt and isClass:
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[1]
-            txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = KeyName + str(valueIndex)
             targetClass['name'] = className
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
@@ -148,9 +178,9 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
             resultList2[tempTxt2] = tempTxt
         # 开启包名 和 无类匹配
         elif "@bm;" in tempFileTxt and "@;" not in tempFileTxt and isClass != True:
-            targetClass['name'] = packname
+            targetClass['name'] = Packname
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[1]
-            txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = KeyName + str(valueIndex)
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
             resultDictionaries.update(txtResult)
@@ -159,9 +189,9 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
         # 开启半匹配 和 有类匹配
         elif "@;" in tempFileTxt and "@bm;" not in tempFileTxt and isClass:
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[1]
-            txtResult['value'] = tempTxt2 = "@" + valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = "@" + KeyName + str(valueIndex)
             targetClass['name'] = className
-            tempTxt3 = valueTxt + str(valueIndex)
+            tempTxt3 = KeyName + str(valueIndex)
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
             resultDictionaries.update(txtResult)
@@ -170,15 +200,15 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
         # 开启半匹配 和 无类匹配
         elif "@;" in tempFileTxt and "@bm;" not in tempFileTxt and isClass != True:
             txtResult['key'] = tempTxt = tempFileTxt.split(';')[1]
-            txtResult['value'] = tempTxt2 = "@" + valueTxt + str(valueIndex)
-            tempTxt3 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = "@" + KeyName + str(valueIndex)
+            tempTxt3 = KeyName + str(valueIndex)
             resultDictionaries.update(txtResult)
             resultList.append(resultDictionaries)
             resultList2[tempTxt3] = tempTxt
         # 纯类匹配
         elif '@;' and '@bm' not in tempFileTxt and isClass:
             txtResult['key'] = tempTxt = tempFileTxt
-            txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = KeyName + str(valueIndex)
             targetClass['name'] = className
             tempTargetClass = copy.deepcopy(targetClass)
             resultDictionaries = {'target_class': tempTargetClass}
@@ -188,14 +218,16 @@ def tc(FileGUI,icon_var,cGuilang_entry,authors_vaule,name_vaule,desc_vaule,mods_
         # 什么都不开 正常填入
         else:
             txtResult['key'] = tempTxt = tempFileTxt
-            txtResult['value'] = tempTxt2 = valueTxt + str(valueIndex)
+            txtResult['value'] = tempTxt2 = KeyName + str(valueIndex)
             resultDictionaries.update(txtResult)
             resultList.append(txtResult)
             resultList2[tempTxt2] = tempTxt
         targetClass['method'] = methoddata
         targetClass['stack_depth'] = Reactordata
+        Packname = tempPackname
         methoddata = ""
         Reactordata = ""
+        packdata = ""
         index += 1
         valueIndex += 1
     # 确保目标文件夹存在

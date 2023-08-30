@@ -1,5 +1,5 @@
 def zdyconfig():
-    zdy = "繁体中文"
+    zdy = "繁體中文"
     a0 = "0x404"
     return zdy,a0
 def zdyguitext():
@@ -18,7 +18,7 @@ def zdyguitext():
     a12 ="此翻譯名稱"
     a13 ="此翻譯描述"
     a14 ="翻譯的模組"
-    a15 ="選定"
+    a15 ="json配置&lang文件合并"
     a16 ="生成"
     a17 ="2.10版-文字轉json"
     a18 ="asm版-文字轉json"
@@ -26,7 +26,9 @@ def zdyguitext():
     a20 ="開始運行功能："
     a21 ="功能選擇"
     a22 = "Gui主題"
-    return info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22
+    a23 = "硬编码配置逆向提取"
+    a24 = "lang文件必填"
+    return info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24
 def zdy_gui_tc_text():
     vp1 ="硬編碼配寘"
     vp2 ="轉換時出現錯誤！請檢查類匹配的#END有沒有漏！\nERROR for <%s>"
@@ -35,7 +37,8 @@ def zdy_gui_tc_text():
     vp5 ="VPtool成功將 %s.txt 檔案轉換為 VP或HP模組 的配寘格式。\n並儲存在%s目錄中。"
     vp6 = "轉換時出現問題！堆鍵深度值不在類匹配的範圍內！\nERROR for <&%s;>，是否繼續轉化？"
     vp7 = "檔案無法訪問，可能是資料夾設為只讀或其它問題！"
-    return vp1,vp2,vp3,vp4,vp5,vp6,vp7
+    vp8_a4 = "(选填)"
+    return vp1,vp2,vp3,vp4,vp5,vp6,vp7,vp8_a4
 def zdy_gui_tca_text():
     vp8 = "key：%s，不在類匹配範圍內，囙此替換不生效，是否跳過該key"
     return vp8
@@ -59,3 +62,9 @@ def zdy_gui_lse_text():
     lse17 ="按回車鍵繼續…"
     lse18 ="完成！"
     return lse1,lse2,lse3,lse4,lse5,lse6,lse7,lse8,lse9,lse10,lse11,lse12,lse13,lse14,lse15,lse16,lse17,lse18
+def zdy_func_cre_text():
+    cre1 = "VPtool 成功将 %s.json 文件转换为 VPtool 的配置格式。\n并储存在 %s 目录中。"
+    return cre1
+def zdy_func_kmm_text():
+    kmm1 = "json配置&lang文件合并成功~"
+    return kmm1
