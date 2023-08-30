@@ -108,7 +108,7 @@ if __name__ == "__main__":
             info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24 = zhguitext()
         if cGuilang_entry.get() == f"{zdy}":
             info,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24 = zdyguitext()
-        func_list_data =[f"{a17}",f"{a18}",f"{a19}",f"{a23}"]
+        func_list_data =[f"{a17}",f"{a18}",f"{a19}",f"{a23}",f"{a15}"]
         file_lb.config(text=a1)
         saveButton.config(text=a16)
         mods_lb.config(text=a14)

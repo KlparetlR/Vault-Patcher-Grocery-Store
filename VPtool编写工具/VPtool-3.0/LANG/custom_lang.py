@@ -3,7 +3,7 @@ def zdyconfig():
     a0 = "0x404"
     return zdy,a0
 def zdyguitext():
-    info = "*-*<對應版本：1.2.10+>*-*\n專案儲存庫：GitHub-/KlparetlR/Vault-Patcher-Grocery-Store \n專門為 VP 模組而生的設定編寫工具 GitHub-3093FengMing/VaultPatcher \n作者及版權方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian、3093FengMing，技術支援：XDawned\nFabric 版本：GitHub-LocalizedMC/HardcodeTextPatcher-Fabric \n彈出式視窗使用：GitHub-rdbende/Sun-Valley-messageboxes"
+    info = "*-*<對應版本：1.2.10+>*-*\n專案儲存庫：GitHub-/KlparetlR/Vault-Patcher-Grocery-Store \n專門為 VP 模組而生的設定編寫工具 GitHub-3093FengMing/VaultPatcher \n作者及版權方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian、3093FengMing，技術支援：XDawned\nFabric 版本：GitHub-LocalizedMC/HardcodeTextPatcher-Fabric \n彈出式視窗使用：GitHub-rdbende/Sun-Valley-messageboxes\n繁體漢化：StarskyXIII"
     a1 ="欲處理的檔案"
     a2 ="選擇欲儲存的資料夾路徑"
     a3 ="（必填）"

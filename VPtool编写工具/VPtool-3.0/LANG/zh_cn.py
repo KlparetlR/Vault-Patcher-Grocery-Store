@@ -1,5 +1,5 @@
 def zhguitext():
-    info = "*-*<适配版本：1.2.10+>*-*\n项目地址：github-KlparetlR/Vault-Patcher-Grocery-Store \n专门为VP模组而生的配置编写工具github-3093FengMing/VaultPatcher\n作者及版权方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian、3093FengMing, 技术辅助：XDawned\nFabric通用github-LocalizedMC/HardcodeTextPatcher-Fabric\n弹窗使用github-rdbende/Sun-Valley-messageboxes"
+    info = "*-*<适配版本：1.2.10+>*-*\n项目地址：github-KlparetlR/Vault-Patcher-Grocery-Store \n专门为VP模组而生的配置编写工具github-3093FengMing/VaultPatcher\n作者及版权方：晴笙墨染（莫安）、KlparetlR、捂脸Wulian、3093FengMing, 技术辅助：XDawned\nFabric通用github-LocalizedMC/HardcodeTextPatcher-Fabric\n弹窗使用github-rdbende/Sun-Valley-messageboxes\n繁体汉化：StarskyXIII"
     a1 = "处理的文件"
     a2 = "选择要保存的文件夹地址"
     a3 = "(必填)"
