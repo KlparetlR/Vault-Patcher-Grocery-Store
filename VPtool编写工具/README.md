@@ -12,10 +12,6 @@ GUI场外援助:Wulian、捂脸、VM汉化组Wulian、VM汉化组捂脸、网站
 
 ttk UI用了sv-ttk模块，没有会自己下载
 
-## 支持VP模组的移植[Fabric版](https://github.com/LocalizedMC/HardcodePatcher),（在选择模组加载器格式窗口单击Fabric）
-
-提出支持Fabric的是TexTrue，编写这部分的是KlparetlR
-
 ## 支持的语言 Supported languages
 
 目前仅支持中文和繁体，如果想要其他语言，可以评论表达你要的语种（顺便把内容翻译给我）
@@ -48,17 +44,19 @@ Currently, only Chinese is supported. If you want other languages, you can comme
 }
 ```
 
-#### 第一行（包名匹配模块）
+#### 第一行
 
-第一行的内容（以`@`开头的内容）将替换`target_class`中的`name`的值，即`nametype` = 第一行的内容。作为全局的文本来使用。触发功能前缀：`@bm;`
+第一行的内容必須是{#INFO}
 
-#### 第二行（将按数字顺序输出`value`的基础内容）
+从{#INFO}到{#VPCONFIG}之间的内容，只支持Packname、KeyName、valueIndex、authors、name、desc、mods，格式为`XXX=XXX`,=之前是刚刚列举的这几个，=后面他们的值
 
-这部分你可以像lang文件那样取名，比如：`namespace.modify.the_vault.`，这会作为第三行实数排序的前缀。
+`Packname`填以`@`开头的包名，详见包名匹配(`@bm;`)段落
 
-#### 第三行（按 数字顺序 输出`value`的后缀）
+`KeyName`是value的基础键名，后面加上`valueIndex`
 
-将第二行的内容作为前缀，只允许填入初始实数，从这个数字开始会按顺序往后排，然后做为后缀填入`value`，即`value` = 第二行内容+第三行内容。
+authors、name、desc、mods懂的都懂
+
+其中`valueIndex`只能填**数字**，是key的编号
 
 举例一个基础配置：
 
@@ -86,15 +84,17 @@ Currently, only Chinese is supported. If you want other languages, you can comme
 }
 ```
 
-#### 第四行以下
+#### VP的key配置內容（{#VPCONFIG}以下的內容）
 
 格式为：`功能前缀`+`key`。当然你也可以只输入`key`，这样就会输出没有开启任何功能的配置文本（`target_class`的那一类内容也不会出现,且全匹配模式）
 
 [第三行](https://gist.github.com/KlparetlR/b7aa7c3004852575683ce9b3338db604#第三行按-数字顺序-输出value的后缀)举例的`.txt`文件配置：
 ```txt
-@iskallia.vault
-namespace.modify.the_vault.
-1
+{#INFO}
+Packname=@iskallia.vault
+KeyName=namespace.modify.the_vault.
+valueIndex=1
+{#VPCONFIG}
 Abilities
 Archetypes
 Researches
@@ -108,13 +108,15 @@ Researches
 
 在`功能前缀`部分填入`@;`即可。兼容 包名匹配 和 类匹配。
 
-#### 包名匹配(`@bm;`)
+#### 包名匹配(`@bm;`)[Packname]
 
 注意：1.2.10版本及以下的 类匹配 和 包名匹配 都与 堆键深度 绑定，不填写没效果
 
-在`功能前缀`部分填入`@bm;`即可。不兼容`类匹配`，如果你两个功能都开了，工具也不会报错，它设定`类匹配`的优先级最高，处理时,`包名匹配`不会体现。
+在`功能前缀`部分填入`@bm;`为调用**基础**包名。不兼容`类匹配`，如果你两个功能都开了，工具也不会报错，它设定`类匹配`的优先级最高，处理时,`包名匹配`不会体现。
 
-包名如何获取：打开你要汉化硬编码的模组.jar文件，找到其中放有大量`.class`文件的文件夹（最好能看见与模组名相关的`.class`文件，比如模组名：XPCoins，找到XPCoins.class文件所在的目录），将这个文件夹的地址复制，大致是XXX.jar\ `com\coldspell\xpcoins`，不同模组存`.class`文件的文件夹名可能不同（没有com文件夹），要自己辨别，接着把`\`全部改成`。`并把`XXX.jar\`删掉，最后在原始文件中的第一行输入`@文件夹地址`,比如`@com.coldspell.xpcoins`或者`@iskallia.vault`
+自定义包名只需要`@<内容>;`即可，只作用于这个key
+
+**基础**包名如何获取：打开你要汉化硬编码的模组.jar文件，找到其中放有大量`.class`文件的文件夹（最好能看见与模组名相关的`.class`文件，比如模组名：XPCoins，找到XPCoins.class文件所在的目录），将这个文件夹的地址复制，大致是XXX.jar\ `com\coldspell\xpcoins`，不同模组存`.class`文件的文件夹名可能不同（没有com文件夹），要自己辨别，接着把`\`全部改成`。`并把`XXX.jar\`删掉，最后在原始文件中的第一行输入`@文件夹地址`,比如`@com.coldspell.xpcoins`或者`@iskallia.vault`
 
 PS：相当于java中的package，所以他不单单是上面的`@com.coldspell.xpcoins`或者`@iskallia.vault`，还可以像内容根地址一样深入一些，比如`@iskallia.vault.core.vault.player`
 
@@ -145,15 +147,21 @@ PS：有时候不一定有方法名
 注意：1.2.10版本及以下的 类匹配 和 包名匹配 都与 堆键深度 绑定，不填写没效果
 
 #### 全功能配置文件
-```txt
-@iskallia.vault
-namespace.modify.the_vault.
-1
+{#INFO}
+Packname=@ppk
+KeyName=VP.modify.ppk.
+valueIndex=2
+authors=PY_VAR2
+name=PY_VAR3
+desc=PY_VAR4
+mods=PY_VAR5
+{#VPCONFIG}
 \"ahsg\"
 KEY
 @;KEY
 @bm;KEY
-@bm@;key
+@iskally.kksk;@;key
+@bm;@;key
 #A
 &mt1;KEY
 @;&mt2;KEY
@@ -180,8 +188,10 @@ KEY:28;
 
 #### 全功能配置文件
 ```txt
-namespace.modify.the_vault.
-1
+{#INFO}
+KeyName=VP.modify.ppk.
+valueIndex=1
+{#VPCONFIG}
 #A
 &mt1;KEY
 &mt2;KEY
@@ -203,4 +213,12 @@ key
 
 在必填的两栏填上，模组.jar和保存文件地址，运行过程需要java环境，需要自己配置系统环境，如果出现`javap`不可用，请自己上网搜索（要填的更细）
 
-模组QQ交流群：点击链接加入群聊【Vault Patcher 模组讨论群】：https://jq.qq.com/?_wv=1027&k=3Slm2Zso
+### 硬编码配置逆向提取
+
+将VP的配置文件输入就可以提取为VPtool的文本格式，如果有用键名，请输入lang文件，来合并
+
+### json配置&lang文件合并
+
+输入lang文件与VP的配置文件，合并后，消除键名
+
+模组QQ交流群：点击链接加入群聊[Vault Patcher 模组讨论群](https://jq.qq.com/?_wv=1027&k=3Slm2Zso)
