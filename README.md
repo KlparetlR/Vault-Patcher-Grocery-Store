@@ -20,7 +20,8 @@
 
 ## 配置及翻译上传的要求及格式
 
-请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/<CurseForge 项目名称>
+请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/<CurseForge 项目名称>`
+
 PR格式为`<模组英文名> <简述>`
 
 json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"，并且**对"mods"有内容限定**
