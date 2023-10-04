@@ -1,0 +1,2300 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "Jetpack Cat整合包汉化",
+        "desc": "VP1.3.3+可启用，VPGS开源（半汉化）",
+        "mods": "XPCoins (FORGE-1.16.4) v1.0.7",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.CardsHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Six of Clubs",
+                "value": "梅花 6"
+            },
+            {
+                "key": "King of Diamonds",
+                "value": "方块 K"
+            },
+            {
+                "key": "Jack of Spades",
+                "value": "黑桃 J"
+            },
+            {
+                "key": "Nine of Clubs",
+                "value": "梅花 9"
+            },
+            {
+                "key": "Four of Spades",
+                "value": "黑桃 4"
+            },
+            {
+                "key": "Ace of Diamonds",
+                "value": "方块 A"
+            },
+            {
+                "key": "Eight of Diamonds",
+                "value": "方块 8"
+            },
+            {
+                "key": "Five of Hearts",
+                "value": "红桃 5"
+            },
+            {
+                "key": "Three of Spades",
+                "value": "黑桃 3"
+            },
+            {
+                "key": "Queen of Clubs",
+                "value": "梅花 Q"
+            },
+            {
+                "key": "Three of Clubs",
+                "value": "梅花 3"
+            },
+            {
+                "key": "Seven of Diamonds",
+                "value": "方块 7"
+            },
+            {
+                "key": "King of Clubs",
+                "value": "梅花 K"
+            },
+            {
+                "key": "Queen of Spades",
+                "value": "黑桃 Q"
+            },
+            {
+                "key": "Ace of Hearts",
+                "value": "红心 A"
+            },
+            {
+                "key": "Four of Clubs",
+                "value": "梅花 4"
+            },
+            {
+                "key": "Six of Spades",
+                "value": "黑桃 6"
+            },
+            {
+                "key": "Four of Diamonds",
+                "value": "方块 4"
+            },
+            {
+                "key": "Two of Spades",
+                "value": "黑桃 2"
+            },
+            {
+                "key": "Ace of Spades",
+                "value": "黑桃 A"
+            },
+            {
+                "key": "Two of Clubs",
+                "value": "梅花 2"
+            },
+            {
+                "key": "Queen of Diamonds",
+                "value": "方块 Q"
+            },
+            {
+                "key": "Five of Spades",
+                "value": "黑桃 5"
+            },
+            {
+                "key": "Seven of Clubs",
+                "value": "梅花 7"
+            },
+            {
+                "key": "Six of Hearts",
+                "value": "红心 6"
+            },
+            {
+                "key": "Nine of Hearts",
+                "value": "红心 9"
+            },
+            {
+                "key": "Jack of Diamonds",
+                "value": "方块 J"
+            },
+            {
+                "key": "Ten of Spades",
+                "value": "黑桃 10"
+            },
+            {
+                "key": "King of Hearts",
+                "value": "红心 K"
+            },
+            {
+                "key": "Three of Diamonds",
+                "value": "方块 3"
+            },
+            {
+                "key": "Five of Clubs",
+                "value": "梅花 5"
+            },
+            {
+                "key": "Eight of Hearts",
+                "value": "红心 8"
+            },
+            {
+                "key": "Six of Diamonds",
+                "value": "方块 6"
+            },
+            {
+                "key": "Nine of Diamonds",
+                "value": "方块 9"
+            },
+            {
+                "key": "Queen of Hearts",
+                "value": "红心 Q"
+            },
+            {
+                "key": "Ten of Clubs",
+                "value": "梅花 10"
+            },
+            {
+                "key": "Ten of Diamonds",
+                "value": "方块 10"
+            },
+            {
+                "key": "Two of Diamonds",
+                "value": "方块 2"
+            },
+            {
+                "key": "Jack of Clubs",
+                "value": "梅花J"
+            },
+            {
+                "key": "Eight of Clubs",
+                "value": "梅花 8"
+            },
+            {
+                "key": "Jack of Hearts",
+                "value": "红心J"
+            },
+            {
+                "key": "Ten of Hearts",
+                "value": "红心 10"
+            },
+            {
+                "key": "Eight of Spades",
+                "value": "黑桃 8"
+            },
+            {
+                "key": "Five of Diamonds",
+                "value": "方块 5"
+            },
+            {
+                "key": "Nine of Spades",
+                "value": "黑桃 9"
+            },
+            {
+                "key": "Three of Hearts",
+                "value": "红心 3"
+            },
+            {
+                "key": "Ace of Clubs",
+                "value": "梅花 A"
+            },
+            {
+                "key": "Seven of Hearts",
+                "value": "红心 7"
+            },
+            {
+                "key": "King of Spades",
+                "value": "黑桃 K"
+            },
+            {
+                "key": "Two of Hearts",
+                "value": "红桃 2"
+            },
+            {
+                "key": "Seven of Spades",
+                "value": "黑桃 7"
+            },
+            {
+                "key": "Four of Hearts",
+                "value": "红心 4"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.TwentyOneHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Six of Clubs",
+                "value": "梅花 6"
+            },
+            {
+                "key": "King of Diamonds",
+                "value": "方块 K"
+            },
+            {
+                "key": "Jack of Spades",
+                "value": "黑桃 J"
+            },
+            {
+                "key": "Nine of Clubs",
+                "value": "梅花 9"
+            },
+            {
+                "key": "Four of Spades",
+                "value": "黑桃 4"
+            },
+            {
+                "key": "Ace of Diamonds",
+                "value": "方块 A"
+            },
+            {
+                "key": "Eight of Diamonds",
+                "value": "方块 8"
+            },
+            {
+                "key": "Five of Hearts",
+                "value": "红桃 5"
+            },
+            {
+                "key": "Three of Spades",
+                "value": "黑桃 3"
+            },
+            {
+                "key": "Queen of Clubs",
+                "value": "梅花 Q"
+            },
+            {
+                "key": "Three of Clubs",
+                "value": "梅花 3"
+            },
+            {
+                "key": "Seven of Diamonds",
+                "value": "方块 7"
+            },
+            {
+                "key": "King of Clubs",
+                "value": "梅花 K"
+            },
+            {
+                "key": "Queen of Spades",
+                "value": "黑桃 Q"
+            },
+            {
+                "key": "Ace of Hearts",
+                "value": "红心 A"
+            },
+            {
+                "key": "Four of Clubs",
+                "value": "梅花 4"
+            },
+            {
+                "key": "Six of Spades",
+                "value": "黑桃 6"
+            },
+            {
+                "key": "Four of Diamonds",
+                "value": "方块 4"
+            },
+            {
+                "key": "Two of Spades",
+                "value": "黑桃 2"
+            },
+            {
+                "key": "Ace of Spades",
+                "value": "黑桃 A"
+            },
+            {
+                "key": "Two of Clubs",
+                "value": "梅花 2"
+            },
+            {
+                "key": "Queen of Diamonds",
+                "value": "方块 Q"
+            },
+            {
+                "key": "Five of Spades",
+                "value": "黑桃 5"
+            },
+            {
+                "key": "Seven of Clubs",
+                "value": "梅花 7"
+            },
+            {
+                "key": "Six of Hearts",
+                "value": "红心 6"
+            },
+            {
+                "key": "Nine of Hearts",
+                "value": "红心 9"
+            },
+            {
+                "key": "Jack of Diamonds",
+                "value": "方块 J"
+            },
+            {
+                "key": "Ten of Spades",
+                "value": "黑桃 10"
+            },
+            {
+                "key": "King of Hearts",
+                "value": "红心 K"
+            },
+            {
+                "key": "Three of Diamonds",
+                "value": "方块 3"
+            },
+            {
+                "key": "Five of Clubs",
+                "value": "梅花 5"
+            },
+            {
+                "key": "Eight of Hearts",
+                "value": "红心 8"
+            },
+            {
+                "key": "Six of Diamonds",
+                "value": "方块 6"
+            },
+            {
+                "key": "Nine of Diamonds",
+                "value": "方块 9"
+            },
+            {
+                "key": "Queen of Hearts",
+                "value": "红心 Q"
+            },
+            {
+                "key": "Ten of Clubs",
+                "value": "梅花 10"
+            },
+            {
+                "key": "Ten of Diamonds",
+                "value": "方块 10"
+            },
+            {
+                "key": "Two of Diamonds",
+                "value": "方块 2"
+            },
+            {
+                "key": "Jack of Clubs",
+                "value": "梅花J"
+            },
+            {
+                "key": "Eight of Clubs",
+                "value": "梅花 8"
+            },
+            {
+                "key": "Jack of Hearts",
+                "value": "红心J"
+            },
+            {
+                "key": "Ten of Hearts",
+                "value": "红心 10"
+            },
+            {
+                "key": "Eight of Spades",
+                "value": "黑桃 8"
+            },
+            {
+                "key": "Five of Diamonds",
+                "value": "方块 5"
+            },
+            {
+                "key": "Nine of Spades",
+                "value": "黑桃 9"
+            },
+            {
+                "key": "Three of Hearts",
+                "value": "红心 3"
+            },
+            {
+                "key": "Ace of Clubs",
+                "value": "梅花 A"
+            },
+            {
+                "key": "Seven of Hearts",
+                "value": "红心 7"
+            },
+            {
+                "key": "King of Spades",
+                "value": "黑桃 K"
+            },
+            {
+                "key": "Two of Hearts",
+                "value": "红桃 2"
+            },
+            {
+                "key": "Seven of Spades",
+                "value": "黑桃 7"
+            },
+            {
+                "key": "Four of Hearts",
+                "value": "红心 4"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.CardDraw",
+            "method": "func_77659_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer picked the ",
+                "value": "庄家选择了"
+            },
+            {
+                "key": "You picked the ",
+                "value": "你选择了"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.CardsHighLow",
+            "method": "func_77659_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer picked the ",
+                "value": "庄家选择了"
+            },
+            {
+                "key": "You picked the ",
+                "value": "你选择了"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.DiceHighLow",
+            "method": "func_77659_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer Rolled ",
+                "value": "庄家摇了"
+            },
+            {
+                "key": "! For a total of ",
+                "value": "！共计"
+            },
+            {
+                "key": "You Rolled ",
+                "value": "你摇了"
+            },
+            {
+                "key": "You beat the Dealer (",
+                "value": "您赢掉了庄家 ("
+            },
+            {
+                "key": "You beat the Dealer ",
+                "value": "您赢掉了庄家"
+            },
+            {
+                "key": " by Rolling a High Prediction!",
+                "value": "的结果，因为摇到高预测！"
+            },
+            {
+                "key": " by Rolling a Low Prediction!",
+                "value": "的结果，因为摇到低预测！"
+            },
+            {
+                "key": "You lost to the Dealer ",
+                "value": "你输给了庄家"
+            },
+            {
+                "key": " to ",
+                "value": "比"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.DoubleOrNothing",
+            "method": "func_77659_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Heads! You Win! (",
+                "value": "正面！你赢了！("
+            },
+            {
+                "key": " Coins)",
+                "value": " 个经验币)"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.LuckyDice",
+            "method": "func_77659_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "You rolled a ",
+                "value": "你掷了一个"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.TwentyOneOrNine",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": ") Dealer is showing a ",
+                "value": ") 专家展示了一张"
+            },
+            {
+                "key": ") You've drawn a ",
+                "value": ") 你抽了一张"
+            },
+            {
+                "key": " and a ",
+                "value": "以及一张"
+            },
+            {
+                "key": ") Dealer reveals a ",
+                "value": ") 庄家揭示了一张"
+            },
+            {
+                "key": ") Dealer has drawn a ",
+                "value": ") 庄家抽了一张"
+            },
+            {
+                "key": "Dealer Wins (",
+                "value": "庄家获胜 ("
+            },
+            {
+                "key": " to ",
+                "value": " 比 "
+            },
+            {
+                "key": "You WIN 2 Coins (",
+                "value": "你赢得了2个经验币 ("
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.CoinGameHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "You Lost with a score of ",
+                "value": "您输掉的分数是"
+            },
+            {
+                "key": "You Won with a score of ",
+                "value": "您赢掉的分数是"
+            },
+            {
+                "key": "!  You Won 3X your Bet!",
+                "value": "！ 您赢了 3 倍的赌注！"
+            },
+            {
+                "key": " to the computer score of ",
+                "value": "，电脑比分为"
+            },
+            {
+                "key": "!  You Won 2X your Bet!",
+                "value": "！  您赢了 2 倍赌注！"
+            },
+            {
+                "key": "!  You lost your Coin!",
+                "value": "！  您失去了你的经验币！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.FortuneHelperWeakDrops",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Probability of being seen directly proportional to stupidity of act.",
+                "value": "※Probability of being seen directly proportional to stupidity of act."
+            },
+            {
+                "key": "Go confidently in the direction of your dreams.",
+                "value": "※Go confidently in the direction of your dreams."
+            },
+            {
+                "key": "Love is as necessary as food and shelter.",
+                "value": "※Love is as necessary as food and shelter."
+            },
+            {
+                "key": "May all your trades be great!",
+                "value": "※May all your trades be great!"
+            },
+            {
+                "key": "Only difference between a rut and a grave is depth.",
+                "value": "※Only difference between a rut and a grave is depth."
+            },
+            {
+                "key": "Practice safe eating. Always use condiments.",
+                "value": "※Practice safe eating. Always use condiments."
+            },
+            {
+                "key": "Don't eat the paper. (Paper)",
+                "value": "※Don't eat the paper. (Paper)"
+            },
+            {
+                "key": "You can open doors with your charm and patience.",
+                "value": "※You can open doors with your charm and patience."
+            },
+            {
+                "key": "Most people never run far enough on their first wind to find out they've got a second.",
+                "value": "※Most people never run far enough on their first wind to find out they've got a second."
+            },
+            {
+                "key": "There is no mistake so great as that of being always right.",
+                "value": "※There is no mistake so great as that of being always right."
+            },
+            {
+                "key": "Money will come to you when you are doing the right thing.",
+                "value": "※Money will come to you when you are doing the right thing."
+            },
+            {
+                "key": "Very Rare Fortune Cookie: ",
+                "value": "非常稀有的幸运饼干："
+            },
+            {
+                "key": "At times, it is better to know when to exit than when to enter.",
+                "value": "※At times, it is better to know when to exit than when to enter."
+            },
+            {
+                "key": "No matter what your past has been, you a have a spotless future.",
+                "value": "※No matter what your past has been, you a have a spotless future."
+            },
+            {
+                "key": "Stop wishing. Start doing.",
+                "value": "※Stop wishing. Start doing."
+            },
+            {
+                "key": "Your worst enemy has a crush on you!",
+                "value": "※Your worst enemy has a crush on you!"
+            },
+            {
+                "key": "A closed mouth gathers no feet.",
+                "value": "※A closed mouth gathers no feet."
+            },
+            {
+                "key": "Put your unhappiness aside. Life is beautiful, be happy.",
+                "value": "※Put your unhappiness aside. Life is beautiful, be happy."
+            },
+            {
+                "key": "Someone will invite you to a Karaoke party.",
+                "value": "※Someone will invite you to a Karaoke party."
+            },
+            {
+                "key": "Person who give self-haircut after rice wine will be buzzed.",
+                "value": "※Person who give self-haircut after rice wine will be buzzed."
+            },
+            {
+                "key": "Uncommon Fortune Cookie: ",
+                "value": "不寻常的幸运饼干："
+            },
+            {
+                "key": "The wise man is the one that makes you think that he is dumb.",
+                "value": "※The wise man is the one that makes you think that he is dumb."
+            },
+            {
+                "key": "Big journeys begin with a single step.",
+                "value": "※Big journeys begin with a single step."
+            },
+            {
+                "key": "Soon, a visitor shall delight you.",
+                "value": "※Soon, a visitor shall delight you."
+            },
+            {
+                "key": "Before you can be reborn you must die.",
+                "value": "※Before you can be reborn you must die."
+            },
+            {
+                "key": "Bad luck and misfortune will follow you.",
+                "value": "※Bad luck and misfortune will follow you."
+            },
+            {
+                "key": "He who laughs last is laughing at you.",
+                "value": "※He who laughs last is laughing at you."
+            },
+            {
+                "key": "People who are late are often happier than those who have to wait for them.",
+                "value": "※People who are late are often happier than those who have to wait for them."
+            },
+            {
+                "key": "A ship in harbor is safe, but that's not why ships are built.",
+                "value": "※A ship in harbor is safe, but that's not why ships are built."
+            },
+            {
+                "key": "If at first you don't succeed, skydiving not for you.",
+                "value": "※If at first you don't succeed, skydiving not for you."
+            },
+            {
+                "key": "Patience is a virtue, unless its against a brick wall.",
+                "value": "※Patience is a virtue, unless its against a brick wall."
+            },
+            {
+                "key": "Nothing is impossible to a willing heart.",
+                "value": "※Nothing is impossible to a willing heart."
+            },
+            {
+                "key": "Circumstance does not make the man; it reveals him to himself.",
+                "value": "※Circumstance does not make the man; it reveals him to himself."
+            },
+            {
+                "key": "Do not let what you do not have prevent you from using what you do have.",
+                "value": "※Do not let what you do not have prevent you from using what you do have."
+            },
+            {
+                "key": "The greatest risk is not taking one.",
+                "value": "※The greatest risk is not taking one."
+            },
+            {
+                "key": "Your fortune is as sweet as a cookie.",
+                "value": "※Your fortune is as sweet as a cookie."
+            },
+            {
+                "key": "Don't pursue happiness... create it.",
+                "value": "※Don't pursue happiness... create it."
+            },
+            {
+                "key": "You have the deepest interest in all that is artistic.",
+                "value": "※You have the deepest interest in all that is artistic."
+            },
+            {
+                "key": "Tomorrow at breakfast, listen carefully: do what rice krispies tell you to.",
+                "value": "※Tomorrow at breakfast, listen carefully: do what rice krispies tell you to."
+            },
+            {
+                "key": "You will conquer obstacles to achieve success.",
+                "value": "※You will conquer obstacles to achieve success."
+            },
+            {
+                "key": "One that would have the fruit must climb the tree.",
+                "value": "※One that would have the fruit must climb the tree."
+            },
+            {
+                "key": "Some men dream of fortunes, others dream of cookies.",
+                "value": "※Some men dream of fortunes, others dream of cookies."
+            },
+            {
+                "key": "A conclusion is simply the place where you got tired of thinking.",
+                "value": "※A conclusion is simply the place where you got tired of thinking."
+            },
+            {
+                "key": "Rarely do great beauty and great virtue dwell together as they do in you.",
+                "value": "※Rarely do great beauty and great virtue dwell together as they do in you."
+            },
+            {
+                "key": "You will soon witness a miracle",
+                "value": "※You will soon witness a miracle"
+            },
+            {
+                "key": "Stay true to those who would do the same for you.",
+                "value": "※Stay true to those who would do the same for you."
+            },
+            {
+                "key": "A fanatic is one who can't change his mind and won't change the subject.",
+                "value": "※A fanatic is one who can't change his mind and won't change the subject."
+            },
+            {
+                "key": "Extremely Rare Fortune Cookie: ",
+                "value": "极其稀有的幸运饼干："
+            },
+            {
+                "key": "Don't worry about money. The best things in life are free.",
+                "value": "※Don't worry about money. The best things in life are free."
+            },
+            {
+                "key": "The usefulness of a cup is in its emptiness.",
+                "value": "※The usefulness of a cup is in its emptiness."
+            },
+            {
+                "key": "Old friends make best friends",
+                "value": "※Old friends make best friends"
+            },
+            {
+                "key": "You will be hungry again in one hour.",
+                "value": "※You will be hungry again in one hour."
+            },
+            {
+                "key": "Ones always regrets what could have done. Remember for next time.",
+                "value": "※Ones always regrets what could have done. Remember for next time."
+            },
+            {
+                "key": "You are a hero to someone!",
+                "value": "※You are a hero to someone!"
+            },
+            {
+                "key": "If you have kleptomania. Take something for it.",
+                "value": "※If you have kleptomania. Take something for it."
+            },
+            {
+                "key": "If you look back, you'll soon be going that way.",
+                "value": "※If you look back, you'll soon be going that way."
+            },
+            {
+                "key": "Some days you are pigeon, some days you are statue. Today, bring umbrella.",
+                "value": "※Some days you are pigeon, some days you are statue. Today, bring umbrella."
+            },
+            {
+                "key": "Fortune not found? Abort, Retry, Ignore.",
+                "value": "※Fortune not found? Abort, Retry, Ignore."
+            },
+            {
+                "key": "Everyday is a new day, but tomorrow is never promised.",
+                "value": "※Everyday is a new day, but tomorrow is never promised."
+            },
+            {
+                "key": "Of all our human resources, the most precious is the desire to improve.",
+                "value": "※Of all our human resources, the most precious is the desire to improve."
+            },
+            {
+                "key": "Love is free. Lust will cost you everything you have.",
+                "value": "※Love is free. Lust will cost you everything you have."
+            },
+            {
+                "key": "I have a dream....Time to go to bed.",
+                "value": "※I have a dream....Time to go to bed."
+            },
+            {
+                "key": "You don't need strength to let go of something. What you really need is understanding.",
+                "value": "※You don't need strength to let go of something. What you really need is understanding."
+            },
+            {
+                "key": "The gods have smiled upon you!",
+                "value": "※The gods have smiled upon you!"
+            },
+            {
+                "key": "Ninety-nine percent of all lawyers give the rest a bad name.",
+                "value": "※Ninety-nine percent of all lawyers give the rest a bad name."
+            },
+            {
+                "key": "The secret to staying young is good health and lying about your age.",
+                "value": "※The secret to staying young is good health and lying about your age."
+            },
+            {
+                "key": "To determine whether someone is beautiful is not by looking at their appearance, but their heart.",
+                "value": "※To determine whether someone is beautiful is not by looking at their appearance, but their heart."
+            },
+            {
+                "key": "The cooler you think you are the dumber you look",
+                "value": "※The cooler you think you are the dumber you look"
+            },
+            {
+                "key": "Land is always on the mind of a flying bird.",
+                "value": "※Land is always on the mind of a flying bird."
+            },
+            {
+                "key": "The greatest danger could be your stupidity.",
+                "value": "※The greatest danger could be your stupidity."
+            },
+            {
+                "key": "Everyone agrees you are the best.",
+                "value": "※Everyone agrees you are the best."
+            },
+            {
+                "key": "A golden egg of opportunity falls into your lap this month.",
+                "value": "※A golden egg of opportunity falls into your lap this month."
+            },
+            {
+                "key": "Do not mistake temptation for opportunity.",
+                "value": "※Do not mistake temptation for opportunity."
+            },
+            {
+                "key": "You will travel to many exotic places in your lifetime.",
+                "value": "※You will travel to many exotic places in your lifetime."
+            },
+            {
+                "key": "The older you get, the better you were.",
+                "value": "※The older you get, the better you were."
+            },
+            {
+                "key": "Hardly anyone knows how much is gained by ignoring the future.",
+                "value": "※Hardly anyone knows how much is gained by ignoring the future."
+            },
+            {
+                "key": "Be direct,usually one can accomplish more that way.",
+                "value": "※Be direct,usually one can accomplish more that way."
+            },
+            {
+                "key": "The problem with resisting temptation is that it may never come again.",
+                "value": "※The problem with resisting temptation is that it may never come again."
+            },
+            {
+                "key": "Your road to glory will be rocky but fulfilling.",
+                "value": "※Your road to glory will be rocky but fulfilling."
+            },
+            {
+                "key": "He who throws dirt is losing ground. (DIRT)",
+                "value": "※He who throws dirt is losing ground. (DIRT)"
+            },
+            {
+                "key": "Tension is who you think you should be. Relaxation is who you are.",
+                "value": "※Tension is who you think you should be. Relaxation is who you are."
+            },
+            {
+                "key": "Stop eating now. Food poisoning no fun.",
+                "value": "※Stop eating now. Food poisoning no fun."
+            },
+            {
+                "key": "You will live long enough to open many fortune cookies.",
+                "value": "※You will live long enough to open many fortune cookies."
+            },
+            {
+                "key": "Everything will now come your way.",
+                "value": "※Everything will now come your way."
+            },
+            {
+                "key": "The important thing is to never stop questioning.",
+                "value": "※The important thing is to never stop questioning."
+            },
+            {
+                "key": "You will make many changes before settling down happily.",
+                "value": "※You will make many changes before settling down happily."
+            },
+            {
+                "key": "When in doubt, let your instincts guide you.",
+                "value": "※When in doubt, let your instincts guide you."
+            },
+            {
+                "key": "Time may fly by, but memories do not.",
+                "value": "※Time may fly by, but memories do not."
+            },
+            {
+                "key": "Success lies in the hands of those who wants it.",
+                "value": "※Success lies in the hands of those who wants it."
+            },
+            {
+                "key": "There are big changes ahead of you.  They will be good ones!",
+                "value": "※There are big changes ahead of you.  They will be good ones!"
+            },
+            {
+                "key": "The days that make us happy make us wise.",
+                "value": "※The days that make us happy make us wise."
+            },
+            {
+                "key": "You love peace.",
+                "value": "※You love peace."
+            },
+            {
+                "key": "The early bird gets the worm, but the second mouse gets the cheese.",
+                "value": "※The early bird gets the worm, but the second mouse gets the cheese."
+            },
+            {
+                "key": "The simplest answer is to act.",
+                "value": "※The simplest answer is to act."
+            },
+            {
+                "key": "Your smile brings happiness to everyone you meet.",
+                "value": "※Your smile brings happiness to everyone you meet."
+            },
+            {
+                "key": "Life is too short to waste time hating anyone.",
+                "value": "※Life is too short to waste time hating anyone."
+            },
+            {
+                "key": "Gold is in your future.",
+                "value": "※Gold is in your future."
+            },
+            {
+                "key": "It takes less time to do a thing right than it does to explain why you did it wrong.",
+                "value": "※It takes less time to do a thing right than it does to explain why you did it wrong."
+            },
+            {
+                "key": "If a turtle doesn't have a shell, is it naked or homeless?",
+                "value": "※If a turtle doesn't have a shell, is it naked or homeless?"
+            },
+            {
+                "key": "Wise person needs either good manners or fast reflexes.",
+                "value": "※Wise person needs either good manners or fast reflexes."
+            },
+            {
+                "key": "You will be called to fill a position of high honor and responsibility.",
+                "value": "※You will be called to fill a position of high honor and responsibility."
+            },
+            {
+                "key": "Change is inevitable, except for vending machines.",
+                "value": "※Change is inevitable, except for vending machines."
+            },
+            {
+                "key": "A cheerful message is on its way to you.",
+                "value": "※A cheerful message is on its way to you."
+            },
+            {
+                "key": "We cannot change the direction of the wind, but we can adjust our sails.",
+                "value": "※We cannot change the direction of the wind, but we can adjust our sails."
+            },
+            {
+                "key": "Tell them what you really think. Otherwise, nothing will change.",
+                "value": "※Tell them what you really think. Otherwise, nothing will change."
+            },
+            {
+                "key": "Adjust finances, make budgets, to improve you standing.",
+                "value": "※Adjust finances, make budgets, to improve you standing."
+            },
+            {
+                "key": "A kiss is not a kiss without the heart.",
+                "value": "※A kiss is not a kiss without the heart."
+            },
+            {
+                "key": "An admirer is concealing their affection for you.",
+                "value": "※An admirer is concealing their affection for you."
+            },
+            {
+                "key": "You may be disappointed if you fail, but you are doomed if you don't try.",
+                "value": "※You may be disappointed if you fail, but you are doomed if you don't try."
+            },
+            {
+                "key": "Fear is interest paid on a debt you may not owe.",
+                "value": "※Fear is interest paid on a debt you may not owe."
+            },
+            {
+                "key": "One tequila, two tequila, three tequila, floor.",
+                "value": "※One tequila, two tequila, three tequila, floor."
+            },
+            {
+                "key": "We don't know the future, but here's a cookie.",
+                "value": "※We don't know the future, but here's a cookie."
+            },
+            {
+                "key": "You create enthusiasm around you.",
+                "value": "※You create enthusiasm around you."
+            },
+            {
+                "key": "He who dies with most toys, still dies.",
+                "value": "※He who dies with most toys, still dies."
+            },
+            {
+                "key": "Instead of worrying and agonizing, move ahead constructively.",
+                "value": "※Instead of worrying and agonizing, move ahead constructively."
+            },
+            {
+                "key": "No distance is too far, if two hearts are tied together.",
+                "value": "※No distance is too far, if two hearts are tied together."
+            },
+            {
+                "key": "Everyone seems normal until you get to know them.",
+                "value": "※Everyone seems normal until you get to know them."
+            },
+            {
+                "key": "Courage is not the absence of fear; it is the conquest of it.",
+                "value": "※Courage is not the absence of fear; it is the conquest of it."
+            },
+            {
+                "key": "Rare Fortune Cookie: ",
+                "value": "稀有的幸运饼干："
+            },
+            {
+                "key": "The world may be your oyster, but it doesn't mean you'll get its pearl.",
+                "value": "※The world may be your oyster, but it doesn't mean you'll get its pearl."
+            },
+            {
+                "key": "Person who eat fortune cookie get lousy dessert.",
+                "value": "※Person who eat fortune cookie get lousy dessert."
+            },
+            {
+                "key": "The pleasure of what you enjoy is lost by wanting more.",
+                "value": "※The pleasure of what you enjoy is lost by wanting more."
+            },
+            {
+                "key": "Difficulty at the beginning usually means ease at the end.",
+                "value": "※Difficulty at the beginning usually means ease at the end."
+            },
+            {
+                "key": "A stranger is a friend you have not spoken to yet.",
+                "value": "※A stranger is a friend you have not spoken to yet."
+            },
+            {
+                "key": "Age is high price to pay for maturity.",
+                "value": "※Age is high price to pay for maturity."
+            },
+            {
+                "key": "Person who rests on laurels gets thorn in backside.",
+                "value": "※Person who rests on laurels gets thorn in backside."
+            },
+            {
+                "key": "You are broad minded and socially active.",
+                "value": "※You are broad minded and socially active."
+            },
+            {
+                "key": "Smart husband buys wife fine china. Then she not trust him to wash it.",
+                "value": "※Smart husband buys wife fine china. Then she not trust him to wash it."
+            },
+            {
+                "key": "Your many hidden talents will become obvious to those around you.",
+                "value": "※Your many hidden talents will become obvious to those around you."
+            },
+            {
+                "key": "Inside every old person is young person wondering what the hell happened.",
+                "value": "※Inside every old person is young person wondering what the hell happened."
+            },
+            {
+                "key": "The fortune you seek is in another cookie.",
+                "value": "※The fortune you seek is in another cookie."
+            },
+            {
+                "key": "Legendary Fortune Cookie: ",
+                "value": "传说级幸运饼干："
+            },
+            {
+                "key": "You are the controller of your destiny.",
+                "value": "※You are the controller of your destiny."
+            },
+            {
+                "key": "Your golden opportunity is coming shortly.",
+                "value": "※Your golden opportunity is coming shortly."
+            },
+            {
+                "key": "For success today look first to yourself.",
+                "value": "※For success today look first to yourself."
+            },
+            {
+                "key": "It's about time I got out of that cookie.",
+                "value": "※It's about time I got out of that cookie."
+            },
+            {
+                "key": "You will soon have an out of money experience.",
+                "value": "※You will soon have an out of money experience."
+            },
+            {
+                "key": "Minor aches today are likely to pay off handsomely tomorrow.",
+                "value": "※Minor aches today are likely to pay off handsomely tomorrow."
+            },
+            {
+                "key": "Atheism no fun. No holidays.",
+                "value": "※Atheism no fun. No holidays."
+            },
+            {
+                "key": "You are given the chance to take part in an exciting adventure.",
+                "value": "※You are given the chance to take part in an exciting adventure."
+            },
+            {
+                "key": "Procrastination is art of keeping up with yesterday.",
+                "value": "※Procrastination is art of keeping up with yesterday."
+            },
+            {
+                "key": "Do the thing you fear, and the death of fear is certain.",
+                "value": "※Do the thing you fear, and the death of fear is certain."
+            },
+            {
+                "key": "Your emotional nature is strong and sensitive",
+                "value": "※Your emotional nature is strong and sensitive"
+            },
+            {
+                "key": "An alien of some sort will be appearing to you shortly.",
+                "value": "※An alien of some sort will be appearing to you shortly."
+            },
+            {
+                "key": "A foolish man listens to his heart. A wise man listens to cookies.",
+                "value": "※A foolish man listens to his heart. A wise man listens to cookies."
+            },
+            {
+                "key": "When marriage outlawed, only outlaws have in-laws.",
+                "value": "※When marriage outlawed, only outlaws have in-laws."
+            },
+            {
+                "key": "Do not be overly judgemental of your loved one's intentions or actions.",
+                "value": "※Do not be overly judgemental of your loved one's intentions or actions."
+            },
+            {
+                "key": "He who seeks will find.",
+                "value": "※He who seeks will find."
+            },
+            {
+                "key": "Okay to look at past and future. Just don't stare.",
+                "value": "※Okay to look at past and future. Just don't stare."
+            },
+            {
+                "key": "A merry heart does good like a medicine.",
+                "value": "※A merry heart does good like a medicine."
+            },
+            {
+                "key": "The real kindness comes from within you.",
+                "value": "※The real kindness comes from within you."
+            },
+            {
+                "key": "A fool and his money are soon partying.",
+                "value": "※A fool and his money are soon partying."
+            },
+            {
+                "key": "I am worth a fortune!",
+                "value": "※I am worth a fortune!"
+            },
+            {
+                "key": "Easiest way to find lost object is buy replacement.",
+                "value": "※Easiest way to find lost object is buy replacement."
+            },
+            {
+                "key": "Politicians are like diapers: change often, and for same reason.",
+                "value": "※Politicians are like diapers: change often, and for same reason."
+            },
+            {
+                "key": "At this very moment you can change the rest of your life.",
+                "value": "※At this very moment you can change the rest of your life."
+            },
+            {
+                "key": "A dream you have will come true",
+                "value": "※A dream you have will come true"
+            },
+            {
+                "key": "Present your best ideas today to an eager and welcoming audience.",
+                "value": "※Present your best ideas today to an eager and welcoming audience."
+            },
+            {
+                "key": "Common Fortune Cookie: ",
+                "value": "常见的幸运饼干："
+            },
+            {
+                "key": "Flattery will go far tonight.",
+                "value": "※Flattery will go far tonight."
+            },
+            {
+                "key": "Help! I am being held prisoner in a fortune cookie factory.",
+                "value": "※Help! I am being held prisoner in a fortune cookie factory."
+            },
+            {
+                "key": "Be calm when confronting an emergency crisis.",
+                "value": "※Be calm when confronting an emergency crisis."
+            },
+            {
+                "key": "The best is yet to come.",
+                "value": "※The best is yet to come."
+            },
+            {
+                "key": "You will think for yourself when you stop letting others think for you",
+                "value": "※You will think for yourself when you stop letting others think for you"
+            },
+            {
+                "key": "Patience is your alley at the moment. Don't worry!",
+                "value": "※Patience is your alley at the moment. Don't worry!"
+            },
+            {
+                "key": "The cake is a lie!",
+                "value": "※The cake is a lie!"
+            },
+            {
+                "key": "It may be those who do most, dream most",
+                "value": "※It may be those who do most, dream most"
+            },
+            {
+                "key": "Your reality check is about to bounce.",
+                "value": "※Your reality check is about to bounce."
+            },
+            {
+                "key": "Nothing is so much to be feared as fear.",
+                "value": "※Nothing is so much to be feared as fear."
+            },
+            {
+                "key": "Now these three remain, faith, hope, and love. The greatest of these is love.",
+                "value": "※Now these three remain, faith, hope, and love. The greatest of these is love."
+            },
+            {
+                "key": "Compassion is a way of being.",
+                "value": "※Compassion is a way of being."
+            },
+            {
+                "key": "You are cleverly disguised as responsible adult.",
+                "value": "※You are cleverly disguised as responsible adult."
+            },
+            {
+                "key": "Do what is right, not what you should.",
+                "value": "※Do what is right, not what you should."
+            },
+            {
+                "key": "What breaks in a moment may take years to mend.",
+                "value": "※What breaks in a moment may take years to mend."
+            },
+            {
+                "key": "Drive like hell, you will get there.",
+                "value": "※Drive like hell, you will get there."
+            },
+            {
+                "key": "What some call stubbornness, others call persistence.",
+                "value": "※What some call stubbornness, others call persistence."
+            },
+            {
+                "key": "You will be sharing great news with all people you love",
+                "value": "※You will be sharing great news with all people you love"
+            },
+            {
+                "key": "If you want the rainbow, then you have to tolerate the rain.",
+                "value": "※If you want the rainbow, then you have to tolerate the rain."
+            },
+            {
+                "key": "Hard work pays off in the future. Laziness pays off now.",
+                "value": "※Hard work pays off in the future. Laziness pays off now."
+            },
+            {
+                "key": "Integrity is doing the right thing, even if nobody is watching.",
+                "value": "※Integrity is doing the right thing, even if nobody is watching."
+            },
+            {
+                "key": "If you have something good in your life, don't let it go!",
+                "value": "※If you have something good in your life, don't let it go!"
+            },
+            {
+                "key": "Today you shed your last tear. Tomorrow fortune knocks at your door.",
+                "value": "※Today you shed your last tear. Tomorrow fortune knocks at your door."
+            },
+            {
+                "key": "You will die alone and poorly dressed.",
+                "value": "※You will die alone and poorly dressed."
+            },
+            {
+                "key": "Laughter is the shortest distance between two people.",
+                "value": "※Laughter is the shortest distance between two people."
+            },
+            {
+                "key": "Good health will be yours for a long time.",
+                "value": "※Good health will be yours for a long time."
+            },
+            {
+                "key": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+                "value": "※Courage is not simply one of the virtues, but the form of every virtue at the testing point."
+            },
+            {
+                "key": "There is no spoon!",
+                "value": "※There is no spoon!"
+            },
+            {
+                "key": "You are worth loving, you are also worth the effort it takes to love you",
+                "value": "※You are worth loving, you are also worth the effort it takes to love you"
+            },
+            {
+                "key": "Never upset the driver of the car you're in. They're the master of your destiny until you get home.",
+                "value": "※Never upset the driver of the car you're in. They're the master of your destiny until you get home."
+            },
+            {
+                "key": "Fat person not afraid of heights... afraid of widths.",
+                "value": "※Fat person not afraid of heights... afraid of widths."
+            },
+            {
+                "key": "Live like you are on the bottom, even if you are on the top.",
+                "value": "※Live like you are on the bottom, even if you are on the top."
+            },
+            {
+                "key": "Before trying to please others think of what makes you happy.",
+                "value": "※Before trying to please others think of what makes you happy."
+            },
+            {
+                "key": "All things are difficult before they are easy.",
+                "value": "※All things are difficult before they are easy."
+            },
+            {
+                "key": "Experience is what you have left when everything else is gone.",
+                "value": "※Experience is what you have left when everything else is gone."
+            },
+            {
+                "key": "To avoid criticism, do nothing, say nothing, be nothing.",
+                "value": "※To avoid criticism, do nothing, say nothing, be nothing."
+            },
+            {
+                "key": "It is better to have a hen tomorrow than an egg today.",
+                "value": "※It is better to have a hen tomorrow than an egg today."
+            },
+            {
+                "key": "He who throws mud loses ground.",
+                "value": "※He who throws mud loses ground."
+            },
+            {
+                "key": "When chosen for jury duty, tell judge... fortune cookie say guilty!",
+                "value": "※When chosen for jury duty, tell judge... fortune cookie say guilty!"
+            },
+            {
+                "key": "You will take a pleasant journey to a place far away.",
+                "value": "※You will take a pleasant journey to a place far away."
+            },
+            {
+                "key": "There is a prospect of a thrilling time ahead for you.",
+                "value": "※There is a prospect of a thrilling time ahead for you."
+            },
+            {
+                "key": "You think it's a secret, but they know.",
+                "value": "※You think it's a secret, but they know."
+            },
+            {
+                "key": "He who laughs at himself never runs out of things to laugh at.",
+                "value": "※He who laughs at himself never runs out of things to laugh at."
+            },
+            {
+                "key": "Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.",
+                "value": "※Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow."
+            },
+            {
+                "key": "If you want the rainbow, you have to tolerate the rain.",
+                "value": "※If you want the rainbow, you have to tolerate the rain."
+            },
+            {
+                "key": "Sing and rejoice, fortune is smiling on you.",
+                "value": "※Sing and rejoice, fortune is smiling on you."
+            },
+            {
+                "key": "Life does not get better by chance. It gets better by change.",
+                "value": "※Life does not get better by chance. It gets better by change."
+            },
+            {
+                "key": "A single conversation with a wise man is better than ten years of study.",
+                "value": "※A single conversation with a wise man is better than ten years of study."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.FortuneHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Probability of being seen directly proportional to stupidity of act.",
+                "value": "※Probability of being seen directly proportional to stupidity of act."
+            },
+            {
+                "key": "Go confidently in the direction of your dreams.",
+                "value": "※Go confidently in the direction of your dreams."
+            },
+            {
+                "key": "Love is as necessary as food and shelter.",
+                "value": "※Love is as necessary as food and shelter."
+            },
+            {
+                "key": "May all your trades be great!",
+                "value": "※May all your trades be great!"
+            },
+            {
+                "key": "Only difference between a rut and a grave is depth.",
+                "value": "※Only difference between a rut and a grave is depth."
+            },
+            {
+                "key": "Practice safe eating. Always use condiments.",
+                "value": "※Practice safe eating. Always use condiments."
+            },
+            {
+                "key": "Don't eat the paper. (Paper)",
+                "value": "※Don't eat the paper. (Paper)"
+            },
+            {
+                "key": "You can open doors with your charm and patience.",
+                "value": "※You can open doors with your charm and patience."
+            },
+            {
+                "key": "Most people never run far enough on their first wind to find out they've got a second.",
+                "value": "※Most people never run far enough on their first wind to find out they've got a second."
+            },
+            {
+                "key": "There is no mistake so great as that of being always right.",
+                "value": "※There is no mistake so great as that of being always right."
+            },
+            {
+                "key": "Money will come to you when you are doing the right thing.",
+                "value": "※Money will come to you when you are doing the right thing."
+            },
+            {
+                "key": "Very Rare Fortune Cookie: ",
+                "value": "非常稀有的幸运饼干："
+            },
+            {
+                "key": "At times, it is better to know when to exit than when to enter.",
+                "value": "※At times, it is better to know when to exit than when to enter."
+            },
+            {
+                "key": "No matter what your past has been, you a have a spotless future.",
+                "value": "※No matter what your past has been, you a have a spotless future."
+            },
+            {
+                "key": "Stop wishing. Start doing.",
+                "value": "※Stop wishing. Start doing."
+            },
+            {
+                "key": "Your worst enemy has a crush on you!",
+                "value": "※Your worst enemy has a crush on you!"
+            },
+            {
+                "key": "A closed mouth gathers no feet.",
+                "value": "※A closed mouth gathers no feet."
+            },
+            {
+                "key": "Put your unhappiness aside. Life is beautiful, be happy.",
+                "value": "※Put your unhappiness aside. Life is beautiful, be happy."
+            },
+            {
+                "key": "Someone will invite you to a Karaoke party.",
+                "value": "※Someone will invite you to a Karaoke party."
+            },
+            {
+                "key": "Person who give self-haircut after rice wine will be buzzed.",
+                "value": "※Person who give self-haircut after rice wine will be buzzed."
+            },
+            {
+                "key": "Uncommon Fortune Cookie: ",
+                "value": "不寻常的幸运饼干："
+            },
+            {
+                "key": "The wise man is the one that makes you think that he is dumb.",
+                "value": "※The wise man is the one that makes you think that he is dumb."
+            },
+            {
+                "key": "Big journeys begin with a single step.",
+                "value": "※Big journeys begin with a single step."
+            },
+            {
+                "key": "Soon, a visitor shall delight you.",
+                "value": "※Soon, a visitor shall delight you."
+            },
+            {
+                "key": "Before you can be reborn you must die.",
+                "value": "※Before you can be reborn you must die."
+            },
+            {
+                "key": "Bad luck and misfortune will follow you.",
+                "value": "※Bad luck and misfortune will follow you."
+            },
+            {
+                "key": "He who laughs last is laughing at you.",
+                "value": "※He who laughs last is laughing at you."
+            },
+            {
+                "key": "People who are late are often happier than those who have to wait for them.",
+                "value": "※People who are late are often happier than those who have to wait for them."
+            },
+            {
+                "key": "A ship in harbor is safe, but that's not why ships are built.",
+                "value": "※A ship in harbor is safe, but that's not why ships are built."
+            },
+            {
+                "key": "If at first you don't succeed, skydiving not for you.",
+                "value": "※If at first you don't succeed, skydiving not for you."
+            },
+            {
+                "key": "Patience is a virtue, unless its against a brick wall.",
+                "value": "※Patience is a virtue, unless its against a brick wall."
+            },
+            {
+                "key": "Nothing is impossible to a willing heart.",
+                "value": "※Nothing is impossible to a willing heart."
+            },
+            {
+                "key": "Circumstance does not make the man; it reveals him to himself.",
+                "value": "※Circumstance does not make the man; it reveals him to himself."
+            },
+            {
+                "key": "Do not let what you do not have prevent you from using what you do have.",
+                "value": "※Do not let what you do not have prevent you from using what you do have."
+            },
+            {
+                "key": "The greatest risk is not taking one.",
+                "value": "※The greatest risk is not taking one."
+            },
+            {
+                "key": "Your fortune is as sweet as a cookie.",
+                "value": "※Your fortune is as sweet as a cookie."
+            },
+            {
+                "key": "Don't pursue happiness... create it.",
+                "value": "※Don't pursue happiness... create it."
+            },
+            {
+                "key": "You have the deepest interest in all that is artistic.",
+                "value": "※You have the deepest interest in all that is artistic."
+            },
+            {
+                "key": "Tomorrow at breakfast, listen carefully: do what rice krispies tell you to.",
+                "value": "※Tomorrow at breakfast, listen carefully: do what rice krispies tell you to."
+            },
+            {
+                "key": "You will conquer obstacles to achieve success.",
+                "value": "※You will conquer obstacles to achieve success."
+            },
+            {
+                "key": "One that would have the fruit must climb the tree.",
+                "value": "※One that would have the fruit must climb the tree."
+            },
+            {
+                "key": "Some men dream of fortunes, others dream of cookies.",
+                "value": "※Some men dream of fortunes, others dream of cookies."
+            },
+            {
+                "key": "A conclusion is simply the place where you got tired of thinking.",
+                "value": "※A conclusion is simply the place where you got tired of thinking."
+            },
+            {
+                "key": "Rarely do great beauty and great virtue dwell together as they do in you.",
+                "value": "※Rarely do great beauty and great virtue dwell together as they do in you."
+            },
+            {
+                "key": "You will soon witness a miracle",
+                "value": "※You will soon witness a miracle"
+            },
+            {
+                "key": "Stay true to those who would do the same for you.",
+                "value": "※Stay true to those who would do the same for you."
+            },
+            {
+                "key": "A fanatic is one who can't change his mind and won't change the subject.",
+                "value": "※A fanatic is one who can't change his mind and won't change the subject."
+            },
+            {
+                "key": "Extremely Rare Fortune Cookie: ",
+                "value": "极其稀有的幸运饼干："
+            },
+            {
+                "key": "Don't worry about money. The best things in life are free.",
+                "value": "※Don't worry about money. The best things in life are free."
+            },
+            {
+                "key": "The usefulness of a cup is in its emptiness.",
+                "value": "※The usefulness of a cup is in its emptiness."
+            },
+            {
+                "key": "Old friends make best friends",
+                "value": "※Old friends make best friends"
+            },
+            {
+                "key": "You will be hungry again in one hour.",
+                "value": "※You will be hungry again in one hour."
+            },
+            {
+                "key": "Ones always regrets what could have done. Remember for next time.",
+                "value": "※Ones always regrets what could have done. Remember for next time."
+            },
+            {
+                "key": "You are a hero to someone!",
+                "value": "※You are a hero to someone!"
+            },
+            {
+                "key": "If you have kleptomania. Take something for it.",
+                "value": "※If you have kleptomania. Take something for it."
+            },
+            {
+                "key": "If you look back, you'll soon be going that way.",
+                "value": "※If you look back, you'll soon be going that way."
+            },
+            {
+                "key": "Some days you are pigeon, some days you are statue. Today, bring umbrella.",
+                "value": "※Some days you are pigeon, some days you are statue. Today, bring umbrella."
+            },
+            {
+                "key": "Fortune not found? Abort, Retry, Ignore.",
+                "value": "※Fortune not found? Abort, Retry, Ignore."
+            },
+            {
+                "key": "Everyday is a new day, but tomorrow is never promised.",
+                "value": "※Everyday is a new day, but tomorrow is never promised."
+            },
+            {
+                "key": "Of all our human resources, the most precious is the desire to improve.",
+                "value": "※Of all our human resources, the most precious is the desire to improve."
+            },
+            {
+                "key": "Love is free. Lust will cost you everything you have.",
+                "value": "※Love is free. Lust will cost you everything you have."
+            },
+            {
+                "key": "I have a dream....Time to go to bed.",
+                "value": "※I have a dream....Time to go to bed."
+            },
+            {
+                "key": "You don't need strength to let go of something. What you really need is understanding.",
+                "value": "※You don't need strength to let go of something. What you really need is understanding."
+            },
+            {
+                "key": "The gods have smiled upon you!",
+                "value": "※The gods have smiled upon you!"
+            },
+            {
+                "key": "Ninety-nine percent of all lawyers give the rest a bad name.",
+                "value": "※Ninety-nine percent of all lawyers give the rest a bad name."
+            },
+            {
+                "key": "The secret to staying young is good health and lying about your age.",
+                "value": "※The secret to staying young is good health and lying about your age."
+            },
+            {
+                "key": "To determine whether someone is beautiful is not by looking at their appearance, but their heart.",
+                "value": "※To determine whether someone is beautiful is not by looking at their appearance, but their heart."
+            },
+            {
+                "key": "The cooler you think you are the dumber you look",
+                "value": "※The cooler you think you are the dumber you look"
+            },
+            {
+                "key": "Land is always on the mind of a flying bird.",
+                "value": "※Land is always on the mind of a flying bird."
+            },
+            {
+                "key": "The greatest danger could be your stupidity.",
+                "value": "※The greatest danger could be your stupidity."
+            },
+            {
+                "key": "Everyone agrees you are the best.",
+                "value": "※Everyone agrees you are the best."
+            },
+            {
+                "key": "A golden egg of opportunity falls into your lap this month.",
+                "value": "※A golden egg of opportunity falls into your lap this month."
+            },
+            {
+                "key": "Do not mistake temptation for opportunity.",
+                "value": "※Do not mistake temptation for opportunity."
+            },
+            {
+                "key": "You will travel to many exotic places in your lifetime.",
+                "value": "※You will travel to many exotic places in your lifetime."
+            },
+            {
+                "key": "The older you get, the better you were.",
+                "value": "※The older you get, the better you were."
+            },
+            {
+                "key": "Hardly anyone knows how much is gained by ignoring the future.",
+                "value": "※Hardly anyone knows how much is gained by ignoring the future."
+            },
+            {
+                "key": "Be direct,usually one can accomplish more that way.",
+                "value": "※Be direct,usually one can accomplish more that way."
+            },
+            {
+                "key": "The problem with resisting temptation is that it may never come again.",
+                "value": "※The problem with resisting temptation is that it may never come again."
+            },
+            {
+                "key": "Your road to glory will be rocky but fulfilling.",
+                "value": "※Your road to glory will be rocky but fulfilling."
+            },
+            {
+                "key": "He who throws dirt is losing ground. (DIRT)",
+                "value": "※He who throws dirt is losing ground. (DIRT)"
+            },
+            {
+                "key": "Tension is who you think you should be. Relaxation is who you are.",
+                "value": "※Tension is who you think you should be. Relaxation is who you are."
+            },
+            {
+                "key": "Stop eating now. Food poisoning no fun.",
+                "value": "※Stop eating now. Food poisoning no fun."
+            },
+            {
+                "key": "You will live long enough to open many fortune cookies.",
+                "value": "※You will live long enough to open many fortune cookies."
+            },
+            {
+                "key": "Everything will now come your way.",
+                "value": "※Everything will now come your way."
+            },
+            {
+                "key": "The important thing is to never stop questioning.",
+                "value": "※The important thing is to never stop questioning."
+            },
+            {
+                "key": "You will make many changes before settling down happily.",
+                "value": "※You will make many changes before settling down happily."
+            },
+            {
+                "key": "When in doubt, let your instincts guide you.",
+                "value": "※When in doubt, let your instincts guide you."
+            },
+            {
+                "key": "Time may fly by, but memories do not.",
+                "value": "※Time may fly by, but memories do not."
+            },
+            {
+                "key": "Success lies in the hands of those who wants it.",
+                "value": "※Success lies in the hands of those who wants it."
+            },
+            {
+                "key": "There are big changes ahead of you.  They will be good ones!",
+                "value": "※There are big changes ahead of you.  They will be good ones!"
+            },
+            {
+                "key": "The days that make us happy make us wise.",
+                "value": "※The days that make us happy make us wise."
+            },
+            {
+                "key": "You love peace.",
+                "value": "※You love peace."
+            },
+            {
+                "key": "The early bird gets the worm, but the second mouse gets the cheese.",
+                "value": "※The early bird gets the worm, but the second mouse gets the cheese."
+            },
+            {
+                "key": "The simplest answer is to act.",
+                "value": "※The simplest answer is to act."
+            },
+            {
+                "key": "Your smile brings happiness to everyone you meet.",
+                "value": "※Your smile brings happiness to everyone you meet."
+            },
+            {
+                "key": "Life is too short to waste time hating anyone.",
+                "value": "※Life is too short to waste time hating anyone."
+            },
+            {
+                "key": "Gold is in your future.",
+                "value": "※Gold is in your future."
+            },
+            {
+                "key": "It takes less time to do a thing right than it does to explain why you did it wrong.",
+                "value": "※It takes less time to do a thing right than it does to explain why you did it wrong."
+            },
+            {
+                "key": "If a turtle doesn't have a shell, is it naked or homeless?",
+                "value": "※If a turtle doesn't have a shell, is it naked or homeless?"
+            },
+            {
+                "key": "Wise person needs either good manners or fast reflexes.",
+                "value": "※Wise person needs either good manners or fast reflexes."
+            },
+            {
+                "key": "You will be called to fill a position of high honor and responsibility.",
+                "value": "※You will be called to fill a position of high honor and responsibility."
+            },
+            {
+                "key": "Change is inevitable, except for vending machines.",
+                "value": "※Change is inevitable, except for vending machines."
+            },
+            {
+                "key": "A cheerful message is on its way to you.",
+                "value": "※A cheerful message is on its way to you."
+            },
+            {
+                "key": "We cannot change the direction of the wind, but we can adjust our sails.",
+                "value": "※We cannot change the direction of the wind, but we can adjust our sails."
+            },
+            {
+                "key": "Tell them what you really think. Otherwise, nothing will change.",
+                "value": "※Tell them what you really think. Otherwise, nothing will change."
+            },
+            {
+                "key": "Adjust finances, make budgets, to improve you standing.",
+                "value": "※Adjust finances, make budgets, to improve you standing."
+            },
+            {
+                "key": "A kiss is not a kiss without the heart.",
+                "value": "※A kiss is not a kiss without the heart."
+            },
+            {
+                "key": "An admirer is concealing their affection for you.",
+                "value": "※An admirer is concealing their affection for you."
+            },
+            {
+                "key": "You may be disappointed if you fail, but you are doomed if you don't try.",
+                "value": "※You may be disappointed if you fail, but you are doomed if you don't try."
+            },
+            {
+                "key": "Fear is interest paid on a debt you may not owe.",
+                "value": "※Fear is interest paid on a debt you may not owe."
+            },
+            {
+                "key": "One tequila, two tequila, three tequila, floor.",
+                "value": "※One tequila, two tequila, three tequila, floor."
+            },
+            {
+                "key": "We don't know the future, but here's a cookie.",
+                "value": "※We don't know the future, but here's a cookie."
+            },
+            {
+                "key": "You create enthusiasm around you.",
+                "value": "※You create enthusiasm around you."
+            },
+            {
+                "key": "He who dies with most toys, still dies.",
+                "value": "※He who dies with most toys, still dies."
+            },
+            {
+                "key": "Instead of worrying and agonizing, move ahead constructively.",
+                "value": "※Instead of worrying and agonizing, move ahead constructively."
+            },
+            {
+                "key": "No distance is too far, if two hearts are tied together.",
+                "value": "※No distance is too far, if two hearts are tied together."
+            },
+            {
+                "key": "Everyone seems normal until you get to know them.",
+                "value": "※Everyone seems normal until you get to know them."
+            },
+            {
+                "key": "Courage is not the absence of fear; it is the conquest of it.",
+                "value": "※Courage is not the absence of fear; it is the conquest of it."
+            },
+            {
+                "key": "Rare Fortune Cookie: ",
+                "value": "稀有的幸运饼干："
+            },
+            {
+                "key": "The world may be your oyster, but it doesn't mean you'll get its pearl.",
+                "value": "※The world may be your oyster, but it doesn't mean you'll get its pearl."
+            },
+            {
+                "key": "Person who eat fortune cookie get lousy dessert.",
+                "value": "※Person who eat fortune cookie get lousy dessert."
+            },
+            {
+                "key": "The pleasure of what you enjoy is lost by wanting more.",
+                "value": "※The pleasure of what you enjoy is lost by wanting more."
+            },
+            {
+                "key": "Difficulty at the beginning usually means ease at the end.",
+                "value": "※Difficulty at the beginning usually means ease at the end."
+            },
+            {
+                "key": "A stranger is a friend you have not spoken to yet.",
+                "value": "※A stranger is a friend you have not spoken to yet."
+            },
+            {
+                "key": "Age is high price to pay for maturity.",
+                "value": "※Age is high price to pay for maturity."
+            },
+            {
+                "key": "Person who rests on laurels gets thorn in backside.",
+                "value": "※Person who rests on laurels gets thorn in backside."
+            },
+            {
+                "key": "You are broad minded and socially active.",
+                "value": "※You are broad minded and socially active."
+            },
+            {
+                "key": "Smart husband buys wife fine china. Then she not trust him to wash it.",
+                "value": "※Smart husband buys wife fine china. Then she not trust him to wash it."
+            },
+            {
+                "key": "Your many hidden talents will become obvious to those around you.",
+                "value": "※Your many hidden talents will become obvious to those around you."
+            },
+            {
+                "key": "Inside every old person is young person wondering what the hell happened.",
+                "value": "※Inside every old person is young person wondering what the hell happened."
+            },
+            {
+                "key": "The fortune you seek is in another cookie.",
+                "value": "※The fortune you seek is in another cookie."
+            },
+            {
+                "key": "Legendary Fortune Cookie: ",
+                "value": "传说级幸运饼干："
+            },
+            {
+                "key": "You are the controller of your destiny.",
+                "value": "※You are the controller of your destiny."
+            },
+            {
+                "key": "Your golden opportunity is coming shortly.",
+                "value": "※Your golden opportunity is coming shortly."
+            },
+            {
+                "key": "For success today look first to yourself.",
+                "value": "※For success today look first to yourself."
+            },
+            {
+                "key": "It's about time I got out of that cookie.",
+                "value": "※It's about time I got out of that cookie."
+            },
+            {
+                "key": "You will soon have an out of money experience.",
+                "value": "※You will soon have an out of money experience."
+            },
+            {
+                "key": "Minor aches today are likely to pay off handsomely tomorrow.",
+                "value": "※Minor aches today are likely to pay off handsomely tomorrow."
+            },
+            {
+                "key": "Atheism no fun. No holidays.",
+                "value": "※Atheism no fun. No holidays."
+            },
+            {
+                "key": "You are given the chance to take part in an exciting adventure.",
+                "value": "※You are given the chance to take part in an exciting adventure."
+            },
+            {
+                "key": "Procrastination is art of keeping up with yesterday.",
+                "value": "※Procrastination is art of keeping up with yesterday."
+            },
+            {
+                "key": "Do the thing you fear, and the death of fear is certain.",
+                "value": "※Do the thing you fear, and the death of fear is certain."
+            },
+            {
+                "key": "Your emotional nature is strong and sensitive",
+                "value": "※Your emotional nature is strong and sensitive"
+            },
+            {
+                "key": "An alien of some sort will be appearing to you shortly.",
+                "value": "※An alien of some sort will be appearing to you shortly."
+            },
+            {
+                "key": "A foolish man listens to his heart. A wise man listens to cookies.",
+                "value": "※A foolish man listens to his heart. A wise man listens to cookies."
+            },
+            {
+                "key": "When marriage outlawed, only outlaws have in-laws.",
+                "value": "※When marriage outlawed, only outlaws have in-laws."
+            },
+            {
+                "key": "Do not be overly judgemental of your loved one's intentions or actions.",
+                "value": "※Do not be overly judgemental of your loved one's intentions or actions."
+            },
+            {
+                "key": "He who seeks will find.",
+                "value": "※He who seeks will find."
+            },
+            {
+                "key": "Okay to look at past and future. Just don't stare.",
+                "value": "※Okay to look at past and future. Just don't stare."
+            },
+            {
+                "key": "A merry heart does good like a medicine.",
+                "value": "※A merry heart does good like a medicine."
+            },
+            {
+                "key": "The real kindness comes from within you.",
+                "value": "※The real kindness comes from within you."
+            },
+            {
+                "key": "A fool and his money are soon partying.",
+                "value": "※A fool and his money are soon partying."
+            },
+            {
+                "key": "I am worth a fortune!",
+                "value": "※I am worth a fortune!"
+            },
+            {
+                "key": "Easiest way to find lost object is buy replacement.",
+                "value": "※Easiest way to find lost object is buy replacement."
+            },
+            {
+                "key": "Politicians are like diapers: change often, and for same reason.",
+                "value": "※Politicians are like diapers: change often, and for same reason."
+            },
+            {
+                "key": "At this very moment you can change the rest of your life.",
+                "value": "※At this very moment you can change the rest of your life."
+            },
+            {
+                "key": "A dream you have will come true",
+                "value": "※A dream you have will come true"
+            },
+            {
+                "key": "Present your best ideas today to an eager and welcoming audience.",
+                "value": "※Present your best ideas today to an eager and welcoming audience."
+            },
+            {
+                "key": "Common Fortune Cookie: ",
+                "value": "常见的幸运饼干："
+            },
+            {
+                "key": "Flattery will go far tonight.",
+                "value": "※Flattery will go far tonight."
+            },
+            {
+                "key": "Help! I am being held prisoner in a fortune cookie factory.",
+                "value": "※Help! I am being held prisoner in a fortune cookie factory."
+            },
+            {
+                "key": "Be calm when confronting an emergency crisis.",
+                "value": "※Be calm when confronting an emergency crisis."
+            },
+            {
+                "key": "The best is yet to come.",
+                "value": "※The best is yet to come."
+            },
+            {
+                "key": "You will think for yourself when you stop letting others think for you",
+                "value": "※You will think for yourself when you stop letting others think for you"
+            },
+            {
+                "key": "Patience is your alley at the moment. Don't worry!",
+                "value": "※Patience is your alley at the moment. Don't worry!"
+            },
+            {
+                "key": "The cake is a lie!",
+                "value": "※The cake is a lie!"
+            },
+            {
+                "key": "It may be those who do most, dream most",
+                "value": "※It may be those who do most, dream most"
+            },
+            {
+                "key": "Your reality check is about to bounce.",
+                "value": "※Your reality check is about to bounce."
+            },
+            {
+                "key": "Nothing is so much to be feared as fear.",
+                "value": "※Nothing is so much to be feared as fear."
+            },
+            {
+                "key": "Now these three remain, faith, hope, and love. The greatest of these is love.",
+                "value": "※Now these three remain, faith, hope, and love. The greatest of these is love."
+            },
+            {
+                "key": "Compassion is a way of being.",
+                "value": "※Compassion is a way of being."
+            },
+            {
+                "key": "You are cleverly disguised as responsible adult.",
+                "value": "※You are cleverly disguised as responsible adult."
+            },
+            {
+                "key": "Do what is right, not what you should.",
+                "value": "※Do what is right, not what you should."
+            },
+            {
+                "key": "What breaks in a moment may take years to mend.",
+                "value": "※What breaks in a moment may take years to mend."
+            },
+            {
+                "key": "Drive like hell, you will get there.",
+                "value": "※Drive like hell, you will get there."
+            },
+            {
+                "key": "What some call stubbornness, others call persistence.",
+                "value": "※What some call stubbornness, others call persistence."
+            },
+            {
+                "key": "You will be sharing great news with all people you love",
+                "value": "※You will be sharing great news with all people you love"
+            },
+            {
+                "key": "If you want the rainbow, then you have to tolerate the rain.",
+                "value": "※If you want the rainbow, then you have to tolerate the rain."
+            },
+            {
+                "key": "Hard work pays off in the future. Laziness pays off now.",
+                "value": "※Hard work pays off in the future. Laziness pays off now."
+            },
+            {
+                "key": "Integrity is doing the right thing, even if nobody is watching.",
+                "value": "※Integrity is doing the right thing, even if nobody is watching."
+            },
+            {
+                "key": "If you have something good in your life, don't let it go!",
+                "value": "※If you have something good in your life, don't let it go!"
+            },
+            {
+                "key": "Today you shed your last tear. Tomorrow fortune knocks at your door.",
+                "value": "※Today you shed your last tear. Tomorrow fortune knocks at your door."
+            },
+            {
+                "key": "You will die alone and poorly dressed.",
+                "value": "※You will die alone and poorly dressed."
+            },
+            {
+                "key": "Laughter is the shortest distance between two people.",
+                "value": "※Laughter is the shortest distance between two people."
+            },
+            {
+                "key": "Good health will be yours for a long time.",
+                "value": "※Good health will be yours for a long time."
+            },
+            {
+                "key": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+                "value": "※Courage is not simply one of the virtues, but the form of every virtue at the testing point."
+            },
+            {
+                "key": "There is no spoon!",
+                "value": "※There is no spoon!"
+            },
+            {
+                "key": "You are worth loving, you are also worth the effort it takes to love you",
+                "value": "※You are worth loving, you are also worth the effort it takes to love you"
+            },
+            {
+                "key": "Never upset the driver of the car you're in. They're the master of your destiny until you get home.",
+                "value": "※Never upset the driver of the car you're in. They're the master of your destiny until you get home."
+            },
+            {
+                "key": "Fat person not afraid of heights... afraid of widths.",
+                "value": "※Fat person not afraid of heights... afraid of widths."
+            },
+            {
+                "key": "Live like you are on the bottom, even if you are on the top.",
+                "value": "※Live like you are on the bottom, even if you are on the top."
+            },
+            {
+                "key": "Before trying to please others think of what makes you happy.",
+                "value": "※Before trying to please others think of what makes you happy."
+            },
+            {
+                "key": "All things are difficult before they are easy.",
+                "value": "※All things are difficult before they are easy."
+            },
+            {
+                "key": "Experience is what you have left when everything else is gone.",
+                "value": "※Experience is what you have left when everything else is gone."
+            },
+            {
+                "key": "To avoid criticism, do nothing, say nothing, be nothing.",
+                "value": "※To avoid criticism, do nothing, say nothing, be nothing."
+            },
+            {
+                "key": "It is better to have a hen tomorrow than an egg today.",
+                "value": "※It is better to have a hen tomorrow than an egg today."
+            },
+            {
+                "key": "He who throws mud loses ground.",
+                "value": "※He who throws mud loses ground."
+            },
+            {
+                "key": "When chosen for jury duty, tell judge... fortune cookie say guilty!",
+                "value": "※When chosen for jury duty, tell judge... fortune cookie say guilty!"
+            },
+            {
+                "key": "You will take a pleasant journey to a place far away.",
+                "value": "※You will take a pleasant journey to a place far away."
+            },
+            {
+                "key": "There is a prospect of a thrilling time ahead for you.",
+                "value": "※There is a prospect of a thrilling time ahead for you."
+            },
+            {
+                "key": "You think it's a secret, but they know.",
+                "value": "※You think it's a secret, but they know."
+            },
+            {
+                "key": "He who laughs at himself never runs out of things to laugh at.",
+                "value": "※He who laughs at himself never runs out of things to laugh at."
+            },
+            {
+                "key": "Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.",
+                "value": "※Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow."
+            },
+            {
+                "key": "If you want the rainbow, you have to tolerate the rain.",
+                "value": "※If you want the rainbow, you have to tolerate the rain."
+            },
+            {
+                "key": "Sing and rejoice, fortune is smiling on you.",
+                "value": "※Sing and rejoice, fortune is smiling on you."
+            },
+            {
+                "key": "Life does not get better by chance. It gets better by change.",
+                "value": "※Life does not get better by chance. It gets better by change."
+            },
+            {
+                "key": "A single conversation with a wise man is better than ten years of study.",
+                "value": "※A single conversation with a wise man is better than ten years of study."
+            }
+        ]
+    }
+]

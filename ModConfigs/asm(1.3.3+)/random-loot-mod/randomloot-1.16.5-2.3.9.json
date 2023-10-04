@@ -1,0 +1,1721 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "Jetpack Cat整合包汉化",
+        "desc": "VP1.3.3+可启用，VPGS开源（半汉化）",
+        "mods": "randomloot-1.16.5-2.3.9",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLAxeItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Attack Damage: ",
+                "value": "攻击伤害："
+            },
+            {
+                "key": "Attack Speed: ",
+                "value": "攻击速度："
+            },
+            {
+                "key": "Dig Speed: ",
+                "value": "挖掘速度："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLPickaxeItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Attack Damage: ",
+                "value": "攻击伤害："
+            },
+            {
+                "key": "Attack Speed: ",
+                "value": "攻击速度："
+            },
+            {
+                "key": "Dig Speed: ",
+                "value": "挖掘速度："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLShovelItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Attack Damage: ",
+                "value": "攻击伤害："
+            },
+            {
+                "key": "Attack Speed: ",
+                "value": "攻击速度："
+            },
+            {
+                "key": "Dig Speed: ",
+                "value": "挖掘速度："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLSwordItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Attack Damage: ",
+                "value": "攻击伤害："
+            },
+            {
+                "key": "Attack Speed: ",
+                "value": "攻击速度："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLThrowableItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Attack Damage: ",
+                "value": "攻击伤害："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.init.ItemUtils",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Hammer",
+                "value": "※Hammer"
+            },
+            {
+                "key": "Th0rn",
+                "value": "※Th0rn"
+            },
+            {
+                "key": "Cold-Blooded",
+                "value": "※Cold-Blooded"
+            },
+            {
+                "key": "Legendary",
+                "value": "※Legendary"
+            },
+            {
+                "key": "Lumbering",
+                "value": "※Lumbering"
+            },
+            {
+                "key": "Swinger",
+                "value": "※Swinger"
+            },
+            {
+                "key": "Tremor",
+                "value": "※Tremor"
+            },
+            {
+                "key": "Throwing",
+                "value": "※Throwing"
+            },
+            {
+                "key": "Runners",
+                "value": "※Runners"
+            },
+            {
+                "key": "Chest",
+                "value": "※Chest"
+            },
+            {
+                "key": "Crossbow",
+                "value": "※Crossbow"
+            },
+            {
+                "key": "Awesome",
+                "value": "※Awesome"
+            },
+            {
+                "key": "Zooming",
+                "value": "※Zooming"
+            },
+            {
+                "key": "Dreadful",
+                "value": "※Dreadful"
+            },
+            {
+                "key": "Ravager",
+                "value": "※Ravager"
+            },
+            {
+                "key": "Quivering",
+                "value": "※Quivering"
+            },
+            {
+                "key": "Advanced",
+                "value": "※Advanced"
+            },
+            {
+                "key": "Shadow",
+                "value": "※Shadow"
+            },
+            {
+                "key": "Battle Axe",
+                "value": "※Battle Axe"
+            },
+            {
+                "key": "Hacker",
+                "value": "※Hacker"
+            },
+            {
+                "key": "Fearsome",
+                "value": "※Fearsome"
+            },
+            {
+                "key": "Galactic",
+                "value": "※Galactic"
+            },
+            {
+                "key": "Spectre",
+                "value": "※Spectre"
+            },
+            {
+                "key": "Ripe",
+                "value": "※Ripe"
+            },
+            {
+                "key": "Lance",
+                "value": "※Lance"
+            },
+            {
+                "key": "Necro",
+                "value": "※Necro"
+            },
+            {
+                "key": "Stick",
+                "value": "※Stick"
+            },
+            {
+                "key": "Thick",
+                "value": "※Thick"
+            },
+            {
+                "key": "Axe",
+                "value": "斧头"
+            },
+            {
+                "key": "Warp-Bow",
+                "value": "※Warp-Bow"
+            },
+            {
+                "key": "Venomous",
+                "value": "※Venomous"
+            },
+            {
+                "key": "Shocking",
+                "value": "※Shocking"
+            },
+            {
+                "key": "Dainty",
+                "value": "※Dainty"
+            },
+            {
+                "key": "Gold Digger",
+                "value": "※Gold Digger"
+            },
+            {
+                "key": "Broadaxe",
+                "value": "※Broadaxe"
+            },
+            {
+                "key": "Terrablade",
+                "value": "※Terrablade"
+            },
+            {
+                "key": "Sweet",
+                "value": "※Sweet"
+            },
+            {
+                "key": "Shiny",
+                "value": "※Shiny"
+            },
+            {
+                "key": "Heavy",
+                "value": "※Heavy"
+            },
+            {
+                "key": "Crust-Breaker",
+                "value": "※Crust-Breaker"
+            },
+            {
+                "key": "Knickers",
+                "value": "※Knickers"
+            },
+            {
+                "key": "Booties",
+                "value": "※Booties"
+            },
+            {
+                "key": "Spade",
+                "value": "※Spade"
+            },
+            {
+                "key": "Architect",
+                "value": "※Architect"
+            },
+            {
+                "key": "Helmet",
+                "value": "头盔"
+            },
+            {
+                "key": "Gritty",
+                "value": "※Gritty"
+            },
+            {
+                "key": "Crackling",
+                "value": "※Crackling"
+            },
+            {
+                "key": "Throwable",
+                "value": "※Throwable"
+            },
+            {
+                "key": "Reliable",
+                "value": "※Reliable"
+            },
+            {
+                "key": "Titanium",
+                "value": "※Titanium"
+            },
+            {
+                "key": "Leggings",
+                "value": "护腿"
+            },
+            {
+                "key": "Fast",
+                "value": "※Fast"
+            },
+            {
+                "key": "Towering",
+                "value": "※Towering"
+            },
+            {
+                "key": "Earth Shatterer",
+                "value": "地球粉碎者"
+            },
+            {
+                "key": "Swift",
+                "value": "※Swift"
+            },
+            {
+                "key": "Cleaver",
+                "value": "※Cleaver"
+            },
+            {
+                "key": "Harsh",
+                "value": "※Harsh"
+            },
+            {
+                "key": "Vortex",
+                "value": "※Vortex"
+            },
+            {
+                "key": "Striker",
+                "value": "※Striker"
+            },
+            {
+                "key": "Titan",
+                "value": "※Titan"
+            },
+            {
+                "key": "Pick-Logger",
+                "value": "※Pick-Logger"
+            },
+            {
+                "key": "Blast-Resistant",
+                "value": "※Blast-Resistant"
+            },
+            {
+                "key": "Powerful",
+                "value": "※Powerful"
+            },
+            {
+                "key": "Rusty",
+                "value": "※Rusty"
+            },
+            {
+                "key": "Starstruck",
+                "value": "※Starstruck"
+            },
+            {
+                "key": "Fossilized",
+                "value": "※Fossilized"
+            },
+            {
+                "key": "Swinging",
+                "value": "※Swinging"
+            },
+            {
+                "key": "Iron",
+                "value": "铁"
+            },
+            {
+                "key": "Shatter",
+                "value": "※Shatter"
+            },
+            {
+                "key": "Helm",
+                "value": "※Helm"
+            },
+            {
+                "key": "Pickaxe",
+                "value": "镐子"
+            },
+            {
+                "key": "Ruthless",
+                "value": "※Ruthless"
+            },
+            {
+                "key": "Fireman's",
+                "value": "※Fireman's"
+            },
+            {
+                "key": "Bat",
+                "value": "※Bat"
+            },
+            {
+                "key": "Upright",
+                "value": "※Upright"
+            },
+            {
+                "key": "Enlightened",
+                "value": "※Enlightened"
+            },
+            {
+                "key": "Icy",
+                "value": "※Icy"
+            },
+            {
+                "key": "Claymore",
+                "value": "※Claymore"
+            },
+            {
+                "key": "Fletcher",
+                "value": "※Fletcher"
+            },
+            {
+                "key": "Zipping",
+                "value": "※Zipping"
+            },
+            {
+                "key": "Hard Hat",
+                "value": "※Hard Hat"
+            },
+            {
+                "key": "Broadsword",
+                "value": "※Broadsword"
+            },
+            {
+                "key": "Sword",
+                "value": "剑"
+            },
+            {
+                "key": "Halberd",
+                "value": "※Halberd"
+            },
+            {
+                "key": "Slasher",
+                "value": "※Slasher"
+            },
+            {
+                "key": "Head Protector",
+                "value": "※Head Protector"
+            },
+            {
+                "key": "Armor Piece",
+                "value": "※Armor Piece"
+            },
+            {
+                "key": "Pants",
+                "value": "※Pants"
+            },
+            {
+                "key": "Point",
+                "value": "※Point"
+            },
+            {
+                "key": "Sharpened",
+                "value": "※Sharpened"
+            },
+            {
+                "key": "Slinger",
+                "value": "※Slinger"
+            },
+            {
+                "key": "Crude",
+                "value": "※Crude"
+            },
+            {
+                "key": "Dark",
+                "value": "暗黑"
+            },
+            {
+                "key": "Drawers",
+                "value": "※Drawers"
+            },
+            {
+                "key": "Machete",
+                "value": "※Machete"
+            },
+            {
+                "key": "Blade",
+                "value": "※Blade"
+            },
+            {
+                "key": "Ancient",
+                "value": "※Ancient"
+            },
+            {
+                "key": "Glaive",
+                "value": "※Glaive"
+            },
+            {
+                "key": "Spoon",
+                "value": "※Spoon"
+            },
+            {
+                "key": "Platinum",
+                "value": "※Platinum"
+            },
+            {
+                "key": "Incredible",
+                "value": "※Incredible"
+            },
+            {
+                "key": "Shirt",
+                "value": "※Shirt"
+            },
+            {
+                "key": "Sturdy",
+                "value": "※Sturdy"
+            },
+            {
+                "key": "Crimson",
+                "value": "※Crimson"
+            },
+            {
+                "key": "Knife",
+                "value": "※Knife"
+            },
+            {
+                "key": "Crystaline",
+                "value": "※Crystaline"
+            },
+            {
+                "key": "Light",
+                "value": "※Light"
+            },
+            {
+                "key": "Feet",
+                "value": "※Feet"
+            },
+            {
+                "key": "Crusader",
+                "value": "※Crusader"
+            },
+            {
+                "key": "Floating",
+                "value": "※Floating"
+            },
+            {
+                "key": "Epic",
+                "value": "史诗"
+            },
+            {
+                "key": "Alien",
+                "value": "※Alien"
+            },
+            {
+                "key": "Hole-Puncher",
+                "value": "※Hole-Puncher"
+            },
+            {
+                "key": "Gracious",
+                "value": "※Gracious"
+            },
+            {
+                "key": "Serious",
+                "value": "※Serious"
+            },
+            {
+                "key": "Titanic",
+                "value": "※Titanic"
+            },
+            {
+                "key": "Trowel",
+                "value": "※Trowel"
+            },
+            {
+                "key": "Lumber Axe",
+                "value": "※Lumber Axe"
+            },
+            {
+                "key": "Heartless",
+                "value": "※Heartless"
+            },
+            {
+                "key": "Piercer",
+                "value": "※Piercer"
+            },
+            {
+                "key": "Bolt-Tosser",
+                "value": "※Bolt-Tosser"
+            },
+            {
+                "key": "Shorts",
+                "value": "※Shorts"
+            },
+            {
+                "key": "Killer",
+                "value": "※Killer"
+            },
+            {
+                "key": "Hat",
+                "value": "帽子"
+            },
+            {
+                "key": "Barbaric",
+                "value": "※Barbaric"
+            },
+            {
+                "key": "Jackhammer",
+                "value": "※Jackhammer"
+            },
+            {
+                "key": "Steel",
+                "value": "※Steel"
+            },
+            {
+                "key": "Spiker",
+                "value": "※Spiker"
+            },
+            {
+                "key": "Tomahawk",
+                "value": "※Tomahawk"
+            },
+            {
+                "key": "Cutlass",
+                "value": "※Cutlass"
+            },
+            {
+                "key": "Chaps",
+                "value": "※Chaps"
+            },
+            {
+                "key": "Shell",
+                "value": "※Shell"
+            },
+            {
+                "key": "Heavy-Bolted",
+                "value": "※Heavy-Bolted"
+            },
+            {
+                "key": "Bloodthirsty",
+                "value": "※Bloodthirsty"
+            },
+            {
+                "key": "Weapon",
+                "value": "※Weapon"
+            },
+            {
+                "key": "Saber",
+                "value": "※Saber"
+            },
+            {
+                "key": "Weighted",
+                "value": "※Weighted"
+            },
+            {
+                "key": "Wooden",
+                "value": "※Wooden"
+            },
+            {
+                "key": "Pick",
+                "value": "※Pick"
+            },
+            {
+                "key": "Chopper",
+                "value": "※Chopper"
+            },
+            {
+                "key": "Shining",
+                "value": "※Shining"
+            },
+            {
+                "key": "Pretty",
+                "value": "※Pretty"
+            },
+            {
+                "key": "Pointy",
+                "value": "※Pointy"
+            },
+            {
+                "key": "Defender",
+                "value": "※Defender"
+            },
+            {
+                "key": "War Axe",
+                "value": "※War Axe"
+            },
+            {
+                "key": "Hunting Bow",
+                "value": "※Hunting Bow"
+            },
+            {
+                "key": "Whistling",
+                "value": "※Whistling"
+            },
+            {
+                "key": "Soft",
+                "value": "※Soft"
+            },
+            {
+                "key": "Merciless",
+                "value": "※Merciless"
+            },
+            {
+                "key": "Basilisk",
+                "value": "※Basilisk"
+            },
+            {
+                "key": "Nebula",
+                "value": "※Nebula"
+            },
+            {
+                "key": "Whizzing",
+                "value": "※Whizzing"
+            },
+            {
+                "key": "Splitter",
+                "value": "※Splitter"
+            },
+            {
+                "key": "Scoop",
+                "value": "※Scoop"
+            },
+            {
+                "key": "Savage",
+                "value": "※Savage"
+            },
+            {
+                "key": "Chop-Digger",
+                "value": "※Chop-Digger"
+            },
+            {
+                "key": "Gliding",
+                "value": "※Gliding"
+            },
+            {
+                "key": "Greataxe",
+                "value": "※Greataxe"
+            },
+            {
+                "key": "Jeans",
+                "value": "※Jeans"
+            },
+            {
+                "key": "Reaver",
+                "value": "※Reaver"
+            },
+            {
+                "key": "Brutal",
+                "value": "※Brutal"
+            },
+            {
+                "key": "Nightmarish",
+                "value": "※Nightmarish"
+            },
+            {
+                "key": "Ground-Breaking",
+                "value": "※Ground-Breaking"
+            },
+            {
+                "key": "Breastplate",
+                "value": "※Breastplate"
+            },
+            {
+                "key": "Shortsword",
+                "value": "※Shortsword"
+            },
+            {
+                "key": "Elder",
+                "value": "※Elder"
+            },
+            {
+                "key": "Twisted",
+                "value": "※Twisted"
+            },
+            {
+                "key": "Infinity",
+                "value": "※Infinity"
+            },
+            {
+                "key": "Tossable",
+                "value": "※Tossable"
+            },
+            {
+                "key": "Boomerang",
+                "value": "※Boomerang"
+            },
+            {
+                "key": "Chuckable",
+                "value": "※Chuckable"
+            },
+            {
+                "key": "Skull",
+                "value": "※Skull"
+            },
+            {
+                "key": "Trousers",
+                "value": "※Trousers"
+            },
+            {
+                "key": "Felling",
+                "value": "※Felling"
+            },
+            {
+                "key": "Digger",
+                "value": "※Digger"
+            },
+            {
+                "key": "Molten",
+                "value": "※Molten"
+            },
+            {
+                "key": "Object",
+                "value": "※Object"
+            },
+            {
+                "key": "Sweaty",
+                "value": "※Sweaty"
+            },
+            {
+                "key": "Mountain Mover",
+                "value": "※Mountain Mover"
+            },
+            {
+                "key": "Filthy",
+                "value": "※Filthy"
+            },
+            {
+                "key": "Skewer",
+                "value": "※Skewer"
+            },
+            {
+                "key": "Launcher",
+                "value": "※Launcher"
+            },
+            {
+                "key": "Terrifying",
+                "value": "※Terrifying"
+            },
+            {
+                "key": "Stary",
+                "value": "※Stary"
+            },
+            {
+                "key": "Terra",
+                "value": "※Terra"
+            },
+            {
+                "key": "Flying",
+                "value": "※Flying"
+            },
+            {
+                "key": "Nightmare",
+                "value": "※Nightmare"
+            },
+            {
+                "key": "Tires",
+                "value": "※Tires"
+            },
+            {
+                "key": "Doomblade",
+                "value": "※Doomblade"
+            },
+            {
+                "key": "Atuned",
+                "value": "※Atuned"
+            },
+            {
+                "key": "Boots",
+                "value": "※Boots"
+            },
+            {
+                "key": "Hammering",
+                "value": "※Hammering"
+            },
+            {
+                "key": "Shoes",
+                "value": "※Shoes"
+            },
+            {
+                "key": "Blazing",
+                "value": "※Blazing"
+            },
+            {
+                "key": "Chaos",
+                "value": "※Chaos"
+            },
+            {
+                "key": "Bow",
+                "value": "弓"
+            },
+            {
+                "key": "Jewel Encrusted",
+                "value": "※Jewel Encrusted"
+            },
+            {
+                "key": "Chestplate",
+                "value": "※Chestplate"
+            },
+            {
+                "key": "Hatchet",
+                "value": "※Hatchet"
+            },
+            {
+                "key": "Mythic",
+                "value": "※Mythic"
+            },
+            {
+                "key": "Harbringer",
+                "value": "※Harbringer"
+            },
+            {
+                "key": "Shovel",
+                "value": "※Shovel"
+            },
+            {
+                "key": "Brute",
+                "value": "※Brute"
+            },
+            {
+                "key": "Star",
+                "value": "※Star"
+            },
+            {
+                "key": "Gravedigger",
+                "value": "※Gravedigger"
+            },
+            {
+                "key": "Briefs",
+                "value": "※Briefs"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RLBowItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Pull Speed: ",
+                "value": "拉动速度："
+            },
+            {
+                "key": "Bow Damage Modifier: ",
+                "value": "弓箭伤害修饰："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.RandomArmor",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Armor: ",
+                "value": "护甲值："
+            },
+            {
+                "key": "Toughness: ",
+                "value": "韧性："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.init.ItemFactory",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Found in the",
+                "value": "发现于"
+            },
+            {
+                "key": "Gifted by the gods in the",
+                "value": "由众神的恩赐在"
+            },
+            {
+                "key": "Found in the heart of the",
+                "value": "发现在中心地带的"
+            },
+            {
+                "key": "Taken from the",
+                "value": "取自"
+            },
+            {
+                "key": "Found deep in the",
+                "value": "找到于深处的"
+            },
+            {
+                "key": "Uncovered at the",
+                "value": "裸露在"
+            },
+            {
+                "key": "Discovered deep in the",
+                "value": "发现于深处的"
+            },
+            {
+                "key": "Rightfully claimed at the",
+                "value": "理所当然地声称在"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.ToolUtilities",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Level: ",
+                "value": "等级："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tags.BasicTag",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": " [disabled]",
+                "value": " [被禁用]"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tags.WorldInteractTag",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": " [disabled]",
+                "value": " [被禁用]"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.container.RLRepairContainer",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "All traits will be popped from this tool and it will be heavily damaged.\"}",
+                "value": "这个工具的所有特性都会被激发出来，而且会受到严重损坏。}"
+            },
+            {
+                "key": "Upgraded stats hidden.\"}",
+                "value": "升级的统计数据已隐藏。\"}"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.container.RLRepairContainer",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "All traits will be popped from this tool and it will be heavily damaged.\"}",
+                "value": "这个工具的所有特性都会被激发出来，而且会受到严重损坏。}"
+            },
+            {
+                "key": "Upgraded stats hidden.\"}",
+                "value": "升级的统计数据已隐藏。\"}"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.tools.ToolUtilities",
+            "method": "setLore",
+            "local": "MtoString"
+        },
+        "pairs": [
+            {
+                "key": "Deep Breathing",
+                "value": "※Deep Breathing"
+            },
+            {
+                "key": "Lucky",
+                "value": "※Lucky"
+            },
+            {
+                "key": "Regenerating",
+                "value": "※Regenerating"
+            },
+            {
+                "key": "Resistant",
+                "value": "※Resistant"
+            },
+            {
+                "key": "Blood Thirst",
+                "value": "※Blood Thirst"
+            },
+            {
+                "key": "Speedy",
+                "value": "※Speedy"
+            },
+            {
+                "key": "Webbed",
+                "value": "※Webbed"
+            },
+            {
+                "key": "Hastey",
+                "value": "※Hastey"
+            },
+            {
+                "key": "Bouncy",
+                "value": "※Bouncy"
+            },
+            {
+                "key": "Fire Resistant",
+                "value": "※Fire Resistant"
+            },
+            {
+                "key": "Strong",
+                "value": "※Strong"
+            },
+            {
+                "key": "Withering",
+                "value": "※Withering"
+            },
+            {
+                "key": "Insightful",
+                "value": "※Insightful"
+            },
+            {
+                "key": "Weakening",
+                "value": "※Weakening"
+            },
+            {
+                "key": "Blinding",
+                "value": "※Blinding"
+            },
+            {
+                "key": "Glittering",
+                "value": "※Glittering"
+            },
+            {
+                "key": "Poisonous",
+                "value": "※Poisonous"
+            },
+            {
+                "key": "Floating",
+                "value": "※Floating"
+            },
+            {
+                "key": "Solar Flare",
+                "value": "※Solar Flare"
+            },
+            {
+                "key": "Filling",
+                "value": "※Filling"
+            },
+            {
+                "key": "Elastic Legs",
+                "value": "※Elastic Legs"
+            },
+            {
+                "key": "Explosive",
+                "value": "※Explosive"
+            },
+            {
+                "key": "Stalky",
+                "value": "※Stalky"
+            },
+            {
+                "key": "Auto Smelt",
+                "value": "※Auto Smelt"
+            },
+            {
+                "key": "Titan Slayer",
+                "value": "※Titan Slayer"
+            },
+            {
+                "key": "Glowing",
+                "value": "※Glowing"
+            },
+            {
+                "key": "Enraged",
+                "value": "※Enraged"
+            },
+            {
+                "key": "Infinity Edge",
+                "value": "※Infinity Edge"
+            },
+            {
+                "key": "Sun Bathing",
+                "value": "※Sun Bathing"
+            },
+            {
+                "key": "End Arrows",
+                "value": "※End Arrows"
+            },
+            {
+                "key": "Giant Slayer",
+                "value": "※Giant Slayer"
+            },
+            {
+                "key": "Stilted",
+                "value": "※Stilted"
+            },
+            {
+                "key": "Exodian",
+                "value": "※Exodian"
+            },
+            {
+                "key": "Automotonizing",
+                "value": "※Automotonizing"
+            },
+            {
+                "key": "Phasing",
+                "value": "※Phasing"
+            },
+            {
+                "key": "Triple Shot",
+                "value": "※Triple Shot"
+            },
+            {
+                "key": "Exasperating",
+                "value": "※Exasperating"
+            },
+            {
+                "key": "Taming",
+                "value": "※Taming"
+            },
+            {
+                "key": "Sturdy",
+                "value": "※Sturdy"
+            },
+            {
+                "key": "Fierce",
+                "value": "※Fierce"
+            },
+            {
+                "key": "Crowd Pleaser",
+                "value": "※Crowd Pleaser"
+            },
+            {
+                "key": "Fire Storm",
+                "value": "※Fire Storm"
+            },
+            {
+                "key": "Egg Hunt",
+                "value": "※Egg Hunt"
+            },
+            {
+                "key": "Ore Sight",
+                "value": "※Ore Sight"
+            },
+            {
+                "key": "Long Legged",
+                "value": "※Long Legged"
+            },
+            {
+                "key": "Fortified",
+                "value": "※Fortified"
+            },
+            {
+                "key": "Feisty",
+                "value": "※Feisty"
+            },
+            {
+                "key": "Charged",
+                "value": "※Charged"
+            },
+            {
+                "key": "Illuminated",
+                "value": "※Illuminated"
+            },
+            {
+                "key": "Twin Shooter",
+                "value": "※Twin Shooter"
+            },
+            {
+                "key": "Excavating",
+                "value": "※Excavating"
+            },
+            {
+                "key": "Soul Searching",
+                "value": "※Soul Searching"
+            },
+            {
+                "key": "World Breaking",
+                "value": "※World Breaking"
+            },
+            {
+                "key": "Sharper Edge",
+                "value": "※Sharper Edge"
+            },
+            {
+                "key": "Everlasting",
+                "value": "※Everlasting"
+            },
+            {
+                "key": "Cloud Walker",
+                "value": "※Cloud Walker"
+            },
+            {
+                "key": "Hailey's Wrath",
+                "value": "※Hailey's Wrath"
+            },
+            {
+                "key": "Gilded Edge",
+                "value": "※Gilded Edge"
+            },
+            {
+                "key": "Reinforced",
+                "value": "※Reinforced"
+            },
+            {
+                "key": "Locked",
+                "value": "※Locked"
+            },
+            {
+                "key": "Plated",
+                "value": "※Plated"
+            },
+            {
+                "key": "Rained Out",
+                "value": "※Rained Out"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "xyz.marstonconnell.randomloot.init.ItemFactory",
+            "method": "forgeItem",
+            "local": "MconvertToTitleCaseIteratingChars"
+        },
+        "pairs": [
+            {
+                "key": "Modified Jungle Edge",
+                "value": "※Modified Jungle Edge"
+            },
+            {
+                "key": "Mountain Edge",
+                "value": "※Mountain Edge"
+            },
+            {
+                "key": "Gravelly Mountains+",
+                "value": "※Gravelly Mountains+"
+            },
+            {
+                "key": "Modified Badlands Plateau",
+                "value": "※Modified Badlands Plateau"
+            },
+            {
+                "key": "Tall Birch Hills",
+                "value": "※Tall Birch Hills"
+            },
+            {
+                "key": "Swamp Hills",
+                "value": "※Swamp Hills"
+            },
+            {
+                "key": "Snowy Plains",
+                "value": "※Snowy Plains"
+            },
+            {
+                "key": "Wooded Badlands",
+                "value": "※Wooded Badlands"
+            },
+            {
+                "key": "Frozen Ocean",
+                "value": "※Frozen Ocean"
+            },
+            {
+                "key": "Birch Forest",
+                "value": "※Birch Forest"
+            },
+            {
+                "key": "Birch Forest Hills",
+                "value": "※Birch Forest Hills"
+            },
+            {
+                "key": "Nether Wastes",
+                "value": "※Nether Wastes"
+            },
+            {
+                "key": "Windswept Savanna",
+                "value": "※Windswept Savanna"
+            },
+            {
+                "key": "Badlands",
+                "value": "※Badlands"
+            },
+            {
+                "key": "The Void",
+                "value": "※The Void"
+            },
+            {
+                "key": "Swamp",
+                "value": "※Swamp"
+            },
+            {
+                "key": "Savanna Plateau",
+                "value": "※Savanna Plateau"
+            },
+            {
+                "key": "Forest",
+                "value": "※Forest"
+            },
+            {
+                "key": "Windswept Hills",
+                "value": "※Windswept Hills"
+            },
+            {
+                "key": "Dripstone Caves",
+                "value": "※Dripstone Caves"
+            },
+            {
+                "key": "Deep Cold Ocean",
+                "value": "※Deep Cold Ocean"
+            },
+            {
+                "key": "Cherry Grove",
+                "value": "※Cherry Grove"
+            },
+            {
+                "key": "Desert",
+                "value": "※Desert"
+            },
+            {
+                "key": "Frozen Peaks",
+                "value": "※Frozen Peaks"
+            },
+            {
+                "key": "Beach",
+                "value": "※Beach"
+            },
+            {
+                "key": "Lukewarm Ocean",
+                "value": "※Lukewarm Ocean"
+            },
+            {
+                "key": "Jungle",
+                "value": "※Jungle"
+            },
+            {
+                "key": "End Barrens",
+                "value": "※End Barrens"
+            },
+            {
+                "key": "Old Growth Pine Taiga",
+                "value": "※Old Growth Pine Taiga"
+            },
+            {
+                "key": "Bamboo Jungle",
+                "value": "※Bamboo Jungle"
+            },
+            {
+                "key": "Snowy Beach",
+                "value": "※Snowy Beach"
+            },
+            {
+                "key": "River",
+                "value": "※River"
+            },
+            {
+                "key": "Snowy Taiga Mountains",
+                "value": "※Snowy Taiga Mountains"
+            },
+            {
+                "key": "Taiga Hills",
+                "value": "※Taiga Hills"
+            },
+            {
+                "key": "Stony Peaks",
+                "value": "※Stony Peaks"
+            },
+            {
+                "key": "Giant Spruce Taiga Hills",
+                "value": "※Giant Spruce Taiga Hills"
+            },
+            {
+                "key": "Windswept Gravelly Hills",
+                "value": "※Windswept Gravelly Hills"
+            },
+            {
+                "key": "Meadow",
+                "value": "※Meadow"
+            },
+            {
+                "key": "Plains",
+                "value": "※Plains"
+            },
+            {
+                "key": "Deep Ocean",
+                "value": "※Deep Ocean"
+            },
+            {
+                "key": "Sparse Jungle",
+                "value": "※Sparse Jungle"
+            },
+            {
+                "key": "Basalt Deltas",
+                "value": "※Basalt Deltas"
+            },
+            {
+                "key": "Snowy Slopes",
+                "value": "※Snowy Slopes"
+            },
+            {
+                "key": "Bamboo Jungle Hills",
+                "value": "※Bamboo Jungle Hills"
+            },
+            {
+                "key": "Stony Shore",
+                "value": "※Stony Shore"
+            },
+            {
+                "key": "Desert Hills",
+                "value": "※Desert Hills"
+            },
+            {
+                "key": "Mushroom Field Shore",
+                "value": "※Mushroom Field Shore"
+            },
+            {
+                "key": "Dark Forest Hills",
+                "value": "※Dark Forest Hills"
+            },
+            {
+                "key": "Sunflower Plains",
+                "value": "※Sunflower Plains"
+            },
+            {
+                "key": "Warped Forest",
+                "value": "※Warped Forest"
+            },
+            {
+                "key": "Old Growth Spruce Taiga",
+                "value": "※Old Growth Spruce Taiga"
+            },
+            {
+                "key": "Deep Warm Ocean",
+                "value": "※Deep Warm Ocean"
+            },
+            {
+                "key": "Taiga Mountains",
+                "value": "※Taiga Mountains"
+            },
+            {
+                "key": "Shattered Savanna Plateau",
+                "value": "※Shattered Savanna Plateau"
+            },
+            {
+                "key": "Old Growth Birch Forest",
+                "value": "※Old Growth Birch Forest"
+            },
+            {
+                "key": "Mushroom Fields",
+                "value": "※Mushroom Fields"
+            },
+            {
+                "key": "Snowy Taiga Hills",
+                "value": "※Snowy Taiga Hills"
+            },
+            {
+                "key": "Deep Frozen Ocean",
+                "value": "※Deep Frozen Ocean"
+            },
+            {
+                "key": "Dark Forest",
+                "value": "※Dark Forest"
+            },
+            {
+                "key": "Modified Jungle",
+                "value": "※Modified Jungle"
+            },
+            {
+                "key": "Snowy Mountains",
+                "value": "※Snowy Mountains"
+            },
+            {
+                "key": "The End",
+                "value": "※The End"
+            },
+            {
+                "key": "Modified Wooded Badlands Plateau",
+                "value": "※Modified Wooded Badlands Plateau"
+            },
+            {
+                "key": "Frozen River",
+                "value": "※Frozen River"
+            },
+            {
+                "key": "Jagged Peaks",
+                "value": "※Jagged Peaks"
+            },
+            {
+                "key": "Cold Ocean",
+                "value": "※Cold Ocean"
+            },
+            {
+                "key": "End Midlands",
+                "value": "※End Midlands"
+            },
+            {
+                "key": "Savanna",
+                "value": "※Savanna"
+            },
+            {
+                "key": "Badlands Plateau",
+                "value": "※Badlands Plateau"
+            },
+            {
+                "key": "Ocean",
+                "value": "※Ocean"
+            },
+            {
+                "key": "Ice Spikes",
+                "value": "※Ice Spikes"
+            },
+            {
+                "key": "Warm Ocean",
+                "value": "※Warm Ocean"
+            },
+            {
+                "key": "Taiga",
+                "value": "※Taiga"
+            },
+            {
+                "key": "End Highlands",
+                "value": "※End Highlands"
+            },
+            {
+                "key": "Flower Forest",
+                "value": "※Flower Forest"
+            },
+            {
+                "key": "Eroded Badlands",
+                "value": "※Eroded Badlands"
+            },
+            {
+                "key": "Windswept Forest",
+                "value": "※Windswept Forest"
+            },
+            {
+                "key": "Deep Dark",
+                "value": "※Deep Dark"
+            },
+            {
+                "key": "Soul Sand Valley",
+                "value": "※Soul Sand Valley"
+            },
+            {
+                "key": "Jungle Hills",
+                "value": "※Jungle Hills"
+            },
+            {
+                "key": "Crimson Forest",
+                "value": "※Crimson Forest"
+            },
+            {
+                "key": "Giant Tree Taiga Hills",
+                "value": "※Giant Tree Taiga Hills"
+            },
+            {
+                "key": "Lush Caves",
+                "value": "※Lush Caves"
+            },
+            {
+                "key": "Cherry Grove",
+                "value": "※Cherry Grove"
+            },
+            {
+                "key": "Desert Lakes",
+                "value": "※Desert Lakes"
+            },
+            {
+                "key": "Mangrove Swamp",
+                "value": "※Mangrove Swamp"
+            },
+            {
+                "key": "Wooded Hills",
+                "value": "繁茂的丘陵"
+            },
+            {
+                "key": "Grove",
+                "value": "※Grove"
+            },
+            {
+                "key": "Deep Lukewarm Ocean",
+                "value": "※Deep Lukewarm Ocean"
+            },
+            {
+                "key": "Snowy Taiga",
+                "value": "※Snowy Taiga"
+            },
+            {
+                "key": "Small End Islands",
+                "value": "※Small End Islands"
+            },
+            {
+                "key": "Legacy Frozen Ocean",
+                "value": "※Legacy Frozen Ocean"
+            },
+            {
+                "key": "Mountains",
+                "value": "※Mountains"
+            }
+        ]
+    }
+]
