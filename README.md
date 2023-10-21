@@ -24,9 +24,24 @@
 
 PR格式为`<模组英文名> <简述>`
 
-json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"，并且**对"mods"有内容限定**
-
-"mods"内的内容要求为"模组英文名+汉化该模组的版本"
+json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"，并且**对期内容限定**
+```txt
+    {
+        "authors": "<隨意填>",
+        "name": "<模组名>模组汉化",
+        "desc": "VP<版本号>+可启用，...",
+        "mods": "<模组模组，要细致到模组名、游戏版本、模组版本>",
+        "dynamic": false
+    },
+以下为示范：
+    {
+        "authors": "KlparetlR、Qing_Lanovo",
+        "name": "XPCoins模组汉化",
+        "desc": "VP1.3.3+可启用，VPGS开源",
+        "mods": "XPCoins (FORGE-1.16.4) v1.0.7",
+        "dynamic": false
+    },
+```
 
 可以参考CFPA的[i18n库](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/main/CONTRIBUTING.md)
 
