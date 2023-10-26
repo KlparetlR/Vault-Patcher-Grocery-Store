@@ -1,8 +1,8 @@
 [
     {
-        "authors": "KlparetlR",
+        "authors": "KlparetlR、Qing_Lanovo",
         "name": "randomloot模组汉化",
-        "desc": "VP1.3.3+可启用，VPGS开源（半汉化）",
+        "desc": "VP1.3.3+可启用，VPGS开源",
         "mods": "randomloot-1.16.5-2.3.9",
         "dynamic": false
     },
@@ -108,115 +108,115 @@
         "pairs": [
             {
                 "key": "Hammer",
-                "value": "※Hammer"
+                "value": "锤子"
             },
             {
                 "key": "Th0rn",
-                "value": "※Th0rn"
+                "value": "荆棘"
             },
             {
                 "key": "Cold-Blooded",
-                "value": "※Cold-Blooded"
+                "value": "冷血"
             },
             {
                 "key": "Legendary",
-                "value": "※Legendary"
+                "value": "传说"
             },
             {
                 "key": "Lumbering",
-                "value": "※Lumbering"
+                "value": "伐木"
             },
             {
                 "key": "Swinger",
-                "value": "※Swinger"
+                "value": "突变者"
             },
             {
                 "key": "Tremor",
-                "value": "※Tremor"
+                "value": "震颤"
             },
             {
                 "key": "Throwing",
-                "value": "※Throwing"
+                "value": "投掷"
             },
             {
                 "key": "Runners",
-                "value": "※Runners"
+                "value": "跑步者"
             },
             {
                 "key": "Chest",
-                "value": "※Chest"
+                "value": "躯干"
             },
             {
                 "key": "Crossbow",
-                "value": "※Crossbow"
+                "value": "弩"
             },
             {
                 "key": "Awesome",
-                "value": "※Awesome"
+                "value": "卓越"
             },
             {
                 "key": "Zooming",
-                "value": "※Zooming"
+                "value": "缩放"
             },
             {
                 "key": "Dreadful",
-                "value": "※Dreadful"
+                "value": "诅咒"
             },
             {
                 "key": "Ravager",
-                "value": "※Ravager"
+                "value": "劫掠者"
             },
             {
                 "key": "Quivering",
-                "value": "※Quivering"
+                "value": "震颤"
             },
             {
                 "key": "Advanced",
-                "value": "※Advanced"
+                "value": "高级"
             },
             {
                 "key": "Shadow",
-                "value": "※Shadow"
+                "value": "阴影"
             },
             {
                 "key": "Battle Axe",
-                "value": "※Battle Axe"
+                "value": "战斧"
             },
             {
                 "key": "Hacker",
-                "value": "※Hacker"
+                "value": "黑客"
             },
             {
                 "key": "Fearsome",
-                "value": "※Fearsome"
+                "value": "骇人"
             },
             {
                 "key": "Galactic",
-                "value": "※Galactic"
+                "value": "银河"
             },
             {
                 "key": "Spectre",
-                "value": "※Spectre"
+                "value": "幽灵"
             },
             {
                 "key": "Ripe",
-                "value": "※Ripe"
+                "value": "成熟"
             },
             {
                 "key": "Lance",
-                "value": "※Lance"
+                "value": "骑枪"
             },
             {
                 "key": "Necro",
-                "value": "※Necro"
+                "value": "亡灵"
             },
             {
                 "key": "Stick",
-                "value": "※Stick"
+                "value": "木棍"
             },
             {
                 "key": "Thick",
-                "value": "※Thick"
+                "value": "较厚的"
             },
             {
                 "key": "Axe",
@@ -224,63 +224,63 @@
             },
             {
                 "key": "Warp-Bow",
-                "value": "※Warp-Bow"
+                "value": "扭曲弓"
             },
             {
                 "key": "Venomous",
-                "value": "※Venomous"
+                "value": "毒液"
             },
             {
                 "key": "Shocking",
-                "value": "※Shocking"
+                "value": "震击"
             },
             {
                 "key": "Dainty",
-                "value": "※Dainty"
+                "value": "秀丽"
             },
             {
                 "key": "Gold Digger",
-                "value": "※Gold Digger"
+                "value": "掘金者"
             },
             {
                 "key": "Broadaxe",
-                "value": "※Broadaxe"
+                "value": "板斧"
             },
             {
                 "key": "Terrablade",
-                "value": "※Terrablade"
+                "value": "泰拉之刃"
             },
             {
                 "key": "Sweet",
-                "value": "※Sweet"
+                "value": "甜蜜"
             },
             {
                 "key": "Shiny",
-                "value": "※Shiny"
+                "value": "闪光"
             },
             {
                 "key": "Heavy",
-                "value": "※Heavy"
+                "value": "沉重"
             },
             {
                 "key": "Crust-Breaker",
-                "value": "※Crust-Breaker"
+                "value": "破壳机"
             },
             {
                 "key": "Knickers",
-                "value": "※Knickers"
+                "value": "短裤"
             },
             {
                 "key": "Booties",
-                "value": "※Booties"
+                "value": "靴子"
             },
             {
                 "key": "Spade",
-                "value": "※Spade"
+                "value": "铲子"
             },
             {
                 "key": "Architect",
-                "value": "※Architect"
+                "value": "缔造者"
             },
             {
                 "key": "Helmet",
@@ -288,23 +288,23 @@
             },
             {
                 "key": "Gritty",
-                "value": "※Gritty"
+                "value": "坚毅"
             },
             {
                 "key": "Crackling",
-                "value": "※Crackling"
+                "value": "爆裂"
             },
             {
                 "key": "Throwable",
-                "value": "※Throwable"
+                "value": "可投掷"
             },
             {
                 "key": "Reliable",
-                "value": "※Reliable"
+                "value": "可靠的"
             },
             {
                 "key": "Titanium",
-                "value": "※Titanium"
+                "value": "钛"
             },
             {
                 "key": "Leggings",
@@ -312,11 +312,11 @@
             },
             {
                 "key": "Fast",
-                "value": "※Fast"
+                "value": "快速"
             },
             {
                 "key": "Towering",
-                "value": "※Towering"
+                "value": "高耸的"
             },
             {
                 "key": "Earth Shatterer",
@@ -324,55 +324,55 @@
             },
             {
                 "key": "Swift",
-                "value": "※Swift"
+                "value": "迅捷"
             },
             {
                 "key": "Cleaver",
-                "value": "※Cleaver"
+                "value": "劈刀"
             },
             {
                 "key": "Harsh",
-                "value": "※Harsh"
+                "value": "粗糙的"
             },
             {
                 "key": "Vortex",
-                "value": "※Vortex"
+                "value": "漩涡"
             },
             {
                 "key": "Striker",
-                "value": "※Striker"
+                "value": "打击者"
             },
             {
                 "key": "Titan",
-                "value": "※Titan"
+                "value": "泰坦"
             },
             {
                 "key": "Pick-Logger",
-                "value": "※Pick-Logger"
+                "value": "拾取记录"
             },
             {
                 "key": "Blast-Resistant",
-                "value": "※Blast-Resistant"
+                "value": "防爆"
             },
             {
                 "key": "Powerful",
-                "value": "※Powerful"
+                "value": "强力的"
             },
             {
                 "key": "Rusty",
-                "value": "※Rusty"
+                "value": "生锈的"
             },
             {
                 "key": "Starstruck",
-                "value": "※Starstruck"
+                "value": "追星的"
             },
             {
                 "key": "Fossilized",
-                "value": "※Fossilized"
+                "value": "石化"
             },
             {
                 "key": "Swinging",
-                "value": "※Swinging"
+                "value": "摆动"
             },
             {
                 "key": "Iron",
@@ -380,11 +380,11 @@
             },
             {
                 "key": "Shatter",
-                "value": "※Shatter"
+                "value": "粉碎"
             },
             {
                 "key": "Helm",
-                "value": "※Helm"
+                "value": "头盔"
             },
             {
                 "key": "Pickaxe",
@@ -392,47 +392,47 @@
             },
             {
                 "key": "Ruthless",
-                "value": "※Ruthless"
+                "value": "无情的"
             },
             {
                 "key": "Fireman's",
-                "value": "※Fireman's"
+                "value": "消防员"
             },
             {
                 "key": "Bat",
-                "value": "※Bat"
+                "value": "蝙蝠"
             },
             {
                 "key": "Upright",
-                "value": "※Upright"
+                "value": "正直的"
             },
             {
                 "key": "Enlightened",
-                "value": "※Enlightened"
+                "value": "开明的"
             },
             {
                 "key": "Icy",
-                "value": "※Icy"
+                "value": "冰的"
             },
             {
                 "key": "Claymore",
-                "value": "※Claymore"
+                "value": "双刃大剑"
             },
             {
                 "key": "Fletcher",
-                "value": "※Fletcher"
+                "value": "制箭师"
             },
             {
                 "key": "Zipping",
-                "value": "※Zipping"
+                "value": "快速移动"
             },
             {
                 "key": "Hard Hat",
-                "value": "※Hard Hat"
+                "value": "安全帽"
             },
             {
                 "key": "Broadsword",
-                "value": "※Broadsword"
+                "value": "大剑"
             },
             {
                 "key": "Sword",
@@ -440,39 +440,39 @@
             },
             {
                 "key": "Halberd",
-                "value": "※Halberd"
+                "value": "戟"
             },
             {
                 "key": "Slasher",
-                "value": "※Slasher"
+                "value": "砍杀"
             },
             {
                 "key": "Head Protector",
-                "value": "※Head Protector"
+                "value": "护头"
             },
             {
                 "key": "Armor Piece",
-                "value": "※Armor Piece"
+                "value": "装甲片"
             },
             {
                 "key": "Pants",
-                "value": "※Pants"
+                "value": "裤子"
             },
             {
                 "key": "Point",
-                "value": "※Point"
+                "value": "尖端"
             },
             {
                 "key": "Sharpened",
-                "value": "※Sharpened"
+                "value": "尖锐的"
             },
             {
                 "key": "Slinger",
-                "value": "※Slinger"
+                "value": "投石者"
             },
             {
                 "key": "Crude",
-                "value": "※Crude"
+                "value": "粗制"
             },
             {
                 "key": "Dark",
@@ -480,71 +480,71 @@
             },
             {
                 "key": "Drawers",
-                "value": "※Drawers"
+                "value": "抽屉"
             },
             {
                 "key": "Machete",
-                "value": "※Machete"
+                "value": "弯刀"
             },
             {
                 "key": "Blade",
-                "value": "※Blade"
+                "value": "叶片"
             },
             {
                 "key": "Ancient",
-                "value": "※Ancient"
+                "value": "远古"
             },
             {
                 "key": "Glaive",
-                "value": "※Glaive"
+                "value": "长戈"
             },
             {
                 "key": "Spoon",
-                "value": "※Spoon"
+                "value": "勺子"
             },
             {
                 "key": "Platinum",
-                "value": "※Platinum"
+                "value": "白金"
             },
             {
                 "key": "Incredible",
-                "value": "※Incredible"
+                "value": "不可思议的"
             },
             {
                 "key": "Shirt",
-                "value": "※Shirt"
+                "value": "衬衫"
             },
             {
                 "key": "Sturdy",
-                "value": "※Sturdy"
+                "value": "坚固"
             },
             {
                 "key": "Crimson",
-                "value": "※Crimson"
+                "value": "绯红"
             },
             {
                 "key": "Knife",
-                "value": "※Knife"
+                "value": "小刀"
             },
             {
                 "key": "Crystaline",
-                "value": "※Crystaline"
+                "value": "晶莹剔透"
             },
             {
                 "key": "Light",
-                "value": "※Light"
+                "value": "光明"
             },
             {
                 "key": "Feet",
-                "value": "※Feet"
+                "value": "脚部"
             },
             {
                 "key": "Crusader",
-                "value": "※Crusader"
+                "value": "十字军"
             },
             {
                 "key": "Floating",
-                "value": "※Floating"
+                "value": "漂浮"
             },
             {
                 "key": "Epic",
@@ -552,51 +552,51 @@
             },
             {
                 "key": "Alien",
-                "value": "※Alien"
+                "value": "异形"
             },
             {
                 "key": "Hole-Puncher",
-                "value": "※Hole-Puncher"
+                "value": "打孔器"
             },
             {
                 "key": "Gracious",
-                "value": "※Gracious"
+                "value": "亲切的"
             },
             {
                 "key": "Serious",
-                "value": "※Serious"
+                "value": "严重的"
             },
             {
                 "key": "Titanic",
-                "value": "※Titanic"
+                "value": "泰坦尼克号"
             },
             {
                 "key": "Trowel",
-                "value": "※Trowel"
+                "value": "瓦刀"
             },
             {
                 "key": "Lumber Axe",
-                "value": "※Lumber Axe"
+                "value": "伐木斧"
             },
             {
                 "key": "Heartless",
-                "value": "※Heartless"
+                "value": "无情的"
             },
             {
                 "key": "Piercer",
-                "value": "※Piercer"
+                "value": "穿刺者"
             },
             {
                 "key": "Bolt-Tosser",
-                "value": "※Bolt-Tosser"
+                "value": "螺栓抛掷器"
             },
             {
                 "key": "Shorts",
-                "value": "※Shorts"
+                "value": "短的"
             },
             {
                 "key": "Killer",
-                "value": "※Killer"
+                "value": "杀手"
             },
             {
                 "key": "Hat",
@@ -604,287 +604,287 @@
             },
             {
                 "key": "Barbaric",
-                "value": "※Barbaric"
+                "value": "野蛮的"
             },
             {
                 "key": "Jackhammer",
-                "value": "※Jackhammer"
+                "value": "岩锤"
             },
             {
                 "key": "Steel",
-                "value": "※Steel"
+                "value": "钢铁"
             },
             {
                 "key": "Spiker",
-                "value": "※Spiker"
+                "value": "尖钉"
             },
             {
                 "key": "Tomahawk",
-                "value": "※Tomahawk"
+                "value": "印第安战斧"
             },
             {
                 "key": "Cutlass",
-                "value": "※Cutlass"
+                "value": "弯刀"
             },
             {
                 "key": "Chaps",
-                "value": "※Chaps"
+                "value": "瞄准"
             },
             {
                 "key": "Shell",
-                "value": "※Shell"
+                "value": "壳"
             },
             {
                 "key": "Heavy-Bolted",
-                "value": "※Heavy-Bolted"
+                "value": "重型螺栓"
             },
             {
                 "key": "Bloodthirsty",
-                "value": "※Bloodthirsty"
+                "value": "残忍的"
             },
             {
                 "key": "Weapon",
-                "value": "※Weapon"
+                "value": "武器"
             },
             {
                 "key": "Saber",
-                "value": "※Saber"
+                "value": "军刀"
             },
             {
                 "key": "Weighted",
-                "value": "※Weighted"
+                "value": "沉重的"
             },
             {
                 "key": "Wooden",
-                "value": "※Wooden"
+                "value": "木制的"
             },
             {
                 "key": "Pick",
-                "value": "※Pick"
+                "value": "镐"
             },
             {
                 "key": "Chopper",
-                "value": "※Chopper"
+                "value": "砍伐工"
             },
             {
                 "key": "Shining",
-                "value": "※Shining"
+                "value": "闪耀"
             },
             {
                 "key": "Pretty",
-                "value": "※Pretty"
+                "value": "园艺"
             },
             {
                 "key": "Pointy",
-                "value": "※Pointy"
+                "value": "尖锐的"
             },
             {
                 "key": "Defender",
-                "value": "※Defender"
+                "value": "防御者"
             },
             {
                 "key": "War Axe",
-                "value": "※War Axe"
+                "value": "战斧"
             },
             {
                 "key": "Hunting Bow",
-                "value": "※Hunting Bow"
+                "value": "狩猎之弓"
             },
             {
                 "key": "Whistling",
-                "value": "※Whistling"
+                "value": "呼啸"
             },
             {
                 "key": "Soft",
-                "value": "※Soft"
+                "value": "柔软"
             },
             {
                 "key": "Merciless",
-                "value": "※Merciless"
+                "value": "残忍的"
             },
             {
                 "key": "Basilisk",
-                "value": "※Basilisk"
+                "value": "蛇怪"
             },
             {
                 "key": "Nebula",
-                "value": "※Nebula"
+                "value": "星云"
             },
             {
                 "key": "Whizzing",
-                "value": "※Whizzing"
+                "value": "旋离"
             },
             {
                 "key": "Splitter",
-                "value": "※Splitter"
+                "value": "劈裂者"
             },
             {
                 "key": "Scoop",
-                "value": "※Scoop"
+                "value": "汲取"
             },
             {
                 "key": "Savage",
-                "value": "※Savage"
+                "value": "野蛮的"
             },
             {
                 "key": "Chop-Digger",
-                "value": "※Chop-Digger"
+                "value": "森林开发者"
             },
             {
                 "key": "Gliding",
-                "value": "※Gliding"
+                "value": "游动的"
             },
             {
                 "key": "Greataxe",
-                "value": "※Greataxe"
+                "value": "巨斧"
             },
             {
                 "key": "Jeans",
-                "value": "※Jeans"
+                "value": "牛仔"
             },
             {
                 "key": "Reaver",
-                "value": "※Reaver"
+                "value": "掠夺者"
             },
             {
                 "key": "Brutal",
-                "value": "※Brutal"
+                "value": "残暴"
             },
             {
                 "key": "Nightmarish",
-                "value": "※Nightmarish"
+                "value": "梦魇"
             },
             {
                 "key": "Ground-Breaking",
-                "value": "※Ground-Breaking"
+                "value": "地面破碎"
             },
             {
                 "key": "Breastplate",
-                "value": "※Breastplate"
+                "value": "胸甲"
             },
             {
                 "key": "Shortsword",
-                "value": "※Shortsword"
+                "value": "短剑"
             },
             {
                 "key": "Elder",
-                "value": "※Elder"
+                "value": "长者"
             },
             {
                 "key": "Twisted",
-                "value": "※Twisted"
+                "value": "扭曲的"
             },
             {
                 "key": "Infinity",
-                "value": "※Infinity"
+                "value": "无限"
             },
             {
                 "key": "Tossable",
-                "value": "※Tossable"
+                "value": "可投掷的"
             },
             {
                 "key": "Boomerang",
-                "value": "※Boomerang"
+                "value": "回旋镖"
             },
             {
                 "key": "Chuckable",
-                "value": "※Chuckable"
+                "value": "可卡住"
             },
             {
                 "key": "Skull",
-                "value": "※Skull"
+                "value": "头颅"
             },
             {
                 "key": "Trousers",
-                "value": "※Trousers"
+                "value": "裤子"
             },
             {
                 "key": "Felling",
-                "value": "※Felling"
+                "value": "伐木"
             },
             {
                 "key": "Digger",
-                "value": "※Digger"
+                "value": "挖掘者"
             },
             {
                 "key": "Molten",
-                "value": "※Molten"
+                "value": "熔融"
             },
             {
                 "key": "Object",
-                "value": "※Object"
+                "value": "对象"
             },
             {
                 "key": "Sweaty",
-                "value": "※Sweaty"
+                "value": "出汗的"
             },
             {
                 "key": "Mountain Mover",
-                "value": "※Mountain Mover"
+                "value": "移山者"
             },
             {
                 "key": "Filthy",
-                "value": "※Filthy"
+                "value": "肮脏的"
             },
             {
                 "key": "Skewer",
-                "value": "※Skewer"
+                "value": "刺穿"
             },
             {
                 "key": "Launcher",
-                "value": "※Launcher"
+                "value": "发射器"
             },
             {
                 "key": "Terrifying",
-                "value": "※Terrifying"
+                "value": "骇人的"
             },
             {
                 "key": "Stary",
-                "value": "※Stary"
+                "value": "迷失"
             },
             {
                 "key": "Terra",
-                "value": "※Terra"
+                "value": "泰拉"
             },
             {
                 "key": "Flying",
-                "value": "※Flying"
+                "value": "飞行"
             },
             {
                 "key": "Nightmare",
-                "value": "※Nightmare"
+                "value": "梦魇"
             },
             {
                 "key": "Tires",
-                "value": "※Tires"
+                "value": "轮胎"
             },
             {
                 "key": "Doomblade",
-                "value": "※Doomblade"
+                "value": "厄运之刃"
             },
             {
                 "key": "Atuned",
-                "value": "※Atuned"
+                "value": "熟悉的"
             },
             {
                 "key": "Boots",
-                "value": "※Boots"
+                "value": "靴子"
             },
             {
                 "key": "Hammering",
-                "value": "※Hammering"
+                "value": "重锤"
             },
             {
                 "key": "Shoes",
-                "value": "※Shoes"
+                "value": "鞋子"
             },
             {
                 "key": "Blazing",
-                "value": "※Blazing"
+                "value": "烈焰"
             },
             {
                 "key": "Chaos",
-                "value": "※Chaos"
+                "value": "混沌"
             },
             {
                 "key": "Bow",
@@ -892,43 +892,43 @@
             },
             {
                 "key": "Jewel Encrusted",
-                "value": "※Jewel Encrusted"
+                "value": "宝石镶嵌"
             },
             {
                 "key": "Chestplate",
-                "value": "※Chestplate"
+                "value": "胸前护板"
             },
             {
                 "key": "Hatchet",
-                "value": "※Hatchet"
+                "value": "战斧"
             },
             {
                 "key": "Mythic",
-                "value": "※Mythic"
+                "value": "神话"
             },
             {
                 "key": "Harbringer",
-                "value": "※Harbringer"
+                "value": "先兆"
             },
             {
                 "key": "Shovel",
-                "value": "※Shovel"
+                "value": "铲"
             },
             {
                 "key": "Brute",
-                "value": "※Brute"
+                "value": "残忍的"
             },
             {
                 "key": "Star",
-                "value": "※Star"
+                "value": "星"
             },
             {
                 "key": "Gravedigger",
-                "value": "※Gravedigger"
+                "value": "掘墓者"
             },
             {
                 "key": "Briefs",
-                "value": "※Briefs"
+                "value": "短暂的"
             }
         ]
     },
@@ -1089,251 +1089,251 @@
         "pairs": [
             {
                 "key": "Deep Breathing",
-                "value": "※Deep Breathing"
+                "value": "深呼吸"
             },
             {
                 "key": "Lucky",
-                "value": "※Lucky"
+                "value": "幸运的"
             },
             {
                 "key": "Regenerating",
-                "value": "※Regenerating"
+                "value": "再生"
             },
             {
                 "key": "Resistant",
-                "value": "※Resistant"
+                "value": "保护"
             },
             {
                 "key": "Blood Thirst",
-                "value": "※Blood Thirst"
+                "value": "嗜血"
             },
             {
                 "key": "Speedy",
-                "value": "※Speedy"
+                "value": "迅捷"
             },
             {
                 "key": "Webbed",
-                "value": "※Webbed"
+                "value": "织网"
             },
             {
                 "key": "Hastey",
-                "value": "※Hastey"
+                "value": "急迫"
             },
             {
                 "key": "Bouncy",
-                "value": "※Bouncy"
+                "value": "弹跳"
             },
             {
                 "key": "Fire Resistant",
-                "value": "※Fire Resistant"
+                "value": "火焰保护"
             },
             {
                 "key": "Strong",
-                "value": "※Strong"
+                "value": "强化"
             },
             {
                 "key": "Withering",
-                "value": "※Withering"
+                "value": "凋零"
             },
             {
                 "key": "Insightful",
-                "value": "※Insightful"
+                "value": "洞见"
             },
             {
                 "key": "Weakening",
-                "value": "※Weakening"
+                "value": "虚弱"
             },
             {
                 "key": "Blinding",
-                "value": "※Blinding"
+                "value": "致盲"
             },
             {
                 "key": "Glittering",
-                "value": "※Glittering"
+                "value": "发光"
             },
             {
                 "key": "Poisonous",
-                "value": "※Poisonous"
+                "value": "剧毒"
             },
             {
                 "key": "Floating",
-                "value": "※Floating"
+                "value": "漂浮"
             },
             {
                 "key": "Solar Flare",
-                "value": "※Solar Flare"
+                "value": "太阳耀斑"
             },
             {
                 "key": "Filling",
-                "value": "※Filling"
+                "value": "填充"
             },
             {
                 "key": "Elastic Legs",
-                "value": "※Elastic Legs"
+                "value": "橡皮腿"
             },
             {
                 "key": "Explosive",
-                "value": "※Explosive"
+                "value": "爆破"
             },
             {
                 "key": "Stalky",
-                "value": "※Stalky"
+                "value": "有茎的"
             },
             {
                 "key": "Auto Smelt",
-                "value": "※Auto Smelt"
+                "value": "自动冶炼"
             },
             {
                 "key": "Titan Slayer",
-                "value": "※Titan Slayer"
+                "value": "泰坦杀手"
             },
             {
                 "key": "Glowing",
-                "value": "※Glowing"
+                "value": "发光"
             },
             {
                 "key": "Enraged",
-                "value": "※Enraged"
+                "value": "暴怒"
             },
             {
                 "key": "Infinity Edge",
-                "value": "※Infinity Edge"
+                "value": "无限边际"
             },
             {
                 "key": "Sun Bathing",
-                "value": "※Sun Bathing"
+                "value": "阳光沐浴"
             },
             {
                 "key": "End Arrows",
-                "value": "※End Arrows"
+                "value": "终结之箭"
             },
             {
                 "key": "Giant Slayer",
-                "value": "※Giant Slayer"
+                "value": "巨人杀手"
             },
             {
                 "key": "Stilted",
-                "value": "※Stilted"
+                "value": "停滞"
             },
             {
                 "key": "Exodian",
-                "value": "※Exodian"
+                "value": "艾克佐迪亚"
             },
             {
                 "key": "Automotonizing",
-                "value": "※Automotonizing"
+                "value": "自动化"
             },
             {
                 "key": "Phasing",
-                "value": "※Phasing"
+                "value": "定相"
             },
             {
                 "key": "Triple Shot",
-                "value": "※Triple Shot"
+                "value": "三重射击"
             },
             {
                 "key": "Exasperating",
-                "value": "※Exasperating"
+                "value": "激怒"
             },
             {
                 "key": "Taming",
-                "value": "※Taming"
+                "value": "驯服"
             },
             {
                 "key": "Sturdy",
-                "value": "※Sturdy"
+                "value": "坚固"
             },
             {
                 "key": "Fierce",
-                "value": "※Fierce"
+                "value": "凌厉"
             },
             {
                 "key": "Crowd Pleaser",
-                "value": "※Crowd Pleaser"
+                "value": "悦众者"
             },
             {
                 "key": "Fire Storm",
-                "value": "※Fire Storm"
+                "value": "火焰风暴"
             },
             {
                 "key": "Egg Hunt",
-                "value": "※Egg Hunt"
+                "value": "彩蛋"
             },
             {
                 "key": "Ore Sight",
-                "value": "※Ore Sight"
+                "value": "矿石视野"
             },
             {
                 "key": "Long Legged",
-                "value": "※Long Legged"
+                "value": "长腿"
             },
             {
                 "key": "Fortified",
-                "value": "※Fortified"
+                "value": "加强的"
             },
             {
                 "key": "Feisty",
-                "value": "※Feisty"
+                "value": "活跃的"
             },
             {
                 "key": "Charged",
-                "value": "※Charged"
+                "value": "充能的"
             },
             {
                 "key": "Illuminated",
-                "value": "※Illuminated"
+                "value": "照明"
             },
             {
                 "key": "Twin Shooter",
-                "value": "※Twin Shooter"
+                "value": "双子射手"
             },
             {
                 "key": "Excavating",
-                "value": "※Excavating"
+                "value": "挖掘"
             },
             {
                 "key": "Soul Searching",
-                "value": "※Soul Searching"
+                "value": "灵魂探寻"
             },
             {
                 "key": "World Breaking",
-                "value": "※World Breaking"
+                "value": "世界破碎"
             },
             {
                 "key": "Sharper Edge",
-                "value": "※Sharper Edge"
+                "value": "锋利边缘"
             },
             {
                 "key": "Everlasting",
-                "value": "※Everlasting"
+                "value": "永恒的"
             },
             {
                 "key": "Cloud Walker",
-                "value": "※Cloud Walker"
+                "value": "云端行者"
             },
             {
                 "key": "Hailey's Wrath",
-                "value": "※Hailey's Wrath"
+                "value": "海莉之怒"
             },
             {
                 "key": "Gilded Edge",
-                "value": "※Gilded Edge"
+                "value": "鎏金边缘"
             },
             {
                 "key": "Reinforced",
-                "value": "※Reinforced"
+                "value": "加固的"
             },
             {
                 "key": "Locked",
-                "value": "※Locked"
+                "value": "锁定"
             },
             {
                 "key": "Plated",
-                "value": "※Plated"
+                "value": "镀金的"
             },
             {
                 "key": "Rained Out",
-                "value": "※Rained Out"
+                "value": "冲洗"
             }
         ]
     },
@@ -1346,347 +1346,347 @@
         "pairs": [
             {
                 "key": "Modified Jungle Edge",
-                "value": "※Modified Jungle Edge"
+                "value": "丛林边缘变种"
             },
             {
                 "key": "Mountain Edge",
-                "value": "※Mountain Edge"
+                "value": "山地边缘"
             },
             {
                 "key": "Gravelly Mountains+",
-                "value": "※Gravelly Mountains+"
+                "value": "沙砾山地+"
             },
             {
                 "key": "Modified Badlands Plateau",
-                "value": "※Modified Badlands Plateau"
+                "value": "恶地高原变种"
             },
             {
                 "key": "Tall Birch Hills",
-                "value": "※Tall Birch Hills"
+                "value": "高大桦木丘陵"
             },
             {
                 "key": "Swamp Hills",
-                "value": "※Swamp Hills"
+                "value": "沼泽山丘"
             },
             {
                 "key": "Snowy Plains",
-                "value": "※Snowy Plains"
+                "value": "积雪的平原"
             },
             {
                 "key": "Wooded Badlands",
-                "value": "※Wooded Badlands"
+                "value": "繁茂的恶地高原"
             },
             {
                 "key": "Frozen Ocean",
-                "value": "※Frozen Ocean"
+                "value": "冻洋"
             },
             {
                 "key": "Birch Forest",
-                "value": "※Birch Forest"
+                "value": "桦木森林"
             },
             {
                 "key": "Birch Forest Hills",
-                "value": "※Birch Forest Hills"
+                "value": "桦木森林丘陵"
             },
             {
                 "key": "Nether Wastes",
-                "value": "※Nether Wastes"
+                "value": "下界荒地"
             },
             {
                 "key": "Windswept Savanna",
-                "value": "※Windswept Savanna"
+                "value": "风袭热带草原"
             },
             {
                 "key": "Badlands",
-                "value": "※Badlands"
+                "value": "恶地"
             },
             {
                 "key": "The Void",
-                "value": "※The Void"
+                "value": "虚空"
             },
             {
                 "key": "Swamp",
-                "value": "※Swamp"
+                "value": "沼泽"
             },
             {
                 "key": "Savanna Plateau",
-                "value": "※Savanna Plateau"
+                "value": "热带高原 "
             },
             {
                 "key": "Forest",
-                "value": "※Forest"
+                "value": "森林"
             },
             {
                 "key": "Windswept Hills",
-                "value": "※Windswept Hills"
+                "value": "风袭丘陵"
             },
             {
                 "key": "Dripstone Caves",
-                "value": "※Dripstone Caves"
+                "value": "溶洞"
             },
             {
                 "key": "Deep Cold Ocean",
-                "value": "※Deep Cold Ocean"
+                "value": "冷水深海"
             },
             {
                 "key": "Cherry Grove",
-                "value": "※Cherry Grove"
+                "value": "樱花树林"
             },
             {
                 "key": "Desert",
-                "value": "※Desert"
+                "value": "沙漠"
             },
             {
                 "key": "Frozen Peaks",
-                "value": "※Frozen Peaks"
+                "value": "冰封山峰"
             },
             {
                 "key": "Beach",
-                "value": "※Beach"
+                "value": "沙滩"
             },
             {
                 "key": "Lukewarm Ocean",
-                "value": "※Lukewarm Ocean"
+                "value": "温水海洋"
             },
             {
                 "key": "Jungle",
-                "value": "※Jungle"
+                "value": "丛林"
             },
             {
                 "key": "End Barrens",
-                "value": "※End Barrens"
+                "value": "末地荒地"
             },
             {
                 "key": "Old Growth Pine Taiga",
-                "value": "※Old Growth Pine Taiga"
+                "value": "原始松木针叶林"
             },
             {
                 "key": "Bamboo Jungle",
-                "value": "※Bamboo Jungle"
+                "value": "竹林"
             },
             {
                 "key": "Snowy Beach",
-                "value": "※Snowy Beach"
+                "value": "积雪的沙滩"
             },
             {
                 "key": "River",
-                "value": "※River"
+                "value": "河流"
             },
             {
                 "key": "Snowy Taiga Mountains",
-                "value": "※Snowy Taiga Mountains"
+                "value": "积雪的针叶林山地"
             },
             {
                 "key": "Taiga Hills",
-                "value": "※Taiga Hills"
+                "value": "针叶林丘陵"
             },
             {
                 "key": "Stony Peaks",
-                "value": "※Stony Peaks"
+                "value": "裸岩山峰"
             },
             {
                 "key": "Giant Spruce Taiga Hills",
-                "value": "※Giant Spruce Taiga Hills"
+                "value": "巨型云杉针叶林丘陵"
             },
             {
                 "key": "Windswept Gravelly Hills",
-                "value": "※Windswept Gravelly Hills"
+                "value": "风袭沙砾丘陵"
             },
             {
                 "key": "Meadow",
-                "value": "※Meadow"
+                "value": "草甸"
             },
             {
                 "key": "Plains",
-                "value": "※Plains"
+                "value": "平原"
             },
             {
                 "key": "Deep Ocean",
-                "value": "※Deep Ocean"
+                "value": "深海"
             },
             {
                 "key": "Sparse Jungle",
-                "value": "※Sparse Jungle"
+                "value": "稀疏的丛林"
             },
             {
                 "key": "Basalt Deltas",
-                "value": "※Basalt Deltas"
+                "value": "玄武岩三角洲"
             },
             {
                 "key": "Snowy Slopes",
-                "value": "※Snowy Slopes"
+                "value": "积雪的山坡"
             },
             {
                 "key": "Bamboo Jungle Hills",
-                "value": "※Bamboo Jungle Hills"
+                "value": "竹林丘陵"
             },
             {
                 "key": "Stony Shore",
-                "value": "※Stony Shore"
+                "value": "S石岸"
             },
             {
                 "key": "Desert Hills",
-                "value": "※Desert Hills"
+                "value": "沙漠丘陵"
             },
             {
                 "key": "Mushroom Field Shore",
-                "value": "※Mushroom Field Shore"
+                "value": "蘑菇岛岸"
             },
             {
                 "key": "Dark Forest Hills",
-                "value": "※Dark Forest Hills"
+                "value": "黑森林丘陵"
             },
             {
                 "key": "Sunflower Plains",
-                "value": "※Sunflower Plains"
+                "value": "向日葵平原"
             },
             {
                 "key": "Warped Forest",
-                "value": "※Warped Forest"
+                "value": "诡异森林"
             },
             {
                 "key": "Old Growth Spruce Taiga",
-                "value": "※Old Growth Spruce Taiga"
+                "value": "原始云杉针叶林"
             },
             {
                 "key": "Deep Warm Ocean",
-                "value": "※Deep Warm Ocean"
+                "value": "暖水深海"
             },
             {
                 "key": "Taiga Mountains",
-                "value": "※Taiga Mountains"
+                "value": "针叶林山地 "
             },
             {
                 "key": "Shattered Savanna Plateau",
-                "value": "※Shattered Savanna Plateau"
+                "value": "破碎的热带高原"
             },
             {
                 "key": "Old Growth Birch Forest",
-                "value": "※Old Growth Birch Forest"
+                "value": "原始桦木森林"
             },
             {
                 "key": "Mushroom Fields",
-                "value": "※Mushroom Fields"
+                "value": "蘑菇岛"
             },
             {
                 "key": "Snowy Taiga Hills",
-                "value": "※Snowy Taiga Hills"
+                "value": "积雪的针叶林丘陵"
             },
             {
                 "key": "Deep Frozen Ocean",
-                "value": "※Deep Frozen Ocean"
+                "value": "冰冻深海"
             },
             {
                 "key": "Dark Forest",
-                "value": "※Dark Forest"
+                "value": "黑森林"
             },
             {
                 "key": "Modified Jungle",
-                "value": "※Modified Jungle"
+                "value": "丛林变种"
             },
             {
                 "key": "Snowy Mountains",
-                "value": "※Snowy Mountains"
+                "value": "雪山"
             },
             {
                 "key": "The End",
-                "value": "※The End"
+                "value": "末地"
             },
             {
                 "key": "Modified Wooded Badlands Plateau",
-                "value": "※Modified Wooded Badlands Plateau"
+                "value": "繁茂的恶地高原变种"
             },
             {
                 "key": "Frozen River",
-                "value": "※Frozen River"
+                "value": "冻河"
             },
             {
                 "key": "Jagged Peaks",
-                "value": "※Jagged Peaks"
+                "value": "尖峭山峰"
             },
             {
                 "key": "Cold Ocean",
-                "value": "※Cold Ocean"
+                "value": "冷水海洋"
             },
             {
                 "key": "End Midlands",
-                "value": "※End Midlands"
+                "value": "末地内陆"
             },
             {
                 "key": "Savanna",
-                "value": "※Savanna"
+                "value": "热带草原"
             },
             {
                 "key": "Badlands Plateau",
-                "value": "※Badlands Plateau"
+                "value": "恶地高原"
             },
             {
                 "key": "Ocean",
-                "value": "※Ocean"
+                "value": "海洋"
             },
             {
                 "key": "Ice Spikes",
-                "value": "※Ice Spikes"
+                "value": "冰刺"
             },
             {
                 "key": "Warm Ocean",
-                "value": "※Warm Ocean"
+                "value": "热带海底废墟"
             },
             {
                 "key": "Taiga",
-                "value": "※Taiga"
+                "value": "针叶林"
             },
             {
                 "key": "End Highlands",
-                "value": "※End Highlands"
+                "value": "末地高地"
             },
             {
                 "key": "Flower Forest",
-                "value": "※Flower Forest"
+                "value": "繁花森林"
             },
             {
                 "key": "Eroded Badlands",
-                "value": "※Eroded Badlands"
+                "value": "被风蚀的恶地"
             },
             {
                 "key": "Windswept Forest",
-                "value": "※Windswept Forest"
+                "value": "风袭森林"
             },
             {
                 "key": "Deep Dark",
-                "value": "※Deep Dark"
+                "value": "深暗之域"
             },
             {
                 "key": "Soul Sand Valley",
-                "value": "※Soul Sand Valley"
+                "value": "灵魂沙峡谷"
             },
             {
                 "key": "Jungle Hills",
-                "value": "※Jungle Hills"
+                "value": "丛林丘陵"
             },
             {
                 "key": "Crimson Forest",
-                "value": "※Crimson Forest"
+                "value": "绯红森林"
             },
             {
                 "key": "Giant Tree Taiga Hills",
-                "value": "※Giant Tree Taiga Hills"
+                "value": "巨型针叶林丘陵"
             },
             {
                 "key": "Lush Caves",
-                "value": "※Lush Caves"
+                "value": "繁茂洞穴"
             },
             {
                 "key": "Cherry Grove",
-                "value": "※Cherry Grove"
+                "value": "樱花树林"
             },
             {
                 "key": "Desert Lakes",
-                "value": "※Desert Lakes"
+                "value": "沙漠湖泊"
             },
             {
                 "key": "Mangrove Swamp",
-                "value": "※Mangrove Swamp"
+                "value": "红树林沼泽"
             },
             {
                 "key": "Wooded Hills",
@@ -1694,27 +1694,27 @@
             },
             {
                 "key": "Grove",
-                "value": "※Grove"
+                "value": "雪林"
             },
             {
                 "key": "Deep Lukewarm Ocean",
-                "value": "※Deep Lukewarm Ocean"
+                "value": "温水深海"
             },
             {
                 "key": "Snowy Taiga",
-                "value": "※Snowy Taiga"
+                "value": "积雪的针叶林"
             },
             {
                 "key": "Small End Islands",
-                "value": "※Small End Islands"
+                "value": "末地小型岛屿"
             },
             {
                 "key": "Legacy Frozen Ocean",
-                "value": "※Legacy Frozen Ocean"
+                "value": "冻洋"
             },
             {
                 "key": "Mountains",
-                "value": "※Mountains"
+                "value": "山地"
             }
         ]
     }
