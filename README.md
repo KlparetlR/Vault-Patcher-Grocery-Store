@@ -20,7 +20,9 @@
 
 ## 配置及翻译上传的要求及格式
 
-请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/<CurseForge 项目名称>`
+请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/<CurseForge 项目名称>/<模组命名空间>`
+
+<模组命名空间>会在之后用于硬编码汉化下载模组，需准确填写，一般是模组存放class文件的文件夹，在你第一次见到class文件的所在文件夹名
 
 PR格式为`<模组英文名> <简述>`
 
