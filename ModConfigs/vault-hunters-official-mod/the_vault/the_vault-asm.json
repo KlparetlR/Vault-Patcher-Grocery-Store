@@ -1,0 +1,2750 @@
+[
+  {
+    "name": "宝藏猎人主要硬编码汉化-asm部分",
+    "desc": "包含tooltip、GUI、item。分发、抄袭必追责，硬编码汉化版号：VP-VH3rd-V2.4.7",
+    "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
+    "mods": "the_vault",
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.CakeObjective",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": " found a ",
+        "value": "找到了一个"
+      },
+	  {
+        "key": " and added ",
+        "value": "并添加了 "
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.ElixirObjective",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Assist your Allies!",
+        "value": "协助你的队友！"
+      },
+	  {
+        "key": "Gather",
+        "value": "从战利品、矿石和生物处收集"
+	  },
+	  {
+        "key": " Elixir ",
+        "value": "圣水"
+      },
+	  {
+        "key": "from loot, ores & mobs!",
+        "value": "！"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.BailObjective",
+      "method": ""
+    },
+    "key": "You cannot bail a locked vault.",
+    "value": "你无法离开已锁定的宝库。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.MonolithObjective",
+      "method": ""
+    },
+    "key": "Find the Monoliths!",
+    "value": "找到远古石碑！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.KillBossObjective",
+      "method": ""
+    },
+    "key": "Kill the Boss!",
+    "value": "击杀Boss！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.FindExitObjective",
+      "method": ""
+    },
+    "key": "Find the Exit!",
+    "value": "找到出口！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.objective.VictoryObjective",
+      "method": ""
+    },
+	"pairs": [
+	  {
+		"key": "Vault Completed!",
+		"value": "宝库已完成！"
+	  },
+	  {
+		"key": "Teleporting back in %d seconds...",
+        "value": "@在%d秒后传送返回……"
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.overlay.VaultPartyOverlay",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Unalived",
+        "value": "已死亡"
+      },
+      {
+        "key": "Eternals",
+        "value": "永生者"
+      },
+	  {
+        "key": "Vault Party",
+        "value": "寻宝小队"
+      },
+	  {
+        "key": "⭐ OFFLINE",
+        "value": "⭐ 离线"
+      },
+	  {
+        "key": "OFFLINE",
+        "value": "离线"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.HeraldTrophyItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Awarded to: ",
+        "value": "授予："
+      },
+	  {
+        "key": "Time: ",
+        "value": "时间："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.LootStatueBlockItem",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Player: ",
+        "value": "玩家："
+      },
+	  {
+        "key": "NOT SELECTED",
+        "value": "未选定"
+	  },
+	  {
+        "key": "Item: ",
+        "value": "物品："
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.item.FinalVaultFrameBlockItem",
+      "method": ""
+    },
+    "key": "Owner:",
+    "value": "所有者："
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.world.data.PlayerReputationData",
+      "method": ""
+    },
+    "key": "You gained a favour!",
+    "value": "你得到了一个青睐!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.influence.VaultGod",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "%s'%s Idol",
+        "value": "%s的神像"
+	  },
+	  {
+        "key": "%s'%s Chosen",
+        "value": "%s的选择"
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.CryochamberScreen",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Health:",
+        "value": "生命值:"
+      },
+	  {
+        "key": "Damage:",
+        "value": "伤害:"
+	  },
+	  {
+        "key": "Speed:",
+        "value": "速度:"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.quest.QuestDisplayContainer",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Description:",
+        "value": "描述:"
+      },
+      {
+        "key": "Reward:",
+        "value": "奖励:"
+      },
+	  {
+        "key": " Vault XP",
+        "value": " 宝库经验"
+	  },
+      {
+        "key": " Skill Points",
+        "value": " 技能点"
+      },
+      {
+        "key": " Skill Point",
+        "value": "技能点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.AlchemyArchiveTileEntity",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": " discovered the ",
+        "value": " 发现了"
+      },
+      {
+        "key": " effect: ",
+        "value": "的效果："
+      },
+      {
+        "key": "No effects left to discover",
+        "value": "没有还未发现的效果了"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.ModifierDiscoveryTileEntity",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": " discovered the ",
+        "value": " 发现了"
+      },
+      {
+        "key": " modifier: ",
+        "value": "的词缀："
+      },
+      {
+        "key": "No modifiers left to discover",
+        "value": "没有还未发现的词缀了"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.block.AlchemyArchiveScreen",
+      "method": ""
+    },
+    "key": "Select effect to discover",
+    "value": "选择要解锁的效果"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.block.ModifierDiscoveryScreen",
+      "method": ""
+    },
+    "key": "Select modifier to discover",
+    "value": "选择要解锁的词缀"
+  },
+  {
+    "target_class": {
+      "name": "net.creeperhost.ftbbackups.BackupHandler",
+      "method": ""
+    },
+    "key": "Backup finished in ",
+    "value": "服务器备份完成，耗时 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.init.ModModelDiscoveryGoals",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "You have collected ",
+        "value": "你在此宝库内收集了"
+      },
+	  {
+        "key": "x Soul Shards this Vault!",
+        "value": "个灵魂碎片！"
+	  },
+	  {
+        "key": "You have stunned ",
+        "value": "你在此宝库内击晕了"
+	  },
+	  {
+        "key": "x monsters this Vault!",
+        "value": "只怪物！"
+	  },
+	  {
+        "key": "You have ",
+        "value": "你在此宝库内成功打出了"
+	  },
+	  {
+        "key": "-chain attacked ",
+        "value": "个目标对象的连锁攻击，并一共打出了"
+	  },
+	  {
+        "key": " times this Vault!",
+        "value": "次！"
+	  },
+	  {
+        "key": "You have dealt ",
+        "value": "你在此宝库内一共造成了"
+	  },
+	  {
+        "key": " thorns reflection damage this Vault!",
+        "value": "荆棘伤害!"
+	  },
+	  {
+        "key": "You have blocked ",
+        "value": "你在此宝库内连续格挡了"
+	  },
+	  {
+        "key": " attacks in a row this Vault!",
+        "value": "次攻击!"
+	  },
+	  {
+        "key": "You have unalived ",
+        "value": "你在穿着海龟壳时在宝库内击杀了"
+	  },
+	  {
+        "key": " Guardians while wearing a Turtle Helmet this Vault!",
+        "value": "个宝库守卫!"
+	  },
+	  {
+        "key": "You have leeched ",
+        "value": "你在此宝库内吸取了"
+	  },
+	  {
+        "key": " health this Vault!",
+        "value": "点生命值!"
+	  },
+	  {
+        "key": "You have placed ",
+        "value": "你在此宝库内种植了"
+	  },
+	  {
+        "key": " bamboos this Vault!",
+        "value": "根竹子!"
+	  },
+	  {
+        "key": "You have revived a spirit ",
+        "value": "你以超过189枚宝库金币的价格赎回了"
+	  },
+	  {
+        "key": " for at least 189 gold!",
+        "value": "次宝藏猎人灵魂！"
+	  },
+	  {
+        "key": " mobs this Vault!",
+        "value": "只怪物！"
+	  },
+	  {
+        "key": " mobs with a projectile this Vault!",
+        "value": "只因弹射物而死的怪物！"
+	  },
+	  {
+        "key": " mobs with an Axe this Vault!",
+        "value": "只被宝库斧杀死的怪物！"
+	  },
+	  {
+        "key": " slowed mobs this Vault!",
+        "value": "只缓慢状态下的怪物！"
+	  },
+	  {
+        "key": " poisoned mobs this Vault!",
+        "value": "只中毒状态下的怪物！"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.CryoChamberBlock",
+      "method": ""
+    },
+    "key": "Cryo Chamber",
+    "value": "低温箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.LootStatueBlock$1",
+      "method": ""
+    },
+    "key": "Loot Statue Options",
+    "value": "战利品雕像选项"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.LootStatueBlock$2",
+      "method": ""
+    },
+    "key": "Player Statue",
+    "value": "玩家雕像"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.SpiritExtractorBlock",
+      "method": ""
+    },
+    "key": "Spirit Extractor",
+    "value": "灵魂提取器"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.block.SpiritExtractorScreen",
+      "method": ""
+    },
+    "key": "Cost for recovering items",
+    "value": "恢复物品的花费"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Select a bounty!",
+        "value": "选择一个悬赏！"
+	  },
+      {
+	    "key": "Claim Reward",
+        "value": "领取奖励"
+	  },
+	  {
+        "key": "Activate",
+        "value": "启用"
+      },
+      {
+        "key": "Abandon",
+        "value": "放弃"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$Status",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Active",
+        "value": "激活"
+      },
+	  {
+        "key": "Available",
+        "value": "可用"
+	  },
+	  {
+        "key": "Complete",
+        "value": "完成"
+	  },
+	  {
+        "key": "Legendary",
+        "value": "传奇"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyElement$ExpirationElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Abandon Penalty: ",
+        "value": "放弃惩罚: "
+	  },
+	  {
+        "key": "New Bounty in: ",
+        "value": "新悬赏刷新："
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.BountyTableContainerElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Only \"Available\" bounties can be rerolled.",
+        "value": "只有“可用”的悬赏可以刷新"
+      },
+      {
+        "key": "Select a bounty to see the cost of reroll",
+        "value": "选择一个悬赏来查看刷新费用"
+      },
+	  {
+        "key": "Reroll Selected Bounty",
+        "value": "刷新选定悬赏"
+      },
+	  {
+        "key": "Current Cost: ",
+        "value": "刷新费用: "
+	  },
+	  {
+        "key": "Bounty Selection",
+        "value": "悬赏选择"
+      },
+	  {
+        "key": "Legendary:",
+        "value": "传奇悬赏："
+	  },
+	  {
+        "key": "Find Legendary Bounties",
+        "value": "在宝藏房中找到遗失悬赏"
+	  },
+	  {
+        "key": "in Treasure Rooms!",
+        "value": "以激活传奇悬赏！"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.RenameUIMessage",
+      "method": ""
+    },
+    "key": "Nice try, nerd!",
+    "value": "试得好，呆瓜！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.bounty.ClientboundBountyCompleteMessage",
+      "method": "handle"
+    },
+	"pairs": [
+      {
+        "key": "Bounty Complete!",
+        "value": "悬赏任务已完成！"
+      },
+      {
+        "key": "Claim your reward at the Bounty Table!",
+        "value": "在悬赏桌上领取你的奖励！"
+      }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.ServerboundChangeDifficultyMessage",
+      "method": ""
+    },
+    "key": "You do not have permission to change server difficulty.",
+    "value": "你没有权限改变服务器的难度。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.network.message.VaultPlayerHistoricDataMessage",
+      "method": ""
+    },
+    "key": "Historic Data",
+    "value": "历史数据"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.AbstractTaskElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Status: ",
+        "value": "状态："
+      },
+      {
+        "key": "Description:",
+        "value": "描述:"
+      },
+      {
+        "key": "Progress:",
+        "value": "进度:"
+      },
+	  {
+        "key": "Rewards: (",
+        "value": "奖励: ("
+	  },
+	  {
+        "key": " Vault XP",
+        "value": " 宝库经验"
+	  },
+      {
+        "key": "Vault Gear level is locked to your Vault Level at the time of Bounty generation.",
+        "value": "宝库装备的等级锁定为产生奖励时的宝库等级。"
+      },
+	  {
+        "key": " - The Vault",
+        "value": " - 宝库世界"
+      },
+	  {
+        "key": " - Any Dimension",
+        "value": " - 任意维度"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemDiscoveryTaskElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Find ",
+        "value": "在宝库中找到"
+      },
+	  {
+        "key": " in the Vault!",
+        "value": "！"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.ItemSubmissionTaskElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Submit ",
+        "value": "在悬赏桌提交"
+      },
+	  {
+        "key": " at the Bounty Table",
+        "value": "！"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.DamageEntityTaskElement",
+      "method": ""
+    },
+    "key": "Deal Damage to ",
+    "value": "对以下生物造成伤害"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.KillEntityTaskElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Kill ",
+        "value": "在以下维度击杀"
+      },
+	  {
+        "key": " Mobs in:",
+        "value": "："
+	  },
+	  {
+        "key": "Click to view in Bestiary.",
+        "value": "点击查阅怪物图鉴。"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.MiningTaskElement",
+      "method": ""
+    },
+    "key": "Mine ",
+    "value": "在宝库中挖掘"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.MiningTaskElement",
+      "method": ""
+    },
+    "key": " in The Vault!",
+    "value": "！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.CompletionTaskElement",
+      "method": ""
+    },
+    "key": "Complete Vaults!",
+    "value": "完成宝库！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.bounty.element.task.CompletionTaskElement",
+      "method": ""
+    },
+    "key": "Objective:",
+    "value": "目标："
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.block.TransmogTableScreen",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Transmogrification Table",
+        "value": "幻化桌"
+      },
+      {
+        "key": "Transmogrify",
+        "value": "幻化"
+      },
+      {
+        "key": "Select a model",
+        "value": "选择一个模型"
+      },
+      {
+        "key": "Vault Bronze Cost: ",
+        "value": "宝库铜币花费："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.block.base.ForgeRecipeContainerScreen",
+      "method": ""
+    },
+    "key": "Level of crafted gear",
+    "value": "制作等级"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.EnchantBookElement",
+      "method": ""
+    },
+    "key": "Level Cost",
+    "value": "等级消耗"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.EnchanterEnchantSelectorElement$EnchanterListElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Currently selected",
+        "value": "当前选定"
+      },
+	  {
+        "key": "Already enchanted with this enchantment",
+        "value": "已经存在相同魔咒"
+	  },
+	  {
+        "key": "Enchanting with this will ",
+        "value": "附上此魔咒将会"
+	  },
+	  {
+        "key": "remove following enchantment(s):",
+        "value": "移除以下魔咒："
+	  },
+	  {
+        "key": "Cost:",
+        "value": "花费："
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.player.ClassicListenersLogic",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": " was defeated.",
+        "value": " §4被击败了。"
+	  },
+	  {
+        "key": " completed the Vault!",
+        "value": " §e完成了宝库！"
+	  },
+	  {
+        "key": " survived.",
+        "value": " §a成功存活。"
+	  },
+	  {
+        "key": "This vault has reached max capacity.",
+        "value": "此宝库已达到其最大容纳量。"
+      },
+	  {
+        "key": "The minimum level for this vault is ",
+        "value": "此宝库允许的最低等级为"
+      },
+	  {
+        "key": "You cannot re-enter this vault.",
+        "value": "你无法二次进入此宝库。"
+      },
+	  {
+        "key": "This vault is reserved for allowed party members.",
+        "value": "此宝库仅限被允许的小队成员进入。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.player.ClassicListenersLogic",
+      "method": "onTeleport"
+    },
+	"pairs": [
+	  {
+        "key": "The Vault",
+        "value": "宝库世界"
+      },
+	  {
+        "key": "Good luck, ",
+        "value": "祝你好运，"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.core.vault.player.ClassicListenersLogic",
+      "method": "printJoinMessage"
+    },
+	"pairs": [
+	  {
+        "key": " entered an ",
+        "value": " 进入了一个 "
+      },
+	  {
+        "key": " entered a ",
+        "value": " 进入了一个 "
+	  },
+	  {
+        "key": "Vault",
+        "value": "的宝库世界"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Alchemy Archives",
+    "value": "需要先在炼药档案台中发现对应词缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Granted at Start",
+    "value": "初始获得"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Modifier Archives",
+    "value": "需要先在词缀档案台中发现对应词缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires Level %s",
+    "value": "需要等级：%s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.quest.QuestOverviewElementScreen",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Complete",
+        "value": "完成"
+      },
+	  {
+        "key": "Completed",
+        "value": "已完成"
+	  },
+	  {
+        "key": "Incomplete",
+        "value": "未完成"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.DungeonDoorTileEntity$Difficulty",
+      "method": ""
+    },
+    "key": "Difficulty: %s",
+    "value": "难度：%s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultEndScreen",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Overview",
+        "value": "概览"
+      },
+	  {
+        "key": "Crystal Modifiers",
+        "value": "水晶词缀"
+	  },
+	  {
+        "key": "Loot",
+        "value": "战利品"
+	  },
+	  {
+        "key": "Combat Stats",
+        "value": "战斗统计"
+	  },
+	  {
+        "key": "Coop",
+        "value": "合作"
+	  },
+	  {
+        "key": "Claim",
+        "value": "领取"
+	  },
+	  {
+        "key": "Back",
+        "value": "返回"
+	  },
+	  {
+        "key": "Close",
+        "value": "关闭"
+	  },
+	  {
+        "key": "Rewards: ",
+        "value": "奖励: "
+	  },
+	  {
+        "key": "Vault Xp",
+        "value": "宝库经验"
+	  },
+	  {
+        "key": "Claim Rewards",
+        "value": "领取奖励"
+	  },
+	  {
+        "key": "Back to History",
+        "value": "返回历史记录"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultExitContainerScreenData",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Level: ",
+        "value": "等级: "
+      },
+	  {
+        "key": "Vault Experience",
+        "value": "宝库经验"
+	  },
+	  {
+        "key": "Experience: ",
+        "value": "经验值: "
+	  },
+	  {
+        "key": "  Chests - ",
+        "value": "  宝箱 - "
+	  },
+	  {
+        "key": "  Mined Blocks - ",
+        "value": "  挖掘方块 - "
+	  },
+	  {
+        "key": "  Treasure Rooms - ",
+        "value": "  宝藏房 - "
+	  },
+	  {
+        "key": "  Mobs Unalived - ",
+        "value": "  击杀怪物 - "
+	  },
+	  {
+        "key": "  Objective - ",
+        "value": "  宝库目标 - "
+	  },
+	  {
+        "key": "Coin Piles Collected",
+        "value": "收集钱币堆"
+	  },
+	  {
+        "key": "Coin Piles: ",
+        "value": "钱币堆: "
+	  },
+	  {
+        "key": "Chests Looted",
+        "value": "搜刮宝箱"
+	  },
+	  {
+        "key": "Value: ",
+        "value": "经验: "
+	  },
+	  {
+        "key": "Ores Mined",
+        "value": "挖掘矿石"
+	  },
+	  {
+        "key": "Treasure Rooms Opened",
+        "value": "开启宝藏房"
+	  },
+	  {
+        "key": "Mobs Unalived",
+        "value": "击杀怪物"
+	  },
+	  {
+        "key": "Damage Dealt",
+        "value": "造成伤害"
+	  },
+	  {
+        "key": "Damage Received",
+        "value": "受到伤害"
+	  },
+	  {
+        "key": "Dealt: ",
+        "value": "造成: "
+	  },
+	  {
+        "key": "Received: ",
+        "value": "受到: "
+	  },
+	  {
+        "key": "Vault Seed",
+        "value": "宝库世界种子"
+	  },
+	  {
+        "key": "Seed: ",
+        "value": "种子: "
+	  },
+	  {
+        "key": "Vault Level",
+        "value": "宝库等级"
+      },
+      {
+        "key": "Level: ",
+        "value": "等级: "
+      },
+      {
+        "key": "Time Left",
+        "value": "剩余时间"
+      },
+      {
+        "key": "Time Spent",
+        "value": "花费时间"
+      },
+      {
+        "key": "Experience Multiplier",
+        "value": "经验倍率"
+      },
+      {
+        "key": "Multiplier: ",
+        "value": "倍率: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.OverviewContainerElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Generic Info",
+        "value": "基础信息"
+      },
+	  {
+        "key": "Loot Info",
+        "value": "战利品信息"
+	  },
+	  {
+        "key": "Combat Info",
+        "value": "战斗信息"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$FavoritesDisplayElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Un-Favorite",
+        "value": "取消收藏"
+      },
+	  {
+        "key": "Favorite",
+        "value": "收藏"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen$HistoricContainerElement",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Vault Level: ",
+        "value": "宝库等级: "
+      },
+	  {
+        "key": "Vault Xp",
+        "value": "宝库经验"
+	  },
+	  {
+        "key": "Open Vault Stats",
+        "value": "查看详细信息"
+	  },
+	  {
+        "key": "Open",
+        "value": "打开"
+	  },
+	  {
+        "key": "Vault Exit",
+        "value": "结算"
+	  },
+	  {
+        "key": "Share Vault",
+        "value": "分享宝库"
+	  }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.VaultHistoricDataScreen",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Previous 50 Vaults",
+        "value": "最近50个宝库"
+      },
+      {
+        "key": "Favorites",
+        "value": "收藏列表"
+      },
+      {
+        "key": "History",
+        "value": "历史记录"
+      },
+      {
+        "key": "Close",
+        "value": "关闭"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreen",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Open Vault History",
+        "value": "打开宝库历史记录"
+      },
+      {
+        "key": "Quests",
+        "value": "任务"
+      },
+      {
+        "key": "Statistics",
+        "value": "统计数据"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Abilities",
+    "value": "技能"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ResearchesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Researches",
+    "value": "研究"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.ExpertisesElementContainerScreen",
+      "method": ""
+    },
+    "key": "Expertise",
+    "value": "专精"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.TalentsElementContainerScreen",
+      "method": ""
+    },
+    "key": "Talents",
+    "value": "天赋"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.StatisticsElementContainerScreenData",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Vault Experience",
+        "value": "宝库经验"
+      },
+      {
+        "key": "Experience: ",
+        "value": "经验值: "
+      },
+      {
+        "key": "Level: ",
+        "value": "等级: "
+      },
+      {
+        "key": "Experience: ",
+        "value": "经验值: "
+      },
+      {
+        "key": "Total Vaults",
+        "value": "探索宝库次数"
+      },
+      {
+        "key": "Completed",
+        "value": "宝库完成次数"
+      },
+      {
+        "key": "Survived",
+        "value": "宝库存活次数"
+      },
+      {
+        "key": "Failed",
+        "value": "宝库失败次数"
+      },
+      {
+        "key": "Experience",
+        "value": "宝库经验"
+      },
+      {
+        "key": "Damage Dealt",
+        "value": "造成的伤害值"
+      },
+      {
+        "key": "Damage Taken",
+        "value": "受到的伤害值"
+      },
+      {
+        "key": "Mobs Unalived",
+        "value": "消灭怪物总数"
+      },
+      {
+        "key": "Blocks Mined",
+        "value": "挖掘方块总数"
+      },
+      {
+        "key": "Trapped Chests",
+        "value": "触发陷阱总数"
+      },
+      {
+        "key": "Chests Looted",
+        "value": "搜刮宝箱总数"
+      },
+      {
+        "key": "Treasure Rooms Opened",
+        "value": "开启宝藏房总数"
+      },
+      {
+        "key": "Crystals Crafted",
+        "value": "制作水晶总数"
+      },
+      {
+        "key": "Damage",
+        "value": "伤害"
+      },
+      {
+        "key": "Health",
+        "value": "生命值"
+      },
+      {
+        "key": "Defense",
+        "value": "防御力"
+      },
+      {
+        "key": "Mana",
+        "value": "魔力"
+      },
+      {
+        "key": "Greed",
+        "value": "贪婪"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.EnhancementAltarRenderer",
+      "method": ""
+    },
+    "key": "Completed",
+    "value": "已完成"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.render.VaultAltarRenderer",
+      "method": ""
+    },
+    "key": "Complete",
+    "value": "完成"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.integration.jei.VaultRecyclerRecipeJEI",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Base Count: ",
+        "value": "基础数量: "
+      },
+      {
+        "key": "% Chance",
+        "value": "% 产出概率"
+      },
+      {
+        "key": "Quantity and chance scale off input item quality",
+        "value": "数量和产出概率受输入物品的品质影响"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.integration.jei.VaultRecyclerRecipeJEICategory",
+      "method": ""
+    },
+    "key": "Output item's chance and quantity is based off this items quality",
+    "value": "产物数量和产出概率受该物品的品质影响"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.VaultChestIconElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Omega",
+        "value": "欧米伽"
+      },
+      {
+        "key": "Epic",
+        "value": "史诗"
+      },
+      {
+        "key": "Rare",
+        "value": "稀有"
+      },
+      {
+        "key": "Common",
+        "value": "普通"
+      },
+      {
+        "key": "Trapped",
+        "value": "陷阱"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.CrystalStatsContainerElement$VaultCrystalElement",
+      "method": ""
+    },
+    "key": "Modifiers",
+    "value": "水晶词缀"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.LootStatsContainerElement$VaultChestElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Total Chests Looted: ",
+        "value": "搜刮宝箱总数: "
+      },
+      {
+        "key": ", Trapped: ",
+        "value": "，触发陷阱箱数: "
+      },
+      {
+        "key": "Total Ores Mined: ",
+        "value": "挖掘矿石总数: "
+      },
+      {
+        "key": "Coin Pile",
+        "value": "钱币堆"
+      },
+      {
+        "key": "Treasure Sand",
+        "value": "宝藏沙"
+      },
+      {
+        "key": "Wooden",
+        "value": "木制"
+      },
+      {
+        "key": "Living",
+        "value": "活化"
+      },
+      {
+        "key": "Gilded",
+        "value": "镀金"
+      },
+      {
+        "key": "Ornate",
+        "value": "华丽"
+      },
+      {
+        "key": "Altar",
+        "value": "祭坛"
+      },
+      {
+        "key": "Treasure",
+        "value": "至尊"
+      },
+      {
+        "key": "Hardened",
+        "value": "硬质"
+      },
+      {
+        "key": "Flesh",
+        "value": "肉食"
+      },
+      {
+        "key": "Enigma",
+        "value": "谜题"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.CoopStatsElement$VaultCoopStatsElement",
+      "method": ""
+    },
+    "key": "Players",
+    "value": "玩家"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.CombatStatsContainerElement$VaultCombatStatsBoxElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Damage Dealt: ",
+        "value": "造成的伤害: "
+      },
+      {
+        "key": "Damage Taken: ",
+        "value": "受到的伤害: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.VaultCombatStatsElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Unknown",
+        "value": "未知"
+      },
+      {
+        "key": " Per Unalive",
+        "value": " 每只击杀"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.summary.element.VaultCoopPlayersElement",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Unknown",
+        "value": "未知"
+      },
+      {
+        "key": "Vault Xp",
+        "value": "宝库经验"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.quest.QuestOverviewElementScreen",
+      "method": ""
+    },
+    "key": "Quest Overview",
+    "value": "-任务概览"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemLegendaryTreasure",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Legendary Treasure",
+        "value": "传奇宝藏"
+      },
+      {
+        "key": "Right-Click to identify...",
+        "value": "右击以识别……"
+      },
+      {
+        "key": "Rarity: ",
+        "value": "稀有度: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemRespecFlask",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Use to remove selected specialization",
+        "value": "用于移除已选择的技能特化"
+      },
+      {
+        "key": "of ability ",
+        "value": "生效于技能-"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.ability.AbilityLevelAttribute$2",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": " to level of ",
+        "value": " 技能等级-"
+      },
+      {
+        "key": "all Abilities",
+        "value": "全部技能"
+      },
+      {
+        "key": " to level of all Abilities",
+        "value": " 技能等级-全部技能"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectAvoidanceGearAttribute$Generator",
+      "method": ""
+    },
+    "key": " Avoidance",
+    "value": "抵抗概率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectAvoidanceGearAttribute$Reader",
+      "method": ""
+    },
+    "key": " Avoidance",
+    "value": "抵抗概率"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.custom.EffectCloudAttribute$Reader",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Effect Cloud when Hit",
+        "value": "效果云-受击触发"
+      },
+      {
+        "key": "Effect Cloud",
+        "value": "效果云"
+      },
+      {
+        "key": " when Hit",
+        "value": "-受击触发"
+      },
+      {
+        "key": " Cloud",
+        "value": "效果云"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixCategory",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Legendary",
+        "value": "传奇级"
+      },
+      {
+        "key": "Abyssal",
+        "value": "深渊"
+      },
+      {
+        "key": "Enhancement",
+        "value": "强化"
+      },
+      {
+        "key": "Crafted",
+        "value": "制作级"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier$AffixType",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Prefixes",
+        "value": "前缀"
+      },
+      {
+        "key": "Prefix",
+        "value": "前缀"
+      },
+      {
+        "key": "Suffixes",
+        "value": "后缀"
+      },
+      {
+        "key": "Suffix",
+        "value": "后缀"
+      },
+      {
+        "key": "Implicits",
+        "value": "属性"
+      },
+      {
+        "key": "Implicit",
+        "value": "属性"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.attribute.VaultGearModifier",
+      "method": ""
+    },
+    "key": " [new]",
+    "value": " [新]"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.crafting.recipe.ToolForgeRecipe",
+      "method": ""
+    },
+    "key": "Requires Level ",
+    "value": "需要等级 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.crafting.recipe.VaultForgeRecipe",
+      "method": ""
+    },
+    "key": "Undiscovered",
+    "value": "尚未发现"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.reader.EffectImmunityModifierReader",
+      "method": ""
+    },
+    "key": " Immunity",
+    "value": "免疫"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.gear.CharmItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Unidentified ",
+        "value": "未鉴定的"
+      },
+      {
+        "key": "Uses: ",
+        "value": "使用次数："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.VaultGearHelper",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Unidentified ",
+        "value": "未鉴定的"
+      },
+      {
+        "key": "Uses: ",
+        "value": "使用次数："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Repairs: ",
+        "value": "修复次数: "
+      },
+      {
+        "key": "Etching: ",
+        "value": "蚀刻: "
+      },
+      {
+        "key": "Crafted by: ",
+        "value": "制作者: "
+      },
+      {
+        "key": "Model: ",
+        "value": "模型: "
+      },
+      {
+        "key": "Roll: ",
+        "value": "随机品质: "
+      },
+      {
+        "key": "Rarity: ",
+        "value": "稀有度: "
+      },
+      {
+        "key": "Level: ",
+        "value": "等级: "
+      },
+      {
+        "key": "Crafting Potential: ",
+        "value": "锻造潜能: "
+      },
+      {
+        "key": "Capacity: ",
+        "value": "容量: "
+      },
+      {
+        "key": "Durability: ",
+        "value": "耐久度: "
+      },
+      {
+        "key": "BROKEN",
+        "value": "已损坏"
+      },
+      {
+        "key": "Corrupted",
+        "value": "已损毁"
+      },
+      {
+        "key": "  Unmodifiable Item",
+        "value": "  不可修饰物品"
+      },
+      {
+        "key": "Slot: ",
+        "value": "栏位: "
+      },
+      {
+        "key": "Requires Level: ",
+        "value": "所需等级: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.render.Tooltips",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Hold ",
+        "value": "按住"
+      },
+      {
+        "key": " for more info.",
+        "value": "查看更多信息。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.event.ClientEvents",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Soul Value: ",
+        "value": "灵魂价值: "
+      },
+      {
+        "key": "Hold ",
+        "value": "按住"
+      },
+      {
+        "key": " for Vault Loot Info",
+        "value": "查看宝库战利品信息"
+      },
+      {
+        "key": "Found in:",
+        "value": "发现于:"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.VaultCrystalItem",
+      "method": ""
+    },
+    "key": " opened a Vault!",
+    "value": " 开启了一个宝库！"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.theme.NullCrystalTheme",
+      "method": ""
+    },
+    "key": "Theme: ???",
+    "value": "主题：???"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.theme.PoolCrystalTheme",
+      "method": ""
+    },
+    "key": "Theme: ???",
+    "value": "主题：???"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.theme.ValueCrystalTheme",
+      "method": ""
+    },
+    "key": "Theme: ",
+    "value": "主题："
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.theme.ValueCrystalTheme",
+      "method": ""
+    },
+    "key": "Unknown",
+    "value": "未知"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.time.ValueCrystalTime",
+      "method": ""
+    },
+    "key": "Time: ",
+    "value": "时间: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.objective.ParadoxCrystalObjective",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Divine Paradox",
+        "value": "神圣悖论"
+      },
+      {
+        "key": "Type: ",
+        "value": "类型："
+      },
+      {
+        "key": "Cooldown: ???",
+        "value": "冷却：???"
+      },
+      {
+        "key": "Player: ???",
+        "value": "玩家：???"
+      },
+      {
+        "key": "Cooldown: ",
+        "value": "冷却："
+      },
+      {
+        "key": "Ready",
+        "value": "完成"
+      },
+      {
+        "key": "Player: ",
+        "value": "玩家："
+      },
+      {
+        "key": "Unknown",
+        "value": "未知"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.objective.ParadoxCrystalObjective",
+      "method": "addText",
+      "local": "MgetName"
+    },
+	"pairs": [
+      {
+        "key": "Build",
+        "value": "建造"
+      },
+      {
+        "key": "Run",
+        "value": "探索"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.crystal.CrystalData",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Level: ",
+        "value": "等级: "
+      },
+      {
+        "key": "Instability: ",
+        "value": "不稳定度: "
+      },
+      {
+        "key": "Unmodifiable",
+        "value": "不可修饰"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.AugmentItem",
+      "method": ""
+    },
+    "key": "Theme: ",
+    "value": "主题："
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "%s (Level: %d+)",
+    "value": "%s (等级: %d+)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": " (Level: ",
+    "value": " (等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.skill.ability.component.AbilityDescriptionFactory",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "\n\nCurrent",
+        "value": "\n\n当前等级"
+      },
+      {
+        "key": "\n\nNext",
+        "value": "\n\n下一等级"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.SkillWidget",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Requires:",
+        "value": "需要解锁:"
+	  },
+	  {
+        "key": "Cannot be unlocked alongside:",
+        "value": "不能与下列技能同时解锁:"
+	  },
+	  {
+        "key": "Requires level: ",
+        "value": "需要等级: "
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.ResearchWidget",
+      "method": ""
+    },
+	"pairs": [
+	  {
+        "key": "Requires",
+        "value": "需要解锁"
+	  },
+	  {
+        "key": " any of",
+        "value": "以下任意一个"
+	  },
+	  {
+        "key": "Cannot be unlocked alongside:",
+        "value": "不能与下列研究同时解锁: "
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.world.data.PlayerResearchesData",
+      "method": ""
+    },
+    "key": " researched ",
+    "value": " 研究了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.skill.ability.effect.SummonEternalAbility",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "You have no eternals to summon.",
+        "value": "你没有可召唤的永生者。"
+      },
+      {
+        "key": "You can only summon eternals in the Vault!",
+        "value": "你只能在宝库中召唤永生者！"
+      },
+      {
+        "key": "You have no (alive) eternals to summon.",
+        "value": "你没有可召唤的（存活的）永生者。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemUnidentifiedArtifact",
+      "method": ""
+    },
+    "key": "Right click to identify.",
+    "value": "右击以鉴定。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemVaultFruit$BitterLemon",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "A magical lemon with a bitter taste",
+        "value": "一个略带苦味的神奇柠檬"
+      },
+      {
+        "key": "It is grown on the gorgeous trees of Iskallia.",
+        "value": "生长在伊斯卡利独有的炫光树上"
+      },
+      {
+        "key": "- Removes 10% max health",
+        "value": "- 减少10%最大生命值"
+      },
+      {
+        "key": "- Adds 30 seconds to the Vault Timer",
+        "value": "- 延长宝库时间30秒"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemVaultFruit$MysticPear",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "A magical pear with a strange taste",
+        "value": "一个味道奇怪的神奇的梨"
+      },
+      {
+        "key": "It is grown on the gorgeous trees of Iskallia.",
+        "value": "生长在伊斯卡利独有的炫光树上"
+      },
+      {
+        "key": "- Removes 10% max health",
+        "value": "- 减少10%最大生命值"
+      },
+      {
+        "key": "- Inflicts with either Wither or Poison effect",
+        "value": "- 附带凋零或中毒效果"
+      },
+      {
+        "key": "- Adds 5 minutes to the Vault Timer",
+        "value": "- 延长宝库时间5分钟"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemVaultFruit$SourOrange",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "A magical orange with a sour taste",
+        "value": "一个略带酸味的神奇橙子"
+      },
+      {
+        "key": "It is grown on the gorgeous trees of Iskallia.",
+        "value": "生长在伊斯卡利独有的炫光树上"
+      },
+      {
+        "key": "- Removes 10% max health",
+        "value": "- 减少10%最大生命值"
+      },
+      {
+        "key": "- Adds 60 seconds to the Vault Timer",
+        "value": "- 延长宝库时间60秒"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemVaultFruit$SweetKiwi",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "- Removes 10% max health",
+        "value": "- 减少10%最大生命值"
+      },
+      {
+        "key": "- Adds 10 seconds to the Vault Timer",
+        "value": "- 延长宝库时间10秒"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.ItemVaultFruit",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Your max health is too low to eat this!",
+        "value": "你的最大生命值过低，无法食用此物品！"
+      },
+      {
+        "key": "[!] Only edible inside a Vault",
+        "value": "[!] 只能在宝库世界内食用"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.PaxelJewelItem",
+      "method": ""
+    },
+    "key": "Socket with a Vault Pickaxe to add ",
+    "value": "镶嵌到宝库镐上以添加"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.RokkitLaunchaItem",
+      "method": ""
+    },
+    "key": "Rokkit Launcha requires Fireworks as ammo.",
+    "value": "火箭发射器需要火箭之箭作为弹药。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.RelicPedestalBlock",
+      "method": ""
+    },
+    "key": "Relic Assembly",
+    "value": "遗物组装"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.RelicSelectElement$RelicEntry",
+      "method": ""
+    },
+    "key": "Not Assembled Before",
+    "value": "尚未组装"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.RelicPedestalScreen",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Relic Assembly",
+        "value": "遗物组装"
+      },
+      {
+        "key": "Assemble Relic",
+        "value": "组装遗物"
+      },
+      {
+        "key": "Select a relic",
+        "value": "选择一个遗物"
+      },
+      {
+        "key": "Place all fragments to assemble",
+        "value": "放置所有碎片以组装"
+      },
+      {
+        "key": "Click to assemble",
+        "value": "点击以组装"
+      }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.RelicFragmentItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": " (Relic Fragment)",
+        "value": " (遗物碎片)"
+      },
+      {
+        "key": "Assembles: ",
+        "value": "可组装成: "
+      },
+      {
+        "key": "Craft a Relic Pedestal to assemble",
+        "value": "制作一个遗物基座以将此碎片"
+      },
+      {
+        "key": "this fragment into a Relic",
+        "value": "组装成遗物"
+      },
+      {
+        "key": "Relic Fragment Id: ",
+        "value": "遗物碎片编号: "
+      },
+      {
+        "key": "Press <SHIFT> for fragment id",
+        "value": "按住<SHIFT>查看遗物碎片编号"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.event.PlayerTabNameEvent",
+      "method": ""
+    },
+    "key": " (Vault)",
+    "value": " (宝库)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.event.TooltipEvents",
+      "method": ""
+    },
+    "key": "Disabled in the Vaults",
+    "value": "在宝库世界中禁用"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.event.PlayerEvents",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Cannot add to jar.",
+        "value": "不能装入动物罐中。"
+      },
+      {
+        "key": "This animal is too small to fit in this jar..",
+        "value": "幼年动物不能装入罐中……"
+      },
+      {
+        "key": "Cannot jar up tamed animals",
+        "value": "已驯服的动物不能装入罐中"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.consumable.AbsorptionAppleItem",
+      "method": ""
+    },
+    "key": "Gives you +1 temporary heart",
+    "value": "提供+1颗临时心"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.data.InscriptionData",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Rooms",
+        "value": "房间"
+      },
+      {
+        "key": "Room",
+        "value": "房间"
+      },
+      {
+        "key": "Completion: ",
+        "value": "完成度: "
+      },
+      {
+        "key": "Time: ",
+        "value": "时间: "
+      },
+      {
+        "key": "Instability: ",
+        "value": "不稳定度: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.gear.EtchingItem",
+      "method": ""
+    },
+    "key": "Etching: ",
+    "value": "蚀刻: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.gear.TrinketItem",
+      "method": ""
+    },
+    "key": "Uses: ",
+    "value": "使用次数: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.gear.TrinketItem",
+      "method": ""
+    },
+    "key": "Crafted by: ",
+    "value": "制作者: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.tool.PaxelItem$Perk",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Quick",
+        "value": "轻便"
+      },
+      {
+        "key": "Immortal",
+        "value": "不朽"
+      },
+      {
+        "key": "Sturdy",
+        "value": "坚固"
+      },
+      {
+        "key": "Hammering",
+        "value": "锤击"
+      },
+      {
+        "key": "Excavating",
+        "value": "采掘"
+      },
+      {
+        "key": "Shattering",
+        "value": "研磨"
+      },
+      {
+        "key": "Smelting",
+        "value": "自动熔炼"
+      },
+      {
+        "key": "Pulverising",
+        "value": "粉碎"
+      },
+      {
+        "key": "Reinforced",
+        "value": "强化"
+      },
+      {
+        "key": "Axing",
+        "value": "斧的效果"
+      },
+      {
+        "key": "Shoveling",
+        "value": "锹的效果"
+      },
+      {
+        "key": "Farming",
+        "value": "锄的效果"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.tool.Pulverizing$Category",
+      "method": ""
+    },
+    "key": "Pulverizing",
+    "value": "粉碎"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.tool.Smelting$Category",
+      "method": ""
+    },
+    "key": "Smelting",
+    "value": "自动熔炼"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.AnimalJarItem",
+      "method": ""
+    },
+    "key": "Contains : ",
+    "value": "包含: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.AnimalJarItem",
+      "method": ""
+    },
+    "key": "Count : ",
+    "value": "数量: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.BasicScavengerItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+		"key": "Rotten items can not be used in the vault",
+        "value": "腐烂的物品不能在宝库中提交"
+	  },
+	  {
+        "key": "Rotten ",
+        "value": "腐烂的"
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.GodBlessingItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+		"key": "Rotten items can not be used in the vault",
+        "value": "腐烂的物品不能在宝库中提交"
+	  },
+	  {
+        "key": "Rotten ",
+        "value": "腐烂的"
+	  }
+	]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.CompassItem",
+      "method": ""
+    },
+    "key": "New compass target set",
+    "value": "新的指南针目标已设置"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.AlchemyCraftSelectorElement$AlchemyCraftElement",
+      "method": ""
+    },
+    "key": "Item Level required: ",
+    "value": "所需物品等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.WorkbenchCraftSelectorElement$WorkbenchCraftElement",
+      "method": ""
+    },
+    "key": "Item Level required: ",
+    "value": "所需物品等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.framework.element.ModificationButtonElement",
+      "method": ""
+    },
+    "key": "Requires ",
+    "value": "需要"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.EternalPedestalTileEntity$1",
+      "method": ""
+    },
+    "key": "Rename Eternal",
+    "value": "重命名永生者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.block.entity.CyroChamberTileEntity$2",
+      "method": ""
+    },
+    "key": "Rename Eternal",
+    "value": "重命名永生者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.VaultRuneItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Rooms",
+        "value": "房间"
+      },
+      {
+        "key": "Room",
+        "value": "房间"
+      },
+      {
+        "key": "- Has ",
+        "value": "- 提供 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.VaultXPFoodItem",
+      "method": ""
+    },
+    "key": "Can't be consumed after Level: ",
+    "value": "允许使用的等级上限: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.player.legacy.widget.AbilityWidgetSelectable",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "[NONE]",
+        "value": "[空]"
+      },
+      {
+        "key": "Keybind: ",
+        "value": "快捷键: "
+      },
+      {
+        "key": "Already using ",
+        "value": "已选择 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.client.gui.screen.accessibility.VaultAccessibilityScreen",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Vault Hunters Accessibility Options",
+        "value": "宝藏猎人辅助功能设置"
+      },
+      {
+        "key": "Vault Potion Effects",
+        "value": "宝库药水视觉效果"
+      },
+      {
+        "key": "Custom Hunter Colors",
+        "value": "自定义猎人技能粒子效果颜色"
+      },
+      {
+        "key": "Hunter Target",
+        "value": "猎人技能目标"
+      },
+      {
+        "key": "Red",
+        "value": "红"
+      },
+      {
+        "key": "Green",
+        "value": "绿"
+      },
+      {
+        "key": "Blue",
+        "value": "蓝"
+      },
+      {
+        "key": "Default Color",
+        "value": "默认颜色"
+      },
+      {
+        "key": "Ability Scrolling",
+        "value": "技能滚动切换"
+      },
+      {
+        "key": "Cooldown GUI",
+        "value": "技能冷却显示"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.item.bottle.BottleItem",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Passively restores charges while inside a vault",
+        "value": "在宝库中自然恢复充能"
+      },
+      {
+        "key": "Kill vault mobs to restore charges",
+        "value": "在宝库中击杀怪物来恢复充能"
+      },
+      {
+        "key": "Loot vault chests to restore charges",
+        "value": "在宝库中搜刮宝箱来恢复充能"
+      },
+      {
+        "key": "Consume a ",
+        "value": "消耗1层"
+      },
+      {
+        "key": "charge",
+        "value": "充能"
+      },
+      {
+        "key": " to",
+        "value": "以"
+      },
+      {
+        "key": " • Heal ",
+        "value": " • 治疗"
+      },
+      {
+        "key": " Hit Points",
+        "value": "点生命值"
+      },
+      {
+        "key": "Restores a charge in ",
+        "value": "恢复充能：剩余"
+      },
+      {
+        "key": "Kill ",
+        "value": "恢复充能：击杀"
+      },
+      {
+        "key": " vault mobs to recharge",
+        "value": "个宝库怪物"
+      },
+      {
+        "key": "Loot ",
+        "value": "恢复充能：搜刮"
+      },
+      {
+        "key": " vault chests to recharge",
+        "value": "个宝库宝箱"
+      },
+      {
+        "key": "Fully charged",
+        "value": "充能已满"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.OpenVaultSnapshotCommand",
+      "method": ""
+    },
+	"pairs": [
+      {
+        "key": "Click to open",
+        "value": "点击打开"
+      },
+      {
+        "key": "Vault",
+        "value": "宝库世界"
+      }
+    ]
+  }
+]
