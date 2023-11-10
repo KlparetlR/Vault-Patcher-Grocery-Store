@@ -1,0 +1,50 @@
+name: Packer
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'ModConfigs/asm(1.3.3%2B)/**'  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Zip files
+        run: |
+          zip -r Test.zip ModConfigs
+
+      - name: Setup custom info
+        id: info
+        run: |
+          current_date=$(date +%G%m%d)
+          sha_short=$(git rev-parse --short HEAD)
+          git_commit=$(git show -s --format=%s)
+          echo "version=$current_date-$sha_short" >> "$GITHUB_OUTPUT"
+          echo "commit=$git_commit" >> "$GITHUB_OUTPUT"
+
+      - name: Release publish
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: 
+          modrinth-unfeature-mode: subset
+          name: VPGS中文硬编码汉化数据包
+          version: ${{ steps.info.outputs.version }}
+          version-type: release
+          changelog: |
+            ${{ steps.info.outputs.commit }}
+
+            ------
+            由 [GitHub Action][github-action] 上傳
+
+            [github-action]: https://github.com/features/actions
+          loaders: minecraft
+          game-versions: ">1.13"
+          files: |
+            Test.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
