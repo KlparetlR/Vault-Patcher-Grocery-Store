@@ -21,7 +21,7 @@ jobs:
       - name: Init Resourcepack
         run: |
           mkdir -p pack/assets/VaultPatcher
-          cp -r ModConfigs/* pack/assets/VaultPatcher/
+          cp -r ModConfigs/*/* pack/assets/VaultPatcher/
       
       - name: Add mcmeta
         run: |
@@ -67,7 +67,7 @@ jobs:
             ${{ steps.info.outputs.commit }}
 
             ------
-            由 [GitHub Action][github-action] 上傳
+            由 [GitHub Action][github-action] 上传
 
             [github-action]: https://github.com/features/actions
           loaders: minecraft
