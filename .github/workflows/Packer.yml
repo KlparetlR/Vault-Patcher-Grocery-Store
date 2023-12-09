@@ -7,6 +7,10 @@ on:
       - main
     paths:
       - 'ModConfigs/**'  
+  workflow_call:
+    secrets:
+      MODRINTH_TOKEN:
+        required: true
 
 jobs:
   pack:
