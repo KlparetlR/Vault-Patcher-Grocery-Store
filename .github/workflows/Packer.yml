@@ -44,6 +44,7 @@ jobs:
           packsquash_version: latest
           options: |
             pack_directory = 'pack'
+            output_file_path = '/tmp/pack.zip'
 
       - name: Setup custom info
         id: info
@@ -75,7 +76,7 @@ jobs:
 
             [github-action]: https://github.com/features/actions
           loaders: minecraft
-          game-versions: ">1.16.4"
-          files: |
-            pack.zip
+          game-versions: |
+            >=1.16.5
+          files: /tmp/pack.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
