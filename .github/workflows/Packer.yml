@@ -20,8 +20,8 @@ jobs:
 
       - name: Init Resourcepack
         run: |
-          mkdir -p pack/assets
-          cp -r ModConfigs/*/* pack/assets/VaultPatcher/
+          mkdir -p pack/assets/VaultPatcher
+          cp -r ModConfigs/* pack/assets/VaultPatcher/
       
       - name: Add mcmeta
         run: |
