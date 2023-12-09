@@ -65,18 +65,19 @@ jobs:
         with:
           modrinth-id: IDWIdXwS
           modrinth-unfeature-mode: subset
-          name: VP-test2
+          name: VPGS库的简体中文硬编码汉化数据包 - $(date +%Y.%m.%d)
           version: ${{ steps.info.outputs.version }}
           version-type: release
           changelog: |
             ${{ steps.info.outputs.commit }}
 
             ------
-            由 [GitHub Action][github-action] 上传
+            由 [VPGS][vpgs] 库的 [GitHub Action][github-action] 上传
 
             [github-action]: https://github.com/features/actions
+            [vpgs]: https://github.com/KlparetlR/Vault-Patcher-Grocery-Store
           loaders: minecraft
           game-versions: |
-            >=1.16.5
+            >1.16.5
           files: /tmp/pack.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
