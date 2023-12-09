@@ -1,0 +1,101 @@
+[
+    {
+        "name": "宝藏猎人主要硬编码汉化-动态替换部分",
+        "desc": "包含tooltip、GUI、item。分发、抄袭必追责，硬编码汉化版号：VP-VH3rd-V2.5.2",
+        "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
+        "mods": "the_vault",
+        "dynamic": true
+    },
+    {
+        "pairs": [
+            {
+                "key": "LeYangZi",
+                "value": "\u00a7l\u00a76汉化贡献者\u00a7f\u272a\u00a7cLeYangZi"
+            },
+            {
+                "key": "akk3476",
+                "value": "\u00a7l\u00a76汉化贡献者\u00a7f\u272a\u00a7bakk3476"
+            },
+            {
+                "key": "KIparetIR",
+                "value": "\u00a7l\u00a76汉化主作者\u00a7f\u272a\u00a71KIparetIR"
+            },
+            {
+                "key": "_ZUZIE_",
+                "value": "\u00a7l\u00a76汉化模组作者\u00a7f\u272a\u00a7d_ZUZIE_"
+            },
+            {
+                "key": "MaZa_RinE",
+                "value": "\u00a7l\u00a76汉化贡献者\u00a7f\u272a\u00a7dMaZa_RinE"
+            },
+            {
+                "key": "DrIceTea",
+                "value": "\u00a7a\u272a\u00a7fDrIceTea"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.world.data.DiscoveredModelsData",
+            "method": "broadcastModelDiscovery"
+        },
+        "pairs": [
+            {
+                "key": " Helmet",
+                "value": "@头盔"
+            },
+            {
+                "key": " Chestplate",
+                "value": "@胸甲"
+            },
+            {
+                "key": " Leggings",
+                "value": "@护腿"
+            },
+            {
+                "key": " Boots",
+                "value": "@靴子"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.ItemLegendaryTreasure",
+            "method": "m_7373_"
+        },
+        "pairs": [
+            {
+                "key": "COMMON",
+                "value": "@普通"
+            },
+            {
+                "key": "RARE",
+                "value": "@稀有"
+            },
+            {
+                "key": "EPIC",
+                "value": "@史诗"
+            },
+            {
+                "key": "OMEGA",
+                "value": "@欧米伽"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.gear.tooltip.VaultGearTooltipItem",
+            "method": "addTooltipEmptyAffixes"
+        },
+        "pairs": [
+            {
+                "key": "■ empty prefix",
+                "value": "■ 空前缀"
+            },
+            {
+                "key": "■ empty suffix",
+                "value": "■ 空后缀"
+            }
+        ]
+    }
+]

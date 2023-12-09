@@ -2,7 +2,7 @@
     {
         "authors": "KlparetlR、Qing_Lanovo",
         "name": "XPCoins模组汉化",
-        "desc": "[部分一]VP1.3.3+可启用，VPGS开源",
+        "desc": "VP1.3.5+可启用，VPGS开源",
         "mods": "XPCoins (FORGE-1.16.4) v1.0.7",
         "dynamic": false
     },
@@ -443,7 +443,7 @@
     {
         "target_class": {
             "name": "com.coldspell.xpcoins.items.games.CardDraw",
-            "method": "func_77659_a",
+            "method": "",
             "local": ""
         },
         "pairs": [
@@ -454,13 +454,45 @@
             {
                 "key": "You picked the ",
                 "value": "你选择了"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Draw a card!",
+                "value": "使用：抽一张扑克牌！"
+            },
+            {
+                "key": "§bDraw a higher card than the dealer!",
+                "value": "§b抽一张比庄家高的扑克牌!"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "You're a WINNER!!!  You Doubled Your Bet!",
+                "value": "你是赢家！！ 你的赌注翻倍了！"
+            },
+            {
+                "key": "You Lost Your Bet!",
+                "value": "你输掉了你的赌注！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
             }
         ]
     },
     {
         "target_class": {
             "name": "com.coldspell.xpcoins.items.games.CardsHighLow",
-            "method": "func_77659_a",
+            "method": "",
             "local": ""
         },
         "pairs": [
@@ -471,13 +503,85 @@
             {
                 "key": "You picked the ",
                 "value": "你选择了"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Draw a Card!",
+                "value": "使用：抽一张扑克牌！"
+            },
+            {
+                "key": "CROUCH+USE: Toggle High or Low Prediction",
+                "value": "蹲下+使用：切换高或低的预测"
+            },
+            {
+                "key": "§bor Lower than the Dealers",
+                "value": "§b或者比庄家更低"
+            },
+            {
+                "key": "§bBet if your Card is Higher",
+                "value": "§b下赌注，如果你的牌面更高"
+            },
+            {
+                "key": "§7Aces High",
+                "value": "§7牌面较高"
+            },
+            {
+                "key": "§7Aces Low",
+                "value": "§7牌面较低"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            },
+            {
+                "key": "Your Prediction: LOW!",
+                "value": "您的预测：较低！"
+            },
+            {
+                "key": "Your Prediction: HIGH!",
+                "value": "您的预测：较高！"
+            },
+            {
+                "key": "Current Prediction: High!",
+                "value": "当前预测：较高！"
+            },
+            {
+                "key": "Current Prediction: Low!",
+                "value": "当前预测：较低！"
+            },
+            {
+                "key": "Crouch + USE: Change Prediction",
+                "value": "潜行+使用：变更预测"
+            },
+            {
+                "key": "You've WON!!!",
+                "value": "你赢了！！！"
+            },
+            {
+                "key": "You've Lost!",
+                "value": "你输了！"
+            },
+            {
+                "key": "DRAW GAME!  No Winners!",
+                "value": "平局！ 没有赢家！"
             }
         ]
     },
     {
         "target_class": {
             "name": "com.coldspell.xpcoins.items.games.DiceHighLow",
-            "method": "func_77659_a",
+            "method": "",
             "local": ""
         },
         "pairs": [
@@ -516,13 +620,81 @@
             {
                 "key": " to ",
                 "value": "比"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "CROUCH+USE: Toggle High or Low Prediction",
+                "value": "蹲下+使用：切换高或低的预测"
+            },
+            {
+                "key": "§bBet if your Roll is Higher",
+                "value": "§b下赌注，如果你的骰子总值更高"
+            },
+            {
+                "key": "§bor Lower than the Dealers",
+                "value": "§b或者比庄家更低"
+            },
+            {
+                "key": "§bWin with a MAX Spread",
+                "value": "§b若以最大点数差获胜"
+            },
+            {
+                "key": "§band get 5x your wager!",
+                "value": "§b可获得5倍的赌注！"
+            },
+            {
+                "key": "USE: Roll the Dice!",
+                "value": "使用：掷骰子！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            },
+            {
+                "key": "Your Prediction: LOW!",
+                "value": "您的预测：较低！"
+            },
+            {
+                "key": "Your Prediction: HIGH!",
+                "value": "您的预测：较高！"
+            },
+            {
+                "key": "DRAW GAME!  No Winners!",
+                "value": "平局！ 没有赢家！"
+            },
+            {
+                "key": "MAX SPREAD!!! You WON 20 times your Wager!",
+                "value": "最大点数差！！！ 你赢了20倍的赌注！"
+            },
+            {
+                "key": "MAX SPREAD You WON 20 times your Wager!",
+                "value": "最大点数差 你赢了20倍的赌注！"
+            },
+            {
+                "key": "You WON!",
+                "value": "你赢了！"
+            },
+            {
+                "key": "You Lost your Coin!",
+                "value": "你失去了你的经验币！"
             }
         ]
     },
     {
         "target_class": {
             "name": "com.coldspell.xpcoins.items.games.DoubleOrNothing",
-            "method": "func_77659_a",
+            "method": "",
             "local": ""
         },
         "pairs": [
@@ -533,19 +705,83 @@
             {
                 "key": " Coins)",
                 "value": " 个经验币)"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "§bFlip a Coin! Land on Heads to Win!",
+                "value": "§b抛硬币!正面着地就能赢!"
+            },
+            {
+                "key": "USE: Flip the Coin",
+                "value": "使用：掷硬币"
+            },
+            {
+                "key": "CROUCH + USE: Collect your Winnings!",
+                "value": "潜行+使用：收集您的奖金！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "Tails! You Lose!",
+                "value": "反面！你输了！"
+            },
+            {
+                "key": "Use: Double or Nothing!",
+                "value": "使用：双倍或一无所有！"
+            },
+            {
+                "key": "Crouch + Use: Collect your Winnings!",
+                "value": "蹲下+使用：收集你的奖金!"
             }
         ]
     },
     {
         "target_class": {
             "name": "com.coldspell.xpcoins.items.games.LuckyDice",
-            "method": "func_77659_a",
+            "method": "",
             "local": ""
         },
         "pairs": [
             {
                 "key": "You rolled a ",
                 "value": "你掷了一个"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Roll the Dice!",
+                "value": "使用：掷骰子！"
+            },
+            {
+                "key": "§bRoll Snake Eyes or Boxcars",
+                "value": "§b掷蛇眼（双一点）或棚车（双六点）"
+            },
+            {
+                "key": "§band WIN 3 Times you Bet!",
+                "value": "§b并赢得3倍的赌注！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "You Lost Your Coin!",
+                "value": "你失去了你的经验币！"
             }
         ]
     },
@@ -587,6 +823,70 @@
             {
                 "key": "You WIN 2 Coins (",
                 "value": "你赢得了2个经验币 ("
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "§bTry to get closer to 21 than the dealer!",
+                "value": "§b尽量比庄家更接近21！"
+            },
+            {
+                "key": "§bDraw 21 and win TRIPLE your bet!",
+                "value": "§b抽到21，赢得三倍的赌注！"
+            },
+            {
+                "key": "§bIf anyone draws 9 Cards without Breaking, You'll Win 10X your bet!",
+                "value": "§b如果有人抽到9张牌而不中断，你将赢得10倍的赌注！"
+            },
+            {
+                "key": "USE: Draw Cards",
+                "value": "使用：抽一张牌"
+            },
+            {
+                "key": "§7Dealer must Stand at 16+",
+                "value": "§7发牌人必须停叫在16+"
+            },
+            {
+                "key": "Starting New Game!",
+                "value": "开始新游戏！"
+            },
+            {
+                "key": "(USE: HIT) (CROUCH+USE: STAND)",
+                "value": "（使用：叫牌）（蹲下+使用：停叫）"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "Dealer Busts!",
+                "value": "庄家输了！"
+            },
+            {
+                "key": "You Win 2 Coins!",
+                "value": "你赢得了2个经验币！"
+            },
+            {
+                "key": "DRAW! No Winner!",
+                "value": "平局！没有赢家！"
+            },
+            {
+                "key": "9 Card Win!  YOU'VE WON 10X YOUR BET!!! (11 Coins)",
+                "value": "9张牌，赢！ 你赢了10倍的赌注！！！（11枚经验币）"
+            },
+            {
+                "key": "BLACKJACK!!!  You WIN 3X your bet! (4 Coins)",
+                "value": "21点！！！ 你赢了3倍的赌注！（4枚经验币）"
+            },
+            {
+                "key": "You Bust!",
+                "value": "你输了！"
             }
         ]
     },
@@ -620,6 +920,14 @@
             {
                 "key": "!  You lost your Coin!",
                 "value": "！  您失去了你的经验币！"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
             }
         ]
     },
@@ -2294,6 +2602,114 @@
             {
                 "key": "A single conversation with a wise man is better than ten years of study.",
                 "value": "与智者一席之谈胜过十年苦读"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.CoinItem",
+            "method": "func_77624_a"
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Grants ",
+                "value": "§2使用：获得"
+            },
+            {
+                "key": " Experience Points",
+                "value": "点经验值"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.OneHundred",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "§bBeat the Computers Score to WIN!",
+                "value": "§b击败电脑得分以获胜！"
+            },
+            {
+                "key": "§bScore 100 Points and win 3X your bet!",
+                "value": "§b获得100分并赢得3倍的赌注！"
+            },
+            {
+                "key": "USE: Draw a number!",
+                "value": "使用：抽一个数！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.gameBLANK",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2BLANK",
+                "value": "§2空"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.UncuredCoinPress",
+            "method": "func_77624_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2Apply Heat",
+                "value": "§2需加热"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.CoinPressItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Convert Experience",
+                "value": "§2使用：转换经验"
+            },
+            {
+                "key": "§2Points into an XP Coin!",
+                "value": "§2经验值变成经验币！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.FortuneCookie",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Eat the cookie,",
+                "value": "§2使用：吃了饼干，"
+            },
+            {
+                "key": "§2learn your fortune",
+                "value": "§2就会知道你的命运"
             }
         ]
     }
