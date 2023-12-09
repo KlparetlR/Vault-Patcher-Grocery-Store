@@ -55,23 +55,23 @@ jobs:
           echo "Version = ${{ steps.info.outputs.version }}"
           echo "Changelog = ${{ steps.info.outputs.commit }}"
 
-      #- name: Release publish
-      #  uses: Kir-Antipov/mc-publish@v3.3
-      #  with:
-      #    modrinth-id: 
-      #    modrinth-unfeature-mode: subset
-      #    name: VP-test2
-      #    version: ${{ steps.info.outputs.version }}
-      #    version-type: release
-      #    changelog: |
-      #      ${{ steps.info.outputs.commit }}
+      - name: Release publish
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: IDWIdXwS
+          modrinth-unfeature-mode: subset
+          name: VP-test2
+          version: ${{ steps.info.outputs.version }}
+          version-type: release
+          changelog: |
+            ${{ steps.info.outputs.commit }}
 
-      #      ------
-      #      由 [GitHub Action][github-action] 上傳
+            ------
+            由 [GitHub Action][github-action] 上傳
 
-      #      [github-action]: https://github.com/features/actions
-      #    loaders: minecraft
-      #    game-versions: ">1.16.5"
-      #    files: |
-      #      Test.zip
-      #    modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            [github-action]: https://github.com/features/actions
+          loaders: minecraft
+          game-versions: ">1.16.4"
+          files: |
+            pack.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
