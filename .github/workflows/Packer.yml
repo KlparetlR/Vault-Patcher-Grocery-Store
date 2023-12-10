@@ -46,9 +46,11 @@ jobs:
         id: info
         run: |
           current_date=$(date +%G%m%d)
+          title_date=$(date +%Y.%m.%d)
           sha_short=$(git rev-parse --short HEAD)
           git_commit=$(git show -s --format=%s)
           echo "version=$current_date-$sha_short" >> "$GITHUB_OUTPUT"
+          echo "title_date=$title_date" >> "$GITHUB_OUTPUT"
           echo "commit=$git_commit" >> "$GITHUB_OUTPUT"
 
       # - name: Testing Info
@@ -61,7 +63,7 @@ jobs:
         with:
           modrinth-id: IDWIdXwS
           modrinth-unfeature-mode: subset
-          name: VPGS库的简体中文硬编码汉化数据包 - $(date +%Y.%m.%d)
+          name: VPGS库的简体中文硬编码汉化数据包 - ${{ steps.info.outputs.title_date }}
           version: ${{ steps.info.outputs.version }}
           version-type: release
           changelog: |
