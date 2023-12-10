@@ -63,7 +63,7 @@ jobs:
         with:
           modrinth-id: IDWIdXwS
           modrinth-unfeature-mode: subset
-          name: VPGS库的简体中文硬编码汉化数据包 - ${{ steps.info.outputs.title_date }}
+          name: 简体中文硬编码汉化数据包 - ${{ steps.info.outputs.title_date }}
           version: ${{ steps.info.outputs.version }}
           version-type: release
           changelog: |
@@ -76,6 +76,6 @@ jobs:
             [vpgs]: https://github.com/KlparetlR/Vault-Patcher-Grocery-Store
           loaders: minecraft
           game-versions: |
-            >1.16.5
+            [1.13.2,1.20.2)
           files: /tmp/pack.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
