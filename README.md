@@ -6,9 +6,8 @@
 
 [![Vault Patcher](https://img.shields.io/badge/github-Vault%20Patcher-blue)](https://github.com/3093FengMing/VaultPatcher)
 [![modrinth-VP](https://img.shields.io/badge/modrinth-Vault%20Patcher-green)](https://modrinth.com/mod/vault-patcher/versions)
-[![Hardcode Patcher](https://img.shields.io/badge/github-Hardcode%20Patcher-F16436)](https://github.com/LocalizedMC/HardcodePatcher)
 [![mcmod-VP](https://img.shields.io/badge/mcmod-Vault%20Patcher-blue)](https://www.mcmod.cn/class/8765.html)
-[![mcmod-HP](https://img.shields.io/badge/mcmod-Hardcode%20Patcher-blue)](https://www.mcmod.cn/class/9315.html)
+[![vpshuju](https://img.shields.io/badge/modrinth-%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%BB%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80-purple)](https://modrinth.com/resourcepack/vmct)
 
 ## 介绍
 
