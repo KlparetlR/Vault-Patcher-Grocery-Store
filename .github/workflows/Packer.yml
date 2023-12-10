@@ -6,11 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'ModConfigs/**'  
-  workflow_call:
-    secrets:
-      MODRINTH_TOKEN:
-        required: true
+      - 'ModConfigs/**'
 
 jobs:
   pack:
@@ -55,10 +51,10 @@ jobs:
           echo "version=$current_date-$sha_short" >> "$GITHUB_OUTPUT"
           echo "commit=$git_commit" >> "$GITHUB_OUTPUT"
 
-      - name: Testing Info
-        run: |
-          echo "Version = ${{ steps.info.outputs.version }}"
-          echo "Changelog = ${{ steps.info.outputs.commit }}"
+      # - name: Testing Info
+      #   run: |
+      #     echo "Version = ${{ steps.info.outputs.version }}"
+      #     echo "Changelog = ${{ steps.info.outputs.commit }}"
 
       - name: Release publish
         uses: Kir-Antipov/mc-publish@v3.3
