@@ -15,11 +15,11 @@
         "p": [
             {
                 "k": "This mod can show a tooltip on screen",
-                "v": "这个模组可以在屏幕上显示工具提示"
+                "v": "这个模组可以在屏幕上显示提示框"
             },
             {
                 "k": "This is set server side",
-                "v": "这是在服务器端设置的"
+                "v": "这是在服务端设置的"
             },
             {
                 "k": "In this pack the probe is configured to be not",
@@ -35,15 +35,15 @@
             },
             {
                 "k": "Check out the 'Mod Options... for many client'",
-                "v": "查看‘模式选项......，了解许多客户端’"
+                "v": "查看‘模式选项……了解许多客户端’"
             },
             {
                 "k": "Things you should know about",
-                "v": "您应该知道的关于"
+                "v": "吗应该知道的关于"
             },
             {
                 "k": "side configuration settings or sneak-right click",
-                "v": "配置设置，或右键单击此说明"
+                "v": "配置设置，或潜行右击此说明"
             },
             {
                 "k": "this note for more user-friendly setup",
@@ -55,7 +55,7 @@
             },
             {
                 "k": "required in order to see the tooltip",
-                "v": "需要，来查看工具提示"
+                "v": "需要，来查看提示框"
             },
             {
                 "k": "required to see extended information (when",
@@ -101,7 +101,7 @@
             },
             {
                 "k": "TE: ",
-                "v": "方块实体名称："
+                "v": "方块实体："
             },
             {
                 "k": "Hardness: ",
@@ -130,7 +130,7 @@
         "p": [
             {
                 "k": "Health: ",
-                "v": "生命："
+                "v": "生命值："
             },
             {
                 "k": "Empty",
@@ -204,7 +204,7 @@
             },
             {
                 "k": " (level ",
-                "v": " (等级： "
+                "v": "(等级： "
             },
             {
                 "k": "Tools: ",
@@ -216,7 +216,7 @@
             },
             {
                 "k": "Not harvestable",
-                "v": "不可收获"
+                "v": "不可采掘"
             },
             {
                 "k": "Wood",
@@ -424,7 +424,7 @@
             },
             {
                 "key": "Age: ",
-                "value": "岁数："
+                "value": "年龄："
             },
             {
                 "key": "Tot armor: ",
@@ -449,7 +449,7 @@
         "p": [
             {
                 "k": "The One Probe catched error: ",
-                "v": "The One Probe 模组捕获到错误："
+                "v": "The One Probe捕获到错误："
             },
             {
                 "k": "<null>",
@@ -474,7 +474,7 @@
             },
             {
                 "key": "TOP Config",
-                "value": "TOP 模组设置"
+                "value": "TOP配置"
             },
             {
                 "key": "Click on corner in screenshot",
@@ -498,7 +498,7 @@
             },
             {
                 "key": "to move tooltip there",
-                "value": "将工具提示移至此处"
+                "value": "将提示框移至此处"
             },
             {
                 "key": "Scale:",
