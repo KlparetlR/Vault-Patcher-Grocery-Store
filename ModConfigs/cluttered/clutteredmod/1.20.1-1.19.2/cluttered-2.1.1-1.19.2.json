@@ -1,0 +1,905 @@
+[
+  {
+    "name": "cluttered",
+    "authors": "X209",
+    "desc": "cluttered模组硬编码汉化",
+    "mods": "cluttered-2.1.1-1.19.2",
+    "dynamic": false
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.AnchorwallpaperwainscotBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Valorant",
+        "v": "无畏契约"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlueMushroomBlockBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDecorativeBlueMushroomBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDynastyDoorBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieGlowshroomDoorBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Terraria",
+        "v": "泰拉瑞亚"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.BlueSandSealPlushBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.BlueTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.ClutteredTarreyTownWoodStoveBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.GlowTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.GreenSandSealPlushBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.GreenTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PinkTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PurpleTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.RedSandSealPlushBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.RedTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.RitoVillageBooksBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.TarreyTownStoveBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.YellowTarreyTownPlanterBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "TOTK",
+        "v": "王国之泪"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.GreenPuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PastelBluePuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PastelPinkPuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PastelPurplePuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PastelYellowPuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.RedPuzzlePieceTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.SeaweedPlanterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.YellowPuzzlePieceTableBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Stardew Valley",
+        "v": "星露谷"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieClutteredHavanaCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDoradoCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDoradoCabinetClutteredBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHangingPotteryShelvesBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHavanaCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWornDoradoCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.PurpleCabinetBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Overwatch",
+        "v": "守望先锋"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LilyHillsFlooringBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "FFXIV",
+        "v": "最终幻想14"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieAntiqueLibraryBooksBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieAppleChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieArtAcademyBoxOfPaintBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBakingSetABlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBasicLovelyLoveSeatBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBerryCakeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackLovelyLoveSeatBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieButtonStoolBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieChocoMintWallpaper1Block",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieChocoMintWallpaperBBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieCoffeeGrinderBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieConfectionaryTableABlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieConfectionaryTableBBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieConfectionaryWallpaperABlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieConfectionaryWallpaperBBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDecorativeFlatMushroomBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieFloralStripedWallpaperBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieGreenGumballMachineBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieGreenSpoolOfThreadBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHalloweenWallpaperABlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHalloweenWallpaperBBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHandheldSeaGemLanternBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieHoppinParkLanternBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieImperialChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLavenderSpoolOfThreadBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLemonTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatoryBasketOfPapersBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatoryBooksBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatoryGlobeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatoryJarsBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatorySmallTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLunarObservatoryTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMermaidDresserBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMermaidPearlBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMiniCactusSetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelTraditionalChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelTraditionalTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkSpoolOfThreadBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePotionShelfBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePurpleGumballMachineBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieRetroCafeShelfBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieRetroCafeShelfStainedGlassBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieRoversMugBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieRoversStoolBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSewingTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSewingTableClutterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSewingTableWithTableclothBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSmallCauldronSetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSweetheartCounterABlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSweetheartCounterBBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSweetheartKitchenSinkBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSweetheartKitchenTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowSpoolOfThreadBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "ACPC",
+        "v": "动物森友会：口袋营地"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiebunnyPlushieBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieCardIndexBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieChinaCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieClassicRadioBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMushroomChestBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMushroomDoorBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMushroomLampBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMushroomTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMushroomWardrobeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelWardrobeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSafeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSteampunkGlobeBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieSteampunkLampBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Starbound",
+        "v": "星界边境"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelStrawberryWallpaperBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWeddingArchBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackGlassCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackInnerCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackInnerCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackLeftOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackMiniCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackOuterCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackRightOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackShelfCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBlackSinkCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenGlassCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenInnerCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenInnerCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenLeftOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenMiniCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenOuterCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenRightOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenShelfCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieLightGreenSinkCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieMiniHangingTerrariumsBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkGlassCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkInnerCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkInnerCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkLeftOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkMiniCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkOuterCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkRightOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkShelfCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePinkSinkCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieUnlivingChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteGlassCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteInnerCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteInnerCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteLeftOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteMiniCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteOuterCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteRightOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteShelfCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieWhiteSinkBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowGlassCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowInnerCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowInnerCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowLeftOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowMiniCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowOuterCornerCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowRightOuterCornerCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowShelfCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieYellowSinkCounterBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieBunnyBookEndsBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Sims 4",
+        "v": "模拟人生4"
+      },
+      {
+        "k": "Sims4",
+        "v": "模拟人生4"
+      },
+      {
+        "k": "The Sims 4",
+        "v": "模拟人生4"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieClassicMiniTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodClockBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodDecorativeShelvesBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodGeometricBedBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodGeometricChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodGeometricDecorativeShelvesBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodGeometricSofaBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodQuiltedBedBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodQuiltedChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodQuiltedDecorativeShelvesBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodQuiltedSofaBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodRoundTableBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodSoutherFlairBedBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodSouthernFlairChairBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodSouthernFlairDecorativeShelvesBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodSouthernFlairSofaBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieDarkwoodStoolBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieGeneralStoreCabinetBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphiePastelBlockBookshelfBlock",
+        "m": "m_5871_"
+      },
+      {
+        "n": "net.mcreator.clutteredmod.block.LuphieRoversBriefcaseBlock",
+        "m": "m_5871_"
+      }
+    ],
+    "p": [
+      {
+        "k": "ACNH",
+        "v": "集合啦！动物森友会"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "n": "net.mcreator.clutteredmod.block.LuphieBunnyGarlandBlock",
+      "m": "m_5871_"
+    },
+    "p": [
+      {
+        "k": "DRG",
+        "v": "深岩银河"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "n": "net.mcreator.clutteredmod.block.LuphieMushroomBedBlock",
+      "m": "m_5871_"
+    },
+    "p": [
+      {
+        "k": "ACCL",
+        "v": "ACCL"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "n": "net.mcreator.clutteredmod.block.LuphieMushroomTVBlock",
+      "m": "m_5871_"
+    },
+    "p": [
+      {
+        "k": "ACCF",
+        "v": "动物森友会：城市人"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.client.gui.LuphieSmallStorageGuiScreen",
+        "m": "m_7027_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Cluttered",
+        "v": "杂物"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "n": "net.mcreator.clutteredmod.client.gui.LuphieSmallStorageGuiScreen",
+        "m": "m_7027_"
+      }
+    ],
+    "p": [
+      {
+        "k": "Inventory",
+        "v": "物品栏"
+      }
+    ]
+  }
+]

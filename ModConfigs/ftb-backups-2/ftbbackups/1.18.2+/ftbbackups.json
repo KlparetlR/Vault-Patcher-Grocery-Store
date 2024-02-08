@@ -1,0 +1,17 @@
+[
+  {
+        "name": "ftbbackups",
+        "desc": "ftbbackups硬编码汉化。",
+        "authors": "KlparetlR",
+        "mods": "ftbbackups",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "net.creeperhost.ftbbackups.BackupHandler",
+            "method": ""
+        },
+        "key": "Backup finished in ",
+        "value": "服务器备份完成，耗时 "
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "davespotioneering",
+    "authors": "X209",
+    "desc": "davespotioneering模组硬编码汉化",
+    "mods": "davespotioneering-1.19.2-3",
+    "dynamic": false
+  },
+  {
+    "t": {
+      "n": "tfar.davespotioneering.init.ModItems",
+      "m": "<clinit>"
+    },
+    "p": [
+      {
+        "k": "classic",
+        "v": "经典"
+      },
+      {
+        "k": "aged",
+        "v": "陈年"
+      }
+    ]
+  },
+  {
+    "t": {
+      "n": "tfar.davespotioneering.init.ModItems",
+      "m": "<clinit>",
+      "o": 245
+    },
+    "p": [
+      {
+        "key": "gilded",
+        "value": "镀金"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "ftbquests",
+        "desc": "ftbquests硬编码汉化。",
+        "authors": "KlparetlR",
+        "mods": "ftbquests",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.ChapterPanel$ModpackButton",
+            "method": "addMouseOverText"
+        },
+        "p": [
+            {
+                "k": "Doesn't stay open",
+                "v": "不保持展开"
+            },
+            {
+                "k": "Stays open",
+                "v": "保持展开"
+            }
+        ]
+    }
+]
