@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Iron Furnaces模组汉化",
+        "desc": "来自宝藏猎人3。VP1.4.0+可用，VPGS开源",
+        "authors": "DrIceTea",
+        "mods": "ironfurnaces-1.18.2-3.3.3",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemFurnace",
+            "method": "m_7373_"
+        },
+        "key": "Cooktime: ",
+        "value": "熔炼时间："
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemMillionFurnace",
+            "method": "m_7373_"
+        },
+        "key": "Cooktime: ",
+        "value": "熔炼时间："
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemFurnaceCopy",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Settings applied",
+                "value": "熔炉设置已应用"
+            },
+            {
+                "key": "Right-click to copy settings",
+                "value": "右击以复制熔炉设置"
+            },
+            {
+                "key": "Sneak & right-click to apply settings",
+                "value": "潜行右击以应用熔炉设置"
+            },
+            {
+                "key": "Down: ",
+                "value": "下："
+            },
+            {
+                "key": "Up: ",
+                "value": "上："
+            },
+            {
+                "key": "North: ",
+                "value": "北："
+            },
+            {
+                "key": "South: ",
+                "value": "南："
+            },
+            {
+                "key": "West: ",
+                "value": "西："
+            },
+            {
+                "key": "East: ",
+                "value": "东："
+            },
+            {
+                "key": "Auto Input: ",
+                "value": "自动输入："
+            },
+            {
+                "key": "Auto Output: ",
+                "value": "自动输出："
+            },
+            {
+                "key": "Redstone Mode: ",
+                "value": "红石模式："
+            },
+            {
+                "key": "Redstone Value: ",
+                "value": "红石值："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemLinker",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Sneak & right-click on a furnace to save it",
+                "value": "潜行右击熔炉以将其保存"
+            },
+            {
+                "key": "Sneak & right-click on your Rainbow Furnace to add the saved furnace and/or show how many furnaces are still missing",
+                "value": "潜行右击彩虹熔炉以添加所保存的熔炉，并/或显示仍需要熔炉的数量"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.blocks.furnaces.BlockIronFurnaceBase",
+            "method": ""
+        },
+        "key": "Settings copied",
+        "value": "熔炉设置已复制"
+    }
+]
