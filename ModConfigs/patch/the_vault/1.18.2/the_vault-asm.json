@@ -1,7 +1,7 @@
 [
     {
-        "name": "宝藏猎人主要硬编码汉化-asm部分",
-        "desc": "主要asm硬编码汉化替换。版本V2.5.7",
+        "name": "宝藏猎人主要模组汉化-asm部分",
+        "desc": "主要asm硬编码汉化替换。版本V2.5.7-VPGS开源",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": false

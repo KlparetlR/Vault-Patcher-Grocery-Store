@@ -1,7 +1,7 @@
 [
     {
-        "name": "宝藏猎人主要硬编码汉化-动态替换部分",
-        "desc": "无法asm替换的硬编码。版本V2.5.6",
+        "name": "宝藏猎人主要模组汉化-动态替换部分",
+        "desc": "无法asm替换的硬编码。版本V2.5.6-VPGS开源",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": true
