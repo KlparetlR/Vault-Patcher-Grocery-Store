@@ -7,6 +7,11 @@
         "url": "{root}/patch/arsomega/1.19.2-1.18.2/ArsOmega-1.18.2-2.7.4.json"
       },
       {
+        "name": "auxiliaryblocks",
+        "version": "1.18.2",
+        "url": "{root}/patch/auxiliaryblocks/1.18.2/auxiliaryblocks-1.18.2.json"
+      },
+      {
         "name": "betteradvancements",
         "version": "1.20.1-1.18.2",
         "url": "{root}/patch/betteradvancements/1.20.1-1.18.2/BetterAdvancements-1.19.2.json"
@@ -40,6 +45,11 @@
         "name": "ftbquests",
         "version": "1.18.1+",
         "url": "{root}/patch/ftbquests/1.18.1+/ftbquests.json"
+      },
+      {
+        "name": "ironfurnaces",
+        "version": "1.18.2",
+        "url": "{root}/patch/ironfurnaces/1.18.2/ironfurnaces-1.18.2-3.3.3.json"
       },
       {
         "name": "randomloot",
