@@ -1,0 +1,16 @@
+name: Auto update
+on:
+  push:
+    paths:
+      - "ModConfigs/**"
+    
+  workflow_dispatch:
+     
+jobs:
+  Update:
+    name: Send update
+    runs-on: ubuntu-20.04
+    steps:
+      - name: send
+        run: |
+          wget -O- https://vpdl.nvoid.me/update
