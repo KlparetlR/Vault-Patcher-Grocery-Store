@@ -7,11 +7,10 @@
 [![Vault Patcher](https://img.shields.io/badge/github-Vault%20Patcher-blue)](https://github.com/3093FengMing/VaultPatcher)
 [![modrinth-VP](https://img.shields.io/badge/modrinth-Vault%20Patcher-green)](https://modrinth.com/mod/vault-patcher/versions)
 [![mcmod-VP](https://img.shields.io/badge/mcmod-Vault%20Patcher-blue)](https://www.mcmod.cn/class/8765.html)
-[![vpshuju](https://img.shields.io/badge/modrinth-%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%BB%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80-purple)](https://modrinth.com/resourcepack/vmct)
 
 ## 介绍
 
-这是一个存放Vault Patcher模组的配置+汉化以及编写工具的开源库
+这是一个存放Vault Patcher模组的配置+汉化、编写工具的开源库(弃案留档)、VPDL(VP配置自适应下载器)源码及发布
 
 服务于熟悉Vault Patcher模组的**大佬**，在这里，你可以调用模组的配置文件，修提交修改配置或汉化的建议
 
@@ -50,17 +49,15 @@ json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"�
     },
 ```
 
-可以参考CFPA的[i18n库](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/main/CONTRIBUTING.md)
-
 ## 调用后的要求和限制 **（必看，须知）**
 
 本库的协议为[CC-BY-NC-ND 4.0](https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/LICENSE.txt)，即
 
-BY（Attribution，署名归属）：您可自由地分享和改编本作品，但您**必须注明**创作者的版权归属。
+BY（Attribution，署名归属）：您可自由地分享本作品，但您**必须注明**创作者的版权归属。
 
-NC（Non Commercial，非商业性）：您可自由地分享和改编本作品，但您不得用于**商业目的**。
+NC（Non Commercial，非商业性）：您可自由地分享本作品，但您不得用于**商业目的**。
 
-ND（No Derivatives，禁止改编）：你可自由地分享本作品，但您不得合成、转换和改造本作品。
+ND（No Derivatives，禁止改编）：你可自由地分享本作品，但您不得合成、转换和改造以及改编本作品。
 
 如果您要**用于整合包汉化发布**等分享本作品的行为，你要在汉化文件或汉化发布页内**注明**创作者的版权归属
 
