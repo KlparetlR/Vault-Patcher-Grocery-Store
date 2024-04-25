@@ -3,10 +3,6 @@ on:
   push:
     paths:
       - "ModConfigs/**"
-  workflow_call:
-    secrets:
-      GH_TOKEN:
-        required: true
     
   workflow_dispatch:
 
@@ -32,12 +28,14 @@ jobs:
           echo $index > ModConfigs/index.json
 
       - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add ModConfigs/index.json
-          git commit -m "Update index.json"
-          git push https://${{secrets.GH_TOKEN}}@github.com/KlparetlR/Vault-Patcher-Grocery-Store.git
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update index.json
+          commit_user_name: GitHub Action
+          commit_user_email: action@github.com
+          commit_options: '--no-verify'
+          commit_author: GitHub Action <action@github.com>
+          file_pattern: ModConfigs/index.json
 
   send-update:
     needs: update-index
