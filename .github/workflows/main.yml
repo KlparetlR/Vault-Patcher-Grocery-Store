@@ -9,10 +9,14 @@ on:
 jobs:
   update-index:
     runs-on: ubuntu-latest
-
+    
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
+      
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Generate Index
         run: |
@@ -31,10 +35,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update index.json
-          commit_user_name: GitHub Action
-          commit_user_email: action@github.com
-          commit_options: '--no-verify'
-          commit_author: GitHub Action <action@github.com>
           file_pattern: ModConfigs/index.json
 
   send-update:
