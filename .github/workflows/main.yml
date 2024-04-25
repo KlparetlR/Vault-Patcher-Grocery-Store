@@ -5,12 +5,40 @@ on:
       - "ModConfigs/**"
     
   workflow_dispatch:
-     
+
 jobs:
-  Update:
-    name: Send update
-    runs-on: ubuntu-20.04
+  update-index:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: send
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate Index
         run: |
-          wget -O- https://vpdl.nvoid.me/update
+          root_url="https://{root}"
+          mods=""
+          for file in $(find ModConfigs -name '*.json'); do
+            name=$(basename $(dirname $file))
+            version=$(basename $(dirname $(dirname $file)))
+            url="${root_url}/$file"
+            mods+="{ \"name\": \"$name\", \"version\": \"$version\", \"url\": \"$url\" },"
+          done
+          index="{ \"root\": \"$root_url\", \"mods\": [ ${mods%,} ] }"
+          echo $index > ModConfigs/index.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ModConfigs/index.json
+          git commit -m "Update index.json"
+          git push
+
+  send-update:
+    needs: update-index
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Send update
+        run: wget -O- https://vpdl.nvoid.me/update
