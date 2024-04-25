@@ -3,6 +3,10 @@ on:
   push:
     paths:
       - "ModConfigs/**"
+  workflow_call:
+    secrets:
+      GH_TOKEN:
+        required: true
     
   workflow_dispatch:
 
