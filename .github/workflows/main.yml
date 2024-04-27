@@ -23,9 +23,9 @@ jobs:
           root_url="https://{root}"
           mods=""
           for file in $(find ModConfigs -name '*.json'); do
-            name=$(basename $(dirname $file))
-            version=$(basename $(dirname $(dirname $file)))
-            url="${root_url}/$file"
+            version=$(basename $(dirname $file))
+            name=$(basename $(dirname $(dirname $file)))
+            url="{root}/$file"
             mods+="{ \"name\": \"$name\", \"version\": \"$version\", \"url\": \"$url\" },"
           done
           index="{ \"root\": \"$root_url\", \"mods\": [ ${mods%,} ] }"
