@@ -22,7 +22,7 @@ jobs:
         run: |
           root_url="https://{root}"
           mods=""
-          for file in $(find ModConfigs -name '*.json'); do
+          for file in $(find ModConfigs/patch -name '*.json'); do
             version=$(basename $(dirname $file))
             name=$(basename $(dirname $(dirname $file)))
             url="{root}/$file"
