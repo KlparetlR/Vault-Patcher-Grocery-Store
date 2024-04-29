@@ -1,0 +1,261 @@
+[
+  {
+    "name": "MCJtyLib硬编码汉化",
+    "desc": "mcjtylib的硬编码汉化部分",
+    "mods": "mcjtylib",
+    "authors": "KlparetlR、DrIceTea、ZZi_Cai",
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/typed/Type",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Type(",
+        "v": "类型("
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/tooltips/TooltipRender",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "<Press ",
+        "v": "<按下 "
+      },
+      {
+        "k": " for help>",
+        "v": " 以获取帮助>"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/compat/theoneprobe/McJtyLibTOPDriver",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": " (channel ",
+        "v": " (频道 "
+      },
+      {
+        "k": "Infused: ",
+        "v": "注能进度： "
+      },
+      {
+        "k": "Owned by: ",
+        "v": "所有者： "
+      },
+      {
+        "k": "Warning! Ownership not correctly set! Please place block again!",
+        "v": "注意！所有权异常！请重新放置方块！"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/compat/patchouli/PatchouliCompatibility",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Patchouli is missing! No manual present",
+        "v": "Patchouli并未安装！手册无法显示"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/blocks/BaseBlock",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Energy: ",
+        "v": "能量： "
+      },
+      {
+        "k": "Infused: ",
+        "v": "注能进度： "
+      },
+      {
+        "k": "Owned by: ",
+        "v": "所有者： "
+      },
+      {
+        "k": " (channel ",
+        "v": " (频道 "
+      },
+      {
+        "k": "Warning! Ownership not correctly set! Please place block again!",
+        "v": "注意！所有权异常！请重新放置方块！"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/gui/GuiPopupTools",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Cancel",
+        "v": "取消"
+      },
+      {
+        "k": "Ok",
+        "v": "确认"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/gui/GuiSideWindow",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Gui style:",
+        "v": "界面样式："
+      },
+      {
+        "k": "Open manual",
+        "v": "查看手册"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/lib/gui/GuiStyle",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "thick",
+        "v": "立体"
+      },
+      {
+        "k": "flat gradient",
+        "v": "扁平(渐变)"
+      },
+      {
+        "k": "flat",
+        "v": "扁平"
+      },
+      {
+        "k": "bevel gradient",
+        "v": "斜面(渐变)"
+      },
+      {
+        "k": "bevel",
+        "v": "斜面"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.lib.gui.widgets.AbstractLabel",
+        "method": "drawOffset",
+        "local": "Gtext"
+      },
+      {
+        "name": "mcjty.lib.gui.widgets.AbstractLabel",
+        "method": "calculateHorizontalOffset",
+        "local": "Gtext"
+      }
+    ],
+    "p": [
+      {
+        "key": "xnet.energy",
+        "value": "能量"
+      },
+      {
+        "key": "xnet.fluid",
+        "value": "流体"
+      },
+      {
+        "key": "xnet.item",
+        "value": "物品"
+      },
+      {
+        "key": "xnet.logic",
+        "value": "红石逻辑"
+      },
+      {
+        "key": "rftools.storage",
+        "value": "存储"
+      },
+      {
+        "k": "mekanism.logic",
+        "v": "Mek红石逻辑"
+      },
+      {
+        "k": "mekanism.gas",
+        "v": "Mek气体传输"
+      },
+      {
+        "k": "mekanism.slurry",
+        "v": "Mek浆液传输"
+      },
+      {
+        "key": "North",
+        "value": "北"
+      },
+      {
+        "key": "South",
+        "value": "南"
+      },
+      {
+        "key": "West",
+        "value": "西"
+      },
+      {
+        "key": "East",
+        "value": "东"
+      },
+      {
+        "key": "Down",
+        "value": "下"
+      },
+      {
+        "key": "Up",
+        "value": "上"
+      },
+      {
+        "k": "true",
+        "v": "真"
+      },
+      {
+        "k": "false",
+        "v": "否"
+      },
+      {
+        "k": "Lost Pearl",
+        "v": "珍珠丢失"
+      },
+      {
+        "k": "Pearl Fired",
+        "v": "珍珠燃尽"
+      },
+      {
+        "k": "Pearl Arrived",
+        "v": "珍珠到达"
+      }
+    ]
+  }
+]

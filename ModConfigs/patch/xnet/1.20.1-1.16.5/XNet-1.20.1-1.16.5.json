@@ -1,0 +1,830 @@
+[
+    {
+        "authors": "KlparetlR, DrIceTea, AnECanSaiTin,ZZi_Cai",
+        "name": "Xnet模组汉化",
+        "desc": "forget me not,VPGS",
+        "mods": "xnet-1.20-6.0.2",
+        "dynamic": false
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.fluids.FluidConnectorSettings",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Insert or extract mode",
+                "v": "输入或提取模式"
+            },
+            {
+                "k": "Number of ticks for each operation",
+                "v": "每次操作的间隔"
+            },
+            {
+                "k": "Pri",
+                "v": "优先级"
+            },
+            {
+                "k": "Insertion priority",
+                "v": "输入优先级"
+            },
+            {
+                "k": "Rate",
+                "v": "速率"
+            },
+            {
+                "k": "Fluid extraction rate|(max ",
+                "v": "流体输出最大速率 "
+            },
+            {
+                "k": "Fluid insertion rate|(max ",
+                "v": "流体输入最大速录 "
+            },
+            {
+                "k": "Min",
+                "v": "最小值"
+            },
+            {
+                "k": "Max",
+                "v": "最大值"
+            },
+            {
+                "k": "Keep this amount of|fluid in tank",
+                "v": "在容器中保留该数量的流体"
+            },
+            {
+                "k": "Disable insertion if|fluid level is too high",
+                "v": "流体高于该数量时停止输入"
+            },
+            {
+                "k": "Filter",
+                "v": "过滤"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.items.ItemChannelSettings",
+            "method": "createGui",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Item distribution mode",
+                "v": "物品分配模式"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/apiimpl/fluids/FluidChannelSettings",
+            "method": "createGui",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Fluid distribution mode",
+                "v": "流体分配模式"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.items.ItemConnectorSettings",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Insert or extract mode",
+                "v": "输入或提取模式"
+            },
+            {
+                "k": "Single item, stack, or count",
+                "v": "单物品、物品堆、指定数量"
+            },
+            {
+                "k": "Amount of items to extract|per operation",
+                "v": "每次抽取所转移的物品数量"
+            },
+            {
+                "k": "Number of ticks for each operation",
+                "v": "每次操作的间隔"
+            },
+            {
+                "k": "Pri",
+                "v": "优先级"
+            },
+            {
+                "k": "Insertion priority",
+                "v": "输入优先级"
+            },
+            {
+                "k": "Amount in destination inventory|to keep",
+                "v": "库存中保留指定数量"
+            },
+            {
+                "k": "Max amount in destination|inventory",
+                "v": "最多向目标容器存入指定数量"
+            },
+            {
+                "k": "Extract mode (first available,|random slot or round robin)",
+                "v": "抽取模式（首个可用、随机、顺序循环）"
+            },
+            {
+                "k": "Enable blacklist mode",
+                "v": "启用黑名单"
+            },
+            {
+                "k": "Tag matching",
+                "v": "标签匹配"
+            },
+            {
+                "k": "Metadata matching",
+                "v": "元数据匹配"
+            },
+            {
+                "k": "NBT matching",
+                "v": "NBT匹配"
+            },
+            {
+                "k": "Filter Index",
+                "v": "过滤器序号"
+            },
+            {
+                "k": "<Off>",
+                "v": "<关>"
+            },
+            {
+                "k": "Meta",
+                "v": "元数据"
+            },
+            {
+                "k": "BL",
+                "v": "黑名单"
+            },
+            {
+                "k": "Tags",
+                "v": "标签"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.logic.LogicConnectorSettings",
+            "method": "createGui",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Sensor or Output mode",
+                "v": "监测或输出模式"
+            },
+            {
+                "k": "Number of ticks for each check",
+                "v": "每次检测的间隔"
+            },
+            {
+                "k": "Number of ticks for each operation",
+                "v": "每次操作的间隔"
+            },
+            {
+                "k": "Redstone:",
+                "v": "强度："
+            },
+            {
+                "k": "Redstone output value",
+                "v": "红石信号输出强度"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.logic.Sensor",
+            "method": "createGui",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Sensor mode",
+                "v": "监测模式"
+            },
+            {
+                "k": "Operator",
+                "v": "运算符"
+            },
+            {
+                "k": "Amount to compare with",
+                "v": "运算数值"
+            },
+            {
+                "k": "Output color",
+                "v": "信号颜色"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.modules.controller.client.GuiController",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "C",
+                "v": "复制"
+            },
+            {
+                "k": "The block is now highlighted",
+                "v": "方块已被高亮"
+            },
+            {
+                "k": "Nothing selected!",
+                "v": "未选中任何内容！"
+            },
+            {
+                "k": "Really remove channel ",
+                "v": "确认删除频道"
+            },
+            {
+                "k": "Channel ",
+                "v": "频道"
+            },
+            {
+                "k": "Enable processing on this channel",
+                "v": "启用频道"
+            },
+            {
+                "k": "Channel name",
+                "v": "频道名"
+            },
+            {
+                "k": "Remove this channel",
+                "v": "删除频道"
+            },
+            {
+                "k": "Copy this channel to",
+                "v": "将频道复制"
+            },
+            {
+                "k": "the clipboard",
+                "v": "到剪贴板"
+            },
+            {
+                "k": "Copy this connector",
+                "v": "将连接复制"
+            },
+            {
+                "k": "to the clipboard",
+                "v": "到剪贴板"
+            },
+            {
+                "k": "Create",
+                "v": "创建"
+            },
+            {
+                "k": "Paste",
+                "v": "粘贴"
+            },
+            {
+                "k": "Create a new channel",
+                "v": "从剪贴板"
+            },
+            {
+                "k": "from the clipboard",
+                "v": "粘贴频道"
+            },
+            {
+                "k": "Cancel",
+                "v": "取消"
+            },
+            {
+                "k": "OK",
+                "v": "确定"
+            },
+            {
+                "k": "Copied channel",
+                "v": "已复制频道！"
+            },
+            {
+                "k": "Error copying to clipboard!",
+                "v": "复制到剪贴板失败！"
+            },
+            {
+                "k": "Clipboard too large!",
+                "v": "频道信息过多！"
+            },
+            {
+                "k": "Unsupported channel type: ",
+                "v": "不支持的频道类型："
+            },
+            {
+                "k": "Error reading from clipboard!",
+                "v": "从剪贴板读取失败！"
+            },
+            {
+                "k": "Remove this connector",
+                "v": "移除连接"
+            },
+            {
+                "k": "Create a new connector",
+                "v": "创建连接"
+            },
+            {
+                "k": "Connector: ",
+                "v": "连接："
+            },
+            {
+                "k": "Block: ",
+                "v": "方块："
+            },
+            {
+                "k": "Position: ",
+                "v": "坐标："
+            },
+            {
+                "k": "(doubleclick to highlight)",
+                "v": "（双击以高亮目标）"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.apiimpl.energy.EnergyChannelType",
+            "method": "getName",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Energy",
+                "v": "能量"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/apiimpl/fluids/FluidChannelType",
+            "method": "getName",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Fluid",
+                "v": "流体"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/apiimpl/items/ItemChannelType",
+            "method": "getName",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Item",
+                "v": "物品"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/apiimpl/logic/LogicChannelType",
+            "method": "getName",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Logic",
+                "v": "红石逻辑"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "mcjty/xnet/apiimpl/logic/Sensor$SensorMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/logic/Sensor$Operator"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/logic/LogicConnectorSettings$LogicMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/items/ItemConnectorSettings$StackMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/items/ItemConnectorSettings$ItemMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/items/ItemConnectorSettings$ExtractMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/items/ItemChannelSettings$ChannelMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/fluids/FluidConnectorSettings$FluidMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/fluids/FluidChannelSettings$ChannelMode"
+            },
+            {
+                "name": "mcjty/xnet/apiimpl/energy/EnergyConnectorSettings$EnergyMode"
+            }
+        ],
+        "p": [
+            {
+                "k": "INS",
+                "v": "输入"
+            },
+            {
+                "k": "EXT",
+                "v": "提取"
+            },
+            {
+                "k": "SINGLE",
+                "v": "单个"
+            },
+            {
+                "k": "STACK",
+                "v": "物品堆"
+            },
+            {
+                "k": "COUNT",
+                "v": "数量"
+            },
+            {
+                "k": "FIRST",
+                "v": "首个可用"
+            },
+            {
+                "k": "RND",
+                "v": "随机"
+            },
+            {
+                "k": "ORDER",
+                "v": "顺序循环"
+            },
+            {
+                "k": "SENSOR",
+                "v": "监测"
+            },
+            {
+                "k": "OUTPUT",
+                "v": "输出"
+            },
+            {
+                "k": "DISTRIBUTE",
+                "v": "分发"
+            },
+            {
+                "k": "PRIORITY",
+                "v": "优先级"
+            },
+            {
+                "k": "OFF",
+                "v": "关闭"
+            },
+            {
+                "k": "ITEM",
+                "v": "物品"
+            },
+            {
+                "k": "FLUID",
+                "v": "流体"
+            },
+            {
+                "k": "ENERGY",
+                "v": "能量"
+            },
+            {
+                "k": "ROUNDROBIN",
+                "v": "顺序循环"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/modules/controller/client/AbstractEditorPanel",
+            "method": "redstoneMode",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Redstone mode:\nIgnored",
+                "v": "红石模式：\n忽略"
+            },
+            {
+                "k": "Redstone mode:\nOff to activate",
+                "v": "红石模式：\n低信号"
+            },
+            {
+                "k": "Redstone mode:\nOn to activate",
+                "v": "红石模式：\n高信号"
+            },
+            {
+                "k": "Do one operation\non a pulse",
+                "v": "红石模式：\n脉冲"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$CableDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$ConnectorDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$ControllerDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$DefaultDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$RouterDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver$WirelessRouterDriver"
+            },
+            {
+                "name": "mcjty/xnet/compat/XNetTOPDriver"
+            }
+        ],
+        "p": [
+            {
+                "k": "Blob: ",
+                "v": "状态标识: "
+            },
+            {
+                "k": "Color: ",
+                "v": "颜色："
+            },
+            {
+                "k": "Network: ",
+                "v": "网络序号： "
+            },
+            {
+                "k": "Consumer: ",
+                "v": "连接器序号："
+            },
+            {
+                "k": "Bad block!",
+                "v": "损坏的方块！"
+            },
+            {
+                "k": "Name: ",
+                "v": "名字："
+            },
+            {
+                "k": "InfNet: ",
+                "v": "网络信息: "
+            },
+            {
+                "k": "Too many controllers on network!",
+                "v": "一个网络中有多个控制器！"
+            },
+            {
+                "k": "Color mask: ",
+                "v": "颜色名: "
+            },
+            {
+                "k": "Too many channels on router!",
+                "v": "路由器的频道过多！"
+            },
+            {
+                "k": "Channels: ",
+                "v": "频道："
+            },
+            {
+                "k": "Bad tile entity!",
+                "v": "损坏的方块实体！"
+            },
+            {
+                "k": "Missing antenna!",
+                "v": "缺少天线！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "mcjty.xnet.modules.controller.client.GuiController",
+            "method": "populateList",
+            "local": "MtoUpperCase"
+        },
+        "p": [
+            {
+                "key": "N",
+                "value": "北"
+            },
+            {
+                "key": "S",
+                "value": "南"
+            },
+            {
+                "key": "W",
+                "value": "西"
+            },
+            {
+                "key": "Eas",
+                "value": "东"
+            },
+            {
+                "key": "D",
+                "value": "下"
+            },
+            {
+                "key": "Up",
+                "value": "上"
+            },
+            {
+                "key": "E",
+                "value": "东"
+            },
+            {
+                "key": "U",
+                "value": "上"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/apiimpl/energy/EnergyConnectorSettings",
+            "method": "createGui",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Insert or extract mode",
+                "v": "输入或提取模式"
+            },
+            {
+                "k": "Pri",
+                "v": "优先级"
+            },
+            {
+                "k": "Insertion priority",
+                "v": "输入优先级"
+            },
+            {
+                "k": "Rate",
+                "v": "速率"
+            },
+            {
+                "k": "Max energy extraction rate",
+                "v": "能量输出速率"
+            },
+            {
+                "k": "Max energy insertion rate",
+                "v": "能量输入速率"
+            },
+            {
+                "k": "|(limited to ",
+                "v": "|（限制在"
+            },
+            {
+                "k": " per tick)",
+                "v": "每tick）"
+            },
+            {
+                "k": "Min",
+                "v": "最小值"
+            },
+            {
+                "k": "Max",
+                "v": "最大值"
+            },
+            {
+                "k": "Disable extraction if energy|is too low",
+                "v": "当能量低于设定值时停止输出"
+            },
+            {
+                "k": "Disable insertion if energy|is too high",
+                "v": "当能量高于设定值时停止输入"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/modules/cables/client/GuiConnector",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Set the name of this connector",
+                "v": "为这个连接器设置名字"
+            },
+            {
+                "k": "Name:",
+                "v": "名字："
+            },
+            {
+                "k": "Directions:",
+                "v": "方向："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/modules/various/items/ConnectorUpgradeItem",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Sneak right click this on a",
+                "v": "潜行右击普通连接"
+            },
+            {
+                "k": "normal connector to upgrade it",
+                "v": "器方块可将其升级"
+            },
+            {
+                "k": "to an advanced connector",
+                "v": "为高级连接器"
+            },
+            {
+                "k": "Connector was upgraded",
+                "v": "连接器已升级"
+            },
+            {
+                "k": "This connector is already advanced!",
+                "v": "这个连接器已经升级过了！"
+            },
+            {
+                "k": "Use this item on a connector to upgrade it!",
+                "v": "在连接器上使用这个物品来升级它！"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.xnet.modules.facade.blocks.FacadeBlockItem",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Facade is now mimicking ",
+                "v": "已模仿"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty/xnet/modules/controller/blocks/TileEntityController",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Unsupported type ",
+                "v": "不支持的类型"
+            },
+            {
+                "k": "What? The connector at ",
+                "v": "嗯？在"
+            },
+            {
+                "k": " is not a connector?",
+                "v": " 的不是一个连接器？"
+            },
+            {
+                "k": "Error copying connector!",
+                "v": "复制连接器配置时出错！"
+            },
+            {
+                "k": "Channel does not support this!",
+                "v": "频道不支持此操作！"
+            },
+            {
+                "k": "Invalid connector json!",
+                "v": "无效连接器配置！"
+            },
+            {
+                "k": "Wrong channel type!",
+                "v": "频道类型错误！"
+            },
+            {
+                "k": "Advanced connector is needed!",
+                "v": "需要高级连接器！"
+            },
+            {
+                "k": "Invalid channel json!",
+                "v": "无效频道配置！"
+            },
+            {
+                "k": "Not everything could be pasted!",
+                "v": "配置未完全复制！"
+            },
+            {
+                "k": "Error pasting clipboard data!",
+                "v": "复制剪贴板时出错！"
+            }
+        ]
+    }
+]

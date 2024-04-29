@@ -1,0 +1,461 @@
+[
+	{
+		"name": "RFToolsBase硬编码汉化",
+		"desc": "RFToolsBase的硬编码汉化部分",
+		"mods": "rftoolsbase",
+		"authors": "KlparetlR、DrIceTea、ZZi_Cai、fgt1t5y",
+		"dynamic": false
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.api.control.code.OpcodeCategory",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "crafting",
+				"v": "合成"
+			},
+			{
+				"k": "Operations related to crafting",
+				"v": "合成相关命令"
+			},
+			{
+				"k": "items",
+				"v": "物品"
+			},
+			{
+				"k": "Operations related to handling items",
+				"v": "物品处理相关命令"
+			},
+			{
+				"k": "liquids",
+				"v": "流体"
+			},
+			{
+				"k": "Operations related to handling liquids",
+				"v": "流体处理相关命令"
+			},
+			{
+				"k": "energy",
+				"v": "能量"
+			},
+			{
+				"k": "Operations related to handling energy",
+				"v": "能量处理相关命令"
+			},
+			{
+				"k": "redstone",
+				"v": "红石"
+			},
+			{
+				"k": "Operations related to handling redstone",
+				"v": "红石信号处理相关命令"
+			},
+			{
+				"k": "graphics",
+				"v": "绘图"
+			},
+			{
+				"k": "Operations related to graphics",
+				"v": "图形相关命令"
+			},
+			{
+				"k": "communication",
+				"v": "通信"
+			},
+			{
+				"k": "Operations related to communication",
+				"v": "通信相关命令"
+			},
+			{
+				"k": "numbers",
+				"v": "数字"
+			},
+			{
+				"k": "Operations and tests on numbers",
+				"v": "数字的比较与运算相关命令"
+			},
+			{
+				"k": "vectors",
+				"v": "向量"
+			},
+			{
+				"k": "Operations and tests on vectors",
+				"v": "向量的比较与运算相关命令"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.api.screens.FormatStyle",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Full",
+				"v": "完整"
+			},
+			{
+				"k": "Compact",
+				"v": "紧凑"
+			},
+			{
+				"k": "Commas",
+				"v": "逗号分隔"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.api.xnet.helper.AbstractConnectorSettings",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Side from which to operate",
+				"v": "要执行的方块的面"
+			},
+			{
+				"k": "Enable on color",
+				"v": "在颜色上启用"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.commands.AbstractRfToolsCommand",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Parameter is not a valid boolean!",
+				"v": "参数不是一个有效的布尔值！"
+			},
+			{
+				"k": "Parameter is not a valid integer!",
+				"v": "参数不是一个有效的整型！"
+			},
+			{
+				"k": "Parameter is not a valid real number!",
+				"v": "参数不是一个有效的实数！"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.crafting.client.GuiCraftingCard",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Regular 3x3 crafting recipe",
+				"v": "常规的3x3配方"
+			},
+			{
+				"k": "or more complicated recipes",
+				"v": "抑或是更加复杂的合成"
+			},
+			{
+				"k": "Update",
+				"v": "刷新"
+			},
+			{
+				"k": "Update the item in the output",
+				"v": "更新物品配方"
+			},
+			{
+				"k": "slot to the recipe in the",
+				"v": "为3x3网格中的配方"
+			},
+			{
+				"k": "3x3 grid",
+				"v": ""
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.crafting.items.CraftingCardItem",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "<empty>",
+				"v": "<无>"
+			},
+			{
+				"k": "Crafting Card",
+				"v": "合成卡"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.filter.client.GuiFilterModule",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Remove",
+				"v": "删除"
+			},
+			{
+				"k": "Remove current selection",
+				"v": "删除所选项"
+			},
+			{
+				"k": "Expand",
+				"v": "联想"
+			},
+			{
+				"k": "Expand item to tags",
+				"v": "添加物品的标签至列表"
+			},
+			{
+				"k": "Add tags",
+				"v": "添加标签"
+			},
+			{
+				"k": "Black or whitelist mode",
+				"v": "黑/白名单模式"
+			},
+			{
+				"k": "Black",
+				"v": "黑名单"
+			},
+			{
+				"k": "Blacklist items",
+				"v": "黑名单模式"
+			},
+			{
+				"k": "White",
+				"v": "白名单"
+			},
+			{
+				"k": "Whitelist items",
+				"v": "白名单模式"
+			},
+			{
+				"k": "Filter ignoring damage",
+				"v": "过滤：忽略耐久"
+			},
+			{
+				"k": "Off",
+				"v": "关闭"
+			},
+			{
+				"k": "On",
+				"v": "启用"
+			},
+			{
+				"k": "Ignore damage",
+				"v": "忽略耐久"
+			},
+			{
+				"k": "Damage must match",
+				"v": "匹配耐久"
+			},
+			{
+				"k": "Filter ignoring NBT",
+				"v": "过滤：忽略NBT"
+			},
+			{
+				"k": "Ignore NBT",
+				"v": "忽略NBT"
+			},
+			{
+				"k": "NBT must match",
+				"v": "匹配NBT"
+			},
+			{
+				"k": "Filter ignoring mod",
+				"v": "过滤：忽略模组"
+			},
+			{
+				"k": "Don't match on mod",
+				"v": "忽略模组名"
+			},
+			{
+				"k": "Only mod must match",
+				"v": "匹配模组名"
+			},
+			{
+				"k": "Click to add to filter",
+				"v": "左击将物品添加至过滤器"
+			},
+			{
+				"k": "Shift-Click to add tags to filter",
+				"v": "Shift左击将物品标签添加至过滤器"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.filter.items.FilterModuleItem",
+			"method": "lambda$new$0"
+		},
+		"pairs": [
+			{
+				"k": "Mode ",
+				"v": ""
+			},
+			{
+				"k": "Black",
+				"v": "黑名单"
+			},
+			{
+				"k": "blacklist",
+				"v": "黑名单"
+			},
+			{
+				"k": "whitelist",
+				"v": "白名单"
+			},
+			{
+				"k": ", Damage",
+				"v": " 耐久"
+			},
+			{
+				"k": ", NBT",
+				"v": " NBT"
+			},
+			{
+				"k": ", Mod",
+				"v": " 模组名"
+			},
+			{
+				"k": "<not configured>",
+				"v": "<未配置>"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.filter.items.FilterModuleItem",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Stored inventory contents in filter",
+				"v": "容器内物品已添加至过滤器"
+			},
+			{
+				"k": "Added ",
+				"v": "已将 "
+			},
+			{
+				"k": "Could not add ",
+				"v": "无法将 "
+			},
+			{
+				"k": " to the filter!",
+				"v": " 添加至过滤器！"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.filter.items.FilterModuleItem$1",
+			"method": ""
+		},
+		"k": "Filter Module",
+		"v": "存储过滤模块"
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.infuser.blocks.MachineInfuserTileEntity",
+			"method": "lambda$new$5"
+		},
+		"k": "Machine Infuser",
+		"v": "机器注能机"
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.infuser.MachineInfuserConfiguration",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "Settings for the infusing system",
+				"v": "注能系统设置"
+			},
+			{
+				"k": "Maximum amount of dimensional shards before a machine is fully infused",
+				"v": "机器注能所使用的最大空间碎片数量"
+			},
+			{
+				"k": "Amount of RF used per tick while infusing",
+				"v": "注能过程中每Tick的RF消耗量"
+			},
+			{
+				"k": "Maximum RF storage that the infuser can hold",
+				"v": "注能器可存储的RF能量上限"
+			},
+			{
+				"k": "RF per tick that the infuser can receive",
+				"v": "注能器每Tick可接受的RF能量"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.tablet.items.TabletItem",
+			"method": "cycle"
+		},
+		"k": "Switched item",
+		"v": "物品已切换"
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.tablet.items.TabletItem$1",
+			"method": ""
+		},
+		"k": "Tablet",
+		"v": "平板电脑"
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.various.items.SmartWrenchItem",
+			"method": ""
+		},
+		"pairs": [
+			{
+				"k": "<not selected>",
+				"v": "<未选中>"
+			},
+			{
+				"k": "Smart wrench is now in ",
+				"v": "智能扳手已切换为 "
+			},
+			{
+				"k": " mode.",
+				"v": " 模式。"
+			}
+		]
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.various.items.SmartWrenchItem",
+			"method": "lambda$useOn$3"
+		},
+		"k": "The selected block is in another dimension!",
+		"v": "选择方块处于另一维度！"
+	},
+	{
+		"target_class": {
+			"name": "mcjty.rftoolsbase.modules.various.items.SmartWrenchItem",
+			"local": "MgetName"
+		},
+		"pairs": [
+			{
+				"k": "wrench",
+				"v": "扳手"
+			},
+			{
+				"k": "focus",
+				"v": "选择"
+			}
+		]
+	}
+]

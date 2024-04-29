@@ -1,0 +1,596 @@
+[
+  {
+    "name": "RFToolsDim硬编码汉化",
+    "desc": "RFToolsDim的硬编码汉化部分",
+    "mods": "RFToolsDim",
+    "authors": "Byf，KlparetlR，ZZi_Cai",
+    "dynamic": false
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.commands.CommandDump",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Dimension: ",
+        "v": "维度："
+      },
+      {
+        "k": "Not an RFTools Dimensions!",
+        "v": "非RF工具箱维度！"
+      },
+      {
+        "k": "Owner: ",
+        "v": "主人："
+      },
+      {
+        "k": "Energy: ",
+        "v": "能量："
+      },
+      {
+        "k": "Seed: ",
+        "v": "种子："
+      },
+      {
+        "k": "Standard dimlets:",
+        "v": "标准维度卡："
+      },
+      {
+        "k": "Randomized dimlets:",
+        "v": "随机维度卡："
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolsdim.commands.CommandForget",
+        "method": "",
+        "local": ""
+      },
+      {
+        "name": "mcjty.rftoolsdim.commands.CommandForgetInvalid",
+        "method": "",
+        "local": ""
+      }
+    ],
+    "k": "Removed '",
+    "v": "已移除'"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.commands.CommandSetPower",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Not an RFTools Dimension!",
+        "v": "非RF工具箱维度！"
+      },
+      {
+        "k": "Power set to ",
+        "v": "能源已设置至"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.commands.CommandTpDim",
+      "method": "",
+      "local": ""
+    },
+    "k": "Can't find dimension '",
+    "v": "未能找到维度'"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$BiomeAbsorberDriver",
+      "method": "",
+      "local": ""
+    },
+    "k": "Biome: ",
+    "v": "生物群系："
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$BlockAbsorberDriver",
+      "method": "",
+      "local": ""
+    },
+    "k": "Block: ",
+    "v": "方块："
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$FluidAbsorberDriver",
+      "method": "",
+      "local": ""
+    },
+    "k": "Fluid: ",
+    "v": "流体："
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$StructureAbsorberDriver",
+      "method": "",
+      "local": ""
+    },
+    "k": "Structure: ",
+    "v": "结构："
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$BiomeAbsorberDriver",
+        "method": "",
+        "local": ""
+      },
+      {
+        "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$BlockAbsorberDriver",
+        "method": "",
+        "local": ""
+      },
+      {
+        "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$FluidAbsorberDriver",
+        "method": "",
+        "local": ""
+      },
+      {
+        "name": "mcjty.rftoolsdim.compat.RFToolsDimensionsTOPDriver$StructureAbsorberDriver",
+        "method": "",
+        "local": ""
+      }
+    ],
+    "k": "Bad tile entity!",
+    "v": "无效块实体"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.dimension.data.DimensionCreator",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": " is not a dimension managed by us!",
+        "v": "为非我方可管理维度！"
+      },
+      {
+        "k": "Dimension already exists!",
+        "v": "维度已存在！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.dimension.descriptor.DescriptorError$Code",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "You can only have one biome controller!",
+        "v": "仅可容纳一个生物群系控制器！"
+      },
+      {
+        "k": "You can only have one terrain type!",
+        "v": "仅可容纳一个地形！"
+      },
+      {
+        "k": "You can only have one time dimlet!",
+        "v": "仅可容纳一个时间维度卡！"
+      },
+      {
+        "k": "Terrain dimlet only supports one block!",
+        "v": "地形维度卡仅支持一个方块！"
+      },
+      {
+        "k": "Terrain dimlet doesn't support tags! Only features",
+        "v": "地形维度卡仅支持记录特征而非标签"
+      },
+      {
+        "k": "Bad block!",
+        "v": "无效方块！"
+      },
+      {
+        "k": "Bad fluid!",
+        "v": "无效流体！"
+      },
+      {
+        "k": "Terrain supports only one fluid!",
+        "v": "地形仅支持一种流体"
+      },
+      {
+        "k": "Fluid has no block!",
+        "v": "流体无方块形式！"
+      },
+      {
+        "k": "Bad feature!",
+        "v": "无效特征！"
+      },
+      {
+        "k": "Bad time!",
+        "v": "无效时间"
+      },
+      {
+        "k": "Bad attribute!",
+        "v": "无效属性！"
+      },
+      {
+        "k": "Bad admin type!",
+        "v": "无效管理类型！"
+      },
+      {
+        "k": "Bad terrain type!",
+        "v": "无效地形类型！"
+      },
+      {
+        "k": "Bad biome controller!",
+        "v": "无效生物群系控制器！"
+      },
+      {
+        "k": "Dangling blocks! Blocks should come before either a terrain or a feature!",
+        "v": "搁置方块维度卡！方块维度卡应在地形或特征之前！"
+      },
+      {
+        "k": "Dangling fluids! Fluids should come before either a terrain or a feature!",
+        "v": "搁置流体维度卡！流体维度卡应在地形或特征之前！"
+      },
+      {
+        "k": "Dangling attributes! Attributes should come before a terrain!",
+        "v": "搁置属性维度卡！属性维度卡应在地形之前！"
+      },
+      {
+        "k": "Dangling tags! Tags should come before a feature!",
+        "v": "搁置标签维度卡！标签维度卡应在特征之前！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensionbuilder.blocks.DimensionBuilderTileEntity",
+      "method": "",
+      "local": ""
+    },
+    "k": "Dimension Builder",
+    "v": "维度构建器"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensionbuilder.client.GuiDimensionBuilder",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Redstone mode:\nIgnored",
+        "v": "红石模式：\n忽略"
+      },
+      {
+        "k": "Redstone mode:\nOff to activate",
+        "v": "红石模式：\n低信号"
+      },
+      {
+        "k": "Redstone mode:\nOn to activate",
+        "v": "红石模式：\n高信号"
+      },
+      {
+        "k": "Builder has",
+        "v": "维度构建器"
+      },
+      {
+        "k": "no owner!",
+        "v": "无主人！"
+      },
+      {
+        "k": "Too many",
+        "v": "过多"
+      },
+      {
+        "k": "dimensions!",
+        "v": "维度！"
+      },
+      {
+        "k": "Duplicate",
+        "v": "重复的"
+      },
+      {
+        "k": "name!",
+        "v": "名称！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensionbuilder.items.EmptyDimensionTab",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Put this empty dimension tab in a 'Dimension Enscriber'",
+        "v": "将空白维度表放入刻录器内，随后将维度卡"
+      },
+      {
+        "k": "where you can construct a dimension using dimlets",
+        "v": "刻录进去以获得实例化维度表"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensionbuilder.items.RealizedDimensionTab",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Energy: ",
+        "v": "能量："
+      },
+      {
+        "k": "Seed: ",
+        "v": "种子："
+      },
+      {
+        "k": "Name: ",
+        "v": "名称:"
+      },
+      {
+        "k": "    <Press Shift>",
+        "v": "    < 按下 Shift>"
+      },
+      {
+        "k": "Dimension ready!",
+        "v": "维度准备就绪！"
+      },
+      {
+        "k": "    Maintenance cost: ",
+        "v": "    维度维持消耗："
+      },
+      {
+        "k": " RF/tick",
+        "v": " RF/tick"
+      },
+      {
+        "k": "    Current power: ",
+        "v": "    当前电源："
+      },
+      {
+        "k": "Dimension progress: ",
+        "v": "构建进度："
+      },
+      {
+        "k": "    Creation cost: ",
+        "v": "    创建开销："
+      },
+      {
+        "k": "    Tick cost: ",
+        "v": "    Tick开销："
+      },
+      {
+        "k": " ticks",
+        "v": " ticks"
+      },
+      {
+        "k": "    Terrain: ",
+        "v": "    地形："
+      },
+      {
+        "k": "    Biome Controller: ",
+        "v": "    生物群系控制器："
+      },
+      {
+        "k": "    Time: ",
+        "v": "    时间："
+      },
+      {
+        "k": "    Feature: ",
+        "v": "    特征："
+      },
+      {
+        "k": "Parse error: ",
+        "v": "解析错误："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensioneditor.blocks.DimensionEditorTileEntity",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Dimension Editor",
+        "v": "维度编辑器"
+      },
+      {
+        "k": "Dimension does not exist!",
+        "v": "维度并不存在！"
+      },
+      {
+        "k": "Dimension cannot be deleted. It is still in use!",
+        "v": "维度使用中，不可被移除！"
+      },
+      {
+        "k": "This machine has no proper owner and cannot delete dimensions!",
+        "v": "机器无合适主人，故无法移除维度"
+      },
+      {
+        "k": "This machine's owner differs from the dimensions owner!",
+        "v": "机器主人非维度主人"
+      },
+      {
+        "k": "Removed dimension '",
+        "v": "已移除维度'"
+      },
+      {
+        "k": "Players cannot delete dimensions!",
+        "v": "玩家不可销毁维度！"
+      },
+      {
+        "k": "Not a valid dimension!",
+        "v": "非有效维度！"
+      },
+      {
+        "k": "This machine's owner differs from the dimensions owner!",
+        "v": "机器主人非维度主人"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.dimensioneditor.client.GuiDimensionEditor",
+      "method": "",
+      "local": ""
+    },
+    "k": "Destroying dimension!",
+    "v": "销毁维度中！"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.enscriber.blocks.EnscriberTileEntity",
+      "method": "",
+      "local": ""
+    },
+    "k": "Enscriber",
+    "v": "刻录器"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.enscriber.client.GuiEnscriber",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Extract",
+        "v": "分解"
+      },
+      {
+        "k": "Extract the dimlets out of",
+        "v": "从实例化维度表中"
+      },
+      {
+        "k": "a realized dimension tab",
+        "v": "分解出维度卡"
+      },
+      {
+        "k": "Store",
+        "v": "刻录"
+      },
+      {
+        "k": "Store dimlets in a",
+        "v": "将维度卡刻录到"
+      },
+      {
+        "k": "empty dimension tab",
+        "v": "空白维度表中"
+      },
+      {
+        "k": "Val",
+        "v": "标号"
+      },
+      {
+        "k": "Hover here for errors...",
+        "v": "悬停以获取错误信息..."
+      },
+      {
+        "k": "You cannot extract. Remove all dimlets first!",
+        "v": "无法分解。请先移除所有维度卡!"
+      },
+      {
+        "k": "Name is required!",
+        "v": "需要名称！"
+      },
+      {
+        "k": "Everything appears to be alright",
+        "v": "准备就绪！"
+      },
+      {
+        "k": "Ok",
+        "v": "一切正常"
+      },
+      {
+        "k": "Error",
+        "v": "错误"
+      },
+      {
+        "k": "A dimension name is needed!",
+        "v": "需要维度名！"
+      },
+      {
+        "k": "The dimension name is invalid (only lowercase, no special characters)!",
+        "v": "维度名称无效（仅小写字母，不可含有特殊字符）!"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolsdim.modules.essences.blocks.BiomeAbsorberTileEntity"
+      },
+      {
+        "name": "mcjty.rftoolsdim.modules.essences.blocks.BlockAbsorberTileEntity"
+      },
+      {
+        "name": "mcjty.rftoolsdim.modules.essences.blocks.FluidAbsorberTileEntity"
+      },
+      {
+        "name": "mcjty.rftoolsdim.modules.essences.blocks.StructureAbsorberTileEntity"
+      }
+    ],
+    "p": [
+      {
+        "k": "<Not Set>",
+        "v": "<未设置>"
+      },
+      {
+        "k": "<Invalid>",
+        "v": "<无效>"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolsdim.modules.workbench.blocks.KnowledgeHolderTileEntity"
+      },
+      {
+        "name": "mcjty.rftoolsdim.modules.essences.blocks.ResearcherTileEntity"
+      }
+    ],
+    "k": "Knowledge Holder",
+    "v": "知识持有器"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.workbench.blocks.WorkbenchTileEntity",
+      "method": "",
+      "local": ""
+    },
+    "k": "Dimlet Workbench",
+    "v": "维度卡工作台"
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsdim.modules.workbench.client.GuiWorkbench",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Create",
+        "v": "创建"
+      },
+      {
+        "k": "All",
+        "v": "所有"
+      }
+    ]
+  }
+]

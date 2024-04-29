@@ -1,0 +1,766 @@
+[
+  {
+    "name": "RFToolsStorage硬编码汉化",
+    "desc": "RFToolsStorage的硬编码汉化部分",
+    "mods": "RFToolsStorage",
+    "authors": "KlparetlR，ZZi_Cai",
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "mcjty/rftoolsstorage/commands/CommandRestore",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Keep a storage module in your main hand!",
+        "v": "主手需持一个存储模块！"
+      },
+      {
+        "k": "Multiple storage entries match this UUID part!",
+        "v": "对应UUID匹配到多个存储模块！"
+      },
+      {
+        "k": "Wrong foundEntry module tier! ",
+        "v": "现有模块等级错误！还需要额外的"
+      },
+      {
+        "k": " stacks are required!",
+        "v": "组堆叠容量！"
+      },
+      {
+        "k": "No storage found with UUID ",
+        "v": "对应UUID未检索到存储模块"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/rftoolsstorage/compat/xnet/StorageChannelType",
+      "method": "getName",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Storage",
+        "v": "存储"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/rftoolsstorage/compat/xnet/StorageConnectorSettings$Mode",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "STORAGE",
+        "v": "模块化存储"
+      },
+      {
+        "k": "INVENTORY",
+        "v": "存储"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty/rftoolsstorage/compat/RFToolsStorageTOPDriver$ModularStorageDriver",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "No storage module!",
+        "v": "无存储模块！"
+      },
+      {
+        "k": "Module: ",
+        "v": "模块："
+      },
+      {
+        "k": "Maximum size: ",
+        "v": "最大容量："
+      },
+      {
+        "k": " out of ",
+        "v": " / "
+      },
+      {
+        "k": "Bad tile entity!",
+        "v": "堆栈读取错误！"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "mcjty.rftoolsstorage.compat.xnet.StorageConnectorSettings",
+      "method": "createGui",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "k": "Set to 'inventory' or 'storage'",
+        "v": "仅存储或模块化存储器模式"
+      },
+      {
+        "k": "Input ",
+        "v": "输入"
+      },
+      {
+        "k": "Block input from scanner UI",
+        "v": "阻止从扫描器UI输入"
+      },
+      {
+        "k": "Auto",
+        "v": "自动"
+      },
+      {
+        "k": "Block input from automation",
+        "v": "阻止从自动合成输入"
+      },
+      {
+        "k": "Scr",
+        "v": "模块"
+      },
+      {
+        "k": "Block input from screens",
+        "v": "阻止从检查模块输入"
+      },
+      {
+        "k": "Output",
+        "v": "输出"
+      },
+      {
+        "k": "Block extraction from scanner UI",
+        "v": "阻止向扫描器UI输出"
+      },
+      {
+        "k": "Block extraction from automation",
+        "v": "阻止向自动合成输出"
+      },
+      {
+        "k": "Block extraction from screens",
+        "v": "阻止向检查模块输出"
+      },
+      {
+        "k": "BL",
+        "v": "黑名单"
+      },
+      {
+        "k": "Enable blacklist mode",
+        "v": "黑名单模式"
+      },
+      {
+        "k": "Meta",
+        "v": "元数据"
+      },
+      {
+        "k": "Metadata matching",
+        "v": "匹配元数据"
+      },
+      {
+        "k": "NBT matching",
+        "v": "匹配NBT"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.craftinggrid.GuiCraftingGrid",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Craft one",
+        "v": "合成一次"
+      },
+      {
+        "k": "Craft four",
+        "v": "合成四次"
+      },
+      {
+        "k": "Craft eight",
+        "v": "合成八次"
+      },
+      {
+        "k": "Craft a stack",
+        "v": "合成一组"
+      },
+      {
+        "k": "Store the current recipe",
+        "v": "存储当前配方"
+      },
+      {
+        "k": "<recipe>",
+        "v": "<配方>"
+      },
+      {
+        "k": "Store",
+        "v": "存储"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.craftinggrid.RFCraftingRecipe$CraftMode",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Ext",
+        "v": "外部"
+      },
+      {
+        "k": "Int",
+        "v": "内部"
+      },
+      {
+        "k": "ExtC",
+        "v": "保留外部"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.storage.sorters.CountItemSorter",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "count",
+        "v": "数量"
+      },
+      {
+        "k": "Sort on count",
+        "v": "数量排序"
+      },
+      {
+        "k": "Count ",
+        "v": "数量"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.storage.sorters.GenericItemSorter",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "type",
+        "v": "种类"
+      },
+      {
+        "k": "Sort on generic type",
+        "v": "根类型排序"
+      },
+      {
+        "k": "Blocks",
+        "v": "方块"
+      },
+      {
+        "k": "Ingots",
+        "v": "金属锭"
+      },
+      {
+        "k": "Unknown",
+        "v": "未知"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.storage.sorters.ModItemSorter",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "mod",
+        "v": "模组"
+      },
+      {
+        "k": "Sort on mod",
+        "v": "模组排序"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.storage.sorters.NameItemSorter",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "name",
+        "v": "名称"
+      },
+      {
+        "k": "Sort on name",
+        "v": "名称排序"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.storage.sorters.OreTypeItemSorter",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "type",
+        "v": "类型"
+      },
+      {
+        "k": "Sort on ore type",
+        "v": "矿物类型排序"
+      },
+      {
+        "k": "none",
+        "v": "无"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.modularstorage.client.GuiModularStorage",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Lock the storage to access the items!",
+        "v": "锁定存储器以访问内部物品！"
+      },
+      {
+        "k": "L",
+        "v": "锁"
+      },
+      {
+        "k": "L",
+        "v": "锁"
+      },
+      {
+        "k": "Lock/unlock the module slots",
+        "v": "锁定/解锁存储模块槽位"
+      },
+      {
+        "k": "C",
+        "v": "切"
+      },
+      {
+        "k": "Name based filter for items",
+        "v": "按名称检索物品"
+      },
+      {
+        "k": "Control how items are shown",
+        "v": "调整物品显示方式"
+      },
+      {
+        "k": "Items are shown in a list view",
+        "v": "详细信息视图"
+      },
+      {
+        "k": "Items are shown in columns",
+        "v": "列表视图"
+      },
+      {
+        "k": "Items are shown with icons",
+        "v": "图标视图"
+      },
+      {
+        "k": "Control how items are sorted",
+        "v": "控制物品排序方式"
+      },
+      {
+        "k": "in the view",
+        "v": ""
+      },
+      {
+        "k": "If enabled it will show groups",
+        "v": "启用后将按标准分类显示分组"
+      },
+      {
+        "k": "based on sorting criterium",
+        "v": ""
+      },
+      {
+        "k": "Off",
+        "v": "关"
+      },
+      {
+        "k": "Don't show groups",
+        "v": "不显示分组"
+      },
+      {
+        "k": "On",
+        "v": "开"
+      },
+      {
+        "k": "Show groups",
+        "v": "显示分组"
+      },
+      {
+        "k": "Amount of stacks / maximum amount",
+        "v": "现有物品堆叠数量/最大堆叠上限"
+      },
+      {
+        "k": "Compact equal stacks",
+        "v": "堆叠相同物品"
+      },
+      {
+        "k": "z",
+        "v": "堆"
+      },
+      {
+        "k": "(empty)",
+        "v": "（空）"
+      },
+      {
+        "k": "Unlock to access these slots",
+        "v": "无法访问此格"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.modularstorage.items.StorageModuleItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "<unlinked>",
+        "v": "<未连接>"
+      },
+      {
+        "k": "<unset>",
+        "v": "<未设置>"
+      },
+      {
+        "k": "<unknown>",
+        "v": "<未知>"
+      },
+      {
+        "k": "Created by ",
+        "v": "由"
+      },
+      {
+        "k": "Unknown creator",
+        "v": "未知制作者"
+      },
+      {
+        "k": "Place this module in a storage module tablet to access contents",
+        "v": "将此模块放入存储模块访问平板电脑以访问其内容"
+      },
+      {
+        "k": ", Creation time ",
+        "v": "制作，制作时间为"
+      },
+      {
+        "k": ", Update time ",
+        "v": "，更新时间为"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.client.GuiStorageScanner",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "V",
+        "v": "宽"
+      },
+      {
+        "k": "Toggle wide storage list",
+        "v": "拓宽容器列表"
+      },
+      {
+        "k": "U",
+        "v": "上"
+      },
+      {
+        "k": "Move inventory up",
+        "v": "上移一行"
+      },
+      {
+        "k": "T",
+        "v": "顶"
+      },
+      {
+        "k": "Move inventory to the top",
+        "v": "移至顶端"
+      },
+      {
+        "k": "D",
+        "v": "下"
+      },
+      {
+        "k": "Move inventory down",
+        "v": "下移一行"
+      },
+      {
+        "k": "B",
+        "v": "底"
+      },
+      {
+        "k": "Move inventory to the bottom",
+        "v": "移至底部"
+      },
+      {
+        "k": "R",
+        "v": "删"
+      },
+      {
+        "k": "Remove inventory from list",
+        "v": "从列表中删除此容器"
+      },
+      {
+        "k": "No",
+        "v": "否"
+      },
+      {
+        "k": "Export to current container",
+        "v": "输出至当前选中容器"
+      },
+      {
+        "k": "Yes",
+        "v": "是"
+      },
+      {
+        "k": "Export to first routable container",
+        "v": "输出至最上方的星标容器"
+      },
+      {
+        "k": "Filter the list of items",
+        "v": "检索列表物品"
+      },
+      {
+        "k": "The radius that the scanner",
+        "v": "存储扫描半径"
+      },
+      {
+        "k": "will use to find storages",
+        "v": ""
+      },
+      {
+        "k": "The inventory is now highlighted",
+        "v": "该容器已被高亮"
+      },
+      {
+        "k": "All routable",
+        "v": "所有星标容器"
+      },
+      {
+        "k": "All routable inventories",
+        "v": "所有星标容器"
+      },
+      {
+        "k": "Block at: ",
+        "v": "坐标："
+      },
+      {
+        "k": "Name: ",
+        "v": "名称："
+      },
+      {
+        "k": "(doubleclick to highlight)",
+        "v": "（双击以高亮方块）"
+      },
+      {
+        "k": "Not routable",
+        "v": "未星标"
+      },
+      {
+        "k": "Routable",
+        "v": "星标"
+      },
+      {
+        "k": "Craftable",
+        "v": "可合成"
+      },
+      {
+        "k": "Click: ",
+        "v": "左键："
+      },
+      {
+        "k": "full stack",
+        "v": "一组"
+      },
+      {
+        "k": "Shift + click: ",
+        "v": "Shift左键： "
+      },
+      {
+        "k": "single item",
+        "v": "单个物品"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.items.DumpModuleItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "<invalid>",
+        "v": "<无效>"
+      },
+      {
+        "k": "Storage module is set to block '",
+        "v": "存储模块已绑定至 '"
+      },
+      {
+        "k": "Storage module is cleared",
+        "v": "存储模块绑定已清除"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.items.DumpScreenModule",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Module is not linked to storage scanner!",
+        "v": "模块未链接到存储检测器"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.items.StorageControlModuleItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Remote Storage Scanner",
+        "v": "远程存储器"
+      },
+      {
+        "k": "Storage module is set to block '",
+        "v": "存储模块已绑定至'"
+      },
+      {
+        "k": "Storage module is cleared",
+        "v": "存储模块绑定已清除"
+      },
+      {
+        "k": "Starred",
+        "v": "已星标"
+      },
+      {
+        "k": "If enabled only count items",
+        "v": "启用后仅计数"
+      },
+      {
+        "k": "in 'starred' inventories",
+        "v": "星标容器内物品"
+      },
+      {
+        "k": "(mark inventories in storage scanner)",
+        "v": "※(在存储检测器内标记容器)"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.items.StorageControlModuleItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Item: ",
+        "v": "物品："
+      },
+      {
+        "k": "Module is not linked to storage scanner!",
+        "v": "模块未链接到存储检测器"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolsstorage.modules.scanner.network.PacketGetInventoryInfo",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "[UNLOADED]",
+        "v": "[未加载]"
+      },
+      {
+        "k": "[REMOVED]",
+        "v": "[已移除]"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty/rftoolsstorage/modules/scanner/tools/SortingMode",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Amount+",
+        "v": "数量升序"
+      },
+      {
+        "k": "Sort by amount (ascending)",
+        "v": "按物品数量排序（从小到大）"
+      },
+      {
+        "k": "Amount-",
+        "v": "数量降序"
+      },
+      {
+        "k": "Sort by amount (descending)",
+        "v": "按物品数量排序（从大到小）"
+      },
+      {
+        "k": "Mod",
+        "v": "模组排序"
+      },
+      {
+        "k": "Sort by mod",
+        "v": "按物品所属模组排序"
+      },
+      {
+        "k": "Tag",
+        "v": "标签排序"
+      },
+      {
+        "k": "Sort by most common tag",
+        "v": "按物品根标签排序"
+      },
+      {
+        "k": "Name",
+        "v": "名称排序"
+      },
+      {
+        "k": "Sort by name",
+        "v": "按物品名称排序"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3703 @@
+[
+  {
+    "name": "RFToolsControl硬编码汉化",
+    "desc": "RFToolsControl的硬编码汉化部分",
+    "mods": "RFToolsControl",
+    "authors": "KlparetlR，ZZi_Cai",
+    "dynamic": false
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolscontrol.compat.RFToolsControlTOPDriver$NodeDriver"
+      },
+      {
+        "name": "mcjty.rftoolscontrol.compat.RFToolsControlTOPDriver$ProcessorDriver"
+      }
+    ],
+    "p": [
+      {
+        "k": "Name: ",
+        "v": "名称："
+      },
+      {
+        "k": "Bad tile entity!",
+        "v": "方块实体无效"
+      },
+      {
+        "k": "Channel: ",
+        "v": "频道："
+      },
+      {
+        "k": "Nodes: ",
+        "v": "节点："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.craftingstation.client.GuiCraftingStation",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Cancel",
+        "v": "取消"
+      },
+      {
+        "k": "Cancel request",
+        "v": "取消请求"
+      },
+      {
+        "k": "Cancel the currently selected",
+        "v": "取消当前选中"
+      },
+      {
+        "k": "crafting request",
+        "v": "的合成请求"
+      },
+      {
+        "k": "Failed!",
+        "v": "失败！"
+      },
+      {
+        "k": "Ok",
+        "v": "确认"
+      },
+      {
+        "k": "Wait (",
+        "v": "等待("
+      },
+      {
+        "k": "Click: ",
+        "v": "左键："
+      },
+      {
+        "k": "craft single",
+        "v": "合成一次"
+      },
+      {
+        "k": "Shift + click: ",
+        "v": "Shift左键："
+      },
+      {
+        "k": "craft amount",
+        "v": "合成复数"
+      },
+      {
+        "k": "Craft amount:",
+        "v": "合成数量："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.client.GuiProcessor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Excl.",
+        "v": "独占模式"
+      },
+      {
+        "k": "Exclusive mode",
+        "v": "独占模式"
+      },
+      {
+        "k": "If pressed then programs on",
+        "v": "勾选后，程序只能在槽位"
+      },
+      {
+        "k": "card X can only run on core X",
+        "v": "对应的处理器核心中运行"
+      },
+      {
+        "k": "No overhead log",
+        "v": "关闭日志"
+      },
+      {
+        "k": "Show the normal log",
+        "v": "显示普通日志"
+      },
+      {
+        "k": "Show a debug display",
+        "v": "显示调试日志"
+      },
+      {
+        "k": "Graphics display",
+        "v": "图形显示"
+      },
+      {
+        "k": "Resource allocation",
+        "v": "编制资源索引"
+      },
+      {
+        "k": "Setup item and variable",
+        "v": "指定此程序卡可使用的物品"
+      },
+      {
+        "k": "allocation for this card",
+        "v": "和变量的索引号"
+      },
+      {
+        "k": "Variable is not defined!",
+        "v": "变量未定义！"
+      },
+      {
+        "k": "Close",
+        "v": "关闭"
+      },
+      {
+        "k": "Var ",
+        "v": "变量"
+      },
+      {
+        "k": "Fluid: ",
+        "v": "流体："
+      },
+      {
+        "k": "Amount: ",
+        "v": "数量："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.AbstractParameterEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Index:",
+        "v": "索引号："
+      },
+      {
+        "k": "Index (in the processor)",
+        "v": "变量索引号"
+      },
+      {
+        "k": "of the variable",
+        "v": "（处理器内）"
+      },
+      {
+        "k": "(first variable has index 0)",
+        "v": "（第一个变量的索引号为0）"
+      },
+      {
+        "k": "Function",
+        "v": "功能"
+      },
+      {
+        "k": "Variable",
+        "v": "变量"
+      },
+      {
+        "k": "Constant",
+        "v": "常量"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.FluidEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Drop bucket:",
+        "v": "丢弃桶："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.InventoryEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Node name:",
+        "v": "节点名称："
+      },
+      {
+        "k": "Optional name of a node in the network",
+        "v": "自定义节点名"
+      },
+      {
+        "k": "Side:",
+        "v": "方向："
+      },
+      {
+        "k": "Side relative to processor or node",
+        "v": "指定请求需求容器的"
+      },
+      {
+        "k": "for the desired inventory",
+        "v": "处理器或节点的面"
+      },
+      {
+        "k": "Access:",
+        "v": "访问："
+      },
+      {
+        "k": "Optional side from which we want to",
+        "v": "自定义访问给定"
+      },
+      {
+        "k": "access the given inventory",
+        "v": "容器的方向"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.ItemEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Drop item:",
+        "v": "丢弃物品："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.NumberEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Type:",
+        "v": "类型："
+      },
+      {
+        "k": "Type of the number",
+        "v": "数字类型："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.SideEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Node name:",
+        "v": "节点名称："
+      },
+      {
+        "k": "Optional name of a node in the network",
+        "v": "指定网络内节点名称"
+      },
+      {
+        "k": "Side:",
+        "v": "方向："
+      },
+      {
+        "k": "Side relative to processor or node",
+        "v": "指定请求需求容器的"
+      },
+      {
+        "k": "for the desired block",
+        "v": "处理器或节点的面"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.editors.VectorEditor",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "No constant editor",
+        "v": "无常量编辑器"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.running.ExceptionType",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "No RF support",
+        "v": "无RF支持"
+      },
+      {
+        "k": "No liquid support",
+        "v": "无流体支持"
+      },
+      {
+        "k": "Missing internal slot",
+        "v": "内部槽缺失"
+      },
+      {
+        "k": "Missing node",
+        "v": "节点缺失"
+      },
+      {
+        "k": "Missing crafting card",
+        "v": "合成卡缺失"
+      },
+      {
+        "k": "Missing network card",
+        "v": "网卡缺失"
+      },
+      {
+        "k": "Missing storage card",
+        "v": "存储卡缺失"
+      },
+      {
+        "k": "Missing or invalid storage",
+        "v": "缺失或无效容器"
+      },
+      {
+        "k": "Invalid inventory",
+        "v": "无效物品栏"
+      },
+      {
+        "k": "Missing crafting ticket",
+        "v": "合成任务缺失"
+      },
+      {
+        "k": "Missing craft result",
+        "v": "合成结果缺失"
+      },
+      {
+        "k": "Missing variable",
+        "v": "变量缺失"
+      },
+      {
+        "k": "Not enough variables",
+        "v": "变量不足"
+      },
+      {
+        "k": "Internal error",
+        "v": "内部错误"
+      },
+      {
+        "k": "Bad parameters",
+        "v": "非法参数"
+      },
+      {
+        "k": "Missing crafting station",
+        "v": "合成站缺失"
+      },
+      {
+        "k": "Bad command",
+        "v": "非法命令"
+      },
+      {
+        "k": "Missing item",
+        "v": "物品缺失"
+      },
+      {
+        "k": "Missing parameter",
+        "v": "参数缺失"
+      },
+      {
+        "k": "Not a token",
+        "v": "无效标识符"
+      },
+      {
+        "k": "Not an identifier",
+        "v": "非标识符"
+      },
+      {
+        "k": "Invalid destination",
+        "v": "无效终点"
+      },
+      {
+        "k": "This needs an advanced network card",
+        "v": "需要高级网卡"
+      },
+      {
+        "k": "Missing graphics card",
+        "v": "显卡缺失"
+      },
+      {
+        "k": "Too many graphics opcodes",
+        "v": "图形操作过多"
+      },
+      {
+        "k": "Too many events",
+        "v": "事件操作过多"
+      },
+      {
+        "k": "Missing last value",
+        "v": "上一值缺失"
+      },
+      {
+        "k": "This is not an item",
+        "v": "指定非物品"
+      },
+      {
+        "k": "Missing internal fluid slot",
+        "v": "内部流体槽缺失"
+      },
+      {
+        "k": "Inventory must be a workbench",
+        "v": "物品栏需要是工作台"
+      },
+      {
+        "k": "Crafting does not match a 3x3 grid",
+        "v": "合成不匹配3x3工作台"
+      },
+      {
+        "k": "Signal is missing",
+        "v": "信号缺失"
+      },
+      {
+        "k": "Stack overflow (recursing too deep?)",
+        "v": "栈溢出（递归过深？）"
+      },
+      {
+        "k": "Bad index for vector access",
+        "v": "向量非法下标"
+      },
+      {
+        "k": "Expected a vector. Got something else",
+        "v": "传入值非向量！"
+      },
+      {
+        "k": "Machine does not support this",
+        "v": "机器不支持此操作"
+      },
+      {
+        "k": "Wrong index for machine data",
+        "v": "机器数据索引异常"
+      },
+      {
+        "k": "Unknown tag!",
+        "v": "未知标签！"
+      },
+      {
+        "k": "No filter for this index!",
+        "v": "无过滤器索引"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.various.items.ProgramCardItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "<unset>",
+        "v": "<未设置>"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.blocks.ProcessorTileEntity",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "<delayed: ",
+        "v": "<已延迟："
+      },
+      {
+        "k": "<locked: ",
+        "v": "<锁定："
+      },
+      {
+        "k": "<idle>",
+        "v": "<空闲>"
+      },
+      {
+        "k": "Core: ",
+        "v": "核心："
+      },      
+      {
+        "k": "<busy>",
+        "v": "<繁忙>"
+      },
+      {
+        "k": "Last: ",
+        "v": "上次运行："
+      },
+      {
+        "k": "INTERNAL: ",
+        "v": "内部错误："
+      },
+      {
+        "k": "Core ",
+        "v": "核心"
+      },
+      {
+        "k": "[DB] ",
+        "v": "[调试]"
+      },
+      {
+        "k": "Event queue: ",
+        "v": "事件请求："
+      },
+      {
+        "k": "Waiting items: ",
+        "v": "等待物品："
+      },
+      {
+        "k": "Locks: ",
+        "v": "锁定："
+      },
+      {
+        "k": "hours ago)",
+        "v": "小时前)"
+      },
+      {
+        "k": "min ago)",
+        "v": "分钟前)"
+      },
+      {
+        "k": "sec ago)",
+        "v": "秒前)"
+      },
+      {
+        "k": "ms ago)",
+        "v": "毫秒前)"
+      },
+      {
+        "k": "Channel: ",
+        "v": "频道："
+      },
+      {
+        "k": "Nodes: ",
+        "v": "节点："
+      },
+      {
+        "k": "No nodes or crafting stations!",
+        "v": "无节点或合成站！"
+      },
+      {
+        "k": "Node ",
+        "v": "节点"
+      },
+      {
+        "k": " at ",
+        "v": "位于"
+      },
+      {
+        "k": "Crafting station at ",
+        "v": "合成站位于"
+      },
+      {
+        "k": "No network card!",
+        "v": "无网络卡！"
+      },
+      {
+        "k": "Node is missing a name!",
+        "v": "节点无名称！"
+      },
+      {
+        "k": "Found ",
+        "v": "发现"
+      },
+      {
+        "k": " node(s)",
+        "v": "个节点"
+      },
+      {
+        "k": " crafting station(s)",
+        "v": "个合成站"
+      },
+      {
+        "k": "Setup a channel first!",
+        "v": "请先初始化一个频道！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.items.NetworkIdentifierItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Network identifier is cleared",
+        "v": "网络标识已清空"
+      },
+      {
+        "k": "Network identifier is set to block",
+        "v": "网络标识已绑定"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.compiled.ProgramValidator",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Unreachable: ",
+        "v": "不可访问："
+      },
+      {
+        "k": "Missing parameter (",
+        "v": "参数缺失（"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.registry.Functions",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "The last opcode result",
+        "v": "上一操作符结果已被"
+      },
+      {
+        "k": "converted to a boolean",
+        "v": "转换至布尔型"
+      },
+      {
+        "k": "converted to an integer",
+        "v": "转换至整型"
+      },
+      {
+        "k": "converted to a long",
+        "v": "转换至长整型"
+      },
+      {
+        "k": "converted to the appropriate",
+        "v": "转换至合适的"
+      },
+      {
+        "k": "number type",
+        "v": "数字类型"
+      },
+      {
+        "k": "converted to a string",
+        "v": "转换至字符串"
+      },
+      {
+        "k": "The last opcode result as an item",
+        "v": "使用上一个指令的最后一个"
+      },
+      {
+        "k": "Can also convert a string representing",
+        "v": "操作码结果，还可以将表示注册表"
+      },
+      {
+        "k": "a registry name to an item",
+        "v": "名称的字符串转换为物品，或者"
+      },
+      {
+        "k": "or a fluid to the corresponding bucket",
+        "v": "将流体转换为相应的流体桶。"
+      },
+      {
+        "k": "The last opcode result as an fluid",
+        "v": "使用最后一个操作码结果作为流体堆"
+      },
+      {
+        "k": "a registry name to an fluid",
+        "v": "参数，还可以将表示注册表名称的字符串或"
+      },
+      {
+        "k": "or an item containing a fluid",
+        "v": "包含流体的物品转换为流体堆作为参数。"
+      },
+      {
+        "k": "The last opcode result as an inventory (position)",
+        "v": "使用上一个指令返回值作为指定容器(槽位)，"
+      },
+      {
+        "k": "Can also convert a string with format",
+        "v": "也可以将格式为'<name> S / S'"
+      },
+      {
+        "k": "'<name> S/S' to a position",
+        "v": "的字符串转换为槽位。"
+      },
+      {
+        "k": "The last opcode result as a side (position)",
+        "v": "使用最后一个操作码结果作为指定的方向。"
+      },
+      {
+        "k": "Can also convert a string with format",
+        "v": "也可以将特定格式的字符串"
+      },
+      {
+        "k": "'<name> S' to a side",
+        "v": "('<name> S')转换为方向变量。"
+      },
+      {
+        "k": "The last opcode result as a tuple",
+        "v": "使用最后一个操作码结果作为元组。"
+      },
+      {
+        "k": " to a tuple",
+        "v": "('x,y')转换为元组。"
+      },
+      {
+        "k": "The last opcode result as a vector",
+        "v": "使用最后一个操作码结果作为向量"
+      },
+      {
+        "k": "The index of the biggest item in a vector",
+        "v": "获取向量中最大元素的索引号"
+      },
+      {
+        "k": "The index of the smallest item in a vector",
+        "v": "获取向量中最小元素的索引号"
+      },
+      {
+        "k": "Calculate the sum of all integers in a vector",
+        "v": "计算向量中所有整数的和"
+      },
+      {
+        "k": "The length of the last value",
+        "v": "获取最后一个值的长度"
+      },
+      {
+        "k": "The current crafting ticket",
+        "v": "当前合成任务"
+      },
+      {
+        "k": "The current desired crafting result",
+        "v": "当前期望的合成结果"
+      },
+      {
+        "k": "If the last value is a crafting card then",
+        "v": "若上一返回值为合成卡，则使用该"
+      },
+      {
+        "k": "this will return the output of that card",
+        "v": "合成表的合成产物作为参数"
+      },
+      {
+        "k": "If the last result is a token then this will return",
+        "v": "如果最后一个指令返回值是一个标记符，"
+      },
+      {
+        "k": "the value in that token converted to an item (if",
+        "v": "则返回该标记符中转换为物品的值"
+      },
+      {
+        "k": "possible)",
+        "v": "（如果可以转换的话）。"
+      },
+      {
+        "k": "A random integer between 0",
+        "v": "获取一个在0和最后一个"
+      },
+      {
+        "k": "and the last opcode result (exclusive)",
+        "v": "操作码之间的随机数"
+      },
+      {
+        "k": "(converted to integer)",
+        "v": "(会转换为整数)。"
+      },
+      {
+        "k": "Get the X component out tuple",
+        "v": "从元组中取出X元素"
+      },
+      {
+        "k": "Get the Y component out tuple",
+        "v": "从元组中取出Y元素"
+      },
+      {
+        "k": "A random floating number between 0",
+        "v": "获取一个在0和最后一个"
+      },
+      {
+        "k": "(converted to float)",
+        "v": "(会转换为浮点数)。"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.registry.Opcodes",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Operation: set redstone",
+        "v": "操作：红石输出"
+      },
+      {
+        "k": "set redstone level at a specific side",
+        "v": "使处理器或网络内节点"
+      },
+      {
+        "k": "on the processor or a node in the network",
+        "v": "的特定面输出红石信号"
+      },
+      {
+        "k": "side of (networked) block",
+        "v": "生效面"
+      },
+      {
+        "k": "redstone level",
+        "v": "输出信号强度"
+      },
+      {
+        "k": "Event: redstone on",
+        "v": "事件：红石信号开启"
+      },
+      {
+        "k": "execute program when redstone signal at",
+        "v": "当特定面（或任意面）"
+      },
+      {
+        "k": "a specific side (or in general) goes on",
+        "v": "接收到红石信号后运行程序"
+      },
+      {
+        "k": "only one simultaneous run",
+        "v": "仅同时运行一次"
+      },
+      {
+        "k": "Event: redstone off",
+        "v": "事件：红石信号关闭"
+      },
+      {
+        "k": "a specific side (or in general) goes off",
+        "v": "当特定面（或任意面）无红石信号时运行程序"
+      },
+      {
+        "k": "Event: signal",
+        "v": "事件：信号"
+      },
+      {
+        "k": "execute program when a signal is",
+        "v": "从屏幕或者"
+      },
+      {
+        "k": "received from an rftools screen",
+        "v": "处理器终端接收到"
+      },
+      {
+        "k": "or from the processor console",
+        "v": "信号后执行程序"
+      },
+      {
+        "k": "matching signal",
+        "v": "匹配信号"
+      },
+      {
+        "k": "Operation: wait",
+        "v": "操作：等待"
+      },
+      {
+        "k": "wait a specific number of ticks",
+        "v": "等待特定数量的Ticks"
+      },
+      {
+        "k": "amount of ticks to wait",
+        "v": "等待Ticks数量"
+      },
+      {
+        "k": "Eval: count items external",
+        "v": "赋值：容器物品计数"
+      },
+      {
+        "k": "count the amount of items in a specific slot",
+        "v": "统计与处理器或网络内"
+      },
+      {
+        "k": "or of a certain type in an external inventory",
+        "v": "节点相邻容器内特定槽位或"
+      },
+      {
+        "k": "adjacent to the processor or a connected node",
+        "v": "特定类型的物品数量"
+      },
+      {
+        "k": "Can also be used to count items in storage system",
+        "v": "也可用于模块化存储网络"
+      },
+      {
+        "k": "inventory adjacent to (networked)",
+        "v": "（与网络内方块）相邻的容器"
+      },
+      {
+        "k": "block or empty to access storage",
+        "v": "容器位置或留空以检索模块化存储网络"
+      },
+      {
+        "k": "slot in inventory",
+        "v": "指定容器内槽位"
+      },
+      {
+        "k": "(not for storage)",
+        "v": "（或是留空以检索模块化存储网络）"
+      },
+      {
+        "k": "item to count",
+        "v": "统计的物品"
+      },
+      {
+        "k": "count routable items",
+        "v": "统计可路由的物品"
+      },
+      {
+        "k": "(only for storage)",
+        "v": "（仅对模块化存储网络生效）"
+      },
+      {
+        "k": "Eval: examine item",
+        "v": "赋值：物品检查"
+      },
+      {
+        "k": "from an external inventory adjacent to",
+        "v": "节点相邻的外部容器中"
+      },
+      {
+        "k": "the processor or a connected node",
+        "v": "特定槽位的项目。"
+      },
+      {
+        "k": "inventory adjacent to (networked) block",
+        "v": "（与网络内方块）相邻的容器"
+      },
+      {
+        "k": "Eval: get tags",
+        "v": "赋值：获取标签"
+      },
+      {
+        "k": "get all tags from an item",
+        "v": "读取给定物品所有标签"
+      },
+      {
+        "k": "Eval: read redstone",
+        "v": "赋值：读取红石信号"
+      },
+      {
+        "k": "read the redstone value coming to a specific",
+        "v": "读取处理器或网络内节点"
+      },
+      {
+        "k": "side of the processor or a connected node",
+        "v": "特定面输入的红石信号强度"
+      },
+      {
+        "k": "Operation: stop program",
+        "v": "操作：程序中断"
+      },
+      {
+        "k": "stop executing at this point",
+        "v": "终止运行"
+      },
+      {
+        "k": "you normally don't have to use this",
+        "v": "除非需要进行循环中断"
+      },
+      {
+        "k": "manually except to break a loop",
+        "v": "否则一般来说不需要使用这个"
+      },
+      {
+        "k": "Operation: stop/resume",
+        "v": "操作：中断/恢复"
+      },
+      {
+        "k": "Operation: log message",
+        "v": "操作：日志消息"
+      },
+      {
+        "k": "log a message on the processor console",
+        "v": "在处理器终端"
+      },
+      {
+        "k": "message to output",
+        "v": "输出日志信息"
+      },
+      {
+        "k": "Event: repeat",
+        "v": "事件：计时器"
+      },
+      {
+        "k": "execute program every <N> ticks",
+        "v": "每<N>Tick后执行程序"
+      },
+      {
+        "k": "ticks between each execution",
+        "v": "每次执行间的Tick数"
+      },
+      {
+        "k": "Test: greater than",
+        "v": "流程控制：大于"
+      },
+      {
+        "k": "check if the first value is greater",
+        "v": "比较输入值1是否"
+      },
+      {
+        "k": "then the second value",
+        "v": "大于输入值2"
+      },
+      {
+        "k": "first value",
+        "v": "输入值1"
+      },
+      {
+        "k": "second value",
+        "v": "输入值2"
+      },
+      {
+        "k": "Test: equality",
+        "v": "流程控制：等于"
+      },
+      {
+        "k": "check if the first value is equal",
+        "v": "比较输入值1是否"
+      },
+      {
+        "k": "to the second value",
+        "v": "等于输入值2"
+      },
+      {
+        "k": "check if the first number is greater",
+        "v": "比较输入值1是否"
+      },
+      {
+        "k": "then the second number",
+        "v": "大于输入值2"
+      },
+      {
+        "k": "check if the first number is equal",
+        "v": "比较输入值1是否"
+      },
+      {
+        "k": "to the second number",
+        "v": "等于输入值2"
+      },
+      {
+        "k": "Test: item equality",
+        "v": "流程控制：物品对比"
+      },
+      {
+        "k": "check if the first item is equal",
+        "v": "比较输入物品1是否"
+      },
+      {
+        "k": "to the second item",
+        "v": "等于输入物品2"
+      },
+      {
+        "k": "first item",
+        "v": "输入物品1"
+      },
+      {
+        "k": "second item",
+        "v": "输入物品2"
+      },
+      {
+        "k": "check meta",
+        "v": "匹配元数据"
+      },
+      {
+        "k": "check nbt",
+        "v": "匹配NBT"
+      },
+      {
+        "k": "Test: tag on item",
+        "v": "流程控制：物品标签"
+      },
+      {
+        "k": "check if the item has the given tag",
+        "v": "检查物品是否带有指定标签"
+      },
+      {
+        "k": "tag",
+        "v": "标签"
+      },
+      {
+        "k": "Test: using filter",
+        "v": "流程控制：过滤"
+      },
+      {
+        "k": "check if the item matches one of the filters",
+        "v": "检查物品是否匹配"
+      },
+      {
+        "k": "in the expansion slots",
+        "v": "额外槽位中的一个过滤器"
+      },
+      {
+        "k": "index of the filter",
+        "v": "过滤器索引"
+      },
+      {
+        "k": "Test: greater than var",
+        "v": "流程控制：大于指定变量"
+      },
+      {
+        "k": "check if the last result is greater",
+        "v": "检查上一结果是否"
+      },
+      {
+        "k": "then a value in a variable",
+        "v": "大于指定变量"
+      },
+      {
+        "k": "variable index",
+        "v": "变量索引号"
+      },
+      {
+        "k": "Test: equality with var",
+        "v": "流程控制：等于指定变量"
+      },
+      {
+        "k": "check if the last result is equal",
+        "v": "检查上一结果是否"
+      },
+      {
+        "k": "to a value in a variable",
+        "v": "等于指定变量"
+      },
+      {
+        "k": "Operation: fetch liquid",
+        "v": "操作：取出流体"
+      },
+      {
+        "k": "fetch a liquid from an external tank adjacent",
+        "v": "从与处理器或网络内节点"
+      },
+      {
+        "k": "to the processor or a connected node and place",
+        "v": "相邻的外部容器内取出流体"
+      },
+      {
+        "k": "the result in an internal tank (provided by",
+        "v": "并将其放入与处理器的"
+      },
+      {
+        "k": "a multi-tank adjacent to the processor)",
+        "v": "内部缓存流体箱内"
+      },
+      {
+        "k": "tank adjacent to (networked) block",
+        "v": "与网络内方块相邻的容器"
+      },
+      {
+        "k": "amount of mb to fetch",
+        "v": "取出的流体量（mb）"
+      },
+      {
+        "k": "optional fluid to fetch",
+        "v": "限定取出流体种类"
+      },
+      {
+        "k": "internal (processor) fluid slot for result",
+        "v": "用于输出流体的（处理器内）流体槽"
+      },
+      {
+        "k": "Operation: push liquid",
+        "v": "操作：存入流体"
+      },
+      {
+        "k": "push a liquid to an external tank adjacent",
+        "v": "将流体存入"
+      },
+      {
+        "k": "to the processor or a connected node",
+        "v": "处理器或网络内节点"
+      },
+      {
+        "k": "from an internal tank (provided by",
+        "v": "相邻的容器内"
+      },
+      {
+        "k": "amount of mb to push",
+        "v": "（需指定流体量）"
+      },
+      {
+        "k": "internal (processor) fluid slot for input",
+        "v": "用于输入的（处理器内）流体槽"
+      },
+      {
+        "k": "Operation: fetch items",
+        "v": "操作：取出物品"
+      },
+      {
+        "k": "fetch items from an external inventory adjacent",
+        "v": "从相邻外部容器内取出物品"
+      },
+      {
+        "k": "the result in the internal inventory",
+        "v": "内部容器内的物品"
+      },
+      {
+        "k": "Also works for a storage scanner system",
+        "v": "也可用于模块化存储网络"
+      },
+      {
+        "k": "(not used for storage)",
+        "v": "（并不能用于存储）"
+      },
+      {
+        "k": "item to fetch (not",
+        "v": "取出的物品"
+      },
+      {
+        "k": "optional for storage)",
+        "v": "（存储不可选）"
+      },
+      {
+        "k": "amount of items to fetch",
+        "v": "取出的物品量"
+      },
+      {
+        "k": "if not given it will fetch the stack",
+        "v": "若未指定则取出一组"
+      },
+      {
+        "k": "internal (processor) slot for result",
+        "v": "用于存储的（处理器内）存储槽"
+      },
+      {
+        "k": "only routable items",
+        "v": "仅可路由物品"
+      },
+      {
+        "k": "Operation: fetch items (filter)",
+        "v": "操作：取出物品（过滤）"
+      },
+      {
+        "k": "items that are fetched must match the given filter",
+        "v": "取出符合给定过滤条件的物品"
+      },
+      {
+        "k": "Operation: push items",
+        "v": "操作：存入物品"
+      },
+      {
+        "k": "push items to an external inventory",
+        "v": "将内部容器的物品"
+      },
+      {
+        "k": "adjacent to the processor or a connected",
+        "v": "存入与处理器或网络内"
+      },
+      {
+        "k": "node from the internal inventory",
+        "v": "节点相邻的外部容器"
+      },
+      {
+        "k": "Can also be used for modular storage systems",
+        "v": "可用于模块化"
+      },
+      {
+        "k": "slot in inventory (not",
+        "v": "存储网络"
+      },
+      {
+        "k": "used for storage)",
+        "v": "（不可用于存储）"
+      },
+      {
+        "k": "amount of items to push",
+        "v": "存入物品数量"
+      },
+      {
+        "k": "internal (processor) slot for input",
+        "v": "存入用（处理器）内部槽位"
+      },
+      {
+        "k": "Eval: count items internal",
+        "v": "赋值：内部物品计数"
+      },
+      {
+        "k": "count the amount of items in a",
+        "v": "计算处理器内部"
+      },
+      {
+        "k": "specific slot in the processor inventory",
+        "v": "特定槽位的物品数量"
+      },
+      {
+        "k": "internal (processor) slot",
+        "v": "（处理器）内部槽位"
+      },
+      {
+        "k": "Operation: set variable",
+        "v": "操作：设置变量"
+      },
+      {
+        "k": "copy the last returned value to",
+        "v": "将上一步返回值"
+      },
+      {
+        "k": "the specified variable",
+        "v": "复制到一特定变量"
+      },
+      {
+        "k": "index of the variable",
+        "v": "变量索引号"
+      },
+      {
+        "k": "Operation: add integers",
+        "v": "操作：添加整数"
+      },
+      {
+        "k": "add the two given integers",
+        "v": "两整数相加"
+      },
+      {
+        "k": "Operation: add numbers",
+        "v": "操作：两数相加"
+      },
+      {
+        "k": "add the two given numbers",
+        "v": "两数相加"
+      },
+      {
+        "k": "(integer, long, float, ...)",
+        "v": "（整数，长整型，浮点型，...）"
+      },
+      {
+        "k": "Operation: subtract integers",
+        "v": "操作：整数相减"
+      },
+      {
+        "k": "subtract the two given integers",
+        "v": "两整数相减"
+      },
+      {
+        "k": "Operation: subtract numbers",
+        "v": "操作：两数相减"
+      },
+      {
+        "k": "subtract the two given numbers",
+        "v": "两数相减"
+      },
+      {
+        "k": "Operation: divide integers",
+        "v": "操作：整数相除"
+      },
+      {
+        "k": "divide the two given integers",
+        "v": "两整数相除"
+      },
+      {
+        "k": "Operation: divide numbers",
+        "v": "操作：两数相除"
+      },
+      {
+        "k": "divide the two given numbers",
+        "v": "两数相除"
+      },
+      {
+        "k": "Operation: multiply integers",
+        "v": "操作：整数相乘"
+      },
+      {
+        "k": "multiply the two given integers",
+        "v": "两整数相乘"
+      },
+      {
+        "k": "Operation: multiply numbers",
+        "v": "操作：两数相乘"
+      },
+      {
+        "k": "multiply the two given numbers",
+        "v": "两数相乘"
+      },
+      {
+        "k": "Operation: modulo",
+        "v": "操作：整数取模"
+      },
+      {
+        "k": "calculate the modulo of two given integers",
+        "v": "计算两整数相除的余数"
+      },
+      {
+        "k": "Operation: modulo on numbers",
+        "v": "操作：数字取模"
+      },
+      {
+        "k": "calculate the modulo of two given numbers",
+        "v": "计算两数相除的余数"
+      },
+      {
+        "k": "Operation: string concat",
+        "v": "操作：字符串拼接"
+      },
+      {
+        "k": "concatenate the two given strings",
+        "v": "连接两给定字符串"
+      },
+      {
+        "k": "Eval: get machine specific info",
+        "v": "赋值：机器具体信息"
+      },
+      {
+        "k": "various machines in RFTools support machine",
+        "v": "RFTools模组中的大部分"
+      },
+      {
+        "k": "specific info that you get using this opcode",
+        "v": "机器支持通过此操作符"
+      },
+      {
+        "k": "index of information",
+        "v": "来获得机器的详细信息"
+      },
+      {
+        "k": "Eval: get RF in machine",
+        "v": "赋值：机器内部能量缓存"
+      },
+      {
+        "k": "get the amount of RF/Forge Energy stored in",
+        "v": "获取与处理器或网络内的"
+      },
+      {
+        "k": "a specific machine adjacent to the processor",
+        "v": "节点相邻的特定机器内"
+      },
+      {
+        "k": "or a connected node",
+        "v": "RF/Forge Energy能量缓存"
+      },
+      {
+        "k": "Eval: get max RF in machine",
+        "v": "赋值：机器内部能量上限"
+      },
+      {
+        "k": "get the maximum amount of RF/Forge Energy stored",
+        "v": "获取与处理器相邻的特定机器的"
+      },
+      {
+        "k": "in a specific machine adjacent to the procesor",
+        "v": "RF/Forge Energy能量缓存上限"
+      },
+      {
+        "k": "Operation: wire",
+        "v": "操作：连接"
+      },
+      {
+        "k": "use this to connect opcodes that",
+        "v": "它可以将两个互不相邻"
+      },
+      {
+        "k": "are not adjacent to each other",
+        "v": "的操作符连接起来"
+      },
+      {
+        "k": "Operation: comment",
+        "v": "操作：注释"
+      },
+      {
+        "k": "this acts like a wire except that you",
+        "v": "它也可以连接两个互不相邻的"
+      },
+      {
+        "k": "can also add some comments. These",
+        "v": "操作符，同时这上面也可以写一些"
+      },
+      {
+        "k": "don't do anything in the program",
+        "v": "注释。这些注释并不会影响程序的行为。"
+      },
+      {
+        "k": "first comment line",
+        "v": "第一行注释"
+      },
+      {
+        "k": "second comment line",
+        "v": "第二行注释"
+      },
+      {
+        "k": "third comment line",
+        "v": "第三行注释"
+      },
+      {
+        "k": "Event: craft",
+        "v": "事件：合成"
+      },
+      {
+        "k": "execute program when a crafting",
+        "v": "当一个合成站请求一个"
+      },
+      {
+        "k": "station requests a specific item",
+        "v": "特定的合成任务，或使用"
+      },
+      {
+        "k": "or for an inventory with crafting cards",
+        "v": "合成卡片请求物品时执行程序。"
+      },
+      {
+        "k": "This operation sets the crafting ticket",
+        "v": "此操作符会产生一个合成任务供其他操作调用。"
+      },
+      {
+        "k": "the item to craft",
+        "v": "合成的物品"
+      },
+      {
+        "k": "inventory with crafting cards",
+        "v": "带有合成卡的容器"
+      },
+      {
+        "k": "Operation: mark craft ok",
+        "v": "操作：标记合成成功"
+      },
+      {
+        "k": "as a result of a crafting event you can use",
+        "v": "将最后出现的合成任务"
+      },
+      {
+        "k": "this opcode to mark the craft operation as ok",
+        "v": "标记为成功。"
+      },
+      {
+        "k": "The optional item in the slot will be sent back to",
+        "v": "执行时自动将该索引的物品"
+      },
+      {
+        "k": "whatever requested the item",
+        "v": "取出并存放至合成站缓冲区"
+      },
+      {
+        "k": "with craft result",
+        "v": "任务没有被该指令标记为成功或失败会一直存在"
+      },
+      {
+        "k": "Operation: mark craft failure",
+        "v": "操作：标记合成失败"
+      },
+      {
+        "k": "as a result of a crafting event",
+        "v": "将最后出现的合成任务"
+      },
+      {
+        "k": "you can use this opcode to mark",
+        "v": "标记为失败"
+      },
+      {
+        "k": "the craft operation as failed",
+        "v": "任务没有被该指令标记为成功或失败会一直存在"
+      },
+      {
+        "k": "Operation: get ingredients",
+        "v": "操作：取出材料"
+      },
+      {
+        "k": "given a crafting card inventory get the needed and",
+        "v": "根据标记的合成结果，搜索指定容器中的合成卡片，"
+      },
+      {
+        "k": "missing ingredients from another inventory and insert",
+        "v": "然后从另一个指定容器中取出符合合成表的材料存入处理器物品缓冲区。"
+      },
+      {
+        "k": "in processor. Can also be used with a storage scanner",
+        "v": "可搭配存储扫描器使用。"
+      },
+      {
+        "k": "Returns number of items that it could not find",
+        "v": "返回转移失败的物品数量"
+      },
+      {
+        "k": "with crafting cards",
+        "v": "指定合成卡片"
+      },
+      {
+        "k": "the item to craft or empty",
+        "v": "合成的物品或留空"
+      },
+      {
+        "k": "for default from ticket",
+        "v": "以获取合成任务默认值"
+      },
+      {
+        "k": "start of internal slot range for ingredients",
+        "v": "物品缓冲区开始槽位索引"
+      },
+      {
+        "k": "last slot of that range",
+        "v": "结束槽位索引"
+      },
+      {
+        "k": "Operation: get ingredients smart",
+        "v": "操作：智能取出材料"
+      },
+      {
+        "k": "check if all ingredients are available in another",
+        "v": "检查在另一容器或存储网络内是否所有材料均可用。"
+      },
+      {
+        "k": "inventory or storage system. If so fetch them in the",
+        "v": "若全部存在则将物品提取至处理器物品缓冲区。"
+      },
+      {
+        "k": "processor. Otherwise try to request all missing items",
+        "v": "若物品不全则请求所有缺失物品。"
+      },
+      {
+        "k": "Returns 0 on success, -1 on failure and otherwise the",
+        "v": "成功则返回0，"
+      },
+      {
+        "k": "number of items that are requested",
+        "v": "失败则返回-1，"
+      },
+      {
+        "k": "for end result of requests",
+        "v": "否则返回请求的数量。"
+      },
+      {
+        "k": "Operation: push multiple items",
+        "v": "操作：存入复数物品"
+      },
+      {
+        "k": "push multiple items from the internal inventory",
+        "v": "将处理器物品缓冲区的物品存入"
+      },
+      {
+        "k": "to an external inventory adjacent to the processor",
+        "v": "与处理器或网络内节点相邻的外部容器中"
+      },
+      {
+        "k": "or a connected node. Also works on storage system",
+        "v": "也可用于模块化存储网络"
+      },
+      {
+        "k": "first internal slot for input",
+        "v": "输入的第一内部槽位索引"
+      },
+      {
+        "k": "last internal slot for input",
+        "v": "输入的最后内部槽位索引"
+      },
+      {
+        "k": "first external slot",
+        "v": "第一外部输出槽位索引"
+      },
+      {
+        "k": "Operation: push items to workbench",
+        "v": "操作：存入工作台"
+      },
+      {
+        "k": "push multiple items from the internal inventory to a",
+        "v": "将复数物品从处理器物品缓存区的物品存入"
+      },
+      {
+        "k": "workbench adjacent to the processor or a connected node.",
+        "v": "与处理器或网络内节点相邻的工作台内。"
+      },
+      {
+        "k": "This operation will use a crafting card to push exactly (and",
+        "v": "识别合成卡记录配方"
+      },
+      {
+        "k": "only) the items that are required for the craft operation",
+        "v": "并（仅）推送缺失的合成"
+      },
+      {
+        "k": "and that are not already present in the workbench.",
+        "v": "所需物品到工作台内。"
+      },
+      {
+        "k": "Crafting card has to be present in the workbench storage.",
+        "v": "工作台中要放置有记录该合成表的合成卡片"
+      },
+      {
+        "k": "Returns true if all items are present to craft",
+        "v": "若合成所需物品不缺失则返回True，"
+      },
+      {
+        "k": "and false if items are missing or the workbench already has",
+        "v": "若物品缺失，或工作台内有不兼容的"
+      },
+      {
+        "k": "incompatible items in it",
+        "v": "物品则返回False"
+      },
+      {
+        "k": "workbench adjacent to (networked) block",
+        "v": "与（网络内）方块相邻的工作台"
+      },
+      {
+        "k": "item to push ingredients for. If not given",
+        "v": "存入的原料。若未指定"
+      },
+      {
+        "k": "it will use current craft result",
+        "v": "则使用当前合成结果"
+      },
+      {
+        "k": "Operation: set craft ticket",
+        "v": "操作：指定合成任务"
+      },
+      {
+        "k": "set a craft ticket so that you can resume",
+        "v": "指定合成任务用于"
+      },
+      {
+        "k": "a previously stored crafting operation",
+        "v": "恢复之前存储的合成操作"
+      },
+      {
+        "k": "crafting ticket",
+        "v": "合成任务"
+      },
+      {
+        "k": "Test: is value set/true",
+        "v": "流程控制：如果"
+      },
+      {
+        "k": "check if the boolean value is true",
+        "v": "检查布尔值是否为真"
+      },
+      {
+        "k": "value to test",
+        "v": "查验值"
+      },
+      {
+        "k": "Event: craft resume",
+        "v": "事件：合成重新开始"
+      },
+      {
+        "k": "resume crafting operation",
+        "v": "恢复合成操作"
+      },
+      {
+        "k": "ticks between each check",
+        "v": "检查重复间隔（Ticks）"
+      },
+      {
+        "k": "Operation: wait for finished craft (item)",
+        "v": "操作：等待合成材料"
+      },
+      {
+        "k": "suspend the crafting operation and resume it",
+        "v": "挂起当前合成操作"
+      },
+      {
+        "k": "as soon as a certain item appears in an inventory",
+        "v": "等待缺失物品出现在容器中后"
+      },
+      {
+        "k": "item to wait for. If not given",
+        "v": "立刻恢复物品合成"
+      },
+      {
+        "k": "Operation: wait for finished craft (timed)",
+        "v": "操作：等待合成材料（定时）"
+      },
+      {
+        "k": "suspend the crafting operation and resume",
+        "v": "挂起合成操作，等待"
+      },
+      {
+        "k": "it at regular times",
+        "v": "一定时间后恢复合成"
+      },
+      {
+        "k": "Event: exception",
+        "v": "事件：异常"
+      },
+      {
+        "k": "execute program on exception",
+        "v": "处理程序异常"
+      },
+      {
+        "k": "the exception code to catch",
+        "v": "捕获的异常码"
+      },
+      {
+        "k": "Operation: test and lock",
+        "v": "操作：上锁"
+      },
+      {
+        "k": "test if a named lock is free and if it",
+        "v": "测试指定名的锁是否可以设置。"
+      },
+      {
+        "k": "is place the lock and continue. If the",
+        "v": "如果可以使用则设置一个锁并进入下一个指令，"
+      },
+      {
+        "k": "lock is not free wait until it is",
+        "v": "否则程序暂停等待解锁。"
+      },
+      {
+        "k": "name of the lock",
+        "v": "锁定名"
+      },
+      {
+        "k": "Operation: release lock",
+        "v": "操作：解锁"
+      },
+      {
+        "k": "release a named lock",
+        "v": "解锁指定锁定"
+      },
+      {
+        "k": "Eval: test lock",
+        "v": "赋值：上锁测试"
+      },
+      {
+        "k": "test if the named lock is set and",
+        "v": "测试指定名的锁是否存在。"
+      },
+      {
+        "k": "return true if it is",
+        "v": "若指定名的锁存在"
+      },
+      {
+        "k": "name of the lock to test",
+        "v": "则返回True."
+      },
+      {
+        "k": "Operation: request craft",
+        "v": "操作：请求合成"
+      },
+      {
+        "k": "request crafting for a specific item from a",
+        "v": "从连接的合成站请求制作特定物品。"
+      },
+      {
+        "k": "connected crafting station. If the optional inventory",
+        "v": "如果指定了容器，"
+      },
+      {
+        "k": "is given the craft result will be directed there",
+        "v": "合成产物将被存入指定容器，"
+      },
+      {
+        "k": "Otherwise it goes to the crafting station",
+        "v": "否则将被存入合成站物品缓冲区。"
+      },
+      {
+        "k": "the item to request",
+        "v": "请求合成的物品"
+      },
+      {
+        "k": "inventory for the end result",
+        "v": "存放合成产物的容器"
+      },
+      {
+        "k": "Eval: examine item internal",
+        "v": "赋值：检查内部物品"
+      },      
+      {
+        "k": "examine an item in a specific slot",
+        "v": "检查处理器内"
+      },
+      {
+        "k": "in the processor",
+        "v": "检查处理器内指定槽位的物品"
+      },
+      {
+        "k": "internal slot in processor",
+        "v": "处理器内物品缓存索引号"
+      },
+      {
+        "k": "Test: loop",
+        "v": "流程控制：循环"
+      },
+      {
+        "k": "loop a variable until it reaches a specific value",
+        "v": "只要条件为真则持续循环操作（While循环）"
+      },
+      {
+        "k": "Make sure to set the variable to the starting value",
+        "v": "使用此操作符前"
+      },
+      {
+        "k": "of the loop before this opcode.",
+        "v": "记得初始化循环控制值"
+      },
+      {
+        "k": "The red output of this opcode is executed when the",
+        "v": "循环结束后执行"
+      },
+      {
+        "k": "loop ends",
+        "v": "红色方向的操作符"
+      },
+      {
+        "k": "variable index (first var is 0)",
+        "v": "变量索引号（第一个索引号为0）"
+      },
+      {
+        "k": "end index (inclusive)",
+        "v": "结束条件（包含）"
+      },
+      {
+        "k": "Test: call function",
+        "v": "流程控制：调用"
+      },
+      {
+        "k": "call a function (signal). When that code has",
+        "v": "调用功能（信号）。信号事件程序"
+      },
+      {
+        "k": "done executing resume execution here",
+        "v": "执行完毕后从此处恢复执行"
+      },
+      {
+        "k": "Note that the signal has to be defined on the",
+        "v": "注意：信号仅能在同一张"
+      },
+      {
+        "k": "same card!",
+        "v": "程序卡内定义!"
+      },
+      {
+        "k": "name of the signal to call",
+        "v": "调用的信号名"
+      },
+      {
+        "k": "Eval: integer",
+        "v": "赋值：整数"
+      },
+      {
+        "k": "evaluate an integer and set it as",
+        "v": "此操作符会"
+      },
+      {
+        "k": "the result for future opcodes to use",
+        "v": "输出一个整数"
+      },
+      {
+        "k": "integer value to set as result",
+        "v": "输出数值"
+      },
+      {
+        "k": "Eval: number",
+        "v": "赋值：数字"
+      },
+      {
+        "k": "evaluate a number and set it as",
+        "v": "此操作符会"
+      },
+      {
+        "k": "number value to set as result",
+        "v": "输出一个整数"
+      },
+      {
+        "k": "Eval: string",
+        "v": "赋值：字符串"
+      },
+      {
+        "k": "evaluate a string and set it as",
+        "v": "此操作符会"
+      },
+      {
+        "k": "string value to set as result",
+        "v": "输出一个字符串"
+      },
+      {
+        "k": "Eval: check ingredients",
+        "v": "赋值：检查合成表材料"
+      },
+      {
+        "k": "given a crafting card inventory check if all",
+        "v": "检查合成表中的所有物品"
+      },
+      {
+        "k": "the ingredients for the given recipe are present",
+        "v": "是否存在若数量与位置"
+      },
+      {
+        "k": "at exactly the right amount and right spot",
+        "v": "精确匹配则返回True"
+      },
+      {
+        "k": "Eval: count crafts",
+        "v": "赋值：合成次数"
+      },
+      {
+        "k": "Given a crafting card and an inventory adjacent",
+        "v": "指定一张合成卡片和一个"
+      },
+      {
+        "k": "to the processor or a connected node, return how",
+        "v": "与处理器或网络内节点相邻的容器，"
+      },
+      {
+        "k": "many times the crafting operation can be performed",
+        "v": "计算该容器内所有的合成表"
+      },
+      {
+        "k": "given the contents of the inventory.",
+        "v": "所需材料可以合成多少次。"
+      },
+      {
+        "k": "Can also be used on a storage system",
+        "v": "也可用于含有合成材料的"
+      },
+      {
+        "k": "with ingredients",
+        "v": "模块化存储网络"
+      },
+      {
+        "k": "the crafting card to check",
+        "v": "用于统计的合成卡"
+      },
+      {
+        "k": "Eval: get crafting card",
+        "v": "赋值：搜索合成卡"
+      },
+      {
+        "k": "Given an inventory adjacent to the processor or",
+        "v": "指定一个与处理器或网络内"
+      },
+      {
+        "k": "a connected node. And given an item to be crafted,",
+        "v": "节点相邻的容器与一个物品。"
+      },
+      {
+        "k": "find a crafting card that has this item as output",
+        "v": "查找该容器内，是否存在合成表输出结果"
+      },
+      {
+        "k": "the item to find the card for",
+        "v": "是指定物品的合成卡片。"
+      },
+      {
+        "k": "Eval: inventory",
+        "v": "赋值：读取容器"
+      },
+      {
+        "k": "get an inventory adjacent to the processor",
+        "v": "读取与处理器或网络内节点相邻的容器"
+      },
+      {
+        "k": "or a connected node and put it as the last",
+        "v": "并将其作为输出提供给其他操作符使用"
+      },
+      {
+        "k": "result (useful for storing in variables)",
+        "v": "（例如将容器信息存储至变量）"
+      },
+      {
+        "k": "If inventory is kept empty then this can",
+        "v": "若留空时，此操作符也可"
+      },
+      {
+        "k": "indicate a storage system as well",
+        "v": "检索模块化存储网络"
+      },
+      {
+        "k": "block or empty for storage",
+        "v": "容器位置或留空以检索模块化存储网络"
+      },
+      {
+        "k": "Eval: examine liquid",
+        "v": "赋值：检查流体"
+      },
+      {
+        "k": "examine a liquid in a specific slot",
+        "v": "检查与处理器或网络内节点相邻的流体容器，"
+      },
+      {
+        "k": "from an external tank adjacent to",
+        "v": "获取指定槽位存储的流体名称。"
+      },
+      {
+        "k": "(defaults to 0)",
+        "v": "（默认检查槽位0）"
+      },
+      {
+        "k": "Eval: examine liquid internal",
+        "v": "赋值：检查内部流体"
+      },
+      {
+        "k": "examine a liquid in a liquid slot",
+        "v": "检查处理器内指定"
+      },
+      {
+        "k": "internal liquid slot",
+        "v": "槽位的流体。"
+      },
+      {
+        "k": "Eval: get liquid name",
+        "v": "赋值：获取流体名称"
+      },
+      {
+        "k": "get the readable name from a liquid",
+        "v": "读取流体名称。"
+      },
+      {
+        "k": "liquid to get name from",
+        "v": "用于读取的流体"
+      },
+      {
+        "k": "Eval: get liquid in tank",
+        "v": "赋值：容器内流体缓存"
+      },
+      {
+        "k": "get the amount of liquid stored in a",
+        "v": "读取与处理器或网络内节点相邻的流体容器，"
+      },
+      {
+        "k": "specific tank adjacent to the",
+        "v": "获取其当前存储的流体量。"
+      },
+      {
+        "k": "processor or a connected node",
+        "v": ""
+      },
+      {
+        "k": "Eval: get max liquid in tank",
+        "v": "赋值：容器内流体存储上限"
+      },
+      {
+        "k": "get the maximum amount of liquid stored",
+        "v": "读取与处理器/节点相邻的流体"
+      },
+      {
+        "k": "in a specific tank adjacent to the",
+        "v": "容器，获取其流体储量上限。"
+      },
+      {
+        "k": "Operation: send signal",
+        "v": "操作：发送信号"
+      },
+      {
+        "k": "send a signal to a program that has a signal event",
+        "v": " 指定一个信号事件型指令的"
+      },
+      {
+        "k": "installed on this processor. That program will",
+        "v": "Signal参数名称，当该指令执行"
+      },
+      {
+        "k": "start as soon as a core is available to do so",
+        "v": "后，信号事件型指令开始执行。"
+      },
+      {
+        "k": "This operation returns the amount of event handlers",
+        "v": "返回一个整数表示有多少个信号事件型指令"
+      },
+      {
+        "k": "that reacted to this signal",
+        "v": "捕捉到了发出的信号。"
+      },
+      {
+        "k": "signal name",
+        "v": "信号名"
+      },
+      {
+        "k": "Eval: get damage",
+        "v": "赋值：获取耐久损耗值"
+      },
+      {
+        "k": "get the damage value from an item",
+        "v": "读取指定物品"
+      },
+      {
+        "k": "item to get damage from",
+        "v": "已消耗的耐久值"
+      },
+      {
+        "k": "Eval: get name",
+        "v": "赋值：获取名称"
+      },
+      {
+        "k": "get the readable name from an item",
+        "v": "获取物品的名称"
+      },
+      {
+        "k": "item to get name from",
+        "v": "获取名称的物品"
+      },
+      {
+        "k": "Test: NBT equality",
+        "v": "流程控制：NBT对比"
+      },
+      {
+        "k": "check if a specific tag of the first item",
+        "v": "指定两个物品和一个NBT标签，"
+      },
+      {
+        "k": "is exactly equal to the value of that tag of",
+        "v": "对比他们的指定"
+      },
+      {
+        "k": "the second item",
+        "v": "NBT标签是否相同。"
+      },
+      {
+        "k": "the tag to compare",
+        "v": "指定用于对比的NBT标签"
+      },
+      {
+        "k": "Operation: set value in token",
+        "v": "操作：写入标记符"
+      },
+      {
+        "k": "copy the last returned value to a token",
+        "v": "将最后一个返回值的内容写入"
+      },
+      {
+        "k": "item in an internal slot",
+        "v": "处理器内指定槽位的标记符中。"
+      },
+      {
+        "k": "internal (processor) slot with token",
+        "v": "（处理器）内部存放标记符的槽位"
+      },
+      {
+        "k": "Eval: get value from token",
+        "v": "赋值：读取标记符"
+      },
+      {
+        "k": "get the value out of a token in an internal slot",
+        "v": "读取一个处理器内特定槽位存放的标记符存储的数据。"
+      },
+      {
+        "k": "Event: message",
+        "v": "事件：消息"
+      },
+      {
+        "k": "receive a message from another processor",
+        "v": "从另一个处理器接收消息然后开始执行程序。"
+      },
+      {
+        "k": "If that message was sent with a variable",
+        "v": "如果该消息带有变量，"
+      },
+      {
+        "k": "then the last value will be set to that",
+        "v": "则该操作符会返回这个变量存储的数据供其他操作符使用。"
+      },
+      {
+        "k": "matching message name",
+        "v": "匹配的消息名"
+      },
+      {
+        "k": "Operation: send message",
+        "v": "操作：发送消息"
+      },
+      {
+        "k": "send a message to another processor",
+        "v": "向其他处理器发送一个消息"
+      },
+      {
+        "k": "This needs a network identifier in a slot",
+        "v": "需要指定一个带有网络标识的"
+      },
+      {
+        "k": "and an advanced networking card",
+        "v": "槽位（槽位索引号）若要"
+      },
+      {
+        "k": "Can optionally send a variable",
+        "v": "传输变量，则需安装高级网卡"
+      },
+      {
+        "k": "message name",
+        "v": "消息名"
+      },
+      {
+        "k": "internal (processor) slot with identifier",
+        "v": "（处理器）内部存放网络标识的槽位"
+      },
+      {
+        "k": "variable index to send over",
+        "v": "发送的变量索引号"
+      },
+      {
+        "k": "Operation: gfx box",
+        "v": "操作：绘制矩形"
+      },
+      {
+        "k": "draw a box",
+        "v": "在图形输出上绘制一个矩形。"
+      },
+      {
+        "k": "Needs a graphics card",
+        "v": "处理器需要安装显卡"
+      },
+      {
+        "k": "id (used to identify this box)",
+        "v": "ID（用于标识此矩形）"
+      },
+      {
+        "k": "x location",
+        "v": "X坐标"
+      },
+      {
+        "k": "y location",
+        "v": "Y坐标"
+      },
+      {
+        "k": "width",
+        "v": "宽度"
+      },
+      {
+        "k": "height",
+        "v": "高度"
+      },
+      {
+        "k": "color",
+        "v": "颜色"
+      },
+      {
+        "k": "Operation: gfx line",
+        "v": "操作：绘制线段"
+      },
+      {
+        "k": "draw a line",
+        "v": "在图形输出上绘制一条线段。"
+      },
+      {
+        "k": "id (used to identify this line)",
+        "v": "ID（用于标识此线段）"
+      },
+      {
+        "k": "start x location",
+        "v": "起点X坐标"
+      },
+      {
+        "k": "start y location",
+        "v": "起点Y坐标"
+      },
+      {
+        "k": "end x location",
+        "v": "终点X坐标"
+      },
+      {
+        "k": "end y location",
+        "v": "终点Y坐标"
+      },
+      {
+        "k": "Operation: gfx text",
+        "v": "操作：绘制文本"
+      },
+      {
+        "k": "draw text",
+        "v": "在图形输出上绘制一段文本."
+      },
+      {
+        "k": "id (used to identify this text)",
+        "v": "ID（用于标识此文本框）"
+      },
+      {
+        "k": "text",
+        "v": "文本内容"
+      },
+      {
+        "k": "location",
+        "v": "起始坐标（左上角）"
+      },
+      {
+        "k": "size",
+        "v": "尺寸"
+      },
+      {
+        "k": "location 1",
+        "v": "location 1"
+      },
+      {
+        "k": "location 2",
+        "v": "location 2"
+      },
+      {
+        "k": "Operation: gfx clear",
+        "v": "操作：清除图形"
+      },
+      {
+        "k": "clear an operation with a specific id or",
+        "v": "根据指定的图形ID来清除"
+      },
+      {
+        "k": "all operations",
+        "v": "对应的已绘制图形。若未"
+      },
+      {
+        "k": "id to delete or empty to delete all",
+        "v": "指定ID，则清空整个绘图区域。"
+      },
+      {
+        "k": "Eval: random integer",
+        "v": "赋值：随机整数"
+      },
+      {
+        "k": "get a random integer between two values",
+        "v": "生成一个指定范围内的随机整数。"
+      },
+      {
+        "k": "lower bound",
+        "v": "下界"
+      },
+      {
+        "k": "upper bound (exclusive)",
+        "v": "上界（不包含）"
+      },
+      {
+        "k": "Eval: tuple",
+        "v": "赋值：元组"
+      },
+      {
+        "k": "evaluate a tuple (two integers) and set it",
+        "v": "记录一个元组以供"
+      },
+      {
+        "k": "as the result for future opcodes to use",
+        "v": "其他操作符使用。"
+      },
+      {
+        "k": "x (or first) value for the tuple",
+        "v": "元组的X（或第一个）元素"
+      },
+      {
+        "k": "y (or second) value for the tuple",
+        "v": "元组的X（或第二个）元素"
+      },
+      {
+        "k": "the entire tuple (from variable or so)",
+        "v": "（来自变量或其他来源的）元组变量"
+      },
+      {
+        "k": "Event: gfx select",
+        "v": "事件：图形选择"
+      },
+      {
+        "k": "execute program when a screen with a",
+        "v": "带有矢量模块的屏幕被"
+      },
+      {
+        "k": "vector module is selected.",
+        "v": "选中时执行程序。"
+      },
+      {
+        "k": "The last value will be set to the tuple",
+        "v": "上一值将被设置为"
+      },
+      {
+        "k": "of the selected location",
+        "v": "代表所选位置坐标的元组。"
+      },
+      {
+        "k": "Eval: get number of slots",
+        "v": "赋值：获取槽位数量"
+      },
+      {
+        "k": "return the amount of slots in an",
+        "v": "返回外部容器的"
+      },
+      {
+        "k": "external inventory",
+        "v": "槽位数量。"
+      },
+      {
+        "k": "block",
+        "v": "位置"
+      },
+      {
+        "k": "Eval: evaluate item",
+        "v": "赋值：读取物品"
+      },
+      {
+        "k": "set the last value to a specific item",
+        "v": "读取一个物品的所有信息，提供给其他指令使用。"
+      },
+      {
+        "k": "an item",
+        "v": "读取的物品"
+      },
+      {
+        "k": "Eval: evaluate fluid",
+        "v": "赋值：读取流体"
+      },
+      {
+        "k": "set the last value to a specific fluid",
+        "v": "读取一个流体的所有信息，提供给其他指令使用。"
+      },
+      {
+        "k": "a fluid stack (bucket)",
+        "v": "流体堆（桶）"
+      },
+      {
+        "k": "Eval: vector",
+        "v": "赋值：向量"
+      },
+      {
+        "k": "set the last value to a vector",
+        "v": "输出一个向量，提供给其他指令使用。"
+      },
+      {
+        "k": "Leave empty for empty vector",
+        "v": "如果不指定任何参数则输出一个空向量。"
+      },
+      {
+        "k": "vector",
+        "v": "向量内容"
+      },
+      {
+        "k": "Eval: vector indices",
+        "v": "赋值：列表向量"
+      },
+      {
+        "k": "generate a vector starting of the given length",
+        "v": "生成一个指定长度的向量作为本操作码的输出，"
+      },
+      {
+        "k": "with integers starting at 0",
+        "v": "其中包含着从0开始逐个递增的自然数。"
+      },
+      {
+        "k": "length",
+        "v": "长度"
+      },
+      {
+        "k": "Operation: vector sort",
+        "v": "操作符：向量排序"
+      },
+      {
+        "k": "sort the last value (vector) and set the",
+        "v": "对最后一个值（向量）进行排序，"
+      },
+      {
+        "k": "last value to the sorted vector.",
+        "v": "并将最后一个值设置为排序的向量。"
+      },
+      {
+        "k": "If the optional second vector is given",
+        "v": "如果给定了可选的第二个向量，"
+      },
+      {
+        "k": "it should have the same length and it will",
+        "v": "则它应该具有相同的长度，"
+      },
+      {
+        "k": "be used as the sort criteria instead",
+        "v": "并且将其作为排序条件。"
+      },
+      {
+        "k": "vector to sort",
+        "v": "指定用于排序的向量"
+      },
+      {
+        "k": "vector to use for comparison",
+        "v": "额外排序向量"
+      },
+      {
+        "k": "Eval: evaluate element from vector",
+        "v": "赋值：提取向量元素"
+      },
+      {
+        "k": "get a specific element out of a vector",
+        "v": "访问向量中的特定元素"
+      },
+      {
+        "k": "vector to get item from",
+        "v": "将访问的向量"
+      },
+      {
+        "k": "index (starts at 0)",
+        "v": "向量下标（下标从0开始计数）"
+      },
+      {
+        "k": "Operation: push item to vector",
+        "v": "操作：向量插入元素"
+      },
+      {
+        "k": "add an item in a variable to a vector and",
+        "v": "将变量中的元素插入到向量中，"
+      },
+      {
+        "k": "return a new vector",
+        "v": "并返回变更后的向量"
+      },
+      {
+        "k": "variable to add to vector",
+        "v": "将被插入变量的向量"
+      },
+      {
+        "k": "Operation: push integer to vector",
+        "v": "操作：向量插入整数"
+      },
+      {
+        "k": "add an integer to a vector and",
+        "v": "将一个整数插入到向量中，"
+      },
+      {
+        "k": "integer to add to vector",
+        "v": "将被插入整数的向量"
+      },
+      {
+        "k": "Operation: pop item from vector",
+        "v": "操作：向量移除元素"
+      },
+      {
+        "k": "remove the last item from a vector and",
+        "v": "从向量末尾开始删除元素，"
+      },
+      {
+        "k": "amount of items (integer)",
+        "v": "删除的元素数量（整数型）"
+      },
+      {
+        "k": "itemstack in target slot (stack)",
+        "v": "目标槽位的物品（物品栈）"
+      },
+      {
+        "k": "all tags (vector)",
+        "v": "所有标签（向量型）"
+      },
+      {
+        "k": "read redstone value (integer)",
+        "v": "红石信号强度（整数型）"
+      },
+      {
+        "k": "amount of fluid fetched in mb (integer)",
+        "v": "取出的流体mb量（整数型）"
+      },
+      {
+        "k": "amount of fluid pushed in mb (integer)",
+        "v": "存入的流体mb量（整数型）"
+      },
+      {
+        "k": "amount of items fetched (integer)",
+        "v": "取出的物品量（整数型）"
+      },
+      {
+        "k": "amount of items inserted (integer)",
+        "v": "存入的物品量（整数型）"
+      },
+      {
+        "k": "v1 + v2 (integer)",
+        "v": "v1 + v2（整数型）"
+      },
+      {
+        "k": "v1 + v2 (numbers)",
+        "v": "v1 + v2（数字型）"
+      },
+      {
+        "k": "v1 - v2 (integer)",
+        "v": "v1 - v2（整数型）"
+      },
+      {
+        "k": "v1 - v2 (numbers)",
+        "v": "v1 - v2（数字型）"
+      },
+      {
+        "k": "v1 / v2 (integer)",
+        "v": "v1 / v2（整数型）"
+      },
+      {
+        "k": "v1 / v2 (number)",
+        "v": "v1 / v2（数字型）"
+      },
+      {
+        "k": "v1 * v2 (integer)",
+        "v": "v1 * v2（整数型）"
+      },
+      {
+        "k": "v1 * v2 (number)",
+        "v": "v1 * v2（数字型）"
+      },
+      {
+        "k": "v1 % v2 (integer)",
+        "v": "v1 % v2（整数型）"
+      },
+      {
+        "k": "v1 % v2 (number)",
+        "v": "v1 % v2（数字型）"
+      },
+      {
+        "k": "v1 + v2 (string)",
+        "v": "v1 + v2（字符串型）"
+      },
+      {
+        "k": "info (string)",
+        "v": "info（字符串型）"
+      },
+      {
+        "k": "amount of energy (integer)",
+        "v": "能量缓存（整数型）"
+      },
+      {
+        "k": "amount of energy (long)",
+        "v": "能量缓存（长整型）"
+      },
+      {
+        "k": "max amount of energy (integer)",
+        "v": "能量缓存上限（整数型）"
+      },
+      {
+        "k": "max amount of energy (long)",
+        "v": "能量缓存上限（长整型）"
+      },
+      {
+        "k": "amount of failed items (integer)",
+        "v": "操作失败物品数量（整数型）"
+      },
+      {
+        "k": "0, -1, or requested items (integer)",
+        "v": "0，-1或请求物品数量（整数型）"
+      },
+      {
+        "k": "true on success (boolean)",
+        "v": "成功返回True（布尔型）"
+      },
+      {
+        "k": "true if lock is set (boolean)",
+        "v": "锁定返回True（布尔型）"
+      },
+      {
+        "k": "integer result (integer)",
+        "v": "整数结果（整数型）"
+      },
+      {
+        "k": "long result (number)",
+        "v": "长整型结果（数字型）"
+      },
+      {
+        "k": "string result (string)",
+        "v": "字符串结果（字符串型）"
+      },
+      {
+        "k": "if the ingredients are complete (boolean)",
+        "v": "原材料是否满足条件（布尔型）"
+      },
+      {
+        "k": "number of possible crafting operations (integer)",
+        "v": "可进行的合成次数（整数型）"
+      },
+      {
+        "k": "crafting card (item)",
+        "v": "合成卡（物品）"
+      },
+      {
+        "k": "inventory result (inventory)",
+        "v": "容器信息（容器）"
+      },
+      {
+        "k": "fluidstack in target slot (stack)",
+        "v": "目标槽位的流体堆（栈）"
+      },
+      {
+        "k": "item name (string)",
+        "v": "物品名（字符串型）"
+      },
+      {
+        "k": "amount of mb (integer)",
+        "v": "流体缓存的mb量（整数型）"
+      },
+      {
+        "k": "max amount of mb (integer)",
+        "v": "最大流体缓存的mb量（整数型）"
+      },
+      {
+        "k": "event handlers that reacted (integer)",
+        "v": "响应事件数（整数型）"
+      },
+      {
+        "k": "damage value (integer)",
+        "v": "耐久损失值（整数型）"
+      },
+      {
+        "k": "token value (any type)",
+        "v": "标记符内存放值（类型不定）"
+      },
+      {
+        "k": "optional value (any)",
+        "v": "消息返回变量（类型不定）"
+      },
+      {
+        "k": "random result (integer)",
+        "v": "随机输出（整数型）"
+      },
+      {
+        "k": "tuple result (tuple)",
+        "v": "元组运算结果（元组型）"
+      },
+      {
+        "k": "selected location (tuple)",
+        "v": "选中位置（元组型）"
+      },
+      {
+        "k": "amount of slots (integer)",
+        "v": "槽位数（整数型）"
+      },
+      {
+        "k": "itemstack (stack)",
+        "v": "物品栈（物品栈）"
+      },
+      {
+        "k": "fluidstack (fluid)",
+        "v": "流体栈（流体）"
+      },
+      {
+        "k": "vector (vector)",
+        "v": "向量（向量型）"
+      },
+      {
+        "k": "sorted vector (vector)",
+        "v": "有序向量(向量型))"
+      },
+      {
+        "k": "element (any type)",
+        "v": "元素（类型不定）"
+      },
+      {
+        "k": "new vector (vector)",
+        "v": "新向量（向量型）"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.running.CpuCore",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Core: stopping program",
+        "v": "核心：停止运行"
+      },
+      {
+        "k": "Core: starting program = ",
+        "v": "核心：运行程序："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.logic.running.RunningProgram",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Opcode failed with: ",
+        "v": "操作符失败码："
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty.rftoolscontrol.modules.processor.network.PacketFluidsReady"
+      },
+      {
+        "name": "mcjty.rftoolscontrol.modules.processor.network.PacketLogReady"
+      },
+      {
+        "name": "mcjty.rftoolscontrol.modules.processor.network.PacketVariablesReady"
+      }
+    ],
+    "p": [
+      {
+        "k": "Container is missing!",
+        "v": "缺失容器！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.processor.util.Commands",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Stopped ",
+        "v": "已停止"
+      },
+      {
+        "k": " programs!",
+        "v": "程序！"
+      },
+      {
+        "k": "Reset the processor!",
+        "v": "重置处理器！"
+      },
+      {
+        "k": "Signal was handled ",
+        "v": "信号已激活"
+      },
+      {
+        "k": " time(s)",
+        "v": "次"
+      },
+      {
+        "k": "Commands: clear/stop/reset/list",
+        "v": "命令：clear/stop/reset/list"
+      },
+      {
+        "k": "Missing variable index!",
+        "v": "变量索引缺失！"
+      },
+      {
+        "k": "Watch ",
+        "v": "※Watch "
+      },
+      {
+        "k": " (break)",
+        "v": "（中断）"
+      },
+      {
+        "k": "No watches",
+        "v": "※No watches"
+      },
+      {
+        "k": "Wrong variable index!",
+        "v": "错误变量索引号！"
+      },
+      {
+        "k": "Unknown 'watch' command!",
+        "v": "未知'watch'命令！"
+      },
+      {
+        "k": "Debug mode for core: ",
+        "v": "调试状态核心： "
+      },
+      {
+        "k": "Debug mode for all cores",
+        "v": "为所有核心启用调试模式"
+      },
+      {
+        "k": "Resume core: ",
+        "v": "恢复核心："
+      },
+      {
+        "k": "Resume all cores",
+        "v": "所有核心"
+      },
+      {
+        "k": "Core ",
+        "v": "核心"
+      },
+      {
+        "k": "Last ",
+        "v": "※Last "
+      },
+      {
+        "k": "Last value not set",
+        "v": "上一值未定义"
+      },
+      {
+        "k": "No program!",
+        "v": "无程序！"
+      },
+      {
+        "k": ": Last ",
+        "v": "※: Last "
+      },
+      {
+        "k": ": Last value not set",
+        "v": "：上一值未定义"
+      },
+      {
+        "k": "Unknown 'db' command!",
+        "v": "未知'db'命令！"
+      },
+      {
+        "k": "Not debugging",
+        "v": "调试未启用"
+      },
+      {
+        "k": "Missing core number",
+        "v": "核心编号缺失"
+      },
+      {
+        "k": "Bad core number",
+        "v": "核心编号无效"
+      },
+      {
+        "k": ": not running",
+        "v": "：未在运行"
+      },
+      {
+        "k": "Use: net setup/list/info",
+        "v": "用法：net setup/list/info"
+      },
+      {
+        "k": "Missing channel name!",
+        "v": "频道名缺失！"
+      },
+      {
+        "k": "Unknown 'net' command!",
+        "v": "未知'net'命令！"
+      },
+      {
+        "k": "No network card!",
+        "v": "无网络卡！"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.programmer.client.GuiProgrammer",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Ctrl-Click to add or remove selection",
+        "v": "Ctrl-左击以添加/移除所选项"
+      },
+      {
+        "k": "Ctrl-Double click to (de)select sequence",
+        "v": "Ctrl-双击以选中/移除所选程序流"
+      },
+      {
+        "k": "Ctrl-A to select entire grid",
+        "v": "Ctrl-A以选中所有操作符"
+      },
+      {
+        "k": "Ctrl-C to copy selected grid",
+        "v": "Ctrl-C以复制所选操作符"
+      },
+      {
+        "k": "Ctrl-X to cut selected grid",
+        "v": "Ctrl-X以剪切所选操作符"
+      },
+      {
+        "k": "Ctrl-V to paste to selected grid",
+        "v": "Ctrl-V以粘贴所选操作符"
+      },
+      {
+        "k": "Ctrl-Z undo last paste operation",
+        "v": "Ctrl-Z以撤销上一粘贴操作"
+      },
+      {
+        "k": "Use Ctrl with A, C, X, V or Z",
+        "v": "使用Ctrl-A，C，X，V，Z组合键"
+      },
+      {
+        "k": "Double click to change connector",
+        "v": "双击以更改链接项"
+      },
+      {
+        "k": "Click to change connector",
+        "v": "左击以更改链接项"
+      },
+      {
+        "k": "No card!",
+        "v": "无程序卡！"
+      },
+      {
+        "k": "Card name:",
+        "v": "程序名称："
+      },
+      {
+        "k": "No room for clipboard here!",
+        "v": "剪贴板空间不足！"
+      },
+      {
+        "k": "Opcode with id '",
+        "v": "位于'"
+      },
+      {
+        "k": "' is missing!",
+        "v": "'的操作符丢失！"
+      },
+      {
+        "k": "Delete opcode",
+        "v": "删除操作符"
+      },
+      {
+        "k": "Drop opcodes here to",
+        "v": "将操作符拖拽"
+      },
+      {
+        "k": "delete them",
+        "v": "至此处以删除"
+      },
+      {
+        "k": "Load program",
+        "v": "加载"
+      },
+      {
+        "k": "Load the current program",
+        "v": "从程序卡内"
+      },
+      {
+        "k": "from a program card",
+        "v": "加载程序"
+      },
+      {
+        "k": "Save program",
+        "v": "保存"
+      },
+      {
+        "k": "Save the current program",
+        "v": "保存当前程序"
+      },
+      {
+        "k": "to a program card",
+        "v": "至程序卡内"
+      },
+      {
+        "k": "Press shift to change name",
+        "v": "按下Shift点击以自定义程序名"
+      },
+      {
+        "k": "Clear program",
+        "v": "清除程序"
+      },
+      {
+        "k": "Remove all opcodes on the grid",
+        "v": "移除窗口内所有操作符"
+      },
+      {
+        "k": "(press Ctrl-Z if this was a mistake)",
+        "v": "（按下Ctrl-Z可撤销）"
+      },
+      {
+        "k": "Validate program",
+        "v": "验证程序"
+      },
+      {
+        "k": "Perform some basic validations on",
+        "v": "对当前程序进行"
+      },
+      {
+        "k": "the current program",
+        "v": "一些基本的验证"
+      },
+      {
+        "k": "Double click on error",
+        "v": "双击错误以"
+      },
+      {
+        "k": "to highlight opcode",
+        "v": "高亮出错操作符"
+      },
+      {
+        "k": "Load",
+        "v": "加载"
+      },
+      {
+        "k": "Save",
+        "v": "保存"
+      },
+      {
+        "k": "Clear",
+        "v": "清除"
+      },
+      {
+        "k": "Val",
+        "v": "验证"
+      },
+      {
+        "k": "Filter on category ",
+        "v": "筛选操作符："
+      },
+      {
+        "k": " (off)",
+        "v": "（禁用）"
+      },
+      {
+        "k": " (on)",
+        "v": "（启用）"
+      },
+      {
+        "k": "Opcodes:",
+        "v": "操作符："
+      },
+      {
+        "k": "Nothing is selected!",
+        "v": "无选中项！"
+      },
+      {
+        "k": "Error copying to clipboard!",
+        "v": "复制到剪贴板失败！"
+      },
+      {
+        "k": "Error reading from clipboard!",
+        "v": "从剪贴板读取失败！"
+      },
+      {
+        "k": "Par ",
+        "v": "配置"
+      },
+      {
+        "k": ": NULL",
+        "v": "：无"
+      },
+      {
+        "k": "<Shift for more info>",
+        "v": "<按住Shift以显示详情>"
+      },
+      {
+        "k": " [Optional]",
+        "v": "[可选]"
+      },
+      {
+        "k": "Result: ",
+        "v": "返回："
+      },
+      {
+        "k": "Par '",
+        "v": "配置'"
+      },
+      {
+        "k": "Close",
+        "v": "关闭"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.various.client.GuiNode",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Set the name of the network",
+        "v": "自定义网络名称"
+      },
+      {
+        "k": "channel to connect too",
+        "v": ""
+      },
+      {
+        "k": "Set the name of this node",
+        "v": "自定义节点名称"
+      },
+      {
+        "k": "Channel:",
+        "v": "频道："
+      },
+      {
+        "k": "Node:",
+        "v": "节点："
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty.rftoolscontrol.modules.various.items.consolemodule.ConsoleModuleItem",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Remote Processor Console",
+        "v": "远程处理器终端"
+      },
+      {
+        "k": "Console module is set to block",
+        "v": "终端模块已绑定至方块"
+      },
+      {
+        "k": "Console module is cleared",
+        "v": "终端模块已清除"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty/rftoolscontrol/modules/programmer/client/GuiProgrammer",
+      "method": "getIconTooltip",
+      "local": "MgetOutputDescription"
+    },
+    "p": [
+      {
+        "k": "No result",
+        "v": "无返回值"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty/rftoolscontrol/modules/processor/logic/editors/IntegerEditor"
+      },
+      {
+        "name": "mcjty/rftoolscontrol/modules/processor/logic/editors/LongEditor"
+      }
+    ],
+    "p": [
+      {
+        "k": "Hex",
+        "v": "Hex"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty/rftoolscontrol/modules/processor/logic/ParameterTypeTools",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "F:",
+        "v": "功能:"
+      },
+      {
+        "k": "V:",
+        "v": "变量:"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "mcjty/rftoolscontrol/modules/processor/logic/ParameterTypeTools",
+      "method": "stringRepresentation",
+      "local": "MgetName"
+    },
+    "p": [
+      {
+        "k": "last",
+        "v": "上一结果"
+      },
+      {
+        "k": "maximum",
+        "v": "最大值"
+      },
+      {
+        "k": "minimum",
+        "v": "最小值"
+      },
+      {
+        "k": "sum",
+        "v": "合计"
+      },
+      {
+        "k": "length",
+        "v": "长度"
+      },
+      {
+        "k": "ticket",
+        "v": "任务"
+      },
+      {
+        "k": "craftresult",
+        "v": "合成结果"
+      },
+      {
+        "k": "itemfromcard",
+        "v": "来自卡片的合成结果"
+      },
+      {
+        "k": "random",
+        "v": "随机数"
+      },
+      {
+        "k": "tuple_x",
+        "v": "元组X"
+      },
+      {
+        "k": "tuple_y",
+        "v": "元组Y"
+      }
+    ]
+  },
+  {
+    "s": [
+      {
+        "name": "mcjty/rftoolscontrol/modules/programmer/client/GuiProgrammer",
+        "method": "createValuePanel",
+        "local": "MgetName"
+      },
+      {
+        "name": "mcjty/rftoolscontrol/modules/programmer/client/GuiProgrammer",
+        "method": "getIconTooltip",
+        "local": "MgetName"
+      },
+      {
+        "name": "mcjty/rftoolscontrol/modules/programmer/client/GuiProgrammer",
+        "method": "makeCategoryToggle",
+        "local": "MgetName"
+      },
+      {
+        "name": "mcjty/rftoolscontrol/modules/programmer/client/GuiProgrammer",
+        "method": "openValueEditor",
+        "local": "Mcapitalize"
+      }
+    ],
+    "p": [
+      {
+        "k": "side",
+        "v": "方向"
+      },
+      {
+        "k": "level",
+        "v": "等级"
+      },
+      {
+        "k": "single",
+        "v": "单线程"
+      },
+      {
+        "k": "signal",
+        "v": "信号"
+      },
+      {
+        "k": "ticks",
+        "v": "tick数"
+      },
+      {
+        "k": "inv",
+        "v": "物品栏"
+      },
+      {
+        "k": "slot",
+        "v": "槽位"
+      },
+      {
+        "k": "item",
+        "v": "物品"
+      },
+      {
+        "k": "routable",
+        "v": "可路由"
+      },
+      {
+        "k": "message",
+        "v": "消息"
+      },
+      {
+        "k": "v1",
+        "v": "变量1"
+      },
+      {
+        "k": "v2",
+        "v": "变量2"
+      },
+      {
+        "k": "item1",
+        "v": "物品1"
+      },
+      {
+        "k": "item2",
+        "v": "物品2"
+      },
+      {
+        "k": "meta",
+        "v": "元数据"
+      },
+      {
+        "k": "nbt",
+        "v": "NBT"
+      },
+      {
+        "k": "tag",
+        "v": "标签"
+      },
+      {
+        "k": "index",
+        "v": "索引"
+      },
+      {
+        "k": "var",
+        "v": "变量"
+      },
+      {
+        "k": "tank",
+        "v": "储罐"
+      },
+      {
+        "k": "amount",
+        "v": "量"
+      },
+      {
+        "k": "fluid",
+        "v": "流体"
+      },
+      {
+        "k": "slotOut",
+        "v": "输出槽"
+      },
+      {
+        "k": "slotIn",
+        "v": "输入槽"
+      },
+      {
+        "k": "filter",
+        "v": "过滤器"
+      },
+      {
+        "k": "comment1",
+        "v": "注释1"
+      },
+      {
+        "k": "comment2",
+        "v": "注释2"
+      },
+      {
+        "k": "comment3",
+        "v": "注释3"
+      },
+      {
+        "k": "cardInv",
+        "v": "卡片容器"
+      },
+      {
+        "k": "slot1",
+        "v": "槽位1"
+      },
+      {
+        "k": "slot2",
+        "v": "槽位2"
+      },
+      {
+        "k": "destInv",
+        "v": "指定容器"
+      },
+      {
+        "k": "extSlot",
+        "v": "外部槽位"
+      },
+      {
+        "k": "ticket",
+        "v": "任务"
+      },
+      {
+        "k": "v",
+        "v": "※v"
+      },
+      {
+        "k": "exception",
+        "v": "异常"
+      },
+      {
+        "k": "name",
+        "v": "名称"
+      },
+      {
+        "k": "end",
+        "v": "※end"
+      },
+      {
+        "k": "value",
+        "v": "值"
+      },
+      {
+        "k": "card",
+        "v": "※card"
+      },
+      {
+        "k": "liquid",
+        "v": "流体"
+      },
+      {
+        "k": "tokenSlot",
+        "v": "※tokenSlot"
+      },
+      {
+        "k": "idSlot",
+        "v": "※idSlot"
+      },
+      {
+        "k": "variable",
+        "v": "变量"
+      },
+      {
+        "k": "id",
+        "v": "ID"
+      },
+      {
+        "k": "x",
+        "v": "X"
+      },
+      {
+        "k": "y",
+        "v": "Y"
+      },
+      {
+        "k": "w",
+        "v": "※w"
+      },
+      {
+        "k": "h",
+        "v": "※h"
+      },
+      {
+        "k": "color",
+        "v": "颜色"
+      },
+      {
+        "k": "x1",
+        "v": "X1"
+      },
+      {
+        "k": "y1",
+        "v": "Y1"
+      },
+      {
+        "k": "x2",
+        "v": "X2"
+      },
+      {
+        "k": "y2",
+        "v": "Y2"
+      },
+      {
+        "k": "text",
+        "v": "文本"
+      },
+      {
+        "k": "loc",
+        "v": "位置"
+      },
+      {
+        "k": "size",
+        "v": "尺寸"
+      },
+      {
+        "k": "loc1",
+        "v": "起始"
+      },
+      {
+        "k": "loc2",
+        "v": "终点"
+      },
+      {
+        "k": "lower",
+        "v": "※lower"
+      },
+      {
+        "k": "upper",
+        "v": "※upper"
+      },
+      {
+        "k": "tuple",
+        "v": "元组"
+      },
+      {
+        "k": "vector",
+        "v": "向量"
+      },
+      {
+        "k": "length",
+        "v": "长度"
+      },
+      {
+        "k": "compare",
+        "v": "比较"
+      },
+      {
+        "k": "integer",
+        "v": "整数"
+      }
+    ]
+  }
+]

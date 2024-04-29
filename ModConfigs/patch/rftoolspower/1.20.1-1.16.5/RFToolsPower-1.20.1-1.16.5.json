@@ -1,0 +1,388 @@
+[
+	{
+		"name": "RFToolsPower硬编码汉化",
+		"desc": "RFToolsPower的硬编码汉化部分",
+		"mods": "RFToolsPower",
+		"authors": "KlparetlR,ZZi_Cai",
+		"dynamic": false
+	},
+	{
+		"s": [
+			{
+				"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$PowerCellDriver"
+			},
+			{
+				"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$EndermonitorDriver"
+			},
+			{
+				"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$EndergenicDriver"
+			},
+			{
+				"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$DimensionalCellDriver"
+			},
+			{
+				"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$CoalDriver"
+			}
+		],
+		"pairs": [
+			{
+				"k": "Producing ",
+				"v": "发电中"
+			},
+			{
+				"k": "Bad tile entity!",
+				"v": "无效块实体"
+			},
+			{
+				"k": "Input/Output: ",
+				"v": "输入/输出："
+			},
+			{
+				"k": "Side: input",
+				"v": "此面：输入"
+			},
+			{
+				"k": "Side: output",
+				"v": "此面：输出"
+			},
+			{
+				"k": "Too many blocks in network (max ",
+				"v": "网络内方块过多(最多"
+			},
+			{
+				"k": "Network ID: ",
+				"v": "网络ID："
+			},
+			{
+				"k": "Local Energy: ",
+				"v": "本地能量："
+			},
+			{
+				"k": "Local storage!",
+				"v": "本地存储单元！"
+			},
+			{
+				"k": "Side: output (cost ",
+				"v": "此面：输出(占比"
+			},
+			{
+				"k": "In:  ",
+				"v": "输入："
+			},
+			{
+				"k": "Out: ",
+				"v": "输出："
+			},
+			{
+				"k": "Stats over the last 5 seconds:",
+				"v": "过去5秒内的统计信息："
+			},
+			{
+				"k": "Charged ",
+				"v": "已充能"
+			},
+			{
+				"k": " time(s)",
+				"v": " 次数"
+			},
+			{
+				"k": "Fired ",
+				"v": "燃尽"
+			},
+			{
+				"k": " / Lost ",
+				"v": "/丢失"
+			},
+			{
+				"k": "Last pearl arrived at ",
+				"v": "上一珍珠抵达"
+			},
+			{
+				"k": "Input ",
+				"v": "输入"
+			},
+			{
+				"k": "RF Gain ",
+				"v": "RF获取"
+			},
+			{
+				"k": "Lost ",
+				"v": "丢失 "
+			},
+			{
+				"k": "(sneak to get statistics)",
+				"v": "（潜行以获取统计信息）"
+			},
+			{
+				"k": "Mode: ",
+				"v": "模式："
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty/rftoolspower/compat/RFToolsPowerTOPDriver$EndermonitorDriver#DEBUG",
+			"method": "addProbeInfo",
+			"local": "MgetName"
+		},
+		"p": [
+			{
+				"k": "Lost Pearl",
+				"v": "珍珠丢失"
+			},
+			{
+				"k": "Pearl Fired",
+				"v": "珍珠燃尽"
+			},
+			{
+				"k": "Pearl Arrived",
+				"v": "珍珠到达"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.dimensionalcell.blocks.DimensionalCellBlock",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": " (max ",
+				"v": "(最大"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.dimensionalcell.blocks.DimensionalCellTileEntity",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": "dimension missing!",
+				"v": "维度丢失！"
+			},
+			{
+				"k": "normal",
+				"v": "普通"
+			},
+			{
+				"k": "advanced",
+				"v": "进阶"
+			},
+			{
+				"k": "creative",
+				"v": "创造"
+			},
+			{
+				"k": "not a powercell!",
+				"v": "非能量单元！"
+			},
+			{
+				"k": "Block: ",
+				"v": "方块："
+			},
+			{
+				"k": "The current RF/t output given by this block (last 2 seconds)",
+				"v": "此方块当前RF/t输入（过去2秒）"
+			},
+			{
+				"k": "The current RF/t input received by this block (last 2 seconds)",
+				"v": "此方块当前RF/t输出（过去2秒）"
+			},
+			{
+				"k": "The total RF/t output given by this block",
+				"v": "此方块总RF/t输出"
+			},
+			{
+				"k": "The current RF/t input received by this block",
+				"v": "此方块总RF/t输入"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.dimensionalcell.client.GuiDimensionalCell",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": "None",
+				"v": "清除"
+			},
+			{
+				"k": "Set all sides to 'none'",
+				"v": "将所有面设置为“无”"
+			},
+			{
+				"k": "In",
+				"v": "输入"
+			},
+			{
+				"k": "Set all sides to",
+				"v": "将所有面设置为"
+			},
+			{
+				"k": "accept energy",
+				"v": "输入"
+			},
+			{
+				"k": "Out",
+				"v": "输出"
+			},
+			{
+				"k": "send energy",
+				"v": "输出"
+			},
+			{
+				"k": "Stats",
+				"v": "统计"
+			},
+			{
+				"k": "Power statistics. Press to clear:",
+				"v": "能量统计数据。点击以清除"
+			},
+			{
+				"k": "Link:",
+				"v": "已链接："
+			},
+			{
+				"k": "Link a powercard to card",
+				"v": "在右边的槽内插入能量卡"
+			},
+			{
+				"k": "on the left",
+				"v": "以链接能量网络"
+			},
+			{
+				"k": "Inserted: ",
+				"v": "输入："
+			},
+			{
+				"k": "Extracted: ",
+				"v": "输出："
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.dimensionalcell.items.PowerCellCardItem",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": "<unlinked>",
+				"v": "<未链接>"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.generator.blocks.CoalGeneratorTileEntity",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": "generating power",
+				"v": "发电中"
+			},
+			{
+				"k": "idle",
+				"v": "空闲"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.monitor.client.GuiPowerMonitor",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": "Minimum level",
+				"v": "最小比例"
+			},
+			{
+				"k": "Maximum level",
+				"v": "最大比例"
+			},
+			{
+				"k": "Max:",
+				"v": "最大："
+			},
+			{
+				"k": "Min:",
+				"v": "最小："
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.powercell.blocks.PowerCellBlock",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": " (max ",
+				"v": "(最大"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty.rftoolspower.modules.powercell.client.PowerCellInformationRenderer",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": " Max: ",
+				"v": "最大："
+			},
+			{
+				"k": " Ext/t: ",
+				"v": "输出/Tick："
+			},
+			{
+				"k": " Ins/t: ",
+				"v": "输入/Tick："
+			},
+			{
+				"k": " Not a powercell",
+				"v": "非能量单元！"
+			},
+			{
+				"k": " or anything that",
+				"v": "或支持能量"
+			},
+			{
+				"k": " supports power",
+				"v": "处理的方块"
+			}
+		]
+	},
+	{
+		"t": {
+			"name": "mcjty/rftoolspower/modules/endergenic/client/GuiEndergenic",
+			"method": "",
+			"local": ""
+		},
+		"p": [
+			{
+				"k": " times",
+				"v": " 次数"
+			},
+			{
+				"k": " pearls",
+				"v": " 珍珠"
+			}
+		]
+	}
+]
