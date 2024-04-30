@@ -1,1 +1,155 @@
-[{"name":"ftbquests","desc":"ftbquests硬编码汉化。","authors":"KlparetlR","mods":"ftbquests","dynamic":false},{"target_class":{"name":"dev.ftb.mods.ftbquests.gui.quests.ChapterPanel$ModpackButton","method":"addMouseOverText"},"p":[{"k":"Doesn't stay open","v":"不保持展开"},{"k":"Stays open","v":"保持展开"}]}]
+[
+    {
+        "name": "ftbquests",
+        "desc": "ftbquests硬编码汉化。",
+        "authors": "KlparetlR、ZZi_Cai",
+        "mods": "ftbquests",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.ChapterPanel$ModpackButton",
+            "method": "addMouseOverText"
+        },
+        "p": [
+            {
+                "k": "Doesn't stay open",
+                "v": "不保持展开"
+            },
+            {
+                "k": "Stays open",
+                "v": "保持展开"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.gui.gui.quests.QuestButton",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Ctrl+A to select all quests",
+                "v": "按下Ctrl+A以全选所有任务"
+            },
+            {
+                "k": "Ctrl+D to deselect all quests",
+                "v": "按下Ctrl+D以取消选中所有任务"
+            },
+            {
+                "k": "Ctrl+Arrow Key to move selected quests",
+                "v": "按下Ctrl+方向键以移动所选任务"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.QuestPanel",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Selected: ",
+                "v": "已选择："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.QuestScreen",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Started: ",
+                "v": "已开始："
+            },
+            {
+                "k": "Completed: ",
+                "v": "已完成："
+            },
+            {
+                "k": "Claimed: ",
+                "v": "已领取："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.ValidItemsScreen",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Submit",
+                "v": "提交"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.gui.quests.ViewQuestPanel",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "[No Subtitle]",
+                "v": "[无标题]"
+            },
+            {
+                "k": "Text",
+                "v": "文本"
+            },
+            {
+                "k": "Image",
+                "v": "图片"
+            },
+            {
+                "k": "Unknown quest object id: %s",
+                "v": "未知任务对象ID：%s"
+            },
+            {
+                "k": "Invalid quest object id: %s (%s)",
+                "v": "无效任务对象ID： %s (%s)"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "dev.ftb.mods.ftbquests.client.ClientQuestFile",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Loading...",
+                "v": "加载中..."
+            },
+            {
+                "k": "Unable to open Quest GUI: no quest book data received from server!",
+                "v": "无法打开任务界面：未从服务器接收到任务数据！"
+            },
+            {
+                "k": "- Check that FTB Quests and FTB Teams are installed on the server",
+                "v": "-检查服务器是否安装FTB Quests和FTB Teams模组"
+            },
+            {
+                "k": "  and that no server-side errors were logged when you connected.",
+                "v": "以及在你加入服务器后服务器后台是否有报错日志。"
+            },
+            {
+                "k": "Non-null team required!",
+                "v": "Team不可为null！"
+            },
+            {
+                "k": "Quests locked!",
+                "v": "任务已锁定！"
+            }
+        ]
+    }
+]
