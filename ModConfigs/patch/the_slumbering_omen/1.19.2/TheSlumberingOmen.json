@@ -1,0 +1,3728 @@
+[
+    {
+        "name": "TheSlumberingOmen",
+        "desc": "TheSlumberingOmen硬编码汉化。",
+        "authors": "KlparetlR、老本願、青岚、NLG",
+        "mods": "TheSlumberingOmen3.8.2",
+        "dynamic": false
+    },
+    {
+        "p": [
+            {
+                "k": "A gift given to you by daraku as a sign of friendship (right click a block spike all neaby enemies.)",
+                "v": "达拉库作为友谊标志赠送给你的礼物 (右键单击一个方块刺穿所有附近的敌人。)"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.AbsolutionItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Mangles nearby mobs when used.",
+                "v": "使用时畸形周围的怪物。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BloodchargeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的下界石英。",
+                "v": "一块注入了愤怒魔法的地狱石英碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BloodquartzItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Blueprint (Gore Core)",
+                "v": "蓝图（血肉核心）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BlueprintgorecoreeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Shows all recipes for the infusion table.",
+                "v": "显示注入台的所有配方。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BookofinfusionsItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的铜锭。",
+                "v": "注入了愤怒魔法的铜锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BubblegumcopperItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A bundle of lacerator mandibles.",
+                "v": "一捆撕裂者下颚。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BundleoflaceratormandiblesItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "charges a meter occasionally when attacking enemies. rick click with a full meter to use a special atatck.",
+                "v": "在攻击敌人时，偶尔会充能一个计数器，计数器充满时，右键点击即可使用特殊攻击。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ChainbladeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange set of chains which can absorb the gained power of a void entity.",
+                "v": "一套奇特的锁链，可以吸收虚空实体获得的力量。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ChainsofnullificationItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Prevents daraku from blinding you when in your offhand.",
+                "v": "当你的副手持有时，可以防止达拉库使你失明。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CharmofclearsightItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Sacrife you blood for power... (offhand item",
+                "v": "为力量献出你的血液...（作为副手物品"
+            },
+            {
+                "k": "right click to get an attack buff in return for blood)",
+                "v": "右键点击时，以献祭血液换取攻击加成）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CharmofthederangedItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A harsh clawed gauntlet. (sometimes chips materials off of the omen when attacking)",
+                "v": "一个残酷的爪手套。(有时会在攻击时将碎片从预兆上削下来）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ChipclawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4A broken",
+                "v": "§4一个损坏的"
+            },
+            {
+                "k": "bloodstained scale from the hand of the omen.",
+                "v": "天平，来自预兆之手"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ChippedcrimsonscaleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The armor plate of a clamp jaw.",
+                "v": "钳颚的装甲板。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ClampjawplatingItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A large hammer made of abyss materials. Moves as if alive. (right click to slam the ground)",
+                "v": "由深渊材料制成的大锤子。移动起来就像有生命一样。(右击可重击地面）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ClampslammerItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An old torn photo stitched back together. There are two people in the frame",
+                "v": "一张被撕碎的旧照片重新拼接在一起。相框里有两个人"
+            },
+            {
+                "k": "one with a pair of familiar horns...",
+                "v": "一个人有一对熟悉的角..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CompletefadedphotoItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A cooked void cod. Very salty.",
+                "v": "煮熟的虚空鳕鱼。非常咸。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CookedvoidcodItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A chop of cooked voyager meat. Smells strangely sweet.",
+                "v": "一块煮熟的航海家肉。闻起来有股奇怪的甜味。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CookedVoyagerCutletItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "crouch in midair to gain slow falling for a few seconds. (Offhand Trinket)",
+                "v": "在半空中蹲下，可获得数秒的缓慢下落效果。（副手饰品）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CosmicshardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的青金石。",
+                "v": "一块注入了愤怒魔法的青金石碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CosmicslateItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An extremely hot mineral with lava stored inside.",
+                "v": "一种极热的矿物，内部蕴藏着熔岩。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CragstoneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A small charge of energy made from crag stone. (Swinging item adds Crag Guard II to the armor in your off hand)",
+                "v": "由峭岩制成的小块能量。(挥动物品可为你的副手中的护甲添加峭壁守卫 II）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CragwispItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The split body of a mangled creeper.",
+                "v": "一具残缺不全的畸形苦力怕尸体。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CreeperjawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Edible unlike its abyssal relative. Tastes like artificial cherry.",
+                "v": "可食用，不像它的深渊亲戚。味道像人造樱桃。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CrimsonbulbItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a short shadow step.",
+                "v": "套装奖励：在半空中蹲下，施展短距离影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakugearItem$Helmet"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a short shadow step",
+                "v": "套装奖励：在半空中蹲下，施展短距离影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakugearItem$Chestplate"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a short shadow step",
+                "v": "套装奖励：在半空中蹲下，施展短距离影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakugearItem$Leggings"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a short shadow step",
+                "v": "套装奖励：在半空中蹲下，施展短距离影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakugearItem$Boots"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A soul canister carrying Daraku. just make sure not to lose them.",
+                "v": "装有达拉库的灵魂罐。只要确保不丢失就可以了。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakusoulcanisterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Your already killed him like 3 times that wasnt necessary. (respawns daraku when used)",
+                "v": "你已经杀了他三次了，没必要再杀他。(使用时会重新生成达拉库）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakusoulcharmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Crystalized Tissue formed from excess void energy in Darakus body. Despite the name it is not his soul.",
+                "v": "达拉库体内多余的虚空能量形成的晶化组织。尽管名字如此，但这并不是他的灵魂。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarakusoulgemItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An odd substance from A tainted creatures body.",
+                "v": "一种从被污染的生物身体中提取的奇怪物质。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DarkmatterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lYour reward for bringing closure to the omen. (has a special attack",
+                "v": "§4§l你为预兆带来解脱而得到的奖励。§r(拥有特殊攻击效果，"
+            },
+            {
+                "k": "strikes twice",
+                "v": "能够连续攻击两次，施加虚弱效果，"
+            },
+            {
+                "k": "inflicts weakness and can kill unkilliable entitys such as the one who watches.)",
+                "v": "施加虚弱效果，并且能够杀死不死实体，例如那些注视你的。）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DeliriumItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A special disc fragment infused with radi'ite",
+                "v": "一个特殊的唱片碎片，注入了辐射元素"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DiscshardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A sample of ectoplasm taken from a fleeing distant one.",
+                "v": "从一个逃跑的遥远之物身上提取的外质样本。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistantectoplasmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A starved dagger made from the tooth of a distorted starved stalker.",
+                "v": "一把饥饿的匕首，由一个扭曲的饥饿潜行者的牙齿制成。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistorteddaggerItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An ice crystal grown within distorted Nyctosis's body. Never seems to melt.",
+                "v": "生长在扭曲的尼克托斯体内的冰晶。似乎永远不会融化。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortediceItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A small frozen scythe. (causes slowness on hit.)",
+                "v": "一把小型冰冻镰刀。(击中时会造成减速）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortedicesickleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The corrupt ender pearl of a mangled enderman.",
+                "v": "畸形末影人的腐败末影珍珠"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortedpearlItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The corrupted tooth of a distorted starved stalker. Just holding it drains your vitality",
+                "v": "扭曲的饥饿潜行者的腐烂牙齿。仅仅握住它，你的生命力就会被吸干"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortedstarvedtoothItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "One of distortis's razor sharp claws.",
+                "v": "扭曲者锋利的爪子之一。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortisclawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A sample of distortis's ragged flesh.",
+                "v": "扭曲者凋敝的血肉样本。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DistortishideItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed fingerbone of a mangled drowned",
+                "v": "畸形的溺尸被砍断的指骨"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.DrownedboneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A soul canister used to capture and transport npcs. just make sure not to lose them.",
+                "v": "用于捕获和运送 NPC 的灵魂罐。只要确保不丢失就可以了。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EmptysoulcanisterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A enchanted crimson bulb. Tastes like artificial cherry",
+                "v": "迷人的绯红球茎。尝起来像人造樱桃"
+            },
+            {
+                "k": "and sorrows?",
+                "v": "以及悲伤？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EnchantedbulbItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Used to upgrade Infernal Entropy at the Altar of Ire",
+                "v": "用于在 \"愤怒祭坛 \"升级 \"地狱混沌\""
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EntropiccoreIIItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Used to upgrade Entropy at the Altar of Ire",
+                "v": "用于在 \"愤怒祭坛 \"升级 \"混沌\""
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EntropiccoreiItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4It seems to be alive somehow. (right click a block to perform a special attack)",
+                "v": "§4它似乎活着。(右键单击方块进行特殊攻击）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EntropyItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Summons the purest form of the distorted one. (summons a chibi daraku pet",
+                "v": "召唤最纯净的扭曲形态。(召唤迷你达拉库宠物"
+            },
+            {
+                "k": "right click to tame.)",
+                "v": "右键来驯服）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EssenceofdistortionItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A decorated scout horn. from australia. (Ezure youtuber item.)",
+                "v": "带装饰的侦查者号角，来自澳大利亚。(油管主Ezure的物品）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.EzurehornItem"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.item.FadedphotofourItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.FadedphotooneItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.FadedphotothreeItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.FadedphototwoItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "A peice of a torn photo.",
+                "v": "一张被撕碎的照片。"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.item.FalseGodsWrathItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.InfernalEntropyScytheItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§4Charged with a strange energy. (right click a block to perform a special attack)",
+                "v": "§4充斥着奇异的能量。(右键单击方块进行特殊攻击）"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "Killing any entity wearing this item has a 10% chance to drop a shard of irestone.",
+                "v": "杀死任何佩戴此物品的实体都有 10% 的几率掉落一块怒火合金碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FollowermaskItem$Helmet"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A shard of a followers mask",
+                "v": "追随者面具的碎片"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FollowershardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4The broken claw of a powerful creature",
+                "v": "§4一个强大生物的断爪"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FracturedripclawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A sword made from permafrost ice",
+                "v": "用永冻之冰制成的剑"
+            },
+            {
+                "k": "Reinforced by Glykaris's flesh.",
+                "v": "格莱卡利斯的血肉强化了它。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FrostbittenbladeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A rapier made from permafrost ice. (Right click to trigger parry)",
+                "v": "永冻冰制成的细剑。(右键单击触发招架）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FrostbittenrapierItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The jaw of a frostcrawler",
+                "v": "冰霜爬行者的下颌"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FrostclawlermawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The leg of a frostcrawler",
+                "v": "冰霜爬行者的腿"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.FrostcrawlerlegItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A popsicle made of gellius slime.",
+                "v": "一种用格利乌斯粘液制成的冰棍。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GelliuspopItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A colossal frozen club make from one of glykaris's sturdy arms. (right click to slam the ground)",
+                "v": "从格莱卡利斯的一只粗壮手臂上制作出的一根巨大冰冻棍棒。(右键点击可重击地面）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlacialclashItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A sample of Glykaris's solidified flesh.",
+                "v": "格莱卡利斯固化血肉的样本。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisfleshItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Very high defense. Set bonus: Allows water breathing.",
+                "v": "高的防御力。套装奖励：允许水呼吸。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisgearItem$Helmet"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Very high defense. Set bonus: Allows water breathing.",
+                "v": "高的防御力。套装奖励：允许水呼吸。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisgearItem$Chestplate"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Very high defense. Set bonus: Allows water breathing.",
+                "v": "高的防御力。套装奖励：允许水呼吸。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisgearItem$Leggings"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Very high defense. Set bonus: Allows water breathing.",
+                "v": "高的防御力。套装奖励：允许水呼吸。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisgearItem$Boots"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "One of glykaris's massive arms.",
+                "v": "甘卡利斯的一只巨大手臂。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarishammerarmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A shard of ice from Glykaris's body. Never seems to melt.",
+                "v": "来自格莱卡利斯身体的冰碎片。似乎永远不会融化。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarisiceItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A soul canister carrying glykaris. just make sure not to lose them.",
+                "v": "携带格莱卡利斯的灵魂罐。只要确保不丢失就可以了。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GlykarissoulcanisterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The arm in a mangled iron golem.",
+                "v": "一个畸形的铁傀儡的手臂。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GolemarmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "chance to lifesteal when hitting an enemy.",
+                "v": "击中敌人时有几率偷取其生命值。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GoreclaymoreItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的紫水晶碎片。",
+                "v": "注入愤怒魔法的紫水晶碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GoreshardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A greatsword forged from the power of the void.",
+                "v": "虚空之力铸就的巨剑。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GreatswordofthedistortedItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A greatsword crafted from vantablack reaper materials",
+                "v": "用凡塔布莱克收割者材料打造的巨剑"
+            },
+            {
+                "k": "move like a blur through the night.",
+                "v": "在夜色中如影随形。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GreatswordofthereaperItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "are these made out of its own horns..?",
+                "v": "这些是用它自己的角做的吗...？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeadressItem$Helmet"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Is this some kind of joke?",
+                "v": "这是在开玩笑吗？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeadressItem$Chestplate"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "This isnt armor.",
+                "v": "这不是盔甲。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeadressItem$Leggings"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Why would it give me this?",
+                "v": "为什么它会给我这个？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeadressItem$Boots"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Resummons the vantablack reaper when used at a lumen altar.",
+                "v": "在路米纳多祭坛上使用时，可重新召唤凡塔布莱克收割者。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeartoftheancientsItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A massive spear made to puncture ribcages. (inflicts heartattack which causes every attack to have a chance to deal extra damage)",
+                "v": "一根巨大的长矛，可刺穿脊肋。(造成心脏攻击，使每次攻击都有几率造成额外伤害）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HeartstopperspearItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The hair of a mangled hoglin.",
+                "v": "扭曲的猪灵的毛发。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HoglinhairItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed sickle-like finger of a mangled husk.",
+                "v": "被砍断的镰刀般畸形的尸壳的手指，"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.HusksickleboneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The ice covered bone of a mangled stray.",
+                "v": "被冰块覆盖的畸形的流浪者的骨头。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IceguillotineItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A small frozen sickle. (causes slowness on hit.)",
+                "v": "一把小型冰冻镰刀。(击中时会造成减速。）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IcesickleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4An incredibly durable fragment of a wicked creatures horns",
+                "v": "§4耐用到离谱的邪恶生物角的碎片"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IrebonefragmentItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的煤炭。",
+                "v": "注入愤怒魔法的煤炭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreemberItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An Iresteel Axe. (inflicts flames of agony)",
+                "v": "一把怒火合金斧。(造成苦难之焰）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreflameaxeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An Iresteel sword. (inflicts flames of agony)",
+                "v": "一把怒火合金剑。(造成苦难之焰）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreflamesabreItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的钻石。",
+                "v": "注入愤怒魔法的钻石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IregemItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的下界合金。",
+                "v": "注入愤怒魔法的下界合金。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreiteItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的铁锭。",
+                "v": "注入愤怒魔法的铁锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IresteelingotItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A shard of stone thats been infected with the omens magic.",
+                "v": "一块被预兆魔法感染的石头碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IrestoneshardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The bloody teeth of a mangled sheep.",
+                "v": "畸形的羊血淋淋的牙齿"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.JaggedteethItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "More jawblades more jawblades MORE JAWBLADES!  (inflicts bleed",
+                "v": "更多的痛苦 更多的痛苦 更多的痛苦之牙！（造成流血"
+            },
+            {
+                "k": "ocassionally applies regeneration to yourself if wearing a void armor set)",
+                "v": "如果身着虚空盔甲套装，偶尔会对自身应用生命回复效果）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.JawsofsufferingItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The flesh of a lacerator. Squishy like Gelatin.",
+                "v": "撕裂者的肉。像明胶一样柔软"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LaceratorfleshItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The razor sharp mandible of a lacerator.",
+                "v": "撕裂者锋利的下颌骨。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LaceratormandibleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A brutal makeshift blade made from the body parts of void entities. (inflicts bleed",
+                "v": "用虚无实体的身体部位制成的一把残暴的备刃。(造成流血"
+            },
+            {
+                "k": "ocassionally applies regeneration to yourself if wearing a void armor set)",
+                "v": "如果身着虚空盔甲套装，偶尔会对自身应用生命回复效果）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LaceratorsedgeswordItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The plasm from the eye of a lanternling.",
+                "v": "来自灯笼灵的质体。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LanternplasmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Fires a lazer after a delay when swung.",
+                "v": "挥动时，在一定延迟后发射激光。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LazerrifleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange shard from A tainted creatures body.",
+                "v": "一种从被污染的生物身体中提取的奇怪物质。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LostshardItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A thin limb from A tainted creatures body.",
+                "v": "被污染的生物身体的一根纤细肢体。被污染的生物身体的一根纤细肢体。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.LosttendrilItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The ear of a mangled cat.",
+                "v": "一只畸形的猫的耳朵"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.MangledcatearItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "One of the voidforged scaled of daraku.",
+                "v": "达拉库的虚空锻造鳞片之一。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.MidnightScaleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Absords an infinite amount of water.",
+                "v": "无穷无尽的水。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.MoltenbucketItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的金锭。",
+                "v": "注入愤怒魔法的金锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.MoltengoldingotItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Inflicts wither",
+                "v": "造成凋零"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.NightmaredaggerItem"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.item.NightmarereaverscytheItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.ScoutreaverscytheItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "Sometimes inflicts bleed.",
+                "v": "有时会造成出血。"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "An odd rune. holding it makes you uneasy.",
+                "v": "一个奇怪的符文。拿着它让你感到不安。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OddruneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A large spine from an overseers body.",
+                "v": "监视者身上的大脊柱。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OddspikeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lOne of the oversized claws of the slumbering omen. They remain razor sharp even after centuries.",
+                "v": "§4§l沉睡预兆的超大爪子之一 即使过了几个世纪，它们依然锋利无比"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OmenClawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lThe sturdy hide of the slumbering omen. Puts even most metals to shame.",
+                "v": "§4§l沉睡预兆的坚固皮毛。让大多数金属都黯然失色。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OmenHideItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lA massive horn of the slumbering omen. Unbreakable against even the strongest attacks",
+                "v": "§4§l沉睡预兆的巨型犄角。即使使出最强大的攻击也扔坚不可摧"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OmenhornItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lA flawness scale of the slumbering omen. It glows a magnificent ruby red.",
+                "v": "§4§l沉睡预兆的伤缺的鳞片。它闪耀着华丽的宝石红色。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OmenScaleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Looks delicious. Loved by a certain entity.",
+                "v": "看起来很美味。某个实体的最爱。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OminousberrytreatItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4Highly resistant to most blades",
+                "v": "§4对大多数刀剑具有很强的抵抗力"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OminoustissuesampleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The leg of an Optic Stalker.",
+                "v": "光线追踪者的腿。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OpticrawlerlegItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A rapier made of mangled materials. (Right click to trigger parry)",
+                "v": "一把用畸形材料制成的细剑。(右键单击触发招架）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OrganrapierItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A scrap of preserved voidmatter from the birth of the distortion.",
+                "v": "扭曲者诞生时留存下来的虚空物质碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OriginmatterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Fires a lazer after a delay when swung. (creative item)",
+                "v": "挥动时延迟发射激光。(创造物品）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.OverchargelazerrifleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "sometimes inflicts slowness.",
+                "v": "有时会造成缓慢。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PaladinsledgeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The massive spine of a paladin.",
+                "v": "圣骑士的巨大脊柱"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PaladinspineItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A sample of the see-through skin of daraku",
+                "v": "达拉库透明的皮肤样本"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PhantasmalmembraneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The tusk of a mangled piglin",
+                "v": "畸形的猪的獠牙"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PiglintuskItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed jaw of a mangled polar bear",
+                "v": "被砍断畸形的北极熊下巴"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PolarbearjawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A blade forged of void and ire (Jamsteo Gift Item",
+                "v": "虚空与愤怒铸就的利刃（Jamsteo 礼物物品"
+            },
+            {
+                "k": "Inflicts flames of agony",
+                "v": "造成苦难之焰"
+            },
+            {
+                "k": "Right click when wearing a void armor set to summon a line of spikes inflict of you after a short delay)",
+                "v": "穿戴虚空盔甲时右键单击，可在短暂延迟后从你身上召唤一排尖刺)"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.PsychosreaverswordItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The flesh of a VoidSent Disciple",
+                "v": "虚空新生者的肉体"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RadiectoplasmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Gives XP when used.",
+                "v": "使用时可获得 XP。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RadiitecatalystItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange charm made of radi'ite that jingles when shaken. Beloved by a certain entity.",
+                "v": "用辐射制作的奇特护身符，摇动时会发出叮当声。深受某个实体的喜爱。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RadiitecharmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange distorted crystal taken from darakus domain.",
+                "v": "取自达拉库斯领域的奇特扭曲水晶。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RadiitecrystalItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A chop of raw voyager meat. smells odd.",
+                "v": "一块生的航海家肉，闻起来怪怪的。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RawVoyagerCutletItem"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.item.ReaperssickleItem"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.item.VoidsentsickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "A sickle made from the arm of a Void Sent Rookie. (inflicts wither and increases speed in dark areas)",
+                "v": "一把镰刀，由虚空新生者的手臂制成。(在黑暗区域可造成凋零并提高速度）"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "Resets the omens memory. allowing him to be aggressive again.",
+                "v": "重置预兆记忆，让他再次发挥攻击性。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ResetterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The lens of a rogue class scout. It looks upset",
+                "v": "劣种侦查者的晶状体。看起来很沮丧"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RoguelensItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The fleshy armor of a rogue class scout. tough and suprisingly stretchy.",
+                "v": "劣种侦察兵的肉质盔甲。坚硬且具有惊人的伸缩性。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RogueplatingItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The arm sickle of a voidsent rookie.",
+                "v": "一个新生者的臂镰。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RookiehookItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The leather from a mangled cow.",
+                "v": "一头畸形的牛身上的皮革。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.RottenLeatherItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A cut of cooked scamperer meat.",
+                "v": "一块煮熟的弹跳者肉。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScampererchopcookedItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A cut of raw scamperer meat.",
+                "v": "一块生的弹跳者肉。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScampererchopItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "An offering for the great hotdog man. (Jackiepoo gift item.)",
+                "v": "为伟大的热狗人献礼。（Jackiepoo的礼品）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScampererhotdogItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Its kind of cute in a way.",
+                "v": "从某种程度上来说，它还挺可爱的。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScouterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The soft casing of a scout hatchling.",
+                "v": "侦查者幼体的软壳。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScouthatchlingshellItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Plays a familiar tune.",
+                "v": "演奏熟悉的曲调"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScouthornItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The lens of a scouts eye. its still moving.",
+                "v": "侦察兵眼睛的晶状体，它仍在移动。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScoutlensItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed leg of a scout. suprisingly sharp for such a small creature.",
+                "v": "一个侦查者的断腿。如此小的生物的退竟然如此锋利。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScoutrazorclawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The lower body of a scout. its hollow inside.",
+                "v": "侦查者的下半身，内部中空。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.ScoutspineItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A roasted crimson bulb. Tastes like artificial cherry",
+                "v": "烤过的绯红球茎。口感类似人造樱桃"
+            },
+            {
+                "k": "and char.",
+                "v": "和焦炭"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SearedbulbItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A serrated blade made of mangled mob parts. (inflicts bleed)",
+                "v": "由畸形的暴徒身体部件制成的锯齿状刀刃。(造成流血）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SerratedbladeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed arm of A void Disciple.",
+                "v": "虚空教徒的断臂。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SeveredarmItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The sharp tendril of a mangled pig.",
+                "v": "被畸形的猪的尖锐卷须。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SeveredtendrilItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The overgrown fingerbone of a mangled zombie.",
+                "v": "畸形的僵尸过度生长的指骨"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SharpfingerboneItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The spine of a mangled chicken.",
+                "v": "一只畸形的鸡的脊柱。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SharpspineItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Prevents most entities from despawning during the chase",
+                "v": "防止大多数实体在追逐过程中消失"
+            },
+            {
+                "k": "for those brave enough to challenge them.",
+                "v": "为了那些勇于挑战它们的人。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SigilofbraveryItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange idol which resonates when near The Slumbering Omens energy.",
+                "v": "感受到沉睡的预兆身上的能量会产生共鸣的奇怪印记。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SigilofpurityItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A small charge of energy made from crag stone (Swinging adds Crag Guard I to the armor in your off hand)",
+                "v": "由峭岩制成的小块能量。(挥动物品可为你的副手中的护甲添加峭壁守卫 I）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SmallcragwispItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The severed tendril of a mangled spider.",
+                "v": "被畸形的蜘蛛的卷须。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SpectatingtendrilItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的绿宝石。",
+                "v": "注入愤怒魔法的绿宝石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SunsetjewelItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A scrap of bloodied cloth from a mangled witch.",
+                "v": "从一个畸形的女巫身上撕下的带血布条。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TatteredclothItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "has a chance to inflict bleeding when an enemy hits you.",
+                "v": "当敌人击中你时，有几率造成流血。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TatteredclothrobeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The tattered cloth from a VoidSent Disciples robe.",
+                "v": "虚空教徒长袍上的破布。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TatteredvoidclothItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "(Has a low chance to grant regeneration when hitting an enemy)",
+                "v": "(击中敌人时有较低几率获得生命回复）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TendonaxeItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lA brutal whip made of flesh and bone. (has a second hitbox that deals less damage but strikes from further away)",
+                "v": "§4§l用肉和骨头做成的暴虐鞭子。（有第二命中箱，伤害较低，但攻击距离较远）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TendonWhipItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A soul canister carrying Tiso. just make sure not to lose them.",
+                "v": "携带提索的灵魂罐。只要确保不丢失就可以了。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TisosoulcanisterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "NOO WHY WOULD YOU KILL HIM! (respawns tiso when used)",
+                "v": "你为什么要杀他！(使用后可重生提索）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TisosoulgemItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The jagged ribcage segment of a mangled skeleton.",
+                "v": "一具畸形的骷髅骨上参差不齐的肋骨部分。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TrappedribcageItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A core made of pure void",
+                "v": "由纯粹虚空构成的核心"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.TruevoidmatterItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "注入愤怒魔法的红石。",
+                "v": "注入愤怒魔法的红石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.UnstablepowderItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a shadow step.",
+                "v": "套装奖励：在半空中蹲下，施展影子步."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackarmorItem$Helmet"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a shadow step",
+                "v": "套装奖励：在半空中蹲下，施展影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackarmorItem$Chestplate"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a shadow step",
+                "v": "套装奖励：在半空中蹲下，施展影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackarmorItem$Leggings"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "Set bonus: crouching in mid air performs a shadow step",
+                "v": "套装奖励：在半空中蹲下，施展影子步"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackarmorItem$Boots"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A biolumenescent fang of the vantblack reaper.",
+                "v": "凡塔布莱克收割者的生物獠牙。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackfangItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Fades to a faint indigo after the reapers death. Extremely durable.",
+                "v": "收割者死后会褪成淡淡的靛蓝色。极其耐用。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablackscaleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A biolumenescent tail spike of the vantblack reaper.",
+                "v": "凡塔布莱克收割者的生物叉尾。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VantablacktailItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The jaw of a mangled villager.",
+                "v": "被畸形的村民的下颚"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VillagerjawItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A vicious gauntlet made of flesh and bone. (inflicts bleed)",
+                "v": "由血肉和骨头制成的邪恶臂铠。(造成流血）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VisciousgauntletItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A special pickaxe given to you by daraku. (right click to crack bedrock",
+                "v": "达拉库送给你的特殊镐。(右键点击可敲开基岩"
+            },
+            {
+                "k": "right click broken bedrock in the distortion to break into the abyss)",
+                "v": "右键点击扭曲中的破碎基岩，进入深渊）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidbreakerItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The thin scale of a voidcaller. maybe it has some use?",
+                "v": "虚空召唤者的鳞片很薄，也许有什么用处？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidcallerscaleItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "set bonus: grants speed and jump boost when sneaking",
+                "v": "套装奖励：潜行时提升速度和跳跃能力"
+            },
+            {
+                "k": "buffs most distortion gear when worn.",
+                "v": "佩戴后可为大多数扭曲装备增益。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidClothItem$Helmet"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "set bonus: grants speed and jump boost when sneaking",
+                "v": "套装奖励：潜行时提升速度和跳跃能力"
+            },
+            {
+                "k": "buffs most distortion gear when worn.",
+                "v": "佩戴后可为大多数扭曲装备增益。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidClothItem$Chestplate"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "set bonus: grants speed and jump boost when sneaking",
+                "v": "套装奖励：潜行时提升速度和跳跃能力"
+            },
+            {
+                "k": "buffs most distortion gear when worn.",
+                "v": "佩戴后可为大多数扭曲装备增益。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidClothItem$Leggings"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "set bonus: grants speed and jump boost when sneaking",
+                "v": "套装奖励：潜行时提升速度和跳跃能力"
+            },
+            {
+                "k": "buffs most distortion gear when worn.",
+                "v": "佩戴后可为大多数扭曲装备增益。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidClothItem$Boots"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A fish from the distortion. Very odd taste.",
+                "v": "一条来自扭曲世界的鱼。味道非常奇怪。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidcoditemItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "One of darakus sturdy horns.",
+                "v": "达拉库坚固的角之一。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidforgedhornItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A blade crafted from the arm of a Void Disciple.",
+                "v": "用虚空教徒的手臂打造的利刃。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidkatanaItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The pitch black lens of a distorted scout",
+                "v": "扭曲的侦查者的漆黑晶状体"
+            },
+            {
+                "k": "Corrupted by the void itself.",
+                "v": "被虚空本身所侵蚀"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.VoidlensItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Wards off the slumbering omen when in the offhand but is destroyed in the process.",
+                "v": "使用时可抵挡沉睡的预兆，但在使用过程中会被摧毁。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.WardingsigilItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The whip-like tongue of a mangled horse.",
+                "v": "畸形的马的鞭一样的舌头。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.WhiptongueItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "The Severed Tail of a Mangled Wolf",
+                "v": "被砍断的畸形的狼的尾巴"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.WolfjawtailItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Death by 1000 puncture wounds. (inflicts bleed",
+                "v": "被 1000 处刺伤致死。(造成流血"
+            },
+            {
+                "k": "ocassionally applies regeneration to yourself if wearing a void armor set)",
+                "v": "如果身着虚空盔甲套装，偶尔会对自身应用生命回复效果）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.YggdrasilItem"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.AbsolutedreadActiveTickConditionProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.CrushingOmenActiveTickConditionProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.VeryverybadomenActiveTickConditionProcedure"
+            }
+        ],
+        "p": [
+            {
+                "k": "§4I Cant...",
+                "v": "§4我不可以..."
+            },
+            {
+                "k": "§4Not So Fast...",
+                "v": "§4没那么快..."
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "§4hmm...",
+                "v": "§4hmm..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.AbsolutedreadEffectExpiresProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "crushing omen hurts you if your in dark places!",
+                "v": "如果你身处黑暗之地，粉碎预兆效果会伤害你！"
+            },
+            {
+                "k": "distorted ender pearls can shield you from absolute dread. although you might not need that information now.",
+                "v": "扭曲的末影珍珠能让你免于绝对的恐惧。尽管你现在可能不需要这些信息。"
+            },
+            {
+                "k": "voidcallers wont call for help if you kill them with arrows!",
+                "v": "如果你用箭射死虚空召唤者，他们就不会求救了！"
+            },
+            {
+                "k": "I saw unfamiliar creatures wandering around the distortion I wonder if thats concerning.",
+                "v": "我看到一些陌生的生物在扭曲之地的周围游荡，不知道这是否与它们有关。"
+            },
+            {
+                "k": "Scouts love berry treats as much as I do! you can even tame them with them.",
+                "v": "侦查者和我一样喜欢吃浆果零食！你甚至可以用它们来驯服它们。"
+            },
+            {
+                "k": "origin matter is found at the bottom of the distortion similar to netherite!",
+                "v": "在扭曲之地的底部发现了与地狱石类似的起源物质！"
+            },
+            {
+                "k": "Radi'ite catalysts are a great source of easy xp!",
+                "v": "辐射催化剂是轻松获得 xp 很好的来源！"
+            },
+            {
+                "k": "IreStone ore can be found near the bottom of the overworld.",
+                "v": "怒火合金矿石可以在主世界地底附近找到。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.AdviceProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4§lChapter One: Disturbed Rest",
+                "v": "§4§l第一章：被扰乱的安息"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ChapteroneProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§5§lChapter Three: Flames of Hatred.",
+                "v": "§5§l第三章：仇恨之焰"
+            },
+            {
+                "k": "(Chapter 3 is not done yet this trigger was put in place to prevent players from needing to refight glykaris to get to chapter 3 once it releases.)",
+                "v": "(第三章还没有完成，设置这个触发器是为了防止玩家在第三章发布后需要重新与格莱卡利斯战斗才能进入第三章）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ChapterthreeProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§b§lChapter Two: Sorrowful Winter",
+                "v": "§b§l第二章：悲哀之冬"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ChaptertwoProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§l§4The Slumbering Omen: Your time is limited.",
+                "v": "§l§4沉睡的预兆：你的时间有限"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.CrazyiwascrazyonceEffectStartedappliedProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Huh? You wanna go somewhere?",
+                "v": "嗯？你想去什么地方吗？"
+            },
+            {
+                "k": "Alright ill stop.",
+                "v": "好的，我停下。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.DarakufollowandstayProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Mission? What?",
+                "v": "任务？什么任务？"
+            },
+            {
+                "k": "Am I supposed to give you a quest or something?",
+                "v": "我是不是该给你一个任务什么的？"
+            },
+            {
+                "k": "Uuuh.",
+                "v": "呃......"
+            },
+            {
+                "k": "Well, hmm. Bring me one block of origin matter I guess.",
+                "v": "嗯 给我拿一块起源物质吧。"
+            },
+            {
+                "k": "(I wonder if they'll actually do this stupid quest.)",
+                "v": "(不知道他们是否真的会完成这个愚蠢的任务）。"
+            },
+            {
+                "k": "Oh- You, actually did it?",
+                "v": "你真的照做了？"
+            },
+            {
+                "k": "Huh I wasnt actually expecting that.",
+                "v": "呵呵，我还真没想到。"
+            },
+            {
+                "k": "Hey. I might actually have something for you to do.",
+                "v": "嘿，我可能真的有些活给你做。"
+            },
+            {
+                "k": "Come talk to me again if your interested.",
+                "v": "如果你有兴趣，可以再来找我。"
+            },
+            {
+                "k": "Hey.",
+                "v": "嘿。"
+            },
+            {
+                "k": "Well you've come back so i guess you want that quest.",
+                "v": "你回来了，所以我猜你想要那个任务。"
+            },
+            {
+                "k": "I've never told you but when I was still empowered I was in a little battle of my own. Just like you and tiso.",
+                "v": "我从来没有告诉过你，但当我还拥有力量的时候，我自己也在进行一场小小的战斗。就像你和提索一样"
+            },
+            {
+                "k": "Deep beneath the bedrock of the distortion. Something has been trying crawl its way out from the depths.",
+                "v": "在扭曲之地的基岩深处。有什么东西一直试图从深处爬出来。"
+            },
+            {
+                "k": "This creature is ancient. Its lived since the birth of the distortion it very well could be billions of years old ",
+                "v": "这种生物非常古老。它从扭曲之地诞生之初就开始存在，很可能已经有数十亿年的历史了 "
+            },
+            {
+                "k": "My disciples and I have been keeping that thing down there for years. And without me, im afraid it might escape.",
+                "v": "我和我的教徒们已经把那东西关在下面好多年了。如果没有我，我怕它会跑掉。"
+            },
+            {
+                "k": "Its a pretty tough ask. But if you've got the guts to go down there and defeat it, that could weaken it enough to keep it bound.",
+                "v": "这是一个相当艰难的要求。但如果你有胆量下去打败它，就能削弱它的力量，让它束手就擒。"
+            },
+            {
+                "k": "Oh yeah. And dont try any of your friendship nonsense with this creature it was never human it does not feel, it only wishes to hunt any living thing it sees.",
+                "v": "对了 不要跟这种生物谈什么友谊，它从来就不是人类，它没有感情，它只想猎杀它看到的任何生物。"
+            },
+            {
+                "k": "If you choose to do this. Take this to break through the bedrock twice at the bottom of the distortion. Also, good luck, your gonna need it.",
+                "v": "如果你选择这样做。用它来两次突破扭曲之地底部的基岩。另外，祝你好运，你会需要它的。"
+            },
+            {
+                "k": "Oh and if you need another one of those It'll cost you another origin matter block hehehe",
+                "v": "哦，如果你还需要一个，那就得再花一个起源物质块了。"
+            },
+            {
+                "k": "If your up to the task go down to bedrock and break it open. attempting to break it a second time should let you access the abyss.",
+                "v": "如果你能完成任务，就下到基岩处将其撸开。尝试再次撸掉它，就能进入深渊。"
+            },
+            {
+                "k": "What.",
+                "v": "什么？"
+            },
+            {
+                "k": "Wait you actually fended it off?",
+                "v": "等等，你真的把它击退了？"
+            },
+            {
+                "k": "What do you mean you killed it?!",
+                "v": "你杀了它是什么意思？"
+            },
+            {
+                "k": "Wow. you never cease to amaze me kid.",
+                "v": "哇，你真是让我大吃一惊，孩子。"
+            },
+            {
+                "k": "To be honest I assumed that thing was immortal.",
+                "v": "老实说，我以为那东西是不死之身。"
+            },
+            {
+                "k": "Well I gotta say kid, you got a lot going for you. I would say you've proved yourself.",
+                "v": "我得说，孩子，你有很多优点。我想说，你已经证明了自己。"
+            },
+            {
+                "k": "From now on that thing shouldnt bother you in the abyss. so feel free to explore it to your hearts content.",
+                "v": "从现在开始，深渊中的那东西就不会再打扰你了，请尽情探索吧。"
+            },
+            {
+                "k": "Oh yeah I suppose I should give you your reward.",
+                "v": "对了，我想我该给你奖励了。"
+            },
+            {
+                "k": "I made this myself take good care of it",
+                "v": "这是我自己做的，要好好保管"
+            },
+            {
+                "k": "Welp. other than that I dont have anything for you to do now. Stay safe out there bud.",
+                "v": "除此之外，我现在也没别的事让你做了。注意安全。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.DarakumissionProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "What the hell.",
+                "v": "什么鬼。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.DarakusoulcharmRightclickedOnBlockProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Alright I'll stay around here.",
+                "v": "好吧，我就待在这附近"
+            },
+            {
+                "k": "Alright I'll move again",
+                "v": "好吧，我再移动起来"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.DarakustayandmoveProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Distorted creatures are no longer invading the Overworld!",
+                "v": "扭曲生物不再入侵主世界！"
+            },
+            {
+                "k": "Tiso would like to talk to you.",
+                "v": "提索想和你谈谈。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.DarakutransformOnInitialEntitySpawnProcedure"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.DistortedscoutEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.DistortedstalkerchaseEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.DistortischaseEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.HunttriggersProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.LaceratorEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.LanternlingEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.NyctosisdistortchaseThisEntityKillsAnotherOneProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.VoidcallerEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.VoideddisciplefeEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.VoidmaggotEntityDiesProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.VoidsentrookieEntityDiesProcedure"
+            }
+        ],
+        "p": [
+            {
+                "k": "Objective complete! Return to glykaris.",
+                "v": "目标已完成！返回格莱卡利斯那。"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "§l§4What?",
+                "v": "§l§4什么？"
+            },
+            {
+                "k": "§l§4What is this?",
+                "v": "§l§4这是什么？"
+            },
+            {
+                "k": "§l§4Who are these people. they look so. familiar...",
+                "v": "§l§4这些人是谁 他们看起来如此眼熟"
+            },
+            {
+                "k": "§l§4How could I have forgotten.",
+                "v": "§l§4我怎么会忘记呢。"
+            },
+            {
+                "k": "§l§4My worst mistake.",
+                "v": "§l§4这是我最大的错误"
+            },
+            {
+                "k": "§l§4I lost control and pushed the people closest to me away...",
+                "v": "§l§4我失去了控制，把最亲近的人推得远远的..."
+            },
+            {
+                "k": "§l§4I never even got to apologize for how I acted.",
+                "v": "§l§4我甚至没有机会为我的行为道歉。"
+            },
+            {
+                "k": "§l§4Now all my siblings will remember of me is the grief I caused them.",
+                "v": "§l§4现在，我的兄弟姐妹只记得我给他们带来的悲伤。"
+            },
+            {
+                "k": "§l§4Our parents death took a toll on all of us. I shouldnt have been so selfish.",
+                "v": "§l§4父母的去世对我们所有人都造成了伤害。我不该这么自私的。"
+            },
+            {
+                "k": "§l§4I suppose in a way. I took it out on you too human.",
+                "v": "§l§4我想在某种程度上，我把气都撒在你身上了。"
+            },
+            {
+                "k": "§l§4I... apologize for that. and any trouble I caused you.",
+                "v": "§l§4我......为此道歉，也为给你带来的麻烦道歉。"
+            },
+            {
+                "k": "§l§4And thank you. For bringing me to my senses.",
+                "v": "§l§4谢谢你，让我恢复了理智。"
+            },
+            {
+                "k": "§l§4I know it isnt much. but please take this as a token of my gratitude.",
+                "v": "§l§4我知道这不算什么，但请收下我的谢意。"
+            },
+            {
+                "k": "Distorted Creatures Are Invading The Overworld!",
+                "v": "扭曲的生物正在入侵主世界！"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.EndcutsceneOnInitialEntitySpawnProcedure"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.FakechaserOnInitialEntitySpawnProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.TSOchaseOnInitialEntitySpawnProcedure"
+            }
+        ],
+        "p": [
+            {
+                "k": "§4§lThe Slumbering Omen: OH YOU WANNA FIGHT HUH?!",
+                "v": "§4§l沉睡的预兆：你想打架吗？！"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "Where do you want to go?",
+                "v": "你想去哪里？"
+            },
+            {
+                "k": "Ok I'll stop following you",
+                "v": "好的，我不再跟着你了"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.FollowandstayProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "What? Why are you giving me this? I dont understand you human.",
+                "v": "什么？你为什么给我这个？我不明白你这个人类。"
+            },
+            {
+                "k": "I dont want your pitty.",
+                "v": "我不需要你的同情。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GiftProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Glykaris has retreated!",
+                "v": "格莱卡利斯撤退了！"
+            },
+            {
+                "k": "Tiso would like to talk to you...",
+                "v": "提索想和你谈谈..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarisarmorbreakOnInitialEntitySpawnProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Tiso would like to talk to you.",
+                "v": "提索想和你谈谈。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarisbrokenchaseEntityDiesProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Tiso would like to talk to you!",
+                "v": "提索想和你谈谈！"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarisbrokenchaseRightClickedOnEntityProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "where are we going?",
+                "v": "我们要去哪儿？"
+            },
+            {
+                "k": "ok,",
+                "v": "好的，"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarisfollowandstayProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "You want to test your strength huh? go and kill 20 distortion monsters and return to me.",
+                "v": "你想试试自己的实力吗？去杀 20 个扭曲的怪物再回来找我"
+            },
+            {
+                "k": "You want to test your strength huh? go and kill 20 zombies and return to me.",
+                "v": "你想试试自己的实力吗？去杀 20 个僵尸再回来找我。"
+            },
+            {
+                "k": "You want to test your strength huh? go and kill 15 skeletons and return to me.",
+                "v": "你想试试自己的实力吗，去杀了 15 个骷髅再回来找我。"
+            },
+            {
+                "k": "You want to test your strength huh? go and kill 15 spiders and return to me.",
+                "v": "你想试试自己的实力吗，去杀了 15 个蜘蛛再回来找我。"
+            },
+            {
+                "k": "You want to test your strength huh? go and kill 10 creepers and return to me.",
+                "v": "你想试试自己的实力吗，去杀了 10 个苦力怕再回来找我。"
+            },
+            {
+                "k": "Nice job out there. heres your reward.",
+                "v": "干得漂亮，这是给你的奖励。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarismissionProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "I'll stay here.",
+                "v": "我会留在这里。"
+            },
+            {
+                "k": "I'll move around.",
+                "v": "我会四处溜达。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.GlykarisstayandmoveProcedure"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.HuntedOnEffectActiveTickProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.SiegedOnEffectActiveTickProcedure"
+            }
+        ],
+        "p": [
+            {
+                "k": "§4Not So Fast...",
+                "v": "§4没那么快..."
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "§4The Lost can no longer spawn.",
+                "v": "§4失落者无法再生成"
+            },
+            {
+                "k": "§4The Lost can now spawn.",
+                "v": "§4失落者现在可以生成"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.LostcatalystOnBlockRightClickedProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Hello There!",
+                "v": "你好！"
+            },
+            {
+                "k": "Hey I actually do have something I need to talk to you about something",
+                "v": "嘿，我确实有事要跟你谈谈"
+            },
+            {
+                "k": "Ever since that Daraku guy showed up my head has felt a bit foggy",
+                "v": "自从那个叫达拉库的家伙出现后，我的脑袋就有点迷糊了"
+            },
+            {
+                "k": "Besides the fact that hes been terrorizing the overworld hes also been ruining my sense of direction.",
+                "v": "除了在整个世界制造恐怖之外，他还破坏了我的方向感。"
+            },
+            {
+                "k": "If you could find some way to get rid of him or atleast nullify him that would be a great help.",
+                "v": "如果你们能找到某种方法除掉他，或者至少让它失效，那将会是很大的帮助。"
+            },
+            {
+                "k": "Of course you would probably need another soul gem to do that.",
+                "v": "当然，你可能需要另一块灵魂宝石才能做到这一点。"
+            },
+            {
+                "k": "Good luck out there",
+                "v": "祝你在外面好运"
+            },
+            {
+                "k": "That daraku guy needs to be taken care of I suggest crafting something else from his soul gem to stop him because I dont think a sigil of purity would work on him.",
+                "v": "我建议用他的灵魂宝石制作其他东西来阻止他，因为我不认为纯净印记对他有用。"
+            },
+            {
+                "k": "Hey there!",
+                "v": "嗨，你们好！"
+            },
+            {
+                "k": "I'm guessing you took care of daraku, my head feels a lot clearer now.",
+                "v": "我猜你已经解决了达拉库，我现在感觉头脑清醒多了。"
+            },
+            {
+                "k": "Thank you for that, I really cant thank you enough for everything you've done.",
+                "v": "谢谢你，你所做的一切让我感激不尽。"
+            },
+            {
+                "k": "I know im asking a lot of you. But I do have another request if thats ok with you.",
+                "v": "我知道我的要求很过分。但如果你同意的话，我还有一个请求。"
+            },
+            {
+                "k": "Now that my heads clear im remembering some things from my time as a monster I couldnt remember before.",
+                "v": "现在我的头脑清醒了，我想起了一些以前想不起来的事情。"
+            },
+            {
+                "k": "I remember walking through a snow biome late at night and I felt a familiar presence.",
+                "v": "我记得在深夜走过一个雪地生物群落时，我感觉到了一种熟悉的气息。"
+            },
+            {
+                "k": "I saw a large creature I've never seen before deep in the blizzard. ",
+                "v": "我在风雪深处看到了一个我从未见过的大型生物。"
+            },
+            {
+                "k": "Though... it felt, strangely familiar?",
+                "v": "虽然......感觉，非常熟悉？"
+            },
+            {
+                "k": "It's been bothering me for a while now, so I would really appreciate it if you went and checked out the nearby snow biomes for that thing.",
+                "v": "这个问题困扰我很久了，如果你能去附近的雪地生物群落看看，我会非常感激。"
+            },
+            {
+                "k": "Im sorry if im asking too much.",
+                "v": "如果我的要求太过分，请原谅。"
+            },
+            {
+                "k": "Good luck out there! and thank you.",
+                "v": "祝你好运！谢谢。"
+            },
+            {
+                "k": "If you want to find that creature I suggest searching snowy biomes.",
+                "v": "如果你想找到这种生物，我建议你搜索雪地生物群落。"
+            },
+            {
+                "k": "Hey! Have you dealt with that creature yet?",
+                "v": "嘿，你对付过那个怪物吗？"
+            },
+            {
+                "k": "Oh. It retreated you say?",
+                "v": "哦 你说它跑路了？"
+            },
+            {
+                "k": "Hmm. I think I know where it might have gone",
+                "v": "嗯。我想我知道它可能去哪儿了"
+            },
+            {
+                "k": "Theres this old wretched place I used to go when I was a monster",
+                "v": "我还是怪物时常去的那个破地方"
+            },
+            {
+                "k": "It was called the resting grounds.",
+                "v": "它被称为安息之地。"
+            },
+            {
+                "k": "All the scouts come from that realm. And I've seen many entities go there to heal their wounds. Including this Glykaris fellow.",
+                "v": "所有的侦查者都来自那个领域。我见过很多实体去那里疗伤。包括这个叫格莱卡利斯的家伙"
+            },
+            {
+                "k": "If you really want to go there I can send you there. You will need to find a ire shrine in order to exit and Its extremely risky.",
+                "v": "如果你真的想去那里，我可以送你去。您需要找到一个愤怒神庙才能离开，而且风险极大。"
+            },
+            {
+                "k": "If you choose to go there i do wish you luck...",
+                "v": "如果你选择去那里，我祝你好运..."
+            },
+            {
+                "k": "Hey! im guessing you dealt with glykaris?",
+                "v": "嘿！我猜你处理了格莱卡利斯吧？"
+            },
+            {
+                "k": "Well by now im sure your not suprised to hear that killing it wont keep it down forever.",
+                "v": "好了，现在我相信你不会感到惊讶了，杀了它并不能永远压制住它。"
+            },
+            {
+                "k": "But there may be a way to fix this.",
+                "v": "但也许有办法解决这个问题。"
+            },
+            {
+                "k": "Perhaps that monster isnt what it seems. maybe it could be cured! just like me.",
+                "v": "也许那个怪物并不像它看起来的那样，也许它可以被治愈！就像我一样。"
+            },
+            {
+                "k": "Maybe if you crafted some kind of soul capsule you could cure him and transport him out of the resting grounds.",
+                "v": "如果你能制作出某种灵魂胶囊，也许就能治好他，并把他送出休安息之地。"
+            },
+            {
+                "k": "Though im sure it would be difficult to obtain.",
+                "v": "虽然我相信这很难获得。"
+            },
+            {
+                "k": "But I think its worth it so bring peace to another lost soul!",
+                "v": "但我认为，为了给另一个迷失的灵魂带来安宁，这样做是值得的！"
+            },
+            {
+                "k": "Good luck out there!",
+                "v": "祝你好运！"
+            },
+            {
+                "k": "Glykaris may be weak enough to be cured now! I wonder who that viscious beast truly is.",
+                "v": "格莱卡利斯现在可能已经虚弱到可以净化的地步了！我想知道那个可怕的野兽到底是谁。"
+            },
+            {
+                "k": "Im guessing you've captured glykaris now?",
+                "v": "我猜你现在已经抓住了格莱卡利斯？"
+            },
+            {
+                "k": "Great! I never doubted you for a moment.",
+                "v": "好极了，我从未怀疑过你。"
+            },
+            {
+                "k": "Thank you for saving my brother I cant thank you enough.",
+                "v": "谢谢你们救了我弟弟，我对你们感激不尽。"
+            },
+            {
+                "k": "Im sure he will have something for you to do if you ever get bored.",
+                "v": "如果你觉得无聊，他肯定会给你找点事做。"
+            },
+            {
+                "k": "In the meantime I actually have anything else for you to do! but if anything comes up you will be the first to know!",
+                "v": "在此期间，我其实还有其他事情要你去做！但如果有什么事情发生，你会第一时间知道的！"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.MissionProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4The Overseer can no longer spawn.",
+                "v": "§4监视者无法再生成"
+            },
+            {
+                "k": "§4The Overseer can now spawn.",
+                "v": "§4监视者现在可以生成"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.OverseercatalystOnBlockRightClickedProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Oh- Really?! Right infront of me?!",
+                "v": "真的吗？就在我面前？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.PlayerdiesstopmusicProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "???:You're pretty heartless arnt you?",
+                "v": "？？？：你还真是没心没肺啊？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ResetterRightclickedOnBlockProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§dThe Scoutlet seems calm at the moment...",
+                "v": "§d侦查者目前似乎很平静..."
+            },
+            {
+                "k": "§4The Scoutlet seems alarmed about something...",
+                "v": "§4侦察者似乎对某个东西发出警报..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ScouterRightclickedOnBlockProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Hello? Is someone there?",
+                "v": "喂，有人在吗？"
+            },
+            {
+                "k": "I thought I was the only one out here.",
+                "v": "我还以为这里只有我一个人呢。"
+            },
+            {
+                "k": "Come outside.",
+                "v": "到外面来。"
+            },
+            {
+                "k": "Dont worry Im friendly.",
+                "v": "别担心，我很友好的。"
+            },
+            {
+                "k": "Hello? I need help.",
+                "v": "你好？我需要帮助"
+            },
+            {
+                "k": "I have supplies, follow me!",
+                "v": "我有补给，跟我来！"
+            },
+            {
+                "k": "We should stick together its a harsh world out there.",
+                "v": "我们应该团结在一起，外面的世界很残酷的。"
+            },
+            {
+                "k": "Please help me...",
+                "v": "请帮帮我..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.SkinwalkersteveOnEntityTickUpdateProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Ok I'll stay here",
+                "v": "好的，我会留在这里。"
+            },
+            {
+                "k": "Ok I'll move around again.",
+                "v": "好吧，我会再四处转转。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.StayandmoveProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§4Tainted Distant Ones can no longer spawn.",
+                "v": "§4受污染的遥远之物不再生成。"
+            },
+            {
+                "k": "§4Tainted Distant Ones can now spawn.",
+                "v": "§4受污染的遥远之物现在可以生成。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TaintedcatalystOnBlockRightClickedProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Heya",
+                "v": "嘿"
+            },
+            {
+                "k": "I dont get why your all nice to me suddenly.",
+                "v": "我不明白你为什么突然对我这么好。"
+            },
+            {
+                "k": "Well you dont look like your about to die so thats good.",
+                "v": "你看起来不像要死的样子，所以很好。"
+            },
+            {
+                "k": "Jesus did someone throw a block of tnt at you?",
+                "v": "天哪，是不是有人朝你扔了块TNT？"
+            },
+            {
+                "k": "The overworld is nice. I suppose destroying it would be a shame.",
+                "v": "这个主世界很不错。我想，毁掉它未免太可惜了。"
+            },
+            {
+                "k": "How are you?",
+                "v": "你好吗？"
+            },
+            {
+                "k": "I hope your doing alright. Thats something i never expected to say.",
+                "v": "希望你一切都好。这是我没想到会说的话。"
+            },
+            {
+                "k": "Its pretty nice out today.",
+                "v": "今天天气不错"
+            },
+            {
+                "k": "You visited the distortion since the whole unpowering incident? It feels a bit off.",
+                "v": "你去过失力事件后的扭曲之地吗？感觉有点不对劲。"
+            },
+            {
+                "k": "I hope my disciples are holding up well without me.",
+                "v": "我希望我的教徒们在没有我的情况下也能保持良好的状态。"
+            },
+            {
+                "k": "Distortis has come after me a few times now that im not as strong as him. I suppose he only served be because I would've killed him otherwise.",
+                "v": "扭曲者已经来找过我几次了，但是现在我没有他那么强壮。我想他之前之所以这么做，是因为否则我会杀了他。"
+            },
+            {
+                "k": "Even now im still a void entity. I wonder what it was like to be human.",
+                "v": "即使现在，我仍然是一个虚空实体。我想知道做人是什么感觉。"
+            },
+            {
+                "k": "I find this world quite fascinating.",
+                "v": "我觉得这个世界非常迷人。"
+            },
+            {
+                "k": "I find myself more and more tired every day.",
+                "v": "我发现自己一天比一天累。"
+            },
+            {
+                "k": "Your alright.",
+                "v": "你没事吧。"
+            },
+            {
+                "k": "Huh? Sorry I dozed off.",
+                "v": "啊？对不起，我打瞌睡了。"
+            },
+            {
+                "k": "You ok?",
+                "v": "你还好吧？"
+            },
+            {
+                "k": "Hey there.",
+                "v": "嘿，你们好"
+            },
+            {
+                "k": "hm?",
+                "v": "嗯？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TalktodarakufriendlyProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "What do YOU want.",
+                "v": "你想要什么。"
+            },
+            {
+                "k": "I dont want to talk to you.",
+                "v": "我不想和你说话。"
+            },
+            {
+                "k": "You look healthy. just been running from all your battles huh?",
+                "v": "你看起来很健康，只是一直在逃避战斗吧？"
+            },
+            {
+                "k": "You look pretty beat up. Good I hope it hurts.",
+                "v": "你看起来伤得不轻。很好，我希望会疼"
+            },
+            {
+                "k": "I was this close to taking over the overworld and you just had to play hero.",
+                "v": "我就差那么一点就能占领整个世界了，而你却只能充当英雄。"
+            },
+            {
+                "k": "Please by all means, leave me alone.",
+                "v": "无论如何，请让我一个人静一静。"
+            },
+            {
+                "k": "I was having a good day until you came around.",
+                "v": "你来之前，我过得很好。"
+            },
+            {
+                "k": "I used to be able to claw through bedrock. Now I cant even break cobblestone because of you.",
+                "v": "我曾经可以抓破基岩。现在因为你，我连圆石都打不穿了。"
+            },
+            {
+                "k": "Go away.",
+                "v": "走开。"
+            },
+            {
+                "k": "That Tiso guy seems pretty happy. Lucky him.",
+                "v": "那个叫提索的家伙看起来很开心，他真幸运。"
+            },
+            {
+                "k": "Stop talking to me.",
+                "v": "别跟我说话"
+            },
+            {
+                "k": "Come to mock a defeated foe? dont bother.",
+                "v": "来嘲笑战败的敌人？别费心了。"
+            },
+            {
+                "k": "You know how hard I worked to get that strong? There arnt even enough void entities left that I can consume to get that strong again.",
+                "v": "你知道我是多么努力才变得如此强大吗？我甚至都没有足够的虚空实体可以让我再次变得如此强大。"
+            },
+            {
+                "k": "I hope you dig down into lava.",
+                "v": "我希望你能挖到熔岩。"
+            },
+            {
+                "k": "Im sick of seeing your face.",
+                "v": "我不想再看到你的脸了"
+            },
+            {
+                "k": "Please. Just leave.",
+                "v": "求你了，离开吧"
+            },
+            {
+                "k": "If I have to see your face again I'm jumping into lava",
+                "v": "如果再让我看到你的脸，我就跳进岩浆里去"
+            },
+            {
+                "k": "How come you just come back when you die. Thats just unfair.",
+                "v": "为什么你死了就能复活？这太不公平了"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TalktodarakuProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "hmm?",
+                "v": "嗯？"
+            },
+            {
+                "k": "oh. hello.",
+                "v": "噢，你好。"
+            },
+            {
+                "k": "you look healthy.",
+                "v": "你看起来很健康"
+            },
+            {
+                "k": "we all get battle scars. its just part of being an adventurer",
+                "v": "我们都会在战斗中留下伤疤，这只是冒险家的一部分"
+            },
+            {
+                "k": "thanks for the help earlier.",
+                "v": "谢谢你刚才的帮助。"
+            },
+            {
+                "k": "whats up?",
+                "v": "什么事？"
+            },
+            {
+                "k": "I was always an expert at slaying monsters. I never expected to become one.",
+                "v": "我一直是消灭怪物的专家。我从未想过自己会成为怪物。"
+            },
+            {
+                "k": "Thanks for helping out my brother tiso. He can get too emotional sometimes.",
+                "v": "谢谢你帮我弟弟提索。他有时太情绪化了"
+            },
+            {
+                "k": "You must be pretty strong if you took out all these eldritch entities huh?",
+                "v": "如果你干掉了所有这些长生实体，你一定很强大，是吧？"
+            },
+            {
+                "k": "Im tired.",
+                "v": "我累了"
+            },
+            {
+                "k": "I love the snow I've always found it calming.",
+                "v": "我喜欢雪，总觉得它能让人平静。"
+            },
+            {
+                "k": "I hope tiso's doing alright without his sister. He always seemed so attached to her.",
+                "v": "我希望提索在没有姐姐的日子里一切都好。他看起来总是那么依恋她。"
+            },
+            {
+                "k": "To think our whole family was damned to this fate. it cant be a coincidence right?",
+                "v": "想想我们全家人都遭此厄运，这不会是巧合吧？"
+            },
+            {
+                "k": "who's that frail little lizard whos been scampering around? i dont recognize him from anywhere.",
+                "v": "那个到处乱窜的虚弱的小蜥蜴是谁？我在哪儿都认不出他来。"
+            },
+            {
+                "k": "I wonder what happened to everyone else.",
+                "v": "我想知道其他人怎么样了。"
+            },
+            {
+                "k": "Its a nice day today.",
+                "v": "今天天气不错。"
+            },
+            {
+                "k": "huh?",
+                "v": "啊？"
+            },
+            {
+                "k": "Hey.",
+                "v": "嘿。"
+            },
+            {
+                "k": "What are you up to today?",
+                "v": "你今天有什么打算？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TalktoglykarisProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Hi there!",
+                "v": "你好！"
+            },
+            {
+                "k": "How are you?",
+                "v": "你还好吗？"
+            },
+            {
+                "k": "You dont look too beat up today, thats good!",
+                "v": "你今天看起来没受什么伤，这很好！"
+            },
+            {
+                "k": "oh dear. you might want to patch yourself up.",
+                "v": "哦，天哪，你可能得给自己包扎一下了。"
+            },
+            {
+                "k": "Sorry about the whole rampaging thing before I wasnt myself.",
+                "v": "对不起，我之前太冲动了。"
+            },
+            {
+                "k": "Watcha up too?",
+                "v": "你还好吗？"
+            },
+            {
+                "k": "Hey! do you need something?",
+                "v": "嘿！你需要什么东西吗？"
+            },
+            {
+                "k": "I hope your having a nice day.",
+                "v": "希望你今天过得愉快"
+            },
+            {
+                "k": "hi friend!",
+                "v": "嗨，朋友！"
+            },
+            {
+                "k": "I saw a tall pale figure staring at me the other night. do you know who that is?",
+                "v": "有天晚上，我看到一个高大的苍白身影盯着我，你知道那是谁吗？"
+            },
+            {
+                "k": "Do you have any more of those sweet berry things? I love them.",
+                "v": "你还有那些甜浆果吗？我很喜欢"
+            },
+            {
+                "k": "I love being myself again but I do kinda miss being able to fell trees with my bare hands.",
+                "v": "我喜欢做回自己，但我确实有点怀念能徒手砍树的日子。"
+            },
+            {
+                "k": "Things seem a bit calmer now. I guess I was causing a bit of a disruption wasnt I?",
+                "v": "现在事情似乎平静了一些。我想我造成出了一些混乱，对吗？"
+            },
+            {
+                "k": "Try not to get mauled out there. the world needs you.",
+                "v": "尽量别在那边受伤。世界需要你。"
+            },
+            {
+                "k": "I feel a bit tired today.",
+                "v": "我今天感觉有点累。"
+            },
+            {
+                "k": "You must be pretty skilled if you were able to get this far. good job!",
+                "v": "如果你能做到这一步，你一定很做事很熟练！干得漂亮！"
+            },
+            {
+                "k": "The clouds are pretty today.",
+                "v": "今天的云真漂亮。"
+            },
+            {
+                "k": "how come whenever you seem to perish you always show up again? Maybe im just delusional.",
+                "v": "为什么每当你似乎消失的时候，你总是会再次出现？也许我只是在幻想而已。"
+            },
+            {
+                "k": "Any plans today?",
+                "v": "今天有什么计划吗？"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TalktotisoProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A strange chill goes down your spine...",
+                "v": "一股莫名的寒意袭上心头"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.ThelostchaseEntityDiesProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "§l§4Better luck next time dad.",
+                "v": "§l§4祝你下次好运，爸爸。"
+            },
+            {
+                "k": "§l§4Still testing the mod are we?",
+                "v": "§l§4我们还在测试模组吗？"
+            },
+            {
+                "k": "§l§4Given who you are im guessing you weren't scared in the slightest?",
+                "v": "§l§4鉴于你的身份 我猜你丝毫不害怕？"
+            },
+            {
+                "k": "§l§4Oh its a wrap! But not for me.",
+                "v": "§l§4哦，这是一次穿越！但对我来说不是。"
+            },
+            {
+                "k": "§l§4You arnt going to show this death are you?",
+                "v": "§l§4你不会让人看到你这次死亡吧？"
+            },
+            {
+                "k": "§l§4Better luck next time Jamsteo...",
+                "v": "§l§4祝你下次好运，Jamsteo..."
+            },
+            {
+                "k": "§l§4You really put the moron in your name huh?",
+                "v": "§l§4你真的把 \"白痴 \"写进了自己的名字？"
+            },
+            {
+                "k": "§l§4Mmmm... Yummy hotdog...",
+                "v": "§l§4嗯... 美味的热狗..."
+            },
+            {
+                "k": "§l§4Are you really that afraid of me Ezure?",
+                "v": "§l§4你真的那么怕我吗，Ezure？"
+            },
+            {
+                "k": "§l§4I guess thats why they call you Joker huh?",
+                "v": "§l§4我想这就是他们叫你小丑的原因吧？"
+            },
+            {
+                "k": "§l§4Back to the void with you idiot.",
+                "v": "§l§4和你这个白痴一起回到虚空中去吧"
+            },
+            {
+                "k": "§l§4Try NOT to die next time Khyle...",
+                "v": "§l§4下次别再死了，Khyle..."
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TheslumberingomenThisEntityKillsAnotherOneProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Well... That was unpleasant.",
+                "v": "嗯... 真不愉快"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TisosoulgemRightclickedOnBlockProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "I dont think you have the right item for that.",
+                "v": "我认为你没有合适的物品。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.TradewithtisoProcedure"
+        }
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.TsopassiveRightClickedOnEntityProcedure"
+            },
+            {
+                "name": "net.mcreator.theslumberingomen.procedures.TsositendRightClickedOnEntityProcedure"
+            }
+        ],
+        "p": [
+            {
+                "k": "Huh?!",
+                "v": "啊？"
+            }
+        ]
+    },
+    {
+        "p": [
+            {
+                "k": "Daraku would like to talk to you...",
+                "v": "达拉库想和你谈谈..."
+            },
+            {
+                "k": "Life in the abyss is coming out from hiding!",
+                "v": "深渊中的生命正从藏身处走出来！"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.procedures.VantablackchaseEntityDiesProcedure"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A photo of two siblings. one with a familiar pair of horns. (Kinda weird to keep somebody elses family photo in your home dontcha think?)",
+                "v": "两兄妹的合影，其中一人有一对熟悉的角。(在家里放别人的全家福有点奇怪，你觉得呢？）"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.FramedphotooBlock"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "(Can be Infused with hemostone bricks at an altar of ire to make a gore core.)",
+                "v": "(可在愤怒祭坛上注入血红石砖，制成血肉核心）。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.GoreshardblockBlock"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Used to toggle spawning of the lost.",
+                "v": "用于切换失落者的生成。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.LostcatalystBlock"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Respawns the Vantablack Reaper when right clicked with a Heart of the Ancients.",
+                "v": "使用远古之心右键单击时，会重新生成凡塔布莱克收割者。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.LumenaltarBlock"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Used to toggle spawning of The Overseer.",
+                "v": "用于切换监视者的生成。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.OverseercatalystBlock"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "A block of voidmatter from the deepest part of the void. It may be trillions of years old.",
+                "v": "来自虚空最深处的虚空物质块。它可能已有数万亿年的历史。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.StableVoidmatterBlock"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A iron ingot infused with ire magic.",
+                "v": "注入了愤怒魔法的铁锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IresteelingotItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A gold ingot infused with ire magic.",
+                "v": "注入了愤怒魔法的金锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.MoltengoldingotItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A diamond infused with ire magic.",
+                "v": "注入了愤怒魔法的钻石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IregemItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A shard of amethyst infused with ire magic.",
+                "v": "注入了愤怒魔法的紫水晶。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.GoreshardItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A emerald infused with ire magic.",
+                "v": "注入了愤怒魔法的绿宝石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.SunsetjewelItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A netherite infused with ire magic.",
+                "v": "注入了愤怒魔法的下界合金。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreiteItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A scrap of lapis infused with ire magic.",
+                "v": "注入了愤怒魔法的青金石碎片。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.CosmicslateItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A pile of redstone infused with ire magic.",
+                "v": "注入了愤怒魔法的红石。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.UnstablepowderItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A copper ingot infused with ire magic.",
+                "v": "注入了愤怒魔法的铜锭。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BubblegumcopperItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A shard of nether quartz infused with ire magic.",
+                "v": "注入了愤怒魔法的地狱石英。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.BloodquartzItem"
+        }
+    },
+	{
+        "p": [
+            {
+                "k": "A peice of coal infused with ire magic.",
+                "v": "注入了愤怒魔法的煤。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.item.IreemberItem"
+        }
+    },
+    {
+        "p": [
+            {
+                "k": "Used to toggle spawning of Tainted Distant Ones.",
+                "v": "用于切换受污染的遥远之物的生成。"
+            }
+        ],
+        "t": {
+            "name": "net.mcreator.theslumberingomen.block.TaintedcatalystBlock"
+        }
+    }
+]
