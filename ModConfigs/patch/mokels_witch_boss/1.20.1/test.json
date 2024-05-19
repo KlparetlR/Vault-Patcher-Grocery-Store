@@ -1,0 +1,109 @@
+[
+  {
+    "name": "mokels_witch_boss模组汉化",
+    "desc": "VP1.4.0+可启用,VPGS开源",
+    "mods": "mokels_witch_boss (FORGE-1.20.1) v1.0",
+    "authors": "Mr_RadoVAN",
+    "dynamic": false
+  },
+  {
+    "t": {
+        "name": "net/mcreator/mokelswitchboss/procedures/Witchhat2RightClickedOnEntityProcedure",
+        "method": "",
+        "local": ""
+    },
+    "p": [
+        {
+            "k": "hey you! over here!",
+            "v": "嘿，你！在这儿！"
+        },
+        {
+            "k": "Why are you looking at me like that? is it because i'm a hat?",
+            "v": "你为什么那样看着我？是因为我是顶帽子吗？"
+        },
+        {
+            "k": "That hurts my feelings.",
+            "v": "那也太让我感到伤心了。QAQ"
+        },
+        {
+            "k": "Don't worry I'm just joking.",
+            "v": "别担心~我只是开个玩笑啦。"
+        },
+        {
+            "k": "Anyways, Could you help me?",
+            "v": "无论如何，你能帮帮我吗？"
+        },
+        {
+            "k": "I want to leave this realm. but the only way for me to perish is getting defeated by a warrior.",
+            "v": "我想离开这个世界，但我唯一的死亡方式就是被勇者打败。"
+        },
+        {
+            "k": "If you really are the chosen one, bring me the \"totem of rot and decay\"",
+            "v": "如果你真的是天选之人，就把\"腐朽图腾\"带给我。"
+        },
+        {
+            "k": "i will wait here for you to return.",
+            "v": "我会在这里等你回来的。"
+        },
+        {
+            "k": "don't worry you'll be rewarded after my death",
+            "v": "放心吧，我死后，你会得到回报的。"
+        }
+    ]
+  },
+  {
+  "t": {
+        "name": "net/mcreator/mokelswitchboss/procedures/WitchhatGivingRightClickedOnEntityProcedure",
+        "method": "",
+        "local": ""
+    },
+    "p": [
+        {
+            "k": "please...",
+            "v": "拜托了……"
+        },
+        {
+            "k": "defeat me...",
+            "v": "杀死我……"
+        },
+        {
+            "k": "i believe in you...",
+            "v": "我相信你……"
+        }
+        
+    ]
+  },
+  {
+    "t": {
+        "name": "net/mcreator/mokelswitchboss/procedures/WitchbossStopSoundProcedure",
+        "method": "",
+        "local": ""
+    },
+    "p": [
+        {
+            "k": "you really were...",
+            "v": "你真的……"
+        },
+        {
+            "k": "strong enough...",
+            "v": "够强……"
+        },
+        {
+            "k": "here...",
+            "v": "这儿……"
+        },
+        {
+            "k": "take my belongings, they're yours now...",
+            "v": "拿走我的东西吧，它们现在是你的了……"
+        },
+        {
+            "k": "farewell brave warrior...",
+            "v": "永别了，勇敢的战士……"
+        },
+        {
+            "k": "and thank you...",
+            "v": "以及，谢谢你……"
+        }
+    ]
+  }
+]
