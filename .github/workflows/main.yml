@@ -3,7 +3,11 @@ on:
   push:
     paths:
       - "ModConfigs/**"
-    
+  workflow_call:
+    secrets:
+      GH_TOKEN:
+        required: true  
+        
   workflow_dispatch:
 
 jobs:
@@ -21,6 +25,7 @@ jobs:
       - name: Generate Index
         run: |
           root_url="https://{root}"
+          github_root_url="https://raw.githubusercontent.com/KlparetlR/Vault-Patcher-Grocery-Store/main/ModConfigs"
           mods=""
           for file in $(find ModConfigs/patch -name '*.json'); do
             version=$(basename $(dirname $file))
@@ -29,13 +34,14 @@ jobs:
             mods+="{ \"name\": \"$name\", \"version\": \"$version\", \"url\": \"$url\" },"
           done
           index="{ \"root\": \"$root_url\", \"mods\": [ ${mods%,} ] }"
+          github_index="{ \"root\": \"$github_root_url\", \"mods\": [ ${mods%,} ] }"
           echo $index > ModConfigs/index.json
+          echo $github_index > ModConfigs/github-index.json
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update index.json
-          file_pattern: ModConfigs/index.json
 
   send-update:
     needs: update-index
@@ -43,4 +49,4 @@ jobs:
 
     steps:
       - name: Send update
-        run: wget -O- https://vpdl.nvoid.me/update
+        run: wget -O- https://vpdl.nvoid.me/${{secrets.GH_TOKEN}}
