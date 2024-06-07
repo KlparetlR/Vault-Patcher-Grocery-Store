@@ -10,7 +10,7 @@
 
 ## 介绍
 
-这是一个存放Vault Patcher模组的配置+汉化、编写工具的开源库(弃案留档)、VPDL(VP配置自适应下载器)源码及发布
+这是一个存放Vault Patcher模组的配置+汉化、编写工具的开源库(弃案留档)
 
 服务于熟悉Vault Patcher模组的**大佬**，在这里，你可以调用模组的配置文件，修提交修改配置或汉化的建议
 
@@ -30,7 +30,7 @@
 
 PR格式为`<模组英文名> <简述>`，例如`FTBQuests 汉化提交`
 
-json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"，并且**限定内容**
+硬编码汉化配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"，并且**限定内容**
 ```txt
     {
         "authors": "<作者名>",
@@ -48,6 +48,18 @@ json配置文件要求第一个对象要有"authors"，"name"，"desc"，"mods"�
         "dynamic": false
     },
 ```
+
+## 如何快速调用汉化配置
+
+使用vpdl插件，可以快速匹配可用模组汉化，然后下载并启用。
+
+下载jar文件后，放在`versions\<版本文件夹名>\vaultpatcher\plugins`文件夹内即可，[下载链接](https://github.com/3093FengMing/VaultPatcherDownloader/releases/)
+
+如果在安装后报错，并发现报错内容与无法下载目标文件有关，就是网络环境的问题，你可以现在自定义index下载地址
+
+在`<版本文件夹名>\config\vaultpatcher_asm\plugins\vpdl\config.josn`中，
+
+"download_source"改为"config","index"目前可选为`https://vpdl.nvoid.me/index.json`或`https://raw.githubusercontent.com/KlparetlR/Vault-Patcher-Grocery-Store/main/ModConfigs/github-index.json`
 
 ## 调用后的要求和限制 **（必看，须知）**
 
