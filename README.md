@@ -6,6 +6,7 @@
 
 [![Vault Patcher](https://img.shields.io/badge/github-Vault%20Patcher-blue)](https://github.com/3093FengMing/VaultPatcher)
 [![modrinth-VP](https://img.shields.io/badge/modrinth-Vault%20Patcher-green)](https://modrinth.com/mod/vault-patcher/versions)
+[![modrinth-VP](https://img.shields.io/badge/curseforge-Vault%20Patcher-orange)](https://www.curseforge.com/minecraft/mc-mods/vault-patcher)
 [![mcmod-VP](https://img.shields.io/badge/mcmod-Vault%20Patcher-blue)](https://www.mcmod.cn/class/8765.html)
 
 ## 介绍
