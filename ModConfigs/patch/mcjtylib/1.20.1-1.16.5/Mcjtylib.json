@@ -190,15 +190,23 @@
             },
             {
                 "k": "mekanism.gas",
-                "v": "Mek气体传输"
+                "v": "Mek气体类"
             },
             {
                 "k": "mekanism.slurry",
-                "v": "Mek浆液传输"
+                "v": "Mek浆液类"
             },
             {
                 "k": "mekanism.chemical",
-                "v": "Mek化学品传输"
+                "v": "Mek化学品"
+            },
+            {
+                "k": "mekanism.infuse",
+                "v": "Mek灌注类"
+            },
+            {
+                "k": "mekanism.pigment",
+                "v": "Mek颜料类"
             },
             {
                 "key": "North",

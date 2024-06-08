@@ -1,0 +1,227 @@
+[
+  {
+    "name": "XnetGases硬编码汉化",
+    "desc": "PRAGMATISM",
+    "mods": "xnetgases-1.20.1-5.0.0",
+    "authors": "KlparetlR、ZZi_Cai",
+    "dynamic": false
+  },
+  {
+    "s": [
+      {
+        "name": "terrails/xnetgases/helper/ModuleEnums$ConnectorMode"
+      },
+      {
+        "name": "terrails/xnetgases/helper/ModuleEnums$ChannelMode"
+      },
+      {
+        "name": "terrails/xnetgases/module/logic/ChemicalLogicEnums$SensorMode"
+      },
+      {
+        "name": "terrails/xnetgases/module/logic/ChemicalLogicEnums$ConnectorMode"
+      },
+      {
+        "name": "terrails/xnetgases/module/chemical/ChemicalEnums$Type"
+      }
+    ],
+    "p": [
+      {
+        "k": "INS",
+        "v": "输入"
+      },
+      {
+        "k": "EXT",
+        "v": "提取"
+      },
+      {
+        "k": "PRIORITY",
+        "v": "优先级"
+      },
+      {
+        "k": "DISTRIBUTE",
+        "v": "均分"
+      },
+      {
+        "k": "SENSOR",
+        "v": "监测模式"
+      },
+      {
+        "k": "OUTPUT",
+        "v": "输出"
+      },
+      {
+        "k": "OFF",
+        "v": "关"
+      },
+      {
+        "k": "GAS",
+        "v": "气体"
+      },
+      {
+        "k": "SLURRY",
+        "v": "浆液"
+      },
+      {
+        "k": "INFUSE",
+        "v": "灌注"
+      },
+      {
+        "k": "PIGMENT",
+        "v": "颜料"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails/xnetgases/module/chemical/ChemicalChannelSettings"
+    },
+    "p": [
+      {
+        "k": "Distribution mode",
+        "v": "分配模式"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails/xnetgases/module/chemical/ChemicalConnectorSettings",
+      "method": "createGui"
+    },
+    "p": [
+      {
+        "k": "Insert or extract mode",
+        "v": "输入或输出模式"
+      },
+      {
+        "k": "Connector type",
+        "v": "连接器类型"
+      },
+      {
+        "k": "Pri",
+        "v": "优先级"
+      },
+      {
+        "k": "Insertion priority",
+        "v": "输入优先级"
+      },
+      {
+        "k": "Require insert rate",
+        "v": "指定输入速率"
+      },
+      {
+        "k": "Number of ticks for each operation",
+        "v": "每次操作的间隔"
+      },
+      {
+        "k": "Rate",
+        "v": "速率"
+      },
+      {
+        "k": "Extraction rate|(max ",
+        "v": "输出最大速率 ("
+      },
+      {
+        "k": "Insertion rate|(max ",
+        "v": "输入最大速率 ("
+      },
+      {
+        "k": "Min",
+        "v": "最小值"
+      },
+      {
+        "k": "Max",
+        "v": "最大值"
+      },
+      {
+        "k": "Keep this amount in tank",
+        "v": "在容器中保留该数量"
+      },
+      {
+        "k": "Disable insertion if|amount is too high",
+        "v": "高于该数量时停止输入"
+      },
+      {
+        "k": "Filter",
+        "v": "过滤"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails/xnetgases/module/chemical/ChemicalChannelModule"
+    },
+    "p": [
+      {
+        "k": "Mekanism Chemical",
+        "v": "Mek化学品"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails/xnetgases/module/logic/ChemicalLogicChannelModule",
+      "method": "",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Mekanism Logic",
+        "v": "Mek红石逻辑"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails/xnetgases/module/logic/ChemicalLogicConnectorSettings",
+      "method": "createGui",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Sensor or Output mode",
+        "v": "监测或输出模式"
+      },
+      {
+        "k": "Number of ticks for each check",
+        "v": "每次检测的间隔"
+      },
+      {
+        "k": "Number of ticks for each operation",
+        "v": "每次操作的间隔"
+      },
+      {
+        "k": "Redstone:",
+        "v": "强度："
+      },
+      {
+        "k": "Redstone output value",
+        "v": "红石信号输出强度"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "terrails.xnetgases.module.logic.ChemicalSensor",
+      "method": "createGui",
+      "local": ""
+    },
+    "p": [
+      {
+        "k": "Sensor mode",
+        "v": "监测模式"
+      },
+      {
+        "k": "Amount to compare with",
+        "v": "运算数值"
+      },
+      {
+        "k": "Output color",
+        "v": "信号颜色"
+      },
+      {
+        "k": "Operator",
+        "v": "运算符"
+      }
+    ]
+  }
+]
