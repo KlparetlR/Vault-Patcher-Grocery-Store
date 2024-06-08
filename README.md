@@ -56,7 +56,7 @@ PR格式为`<模组英文名> <简述>`，例如`FTBQuests 汉化提交`
 
 下载jar文件后，放在`versions\<版本文件夹名>\vaultpatcher\plugins`文件夹内即可，[下载链接](https://github.com/3093FengMing/VaultPatcherDownloader/releases/)
 
-如果在安装后报错，并发现报错内容与无法下载目标文件有关，就是网络环境的问题，你可以现在自定义index下载地址
+如果在安装后报错，并发现报错内容与无法下载目标文件有关，就是网络环境的问题，你可以选择自定义index下载地址或开代理下载
 
 在`<版本文件夹名>\config\vaultpatcher_asm\plugins\vpdl\config.josn`中，
 
