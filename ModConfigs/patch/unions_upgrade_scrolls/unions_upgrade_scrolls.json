@@ -1,0 +1,773 @@
+[
+	{
+		"name":"unions upgrade scrolls硬编码汉化",
+		"desc":"vp1.4.1+可启用，VPGS开源，1.16.5",
+		"mods":"unions-upgrade-scrolls-v1.0.9.4-NoDamiFix",
+		"authors":"Litchiiiiiii,VM汉化组",
+		"dynamic":false
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll0Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll0Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll9Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll9Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll10Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll10Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll11Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll11Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll12Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll12Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll13Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll13Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll1Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll1Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll20Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll20Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll21Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll21Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll2Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll2Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll3Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll3Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll4Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll4Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll5Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll5Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll6Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll6Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll7Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll7Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll8Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll8Item$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click while wearing any helmet",
+				"value":"§7-装备头盔时右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7- Right click while holding any shield",
+				"value":"§7-主手持盾时右击以随机更换词缀。"
+			},
+			{
+				"key":"§7- Right click while wearing any boots to",
+				"value":"§7-装备靴子时右击以随机更换词缀。"
+			},
+			{
+				"key":"§7- Right click while wearing any leggings to",
+				"value":"§7-装备护腿时右击以随机更换词缀。"
+			},
+			{
+				"key":"§7- Right click while wearing any helmet to",
+				"value":"§7-装备头盔时右击以随机更换词缀。"
+			},
+			{
+				"key":"§7- Right click while wearing any chestplate to",
+				"value":"§7-装备胸甲时右击以随机更换词缀。"
+			},
+			{
+				"key":"§7roll a random affix.",
+				"value":""
+			},
+			{
+				"key":"§f* 30% Junk",
+				"value":"§f* 30%垃圾"
+			},
+			{
+				"key":"§a* 20% Ordinary",
+				"value":"§a* 20%普通"
+			},
+			{
+				"key":"§b* 20% Unique",
+				"value":"§b* 20%独特"
+			},
+			{
+				"key":"§5* 15% Refined",
+				"value":"§5* 15%精致"
+			},
+			{
+				"key":"§e* 10% Godly",
+				"value":"§e* 10%神圣"
+			},
+			{
+				"key":"§c* 5% Mythical",
+				"value":"§c* 5%神话"
+			},
+			{
+				"key":"§0* ?% ???",
+				"value":"§0* ?%？？？"
+			},
+			{
+				"key":"§7in your main hand to roll a random affix.",
+				"value":""
+			},
+			{
+				"key":"§7- Affixes add additional stats and attributes",
+				"value":"§7-词缀可为物品添加额外的参数和属性。"
+			},
+			{
+				"key":"§7to your items.",
+				"value":""
+			},
+			{
+				"key":"§7- Scroll of the Berserker deals +2.5% physical",
+				"value":"§7-狂战士卷轴每级+2.5%物理伤害，至多15级。"
+			},
+			{
+				"key":"§7- Right click to cause your next Cursed Scroll",
+				"value":"§7-右击使下一个诅咒卷轴不会摧毁你的物品。"
+			},
+			{
+				"key":"§7fail to prevent destroying your item.",
+				"value":""
+			},
+			{
+				"key":"§7- If the item has a Golden Scroll applied it will",
+				"value":"§7-如果该物品使用了金卷轴，在强化失败后就不会失去它的星标。"
+			},
+			{
+				"key":"§7prevent it's stars from resetting on fail instead.",
+				"value":""
+			},
+			{
+				"key":"§7random unbreakable spell that can empower",
+				"value":""
+			},
+			{
+				"key":"§7random powerful spell that can empower",
+				"value":""
+			},
+			{
+				"key":"§7your gear.",
+				"value":""
+			},
+			{
+				"key":"§7- Right click while wearing any chestplate",
+				"value":"§7-装备胸甲时右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7to attempt to roll a level of this",
+				"value":""
+			},
+			{
+				"key":"§7scroll's curse.",
+				"value":""
+			},
+			{
+				"key":"§7per level, capping at level 15.",
+				"value":""
+			},
+			{
+				"key":"§7- Roll chances include:",
+				"value":"§7-概率："
+			},
+			{
+				"key":"§e* 80% Success",
+				"value":"§e* 80%成功"
+			},
+			{
+				"key":"§c* 20% Lose Item (Unless Golden Scrolled)",
+				"value":"§c* 20%摧毁这件物品（除非使用了金卷轴）"
+			},
+			{
+				"key":"§7- Right click while wearing any leggings",
+				"value":"§7-装备护腿时右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7- Right click while wearing any boots",
+				"value":"§7-装备靴子时右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7- Right click while holding any shield in your",
+				"value":"§7-主手持盾时右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7toughness per level, capping at level 15.",
+				"value":""
+			},
+			{
+				"key":"§7main hand to attempt to roll a level of this",
+				"value":""
+			},
+			{
+				"key":"§7- Right click while holding any weapon or",
+				"value":"§7-主手持武器或工具右击以尝试叠加一级此卷轴的咒语。"
+			},
+			{
+				"key":"§7tool in your main hand to attempt to roll",
+				"value":""
+			},
+			{
+				"key":"§7a level of this scroll's curse.",
+				"value":""
+			},
+			{
+				"key":"§7- Scroll of the Magician deals +2.5% magic",
+				"value":"§7-魔法师卷轴每级+2.5%魔法伤害，至多15级。"
+			},
+			{
+				"key":"§7damage per level, capping at level 15.",
+				"value":""
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.AddAffixDescriptionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.AddStarsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionBerserkerProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsHeadProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsChestProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsFeetProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsLegsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGodsShieldProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGuardianChestProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGuardianFeetProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGuardianHeadProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGuardianLegsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionGuardianShieldProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionHolyProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionMagicianProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationChestProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationFeetProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationHeadProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationLegsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.procedures.UpgradeScrollActionModificationShieldProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":" rolled the §0§kFabled§f affix on their ",
+				"value":"将§0§k传说§f词缀添加到了Ta的"
+			},
+			{
+				"key":"§f!",
+				"value":"§f！"
+			},
+			{
+				"key":" rolled the §cMythical§f affix on their ",
+				"value":"将§c神话§f词缀添加到了Ta的"
+			},
+			{
+				"key":" rolled the §eGodly§f affix on their ",
+				"value":"将§e神圣§f词缀添加到了Ta的"
+			},
+			{
+				"key":" rolled the §5Refined§f affix on their ",
+				"value":"将§5精致§f词缀添加到了Ta的"
+			},
+			{
+				"key":" rolled the §bUnique§f affix on their ",
+				"value":"将§b独特§f词缀添加到了Ta的"
+			},
+			{
+				"key":" rolled the §aOrdinary§f affix on their ",
+				"value":"将§a普通§f词缀添加到了Ta的"
+			},
+			{
+				"key":"§cThis item already has the best affix!",
+				"value":"§c这个物品的词缀已经是最好的了！"
+			},
+			{
+				"key":" rolled the §fJunk§f affix on their ",
+				"value":"将§f垃圾§f词缀添加到了Ta的"
+			},
+			{
+				"key":" rolled a scroll upgrade of §eMagician +",
+				"value":"使用卷轴升级到了§e魔法师+"
+			},
+			{
+				"key":"§e at Magician +",
+				"value":"§e，到达了魔法师+"
+			},
+			{
+				"key":"§c at Magician +",
+				"value":"§c，止步于魔法师+"
+			},
+			{
+				"key":"✪ Affix:§0§k Fabled",
+				"value":"✪词缀：§0§k传说"
+			},
+			{
+				"key":"✪ Affix:§c Mythical",
+				"value":"✪词缀：§c神话"
+			},
+			{
+				"key":"✪ Affix:§e Godly",
+				"value":"✪词缀：§e神圣"
+			},
+			{
+				"key":"✪ Affix:§5 Refined",
+				"value":"✪词缀：§5精致"
+			},
+			{
+				"key":"✪ Affix:§b Unique",
+				"value":"✪词缀：§b独特"
+			},
+			{
+				"key":"✪ Affix:§a Ordinary",
+				"value":"✪词缀：§a普通"
+			},
+			{
+				"key":"✪ Affix:§f Junk",
+				"value":"✪词缀：§f垃圾"
+			},
+			{
+				"key":"✪ Scroll:§e Magician +",
+				"value":"✪卷轴：§e魔法师+"
+			},
+			{
+				"key":"✪ Scroll:§e Berserker +",
+				"value":"✪卷轴：§e狂战士+"
+			},
+			{
+				"key":"✪ Scroll:§e Guardian +",
+				"value":"✪卷轴：§e守卫者+"
+			},
+			{
+				"key":" rolled a scroll upgrade of §eBerserker +",
+				"value":"使用卷轴升级到了§e狂战士+"
+			},
+			{
+				"key":" §e has perfected their ",
+				"value":" §e得到了完美的"
+			},
+			{
+				"key":"§e at Berserker +",
+				"value":"§e，到达了狂战士+"
+			},
+			{
+				"key":"§e!",
+				"value":"§e！"
+			},
+			{
+				"key":"§eYour Golden Scroll saved your item from blowing up!",
+				"value":"§e金卷轴避免了你的物品被摧毁！"
+			},
+			{
+				"key":"§aYour Holy Scroll prevented your item's stars resetting!",
+				"value":"§a神圣卷轴阻止了你的物品失去星标！"
+			},
+			{
+				"key":"§cYour item's stars have been reset.",
+				"value":"§c你的物品失去了星标。"
+			},
+			{
+				"key":"§c failed to roll their ",
+				"value":"§c没能继续升级Ta的"
+			},
+			{
+				"key":"§c at Berserker +",
+				"value":"§c，止步于狂战士+"
+			},
+			{
+				"key":"§aYour Holy Scroll saved your item from blowing up!",
+				"value":"§e神圣卷轴避免了你的物品被摧毁！"
+			},
+			{
+				"key":"§cYou can't combine Berserker and Magician scrolls on one item.",
+				"value":"§c你无法在一个物品上同时使用狂战士卷轴和魔法师卷轴。"
+			},
+			{
+				"key":"§cThis item is already perfected!",
+				"value":"§c这件物品已经是完美的了！"
+			},
+			{
+				"key":"§e made their ",
+				"value":"§e的"
+			},
+			{
+				"key":"§e unbreakable!",
+				"value":"§e无法破坏了！"
+			},
+			{
+				"key":"§cThis item is already unbreakable!",
+				"value":"§c这件物品已经是无法破坏的了！"
+			},
+			{
+				"key":" rolled a scroll upgrade of §eGuardian +",
+				"value":"使用卷轴升级到了§e守卫者+"
+			},
+			{
+				"key":"§e at Guardian +",
+				"value":"§e，到达了守卫者+"
+			},
+			{
+				"key":"§c at Guardian +",
+				"value":"§c，止步于守卫者+"
+			},
+			{
+				"key":"§c has blown up their ",
+				"value":"§c摧毁了Ta的"
+			},
+			{
+				"key":"§aYou absorb the power of the Holy Scroll.",
+				"value":"§a你吸收了神圣卷轴的力量。"
+			},
+			{
+				"key":"§cYou already have a Holy Scroll applied!",
+				"value":"§c你已经使用过神圣卷轴了！"
+			},
+			{
+				"key":"§c has blown up their ",
+				"value":"§c摧毁了Ta的"
+			},
+			{
+				"key":"§c has blown up their ",
+				"value":"§c摧毁了Ta的"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll14Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll14Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll15Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll15Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll16Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll16Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll17Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll17Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll18Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll18Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll19Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll19Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll9Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll9Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll10Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll10Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll11Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll11Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll12Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll12Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll20Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll20Item$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click while holding any weapon or tool",
+				"value":"§7-主手持武器或工具右击以使其无法破坏。"
+			},
+			{
+				"key":"§7- Right click while holding any shield in your",
+				"value":"§7-主手持盾时右击以使其无法被破坏。"
+			},
+			{
+				"key":"§7- Right click while wearing any helmet to make",
+				"value":"§7-装备头盔时右击以使其无法破坏。"
+			},
+			{
+				"key":"§7- Right click while wearing any chestplate to make",
+				"value":"§7-装备胸甲时右击以使其无法破坏。"
+			},
+			{
+				"key":"§7- Right click while wearing any leggings to make",
+				"value":"§7-装备护腿时右击以使其无法破坏。"
+			},
+			{
+				"key":"§7- Right click while wearing any boots to make",
+				"value":"§7-装备靴子时右击以使其无法破坏。"
+			},
+			{
+				"key":"§7in your main hand to make it unbreakable.",
+				"value":""
+			},
+			{
+				"key":"§7- Unbreakable prevents your items from being",
+				"value":"§7-无法破坏可以防止你的物品被卷轴摧毁或耗尽耐久。"
+			},
+			{
+				"key":"§7destroyed by scrolls or durability loss.",
+				"value":""
+			},
+			{
+				"key":"§7it unbreakable.",
+				"value":""
+			},
+			{
+				"key":"§7main hand to make it unbreakable.",
+				"value":""
+			},
+			{
+				"key":"§7- Right click to inscribe this scroll with a",
+				"value":"§7-右击在此卷轴上题写一个随机的无法破坏咒语，将为你的装备赋予力量。"
+			},
+			{
+				"key":"§7- Scroll of the Guardian adds +0.5 armor",
+				"value":"§7-守卫者卷轴每级+0.5%护甲值，至多15级。"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll3Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll3Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll0Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll0Item$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll13Item",
+				"method":""
+			},
+			{
+				"name":"net.union.unionsupgradescrolls.item.UpgradeScroll13Item$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click while holding any weapon or tool",
+				"value":"§7-主手持武器或工具右击以随机更换词缀。"
+			},
+			{
+				"key":"§7- Right click to inscribe this scroll with a",
+				"value":"§7-右击在此卷轴上题写一个随机的强大的咒语，将为你的装备赋予力量。"
+			},
+			{
+				"key":"§7- Scroll of the Guardian adds +0.5 armor",
+				"value":"§7-守卫者卷轴每级+0.5%盔甲韧性，至多15级。"
+			}
+		]
+	}
+]

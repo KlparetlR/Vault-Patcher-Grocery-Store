@@ -1,0 +1,2265 @@
+[
+	{
+		"name":"infernal_origins_extras硬编码汉化",
+		"desc":"vp1.4.1+可启用，VPGS开源，1.16.5",
+		"mods":"infernal-origins-extras-v1.0.0-EXP1359",
+		"authors":"Litchiiiiiii,VM汉化组",
+		"dynamic":false
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.QuestSlayerGemFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.CommandSlayerTaskResetFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.QuestSlayerGemKillFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.gui.GuiSkillMenuGuiWindow",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.gui.GuiSkillMenuTwoGuiWindow",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.gui.GuiTaskMenuThreeGuiWindow",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.gui.GuiSkillMenuFourGuiWindow",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.GuiButtonSlayerTaskCancelProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionSpeedIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionSpeedIncreaseItem$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click to temporarily increase your",
+				"value":"§7-右击暂时使你的速度+0.0025"
+			},
+			{
+				"key":"§7speed by +0.0025.",
+				"value":""
+			},
+			{
+				"key":"§7Skill Points: §e",
+				"value":"   §7技能点：§e"
+			},
+			{
+				"key":"§7Armor",
+				"value":"§7护甲值"
+			},
+			{
+				"key":"§7Cost: §e",
+				"value":"§7消耗：§e"
+			},
+			{
+				"key":"§7Toughness",
+				"value":"§7盔甲韧性"
+			},
+			{
+				"key":"§7Melee Atk.",
+				"value":"§7近战伤害"
+			},
+			{
+				"key":"§7Melee Spd.",
+				"value":"§7近战攻速"
+			},
+			{
+				"key":"§7Ranged Atk.",
+				"value":"§7远程伤害"
+			},
+			{
+				"key":"§7Skills Page 1",
+				"value":"   §7技能页 1"
+			},
+			{
+				"key":"§7Crit Dmg.",
+				"value":"§7暴击伤害"
+			},
+			{
+				"key":"§7Crit Chance",
+				"value":"§7暴击率"
+			},
+			{
+				"key":"§7Move Spd.",
+				"value":"§7移动速度"
+			},
+			{
+				"key":"§7Health",
+				"value":"§7生命值"
+			},
+			{
+				"key":"§7Luck",
+				"value":"§7幸运"
+			},
+			{
+				"key":"§7Skills Page 2",
+				"value":"   §7技能页 2"
+			},
+			{
+				"key":"§7Health Regen.",
+				"value":"§7生命回复"
+			},
+			{
+				"key":"§7Dodge Chance",
+				"value":"§7闪避率"
+			},
+			{
+				"key":"§7Swim Spd.",
+				"value":"§7游泳速度"
+			},
+			{
+				"key":"§7Skills Page 3",
+				"value":"   §7技能页 3"
+			},
+			{
+				"key":"§7Slayer Task",
+				"value":"   §7杀手任务"
+			},
+			{
+				"key":"§7Difficulty: §e",
+				"value":"§7难度：§e"
+			},
+			{
+				"key":"§7Kills Left: §e",
+				"value":"§7剩余击杀：§e"
+			},
+			{
+				"key":"§7Mob Health: §e",
+				"value":" §7怪物生命值：§e"
+			},
+			{
+				"key":"§7Reward: §e",
+				"value":"      §7奖励：§e"
+			},
+			{
+				"key":"§7Task Streak: §e",
+				"value":"  §7任务连胜：§e"
+			},
+			{
+				"key":"New Task",
+				"value":"新任务"
+			},
+			{
+				"key":" Skill Points",
+				"value":" 技能点"
+			},
+			{
+				"key":"§f<Slayer Master> Need a new task? I've got a job for you.",
+				"value":"§f<资深杀手>想要一个新任务？我正好有一份任务给你。"
+			},
+			{
+				"key":"§f<Slayer Master> New threats have been spotted, I need you to wipe them out.",
+				"value":"§f<资深杀手>发现新的敌人，我需要你消灭它们。"
+			},
+			{
+				"key":"§f<Slayer Master> You know the drill. Kill them until the job is done.",
+				"value":"§f<资深杀手>你知道该怎么做，击杀它们直到任务完成。"
+			},
+			{
+				"key":"§f<Slayer Master> Fresh blood's been scented. Get it done.",
+				"value":"§f<资深杀手>鲜血散发着香味，快干掉它。"
+			},
+			{
+				"key":"§f<Slayer Master> I've got a new task for you. Good luck.",
+				"value":"§f<资深杀手>我有一个新任务要给你，祝你好运。"
+			},
+			{
+				"key":"§f<Slayer Master> What do you want? You've got a job to do.",
+				"value":"§f<资深杀手>你还想要什么？你的任务还没完成呢。"
+			},
+			{
+				"key":"§f<Slayer Master> Stop bothering me. Get to the task.",
+				"value":"§f<资深杀手>别再烦我了，快去做任务。"
+			},
+			{
+				"key":"§f<Slayer Master> You're not getting another task until you finish this one.",
+				"value":"§f<资深杀手>你不能开始新任务，除非你完成当前任务。"
+			},
+			{
+				"key":"§f<Slayer Master> Complete your mission, then come back to me.",
+				"value":"§f<资深杀手>完成你的任务之后再回来找我。"
+			},
+			{
+				"key":"§f<Slayer Master> I'm not going to give you another task until this one is done. Get to it.",
+				"value":"§f<资深杀手>我不想给你新任务，除非你完成当前任务，快去做。"
+			},
+			{
+				"key":"§eMobs left to kill: §6",
+				"value":"§e剩余击杀怪物：§6"
+			},
+			{
+				"key":"§eMob minimum health required to count: §6",
+				"value":"§e需求怪物最小生命值：§6"
+			},
+			{
+				"key":"§eYou've completed your slayer task and have been awarded ",
+				"value":"§e你完成了杀手任务并且获得"
+			},
+			{
+				"key":"§ePress Z to access the slayer and skill menu.",
+				"value":"§e按Z键进入杀手任务界面和技能界面。"
+			},
+			{
+				"key":"§eMob kills remaining: §6",
+				"value":"§e击杀怪物还需：§6"
+			},
+			{
+				"key":"§cYou don't have a Slayer Task, Press Z!",
+				"value":"§c你没有杀手任务，按Z键获取！"
+			},
+			{
+				"key":"§e skill points.",
+				"value":"§e 技能点。"
+			},
+			{
+				"key":"Your Slayer Task and Task Streak have been reset.",
+				"value":"你的杀手任务和任务连胜已被重置。"
+			},
+			{
+				"key":"§cYou've canceled your slayer task. Your task streak has been reset.",
+				"value":"§c你已放弃杀手任务，任务连胜已被重置。"
+			},
+			{
+				"key":"§cYou cannot cancel your task unless you tick the checkbox.",
+				"value":"§c勾选该复选框后可以放弃此任务。"
+			},
+			{
+				"key":"§cYou currently do not have a slayer task assigned.",
+				"value":"§c当前并未分配杀手任务。"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsWitherProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesWitherProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.BossWitherStormSummonProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Wither> We've been waiting.",
+				"value":"§c<凋灵>我们一直在等待。"
+			},
+			{
+				"key":"§c<Wither> We've been watching.",
+				"value":"§c<凋灵>我们一直在注视着。"
+			},
+			{
+				"key":"§c<Wither> Join us.",
+				"value":"§c<凋灵>加入我们。"
+			},
+			{
+				"key":"§c<Wither> Death has arrived.",
+				"value":"§c<凋灵>死亡已经到来。"
+			},
+			{
+				"key":"§c<Wither> Your end is near.",
+				"value":"§c<凋灵>你的末日即将来临。"
+			},
+			{
+				"key":"§c<Wither> Darkness surrounds you.",
+				"value":"§c<凋灵>黑暗包围着你。"
+			},
+			{
+				"key":"§c<Wither> We will not fall.",
+				"value":"§c<凋灵>我们不会陨落。"
+			},
+			{
+				"key":"§c<Wither> We will not be consumed.",
+				"value":"§c<凋灵>我们不会被耗尽。"
+			},
+			{
+				"key":"§c<Wither> We will be reborn.",
+				"value":"§c<凋灵>我们重获新生。"
+			},
+			{
+				"key":"§dCorruption Level: ",
+				"value":"§d腐败等级："
+			},
+			{
+				"key":"§c<Wither> Trapped in an eternal hell.",
+				"value":"§c<凋灵>困于永恒的地狱中吧。"
+			},
+			{
+				"key":"§c<Wither> An unmoving tortuous fate.",
+				"value":"§c<凋灵>你的曲折命运永远不会改变。"
+			},
+			{
+				"key":"§c<Wither> Stopped by destiny.",
+				"value":"§c<凋灵>失败是命中注定的。"
+			},
+			{
+				"key":"§c<Wither> Share our pain.",
+				"value":"§c<凋灵>分担我们的痛苦吧。"
+			},
+			{
+				"key":"§c<Wither> Our retribution follows.",
+				"value":"§c<凋灵>我们的惩戒随之而来。"
+			},
+			{
+				"key":"§4The Wither is charging up! Prepare to block!",
+				"value":"§4凋灵正在暴走！准备好对抗它！"
+			},
+			{
+				"key":"§c<Wither> Death is inevitable.",
+				"value":"§c<凋灵>死亡是不可避免的。"
+			},
+			{
+				"key":"§c<Wither> I will be your unmaker.",
+				"value":"§c<凋灵>我将彻底毁灭你。"
+			},
+			{
+				"key":"§c<Wither> Your corruption feeds me.",
+				"value":"§c<凋灵>你的腐坏就是我的养料。"
+			},
+			{
+				"key":"§cWhat have you done...",
+				"value":"§c你做了什么……"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsElderGuardianProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesElderGuardianProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Elder Guardian> My domain will not be challenged!",
+				"value":"§c<远古守卫者>我的领域不会受到挑战！"
+			},
+			{
+				"key":"§c<Elder Guardian> My domain will not be challenged!",
+				"value":"§c<远古守卫者>我的领域不会受到挑战！"
+			},
+			{
+				"key":"§c<Elder Guardian> Drown to my power!",
+				"value":"§c<远古守卫者>淹没在我的力量中吧！"
+			},
+			{
+				"key":"§c<Elder Guardian> The waves will crush you!",
+				"value":"§c<远古守卫者>海浪会将你拍碎！"
+			},
+			{
+				"key":"§c<Elder Guardian> Minions, protect me!",
+				"value":"§c<远古守卫者>仆从们，保护我！"
+			},
+			{
+				"key":"§c<Elder Guardian> Protect your prince!",
+				"value":"§c<远古守卫者>保护你们的王！"
+			},
+			{
+				"key":"§c<Elder Guardian> This is treachery!",
+				"value":"§c<远古守卫者>这是背叛！"
+			},
+			{
+				"key":"§4The Elder Guardian has become enraged!",
+				"value":"§4远古守卫者已被激怒！"
+			},
+			{
+				"key":"§c<Elder Guardian> I will not die like this!",
+				"value":"§c<远古守卫者>我不会就这样死去！"
+			},
+			{
+				"key":"§c<Elder Guardian> I was promised to rule!",
+				"value":"§c<远古守卫者>我永远统治此地！"
+			},
+			{
+				"key":"§c<Elder Guardian> My kingdom will conquer!",
+				"value":"§c<远古守卫者>王国必胜！"
+			},
+			{
+				"key":"§c<Elder Guardian> Beacon! Heal me immediately!",
+				"value":"§c<远古守卫者>信标！快治愈我！"
+			},
+			{
+				"key":"§c<Elder Guardian> Beacon! I require healing!",
+				"value":"§c<远古守卫者>信标！我需要治疗！"
+			},
+			{
+				"key":"§c<Elder Guardian> Beacon! Heal your prince!",
+				"value":"§c<远古守卫者>信标！治愈你的王！"
+			},
+			{
+				"key":"§4Kill the Elder Guardian's summoned beacon before it heals!",
+				"value":"§4在远古守卫者召唤信标治愈它之前击杀它！"
+			},
+			{
+				"key":"§c<Elder Guardian> Damage yourself, filth!",
+				"value":"§c<远古守卫者>自刎吧，渣滓！"
+			},
+			{
+				"key":"§c<Elder Guardian> Hands off your prince!",
+				"value":"§c<远古守卫者>放开你的王！"
+			},
+			{
+				"key":"§c<Elder Guardian> Die to your own blade!",
+				"value":"§c<远古守卫者>死于你的刀下！"
+			},
+			{
+				"key":"§c<Elder Guardian> Overcharge your core!",
+				"value":"§c<远古守卫者>你的心脏即将过载！"
+			},
+			{
+				"key":"§4Get away from your friends, you're about to overcharge!",
+				"value":"§4远离你的队友，你即将过载！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsEnderGuardianProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure$8",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure$8$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure$8$1$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure$8$1$1$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesEnderGuardianProcedure$8$1$1$1$1",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Ender Guardian> Whispers of the void...",
+				"value":"§c<末影守卫>虚空的低语……"
+			},
+			{
+				"key":"§c<Ender Guardian> Come closer...",
+				"value":"§c<末影守卫>再靠近些……"
+			},
+			{
+				"key":"§c<Ender Guardian> Hear me from the shadows...",
+				"value":"§c<末影守卫>在暗影中聆听我的声音……"
+			},
+			{
+				"key":"§c<Ender Guardian> They are watching us...",
+				"value":"§c<末影守卫>他们在凝视我们……"
+			},
+			{
+				"key":"§c<Ender Guardian> Every move we make they see...",
+				"value":"§c<末影守卫>他们能看的到我们的一举一动……"
+			},
+			{
+				"key":"§c<Ender Guardian> We cannot hide...",
+				"value":"§c<末影守卫>我们无法逃避……"
+			},
+			{
+				"key":"§4The Ender Guardian has become enraged!",
+				"value":"§4末影守卫已被激怒！"
+			},
+			{
+				"key":"§c<Ender Guardian> You will not know their pain...",
+				"value":"§c<末影守卫>你不会知道他们有多痛苦……"
+			},
+			{
+				"key":"§c<Ender Guardian> Their suffering will continue...",
+				"value":"§c<末影守卫>他们一直备受磨难……"
+			},
+			{
+				"key":"§c<Ender Guardian> Not even I could help them...",
+				"value":"§c<末影守卫>但就连我也无能为力……"
+			},
+			{
+				"key":"§c<Ender Guardian> Let your sins be cleansed.",
+				"value":"§c<末影守卫>除去你的罪恶吧。"
+			},
+			{
+				"key":"§c<Ender Guardian> Purge yourself from your sins.",
+				"value":"§c<末影守卫>净化你自己，除去你的罪恶吧。"
+			},
+			{
+				"key":"§c<Ender Guardian> Fate will cleanse you.",
+				"value":"§c<末影守卫>命运会将你净化的。"
+			},
+			{
+				"key":"§c<Ender Guardian> Your shadows reveal themselves.",
+				"value":"§c<末影守卫>你的阴暗面会逐渐显露出来。"
+			},
+			{
+				"key":"§c<Ender Guardian> The shadows come for revenge.",
+				"value":"§c<末影守卫>它们为了复仇而来。"
+			},
+			{
+				"key":"§c<Ender Guardian> Shadows from the void.",
+				"value":"§c<末影守卫>它们来自虚空。"
+			},
+			{
+				"key":"§c<Ender Guardian> Each of you... colors in this blank void?",
+				"value":"§c<末影守卫>你们每个人……都给这片空白的虚空染了色吗？"
+			},
+			{
+				"key":"§c<Ender Guardian> Curious, your souls are different...",
+				"value":"§c<末影守卫>很奇怪，你们的灵魂都不相同……"
+			},
+			{
+				"key":"§c<Ender Guardian> Beautiful colors... I've missed them so...",
+				"value":"§c<末影守卫>多美丽的颜色啊……我想它们了，所以……"
+			},
+			{
+				"key":"§f§lYour color is white.",
+				"value":"§f§l你的颜色是白色。"
+			},
+			{
+				"key":"§4§lYour color is red.",
+				"value":"§f§l你的颜色是红色。"
+			},
+			{
+				"key":"§5§lYour color is purple.",
+				"value":"§f§l你的颜色是紫色。"
+			},
+			{
+				"key":"§e§lYour color is yellow.",
+				"value":"§f§l你的颜色是黄色。"
+			},
+			{
+				"key":"§c<Ender Guardian> 5",
+				"value":"§c<末影守卫>5"
+			},
+			{
+				"key":"§c<Ender Guardian> 4",
+				"value":"§c<末影守卫>4"
+			},
+			{
+				"key":"§c<Ender Guardian> 3",
+				"value":"§c<末影守卫>3"
+			},
+			{
+				"key":"§c<Ender Guardian> 2",
+				"value":"§c<末影守卫>2"
+			},
+			{
+				"key":"§c<Ender Guardian> 1",
+				"value":"§c<末影守卫>1"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsFrostmawProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesFrostmawProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Frostmaw> RAAAARGH!",
+				"value":"§c<霜冻巨兽>呜啊啊啊！"
+			},
+			{
+				"key":"§4Frostmaw has become enraged!",
+				"value":"§4霜冻巨兽已被激怒！"
+			},
+			{
+				"key":"§c<Frostmaw> GRAAAH!",
+				"value":"§c<霜冻巨兽>咯啊啊啊！"
+			},
+			{
+				"key":"§c<Frostmaw> URGH!",
+				"value":"§c<霜冻巨兽>呃啊！"
+			},
+			{
+				"key":"§c<Frostmaw> UROOO!",
+				"value":"§c<霜冻巨兽>呃噢！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsHoarFrostProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesHoarFrostProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Hoar Frost> Fall t' the throne o' ice!",
+				"value":"§c<白霜之主>坠死在冰之王座上吧！"
+			},
+			{
+				"key":"§c<Hoar Frost> Ye dare attack the cap'n o' winter's bane!?",
+				"value":"§c<白霜之主>你胆敢攻击冬之灾厄的船长！？"
+			},
+			{
+				"key":"§c<Hoar Frost> Davy jones' locker couldn't stop me, wha' makes ye reckon ye can!?",
+				"value":"§c<白霜之主>戴维·琼斯都不能阻止我，你凭什么认为你能！？"
+			},
+			{
+				"key":"§c<Hoar Frost> Get out here 'n help yer cap'n!",
+				"value":"§c<白霜之主>快出来帮帮你们的船长！"
+			},
+			{
+				"key":"§c<Hoar Frost> Avast ye maties!",
+				"value":"§c<白霜之主>停下！伙伴们！"
+			},
+			{
+				"key":"§c<Hoar Frost> Ye'll nah be leavin' here alive!",
+				"value":"§c<白霜之主>你不可能活着离开这里！"
+			},
+			{
+				"key":"§4Hoar Frost has become enraged!",
+				"value":"§4白霜之主已被激怒！"
+			},
+			{
+				"key":"§c<Hoar Frost> Ye'll ne'er scuttle me ye yellow-bellied cur!",
+				"value":"§c<白霜之主>你永远也打不垮我，你这黄皮狗！"
+			},
+			{
+				"key":"§c<Hoar Frost> I'll fight till me last breath!",
+				"value":"§c<白霜之主>我将战斗到最后一口气！"
+			},
+			{
+				"key":"§c<Hoar Frost> I've come closer t' death than this!",
+				"value":"§c<白霜之主>我曾比这更接近死亡！"
+			},
+			{
+				"key":"§c<Hoar Frost> Ye'll freeze where ye stand!",
+				"value":"§c<白霜之主>你会被冰封在你所站的地方！"
+			},
+			{
+				"key":"§c<Hoar Frost> Fall t' me frost!",
+				"value":"§c<白霜之主>给我降霜！"
+			},
+			{
+				"key":"§c<Hoar Frost> The sea be mine t' freeze!",
+				"value":"§c<白霜之主>大海将被我冻结！"
+			},
+			{
+				"key":"§c<Hoar Frost> Rain 'em wit' cannonballs whelps!",
+				"value":"§c<白霜之主>小崽子们！用炮弹雨轰击他们！"
+			},
+			{
+				"key":"§c<Hoar Frost> Rip 'em apart, shoot the cannons!",
+				"value":"§c<白霜之主>把他们轰成碎片，大炮发射！"
+			},
+			{
+				"key":"§c<Hoar Frost> All cannons fire fore!",
+				"value":"§c<白霜之主>倾泻所有炮火！"
+			},
+			{
+				"key":"§c<Hoar Frost> Me crystal will make quick work o' ye!",
+				"value":"§c<白霜之主>我的水晶将很快砸向你们！"
+			},
+			{
+				"key":"§c<Hoar Frost> See if ye can handle me crystal bomb ye wee scallywag!",
+				"value":"§c<白霜之主>看看你能不能搞定我的水晶炸弹，你这个小混蛋！"
+			},
+			{
+				"key":"§c<Hoar Frost> Ye bore me! Hit 'em wit' the crystal bomb!",
+				"value":"§c<白霜之主>你真是让我感到烦躁！用水晶炸弹轰击他们！"
+			},
+			{
+				"key":"§4Kill Hoar Frost's summoned crystal before it explodes!",
+				"value":"§4在白霜之主召唤的水晶炸弹爆炸前杀死它！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsFerrousWroughtnautProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Ferrous Wroughtnaut> You dare challenge me!?",
+				"value":"§c<钢铁守护者>你竟敢挑战我？"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> The high throne will hear of this treason!",
+				"value":"§c<钢铁守护者>王庭会意识到这是背叛！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> Slumber be damned!",
+				"value":"§c<钢铁守护者>该死的休眠！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> HERETIC!",
+				"value":"§c<钢铁守护者>异端！！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> Fall to the throne's guard!",
+				"value":"§c<钢铁守护者>臣服于王位的护卫之下！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> Ha! Weakling!",
+				"value":"§c<钢铁守护者>呵！懦夫！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> I will not fall!",
+				"value":"§c<钢铁守护者>我不会倒下的！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> Throne give me strength!",
+				"value":"§c<钢铁守护者>王位给予我力量！"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> KNEEL!",
+				"value":"§c<钢铁守护者>跪下！！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsIgnisProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesIgnisProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Ignis> Your death will be swift!",
+				"value":"§c<焰魔>快受死吧！"
+			},
+			{
+				"key":"§c<Ignis> You dare hit your king!?",
+				"value":"§c<焰魔>你竟敢打你的王！？"
+			},
+			{
+				"key":"§c<Ignis> Die to my blade!",
+				"value":"§c<焰魔>死在我的剑刃下吧！"
+			},
+			{
+				"key":"§c<Ignis> War is in my blood!",
+				"value":"§c<焰魔>战斗是我的天性！"
+			},
+			{
+				"key":"§c<Ignis> Nothing but a scratch!",
+				"value":"§c<焰魔>不痛不痒！"
+			},
+			{
+				"key":"§c<Ignis> Feed my blade!",
+				"value":"§c<焰魔>吃我一剑！"
+			},
+			{
+				"key":"§4Ignis has become enraged!",
+				"value":"§4焰魔已被激怒！"
+			},
+			{
+				"key":"§c<Ignis> Honor the throne!",
+				"value":"§c<焰魔>向王位致敬！"
+			},
+			{
+				"key":"§c<Ignis> I still stand!",
+				"value":"§c<焰魔>我还坚持着！"
+			},
+			{
+				"key":"§c<Ignis> For glory!",
+				"value":"§c<焰魔>为了荣耀！"
+			},
+			{
+				"key":"§c<Ignis> Taste true power!",
+				"value":"§c<焰魔>尝尝真正的力量吧！"
+			},
+			{
+				"key":"§c<Ignis> Dragon's rage be free!",
+				"value":"§c<焰魔>释放吧，龙之怒！"
+			},
+			{
+				"key":"§c<Ignis> Stand and die!",
+				"value":"§c<焰魔>站在那里受死！"
+			},
+			{
+				"key":"§c<Ignis> Back off!",
+				"value":"§c<焰魔>退下！"
+			},
+			{
+				"key":"§c<Ignis> Away from me!",
+				"value":"§c<焰魔>离我远点！"
+			},
+			{
+				"key":"§c<Ignis> Be gone!",
+				"value":"§c<焰魔>走开！"
+			},
+			{
+				"key":"§c<Ignis> Run while you still can!",
+				"value":"§c<焰魔>劝你看清局势，早点逃跑！"
+			},
+			{
+				"key":"§c<Ignis> I will shatter you from your core!",
+				"value":"§c<焰魔>我会把你打的粉身碎骨！"
+			},
+			{
+				"key":"§c<Ignis> Get closer if you dare!",
+				"value":"§c<焰魔>有本事你就再靠近点！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsNetheriteMonstrosityProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesNetheriteMonstrosityProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesNetheriteMonstrosityProcedure$4",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesNetheriteMonstrosityProcedure$4$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesNetheriteMonstrosityProcedure$4$1$1",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Netherite Monstrosity> [ENGAGE: MOVEMENT DETECTED]",
+				"value":"§c<下界合金巨兽>[战斗：检测到移动]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [ENGAGE: ENEMIES APPROACHING]",
+				"value":"§c<下界合金巨兽>[战斗：敌人逼近]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [ENGAGE: HOSTILES ENCOUNTERED]",
+				"value":"§c<下界合金巨兽>[战斗：发现敌人]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BACKUP: DAMAGE SUSTAINED]",
+				"value":"§c<下界合金巨兽>[辅助：受到伤害]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BACKUP: INTERNAL MALFUNCTION]",
+				"value":"§c<下界合金巨兽>[辅助：内部故障]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BACKUP: REQUESTED]",
+				"value":"§c<下界合金巨兽>[辅助：请求]"
+			},
+			{
+				"key":"§4Netherite Monstrosity has become enraged!",
+				"value":"§4下界合金巨兽已被激怒！"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CRITICAL: IMPENDING SHUTDOWN]",
+				"value":"§c<下界合金巨兽>[紧急：即将停机]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CRITICAL: POWER LOW]",
+				"value":"§c<下界合金巨兽>[紧急：能量极低]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CRITICAL: MELTDOWN DETECTED]",
+				"value":"§c<下界合金巨兽>[紧急：检测到熔毁]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CORE: EXPLOSIVE IMPLANTED]",
+				"value":"§c<下界合金巨兽>[核心：爆炸物置入]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CORE: COMBUSTION TRANSFERRED]",
+				"value":"§c<下界合金巨兽>[核心：燃烧转移]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [CORE: INJECTION SUCCESSFUL]",
+				"value":"§c<下界合金巨兽>[核心：注入成功]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [EXECUTE: SHATTER]",
+				"value":"§c<下界合金巨兽>[执行：粉碎]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [EXAMINATION: DISTANCE REQUIRED]",
+				"value":"§c<下界合金巨兽>[检查：距离过远]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [EXAMINATION: CLOSE PROXIMITY]",
+				"value":"§c<下界合金巨兽>[检查：距离过近]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [EXAMINATION: TELEPORTATION]",
+				"value":"§c<下界合金巨兽>[检查：传送]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [3]",
+				"value":"§c<下界合金巨兽>[3]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [2]",
+				"value":"§c<下界合金巨兽>[2]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [1]",
+				"value":"§c<下界合金巨兽>[1]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BOMBARDMENT: LOCKING]",
+				"value":"§c<下界合金巨兽>[轰炸：锁定目标]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BOMBARDMENT: ACQUIRING TARGET]",
+				"value":"§c<下界合金巨兽>[轰炸：瞄准目标]"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [BOMBARDMENT: SEEKING]",
+				"value":"§c<下界合金巨兽>[轰炸：探查目标]"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsTheBigOneProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesTheBigOneProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesTheBigOneProcedure$6",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesTheBigOneProcedure$6$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesTheBigOneProcedure$6$1$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossPhasesTheBigOneProcedure$6$1$1$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.BossTheBigOneNameFailsafeProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.BossTheBigOneNameFailsafeProcedure$1",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<The Big One> TINY CREATURE HIT ME??",
+				"value":"§c<大块头>小东西竟敢打我？？"
+			},
+			{
+				"key":"§c<The Big One> SO SMALL HAHA!",
+				"value":"§c<大块头>哈哈哈，这么小啊！"
+			},
+			{
+				"key":"§c<The Big One> GRAAAAAAAHH",
+				"value":"§c<大块头>啊啊啊——！！"
+			},
+			{
+				"key":"§c<The Big One> ME CRUSH TINY CREATURE!",
+				"value":"§c<大块头>我将摧毁那微小的生物！"
+			},
+			{
+				"key":"§c<The Big One> ANT BITE ME HAHA!",
+				"value":"§c<大块头>哈哈哈，这群蚂蚁在给我挠痒！"
+			},
+			{
+				"key":"§c<The Big One> AAAAAGGH",
+				"value":"§c<大块头>啊啊——！"
+			},
+			{
+				"key":"§4The Big One has become enraged!",
+				"value":"§4大块头已被激怒！"
+			},
+			{
+				"key":"§c<The Big One> SMALL THING STRONG??",
+				"value":"§c<大块头>小东西，你能强到哪里去？？"
+			},
+			{
+				"key":"§c<The Big One> ME HATE TINY CREATURE!",
+				"value":"§c<大块头>我讨厌你们这些蝼蚁！"
+			},
+			{
+				"key":"§c<The Big One> FIGHT NO FAIR!",
+				"value":"§c<大块头>这不是一场公平的战斗！"
+			},
+			{
+				"key":"§c<The Big One> TINY CREATURE GO UP!",
+				"value":"§c<大块头>小东西继续啊！"
+			},
+			{
+				"key":"§c<The Big One> UP UP!",
+				"value":"§c<大块头>来啊！来啊！"
+			},
+			{
+				"key":"§c<The Big One> HAHAHA WEE!",
+				"value":"§c<大块头>哈哈哈！呼！"
+			},
+			{
+				"key":"§c<The Big One> FE!",
+				"value":"§c<大块头>嘿！"
+			},
+			{
+				"key":"§c<The Big One> FI!",
+				"value":"§c<大块头>哎！"
+			},
+			{
+				"key":"§c<The Big One> FO!",
+				"value":"§c<大块头>嚯！"
+			},
+			{
+				"key":"§c<The Big One> FUM!",
+				"value":"§c<大块头>吼！"
+			},
+			{
+				"key":"§c<The Big One> HAHAHA!",
+				"value":"§c<大块头>哈哈哈！"
+			},
+			{
+				"key":"§c<The Big One> C'MERE TASTY!",
+				"value":"§c<大块头>乖乖过来，我的盘中餐！"
+			},
+			{
+				"key":"§c<The Big One> SO HUNGRY!",
+				"value":"§c<大块头>我好饿！"
+			},
+			{
+				"key":"The Big One",
+				"value":"大块头"
+			},
+			{
+				"key":"Magma Monster",
+				"value":"岩浆怪兽"
+			},
+			{
+				"key":"Magma Monster Grunt",
+				"value":"岩浆怪兽小兵"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossMinionsLandGolemProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§c<Land Golem> Finally, a challenge!",
+				"value":"§c<大地傀儡>终于来了，一个挑战！"
+			},
+			{
+				"key":"§c<Land Golem> You dare challenge me!?",
+				"value":"§c<大地傀儡>你胆敢挑战我！？"
+			},
+			{
+				"key":"§c<Land Golem> You are nothing!",
+				"value":"§c<大地傀儡>你什么都不是！"
+			},
+			{
+				"key":"§c<Land Golem> I will not be killed so easily!",
+				"value":"§c<大地傀儡>我不会这么轻易的被杀死的！"
+			},
+			{
+				"key":"§c<Land Golem> My minions will protect me!",
+				"value":"§c<大地傀儡>我的随从会保护我！"
+			},
+			{
+				"key":"§c<Land Golem> Quit messing around, get them!",
+				"value":"§c<大地傀儡>别瞎搞了，抓住他们！"
+			},
+			{
+				"key":"§4The Land Golem has become enraged!",
+				"value":"§4大地傀儡已被激怒！"
+			},
+			{
+				"key":"§c<Land Golem> This tower will not fall!",
+				"value":"§c<大地傀儡>这座塔不会倒塌！"
+			},
+			{
+				"key":"§c<Land Golem> Your efforts are meaningless!",
+				"value":"§c<大地傀儡>你的努力毫无意义！"
+			},
+			{
+				"key":"§c<Land Golem> NO, THIS CANNOT BE!",
+				"value":"§c<大地傀儡>不，这不可能！！"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllBossEnrageSerpentDragonAntiCheeseProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllDeathCheckProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllDeathCheckProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllDragonKillGrantProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllLevelApplyProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllLevelApplyProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllMobsSpecialChanceProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllMobsSpecialChanceProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.AllScrollDropProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.BlockArrowBundleFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.CommandResetDifficultyFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.CommandRollFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.CommandSkillPointsFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure$2",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure$3",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure$4",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionOnDeathProcedure$5",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EasterEggUnionProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectBossBombInjectionAlertFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectBossBombInjectionAlertFunctionProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectBossBombInjectionFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectBossResetFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectBossResetWitherFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectElixirEnhancerFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectSkillfulMobApplyFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectSkillfulMobApplyOffhandFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EffectTemperatureSystemFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EntityBossCrystalHoarFrostFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.EntityBossCrystalHoarFrostFunctionProcedure$1",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.FishTreasureCrateChanceProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemHardcoreReviveStoneFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemTemperatureCheckerFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemTreasureChestFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemWeatherConduitFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemWeatherDiamondFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ItemWeatherNetheriteFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.PotionArmorIncreaseFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.PotionHealthIncreaseFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.PotionLuckIncreaseFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.PotionSpeedIncreaseFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RandomPassRollTooltipMsgProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RandomPassTooltipsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionLuckIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionLuckIncreaseItem$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click to temporarily increase your",
+				"value":"§7-右击暂时使你的幸运+0.25"
+			},
+			{
+				"key":"§7luck by +0.25.",
+				"value":""
+			},
+			{
+				"key":"§cThe boss enrages, and their scales harden!",
+				"value":"§c首领被激怒了，它们的鳞片变得坚硬无比！"
+			},
+			{
+				"key":"§cYour life is ticking...",
+				"value":"§c你的生命之钟在滴答作响……"
+			},
+			{
+				"key":"§cYou notice a command block floating high above the portal... it looks mineable?",
+				"value":"§c你注意到一个命令方块高高悬浮在传送门之上……它看起来可以挖掉？"
+			},
+			{
+				"key":"§fLevel: §f",
+				"value":"§f等级：§f"
+			},
+			{
+				"key":"§fLevel: §a",
+				"value":"§f等级：§a"
+			},
+			{
+				"key":"§fLevel: §b",
+				"value":"§f等级：§b"
+			},
+			{
+				"key":"§fLevel: §5",
+				"value":"§f等级：§5"
+			},
+			{
+				"key":"§fLevel: §e",
+				"value":"§f等级：§e"
+			},
+			{
+				"key":"§fLevel: §c",
+				"value":"§f等级：§c"
+			},
+			{
+				"key":"§fLevel: §0§k",
+				"value":"§f等级：§0§k"
+			},
+			{
+				"key":"§d☣ Special §r",
+				"value":"§d☣ 特殊 §r"
+			},
+			{
+				"key":"§fTier 1 Boss: ",
+				"value":"§f1阶首领："
+			},
+			{
+				"key":" §fhas been slain!",
+				"value":"§f已被杀死！"
+			},
+			{
+				"key":"§fTier 2 Boss: ",
+				"value":"§f2阶首领："
+			},
+			{
+				"key":"§fTier 3 Boss: ",
+				"value":"§f3阶首领："
+			},
+			{
+				"key":"§fTier 4 Boss: ",
+				"value":"§f4阶首领："
+			},
+			{
+				"key":"§fTier 5 Boss: ",
+				"value":"§f5阶首领："
+			},
+			{
+				"key":"§eYou break open the arrow bundle.",
+				"value":"§e你打开了箭捆。"
+			},
+			{
+				"key":"World difficulty has been reset back to day 0.",
+				"value":"世界难度已重置为第0天。"
+			},
+			{
+				"key":"Use /slayertaskreset to get a new task.",
+				"value":"使用/slayertaskreset获取新的任务。"
+			},
+			{
+				"key":"§e rolled §6",
+				"value":"§e抽中了§6"
+			},
+			{
+				"key":"You receive ",
+				"value":"你获得了"
+			},
+			{
+				"key":" Skill Points.",
+				"value":"点技能点。"
+			},
+			{
+				"key":"§c<Infori> *shakes butt*",
+				"value":"§c<Infori> *扭屁股*"
+			},
+			{
+				"key":"§c<Infori> L",
+				"value":"§c<Infori> 失败者"
+			},
+			{
+				"key":"§c<Infori> Nuh uh",
+				"value":"§c<Infori> 呃不"
+			},
+			{
+				"key":"§c<Infori> GUH",
+				"value":"§c<Infori> 嗝"
+			},
+			{
+				"key":"§c<Infori> Don't care, didn't ask.",
+				"value":"§c<Infori> 不感兴趣，别问。"
+			},
+			{
+				"key":"§c<Infori> Oh look who joined... the creator of Infernal Origins.",
+				"value":"§c<Infori> 哦看看谁加入游戏里了……地狱起源的创作者。"
+			},
+			{
+				"key":" §4was injected with a bomb! Get away from them!",
+				"value":" §4被注入了一个炸弹！远离它们！"
+			},
+			{
+				"key":"§4You were hit by the bomb from ",
+				"value":"§4你被炸弹击中了，它来自"
+			},
+			{
+				"key":"§c<Hoar Frost> Fair winds t' ye in Davy Jones' locker! Hahaha!",
+				"value":"§c<白霜之主>顺风把送到你葬身海底之地！哈哈哈！"
+			},
+			{
+				"key":"§c<Ignis> Not even a worthy challenge.",
+				"value":"§c<焰魔>甚至不值得挑战。"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [MISSION: COMPLETE]",
+				"value":"§c<下界合金巨兽>[任务：完成]"
+			},
+			{
+				"key":"§c<Frostmaw> GRUHUHU!",
+				"value":"§c<霜冻巨兽>呃吼吼吼！"
+			},
+			{
+				"key":"§c<The Big One> SCAREDY CAT! HAHAHA!",
+				"value":"§c<大块头> 胆小猫！哈哈哈！"
+			},
+			{
+				"key":"§c<Wither> Pity.",
+				"value":"§c<凋灵>遗憾。"
+			},
+			{
+				"key":"§c<Ender Guardian> As expected.",
+				"value":"§c<末影守卫>不出所料。"
+			},
+			{
+				"key":"§c<Elder Guardian> Know your place!",
+				"value":"§c<远古守卫者>认清你的地位！"
+			},
+			{
+				"key":"§c<Land Golem> The tower remains.",
+				"value":"§c<大地傀儡>这座塔仍矗立着。"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> Your weakness disgusts me!",
+				"value":"§c<钢铁守护者>你的懦弱令我唾弃！"
+			},
+			{
+				"key":"§c<Hoar Frost> All o' that power... gone t' waste...",
+				"value":"§c<白霜之主>所有的力量……都流失了……"
+			},
+			{
+				"key":"§c<Ignis> YOU KNOW NOT OF WHAT YOU HAVE DONE!",
+				"value":"§c<焰魔>你根本就不知道你做了什么！！"
+			},
+			{
+				"key":"§c<Netherite Monstrosity> [MISSION: FAILURE]",
+				"value":"§c<下界合金巨兽>[任务：失败]"
+			},
+			{
+				"key":"§c<Frostmaw> AROOOOO!",
+				"value":"§c<霜冻巨兽>嗷呜呜呜呜！"
+			},
+			{
+				"key":"§c<The Big One> NOOOOOOOOOO!! ME NO LOSE!",
+				"value":"§c<大块头> 不！！！我从不会输！"
+			},
+			{
+				"key":"§c<Wither> One with death... once again...",
+				"value":"§c<凋灵>带来死亡的人……再一次……"
+			},
+			{
+				"key":"§c<Ender Guardian> Void... claim my soul...",
+				"value":"§c<末影守卫>虚空……夺走了我的灵魂……"
+			},
+			{
+				"key":"§c<Elder Guardian> My... kingdom...",
+				"value":"§c<远古守卫者>我的……王国……"
+			},
+			{
+				"key":"§c<Land Golem> Crumble... as I do...",
+				"value":"§c<大地傀儡>崩塌了……就像我一样……"
+			},
+			{
+				"key":"§c<Ferrous Wroughtnaut> I wasn't... strong... enough..",
+				"value":"§c<钢铁守护者>我还……不够……强大…"
+			},
+			{
+				"key":"§eYour healer consumes the elixir, increasing your health as well.",
+				"value":"§e你们的医者饮用了一瓶灵药，你的生命值也得到了增加。"
+			},
+			{
+				"key":"§eYour Skillful rune awards you ",
+				"value":"§e你的娴熟符文奖励了你"
+			},
+			{
+				"key":"§e Skill Points!",
+				"value":"§e技能点！"
+			},
+			{
+				"key":"§eCurrent Temperature: §6",
+				"value":"§e当前温度：§6"
+			},
+			{
+				"key":"§4The crystal detonated...",
+				"value":"§4水晶被引爆了……"
+			},
+			{
+				"key":"§eYou fish up a §5Mega Rare Treasure Crate§e!",
+				"value":"§e你钓到了一个§5极其稀有宝藏板条箱§e！"
+			},
+			{
+				"key":"§eYou fish up a §bRare Treasure Crate§e!",
+				"value":"§e你钓到了一个§b稀有宝藏板条箱§e！"
+			},
+			{
+				"key":"§eYou fish up a §aBrewing Crate§e!",
+				"value":"§e你钓到了一个§a酿造板条箱§e！"
+			},
+			{
+				"key":"§eYou fish up a §aFarming Crate§e!",
+				"value":"§e你钓到了一个§a农业板条箱§e！"
+			},
+			{
+				"key":"§eYou fish up a §fCommon Treasure Crate§e!",
+				"value":"§e你钓到了一个§f普通宝藏板条箱§e！"
+			},
+			{
+				"key":"§eYou fish up a §fMaterial Crate§e!",
+				"value":"§e你钓到了一个§f原料板条箱§e！"
+			},
+			{
+				"key":"§e used a resurrection stone!",
+				"value":"§e使用了一块复活之石！"
+			},
+			{
+				"key":"§eYou are currently experiencing a normal temperature.",
+				"value":"§e你当前所处的温度正常。"
+			},
+			{
+				"key":"§eYou are currently experiencing moderate heat.",
+				"value":"§e你正在感受中等高温。"
+			},
+			{
+				"key":"§cHunger 10 is consuming you...",
+				"value":"§c饥饿Ⅹ正在消耗你……"
+			},
+			{
+				"key":"§eYou are currently experiencing extreme heat!",
+				"value":"§e你正在忍受极端高温！"
+			},
+			{
+				"key":"§cSprinting will cause massive damage.",
+				"value":"§c疾跑会造成巨大的伤害。"
+			},
+			{
+				"key":"§eYou are currently experiencing a moderate cold.",
+				"value":"§e你正在感受中等寒冷。"
+			},
+			{
+				"key":"§cYour arms grow weary with Mining Fatigue 4...",
+				"value":"§c你的手臂由于挖掘疲劳Ⅳ而变得疲惫不堪……"
+			},
+			{
+				"key":"§eYou are currently experiencing extreme frost!",
+				"value":"§e你正在忍受极端严寒！"
+			},
+			{
+				"key":"§cEvery 6 seconds you have a 33% chance to become frozen for 2 seconds.",
+				"value":"§c你每6秒有33%的概率被冻结2秒。"
+			},
+			{
+				"key":"§cYou are dying!",
+				"value":"§c你快死了！"
+			},
+			{
+				"key":"§eYou break open the treasure crate.",
+				"value":"§e你破坏了一个宝藏板条箱。"
+			},
+			{
+				"key":"§eYou break open the material crate.",
+				"value":"§e你破坏了一个原料板条箱。"
+			},
+			{
+				"key":"§eYou break open the brewing crate.",
+				"value":"§e你破坏了一个酿造板条箱。"
+			},
+			{
+				"key":"§eYou break open the farming crate.",
+				"value":"§e你破坏了一个农业板条箱。"
+			},
+			{
+				"key":" §6has set the weather to: §eRaining",
+				"value":"§6将天气设为：§e降雨"
+			},
+			{
+				"key":" §6has set the weather to: §eClear",
+				"value":"§6将天气设为：§e晴天"
+			},
+			{
+				"key":" §6has set the weather to: §eThundering",
+				"value":"§6将天气设为：§e雷暴"
+			},
+			{
+				"key":"§eYou consume the elixir, increasing your armor by +0.5.",
+				"value":"§e你饮用了一瓶灵药，你的护甲值增加了0.5。"
+			},
+			{
+				"key":"§eYou consume the elixir, increasing your health.",
+				"value":"§e你饮用了一瓶灵药，你的生命值增加了。"
+			},
+			{
+				"key":"§eYou consume the elixir, increasing your luck by +0.25.",
+				"value":"§e你饮用了一瓶灵药，你的幸运值增加了0.25。"
+			},
+			{
+				"key":"§eYou consume the elixir, increasing your speed by +0.0025.",
+				"value":"§e你饮用了一瓶灵药，你的速度增加了0.0025。"
+			},
+			{
+				"key":"§d[Hold to check for runes!]",
+				"value":"§d[按住查看符文！]"
+			},
+			{
+				"key":"§7☐ Empty Rune",
+				"value":"§7☐空符文"
+			},
+			{
+				"key":"§d☒ Rune:§f Smoldering",
+				"value":"§d☒符文：§f暗火"
+			},
+			{
+				"key":"§7Attacking burning entities deals 100% additional AOE fire damage to all entities within an 8 block range.",
+				"value":"§7攻击燃烧的实体可对周围8格内的所有实体造成100%的额外AOE火焰伤害。"
+			},
+			{
+				"key":"§d☒ Rune:§f Glass Cannon",
+				"value":"§d☒符文：§f玻璃大炮"
+			},
+			{
+				"key":"§7Deal +50% additional physical damage per empty armor slot.",
+				"value":"§7每有一个空的装备槽，造成的物理伤害额外+50%。"
+			},
+			{
+				"key":"§d☒ Rune:§f Berserker",
+				"value":"§d☒符文：§f狂战士"
+			},
+			{
+				"key":"§7Kills apply Strength for 30 seconds to all players within 15 blocks. Effect stacks with additional kills, capping at level 30. Can only proc from monster entities.",
+				"value":"§7击杀可对周围15格内的所有玩家施加30秒的力量效果。效果可以叠加，至多叠至30级。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§d☒ Rune:§f Combat Medic",
+				"value":"§d☒符文：§f战斗医师"
+			},
+			{
+				"key":"§7Kills apply Regeneration for 30 seconds to all players within 15 blocks. Effect stacks with additional kills, capping at level 30. Can only proc from monster entities.",
+				"value":"§7击杀可对周围15格内的所有玩家施加30秒的生命恢复效果。效果可以叠加，至多叠至30级。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§d☒ Rune:§f Initiative",
+				"value":"§d☒符文:§f 先发制人"
+			},
+			{
+				"key":"§7Attacking entities with at least 90% health deals 4x additional physical damage.",
+				"value":"§7攻击生命值在90%以上的实体可造成4x额外的物理伤害。"
+			},
+			{
+				"key":"§d☒ Rune:§f Slayer Master",
+				"value":"§d☒符文：§f资深杀手"
+			},
+			{
+				"key":"§7Deal additional magic damage based on your current Slayer Task streak.",
+				"value":"§7基于你现在的杀手任务连胜数造成额外的魔法伤害。"
+			},
+			{
+				"key":"§d☒ Rune:§f Plague Bomb",
+				"value":"§d☒符文：§f瘟疫炸弹"
+			},
+			{
+				"key":"§7Kills apply Wither 10 for 5 seconds to all entities within 8 blocks.",
+				"value":"§7击杀可对周围8格内的所有实体施加5秒的凋零Ⅹ效果。"
+			},
+			{
+				"key":"§d☒ Rune:§f Dark Pact",
+				"value":"§d☒符文：§f黑暗契约"
+			},
+			{
+				"key":"§7Kills have a 20% chance to summon a friendly Vindicator to attack nearby entities for 30 seconds. Can only proc from monster entities.",
+				"value":"§7击杀有20%的概率召唤一个友好的卫道士攻击附近的实体，持续30秒。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§d☒ Rune:§f Boss Ripper",
+				"value":"§d☒符文：§f首领撕裂者"
+			},
+			{
+				"key":"§7Deal 3x additional damage to bosses. Damage dealt is typeless and pierces defence.",
+				"value":"§7对首领造成3x无类型且穿透防御的额外伤害。"
+			},
+			{
+				"key":"§d☒ Rune:§f Death Toll",
+				"value":"§d☒符文:§f 死亡通行证"
+			},
+			{
+				"key":"§7Taking critical damage while holding this item will save your location. Upon dying, you'll be teleported back to where the critical damage was received. Will only work in the Overworld.",
+				"value":"§7持有此物品时受到致命伤害时将记录您的位置。死亡后，你将被传送到受到致命伤害时的地方。只在主世界生效。"
+			},
+			{
+				"key":"§d☒ Rune:§f Metal Shell",
+				"value":"§d☒符文：§f金属外壳"
+			},
+			{
+				"key":"§7Kills enhance your defence, causing you to gain a random amount of armor for 1 minute. Armor received varies between 6 and 24. Value rerolls on additional kills and will remove on death.",
+				"value":"§7击杀增强你的防御，获得持续1分钟的随机数值护甲。获得的护甲值在6到24之间不等。护甲值在额外的击杀时重置，在死亡后移除。"
+			},
+			{
+				"key":"§d☒ Rune:§f Phase Shift",
+				"value":"§d☒符文：§f移相"
+			},
+			{
+				"key":"§7Dodging an attack from the Dodge skill will cause you to heal the amount you would have taken. Healing received is fixed and cannot be amplified.",
+				"value":"§7使用躲避技能躲避一次攻击，则该攻击本应造成的伤害会转变为等血量的治疗。治疗的量是固定的，无法被放大。"
+			},
+			{
+				"key":"§d☒ Rune:§f Skillful",
+				"value":"§d☒符文：§f娴熟"
+			},
+			{
+				"key":"§7Kills have a 5% chance to grant skill points based on your current Slayer Task streak x 5. Can only proc from monster entities.",
+				"value":"§7击杀有5%的概率获得当前（杀手任务连胜数x5）点的技能点。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§d☒ Rune:§f Health Frenzy",
+				"value":"§d☒符文：§f生命狂热"
+			},
+			{
+				"key":"§7Your Health Regeneration skill heals twice as fast while this item is held.",
+				"value":"§7手持此物品时，你的生命恢复技能的治疗速度翻倍。"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyBerserkerProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyBossRipperProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyCombatMedicProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyDarkPactProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyDeathTollProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyGlassCannonProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyHealthFrenzyProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyInitiativeProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyMetalShellProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyPhaseShiftProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyPlagueBombProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyRemovalProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplySkillfulProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplySlayerMasterProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplySmolderingProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RuneApplyRemovalProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.RunePassiveTooltipsProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemBandageWoundsItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemBandageWoundsItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionArmorIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionArmorIncreaseItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionHealthIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionHealthIncreaseItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionLuckIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionLuckIncreaseItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionSpeedIncreaseItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.PotionSpeedIncreaseItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.SackGearItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.SackGearItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemRockCakeItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemRockCakeItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemHardcoreReviveStoneItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.ItemHardcoreReviveStoneItem$ItemCustom",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click to resurrect fallen hardcore friends. Players must be at least 10 blocks close to the one using this stone to resurrect.",
+				"value":"§7-右击复活死去的好兄弟。你必须靠近好兄弟10个方块以内才能复活。"
+			},
+			{
+				"key":"§7- Right click to 'attempt' to eat this cake, causing you to take 10% of your max health as damage.",
+				"value":"§7-右击'尝试'吃掉这块蛋糕，受到10%最大生命值的伤害。"
+			},
+			{
+				"key":"§7- Right click to open this bag, obtaining 4",
+				"value":"§7-右击开启袋子，获得4件随机武器/盔甲，10瓶生命灵药，"
+			},
+			{
+				"key":"§7random weapons/armor, 10 Health Elixirs,",
+				"value":"§725个神秘卷轴，一个末地传送门之眼，"
+			},
+			{
+				"key":"§725 Mystery Scrolls, 1 Portal Eye, and a",
+				"value":"§7还有25%的概率获得镀金神秘卷轴。"
+			},
+			{
+				"key":"§725% chance for 1 Golden Mystery Scroll.",
+				"value":""
+			},
+			{
+				"key":"§7- Right click to permanently increase your",
+				"value":"§7-右击永久使你的生命值+4"
+			},
+			{
+				"key":"§7health by +4.",
+				"value":""
+			},
+			{
+				"key":"§7- Right click to temporarily increase your",
+				"value":"§7-右击暂时使你的护甲值+0.5"
+			},
+			{
+				"key":"§7armor by +0.5.",
+				"value":""
+			},
+			{
+				"key":"§7- Elixirs can be consumed more than once",
+				"value":"§7-灵药可以使用多次，但效果不是永久的，死亡会重置效果。"
+			},
+			{
+				"key":"§7but will not be permanent, causing this stat",
+				"value":""
+			},
+			{
+				"key":"§7to be reset on death.",
+				"value":""
+			},
+			{
+				"key":"§7- Right click to bandage yourself to remove",
+				"value":"§7-右击绷带为自己移除重伤效果。"
+			},
+			{
+				"key":"§7the Critical Wounds effect.",
+				"value":""
+			},
+			{
+				"key":"§cYou cannot add the same rune to one item.",
+				"value":"§c你不能在一个物品上添加相同的符文。"
+			},
+			{
+				"key":"§cYou cannot add more than 3 runes to one item.",
+				"value":"§c你不能在一个物品上添加3个以上的符文。"
+			},
+			{
+				"key":"§eAll runes have been removed from this item.",
+				"value":"§e此物品上的所有符文已被移除。"
+			},
+			{
+				"key":"§cThere are no runes to remove from this item.",
+				"value":"§c此物品上已无可移除的符文。"
+			},
+			{
+				"key":"§9[Hold Crouch for more details]",
+				"value":"§9[按住潜行键查看更多信息]"
+			},
+			{
+				"key":"§7- Effect: Attacking burning entities deals 100% additional AOE fire damage to all entities within an 8 block range.",
+				"value":"§7-效果：攻击燃烧的实体可对周围8格内的所有实体造成100%的额外AOE火焰伤害。"
+			},
+			{
+				"key":"§7- Effect: Deal +50% additional physical damage per empty armor slot.",
+				"value":"§7-效果：每有一个空装备槽，造成的物理伤害额外+50%。"
+			},
+			{
+				"key":"§7- Effect: Kills apply Strength for 30 seconds to all players within 15 blocks. Effect stacks with additional kills, capping at level 30. Can only proc from monster entities.",
+				"value":"§7-效果：击杀可对周围15格内的所有玩家施加30秒的力量效果。效果可以叠加，至多叠至30级。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§7- Effect: Kills apply Regeneration for 30 seconds to all players within 15 blocks. Effect stacks with additional kills, capping at level 30. Can only proc from monster entities.",
+				"value":"§7-效果：击杀可对周围15格内的所有玩家施加30秒的生命恢复效果。效果可以叠加，至多叠至30级。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§7- Effect: Attacking entities with at least 90% health deals 4x additional physical damage.",
+				"value":"§7-效果：攻击生命值在90%以上的实体可造成4x额外的物理伤害。"
+			},
+			{
+				"key":"§7- Effect: Deal additional magic damage based on your current Slayer Task streak.",
+				"value":"§7-效果：基于你现在的杀手任务连胜数造成额外的魔法伤害。"
+			},
+			{
+				"key":"§7- Effect: Kills apply Wither 10 for 5 seconds to all entities within 8 blocks.",
+				"value":"§7-效果：击杀可对周围8格内的所有实体施加5秒的凋零Ⅹ效果。"
+			},
+			{
+				"key":"§7- Effect: Deal 3x additional damage to bosses. Damage dealt is typeless and pierces defence.",
+				"value":"§7-效果：对首领造成3x无类型且穿透防御的额外伤害。"
+			},
+			{
+				"key":"§7- Effect: Taking critical damage while holding this item will save your location. Upon dying, you'll be teleported back to where the critical damage was received. Will only work in the Overworld.",
+				"value":"§7-效果：持有此物品时受到致命伤害时记录你的位置。死亡后，你将被传送回受到致命伤害的地方。仅在主世界生效。"
+			},
+			{
+				"key":"§7- Effect: Kills enhance your defence, causing you to gain a random amount of armor for 1 minute. Armor received varies between 6 and 24. Value rerolls on additional kills and will remove on death.",
+				"value":"§7-效果：击杀会增强你的防御力，让你获得持续1分钟的随机护甲值。获得的护甲值在6到24之间不等。护甲值在额外的击杀时重置，在死亡后移除。"
+			},
+			{
+				"key":"§7- Effect: Dodging an attack from the Dodge skill will cause you to heal the amount you would have taken. Healing received is fixed and cannot be amplified.",
+				"value":"§7-效果：使用躲避技能躲避一次攻击，则该攻击本应造成的伤害会转变为等血量的治疗。治疗的量是固定的，无法被放大。"
+			},
+			{
+				"key":"§7- Effect: Kills have a 5% chance to grant skill points based on your current Slayer Task streak x 5. Can only proc from monster entities.",
+				"value":"§7-效果：击杀有5%的概率获得当前（杀手任务连胜数x5）点的技能点。只有击杀怪物实体可以触发。"
+			},
+			{
+				"key":"§7- Effect: Your Health Regeneration skill heals twice as fast while this item is held.",
+				"value":"§7-效果：手持此物品时，你的生命恢复技能的治疗速度翻倍。"
+			},
+			{
+				"key":"§7- Effect: Kills have a 20% chance to summon a friendly Vindicator to attack nearby entities for 30 seconds. Can only proc from monster entities.",
+				"value":"§7-效果：击杀有20%的概率召唤一个友好的卫道士攻击附近的实体，持续30秒。只有击杀怪物实体可以触发。"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.procedures.SackGearFunctionProcedure",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.procedures.ServerStartupMessageProcedure",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"You open the bag and claim its rewards!",
+				"value":"你打开袋子并领取了奖励！"
+			},
+			{
+				"key":"§4-------------------- §cServer Notice §4--------------------",
+				"value":"§4--------------------§c服务器提示§4--------------------"
+			},
+			{
+				"key":"§cIf playing on LAN or Essential servers, you may experience constant kicks on §eOwlkin §cand §eVoid Wyvern§c. Other Origins may experience kicks, but not as often. If you're playing on dedicated, these kicks will not occur and you can ignore this.",
+				"value":"§c在局域网或基础服务器上游玩时，§e鸮人§c和§e虚空飞龙§c起源会不断被踢出服务器。其他起源也可能被踢出服务器，但不会那么频繁。如果你在专用服务器上游玩，则不会出现这个情况，你可以忽略这个提示。"
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneBerserkerItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneBerserkerItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneBossRipperItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneBossRipperItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneCombatMedicItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneCombatMedicItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneDarkPactItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneDarkPactItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneDeathTollItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneDeathTollItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneGlassCannonItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneGlassCannonItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneHealthFrenzyItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneHealthFrenzyItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneInitiativeItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneInitiativeItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneMetalShellItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneMetalShellItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RunePhaseShiftItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RunePhaseShiftItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RunePlagueBombItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RunePlagueBombItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSkillfulItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSkillfulItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSlayerMasterItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSlayerMasterItem",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSmolderingItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneSmolderingItem",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click while holding a weapon or",
+				"value":"§7-当主手持有武器或盾牌时右击该符文使之镶嵌于该物品上。"
+			},
+			{
+				"key":"§7shield in your main hand to apply this",
+				"value":""
+			},
+			{
+				"key":"§7rune to it.",
+				"value":""
+			}
+		]
+	},
+	{
+		"target_classes":[
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneRemoveItem$ItemCustom",
+				"method":""
+			},
+			{
+				"name":"net.union.infernaloriginsextras.item.RuneRemoveItem",
+				"method":""
+			}
+		],
+		"pairs":[
+			{
+				"key":"§7- Right click while holding a weapon or",
+				"value":"§7-当主手持有武器或盾牌时右击移除所有符文。"
+			},
+			{
+				"key":"§7shield in your main hand to delete all",
+				"value":""
+			},
+			{
+				"key":"§7currently applied runes from it.",
+				"value":""
+			}
+		]
+	}
+]
