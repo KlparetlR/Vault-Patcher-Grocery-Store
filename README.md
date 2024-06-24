@@ -62,6 +62,8 @@ PR格式为`<模组英文名> <简述>`，例如`FTBQuests 汉化提交`
 
 "download_source"改为"config","index"目前可选为`https://vpdl.nvoid.me/index.json`或`https://raw.githubusercontent.com/KlparetlR/Vault-Patcher-Grocery-Store/main/ModConfigs/github-index.json`
 
+[针对一般玩家的 Vault Patcher 汉化使用说明：如何手动安装和配置模块文件-哔哩哔哩](https://b23.tv/Pfpm2BQ)
+
 ## 调用后的要求和限制 **（必看，须知）**
 
 本库的协议为[CC-BY-NC-ND 4.0](https://github.com/KlparetlR/Vault-Patcher-Grocery-Store/blob/main/LICENSE.txt)，即
