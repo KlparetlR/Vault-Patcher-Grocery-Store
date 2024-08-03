@@ -2,7 +2,7 @@
     {
         "authors": "KlparetlR",
         "name": "create-stuff-additions模组汉化",
-        "desc": "分发、抄袭必追责",
+        "desc": "分发、抄袭必追责，硬编码汉化版号：VP-JPC-V2.2.0",
         "mods": "create-stuff-additions1.16.5_v1.1.6"
     },
     {
@@ -276,5 +276,18 @@
                 "value": "§7向各个方向的实体推动"
             }
         ]
+    },
+    {
+      "t": {
+        "name": "net/mcreator/createstuffaddons/item/RafinedRadianceExoskeletonItem$2",
+        "method": "",
+        "local": ""
+      },
+      "p": [
+        {
+          "k": "§7Give a Haste II and Weakness effect",
+          "v": "§7给予急迫II和失明效果"
+        }
+      ]
     }
 ]

@@ -7,7 +7,7 @@
     },
     {
         "t": {
-            "name": "com/baranhan123/heartcanisters/items/HeartItem"
+            "name": "com/baranhan123/heartcanisters/items/CanisterItem"
         },
         "p": [
             {
