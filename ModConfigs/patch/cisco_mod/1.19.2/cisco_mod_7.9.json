@@ -1,9 +1,9 @@
 [
     {
-        "authors": "老本願",
+        "authors": "老本願、梦撰",
         "name": "Cisco's Content模组汉化",
-        "desc": "VPGS，cc",
-        "mods": "cisco_mod_7.2",
+        "desc": "VPGS,cc",
+        "mods": "cisco_mod_7.9",
         "dynamic": false
     },
     {
@@ -13,7 +13,7 @@
         "p": [
             {
                 "k": "§5Blessed by neptune my helmet allowed me to breath underwater.",
-                "v": "§5在海王的保佑下，我的头盔可以让我在水下呼吸。"
+                "v": "§5在海王的保佑下,我的头盔可以让我在水下呼吸。"
             },
 			{
                 "k": "§6[Full set Bonus] : §fgrants effect Cisco's Might.",
@@ -21,7 +21,7 @@
 			},
 			{
                 "k": "§a[Key Press Ability] : §fCisco's Clarity. (default  key [x] )",
-                "v": "§a[按键触发]: §f西思科的明晰 （默认键[x]）"
+                "v": "§a[按键触发]: §f西思科的明晰 （默认键[x]) "
 			}
         ]
     },
@@ -36,7 +36,7 @@
             },
 			{
                 "k": "§6[Unique Effect] Absolute Equillibrium : §fdoes 4 percent of target max hp as true damage and grants 15 percent damage reduction.",
-                "v": "§6[独特效果]:绝对天平：§f以目标最大生命值的4%作为真实伤害，并给予15%的伤害减免。"
+                "v": "§6[独特效果]:绝对天平:§f以目标最大生命值的4%作为真实伤害,并给予15%的伤害减免。"
 			},
 			{
                 "k": "§a[Right Click Ability] §fgrants a large temporary boost to hp and attack speed.",
@@ -55,11 +55,11 @@
             },
 			{
                 "k": "§6[Unique Effect] : Divine Justice : §fDeals significant damage to targets below 20 percent health.",
-                "v": "§6[独特效果]：神圣正义：§f对生命值低于20%的目标造成显著伤害。"
+                "v": "§6[独特效果]:神圣正义:§f对生命值低于20%的目标造成显著伤害。"
 			},
 			{
                 "k": "§a[Right Click Ability] : §fCleanses certain negative effects and grants a heal effect.",
-                "v": "§a[右键技能]：§f清除特定的负面效果并提供治疗效果。"
+                "v": "§a[右键技能]:§f清除特定的负面效果并提供治疗效果。"
 			}
         ]
     },
@@ -1229,8 +1229,8 @@
         },
         "p": [
             {
-                "k": "§5Brightsteel alloy in it's unrefined form.",
-                "v": "§5未经精炼的亮钢合金。"
+                "k": "Brightsteel alloy in it's unrefined form.",
+                "v": "未经精炼的亮钢合金。"
             }
         ]
     },
@@ -1462,6 +1462,104 @@
             {
                 "k": "§6[ Full Set Bonus ] : Galeforce : §fGrants  the ability to jump mid air by tapping [space]. Then gives slowfalling.",
                 "v": "§6[全套装备奖励]: Galeforce : §f通过点击 [空格]，获得在空中跳跃的能力。然后获得缓慢下落的能力。"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.item.DarksteelArmorItem$Boots"
+        },
+        "p":[
+            {
+                "k": "§dArmor plated with darksteel for increased protection.",
+                "v": "§d用暗钢加固的装甲板,以增加保护。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Aegis Impervium : §fOnce every 5 mins if damage taken is greater than max hp survive with 10 hp and gain 3 second temporary invunerability.",
+                "v": "§6[全套装备奖励]:Aegis Impervium :§f如果玩家在5分钟内受到的伤害大于最大生命值(HP),那么玩家将保留10点生命值并触发以下效果;获得3秒的免伤。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Resilience : §fGain a small resistance buff.",
+                "v": "§6[全套装备奖励]: Resilience : §f获得小幅抗性buff"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.item.DarksteelArmorItem$Chestplate"
+        },
+        "p":[
+            {
+                "k": "§dArmor plated with darksteel for increased protection.",
+                "v": "§d用暗钢加固的装甲板,以增加保护。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Aegis Impervium : §fOnce every 5 mins if damage taken is greater than max hp survive with 10 hp and gain 3 second temporary invunerability.",
+                "v": "§6[全套装备奖励]:Aegis Impervium :§f如果玩家在5分钟内受到的伤害大于最大生命值(HP),那么玩家将保留10点生命值并触发以下效果;获得3秒的免伤。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Resilience : §fGain a small resistance buff.",
+                "v": "§6[全套装备奖励]: Resilience : §f获得小幅抗性buff"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.item.DarksteelArmorItem$Helmet"
+        },
+        "p":[
+            {
+                "k": "§dArmor plated with darksteel for increased protection.",
+                "v": "§d用暗钢加固的装甲板,以增加保护。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Aegis Impervium : §fOnce every 5 mins if damage taken is greater than max hp survive with 10 hp and gain 3 second temporary invunerability.",
+                "v": "§6[全套装备奖励]:Aegis Impervium :§f如果玩家在5分钟内受到的伤害大于最大生命值(HP),那么玩家将保留10点生命值并触发以下效果;获得3秒的免伤。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Resilience : §fGain a small resistance buff.",
+                "v": "§6[全套装备奖励]: Resilience : §f获得小幅抗性buff"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.item.DarksteelArmorItem$Leggings"
+        },
+        "p":[
+            {
+                "k": "§dArmor plated with darksteel for increased protection.",
+                "v": "§d用暗钢加固的装甲板,以增加保护。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Aegis Impervium : §fOnce every 5 mins if damage taken is greater than max hp survive with 10 hp and gain 3 second temporary invunerability.",
+                "v": "§6[全套装备奖励]:Aegis Impervium :§f如果玩家在5分钟内受到的伤害大于最大生命值(HP),那么玩家将保留10点生命值并触发以下效果;获得3秒的免伤。"
+            },
+            {
+                "k": "§6[Full Set Bonus]: Resilience : §fGain a small resistance buff.",
+                "v": "§6[全套装备奖励]: Resilience : §f获得小幅抗性buff"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.item.TrueDragonsBreathItem"
+        },
+        "p":[
+            {
+                "k": "§dDragon's breath awakened and refined for the crafting of powerful tools and equipment.",
+                "v": "§d由龙息精炼而来,用于制作更强大的工具和设备"
+            }
+        ]
+    },
+        {
+        "t":{
+            "name":"net.cisco.block.PodiumofpurgatoryBlock"
+        },
+        "p":[
+            {
+                "k": "A relic which can briefly open the gateway to the realm of the fallen. Used to pull the fell king to the overworld with a tainted talisman.",
+                "v": "一个遗物，可以短暂地打开通往堕落之境的大门。使用一个受污染的护身符把堕落的国王召唤到地上。"
             }
         ]
     }
