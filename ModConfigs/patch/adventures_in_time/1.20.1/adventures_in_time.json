@@ -1,0 +1,740 @@
+[
+  {
+    "name": "Adventures In Time模组硬编码汉化",
+    "desc": "ait模组硬编码汉化。此文本纯纯机翻，翻译者诗人卧持",
+    "mods": "Advantures_in_time_fabric_1.0.5",
+    "authors": "Joggest",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/AntiGravsControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "antigravs",
+        "value": "反重力系统"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/AutoPilotControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "protocol_116",
+        "value": "协议116"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/CloakControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "protocol_3",
+        "value": "协议3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/DimensionControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "dimension",
+        "value": "维度"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/DirectionControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "direction",
+        "value": "方向"
+      },
+      {
+        "key": "Rotation Direction: ",
+        "value": "转至："
+      },
+      {
+        "key": "North East",
+        "value": "东北方向"
+      },
+      {
+        "key": "East",
+        "value": "东方向"
+      },
+      {
+        "key": "South East",
+        "value": "东南方向"
+      },
+      {
+        "key": "South",
+        "value": "南方向"
+      },
+      {
+        "key": "South West",
+        "value": "西南方向"
+      },
+      {
+        "key": "West",
+        "value": "西方向"
+      },
+      {
+        "key": "North West",
+        "value": "西北方向"
+      },
+      {
+        "key": "North",
+        "value": "北方向"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/DoorControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "door_control",
+        "value": "门开关"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/DoorLockControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "door_lock",
+        "value": "门锁"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/FastReturnControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "fast_return",
+        "value": "快速返回"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/HADSControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "alarms",
+        "value": "敌对警报"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/HandBrakeControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "handbrake",
+        "value": "手刹"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/HailMaryControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "protocol_813",
+        "value": "协议813"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/LandTypeControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "land_type",
+        "value": "地面搜索"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/MonitorControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "monitor",
+        "value": "监视器"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/PowerControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "power",
+        "value": "电源"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/RandomiserControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "randomiser",
+        "value": "随机坐标"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/RefuelerControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "refueler",
+        "value": "加油"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/SecurityControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "protocol_19",
+        "value": "协议19"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/ShieldsControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "shields",
+        "value": "护盾"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/ShowSiegeModeLeverControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "toggle_siege_mode_lever",
+        "value": "围攻模式切换操纵杆"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/SiegeModeControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "protocol_1913",
+        "value": "协议1913"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/SonicPortControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "sonic_port",
+        "value": "音速端口"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/TelepathicControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "telepathic_circuit",
+        "value": "心灵传输接口"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/ThrottleControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "throttle",
+        "value": "油门"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/VisualiserControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "visualiser",
+        "value": "观察仪"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/waypoint/EjectWaypointControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "eject_waypoint",
+        "value": "弹出航点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/waypoint/GotoWaypointControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "goto_waypoint",
+        "value": "转至航点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/waypoint/LoadWaypointControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "load_waypoint",
+        "value": "记录航点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/waypoint/MarkWaypointControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "mark_waypoint",
+        "value": "标记航点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/waypoint/SetWaypointControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "set_waypoint",
+        "value": "设定航点"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/control/impl/pos/IncrementControl",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "increment",
+        "value": "坐标增量"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/registry/impl/SequenceRegistry",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Artron drain detected!",
+        "value": "检测到Artron能量已耗尽！"
+      },
+      {
+        "key": "Directional error!",
+        "value": "方向发生错误！"
+      },
+      {
+        "key": "Increment scale error! Recalculation necessary!",
+        "value": "坐标增量发生错误！需要重新计算增量比例！"
+      },
+      {
+        "key": "Gravity miscalculation!",
+        "value": "重力计算错误"
+      },
+      {
+        "key": "Ship computer offline! Crash imminent!",
+        "value": "飞船计算机离线！即将发生碰撞！"
+      },
+      {
+        "key": "Drifting off course X!",
+        "value": "X航向发生偏移！"
+      },
+      {
+        "key": "Drifting off course Y!",
+        "value": "Y航向发生偏移！"
+      },
+      {
+        "key": "Drifting off course Z!",
+        "value": "Z航向发生偏移！"
+      },
+      {
+        "key": "Debris incoming!",
+        "value": "检测到前方有碎片接近！"
+      },
+      {
+        "key": "Vortex drift: acceleration necessary!",
+        "value": "漩涡偏移：需要加速！"
+      },
+      {
+        "key": "Immediate cloaking necessary!",
+        "value": "需要立即隐形！"
+      },
+      {
+        "key": "DIMENSION BREACH: SECURE DOORS",
+        "value": "维度破裂：稳固门"
+      },
+      {
+        "key": "Small debris field!",
+        "value": "即将进入小型碎片场！"
+      },
+      {
+        "key": "Unstable landing position!",
+        "value": "着陆位置不稳定！"
+      },
+      {
+        "key": "TARDIS off course!",
+        "value": "塔迪斯偏离航道！"
+      },
+      {
+        "key": "Power drain imminent!",
+        "value": "电力即将耗尽！"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/core/item/SonicItem$Mode",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "OVERLOAD",
+        "value": "过载"
+      },
+      {
+        "key": "INACTIVE",
+        "value": "待机"
+      },
+      {
+        "key": "INTERACTION",
+        "value": "互动"
+      },
+      {
+        "key": "SCANNING",
+        "value": "扫描"
+      },
+      {
+        "key": "TARDIS",
+        "value": "塔迪斯"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/client/screens/SonicSettingsScreen",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Sonic Casing",
+        "value": "起子外壳"
+      },
+      {
+        "key": "Current AU",
+        "value": "当前AU"
+      },
+      {
+        "key": "Apply",
+        "value": "应用"
+      },
+      {
+        "key": "Linked TARDIS",
+        "value": "连接的塔迪斯"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/data/loyalty/Loyalty$Type",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "OWNER",
+        "value": "主人"
+      },
+      {
+        "key": "PILOT",
+        "value": "驾驶员"
+      },
+      {
+        "key": "COMPANION",
+        "value": "同伴"
+      },
+      {
+        "key": "NEUTRAL",
+        "value": "中立"
+      },
+      {
+        "key": "REJECT",
+        "value": "排斥"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/client/screens/TardisSecurityScreen",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Date created:",
+        "value": "创建日期:"
+      },
+      {
+        "key": "OFF",
+        "value": "关"
+      },
+      {
+        "key": "ON",
+        "value": "开"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/client/screens/MonitorScreen",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Apply",
+        "value": "应       用"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/data/loyalty/LoyaltyHandler",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": " unlocked!",
+        "value": "已解锁"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/core/item/KeyItem",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "CREATIVE ONLY SKELETON KEY",
+        "value": "仅限创造模式获得"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/core/AITItems",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Gold Key",
+        "value": "金钥匙"
+      },
+      {
+        "key": "Gold Nugget",
+        "value": "金粒"
+      },
+      {
+        "key": "Netherite Key",
+        "value": "下界合金钥匙"
+      },
+      {
+        "key": "Netherite Scrap",
+        "value": "下界合金碎片"
+      },
+      {
+        "key": "Classic Key",
+        "value": "经典钥匙"
+      },
+      {
+        "key": "Amethyst Shard",
+        "value": "紫水晶碎片"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/core/item/SonicItem",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Position: ",
+        "value": "当前塔迪斯的位置："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/link/LinkableItem",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "TARDIS: ",
+        "value": "绑定的塔迪斯："
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/tardis/data/travel/TravelHandlerBase$GroundSearch",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "CEILING",
+        "value": "最高处"
+      },
+      {
+        "key": "MEDIAN",
+        "value": "中间处"
+      },
+      {
+        "key": "FLOOR",
+        "value": "最低处"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "loqor/ait/core/util/WorldUtil",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "direction.north",
+        "value": "南方向"
+      },
+      {
+        "key": "direction.north_east",
+        "value": "东南方向"
+      },
+      {
+        "key": "direction.east",
+        "value": "东方向"
+      },
+      {
+        "key": "direction.south_east",
+        "value": "东北方向"
+      },
+      {
+        "key": "direction.south",
+        "value": "北方向"
+      },
+      {
+        "key": "direction.south_west",
+        "value": "西南方向"
+      },
+      {
+        "key": "direction.west",
+        "value": "西方向"
+      },
+      {
+        "key": "direction.north_west",
+        "value": "西北方向"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.example.mod.SomethingClass",
+      "method": "doSomething",
+      "local": "Lsomething",
+      "i18n": false,
+      "ordinal": 209
+    },
+    "pairs": []
+  }
+]
