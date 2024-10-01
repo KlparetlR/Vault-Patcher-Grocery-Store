@@ -726,15 +726,5 @@
         "value": "西北方向"
       }
     ]
-  },
-  {
-    "target_class": {
-      "name": "com.example.mod.SomethingClass",
-      "method": "doSomething",
-      "local": "Lsomething",
-      "i18n": false,
-      "ordinal": 209
-    },
-    "pairs": []
   }
 ]
