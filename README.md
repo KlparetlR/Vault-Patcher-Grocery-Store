@@ -1,6 +1,6 @@
 # **Vault Patcher Grocery Store丨Vault Patcher杂货铺**
 
-维护：KlparetlR、TexTrue、X209
+维护：KlparetlR
 
 ## 相关链接
 
@@ -19,15 +19,17 @@
 
 ## 配置及翻译上传的要求及格式
 
-请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/patch/<模组命名空间>/<提取硬编码可用的游戏版本>`
+请在`ModConfigs`文件夹中提交你的PR，格式为`ModConfigs/patch/<模组命名空间>/<提取硬编码可用的游戏版本>/模块文件名.json`
 
-<模组命名空间>会在之后用于硬编码汉化下载模组，需准确填写，一般是assets文件夹下存放模组主要文件（包括语言文件）的文件夹名
+`<模组命名空间>`会在之后用于硬编码汉化下载模组，需准确填写，一般是assets文件夹下存放模组主要文件（包括语言文件）的文件夹名
 
 比如：`XPCoins(FORGE-1.16.4)vrs1.0.7.jar\assets\xpcoins\lang\en_us.json`
 
 这里的`xpcoins`即为模组命名空间
 
 `<提取硬编码可用的游戏版本>`尽量写区间（尽量测试保证区间内的版本启用它时不报错）,比如：`1.20.1-1.14.2`，高版本在前。也可以写`1.14.2+`
+
+`模块文件名`不能有空格，会导致处理index时爆炸
 
 PR格式为`<模组英文名> <简述>`，例如`FTBQuests 汉化提交`
 
@@ -60,7 +62,9 @@ PR格式为`<模组英文名> <简述>`，例如`FTBQuests 汉化提交`
 
 在`<版本文件夹名>\config\vaultpatcher_asm\plugins\vpdl\config.josn`中，
 
-"download_source"改为"config","index"目前可选为`https://vpdl.nvoid.me/index.json`或`https://raw.githubusercontent.com/KlparetlR/Vault-Patcher-Grocery-Store/main/ModConfigs/github-index.json`
+"download_source"改为"config","index"目前可选为`https://vpdl.nvoid.me/index.json`或
+
+`https://raw.githubusercontent.com/KlparetlR/Vault-Patcher-Grocery-Store/main/ModConfigs/github-index.json`
 
 [针对一般玩家的 Vault Patcher 汉化使用说明：如何手动安装和配置模块文件-哔哩哔哩](https://b23.tv/Pfpm2BQ)
 
