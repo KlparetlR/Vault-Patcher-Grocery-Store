@@ -1,8 +1,8 @@
 [
   {
-    "name": "born_in_chaos_[Forge]1.20.1_1.3.1",
+    "name": "born_in_chaos_[Forge]1.20.1_1.4",
     "desc": "汉化翻译",
-    "mods": "born_in_chaos_[Forge]1.20.1_1.3.1",
+    "mods": "born_in_chaos_[Forge]1.20.1_1.4",
     "authors": "NeoStar_WonV",
     "dynamic": false,
     "i18n": false
@@ -25,7 +25,71 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkUpgradeItem",
+        "name": "net/mcreator/borninchaosv/procedures/DescriptionArmorProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Press Shift to show tooltip",
+         "value": "§8按[§fSHIFT§8]查看物品描述"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Press Shift to show tooltip",
+         "value": "§8按[§fSHIFT§8]查看物品描述"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§9Intoxication (0:05)",
+         "value": "§9酒中毒（0:05）"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§9Rampage (1:50)",
+         "value": "§9轻度暴怒（1:50）"
+       },
+       {
+        "key": "§8Effect stacks",
+        "value": "§6效果可叠加为极端暴怒"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§9Stimulation (0:10)",
+         "value": "§9亢奋（0:10）"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
@@ -39,7 +103,7 @@
        },
     {
         "key": "§9 Netherite Equipment",
-        "value": "§9下界合金装备"
+        "value": "§9 下界合金装备"
        },
     {
         "key": "§7Ingredients:",
@@ -53,54 +117,50 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/BoneHeartItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8When pressed RMB grants",
-         "value": "§6当轻击鼠标右键后"
+         "key": "§8When right clicked, grants",
+         "value": "§6当轻击鼠标右键后骸骨之心会授予你可抵挡一次伤害的"
        },
      {
          "key": "§8a bone barrier that blocks one hit",
-         "value": "§6骸骨之心会授予你可抵挡一次伤害的强大护盾"
+         "value": "§6强大护盾"
        }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SpiritualDustItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
      {
          "key": "§8Increases the power of shots fired,",
-         "value": "§6感受来自灵魂的冲击吧"
+         "value": "§6用于增强魔血法杖穿血打击"
        },
      {
          "key": "§8from the Staff of Magic Arrows",
-         "value": "§6用于增强魔血法杖魔血打击的伤害"
+         "value": "§6的伤害"
        }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/StaffoftheSummonerItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Summons two skeleton",
-         "value": "§6对着地面右击"
+         "key": "§8Right click on the block to summon",
+         "value": "§6对着地面右击来召唤两只"
        },
      {
-         "key": "§8minions by right-clicking",
-         "value": "§6来召唤两只骷髅随从，"
-       },
-    {
-        "key": "§8on a block",
-        "value": "§6它们是你最忠实的伙伴。"
-      }
+         "key": "§8two controlled Baby Skeletons",
+         "value": "§6受控的小骷髅"
+       }
     ]
   },
   {
@@ -177,379 +237,263 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DeathTotemItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
-     {
+      {
+        "key": "§8While in hand:",
+        "value": "§7手持时："
+      },
+      {
          "key": "§8Saves from lethal damage",
-         "value": "§6在你遭受致命伤时能避免死亡，"
+         "value": "§6在你遭受致命伤时能避免死亡，并且在以消耗饱食度的前提下，"
        },
        {
         "key": "§8and grants temporary power",
-        "value": "§6并且在以消耗饱食度的前提下"
+        "value": "§6赋予你临时的强大力量。"
       },
       {
         "key": "§8in exchange for your hunger",
-        "value": "§6能够赋予你临时的强大力量。"
+        "value": ""
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareScytheItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Nightmare Touch",
-         "value": "§6梦魇之触"
-       }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/GreatAxoftheReaperItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§8Sets you on a Rampage",
-         "value": "§6当你杀死一个活体时,"
+         "key": "§8Attacks heal you while also draining the",
+         "value": "§6你的攻击会带有吸血效果，同时也会弱化你的攻击目标并阻止他们"
        },
        {
-        "key": "§8when you kill an enemy",
-        "value": "§6会赋予你轻度暴怒效果"
+        "key": "§8target you attack and preventing them",
+        "value": "§6使用其自身的魔法能力。"
+      },
+      {
+        "key": "§8from using some magical abilities",
+        "value": ""
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SoulSaberItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Cleaves the enemy's soul",
-         "value": "§6能够劈开灵魂的军刀"
-       }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SoulSaberItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§8Cleaves the enemy's soul",
-         "value": "§6能够劈开灵魂的军刀"
-       }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/BroadswordDestructionItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§cOnly the strong",
-         "value": "§6只有强者才能"
+         "key": "§8When you kill an enemy, you go on a rampage,",
+         "value": "§6当你杀死一个敌人时,你会获得轻度暴怒效果，"
        },
        {
-        "key": "§ccan use this weapon",
-        "value": "§6驾驭这把武器"
+        "key": "§8each subsequent kill in a row increases the effect",
+        "value": "§6之后随着你接连的击杀敌人，轻度暴怒效果就会"
       },
       {
-        "key": "§8Inflicts devastating",
-        "value": "§6给敌人以造成"
-      },
-      {
-        "key": "§8attacks on the enemy",
-        "value": "§6毁灭性的打击"
+        "key": "§8of the rampage up to five",
+        "value": "§6不断叠加，叠加五层后会让你变为极端暴怒。"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SkullCrusherItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Jumping attacks",
-         "value": "§6跳锤能够"
+         "key": "§8Attacks apply soul stratification",
+         "value": "§6攻击会给敌人施加灵魂剥离效果，会减慢敌人的行进速度"
        },
-     {
-        "key": "§8stun the enemy",
-        "value": "§6眩晕敌人"
+       {
+        "key": "§8which slows down the target and, at the end of the effect,",
+        "value": "§6在灵魂剥离效果的最后，会造成取决于敌人目前生命值"
+      },
+      {
+        "key": "§8deals damage depending on the current health of the target",
+        "value": "§6的百分比伤害。"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SoulbaneItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Burns out the target's soul",
-         "value": "§6战刃的攻击能点燃目标的灵魂"
+         "key": "§cThis weapon can only be used",
+         "value": "§c这件武器只能在拥有力量效果的前提下挥动，"
+       },
+       {
+        "key": "§cwhile underthe effect of strength",
+        "value": "§6每一次挥动，都会对敌人造成毁灭性的打击。"
+      },
+      {
+        "key": "§8Attacks have a devastating effect",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Jumping attacks stun opponents",
+         "value": "§6跳锤能够使敌人进入晕眩状态"
        }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/ShellMaceItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Attacks set the target on fire with",
+         "value": "§6攻击会用地狱之火来点燃目标的灵魂，同时也会对敌人"
+       },
+       {
+        "key": "§8infernal fire, and also apply soul stratification",
+        "value": "§6造成灵魂剥离效果，会减慢敌人的行进速度。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Attacks infect the target. Upon death, a",
+         "value": "§6攻击会使敌人感染。在敌人死亡之后，一个小蜘蛛会从被感染的"
+       },
+       {
+        "key": "§8baby spider may appear from an infected enemy",
+        "value": "§6敌人的尸体中出现。"
+      },
+      {
+        "key": "§8While in inventory:",
+        "value": "§7在物品栏时："
+      },
+      {
+        "key": "§8Makes all baby spiders you summon",
+        "value": "§6所有你召唤出来的小蜘蛛自动被驯服。"
+      },
+      {
+        "key": "§8automatically tamed",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
          "key": "§8Deals increased damage if",
-         "value": "§6你在水下的攻击"
+         "value": "§6如果你和你的目标都在水下或雨中，你的攻击能够对它造成额外伤害。"
        },
     {
-        "key": "§8you and your target are in water",
-        "value": "§6能够造成额外伤害"
+        "key": "§8you and your target are in water or rain",
+        "value": ""
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkRitualDaggerItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Right-click to sacrifice",
-         "value": "§6右键来献祭"
+         "key": "§8Right-clicking an animal or minion will",
+         "value": "§6对着一只动物或你的宠物按右键会献祭它们并给予你"
        },
     {
-        "key": "§8an animal or summoned",
-        "value": "§6动物朋友们"
+        "key": "§8sacrifice it healing you and giving you",
+        "value": "§6生命回复和力量效果。"
       },
     {
-        "key": "§8creature",
-        "value": "§6和你的召唤物"
+        "key": "§8a strength effect",
+        "value": ""
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SpiritualDividerItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
      {
-         "key": "§8Deals increased damage",
-         "value": "§6对幽灵类生物"
-       },
-    {
-        "key": "§8to spirits",
-        "value": "§6可造成额外伤害"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SharpenedDarkMetalSwordItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§8Deals increased damage",
-         "value": "§6对亡灵类生物"
-       },
-    {
-        "key": "§8to undead",
-        "value": "§6可造成额外伤害"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/IntoxicatingDaggerItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§8Inflicts intoxicating poison",
-         "value": "§6这把匕首可以对生物造成剧毒打击"
+         "key": "§8Deals increased damage to spirits",
+         "value": "§6对幽灵类生物可造成额外伤害。"
        }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkMetalArmorItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Deals increased damage to undead",
+         "value": "§6对亡灵类生物可造成额外伤害。"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+     {
+         "key": "§8Attacks inflict intoxicating poison",
+         "value": "§6攻击会使生物陷入酒中毒状态。"
+       }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/DescriptionArmorProcedure",
         "method": ""
     },
     "pairs": [
     {
-         "key": "§7Full armor set bonus:",
+         "key": "§8Full Set Bonus:",
          "value": "§7全套装备加成："
        },
     {
-        "key": "§8Sets you on a Rampage",
-        "value": " §8- §6使你免疫凋零伤害"
-      },
-    {
-        "key": "§8at low health",
-        "value": " §8- §6在你生命值过低时"
-      },
-    {
         "key": "§8Wither protection",
-        "value": "§6赋予你极端暴怒效果"
+        "value": " §8- §6凋零保护"
+      },
+    {
+        "key": "§8You go on a rampage when your health is low",
+        "value": " §8- §6在你生命值过低时赋予你极端暴怒效果"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkMetalArmorItem$Boots",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7Full armor set bonus:",
-         "value": "§7全套装备加成："
-       },
-    {
-        "key": "§8Sets you on a Rampage",
-        "value": " §8- §6使你免疫凋零伤害"
-      },
-    {
-        "key": "§8at low health",
-        "value": " §8- §6在你生命值过低时"
-      },
-    {
-        "key": "§8Wither protection",
-        "value": "§6赋予你极端暴怒效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkMetalArmorItem$Chestplate",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7Full armor set bonus:",
-         "value": "§7全套装备加成："
-       },
-    {
-        "key": "§8Sets you on a Rampage",
-        "value": " §8- §6使你免疫凋零伤害"
-      },
-    {
-        "key": "§8at low health",
-        "value": " §8- §6在你生命值过低时"
-      },
-    {
-        "key": "§8Wither protection",
-        "value": "§6赋予你极端暴怒效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkMetalArmorItem$Helmet",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7Full armor set bonus:",
-         "value": "§7全套装备加成："
-       },
-    {
-        "key": "§8Sets you on a Rampage",
-        "value": " §8- §6使你免疫凋零伤害"
-      },
-    {
-        "key": "§8at low health",
-        "value": " §8- §6在你生命值过低时"
-      },
-    {
-        "key": "§8Wither protection",
-        "value": "§6赋予你极端暴怒效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DarkMetalArmorItem$Leggings",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7Full armor set bonus:",
-         "value": "§7全套装备加成："
-       },
-    {
-        "key": "§8Sets you on a Rampage",
-        "value": " §8- §6使你免疫凋零伤害"
-      },
-    {
-        "key": "§8at low health",
-        "value": " §8- §6在你生命值过低时"
-      },
-    {
-        "key": "§8Wither protection",
-        "value": "§6赋予你极端暴怒效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareMantleoftheNightItem",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7You move faster in the dark",
-         "value": "§6在黑暗中你健步如飞"
-       },
-    {
-        "key": "§7Full armor set bonus:",
-        "value": "§7全套装备加成："
-      },
-    {
-        "key": "§8Increases the effectiveness",
-        "value": " §8- §6增强部分暗黑魔法及工具"
-      },
-    {
-        "key": "§8of dark magic items and weapons",
-        "value": "§6的特殊力量的作用效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareMantleoftheNightItem$Helmet",
-        "method": ""
-    },
-    "pairs": [
-     {
-         "key": "§7You move faster in the dark",
-         "value": "§6在黑暗中你健步如飞"
-       },
-    {
-        "key": "§7Full armor set bonus:",
-        "value": "§7全套装备加成："
-      },
-    {
-        "key": "§8Increases the effectiveness",
-        "value": " §8- §6增强部分暗黑魔法及工具"
-      },
-    {
-        "key": "§8of dark magic items and weapons",
-        "value": "§6的特殊力量的作用效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareMantleoftheNightItem$Boots",
+        "name": "net/mcreator/borninchaosv/procedures/DescriptionArmorProcedure",
         "method": ""
     },
     "pairs": [
@@ -559,70 +503,30 @@
       },
     {
         "key": "§8Increases the effectiveness",
-        "value": " §8- §6增强部分暗黑魔法及工具"
+        "value": " §8- §6增强部分混沌魔法物品和武器的特殊力量"
       },
     {
         "key": "§8of dark magic items and weapons",
-        "value": "§6的特殊力量的作用效果"
+        "value": "§6作用效果"
+      },
+      {
+        "key": "§8You move faster in the dark",
+        "value": "§6在黑暗中你会快如鬼魅"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareMantleoftheNightItem$Chestplate",
+        "name": "net/mcreator/borninchaosv/procedures/DescriptionArmorProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§7Full armor set bonus:",
-        "value": "§7全套装备加成："
+        "key": "§8Deals retaliatory damage to whoever attacks you",
+        "value": "§6对攻击你的敌人造成反弹伤害"
       },
     {
-        "key": "§8Increases the effectiveness",
-        "value": " §8- §6增强部分暗黑魔法及工具"
-      },
-    {
-        "key": "§8of dark magic items and weapons",
-        "value": "§6的特殊力量的作用效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/NightmareMantleoftheNightItem$Leggings",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§7Full armor set bonus:",
-        "value": "§7全套装备加成："
-      },
-    {
-        "key": "§8Increases the effectiveness",
-        "value": " §8- §6增强部分暗黑魔法及工具"
-      },
-    {
-        "key": "§8of dark magic items and weapons",
-        "value": "§6的特殊力量的作用效果"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SpinyShellArmorItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§7Deals retaliatory damage",
-        "value": "§6对攻击你的敌人"
-      },
-    {
-        "key": "§7to an enemy attacking you",
-        "value": "§6造成反弹伤害"
-      },
-    {
-        "key": "§7Full armor set bonus:",
+        "key": "§8Full Set Bonus:",
         "value": "§7全套装备加成："
       },
       {
@@ -631,7 +535,7 @@
       },
       {
         "key": "§8Spiny shell protection",
-        "value": " §8- §6免疫刺壳伤害"
+        "value": " §8- §6刺壳保护"
       }
     ]
   },
@@ -693,141 +597,85 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DamnedDemomansHatItem",
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§cThe hat can't be taken off",
-        "value": "§6这件帽子一旦带上，不能被取下，"
+        "value": "§c这件帽子一旦带上，不能被取下，"
       },
     {
         "key": "§cYou detonate when your health is low",
-        "value": "§6当你生命值过低时，你会发生爆炸。"
+        "value": "§c当你生命值过低时，你会发生爆炸。"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/DamnedDemomansHatItem$Helmet",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§cThe hat can't be taken off",
-        "value": "§6这件帽子一旦带上，不能被取下，"
-      },
-    {
-        "key": "§cYou detonate when your health is low",
-        "value": "§6当你生命值过低时，你会发生爆炸。"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/MissionaryHatItem",
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§8When you are attacked by a monster,",
-        "value": "§6当你被怪物攻击时，"
+        "value": "§6当你被怪物攻击时，你会自动召唤一只受控小骷髅，"
       },
     {
-        "key": "§8you summon your allied Baby Skeleton.",
-        "value": "§6会自动召唤一只受控小骷髅。"
+        "key": "§8you summon your allied Baby Skeleton",
+        "value": "§6在触发之后，你会陷入魔力耗尽的状态。"
       },
     {
-        "key": "§8Inflicts Magical Depletion.",
-        "value": "§6并获得魔力耗尽效果。"
+        "key": "§8When triggered, casts Magical Depletion on you",
+        "value": ""
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/MissionaryHatItem$Helmet",
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8When you are attacked by a monster,",
-        "value": "§6当你被怪物攻击时，"
-      },
-    {
-        "key": "§8you summon your allied Baby Skeleton.",
-        "value": "§6会自动召唤一只受控小骷髅。"
-      },
-    {
-        "key": "§8Inflicts Magical Depletion.",
-        "value": "§6并获得魔力耗尽效果。"
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/MissionaryHatItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8When you are attacked by a monster,",
-        "value": "§6当你被怪物攻击时，"
-      },
-    {
-        "key": "§8you summon your allied Baby Skeleton.",
-        "value": "§6会自动召唤一只受控小骷髅。"
-      },
-    {
-        "key": "§8Inflicts Magical Depletion.",
-        "value": "§6并获得魔力耗尽效果。"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SpiritualGuideSombreroItem",
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§8Strengthens summoned",
-        "value": "§6戴上这顶帽子会增强被你的"
+        "value": "§6戴上这顶帽子会增强被你的骷髅法杖召唤的小骷髅。"
       },
     {
         "key": "§8Baby Skeletons with Bonescaller Staff",
-        "value": "§6骷髅法杖召唤的小骷髅"
+        "value": ""
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SpiritualGuideSombreroItem$Helmet",
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
         "method": ""
     },
     "pairs": [
-    {
-        "key": "§8Strengthens summoned",
-        "value": "§6戴上这顶帽子会增强被你的"
+      {
+        "key": "§8Strengthens pumpkin weapons",
+        "value": "§6戴上这顶帽子后增强你的南瓜武器，并且使你免疫火焰伤害"
       },
     {
-        "key": "§8Baby Skeletons with Bonescaller Staff",
-        "value": "§6骷髅法杖召唤的小骷髅"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/LordPumpkinheadsHatItem$Helmet",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Protection from fire and Soul Stratification",
-        "value": "§6保护你免受火焰的伤害"
+        "key": "§8Grants immunity to fire and Soul Stratification",
+        "value": "§6和灵魂剥离效果。并且这顶帽子会向攻击你的敌人投掷"
       },
     {
         "key": "§8Casts Infernal Fire on those attacking you",
-        "value": "§6向攻击你的敌人投掷地狱之火"
+        "value": "§6地狱之火。"
       }
     ]
   },
@@ -849,7 +697,7 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/BottleOfMagicalEnergyItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
@@ -861,103 +709,127 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/PotionofRageItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8Sets you on a Rampage",
-        "value": "§6饮用后赋予你"
+        "key": "§9Vampiric Touch (3:00)",
+        "value": "§9噬血之触（3:00）"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§9Wither Resistance (3:00)",
+        "value": "§9凋零抗性（3:00）"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§9Insect Protection (5:00)",
+        "value": "§9骇虫保护（5:00）"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§8Right click to rip",
+        "value": "§6右键扯破它"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§8Right-clicking grants you the Dark Ward",
+        "value": "§6轻击鼠标右键使用，授予你黑暗守护效果，它会拯救你于"
       },
-    {
-        "key": "§8Effect stacks",
-        "value": "§6轻度暴怒效果"
+      {
+        "key": "§8effect, which can save you from death",
+        "value": "§6死亡之中"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/LifestealElixirItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§9Vampiric Touch (2:00)",
-        "value": "§9噬血之触（2:00）"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SeaTerrorStomachItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8RMB to get the contents",
-        "value": "§6轻击鼠标右键获得随机物品"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SeaTerrorEyeItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§8Completely restores oxygen",
-        "value": "§6当食用时"
+        "value": "§6食用时完全恢复你的"
       },
       {
         "key": "§8when eaten",
-        "value": "§6完全恢复你的氧气值"
+        "value": "§6氧气值"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/MintIceCreamItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8Extinguishes the inner heat",
-        "value": "§6给你降降温"
+        "key": "§8Will extinguish you when eaten",
+        "value": "§6食用后会扑灭你身上的火焰"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/MintCandyItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8Removes bad breath",
-        "value": "§6去除腐臭"
+        "key": "§8Removes rotten stench and hunger",
+        "value": "§6去除腐臭和饥饿"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/TransmutingElixirItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§8Right-clicking turns some mobs",
-        "value": "§6轻击鼠标右键来转变某些方块"
+        "value": "§6轻击鼠标右键来转变某些方块和生物为"
       },
       {
         "key": "§8and blocks into something else",
-        "value": "§6和生物为别的东西"
+        "value": "§6别的东西"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/CharmofFuryItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
@@ -969,124 +841,44 @@
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/CharmofPowerItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Requires Ethereal Spirit to cast",
-        "value": "§6需要配合虚魂使用"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/CharmofEnduranceItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Requires Ethereal Spirit to cast",
-        "value": "§6需要配合虚魂使用"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/CharmofStealthItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Requires Ethereal Spirit to cast",
-        "value": "§6需要配合虚魂使用"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/CharmofResistanceItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Requires Ethereal Spirit to cast",
-        "value": "§6需要配合虚魂使用"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/EmptyFelLampItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
         "key": "§8Capable of storing the",
-        "value": "§6能够用来储存"
+        "value": "§6能够用来储存恶魔马"
       },
       {
         "key": "§8spirit of the Felsteed",
-        "value": "§6恶魔马的灵魂"
+        "value": "§6的灵魂"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/LordPumpkinheadsEmptyLampItem",
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8Capable of storing the",
-        "value": "§6能够用来储存"
+        "key": "§8Right click on a block to",
+        "value": "§6对着方块轻击鼠标右键来"
       },
       {
-        "key": "§8spirit of the Felsteed",
-        "value": "§6领主恶魔马的灵魂"
+        "key": "§8summon a Felsteed",
+        "value": "§6召唤恶魔马"
       }
     ]
   },
   {
     "target_class": {
-        "name": "net/mcreator/borninchaosv/item/FelLampItem",
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
         "method": ""
     },
     "pairs": [
     {
-        "key": "§8RMB on the block to summon",
-        "value": "§6对着方块轻击鼠标右键来召唤"
-      },
-      {
-        "key": "§8the Felsteed",
-        "value": "§6恶魔马"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/LordPumpkinheadsLampItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8RMB on the block to summon",
-        "value": "§6对着方块轻击鼠标右键来召唤"
-      },
-      {
-        "key": "§8the Felsteed",
-        "value": "§6领主恶魔马"
-      }
-    ]
-  },
-  {
-    "target_class": {
-        "name": "net/mcreator/borninchaosv/item/SupremeMeasureItem",
-        "method": ""
-    },
-    "pairs": [
-    {
-        "key": "§8Only available in creative",
+        "key": "§8Available only in creative",
         "value": "§6只能在创造模式下使用"
       }
     ]
@@ -1110,12 +902,60 @@
     },
     "pairs": [
     {
-        "key": "§8A fallen warrior who was exiled from his",
-        "value": "§6这是来自一位堕落的战士的坟墓，它被故乡"
+        "key": "§8How dare you awaken me! Betrayer",
+        "value": "§6你怎敢唤醒我？你这个背叛者，盗墓贼！"
       },
     {
-        "key": "§8homeland and betrayed by those he loved...",
-        "value": "§6所驱逐，并且遭受了挚爱之人的背叛..."
+        "key": "§8and Graverobber, you will know fear...",
+        "value": "§6我会让你感受到无尽的恐惧和折磨..."
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneOrionBlock",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§8Time you enjoy wasting,",
+        "value": "§6你觉的所浪费掉的时间实际上只是你在享受生活罢了。"
+      },
+    {
+        "key": "§8is not time wasted",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneDerivasBlock",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§8Now you will be eternal",
+        "value": "§6现在你将永生不死。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneFubukiBanzaiBlock",
+        "method": ""
+    },
+    "pairs": [
+    {
+        "key": "§8The moon is hollow,",
+        "value": "§6月亮照射出的只有虚无，命运的缄默之手遮蔽了一切，"
+      },
+      {
+        "key": "§8Fate's cold hand closes, unseen—",
+        "value": "§6黑暗-所有的光都脱去了外衣，露出的只有漆黑的本质。"
+      },
+      {
+        "key": "§8All light fades to black.",
+        "value": ""
       }
     ]
   },
