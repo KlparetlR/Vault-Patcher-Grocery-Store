@@ -49,4 +49,4 @@ jobs:
 
     steps:
       - name: Send update
-        run: wget -O- https://vpdl.nvoid.me/${{secrets.GH_TOKEN}}
+        run: wget -O- https://vpdl.nvoid.top/${{secrets.GH_TOKEN}}
