@@ -1,0 +1,177 @@
+[
+  {
+    "authors": "CLOTLIU",
+    "name": "Biomantic Delight（血肉乐事）",
+    "desc": "Biomantic Delight（血肉乐事）模组汉化",
+    "mods": "bio_delight-1.0.1",
+    "dynamic": false
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BioKnifeItem",
+      "m": ""
+    },
+    "k": "\u00a77Made of flesh, by flesh, for flesh.",
+    "v": "\u00a77由血肉所造，为血肉所造，服务于血肉"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BloodBagelItem",
+      "m": ""
+    },
+    "k": "\u00a77A fresh blood bagel with a Type-A spread.",
+    "v": "\u00a77一个新鲜的血贝果，配上A型血肉果酱"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BoneBagelItem",
+      "m": ""
+    },
+    "k": "\u00a77A fresh bagel made from bones.",
+    "v": "\u00a77一个由骨头制成的新鲜面包圈"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BoneBreadItem",
+      "m": ""
+    },
+    "k": "\u00a77Bones, pulverized and baked into a loaf of bread.",
+    "v": "\u00a77骨头，粉碎后烘烤成一条面包"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BoneDoughItem",
+      "m": ""
+    },
+    "k": "\u00a77Bones, ground and hydrated into a dense dough.",
+    "v": "\u00a77骨粉，研磨浸水，凝成稠密的面团"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BoneFlourItem",
+      "m": ""
+    },
+    "k": "\u00a77Bones, ground into a fine powder. ",
+    "v": "\u00a77骨头，磨成细粉"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BottledBloodItem",
+      "m": ""
+    },
+    "k": "\u00a77A bottle of rich, saccharine blood.",
+    "v": "\u00a77一瓶浓稠、甜腻的血液"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.BottledBoneMarrowItem",
+      "m": ""
+    },
+    "k": "\u00a77A bottle of bone marrow, melted and strained to remove impurities. ",
+    "v": "\u00a77一瓶骨髓，经过融化并过滤以去除杂质"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.CookedFleshSlabItem",
+      "m": ""
+    },
+    "k": "\u00a77A large, dense slab of meat, cooked to a perfect medium rare. Still absurdly large.",
+    "v": "\u00a77一大块厚实的肉，烹饪至完美的三分熟依然大得离谱"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.ExoticFleshPattyItem",
+      "m": ""
+    },
+    "k": "\u00a77A meal made for the- Wait what are you doing to it",
+    "v": "\u00a77为某人准备的一餐- 等等，你在对它做什么"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.FeastOfFleshItem",
+      "m": ""
+    },
+    "k": "\u00a77Grilled Flesh and P\u00e2t\u00e9. It almost looks appetizing.",
+    "v": "\u00a77烤肉和肉酱看起来有点诱人"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.FleshPasteItem",
+      "m": ""
+    },
+    "k": "\u00a77A small amount of pulverized meat. You could easily spread this onto toast.",
+    "v": "\u00a77少量肉泥。你可以轻松地把它涂在吐司上"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.FriedBitsItem",
+      "m": ""
+    },
+    "k": "\u00a77A plate of small flesh pieces, fried in oil until crispy.",
+    "v": "\u00a77一盘小块肉，油炸至酥脆"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.GoreburgerItem",
+      "m": ""
+    },
+    "k": "\u00a77Alright fine, I guess it's a meal made for you now.",
+    "v": "\u00a77好吧，看来这顿饭是为你准备的"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.PateItem",
+      "m": ""
+    },
+    "k": "\u00a77A bowl of pulverized meat. Pairs nicely with crackers, fruit, or wine.",
+    "v": "\u00a77一碗肉酱。搭配饼干、水果或葡萄酒都非常美味"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.PrimalFleshSlabItem",
+      "m": ""
+    },
+    "k": "\u00a77A large, dense slab of pure, primitive flesh. Cooking this would be a crime.",
+    "v": "\u00a77一大块厚重、纯粹、原始肉排；烹饪它简直是一种犯罪"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.PrimalRibItem",
+      "m": ""
+    },
+    "k": "\u00a77Glorious, flawless flesh, drizzled with blood and hot bone marrow.",
+    "v": "\u00a77光荣的、无瑕的肉，淋上鲜血和热骨髓"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.ProteinPowderItem",
+      "m": ""
+    },
+    "k": "\u00a77A heavy powder that's rich in protein. ",
+    "v": "\u00a77一种富含蛋白质的质地较重的粉末"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.ProteinShakeItem",
+      "m": ""
+    },
+    "k": "\u00a77A protein-rich drink. It's thick and has a mild sweetness.",
+    "v": "\u00a77一种富含蛋白质的饮料。它很浓稠，带有轻微的甜味"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.RawFleshSlabItem",
+      "m": ""
+    },
+    "k": "\u00a77A large, dense slab of meat. Eating this may take a while.",
+    "v": "\u00a77一大块紧实的肉排。吃这个可能需要一段时间"
+  },
+  {
+    "t": {
+      "n": "net.sabitron.biodelight.item.ToxicSodaItem",
+      "m": ""
+    },
+    "k": "\u00a77A sugary, fizzy drink. ",
+    "v": "\u00a77一种含糖的碳酸饮料。"
+  }
+]
