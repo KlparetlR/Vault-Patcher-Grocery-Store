@@ -1,0 +1,2712 @@
+[
+    {
+
+
+        "authors": "Shao_Zhige",
+        "name": "RPG style More Weapons!模组汉化",
+        "desc": "VP1.4.4+1+可启用",
+        "mods": "RPG_Style_more_Weapons_9.2_1.20.1",
+        "dynamic": false
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethistScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronscaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisscaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IcescaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamonStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilStaff2Item"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisStaffItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eClass: §dMage",
+                "v": "§e职业：§d法师"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethistScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronscaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisscaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IcescaneItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Wind cutting",
+                "v": "§e技能: §d风切"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethistScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronscaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilScytheItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisscaneItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with mage armor: §7CD Reset",
+                "v": "§e法师防御技能: §d刷新冷却"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IcescaneItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteScytheItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with mage armor: §7CD Reset",
+                "v": "§e法师防御技能: §d刷新冷却"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteScytheItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: The projectile sets enemies in its radius on fire",
+        "v": "§e被动技能：§d发射火焰子弹，点燃附近的敌人"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.IcescaneItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7The ability adds a slow to the enemy",
+        "v": "§e被动技能：§d使敌人减速"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.OblivionPetalItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Allows you to remove your class",
+        "v": "§e效果：§7使用此物品可以移除当前的职业"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.CreativeClassChooseOrbItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Use for choose all classes in creative",
+        "v": "§e效果：§7在创造中使用此物品可以获得所有的职业"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.OblivionPetalItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Allows you to remove your class",
+        "v": "§e效果：§7使用此物品可以移除当前的职业"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.ClassChooseOrbItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Use for choose class",
+        "v": "§e效果：§7使用此物品可以选择一种职业"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§5Class: Mage",
+                "v": "§5职业：法师"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AmethystMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.3 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.3"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EmeraldMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.33 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.33"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.2 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.2"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.37 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.37"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.35 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.35"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.27 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.27"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7Increases mana regeneration by 0.25 if full armor equiped",
+                "v": "§e被动技能：§7如果装备了全套套装，魔力恢复速度增加0.25"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteHealerWandItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Magic poison projectile",
+                "v": "§e技能: §7魔力毒弹"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisHealerWandItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with mage armor: §7Heal wave",
+                "v": "§e法师防御技能: §7治愈波动"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteHealerWandItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisHealerWandItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRifleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eWeapon Class: §7Two-handed",
+                "v": "§e武器种类: §7双手武器"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilHealerWandItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Magic poison projectile X3",
+        "v": "§e技能：§7三连发魔力毒弹"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NephrisHealerWandItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Magic poison projectile X4",
+        "v": "§e技能：§7四连发魔力毒弹"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteHealerWandItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7Has 25% chance to fire enemy per mele attack",
+        "v": "§e被动技能：§d每次攻击有25%的概率向敌人喷射烈焰"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamonStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteStaffItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Magic projectile",
+                "v": "§e技能: §7魔力弹"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilStaff2Item",
+            "method": ""
+        },
+        "k": "§eAbility: §7Magic projectile X3",
+        "v": "§e技能：§7三连发魔力弹"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NephrisStaffItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Magic projectile X4",
+        "v": "§e技能：§7四连发魔力弹"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteStaffItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7Has 45% chance to fire enemy per melee attack",
+        "v": "§e被动技能：§d每次攻击有45%的概率向敌人发射魔力炎弹"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamonStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilStaff2Item"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisStaffItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteStaffItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with mage armor: §7Shot Wave",
+                "v": "§e法师防御技能：§7弹射波动"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SmallmanapotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MediummanapotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BigmanapotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MageArmorAbilityPotionItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Class:§d Mage",
+                "v": "§6●§e 职业：§d 法师"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilMageRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6● §n§eClass: §dMage",
+                "v": "§6● §n§e职业：§d法师"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.SmallmanapotionItem",
+            "method": ""
+        },
+        "k": "§6●§e [Drink]§r - §aRegenerates §b350 mana§a. Use count: 3. §cCD: 5sec",
+        "v": "§6●§e【饮用效果】 §r—— 立即恢复 §b350魔力值 §a 最多可使用次数：3 §c冷却时间: 5秒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.MediummanapotionItem",
+            "method": ""
+        },
+        "k": "§6●§e [Drink]§r - §aRegenerates §b700 mana§a. Use count: 3. §cCD: 10sec",
+        "v": "§6●§e【饮用效果】 §r—— §a立即恢复 §b700魔力值 §a 最多可使用次数：3 §c冷却时间: 10秒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.BigmanapotionItem",
+            "method": ""
+        },
+        "k": "§6●§e [Drink]§r - §aRegenerates all mana bar§a. Use count: 5. §cCD: 20sec",
+        "v": "§6●§e【饮用效果】 §r—— §a立即恢复全部魔力值。§a 最多可使用次数：5 §c冷却时间: 20秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronMageRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronRangerRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Passive Ability: §aif equipped with weapons of the class, gives armor upgrade buff 1 level.",
+                "v": "§6●§e 被动技能：§a如果装备了此职业的全套防具，将被给予护甲增益Ⅰ"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilRingItem",
+            "method": ""
+        },
+        "k": "§6●§e Passive Ability: §aregenerate 0.5 mana/sec",
+        "v": "§6●§e 被动技能：§a每秒恢复0.5魔力"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldMageArmorItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldRangerRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Passive Ability: §aif equipped with armor and weapons of the class, gives regeneration 1 level.",
+                "v": "§6●§e 被动技能：§a如果装备了此职业的全套防具与武器的话，将被给予§l生命恢复Ⅰ"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.GoldBerserkRingItem",
+            "method": ""
+        },
+        "k": " §6●§e Passive Ability: §aif equipped with armor and weapons of the class, gives regeneration 1 level.",
+        "v": "§6●§e 被动技能：§a如果装备了此职业的全套防具与武器的话，将被给予§l生命恢复Ⅰ"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.PinariumItem",
+            "method": ""
+        },
+        "k": "§5Class: Mage",
+        "v": "§5职业：法师"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PinariumItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BirilItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RedariumItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EdmantiumItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RangalItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§7Find in mineral ore", 
+                "v": "§7蕴藏于混合矿石之中"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelMageRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelRangerRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Passive Ability: §aif equipped with weapons of the class, gives armor upgrade buff 2 level.",
+                "v": "§6●§e 被动技能：§a如果装备了此职业的武器，将被给予护甲增益Ⅱ"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegreadswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PaldainArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrysGreatswordItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Class:§b Paladin",
+                "v": "§6●§e 职业：§b 圣骑士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegreadswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrysGreatswordItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e Weapon Class:§c Two-handed",
+                "v": "§r§6●§e 武器种类：§c 双手武器"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegreadswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrysGreatswordItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [rmb]§r - §aSummons a magical shield in front of you for 8sec that blocks arrows.§c CD: 5sec",
+                "v": "§r§6●§e【右键】 §r—— §a在你面前召唤一个能挡住箭矢的魔法盾牌，持续8秒§c 冷却时间：5秒"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.StoneGreatswordItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §asummons Excalibur which falls to the ground and deals damage all around. Excalibur damage is greatsword damage X1.7.§c CD: 30sec",
+        "v": "§r§6●§e【潜行时右键】 §r—— §a召唤一柄从天而降的圣剑，对坠落的区域造成武器属性1.7倍的范围伤害§c 冷却时间：30秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegreadswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrysGreatswordItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [Armor ability]§r - §agives you high level resistance for a short period of time",
+                "v": "§r§6●§e【防御技能】 §r—— §a给予短时间的§l抗性提升Ⅱ"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbigswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilGreatswordItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrysGreatswordItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [sneak + rmb]§r - §asummons Excalibur which falls to the ground and deals damage all around. Excalibur damage is greatsword damage X1.6.§c CD: 30sec",
+                "v": "§r§6●§e【潜行时右键】 §r—— §a召唤一柄从天而降的圣剑，对坠落的区域造成武器属性1.6倍的范围伤害§c 冷却时间：30秒"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegreadswordItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §asummons Excalibur which falls to the ground and deals damage all around. Excalibur damage is greatsword damage X2.§c CD: 30sec",
+        "v": "§r§6●§e【潜行时右键】 §r—— §a召唤一柄从天而降的圣剑，对坠落的区域造成武器属性2倍的范围伤害§c 冷却时间：30秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StonespearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSpearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisspearItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eClass: §6Paladin",
+                "v": "§e职业：§6圣骑士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StonespearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSpearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritspearItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisspearItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Dash",
+                "v": "§e技能：§7突进"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperPaladinArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperPaladinArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperPaladinArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperPaladinArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PladinDiamondArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PladinDiamondArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PladinDiamondArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PladinDiamondArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritePaladinArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritePaladinArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritePaladinArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritePaladinArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisPaladinArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisPaladinArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisPaladinArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisPaladinArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BirilItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§3Class: Paladin",
+                "v": "§3职业：圣骑士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6● §n§eClass: §bPaladin",
+                "v": "§6● §n§e职业：§b圣骑士"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.SteelPaladinRingItem",
+            "method": ""
+        },
+        "k": "§6●§e Passive Ability: §aif equipped with weapons of the class, gives armor upgrade buff 3 level.",
+        "v": "§6●§e 被动技能：§a如果装备了此职业的全套防具，将被给予护甲增益Ⅲ"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilMageRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilPaladinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilRangerRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Passive Ability: §aif equipped with armor and weapons of the class, increase the armor ability regeneration by X1.5.",
+                "v": "§6●§e 被动技能：§a如果装备了此职业的全套防具与武器的话，防御技能的刷新速度提升1.5倍"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MageArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PaldainArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RangerArmorAbilityPotionItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e [Drink]§r - §aRegenerates all armor ability bar§a. Use count: 5. §cCD: 15sec",
+                "v": "§6●§e【饮用效果】 §r—— §a刷新所有防御技能 §a 最多可使用次数：5 §c冷却时间：15秒"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkArmorAbilityPotionItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Class:§c Berserk",
+                "v": "§6●§e 职业：§c 狂战士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RangerArmorAbilityPotionItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Class:§6 Ranger",
+                "v": "§6●§e 职业：§6 游侠"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e Weapon Class:§b One-handed",
+                "v": "§r§6●§e 武器种类:§b 单手武器"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6● §ePassive Ability:§a Gives speed if the other hand holds a dagger of the same material.",
+                "v": "§r§6● §e被动技能：§a 如果主副手装备相同材质的匕首的话，使用者的速度将会加快"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [rmb]§r - §amakes many slashes in front of you that deal damage and slow you down during an attack. CD: 10sec",
+                "v": "§r§6●§e 【右键】§r —— §a快速向前方挥砍，造成伤害并减缓移速 冷却时间：10秒"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [sneak + rmb]§r - §aIncreases your speed and attack speed for a short period of time.§c CD: 30sec",
+                "v": "§r§6●§e 【潜行时右键】§r —— §a短时间内提升移速与攻速§c 冷却时间：30秒"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [Armor ability]§r - §aBlinds enemies around you creates a lot of smoke and speeds you up a lot.",
+                "v": "§r§6●§e 【防御技能】§r —— §a产生大量烟雾致盲敌人，同时大幅增加自己的移速"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [rmb]§r - §aCreates a bloody swing that deals damage and spews 3 bloody projectiles forward.§c CD: 4sec",
+                "v": "§r§6●§e 【右键】§r —— §a向前挥出一道血镰，并弹射出3枚鲜血子弹§c 冷却时间； 4秒"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [rmb]§r - §aCreates a bloody swing that deals damage and spews 4 bloody projectiles forward.§c CD: 4sec",
+                "v": "§r§6●§e 【右键】§r —— §a向前挥出一道血镰，并弹射出4枚鲜血子弹§c 冷却时间； 4秒"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [rmb]§r - §aCreates a bloody swing that deals damage and spews 5 bloody projectiles forward.§c CD: 4sec",
+        "v": "§r§6●§e 【右键】§r —— §a向前挥出一道血镰，并弹射出5枚鲜血子弹§c 冷却时间； 4秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e Passive Ability:§a Gives haste if the other hand holds a sickle of the same material.",
+                "v": "§r§6●§e 如果主副手装备相同材质的镰刀的话，使用者的攻速将会加快"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /5.§c CD: 11sec",
+        "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以5的血量§c 冷却时间：11秒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /4.5.§c CD: 12sec",
+        "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以4.5的血量§c 冷却时间：12秒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /4.§c CD: 13sec",
+        "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以4的血量§c 冷却时间：13秒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /3.5.§c CD: 13.5sec",
+        "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以3.5的血量§c 冷却时间：13.5秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /3.§c CD: 14sec",
+                "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以3的血量§c 冷却时间：14秒"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem",
+            "method": ""
+        },
+        "k": "§r§6●§e [sneak + rmb]§r - §aGives you the effect of Blood Harvest. When attacking an enemy with this effect you restore your health by the enemy's health /2.5.§c CD: 14sec",
+        "v": "§r§6●§e 【潜行时右键】§r —— §a进入血腥收割状态 每次攻击会吸取造成伤害除以2.5的血量§c 冷却时间：14秒"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperAssasinArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperAssasinArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperAssasinArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperAssasinArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinDiamondArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinDiamondArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinDiamondArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinDiamondArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteAssassinArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteAssassinArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteAssassinArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteAssassinArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisAssassinArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisAssassinArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisAssassinArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisAssassinArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinMiphrilArmourItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinMiphrilArmourItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinMiphrilArmourItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinMiphrilArmourItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinrobeItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinrobeItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinrobeItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinrobeItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.EdmantiumItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§2Class: Assassin",
+                "v": "§2职业：刺客"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelAssassinRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilAssassinRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6● §n§eClass: §aAssassin",
+                "v": "§6● §n§e职业：§a刺客"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RedariumItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBerserkArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkIronArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkIronArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkIronArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BerserkIronArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBerserkArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteBerserkArmorItem$Boots"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBerserkArmorItem$Helmet"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBerserkArmorItem$Chestplate"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBerserkArmorItem$Leggings"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBerserkArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§4Class: Berserk",
+                "v": "§4职业：狂战士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBerserkRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronBerserkRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6● §n§eClass: §cBerserk",
+                "v": "§6● §n§e职业：§c狂战士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneBattleAxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperbuttleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBattleAxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBattleAxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronhammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbattlehammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrishammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrishammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AwakenedNephrishammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetherhammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilgauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBattleGloveItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eClass: §cBerserk",
+                "v": "§e职业：§c狂战士"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronRangerRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.GoldRangerRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelRangerRingItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilRangerRingItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6● §n§eClass: §6Ranger",
+                "v": "§6● §n§e职业：§6游侠"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BulletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BuckshotItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.BurstingBulletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.TarCrossbowBoltItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.RangalItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerCopperArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerCopperArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerCopperArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerCopperArmorItem$Boots"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerIronArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerIronArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerIronArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.RangerIronArmorItem$Boots"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRangerArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRangerArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRangerArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRangerArmorItem$Boots"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRangerArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRangerArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRangerArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRangerArmorItem$Boots"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRangerArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRangerArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRangerArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRangerArmorItem$Boots"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRangerArmorItem$Helmet"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRangerArmorItem$Chestplate"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRangerArmorItem$Leggings"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRangerArmorItem$Boots"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eClass: §6Ranger",
+                "v": "§e职业：§6游侠"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.AssassinArmorAbilityPotionItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronkinfeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilknifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisKnifeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilSickleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelSickleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§6●§e Class:§a Assassin",
+                "v": "§6●§e 职业：§a 刺客"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.BurstingBulletItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7shatters into multiple fragments on impact.",
+        "v": "§e被动技能： §7射击命中后会爆裂成多个弹片"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.TarCrossbowBoltItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7Fire enemy if in inventory you have flint and steel.",
+        "v": "§e被动技能： §7持有打火石时可射出烈焰之箭"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.PoisonCrossbowBoltItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DefaultCrossbowArrowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eClass: §aAssassin; §6Ranger",
+                "v": "§e职业：§a刺客 §6游侠"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.PoisonCrossbowBoltItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7Poison enemy.",
+        "v": "§e被动技能：§7使敌人中毒"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.block.NephriscrystalBlock",
+            "method": ""
+        },
+        "k": "§7can be found at the end under the trees on the islands",
+        "v": "§7可以在末地外岛的紫颂树下找到"
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: Shoot§7",
+                "v": "§e技能：射击"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: if you has one-handed crossbows in two",
+                "v": "§e被动技能：如果主副手装备相同材质的手弩的话"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "hands you will shoot 2 bolt but it",
+                "v": "§e可以连续射出两发弩箭"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "will has longer cooldown§7",
+                "v": "§e但是冷却时间会变长"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with ranger armor: §7hail of arrows",
+                "v": "§e游侠防御技能：§7万箭齐发"
+            }
+        ]
+    },
+    {
+        "s": [            
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+        },
+        {
+            "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+        }
+        ],
+        "p": [
+            {
+                "k": "§eWeapon Class: §7One-handed",
+                "v": "§e武器种类：§7单手武器"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NephrisOneHandedCrossbowItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eNeed for use: Any bolt",
+                "v": "§e所需弹药：任意弩箭箭矢"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRifleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility with Ranger armor: §7Fast Reload",
+                "v": "§e游侠防御技能：§7快速装填"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.CopperRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.IronRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.SteelRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.DiamondRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.MiphrilRifleItem"
+            },
+            {
+                "name":"net.mcreator.rpgstylemoreweapons.item.NetheriteRifleItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eNeed for use: Any bullet",
+                "v": "§e所需弹药：任意子弹"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheriteOneHandedCrossbowItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: Not needed flint and steel to shoot Tar Bolt",
+        "v": "§e被动技能：不需要打火石即可使沥青箭矢迸发出烈焰"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.StoneBattleAxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperbuttleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBattleAxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritbattleaxeItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBattleAxeItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Rage",
+                "v": "§e技能：§7狂怒"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronhammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelbattlehammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilBattleHammerItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrishammerItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Hammer slash",
+                "v": "§e技能：§7重锤猛击"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.AwakenedNephrishammerItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7 Fulminant hammer slash",
+        "v": "§e技能：§7暴锤猛冲"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetherhammerItem",
+            "method": ""
+        },
+        "k": "§eAbility: §7Fire wave",
+        "v": "§e技能：§7烈焰冲击波"
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetherhammerItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7Has 45% chance to fire enemy",
+        "v": "§e被动技能：§745%的概率点燃敌人"
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilgauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBattleGloveItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§eAbility: §7Stun",
+                "v": "§e技能：§7眩晕"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.CopperKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.IronKnukleItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.SteelBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.DiamondBattleGloveItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.MiphrilgauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegauntletItem"
+            },
+            {
+                "name": "net.mcreator.rpgstylemoreweapons.item.NephrisBattleGloveItem"
+            }
+        ],
+        "p": [
+            {
+                "k": "§ePassive Ability: §7If in two hands gives resistance",
+                "v": "§e被动技能：§7如果主副手装备相同材质的战斗拳套的话将被给予抗性提升Ⅰ"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mcreator.rpgstylemoreweapons.item.NetheritegauntletItem",
+            "method": ""
+        },
+        "k": "§ePassive Ability: §7If ability Stun is active has 85% chace to fire enemy",
+        "v": "§e被动技能：§7如果【眩晕】未处于冷却状态，有85%的概率点燃敌人"
+    }
+]
