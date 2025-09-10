@@ -1,2030 +1,2029 @@
 [
-  {
-    "authors": "DreamingLri、SnowLin、醉梦巅峰、新兵Sinbing、XYHXH",
-    "name": "Tweakeroo 1.12.2 Forge模组汉化",
-    "desc": "VP<1.4.4+3>+可启用，使用VP模块文件生成器【by 柠娜】生成初版模块文件，之后配合Recaf软件手动修改初版模块文件得到最终版本的模块文件，然后进行汉化，DreamingLri、SnowLin、醉梦巅峰和新兵Sinbing提供了高版本的汉化文本，XYHXH移植高版本的汉化到1.12.2版本，并补全1.12.2版本独有设置的汉化和制作VP汉化补丁文件",
-    "mods": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
-    "dynamic": false,
-    "i18n": true
-  },
-  {
-    "target_classes": [
     {
-      "name": "fi.dy.masa.tweakeroo.config.Configs$Disable"
+        "authors": "DreamingLri、SnowLin、醉梦巅峰、新兵Sinbing、XYHXH",
+        "name": "Tweakeroo 1.12.2 Forge模组汉化",
+        "desc": "VP<1.4.4+3>+可启用，使用VP模块文件生成器【by 柠娜】生成初版模块文件，之后配合Recaf软件手动修改初版模块文件得到最终版本的模块文件，然后进行汉化，DreamingLri、SnowLin、醉梦巅峰和新兵Sinbing提供了高版本的汉化文本，XYHXH移植高版本的汉化到1.12.2版本，并补全1.12.2版本独有设置的汉化和制作VP汉化补丁文件",
+        "mods": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
+        "dynamic": false,
+        "i18n": false
     },
     {
-      "name": "fi.dy.masa.tweakeroo.config.Configs$Fixes"
+        "target_classes": [
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Configs$Disable"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Configs$Fixes"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Configs$Generic"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Configs$Internal"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Configs$Lists"
+            }
+        ],
+        "pairs": [
+            {
+                "key": "disableBlockBreakingParticles",
+                "value": "BlockParticles | 禁用方块破碎粒子"
+            },
+            {
+                "key": "disableDoubleTapSprint",
+                "value": "DoubleTapSprint | 禁用双击疾跑"
+            },
+            {
+                "key": "disableBossFog",
+                "value": "BossFog | 禁用 Boss 烟雾渲染"
+            },
+            {
+                "key": "disableClientEntityUpdates",
+                "value": "ClientEntity | 禁用实体更新"
+            },
+            {
+                "key": "disableDeadMobRendering",
+                "value": "DeadMobRender | 禁用怪物尸体渲染"
+            },
+            {
+                "key": "disableDeadMobTargeting",
+                "value": "DeadMobTarget | 禁用怪物尸体交互"
+            },
+            {
+                "key": "disableEntityRendering",
+                "value": "EntityRender | 禁用实体渲染"
+            },
+            {
+                "key": "disableEntityTicking",
+                "value": "EntityTick | 禁用实体刻"
+            },
+            {
+                "key": "disableFallingBlockEntityRendering",
+                "value": "FallingBlock | 禁用掉落方块渲染"
+            },
+            {
+                "key": "disableInventoryEffectRendering",
+                "value": "InventoryEffect | 禁用背包界面效果"
+            },
+            {
+                "key": "disableItemGlint",
+                "value": "DisableItemGlint | 物品光效禁用"
+            },
+            {
+                "key": "disableItemSwitchRenderCooldown",
+                "value": "ItemSwitch | 禁用装备动画"
+            },
+            {
+                "key": "disableLightUpdates",
+                "value": "ClientLight | 禁用客户端部分光照更新"
+            },
+            {
+                "key": "disableLightUpdatesAll",
+                "value": "ClientLightAll | 禁用客户端所有光照更新"
+            },
+            {
+                "key": "disableMobSpawnerMobRendering",
+                "value": "MobSpawnerMob | 禁用刷怪笼渲染"
+            },
+            {
+                "key": "disableNetherFog",
+                "value": "NetherFog | 禁用下界迷雾"
+            },
+            {
+                "key": "disableObserver",
+                "value": "Observer | 禁用侦测器触发"
+            },
+            {
+                "key": "disableObserverPlaceUpdate",
+                "value": "ObserverPlaceUpdate | 禁用侦测器放置更新"
+            },
+            {
+                "key": "disableOffhandRendering",
+                "value": "Offhand | 禁用副手渲染"
+            },
+            {
+                "key": "disableParticles",
+                "value": "Particles | 禁用所有粒子"
+            },
+            {
+                "key": "disablePortalGuiClosing",
+                "value": "PortalGuiClosing | 禁止传送门关闭 GUI"
+            },
+            {
+                "key": "disableRainEffects",
+                "value": "RainEffects | 禁用下雨效果"
+            },
+            {
+                "key": "disableSignGui",
+                "value": "SignGui | 禁用告示牌 GUI"
+            },
+            {
+                "key": "disableSlimeBlockSlowdown",
+                "value": "SlimeBlock | 禁用粘液块减速"
+            },
+            {
+                "key": "disableTileEntityRendering",
+                "value": "TileEntity | 禁用方块实体渲染"
+            },
+            {
+                "key": "disableTileEntityTicking",
+                "value": "TileEntityTicking | 禁用方块实体刻"
+            },
+            {
+                "key": "disableVillagerTradeLocking",
+                "value": "VillagerTradeLocking | 禁用村民交易锁定"
+            },
+            {
+                "key": "disableWallUnsprint",
+                "value": "WallUnsprint | 禁用撞墙刹车"
+            },
+            {
+                "key": "fastPlacementItemListType",
+                "value": "FastPlace | 快速放置限制类型"
+            },
+            {
+                "key": "fastPlacementItemBlackList",
+                "value": "FastPlace | 快速放置黑名单"
+            },
+            {
+                "key": "fastPlacementItemWhiteList",
+                "value": "FastPlace | 快速放置白名单"
+            },
+            {
+                "key": "fastRightClickBlockListType",
+                "value": "FastRightClick | 快速右键方块限制类型"
+            },
+            {
+                "key": "fastRightClickBlockBlackList",
+                "value": "FastRightClick | 快速右键方块黑名单"
+            },
+            {
+                "key": "fastRightClickBlockWhiteList",
+                "value": "FastRightClick | 快速右键方块白名单"
+            },
+            {
+                "key": "fastRightClickItemListType",
+                "value": "FastRightClick | 快速右键物品限制类型"
+            },
+            {
+                "key": "fastRightClickItemBlackList",
+                "value": "FastRightClick | 快速右键物品黑名单"
+            },
+            {
+                "key": "fastRightClickItemWhiteList",
+                "value": "FastRightClick | 快速右键物品白名单"
+            },
+            {
+                "key": "flatWorldPresets",
+                "value": "FlatWorld | 超平坦世界预设"
+            },
+            {
+                "key": "Custom flat world preset strings.\nThese are in the format: name;blocks_string;biome;generation_features;icon_item\nThe blocks string format is the vanilla format, such as: 62*minecraft:dirt,minecraft:grass\nThe biome can be the registry name, or the int ID\nThe icon item name format can be either minecraft:iron_nugget or minecraft:stained_glass@6",
+                "value": "自定义超平坦世界预设\n格式为：\n名称；方块类型；生物群系；地形；图标（使用英文符号）\n例如：62*minecraft:dirt, minecraft:grass\n生物群系可以使用数字 ID 或注册名\n图标请使用原版格式，如：minecraft:iron_nugget"
+            },
+            {
+                "key": "itemGlintListType",
+                "value": "ItemGlintRestrictionType | 物品光效禁用模式"
+            },
+            {
+                "key": "itemGlintBlackList",
+                "value": "ItemGlintBlackList | 物品光效禁用黑名单"
+            },
+            {
+                "key": "The items that will not have the glint effect,\nif itemGlintListType = blacklist",
+                "value": "当物品光效禁用模式设为黑名单时，\n此列表中的物品将不会显示光效"
+            },
+            {
+                "key": "itemGlintWhiteList",
+                "value": "ItemGlintWhiteList | 物品光效禁用白名单"
+            },
+            {
+                "key": "The only items that will have the glint effect,\nif itemGlintListType = whitelist",
+                "value": "当物品光效禁用模式设为白名单时，\n只有此列表中的物品才会显示光效"
+            },
+            {
+                "key": "potionWarningListType",
+                "value": "PotionWarning | 效果不足警报限制类型"
+            },
+            {
+                "key": "potionWarningBlackList",
+                "value": "PotionWarning | 效果不足警报黑名单"
+            },
+            {
+                "key": "potionWarningWhiteList",
+                "value": "PotionWarning | 效果不足警报白名单"
+            },
+            {
+                "key": "repairModeSlots",
+                "value": "RepairModeSlots | 经验修补模式的应用范围"
+            },
+            {
+                "key": "unstackingItems",
+                "value": "Unstacking | 不可堆叠物品保护"
+            },
+            {
+                "key": "elytraFix",
+                "value": "ElytraFix | 鞘翅修复"
+            },
+            {
+                "key": "tileEntityUnloadOptimization",
+                "value": "TileEntity | 方块实体卸载优化"
+            },
+            {
+                "key": "Optimizes the removal of unloading TileEntities from the World lists.\nThis can greatly improve performance if there are lots of\nTileEntities loaded and/or unloading at once.",
+                "value": "优化了从世界中删除并卸载方块实体的功能。\n如果有大量的方块实体同时加载和/或卸载，这可以大大改善性能"
+            },
+            {
+                "key": "afterClickerClickCount",
+                "value": "AfterClicker | 放置后点击次数"
+            },
+            {
+                "key": "The number of right clicks to do per placed block when\ntweakAfterClicker is enabled",
+                "value": "在 §6[放置后点击]§r 启用时，放置方块后右键点击的次数"
+            },
+            {
+                "key": "blockReachDistance",
+                "value": "BlockReach | 方块放置距离"
+            },
+            {
+                "key": "breakingGridSize",
+                "value": "Breaking | 破坏间隔调节"
+            },
+            {
+                "key": "breakingRestrictionMode",
+                "value": "Breaking | 破坏模式限制类型调节"
+            },
+            {
+                "key": "chatBackgroundColor",
+                "value": "ChatBackgroundColor | 聊天背景颜色"
+            },
+            {
+                "key": "chatTimeFormat",
+                "value": "chatTime | 聊天时间格式"
+            },
+            {
+                "key": "clientPlacementRotation",
+                "value": "ClientPlacement | 客户端放置旋转"
+            },
+            {
+                "key": "cloudHeightOverride",
+                "value": "CloudHeight | 云层高度覆盖值"
+            },
+            {
+                "key": "elytraCameraIndicator",
+                "value": "ElytraCamera | 显示仰角指示器"
+            },
+            {
+                "key": "fastBlockPlacementCount",
+                "value": "FastBlock | 快速放置数量"
+            },
+            {
+                "key": "fastLeftClickCount",
+                "value": "FastLeft | 左键连点频率"
+            },
+            {
+                "key": "The number of left clicks to do per game tick when\ntweakFastLeftClick is enabled and the attack button is held down",
+                "value": "设置 §6[左键快速点击]§r 的点击频率，数字为每游戏刻点击的次数"
+            },
+            {
+                "key": "fastRightClickCount",
+                "value": "FastRight | 右键连点频率"
+            },
+            {
+                "key": "The number of right clicks to do per game tick when\ntweakFastRightClick is enabled and the use button is held down",
+                "value": "设置 §6[右键快速点击]§r 点击频率，数字为每游戏刻点击的次数"
+            },
+            {
+                "key": "fillCloneLimit",
+                "value": "FillCloneLimit | 填充方块上限"
+            },
+            {
+                "key": "flexibleBlockPlacementOverlayColor",
+                "value": "FlexibleBlock | 方块灵活放置 GUI 颜色"
+            },
+            {
+                "key": "flySpeedPreset1",
+                "value": "FlySpeed | 飞行速度预设 1"
+            },
+            {
+                "key": "flySpeedPreset2",
+                "value": "FlySpeed | 飞行速度预设 2"
+            },
+            {
+                "key": "flySpeedPreset3",
+                "value": "FlySpeed | 飞行速度预设 3"
+            },
+            {
+                "key": "flySpeedPreset4",
+                "value": "FlySpeed | 飞行速度预设 4"
+            },
+            {
+                "key": "freeCameraMotionToggle",
+                "value": "FreeCameraMotion | 灵魂出窍绑定操作切换"
+            },
+            {
+                "key": "gammaOverrideValue",
+                "value": "GammaOverride | 覆写伽马设定"
+            },
+            {
+                "key": "handRestockPre",
+                "value": "HandRestockPre | 预先补货"
+            },
+            {
+                "key": "hotbarSlotCycleMax",
+                "value": "HotbarSlot | 物品栏循环上限"
+            },
+            {
+                "key": "hotbarSlotRandomizerMax",
+                "value": "HotbarSlot | 物品栏随机上限"
+            },
+            {
+                "key": "hotbarSwapOverlayAlignment",
+                "value": "HotbarSwap | 背包显示位置"
+            },
+            {
+                "key": "hotbarSwapOverlayOffsetX",
+                "value": "HotbarSwap | 背包显示 X 轴偏移"
+            },
+            {
+                "key": "hotbarSwapOverlayOffsetY",
+                "value": "HotbarSwap | 背包显示 Y 轴偏移"
+            },
+            {
+                "key": "itemSwapDurabilityThreshold",
+                "value": "ItemSwap | 工具替换耐久阈值"
+            },
+            {
+                "key": "lavaVisibilityOptifineCompat",
+                "value": "LavaVisibility | 兼容性岩浆夜视"
+            },
+            {
+                "key": "mapPreviewSize",
+                "value": "MapPreviewSize | 地图预览尺寸"
+            },
+            {
+                "key": "periodicAttackInterval",
+                "value": "PeriodicAttack | 单击左键间隔"
+            },
+            {
+                "key": "The number of game ticks between automatic attacks (left clicks)",
+                "value": "在 §6[周期性单击左键]§r 功能中，相邻两次单击的间隔时间（单位：游戏刻）"
+            },
+            {
+                "key": "periodicUseInterval",
+                "value": "PeriodicUse | 单击右键间隔"
+            },
+            {
+                "key": "The number of game ticks between automatic uses (right clicks)",
+                "value": "在 §6[周期性单击右键]§r 功能中，相邻两次单击的间隔时间（单位：游戏刻）"
+            },
+            {
+                "key": "permanentSneakAllowInGUIs",
+                "value": "PermanentSneak | 永久潜行"
+            },
+            {
+                "key": "placementGridSize",
+                "value": "PlacementGridSize | 放置间距大小"
+            },
+            {
+                "key": "placementLimit",
+                "value": "PlacementLimit | 限制放置数量"
+            },
+            {
+                "key": "The number of blocks you are able to place at maximum per\nright click, if tweakPlacementLimit is enabled.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "当启用了 §6[放置数量限制]§r 功能时，设置每次放置的方块数量。\n按住该功能快捷键时滑动滚轮可以快速调整限制数量"
+            },
+            {
+                "key": "placementRestrictionMode",
+                "value": "Placement | 放置模式限制"
+            },
+            {
+                "key": "placementRestrictionTiedToFast",
+                "value": "Placement | 放置范围限制绑定"
+            },
+            {
+                "key": "When enabled, the Placement Restriction mode will toggle\nits state of/off when you toggle the Fast Placement mode.",
+                "value": "启用此功能后，当开启/关闭 §6[方块快速放置]§r 时，§6[放置范围限制]§r 将同步开启/关闭"
+            },
+            {
+                "key": "playerOnFireScale",
+                "value": "OnFireScale | 玩家着火效果缩放"
+            },
+            {
+                "key": "potionWarningBeneficialOnly",
+                "value": "Potion | 仅显示正面效果警报"
+            },
+            {
+                "key": "potionWarningThreshold",
+                "value": "PotionWarning | 效果警报阈值"
+            },
+            {
+                "key": "renderLimitItem",
+                "value": "LimitItem | 掉落物数量限制"
+            },
+            {
+                "key": "renderLimitXPOrb",
+                "value": "LimitXPOrb | 经验球数量限制"
+            },
+            {
+                "key": "shulkerDisplayBgColor",
+                "value": "ShulkerDisplay | 彩色潜影盒预览"
+            },
+            {
+                "key": "shulkerDisplayRequireShift",
+                "value": "ShulkerDisplay | 潜影盒预览需按 Shift"
+            },
+            {
+                "key": "slotSyncWorkaround",
+                "value": "SlotSync | 同步物品栏"
+            },
+            {
+                "key": "snapAimIndicator",
+                "value": "SnapAim | 瞄准辅助指示器"
+            },
+            {
+                "key": "snapAimIndicatorColor",
+                "value": "SnapAim | 瞄准辅助指示器颜色"
+            },
+            {
+                "key": "snapAimMode",
+                "value": "SnapAimMode | 瞄准辅助模式"
+            },
+            {
+                "key": "snapAimOnlyCloseToAngle",
+                "value": "SnapAim | 预设角度内锁定视角"
+            },
+            {
+                "key": "snapAimPitchOvershoot",
+                "value": "SnapAim | 预设角度内锁定视角"
+            },
+            {
+                "key": "snapAimPitchStep",
+                "value": "SnapAim | 瞄准辅助俯仰角步进"
+            },
+            {
+                "key": "snapAimThresholdPitch",
+                "value": "SnapAim | 角度阈值（垂直方向）"
+            },
+            {
+                "key": "snapAimThresholdYaw",
+                "value": "SnapAim | 角度阈值（水平方向）"
+            },
+            {
+                "key": "snapAimYawStep",
+                "value": "SnapAim | 瞄准辅助偏航角步进"
+            },
+            {
+                "key": "structureBlockMaxSize",
+                "value": "StructureBlock | 结构方块范围上限"
+            },
+            {
+                "key": "zoomFov",
+                "value": "ZoomFov | 望远镜视角"
+            },
+            {
+                "key": "Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)",
+                "value": "移除方块破碎时产生的粒子效果（由 Nessie 制作）"
+            },
+            {
+                "key": "Disables the double-tap-forward-key sprinting",
+                "value": "禁用后双击前进键时不会触发疾跑"
+            },
+            {
+                "key": "Removes the fog that boss mobs cause",
+                "value": "移除 Boss 所产生的烟雾效果。"
+            },
+            {
+                "key": "Disables ALL except player entity updates on the client.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
+                "value": "禁用客户端中除了玩家外所有实体的更新。\n当你需要去处理实体过多环境下的情况时，使用这个可以降低客户端的渲染压力"
+            },
+            {
+                "key": "Prevents rendering dead mobs (entities that are at 0 health)",
+                "value": "不渲染死亡的怪物（生命值为 0 的实体），但这并不影响你与尸体交互"
+            },
+            {
+                "key": "Prevents targeting entities that are at 0 health.\nThis fixes for example hitting already dead mobs.",
+                "value": "防止锁定生命值处于 0 的实体，开启后你将不会打到已死亡的怪物身上。\n§4注意：该功能不属于原版 + TAS 可实现或公平的功能§f\n§4使用此功能前请询问服务器管理是否允许此功能的使用§f"
+            },
+            {
+                "key": "Disables ALL except player entity rendering.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
+                "value": "禁用客户端中除了玩家外所有实体的渲染。\n当你需要去处理实体过多环境下的情况时，使用这个可以降低客户端的渲染压力"
+            },
+            {
+                "key": "Prevent everything except player entities from getting ticked",
+                "value": "禁止除玩家以外的所有实体运算"
+            },
+            {
+                "key": "If enabled, then falling block entities won't be rendered at all",
+                "value": "如果启用，则掉落的方块实体将不会被渲染"
+            },
+            {
+                "key": "Removes the potion effect rendering from the inventory GUIs",
+                "value": "移除了背包中状态效果的渲染"
+            },
+            {
+                "key": "Disables the glint effect from the items.\nThe items to remove it from, or allow it on, can be configured\nin Lists -> itemGlint*",
+                "value": "禁用物品的光效。\n具体要从哪些物品上禁用或显示光效，可在配置表单的物品光效类选项中配置"
+            },
+            {
+                "key": "If true, then there won't be any cooldown/equip animation\nwhen switching the held item or using the item.",
+                "value": "开启后在你切换或使用物品时将不会有任何的冷却/装备动画"
+            },
+            {
+                "key": "If enabled, disables some client-side (rendering related) light updates",
+                "value": "若启用，将禁用部分客户端（与渲染相关）的光照更新"
+            },
+            {
+                "key": "If enabled, disables ALL client-side light updates.\nThis might look very bad unless you use the Gamma tweak.",
+                "value": "若启用，将禁用所有客户端的光照更新。\n这可能会让游戏画面看起来非常糟糕，除非你同时使用Gamma值调整功能"
+            },
+            {
+                "key": "Removes the entity rendering from mob spawners",
+                "value": "禁用刷怪笼内实体模型渲染"
+            },
+            {
+                "key": "Removes the fog in the Nether",
+                "value": "移除下界的迷雾"
+            },
+            {
+                "key": "Disable Observers from triggering at all",
+                "value": "禁止侦测器被触发"
+            },
+            {
+                "key": "Prevent Observers from triggering when placed",
+                "value": "防止侦测器在被放置时输出红石信号"
+            },
+            {
+                "key": "Disables the offhand item from getting rendered",
+                "value": "禁用副手持有物品时对副手的渲染"
+            },
+            {
+                "key": "Disables all particles",
+                "value": "禁用所有的粒子效果"
+            },
+            {
+                "key": "If enabled, then you can still open GUIs while in a Nether Portal",
+                "value": "如果启用，你可以在传送门中开启各种界面\n\n§b译注：如果你在传送时将物品拖动到物品栏外面，传送结束后物品会消失"
+            },
+            {
+                "key": "Disables rain rendering and sounds",
+                "value": "禁用下雨时的视觉效果与声音"
+            },
+            {
+                "key": "Prevent the Sign edit GUI from opening",
+                "value": "禁用告示牌打开时的编辑界面"
+            },
+            {
+                "key": "Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie.)",
+                "value": "消除了在粘液块上移动时减速效果\n（此功能来自 Nessie 制作的 UsefulMod）"
+            },
+            {
+                "key": "Prevents all TileEntity renderers from rendering",
+                "value": "禁用所有的方块实体的渲染"
+            },
+            {
+                "key": "Prevent all TileEntities from getting ticked",
+                "value": "禁止所有的方块实体被加入运算"
+            },
+            {
+                "key": "Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented",
+                "value": "通过在交易时增加最大次数限制来防止村民锁定交易"
+            },
+            {
+                "key": "Touching a wall doesn't drop you out from sprint mode",
+                "value": "开启后在疾跑时撞上墙壁也不会停止疾跑状态"
+            },
+            {
+                "key": "The item restriction type for the Fast Block Placement tweak",
+                "value": "使用 §6[快速放置方块]§r 时的限制类型"
+            },
+            {
+                "key": "The items that are NOT allowed to be used for the Fast Block Placement tweak,\nif the fastPlacementItemListType is set to Black List",
+                "value": "启用 §6[快速放置方块]§r 功能时，如果在 §6[快速放置限制类型]§r 中设置为黑名单，\n该列表中的方块均不可用于快速放置"
+            },
+            {
+                "key": "The items that are allowed to be used for the Fast Block Placement tweak,\nif the fastPLacementItemListType is set to White List",
+                "value": "启用 §6[快速放置方块]§r 功能时，如果在 §6[快速放置限制类型]§r 中设置为白名单，\n那么只有该列表中的方块可用于快速放置"
+            },
+            {
+                "key": "The targeted block restriction type for the Fast Right Click tweak",
+                "value": "使用§6[右键快速点击]§f时的限制类型"
+            },
+            {
+                "key": "The blocks that are NOT allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to Black List",
+                "value": "启用[右键快速点击]功能时，如果在§6[快速右键方块限制类型]§f中设置为黑名单，\n该列表中的方块均不可用于右键快速点击"
+            },
+            {
+                "key": "The blocks that are allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to White List",
+                "value": "启用 §6[右键快速点击]§r 功能时，如果在 §6[快速右键方块限制类型]§r 中设置为白名单，\n那么只有该列表中的方块可用于右键快速点击"
+            },
+            {
+                "key": "The item restriction type for the Fast Right Click tweak",
+                "value": "使用 §6[右键快速点击]§r 时的限制类型"
+            },
+            {
+                "key": "The items that are NOT allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to Black List",
+                "value": "启用 §6[右键快速点击]§r 功能时，如果在 §6[快速右键物品限制类型]§r 中设置为黑名单，则这些物品不允许用于右键快速点击"
+            },
+            {
+                "key": "The items that are allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to White List",
+                "value": "启用 §6[右键快速点击]§r 功能时，如果在 §6[快速右键物品限制类型]§r 中设置为白名单，\n只有手持该列表中物品时能够使用右键快速点击"
+            },
+            {
+                "key": "The item restriction type for the Disable Item Glint feature",
+                "value": "物品光效功能的禁用模式"
+            },
+            {
+                "key": "The list type for potion warning effects",
+                "value": "使用 §6[效果不足警报]§r 时的限制类型"
+            },
+            {
+                "key": "The potion effects that will not be warned about",
+                "value": "不会被提醒的药水效果列表"
+            },
+            {
+                "key": "The only potion effects that will be warned about",
+                "value": "会被提醒的药水效果列表"
+            },
+            {
+                "key": "The slots the repair mode should use\nValid values: mainhand, offhand, head, chest, legs, feet",
+                "value": "经验修补模式应用的范围。\n有效值：\n> 主手（mainhand）\n> 副手（offhand）\n> 头部（head）\n> 胸部（chest）\n> 腿部（legs）\n> 鞋子（feet）"
+            },
+            {
+                "key": "The items that should be considered for the\n'tweakItemUnstackingProtection' tweak",
+                "value": "功能 §6[不可堆叠物品保护]§r 所保护的物品"
+            },
+            {
+                "key": "Elytra deployment/landing fix by Earthcomputer and Nessie",
+                "value": "鞘翅着陆问题被 Earthcomputer 和 Nessie 修复\n原版现在修复了起飞，所以该功能只影响了降落"
+            },
+            {
+                "key": "The block reach distance to use if the\noverride tweak is enabled.\nThe maximum the server allows is 8 for placing, 6 for breaking.",
+                "value": "如果启用，将会调整方块放置距离。\n游戏允许的最大值是 64。\n§6不要尝试使用 [0.5 - 1.0] 范围以上的值，这将超出服务器规则定义\n§c在一些服务器会被定义为作弊！！§f"
+            },
+            {
+                "key": "The grid interval size for the grid breaking mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "破坏间隔距离设置，按住此功能快捷键时滑动滚轮可以快速调整"
+            },
+            {
+                "key": "The Breaking Restriction mode to use (hotkey-selectable)",
+                "value": "选择要使用的破坏限制模式（也可使用快捷键选择）"
+            },
+            {
+                "key": "The background color for the chat messages,\nif 'tweakChatBackgroundColor' is enabled",
+                "value": "设定聊天栏背景颜色，需要开启 §6[聊天背景颜色]§r 功能使用"
+            },
+            {
+                "key": "The time format for chat messages, if tweakChatTimestamp is enabled\nUses the Java SimpleDateFormat format specifiers.",
+                "value": "§6[聊天时间显示]§r 功能所显示的时间格式。\n请使用 Java 的简易日期格式"
+            },
+            {
+                "key": "Enable single player and client side placement rotations,\nsuch as Accurate Placement working in single player without Carpet mod",
+                "value": "允许在单人游戏中放置旋转后的方块。\n功能类似 §6[精确放置]§r 但这不需要 §eCarpet Mod§f"
+            },
+            {
+                "key": "The new cloud height, when tweakCloudHeightOverride is enabled",
+                "value": "当云层高度覆盖调整功能启用时，此数值将作为新的云层高度"
+            },
+            {
+                "key": "Whether or not to render the real pitch angle\nindicator when the elytra camera mode is active",
+                "value": "当使用 §6[环顾四周]§r 时，显示仰角指示器"
+            },
+            {
+                "key": "The maximum number of blocks to place per game tick\nwith the Fast Block Placement tweak",
+                "value": "§6[方块快速放置]§r 功能在每游戏刻能够放置方块的最大数量"
+            },
+            {
+                "key": "The new /fill and /clone block limit in single player,\nif the tweak to override them is enabled",
+                "value": "如果启用 §6[填充方块上限]§r 功能，\n修改单人模式下 §6[填充方块上限]§r 功能的填充/克隆指令方块上限"
+            },
+            {
+                "key": "The color of the currently pointed-at\nregion in block placement the overlay",
+                "value": "设定 §6[方块灵活放置]§r 功能启用时方块上覆盖层的颜色"
+            },
+            {
+                "key": "The fly speed for preset 1",
+                "value": "飞行速度的预设值 1"
+            },
+            {
+                "key": "The fly speed for preset 2",
+                "value": "飞行速度的预设值 2"
+            },
+            {
+                "key": "The fly speed for preset 3",
+                "value": "飞行速度的预设值 3"
+            },
+            {
+                "key": "The fly speed for preset 4",
+                "value": "飞行速度的预设值 4"
+            },
+            {
+                "key": "If enabled, then toggling on/off the Free Camera mode\nwill also automatically toggle on/off the free camera motion feature",
+                "value": "开启此功能后，§6灵魂出窍§f的开关会与 §6灵魂/身体操作切换§f 的开关绑定在一起。\n也就是说，你每次开启灵魂出窍后会默认操控身体而不是视角。"
+            },
+            {
+                "key": "The gamma value to use when the override option is enabled",
+                "value": "启用 §6[伽马覆写]§r 后，所覆写的伽马值"
+            },
+            {
+                "key": "If enabled, then hand restocking happens\nbefore the stack runs out",
+                "value": "开启后会在手上的物品耗尽前提前补充新的物品"
+            },
+            {
+                "key": "This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.",
+                "value": "设定 §6[物品栏循环滚动]§r 可以滚动到的最后一个栏位。\n当超过设定的最大值时，会返回第一个栏位"
+            },
+            {
+                "key": "This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.",
+                "value": "设定 §6[物品栏随机滚动]§r 可以滚动到的最后一个栏位。\n当超过设定的最大值时，会返回第一个栏位"
+            },
+            {
+                "key": "The positioning of the hotbar swap overlay",
+                "value": "设定显示背包内容物预览的位置"
+            },
+            {
+                "key": "The horizontal offset of the hotbar swap overlay",
+                "value": "设定显示背包内容物预览的水平偏移量"
+            },
+            {
+                "key": "The vertical offset of the hotbar swap overlay",
+                "value": "设定显示背包内容物预览的垂直偏移量"
+            },
+            {
+                "key": "This is the durability threshold (in uses left)\nfor the low-durability item swap feature.\nNote that items with low total durability will go lower\nand be swapped at 5%% left.",
+                "value": "启用 §6[工具防损坏]§r 后，低于该耐久的工具会被自动替换\n注意，总耐久度较低的物品会降低该阈值，并在剩余 5%% 耐久度时进行替换"
+            },
+            {
+                "key": "Use an alternative version of the Lava Visibility,\nwhich is Optifine compatible (but more hacky).\nImplementation credit to Nessie.",
+                "value": "这是岩浆夜视的另一个版本，该版本可以与 Optifine 兼容（但他更 illegal）。\n此功能由 Nessie 提供。"
+            },
+            {
+                "key": "The size of the rendered map previews",
+                "value": "使用 §6[地图预览]§r 时地图的尺寸"
+            },
+            {
+                "key": "If true, then the permanent sneak tweak will\nalso work while GUIs are open",
+                "value": "开启此功能后即便你打开了游戏内的任何界面，你仍然会保持潜行的状态"
+            },
+            {
+                "key": "The grid interval size for the grid placement mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "当启用了 §6[放置间距限制]§r 功能时，设置放置间距的大小。\n按住该功能快捷键时滑动滚轮可以快速调整"
+            },
+            {
+                "key": "The Placement Restriction mode to use (hotkey-selectable)",
+                "value": "使用的放置模式限制（可使用热键调节）"
+            },
+            {
+                "key": "A scaling factor for the player's on-fire effect.\nAccepted range: 0.0 - 10.0",
+                "value": "用于控制玩家着火效果强度的缩放系数。\n有效取值范围：0.0 - 10.0"
+            },
+            {
+                "key": "Only warn about potion effects running out that are marked as \"beneficial\"",
+                "value": "开启后仅显示正面效果的 §6[效果不足警报]§r"
+            },
+            {
+                "key": "The remaining duration of potion effects (in ticks)\nafter which the warning will start showing",
+                "value": "当开启 §6[效果不足警报]§r 时，当身上的效果剩余时间小于此值时会对玩家发出提示"
+            },
+            {
+                "key": "Maximum number of item entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
+                "value": "设定 §6[限制实体渲染]§r 功能对§e掉落物§f的最大渲染数量。\n填写 -1 代表不限制数量，即禁用此限制"
+            },
+            {
+                "key": "Maximum number of XP orb entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
+                "value": "设定 §6[限制实体渲染]§r 功能对§e经验球§f的最大渲染数量。\n填写 -1 代表不限制数量，即禁用此限制"
+            },
+            {
+                "key": "Enables tinting/coloring the Shulker Box display\nbackground texture with the dye color of the box",
+                "value": "将 §6[潜影盒预览]§r 的预览界面背景颜色设定为潜影盒的颜色"
+            },
+            {
+                "key": "Whether or not holding shift is required for the Shulker Box preview",
+                "value": "潜影盒预览是否需要按住 Shift 键"
+            },
+            {
+                "key": "This prevents the server from overriding the durability or\nstack size on items that are being used quickly for example\nwith the fast right click tweak.",
+                "value": "开启此项可以防止服务器在快速使用物品时（例如使用 §6[右键快速点击]§r）覆盖物品的耐久度或堆叠大小"
+            },
+            {
+                "key": "Whether or not to render the snap aim angle indicator",
+                "value": "是否显示瞄准辅助指示器"
+            },
+            {
+                "key": "The color for the snap aim indicator background",
+                "value": "§6[瞄准辅助指示器]§r 的背景颜色"
+            },
+            {
+                "key": "Snap aim mode: yaw, or pitch, or both",
+                "value": "切换瞄准辅助模式：偏航角[← →]或俯仰角[↑ ↓]，或都显示"
+            },
+            {
+                "key": "If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold",
+                "value": "启用该功能后那么视角锁定功能\n将仅在一定阈值内的角度时锁定该角度。\n角度阈值可以在 §6[通用功能] -> [角度阈值（垂直/水平方向）]§f 中设置"
+            },
+            {
+                "key": "Whether or not to allow overshooting the pitch angle\nfrom the normal +/- 90 degrees up to +/- 180 degrees",
+                "value": "是否允许俯仰角度从正常的 +/- 90度 \n扩展到 +/- 180度"
+            },
+            {
+                "key": "The pitch angle step of the snap aim tweak",
+                "value": "§6[瞄准辅助]§r 俯仰角度步进（单位°）"
+            },
+            {
+                "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
+                "value": "当玩家的视角在这个角度阈值内时，\n玩家的视角旋转将被捕获到固定角度"
+            },
+            {
+                "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
+                "value": "当玩家的视角在这个角度阈值内时，\n玩家的视角旋转将被捕获到固定角度"
+            },
+            {
+                "key": "The yaw angle step of the snap aim tweak",
+                "value": "§6[瞄准辅助]§r 偏航角度步进（单位°）"
+            },
+            {
+                "key": "The maximum dimensions for a Structure Block's saved area",
+                "value": "修改 §6[更改结构方块范围上限]§r 功能结构方块能保存的最大范围\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "The FOV value used for the zoom feature",
+                "value": "设置使用望远镜时的视野角度"
+            }
+        ]
     },
     {
-      "name": "fi.dy.masa.tweakeroo.config.Configs$Generic"
+        "target_class": {
+            "name": "fi.dy.masa.tweakeroo.config.FeatureToggle"
+        },
+        "pairs": [
+            {
+                "key": "carpetAccuratePlacementProtocol",
+                "value": "CarpetAccurate | Carpet 精确放置协议"
+            },
+            {
+                "key": "fastPlacementRememberOrientation",
+                "value": "FastPlacement | 快速放置记忆"
+            },
+            {
+                "key": "rememberFlexibleFromClick",
+                "value": "RememberFlexible | 方块灵活放置记忆"
+            },
+            {
+                "key": "tweakAccurateBlockPlacement",
+                "value": "AccurateBlock | 精准放置模式"
+            },
+            {
+                "key": "tweakAfterClicker",
+                "value": "AfterClicker | 放置后点击"
+            },
+            {
+                "key": "tweakAimLock",
+                "value": "AimLock | 视角锁定"
+            },
+            {
+                "key": "tweakAngelBlock",
+                "value": "AngelBlock | 凭空放置"
+            },
+            {
+                "key": "tweakBlockReachOverride",
+                "value": "BlockReachOverride | 方块放置距离覆写"
+            },
+            {
+                "key": "tweakBreakingGrid",
+                "value": "BreakingGrid | 破坏间距限制"
+            },
+            {
+                "key": "When enabled, you can only break blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "当启用时，您只能等距的破坏方块。\n按住快捷键时滚动滑轮可以快速调整设置"
+            },
+            {
+                "key": "tweakBreakingRestriction",
+                "value": "BreakingRestriction | 破坏范围限制"
+            },
+            {
+                "key": "tweakChatBackgroundColor",
+                "value": "ChatBackgroundColor | 聊天背景颜色"
+            },
+            {
+                "key": "tweakChatPersistentText",
+                "value": "ChatPersistentText | 聊天草稿保存"
+            },
+            {
+                "key": "tweakChatTimestamp",
+                "value": "ChatTimestamp | 聊天时间显示"
+            },
+            {
+                "key": "tweakCloudHeightOverride",
+                "value": "CloudHeightOverride | 云层高度覆盖"
+            },
+            {
+                "key": "tweakCommandBlockExtraFields",
+                "value": "CommandBlock | 命令方块额外选项"
+            },
+            {
+                "key": "tweakCustomFlatPresets",
+                "value": "CustomFlatPresets | 自定义世界预设"
+            },
+            {
+                "key": "tweakElytraCamera",
+                "value": "ElytraCamera | 环顾四周"
+            },
+            {
+                "key": "tweakEmptyShulkerBoxesStack",
+                "value": "EmptyShulker | 空潜影盒堆叠"
+            },
+            {
+                "key": "tweakEmptyShulkerBoxesStackOnGround",
+                "value": "EmptyS.B.Stack | 空盒掉落物合并"
+            },
+            {
+                "key": "tweakExplosionReducedParticles",
+                "value": "ExplosionReduced | 爆炸粒子优化"
+            },
+            {
+                "key": "If enabled, then all explosion particles will use the\nEXPLOSION_NORMAL particle instead of possibly\nthe EXPLOSION_LARGE or EXPLOSION_HUGE particles",
+                "value": "启用后，所有爆炸的粒子效果将使用「中等」体积的粒子，\n而不产生「大型」和「巨型」体积的粒子。\n这能在大量 TNT 爆炸时提高你的帧数"
+            },
+            {
+                "key": "tweakF3Cursor",
+                "value": "F3Cursor | 使用 F3 准心"
+            },
+            {
+                "key": "tweakFakeSneaking",
+                "value": "FakeSneaking | 伪潜行"
+            },
+            {
+                "key": "tweakFastBlockPlacement",
+                "value": "FastBlockPlacement | 方块快速放置"
+            },
+            {
+                "key": "tweakFastLeftClick",
+                "value": "FastLeftClick | 左键快速点击"
+            },
+            {
+                "key": "Enables automatic fast left clicking while holding down\nthe attack button (left click).\nThe number of clicks per tick is set in the Generic configs.",
+                "value": "可以在一游戏刻中点击多次左键。\n点击速度可在 §6[通用功能]§f 中进行设置"
+            },
+            {
+                "key": "tweakFastRightClick",
+                "value": "FastRightClick | 右键快速点击"
+            },
+            {
+                "key": "Enables automatic fast right clicking while holding down\nthe use button (right click).\nThe number of clicks per tick is set in the Generic configs.",
+                "value": "可以在一游戏刻中点击多次右键。\n点击速度可在 §6[通用功能]§r 中进行设置"
+            },
+            {
+                "key": "tweakFillCloneLimit",
+                "value": "FillCloneLimit | 填充方块上限"
+            },
+            {
+                "key": "tweakFlySpeed",
+                "value": "FlySpeed | 飞行速度控制"
+            },
+            {
+                "key": "tweakFlexibleBlockPlacement",
+                "value": "FlexibleBlock | 方块灵活放置"
+            },
+            {
+                "key": "tweakFreeCamera",
+                "value": "FreeCamera | 灵魂出窍"
+            },
+            {
+                "key": "tweakFreeCameraMotion",
+                "value": "FreeCameraMotion | 灵魂/身体操作切换"
+            },
+            {
+                "key": "tweakGammaOverride",
+                "value": "GammaOverride | 伽马覆写"
+            },
+            {
+                "key": "tweakHandRestock",
+                "value": "HandRestock | 自动补货"
+            },
+            {
+                "key": "tweakHoldAttack",
+                "value": "HoldAttack | 长按左键"
+            },
+            {
+                "key": "tweakHoldUse",
+                "value": "HoldUse | 长按右键"
+            },
+            {
+                "key": "tweakHotbarScroll",
+                "value": "HotbarScroll | 物品栏滚动"
+            },
+            {
+                "key": "tweakHotbarSlotCycle",
+                "value": "HotbarCycle | 物品栏循环滚动"
+            },
+            {
+                "key": "tweakHotbarSlotRandomizer",
+                "value": "HotbarRandom | 物品栏随机滚动"
+            },
+            {
+                "key": "tweakHotbarSwap",
+                "value": "HotbarSwap | 切换物品栏"
+            },
+            {
+                "key": "tweakInventoryPreview",
+                "value": "InventoryPreview | 容器预览"
+            },
+            {
+                "key": "tweakItemUnstackingProtection",
+                "value": "ItemUnstacking | 不可堆叠物品保护"
+            },
+            {
+                "key": "tweakLavaVisibility",
+                "value": "LavaVisibility | 岩浆夜视"
+            },
+            {
+                "key": "tweakMapPreview",
+                "value": "MapPreview | 地图预览"
+            },
+            {
+                "key": "tweakMovementKeysLast",
+                "value": "MovementKeysLast | 移动方向输入覆盖"
+            },
+            {
+                "key": "tweakPeriodicAttack",
+                "value": "PeriodicAttack | 周期性单击左键"
+            },
+            {
+                "key": "tweakPeriodicUse",
+                "value": "PeriodicUse | 周期性单击右键"
+            },
+            {
+                "key": "tweakPermanentSneak",
+                "value": "PermanentSneak | 一直潜行"
+            },
+            {
+                "key": "tweakPermanentSprint",
+                "value": "PermanentSprint | 一直奔跑"
+            },
+            {
+                "key": "tweakPickBeforePlace",
+                "value": "PickBeforePlace | 自动匹配放置"
+            },
+            {
+                "key": "tweakPlacementGrid",
+                "value": "PlacementGrid | 放置间距限制"
+            },
+            {
+                "key": "When enabled, you can only place blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "启用后，您只能等距的破坏方块。\n按住快捷键时滚动滑轮可以快速调整间距"
+            },
+            {
+                "key": "tweakPlacementLimit",
+                "value": "PlacementLimit | 放置数量限制"
+            },
+            {
+                "key": "When enabled, you can only place a set number\nof blocks per use/right click.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "启用后，每次放置只可以放置一定数量的方块。\n单次放置方块的数量限制可以在 §6[通用功能] -> [放置数量限制]§r 进行修改，\n按住快捷键时滚动滑轮可以快速调整限制数量"
+            },
+            {
+                "key": "tweakPlacementRestriction",
+                "value": "PlacementRestriction | 限制放置范围"
+            },
+            {
+                "key": "tweakPlacementRestrictionFirst",
+                "value": "PlacementRes.First | 限制放置位置"
+            },
+            {
+                "key": "tweakPlacementRestrictionHand",
+                "value": "PlacementRes.Hand | 限制放置方块"
+            },
+            {
+                "key": "tweakPlayerInventoryPeek",
+                "value": "PlayerInventoryPeek | 玩家背包预览"
+            },
+            {
+                "key": "tweakPlayerListAlwaysVisible",
+                "value": "PlayerList | 一直显示玩家列表"
+            },
+            {
+                "key": "tweakPlayerOnFireScale",
+                "value": "OnFireScale | 玩家着火效果缩放"
+            },
+            {
+                "key": "tweakPotionWarning",
+                "value": "PotionWarning | 效果不足警报"
+            },
+            {
+                "key": "tweakPrintDeathCoordinates",
+                "value": "PrintDeath | 发送死亡坐标"
+            },
+            {
+                "key": "tweakRelaxedBlockPlacement",
+                "value": "RelaxedBlockPlacement | 自由放置方块"
+            },
+            {
+                "key": "tweakRemoveOwnPotionEffects",
+                "value": "RemovePotionEffects | 移除药水动画"
+            },
+            {
+                "key": "tweakRenderInvisibleEntities",
+                "value": "RenderInvisible | 不可见实体渲染"
+            },
+            {
+                "key": "When enabled, invisible entities are rendered like\nthey would be in spectator mode.",
+                "value": "启用后不可见的实体会渲染为类似旁观者的半透明状态"
+            },
+            {
+                "key": "tweakRenderLimitEntities",
+                "value": "RenderLimitEntities | 限制实体渲染"
+            },
+            {
+                "key": "tweakRepairMode",
+                "value": "RepairMode | 经验修补模式"
+            },
+            {
+                "key": "tweakShulkerBoxDisplay",
+                "value": "ShulkerDisplay | 潜影盒预览"
+            },
+            {
+                "key": "tweakSignCopy",
+                "value": "SignCopy | 告示牌复制"
+            },
+            {
+                "key": "When enabled, placed signs will use the text from\nthe previously placed sign.\nCan be combined with tweakNoSignGui to quickly place copies\nof a sign, by enabling that tweak after making the first sign.",
+                "value": "开启后放置告示牌时将自动填充上一个告示牌的文本本。\n该功能可以与 §6[禁用类功能] -> [禁用告示牌 GUI]§r 配合使用，\n在放置第一个告示牌后启用该功能，可以快速放置第一个告示牌的副本"
+            },
+            {
+                "key": "tweakSnapAim",
+                "value": "SnapAim | 辅助瞄准"
+            },
+            {
+                "key": "tweakSnapAimLock",
+                "value": "SnapAimLock | 辅助瞄准锁定"
+            },
+            {
+                "key": "tweakSpectatorTeleport",
+                "value": "SpectatorTeleport | 旁观者传送"
+            },
+            {
+                "key": "tweakStaticFov",
+                "value": "StaticFov | 保持静态视角"
+            },
+            {
+                "key": "tweakStructureBlockLimit",
+                "value": "StructureLimit | 更改结构方块范围上限"
+            },
+            {
+                "key": "tweakSwapAlmostBrokenTools",
+                "value": "SwapBrokenTools | 工具防损坏"
+            },
+            {
+                "key": "tweakTabCompleteCoordinate",
+                "value": "TabComplete | 坐标补全升级"
+            },
+            {
+                "key": "tweakTileEntityRenderDistance",
+                "value": "AlwaysRenderTileEntity | 方块实体始终渲染"
+            },
+            {
+                "key": "tweakToolSwitch",
+                "value": "ToolSwitch | 工具自动选择"
+            },
+            {
+                "key": "tweakYMirror",
+                "value": "YMirror | Y 轴镜像放置"
+            },
+            {
+                "key": "tweakZoom",
+                "value": "Zoom | 启用望远镜"
+            },
+            {
+                "key": "tweakeroo.label.config_comment.single_player_only",
+                "value": "§6注意: 在多人游戏中该功能可能不完全可用或完全不可用§r"
+            },
+            {
+                "key": "If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented\nin the recent carpet mod versions",
+                "value": "启用后，灵活放置的精确放置功能将基于 Carpet 协议实现。\n使用 Carpet 协议能够让你在服务器上也可以精确放置。\n§6Carpet 协议需要服务器安装有 Carpet Mod§f"
+            },
+            {
+                "key": "Carpet protocol Accurate Placement",
+                "value": "CarpetAccurate | Carpet 精确放置协议"
+            },
+            {
+                "key": "If enabled, then the fast placement mode will always remember\nthe orientation of the first block you place.\nWithout this, the orientation will only be remembered\nwith the flexible placement enabled and active.",
+                "value": "如果启用，那么 §6[方块快速放置]§r 功能将始终记住你放置的第一个方块的方向。\n如果禁用，方向只会在启用并激活 §6[方块灵活放置]§r 的情况下被记住"
+            },
+            {
+                "key": "Fast Placement Remember Orientation",
+                "value": "FastPlacement | 快速放置记忆"
+            },
+            {
+                "key": "If enabled, then the flexible block placement status\nwill be remembered from the first placed block,\nas long as the use key is held down.",
+                "value": "如果启用，在按住使用键（右键单击）后，§6[方块灵活放置]§r 状态将从第一个放置的方块开始记住朝向。\n不需要一直按住 §6[方块灵活放置]§r 的快捷键即可将所有方块快速放置在同一方向"
+            },
+            {
+                "key": "Remember Flexible Orientation From First Click",
+                "value": "RememberFlexible | 方块灵活放置记忆"
+            },
+            {
+                "key": "Enables a simpler version of Flexible placement, similar to\nthe Carpet mod, so basically either facing into or out\nfrom the block face clicked on.",
+                "value": "启用简化版的 §6[方块灵活放置]§r 功能，类似于 Carpet 模组，即朝向点击的方块面或背向该方块面进行方块放置"
+            },
+            {
+                "key": "Enables a \"after clicker\" tweak, which does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the delay).\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "启用该功能后，它会对刚刚放置的方块快速右键一定次数，\n这在放置四挡中继器时非常有用。\n按住快捷键时滚动滚轮可以调整放置后右键的次数。"
+            },
+            {
+                "key": "Enables an aim lock, locking the yaw and pitch rotations\nto the current values.\nThis is separate from the snap aim lock,\nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.",
+                "value": "启用瞄准锁定，将水平和俯仰旋转锁定到当前值。\n这与[瞄准辅助锁定]不同，\n后者将它们锁定到一个确定值。\n这项设置允许将它们「自由地」锁定到当前值"
+            },
+            {
+                "key": "Enables an \"Angel Block\" tweak, which allows\nplacing blocks in mid-air in Creative mode",
+                "value": "此功能将让你能够在空中放置方块。\n§6该功能仅在创造模式生效§r"
+            },
+            {
+                "key": "Overrides the block reach distance with\nthe one set in Generic -> blockReachDistance",
+                "value": "覆写方块放置距离，\n需要在 §6[通用功能] -> [覆写方块放置距离]§r 中设置方块放置距离"
+            },
+            {
+                "key": "Enables the Breaking Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
+                "value": "启用破坏范围限制时，将你挖掘的范围限制在\n（一个水平面、直线、平面、对角线、棱边）上"
+            },
+            {
+                "key": "Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'",
+                "value": "将聊天栏的背景颜色设置为 §6[通用功能] -> [聊天背景颜色]§r 中所选择的颜色"
+            },
+            {
+                "key": "Stores the text from the chat input text field\nand restores it when the chat is opened again",
+                "value": "关闭聊天栏时不会将已输入的内容清空，而是作为草稿保存"
+            },
+            {
+                "key": "Adds timestamps to chat messages",
+                "value": "在每一条信息前显示信息发送的时间"
+            },
+            {
+                "key": "Overrides the normal cloud height with the one set in Generic -> 'cloudHeightOverride'",
+                "value": "使用通用功能中的云层高度覆盖值项所设置的数值，覆盖原有的默认云层高度"
+            },
+            {
+                "key": "Adds extra fields to the Command Block GUI, for settings\nthe name of the command block, and seeing the stats results",
+                "value": "在命令方块的 GUI 中添加额外的部分，用于设置命令方块的名称，并查看运行结果"
+            },
+            {
+                "key": "Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets",
+                "value": "开启此选项后会在 §6[生成世界] -> [超平坦] -> [预设]§r 中添加自定义的预设。\n自定义预设可在 §6[配置表单] -> [自定义世界预设]§r 中编辑添加"
+            },
+            {
+                "key": "Allows locking the real player rotations while holding the 'elytraCamera' activation key.\nThe controls will then only affect the separate 'camera rotations' for the rendering/camera.\nMeant for things like looking down/around while elytra flying nice and straight.",
+                "value": "启用此功能后需要在 §6[通用功能快捷键] -> [环顾四周]§r 中设定激活快捷键。\n按住此快捷键会锁定玩家当前的视角方向，\n使玩家鼠标输入仅改变摄像机视角而不改变移动方向。\n这让玩家能够在飞行环顾四周，观赏风景"
+            },
+            {
+                "key": "Enables empty Shulker Boxes stacking up to 64.\nNOTE: They will also stack inside inventories!\nOn servers this will cause desyncs/glitches\nunless the server has a mod that does the same.\nIn single player this changes shulker box based system behaviour.",
+                "value": "允许空潜影盒堆叠，数量最多为 64 个 \n注意：它们也会在背包中堆叠！\n在服务器上，除非服务器安装了相同功能的模组，否则会导致数据不同步或出现故障。\n在单人游戏中，这会改变潜影盒的系统行为\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "Enables empty Shulker Boxes stacking up to 64\nwhen as items on the ground",
+                "value": "该功能使空潜影盒能够在地面上以掉落物的形式合并，\n合并上限为一组（64 个）。\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "Enables always rendering the F3 screen cursor",
+                "value": "启用后屏幕准心为按下 F3 时的样式"
+            },
+            {
+                "key": "Enables \"fake sneaking\" ie. prevents you from falling from edges\nwithout slowing down the movement speed",
+                "value": "启用后，你将不会从方块边缘落下，类似潜行但不会降低移动速度"
+            },
+            {
+                "key": "Enables fast/convenient block placement when moving\nthe cursor over new blocks",
+                "value": "启用 §6[方块快速放置]§r 功能。\n该功能拥有多种限制器，可以在 §6[通用功能快捷键]§r 中查看热键设置（默认为 Z + 1~6）"
+            },
+            {
+                "key": "Enables overriding the /fill and /clone command\nblock limits in single player.\nThe new limit can be set in the Generic configs,\nin the 'fillCloneLimit' config value",
+                "value": "启用在单人游戏中覆写 /fill 和 /clone 命令的方块数量限制。\n新的限制可以在 §6[通用功能] -> [填充方块上限]§f 中设置\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "Enables overriding the fly speed in creative or spectator mode\nand using some presets for it",
+                "value": "开启后可以调整飞行速度，包括创造模式、旁观者、灵魂出窍时的飞行速度。\n此功能拥有 4 个预设槽，可在 §6[通用功能]§r 中设置。\n槽位切换快捷键需要在 §6[通用功能快捷键]§r 中进行设置，默认为空"
+            },
+            {
+                "key": "Enables placing blocks in different orientations\nor with an offset, while holding down the\nhotkeys for those modes.",
+                "value": "按住此功能快捷键时，可以以不同的方向或角度放置方块。\n快捷键可在 §6[通用功能快捷键]§r 中进行设置，默认为 Ctrl&Alt"
+            },
+            {
+                "key": "Enables a free camera mode, similar to spectator mode,\nbut where the player will remain in place where\nyou first activate the free camera mode",
+                "value": "启用灵魂出窍后，你可以在身边随意控制视角，就像旁观者一样。\n此功能在 §6[通用功能]§r 内有两个附属选项"
+            },
+            {
+                "key": "When the Free Camera mode is enabled, if this feature is also enabled,\nthe movement inputs will affect the camera entity instead of the actual player.\nThis option is provided so that it's also possible to control\nthe actual player while in Free Camera mode, by disabling this option.\nNormally, if you just want to control the camera entity while in Free camera mode,\nthen just set the same hotkey for both features.",
+                "value": "使用此功能可以在灵魂出窍时移动玩家而不移动视角。"
+            },
+            {
+                "key": "Overrides the video settings gamma value with\nthe one set in the Generic configs",
+                "value": "启用后会将 Gamma 覆写为设定值，当 Gamma 大于 10 时即可实现无限夜视的效果。\n覆写值可于 §6[通用功能] -> [伽马值设定]§r 设定。\n（Gamma 也叫灰度系数，是亮度和对比度的辅助功能）"
+            },
+            {
+                "key": "Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out",
+                "value": "启用后会在当前物品将使用完前自动补充一组新物品手上。\n此功能在 §6[通用功能]§r 内有两个附属设置"
+            },
+            {
+                "key": "Emulates holding down the attack button\n�6NOTE: You should ONLY toggle this via the toggle hotkey!\n�6You should also make the toggle hotkey have the attack\n�6key as part of the keybind, so that it properly activates/deactivates\n�6 the vanilla keybind when you toggle the tweak on/off",
+                "value": "模拟长按攻击键的效果\n§6注意：你应仅通过切换热键来启用或禁用此功能！§r\n§6此外，请将攻击键设置为该热键的组成部分§r\n§6这样才能在开关此功能时§r\n§6正确启用/禁用原版（游戏本身）的相应键位§r"
+            },
+            {
+                "key": "Emulates holding down the use button\n�6NOTE: You should ONLY toggle this via the toggle hotkey!\n�6You should also make the toggle hotkey have the use\n�6key as part of the keybind, so that it properly activates/deactivates\n�6 the vanilla keybind when you toggle the tweak on/off",
+                "value": "模拟长按使用键的效果\n§6注意：你应仅通过切换热键来启用或禁用此功能！§r\n§6此外，请将使用键设置为该热键的组成部分§r\n§6这样才能在开关此功能时§r\n§6正确启用/禁用原版（游戏本身）的相应键位§r"
+            },
+            {
+                "key": "Enables the hotbar swapping via scrolling feature",
+                "value": "可以通过滚动功能调节物品栏"
+            },
+            {
+                "key": "Enables cycling the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "此功能会在放置方块后循环选中下一格物品栏。\n你可以在 §6[通用功能] §f中设置循环范围上限。"
+            },
+            {
+                "key": "Enables randomizing the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+                "value": "此功能会在放置方块后循环选中下一格物品栏。\n你可以在 §6[通用功能]§r 中设置循环范围上限。\n要快速调整该值，请在按住该快捷键的同时滚动鼠标"
+            },
+            {
+                "key": "Enables the hotbar swapping via hotkeys feature",
+                "value": "启用通过快捷键进行快捷栏切换的功能\n在 §6[通用功能快捷键]§r 中设置该功能的快捷键"
+            },
+            {
+                "key": "Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.",
+                "value": "当光标悬停在具有物品栏的方块或实体上并按住配置的快捷键时，启用物品栏预览。\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "If enabled, then items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.",
+                "value": "启用后在背包已满时你将不会制造新的不可堆叠物品。\n例如：在你收集岩浆桶时，他可以避免背包满时丢出岩浆桶。\n\n可在 §6[配置表单] -> [不可堆叠物品保护]§r 中设置不可堆叠物品列表"
+            },
+            {
+                "key": "If enabled and the player has a Respiration helmet and/or\nWather Breathing active, the lava fog is greatly reduced.",
+                "value": "如果启用该功能，\n在防火状态下，根据水下呼吸和水下速掘附魔的等级，\n增加岩浆下的能见度"
+            },
+            {
+                "key": "If enabled, then holding shift over maps in an inventory\nwill render a preview of the map",
+                "value": "启用后，在背包内按下 Shift 可以预览地图"
+            },
+            {
+                "key": "If enabled, then opposite movement keys won't cancel each other,\nbut instead the last pressed key is the active input.",
+                "value": "启用此功能后，同时按下两个反方向的移动键时，\n将不再相互抵消，而是按照最后输入的方向移动"
+            },
+            {
+                "key": "Enables periodic attacks (left clicks)\nConfigure the interval in Generic -> periodicAttackInterval",
+                "value": "启用周期性单击左键功能\n单击左键的时间间隔可以在 §6[通用功能] -> [单击左键间隔]§r 中调整"
+            },
+            {
+                "key": "Enables periodic uses (right clicks)\nConfigure the interval in Generic -> periodicUseInterval",
+                "value": "启用周期性单击右键功能\n单击右键的时间间隔可以在 §6[通用功能] -> [单击右键间隔]§r 中调整"
+            },
+            {
+                "key": "If enabled, the player will be sneaking the entire time",
+                "value": "启用后会一直保持潜行状态 \n§6注意：此功能为货真价实的潜行，会降低移动速度§f\n§e不降低移动速度的功能为 §e[伪潜行]§f"
+            },
+            {
+                "key": "If enabled, the player will be always sprinting when moving forward",
+                "value": "如果启用，玩家将会一直保持奔跑状态"
+            },
+            {
+                "key": "If enabled, then before each block placement, the same block\nis switched to hand that you are placing against",
+                "value": "开启后，在每次放置方块之前，手中会自动切换为与当前右键点击方块相同的方块"
+            },
+            {
+                "key": "Enables the Placement Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
+                "value": "启用放置范围限制时，将你能放置方块的范围限制在\n（水平面、直线、平面、对角线、棱边）上"
+            },
+            {
+                "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on",
+                "value": "限制方块的放置位置，你只能将方块放置在第一次点击的相同方块上"
+            },
+            {
+                "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou are holding in your hand",
+                "value": "限制方块的放置位置，你只能将方块放置在与手中持有的方块类型相同的方块上"
+            },
+            {
+                "key": "Enables a player inventory peek/preview, while holding the\nconfigured hotkey key for it.",
+                "value": "开启后你可以使用 §6[容器预览]§r 快捷键预览玩家背包。"
+            },
+            {
+                "key": "If enabled, then the player list is always rendered without\nhaving to hold down the key (tab by default)",
+                "value": "如果启用，玩家列表将会一直显示而不需要按住按键（默认为 TAB）"
+            },
+            {
+                "key": "Enables scaling the on-fire effect on the player themselves,\nusing the scaling factor from Generic -> playerOnFireScale",
+                "value": "启用对玩家着火效果的缩放功能，\n缩放比例将使用通用功能中的玩家着火效果缩放项中设置的系数"
+            },
+            {
+                "key": "Prints a warning message to the hotbar when\nnon-ambient potion effects are about to run out",
+                "value": "当非信标效果即将消失时，在物品栏上方显示警报提醒"
+            },
+            {
+                "key": "Enables printing the player's coordinates to chat on death.\nThis feature is originally from usefulmod by nessie.",
+                "value": "开启后在你死亡时会在聊天栏发送死亡坐标，此坐标仅自己可见。\n这个功能最初来源于 Nessie 的 UsefulMod"
+            },
+            {
+                "key": "Allows placing certain blocks without the normal restrictions,\nsuch as fence gates and pumpkins in mid-air",
+                "value": "允许自由放置特定方块，\n例如在空中放置栅栏门和南瓜"
+            },
+            {
+                "key": "Removes the potion effect particles from the\nplayer itself in first person mode",
+                "value": "启用后会在第一人称视角中移除药水的效果粒子。"
+            },
+            {
+                "key": "Enables limiting the number of certain types of entities\nto render per frame. Currently XP Orbs and Item entities\nare supported, see Generic configs for the limits.",
+                "value": "启用后可以限制每帧渲染的特定实体的数量。\n渲染数量可以在 §6[通用功能]§r 中分别进行设置。\n§6目前支持限制经验球和掉落物实体§r"
+            },
+            {
+                "key": "If enabled, then fully repaired items held in hand will\nbe swapped to damaged items that have Mending on them.",
+                "value": "启用此功能时，会把耐久不满并带有经验修补的装备自动切换到手中"
+            },
+            {
+                "key": "Enables the Shulker Box contents display when hovering\nover them in an inventory and holding shift",
+                "value": "鼠标悬停在背包中的潜影盒上时，按下 Shift 将可以预览潜影盒中的内容"
+            },
+            {
+                "key": "Enabled a snap aim tweak, to make the player face to pre-set exact yaw rotations",
+                "value": "启用瞄准辅助后，玩家的视角每次只能移动预先设置的角度（默认为 45 度）\n角度可以在 §6[通用功能]§r 中进行更改"
+            },
+            {
+                "key": "Enables a snap aim lock, locking the yaw and/or pitch rotations\nto the currently snapped value",
+                "value": "启用后会锁定玩家视角的水平和垂直移动。\n\n§6该功能需要开启 [瞄准辅助] 后才能生效§f"
+            },
+            {
+                "key": "Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.",
+                "value": "启用后你可以在旁观者模式时传送到其他旁观者的位置上。\n该功能来源于 Nessie 的 UsefulMod 中"
+            },
+            {
+                "key": "Prevents speed effects or sprinting etc. from changing the FoV",
+                "value": "保持静态视角，使视野不会因速度效果或者疾跑等而改变"
+            },
+            {
+                "key": "Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize",
+                "value": "允许覆写结构方块范围限制。\n新的限制在 §6[通用功能] -> [结构方块范围上限]§r 中设置\n§6注意：此功能要么完全无法运行§r\n§6或者至少只能在单人游戏中运行§r"
+            },
+            {
+                "key": "If enabled, then any damageable items held in the hand that\nare about to break will be swapped to fresh ones",
+                "value": "开启此功能后，耐久将要耗尽的工具会被替换为更高耐久的工具"
+            },
+            {
+                "key": "If enabled, then tab-completing coordinates while not\nlooking at a block, will use the player's position\ninstead of adding the ~ character.",
+                "value": "开启此功能后，在坐标补全时如果准心没有指向方块，\n则会使用玩家坐标补全而不是相对坐标（~ ~ ~）"
+            },
+            {
+                "key": "Allows Tile Entities to be rendered from any distance,\nand not only from the usual 64 blocks away",
+                "value": "允许从任何距离渲染方块实体，\n而不再仅限于通常的64格范围"
+            },
+            {
+                "key": "Enables automatically switching to an effective tool for the targeted block",
+                "value": "开启后将根据挖掘的方块自动切换工具"
+            },
+            {
+                "key": "Mirrors the targeted y-position within the block bounds.\nThis is basically for placing slabs or stairs\nin the opposite top/bottom state from normal,\nif you have to place them against another slab for example.",
+                "value": "启用后按下快捷键时，方块将放置为 Y 轴对称的形式。\n这功能主要是为了放置上下相反的半砖和楼梯。\n快捷键默认为空，需要在 §6[通用功能快捷键] -> [Y 轴镜像放置]§r 中设置"
+            },
+            {
+                "key": "Enables using the zoom hotkey to, well, zoom in",
+                "value": "启用望远镜功能，需要在 §6[通用功能快捷键] -> [启用望远镜]§r 中设置快捷键来使用望远镜"
+            }
+        ]
     },
     {
-      "name": "fi.dy.masa.tweakeroo.config.Configs$Internal"
+        "target_class": {
+            "name": "fi.dy.masa.tweakeroo.config.Hotkeys"
+        },
+        "pairs": [
+            {
+                "key": "accurateBlockPlacementInto",
+                "value": "AccurateInto | 精准放置模式"
+            },
+            {
+                "key": "accurateBlockPlacementReverse",
+                "value": "AccurateReverse | 精准放置模式（反向）"
+            },
+            {
+                "key": "breakingRestrictionModeColumn",
+                "value": "BreakingRestrict | 破坏范围限制 直线 "
+            },
+            {
+                "key": "breakingRestrictionModeDiagonal",
+                "value": "BreakingRestrict | 破坏范围限制 对角线 "
+            },
+            {
+                "key": "breakingRestrictionModeFace",
+                "value": "BreakingRestrict | 破坏范围限制 面朝"
+            },
+            {
+                "key": "breakingRestrictionModeLayer",
+                "value": "BreakingRestrict | 破坏范围限制 水平面"
+            },
+            {
+                "key": "breakingRestrictionModeLine",
+                "value": "BreakingRestrict | 破坏范围限制 棱边"
+            },
+            {
+                "key": "breakingRestrictionModePlane",
+                "value": "BreakingRestrict | 破坏范围限制 平面"
+            },
+            {
+                "key": "copySignText",
+                "value": "CopySignText | 告示牌文本复制"
+            },
+            {
+                "key": "elytraCamera",
+                "value": "ElytraCamera | 环顾四周"
+            },
+            {
+                "key": "The key to lock the current real player rotations, only allowing the\ninputs (mouse) to affect separate \"camera rotations\" used only for the rendering\nwhile this key is active.\nMeant for freely looking down/around while elytra flying straight.",
+                "value": "按住此快捷键会锁定玩家当前的视角方向，\n使玩家鼠标移动仅改变摄像机视角而不改变移动方向。\n应用此功能需要开启§6[工具] -> [环顾四周]§r\n\n非常适合你在鞘翅飞行时回头或向四周看"
+            },
+            {
+                "key": "flexibleBlockPlacementAdjacent",
+                "value": "FlexibleBlock | 方块灵活放置（相邻）"
+            },
+            {
+                "key": "flexibleBlockPlacementOffset",
+                "value": "FlexibleBlock | 方块灵活放置（棱角）"
+            },
+            {
+                "key": "flexibleBlockPlacementRotation",
+                "value": "FlexibleBlock | 方块灵活放置（旋转）"
+            },
+            {
+                "key": "flyPreset1",
+                "value": "FlyPreset1 | 飞行预设 1"
+            },
+            {
+                "key": "flyPreset2",
+                "value": "FlyPreset2 | 飞行预设 2"
+            },
+            {
+                "key": "flyPreset3",
+                "value": "FlyPreset3 | 飞行预设 3"
+            },
+            {
+                "key": "flyPreset4",
+                "value": "FlyPreset4 | 飞行预设 4"
+            },
+            {
+                "key": "hotbarScroll",
+                "value": "HotbarScroll | 物品栏滚动"
+            },
+            {
+                "key": "hotbarSwapBase",
+                "value": "HotbarSwapBase | 显示背包内容物"
+            },
+            {
+                "key": "hotbarSwap1",
+                "value": "HotbarSwap1 | 顶层快捷切换"
+            },
+            {
+                "key": "hotbarSwap2",
+                "value": "HotbarSwap2 | 中层快捷切换"
+            },
+            {
+                "key": "hotbarSwap3",
+                "value": "HotbarSwap3 | 底层快捷切换"
+            },
+            {
+                "key": "inventoryPreview",
+                "value": "InventoryPreview | 容器预览"
+            },
+            {
+                "key": "openConfigGui",
+                "value": "OpenConfigGui | 打开配置界面"
+            },
+            {
+                "key": "placementYMirror",
+                "value": "PlacementYMirror | Y 轴镜像放置"
+            },
+            {
+                "key": "playerInventoryPeek",
+                "value": "InventoryPeek | 玩家背包预览"
+            },
+            {
+                "key": "placementRestrictionModeColumn",
+                "value": "FastPlacement | 方块放置限制 直线"
+            },
+            {
+                "key": "placementRestrictionModeDiagonal",
+                "value": "FastPlacement | 方块放置限制 对角线"
+            },
+            {
+                "key": "placementRestrictionModeFace",
+                "value": "FastPlacement | 方块放置限制 面朝"
+            },
+            {
+                "key": "placementRestrictionModeLayer",
+                "value": "FastPlacement | 方块放置限制 水平面"
+            },
+            {
+                "key": "placementRestrictionModeLine",
+                "value": "FastPlacement | 方块放置限制 棱边"
+            },
+            {
+                "key": "placementRestrictionModePlane",
+                "value": "FastPlacement | 方块放置限制 平面"
+            },
+            {
+                "key": "skipAllRendering",
+                "value": "SkipAllRender | 跳过全部渲染"
+            },
+            {
+                "key": "Toggles skipping _all_ rendering",
+                "value": "开启此项后，所有的渲染运算都会被跳过"
+            },
+            {
+                "key": "skipWorldRendering",
+                "value": "SkipWorldRender | 跳过世界渲染"
+            },
+            {
+                "key": "toolPick",
+                "value": "ToolPick | 自动选择工具"
+            },
+            {
+                "key": "zoomActivate",
+                "value": "ZoomActivate | 启用望远镜"
+            },
+            {
+                "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face",
+                "value": "激活 §6[精确放置]§r 的快捷键，使用后方块将放置于点击的块面上"
+            },
+            {
+                "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\nthe opposite way from what it would normally be",
+                "value": "激活 §6[精确放置]§r 的快捷键，使用后方块将反向放置于点击的块面上"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Column mode",
+                "value": "将破坏范围限制在 当前直线"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Diagonal mode",
+                "value": "将破坏范围限制在 对角线"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Face mode",
+                "value": "将破坏范围限制在 面朝方向"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Layer mode",
+                "value": "将破坏范围限制在 同水平面上"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Line mode",
+                "value": "将破坏范围限制在  放置方块的棱边上"
+            },
+            {
+                "key": "Switch the Breaking Restriction mode to the Plane mode",
+                "value": "将破坏范围限制在 同平面上"
+            },
+            {
+                "key": "Copies the text from an already-placed sign.\nThat text can be used with the tweakSignCopy tweak.",
+                "value": "开启后上一个告示牌中输入的文本将作为初始值输入至下一个告示牌"
+            },
+            {
+                "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in an adjacent position",
+                "value": "按下以激活 §6[方块灵活放置]§r，按下该按键时可将方块放置在当前方块的 相邻 的位置"
+            },
+            {
+                "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in a\noffset or diagonal position",
+                "value": "按下以 §6[方块灵活放置]§r，按下该按键时可将方块放置在当前方块的 斜角或隔空 的位置"
+            },
+            {
+                "key": "The key to activate the flexible block placement\nmode/overlay for placing the block with\na rotation/facing",
+                "value": "按下以激活 §6[方块灵活放置]§r，按下该按键时可将方块以选定的方向放置"
+            },
+            {
+                "key": "Switch to fly preset 1",
+                "value": "切换至飞行速度预设 1"
+            },
+            {
+                "key": "Switch to fly preset 2",
+                "value": "切换至飞行速度预设 2"
+            },
+            {
+                "key": "Switch to fly preset 3",
+                "value": "切换至飞行速度预设 3"
+            },
+            {
+                "key": "Switch to fly preset 4",
+                "value": "切换至飞行速度预设 4"
+            },
+            {
+                "key": "The key to hold to allow scrolling the hotbar\nthrough the player inventory rows",
+                "value": "按下快捷键时，可以按行循环滚动物品栏"
+            },
+            {
+                "key": "The base key to show the hotbar/inventory overlay",
+                "value": "按下快捷键时，将显示背包内容物\n显示位置可在 §6[通用功能] -> [背包显示位置]§r 处更改"
+            },
+            {
+                "key": "Swap the hotbar with the top-most inventory row",
+                "value": "按下快捷键时，将物品栏与背包顶层一行交换"
+            },
+            {
+                "key": "Swap the hotbar with the middle inventory row",
+                "value": "按下快捷键时，将物品栏与背包中层一行交换"
+            },
+            {
+                "key": "Swap the hotbar with the bottom-most inventory row",
+                "value": "按下快捷键时，将物品栏与背包底层一行交换"
+            },
+            {
+                "key": "The key to activate the inventory preview feature",
+                "value": "按下快捷键时，可预览容器内的物品。 \n§6此项通常仅在单人时生效。§f"
+            },
+            {
+                "key": "The key open the in-game config GUI",
+                "value": "打开 Tweakeroo 配置界面的快捷键"
+            },
+            {
+                "key": "The key to mirror the targeted y-position within the block",
+                "value": "按下快捷键时，将方块以 Y 轴镜像的方式放置出来。\n需要开启 §6[工具] -> [Y轴镜像放置]§r"
+            },
+            {
+                "key": "The key to activate the player inventory peek/preview feature",
+                "value": "激活 §6[玩家背包预览]§r 功能的热键"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Column mode",
+                "value": "将快速放置的方块放置范围限制在 当前直线"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Diagonal mode",
+                "value": "将快速放置的方块放置范围限制在 对角线 \n§6注意：此功能无法凭空放置方块§f"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Face mode",
+                "value": "将快速放置的方块放置范围限制在 面朝方向"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Layer mode",
+                "value": "将快速放置的方块放置范围限制在 同水平面上"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Line mode",
+                "value": "将快速放置的方块放置范围限制在 放置方块的棱边上"
+            },
+            {
+                "key": "Switch the Placement Restriction mode to the Plane mode",
+                "value": "将快速放置的方块放置范围限制在 同平面上"
+            },
+            {
+                "key": "Toggles skipping world rendering",
+                "value": "开启此项后，所有关于世界的渲染运算都会被跳过"
+            },
+            {
+                "key": "Switches to the effective tool for the targeted block",
+                "value": "按下快捷键后切换到适合采集当前方块的工具"
+            },
+            {
+                "key": "Zoom activation hotkey",
+                "value": "按下快捷键时，启用望远镜"
+            }
+        ]
     },
     {
-      "name": "fi.dy.masa.tweakeroo.config.Configs$Lists"
+        "target_class": {
+            "name": "fi.dy.masa.tweakeroo.gui.GuiConfigs"
+        },
+        "pairs": [
+            {
+                "key": "tweakeroo.gui.button.config_gui.generic",
+                "value": "通用功能"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.fixes",
+                "value": "修复"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.lists",
+                "value": "配置表单"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.tweak_toggles",
+                "value": "工具开关"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.tweak_hotkeys",
+                "value": "工具快捷键"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.generic_hotkeys",
+                "value": "通用功能快捷键"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.disable_toggle",
+                "value": "禁用类功能"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.disable_hotkeys",
+                "value": "禁用类功能快捷键"
+            },
+            {
+                "key": "tweakeroo.gui.button.config_gui.placement",
+                "value": "方块放置模式"
+            },
+            {
+                "key": "tweakeroo.gui.title.configs",
+                "value": "Tweakeroo 设置界面"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "fi.dy.masa.tweakeroo.event.InputHandler"
+        },
+        "pairs": [
+            {
+                "key": "tweakeroo.hotkeys.category.disable_toggle_hotkeys",
+                "value": "禁用快捷键切换"
+            },
+            {
+                "key": "tweakeroo.hotkeys.category.generic_hotkeys",
+                "value": "通用功能快捷键"
+            },
+            {
+                "key": "tweakeroo.hotkeys.category.tweak_toggle_hotkeys",
+                "value": "开启快捷键切换"
+            },
+            {
+                "key": "tweakeroo.message.set_after_clicker_count_to",
+                "value": "将快速点击的次数修改为 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_placement_limit_to",
+                "value": "方块放置数量限制为 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_hotbar_slot_cycle_max_to",
+                "value": "设置快捷栏循环的最大值 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_hotbar_slot_randomizer_max_to",
+                "value": "设置快捷栏的最大随机栏位至 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_breaking_grid_size_to",
+                "value": "设置破坏范围 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_placement_grid_size_to",
+                "value": "调整放置区域 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_snap_aim_pitch_step_to",
+                "value": "已将朝向对齐工具的俯仰角度间距设置为 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_snap_aim_yaw_step_to",
+                "value": "已将朝向对齐工具的旋转角度间距设置为 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_zoom_fov_to",
+                "value": "设置视角范围为 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_fly_speed_to",
+                "value": "将飞行速度由 %s 调整至 %s"
+            }
+        ]
+    },
+    {
+        "target_classes": [
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeyWithMessage"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeysGeneric"
+            },
+            {
+                "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackToggleWithSpecialMessage"
+            }
+        ],
+        "pairs": [
+            {
+                "key": "tweakeroo.message.value.",
+                "value": ""
+            },
+            {
+                "key": "on",
+                "value": "开启"
+            },
+            {
+                "key": "off",
+                "value": "关闭"
+            },
+            {
+                "key": "tweakeroo.message.toggled_fly_speed_on",
+                "value": "调整飞行速度为 %s，初始速度 %s，当前速度 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled",
+                "value": "功能 %s %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled",
+                "value": "功能 %s %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_fast_placement_mode_on",
+                "value": "切换快速放置模式 %s，模式为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_after_clicker_on",
+                "value": "切换连点器 %s，点击频率 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_placement_limit_on",
+                "value": "调整放置数量 %s，数量为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_slot_cycle_on",
+                "value": "切换快捷栏循环为 %s，最大栏位为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_slot_randomizer_on",
+                "value": "切换快捷栏随机为 %s，最大栏位为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_placement_grid_on",
+                "value": "调整放置网格区域 %s，区域范围 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_breaking_grid_on",
+                "value": "调整破坏网格区域 %s，区域范围 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_zoom_on",
+                "value": "望远镜视角已切换 %s，视角范围为：%s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_snap_aim_on_yaw",
+                "value": "对齐偏航角度为 %s，角度步进为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_snap_aim_on_pitch",
+                "value": "对齐俯仰角度为 %s，角度步进为 %s"
+            },
+            {
+                "key": "tweakeroo.message.toggled_snap_aim_on_both",
+                "value": "对齐偏航与俯仰角度 %s，偏航角度步进为 %s，俯仰角度步进为 %s"
+            },
+            {
+                "key": "tweakeroo.message.sign_text_copied",
+                "value": "已复制告示牌文字"
+            },
+            {
+                "key": "tweakeroo.message.set_fly_speed_preset_to",
+                "value": "调整预设的飞行速度 %s（速度：%s）"
+            },
+            {
+                "key": "tweakeroo.message.set_breaking_restriction_mode_to",
+                "value": "设置破坏模式 %s"
+            },
+            {
+                "key": "tweakeroo.message.set_placement_restriction_mode_to",
+                "value": "设置方块放置模式为 %s"
+            },
+            {
+                "key": "tweakeroo.message.value.",
+                "value": ""
+            },
+            {
+                "key": "on",
+                "value": "开启"
+            },
+            {
+                "key": "off",
+                "value": "关闭"
+            },
+            {
+                "key": "tweakeroo.message.toggled",
+                "value": "功能 %s %s"
+            },
+            {
+                "key": "tweakeroo.message.value.",
+                "value": ""
+            },
+            {
+                "key": "on",
+                "value": "开启"
+            },
+            {
+                "key": "off",
+                "value": "关闭"
+            },
+            {
+                "key": "tweakeroo.message.toggled",
+                "value": "功能 %s %s"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "fi.dy.masa.tweakeroo.config.ConfigBooleanClient"
+        },
+        "pairs": [
+            {
+                "key": "tweakeroo.label.config_comment.single_player_only",
+                "value": "§6注意: 在多人游戏中该功能可能不完全可用或完全不可用§r"
+            }
+        ]
     }
-    ],
-    "pairs": [
-      {
-        "key": "disableBlockBreakingParticles",
-        "value": "vp.tweakeroo.configs.1text"
-      },
-      {
-        "key": "disableDoubleTapSprint",
-        "value": "vp.tweakeroo.configs.2text"
-      },
-      {
-        "key": "disableBossFog",
-        "value": "vp.tweakeroo.configs.3text"
-      },
-      {
-        "key": "disableClientEntityUpdates",
-        "value": "vp.tweakeroo.configs.4text"
-      },
-      {
-        "key": "disableDeadMobRendering",
-        "value": "vp.tweakeroo.configs.5text"
-      },
-      {
-        "key": "disableDeadMobTargeting",
-        "value": "vp.tweakeroo.configs.6text"
-      },
-      {
-        "key": "disableEntityRendering",
-        "value": "vp.tweakeroo.configs.7text"
-      },
-      {
-        "key": "disableEntityTicking",
-        "value": "vp.tweakeroo.configs.8text"
-      },
-      {
-        "key": "disableFallingBlockEntityRendering",
-        "value": "vp.tweakeroo.configs.9text"
-      },
-      {
-        "key": "disableInventoryEffectRendering",
-        "value": "vp.tweakeroo.configs.10text"
-      },
-      {
-        "key": "disableItemGlint",
-        "value": "vp.tweakeroo.configs.11text"
-      },
-      {
-        "key": "disableItemSwitchRenderCooldown",
-        "value": "vp.tweakeroo.configs.12text"
-      },
-      {
-        "key": "disableLightUpdates",
-        "value": "vp.tweakeroo.configs.13text"
-      },
-      {
-        "key": "disableLightUpdatesAll",
-        "value": "vp.tweakeroo.configs.14text"
-      },
-      {
-        "key": "disableMobSpawnerMobRendering",
-        "value": "vp.tweakeroo.configs.15text"
-      },
-      {
-        "key": "disableNetherFog",
-        "value": "vp.tweakeroo.configs.16text"
-      },
-      {
-        "key": "disableObserver",
-        "value": "vp.tweakeroo.configs.17text"
-      },
-      {
-        "key": "disableObserverPlaceUpdate",
-        "value": "vp.tweakeroo.configs.18text"
-      },
-      {
-        "key": "disableOffhandRendering",
-        "value": "vp.tweakeroo.configs.19text"
-      },
-      {
-        "key": "disableParticles",
-        "value": "vp.tweakeroo.configs.20text"
-      },
-      {
-        "key": "disablePortalGuiClosing",
-        "value": "vp.tweakeroo.configs.21text"
-      },
-      {
-        "key": "disableRainEffects",
-        "value": "vp.tweakeroo.configs.22text"
-      },
-      {
-        "key": "disableSignGui",
-        "value": "vp.tweakeroo.configs.23text"
-      },
-      {
-        "key": "disableSlimeBlockSlowdown",
-        "value": "vp.tweakeroo.configs.24text"
-      },
-      {
-        "key": "disableTileEntityRendering",
-        "value": "vp.tweakeroo.configs.25text"
-      },
-      {
-        "key": "disableTileEntityTicking",
-        "value": "vp.tweakeroo.configs.26text"
-      },
-      {
-        "key": "disableVillagerTradeLocking",
-        "value": "vp.tweakeroo.configs.27text"
-      },
-      {
-        "key": "disableWallUnsprint",
-        "value": "vp.tweakeroo.configs.28text"
-      },
-      {
-        "key": "fastPlacementItemListType",
-        "value": "vp.tweakeroo.configs.29text"
-      },
-      {
-        "key": "fastPlacementItemBlackList",
-        "value": "vp.tweakeroo.configs.30text"
-      },
-      {
-        "key": "fastPlacementItemWhiteList",
-        "value": "vp.tweakeroo.configs.31text"
-      },
-      {
-        "key": "fastRightClickBlockListType",
-        "value": "vp.tweakeroo.configs.32text"
-      },
-      {
-        "key": "fastRightClickBlockBlackList",
-        "value": "vp.tweakeroo.configs.33text"
-      },
-      {
-        "key": "fastRightClickBlockWhiteList",
-        "value": "vp.tweakeroo.configs.34text"
-      },
-      {
-        "key": "fastRightClickItemListType",
-        "value": "vp.tweakeroo.configs.35text"
-      },
-      {
-        "key": "fastRightClickItemBlackList",
-        "value": "vp.tweakeroo.configs.36text"
-      },
-      {
-        "key": "fastRightClickItemWhiteList",
-        "value": "vp.tweakeroo.configs.37text"
-      },
-      {
-        "key": "flatWorldPresets",
-        "value": "vp.tweakeroo.configs.38text"
-      },
-      {
-        "key": "Custom flat world preset strings.\nThese are in the format: name;blocks_string;biome;generation_features;icon_item\nThe blocks string format is the vanilla format, such as: 62*minecraft:dirt,minecraft:grass\nThe biome can be the registry name, or the int ID\nThe icon item name format can be either minecraft:iron_nugget or minecraft:stained_glass@6",
-        "value": "vp.tweakeroo.configs.39text"
-      },
-      {
-        "key": "itemGlintListType",
-        "value": "vp.tweakeroo.configs.40text"
-      },
-      {
-        "key": "itemGlintBlackList",
-        "value": "vp.tweakeroo.configs.41text"
-      },
-      {
-        "key": "The items that will not have the glint effect,\nif itemGlintListType = blacklist",
-        "value": "vp.tweakeroo.configs.42text"
-      },
-      {
-        "key": "itemGlintWhiteList",
-        "value": "vp.tweakeroo.configs.43text"
-      },
-      {
-        "key": "The only items that will have the glint effect,\nif itemGlintListType = whitelist",
-        "value": "vp.tweakeroo.configs.44text"
-      },
-      {
-        "key": "potionWarningListType",
-        "value": "vp.tweakeroo.configs.45text"
-      },
-      {
-        "key": "potionWarningBlackList",
-        "value": "vp.tweakeroo.configs.46text"
-      },
-      {
-        "key": "potionWarningWhiteList",
-        "value": "vp.tweakeroo.configs.47text"
-      },
-      {
-        "key": "repairModeSlots",
-        "value": "vp.tweakeroo.configs.48text"
-      },
-      {
-        "key": "unstackingItems",
-        "value": "vp.tweakeroo.configs.49text"
-      },
-      {
-        "key": "elytraFix",
-        "value": "vp.tweakeroo.configs.50text"
-      },
-      {
-        "key": "tileEntityUnloadOptimization",
-        "value": "vp.tweakeroo.configs.51text"
-      },
-      {
-        "key": "Optimizes the removal of unloading TileEntities from the World lists.\nThis can greatly improve performance if there are lots of\nTileEntities loaded and/or unloading at once.",
-        "value": "vp.tweakeroo.configs.52text"
-      },
-      {
-        "key": "afterClickerClickCount",
-        "value": "vp.tweakeroo.configs.53text"
-      },
-      {
-        "key": "The number of right clicks to do per placed block when\ntweakAfterClicker is enabled",
-        "value": "vp.tweakeroo.configs.54text"
-      },
-      {
-        "key": "blockReachDistance",
-        "value": "vp.tweakeroo.configs.55text"
-      },
-      {
-        "key": "breakingGridSize",
-        "value": "vp.tweakeroo.configs.56text"
-      },
-      {
-        "key": "breakingRestrictionMode",
-        "value": "vp.tweakeroo.configs.57text"
-      },
-      {
-        "key": "chatBackgroundColor",
-        "value": "vp.tweakeroo.configs.58text"
-      },
-      {
-        "key": "chatTimeFormat",
-        "value": "vp.tweakeroo.configs.59text"
-      },
-      {
-        "key": "clientPlacementRotation",
-        "value": "vp.tweakeroo.configs.60text"
-      },
-      {
-        "key": "cloudHeightOverride",
-        "value": "vp.tweakeroo.configs.61text"
-      },
-      {
-        "key": "elytraCameraIndicator",
-        "value": "vp.tweakeroo.configs.62text"
-      },
-      {
-        "key": "fastBlockPlacementCount",
-        "value": "vp.tweakeroo.configs.63text"
-      },
-      {
-        "key": "fastLeftClickCount",
-        "value": "vp.tweakeroo.configs.64text"
-      },
-      {
-        "key": "The number of left clicks to do per game tick when\ntweakFastLeftClick is enabled and the attack button is held down",
-        "value": "vp.tweakeroo.configs.65text"
-      },
-      {
-        "key": "fastRightClickCount",
-        "value": "vp.tweakeroo.configs.66text"
-      },
-      {
-        "key": "The number of right clicks to do per game tick when\ntweakFastRightClick is enabled and the use button is held down",
-        "value": "vp.tweakeroo.configs.67text"
-      },
-      {
-        "key": "fillCloneLimit",
-        "value": "vp.tweakeroo.configs.68text"
-      },
-      {
-        "key": "flexibleBlockPlacementOverlayColor",
-        "value": "vp.tweakeroo.configs.69text"
-      },
-      {
-        "key": "flySpeedPreset1",
-        "value": "vp.tweakeroo.configs.70text"
-      },
-      {
-        "key": "flySpeedPreset2",
-        "value": "vp.tweakeroo.configs.71text"
-      },
-      {
-        "key": "flySpeedPreset3",
-        "value": "vp.tweakeroo.configs.72text"
-      },
-      {
-        "key": "flySpeedPreset4",
-        "value": "vp.tweakeroo.configs.73text"
-      },
-      {
-        "key": "freeCameraMotionToggle",
-        "value": "vp.tweakeroo.configs.74text"
-      },
-      {
-        "key": "gammaOverrideValue",
-        "value": "vp.tweakeroo.configs.75text"
-      },
-      {
-        "key": "handRestockPre",
-        "value": "vp.tweakeroo.configs.76text"
-      },
-      {
-        "key": "hotbarSlotCycleMax",
-        "value": "vp.tweakeroo.configs.77text"
-      },
-      {
-        "key": "hotbarSlotRandomizerMax",
-        "value": "vp.tweakeroo.configs.78text"
-      },
-      {
-        "key": "hotbarSwapOverlayAlignment",
-        "value": "vp.tweakeroo.configs.79text"
-      },
-      {
-        "key": "hotbarSwapOverlayOffsetX",
-        "value": "vp.tweakeroo.configs.80text"
-      },
-      {
-        "key": "hotbarSwapOverlayOffsetY",
-        "value": "vp.tweakeroo.configs.81text"
-      },
-      {
-        "key": "itemSwapDurabilityThreshold",
-        "value": "vp.tweakeroo.configs.82text"
-      },
-      {
-        "key": "lavaVisibilityOptifineCompat",
-        "value": "vp.tweakeroo.configs.83text"
-      },
-      {
-        "key": "mapPreviewSize",
-        "value": "vp.tweakeroo.configs.84text"
-      },
-      {
-        "key": "periodicAttackInterval",
-        "value": "vp.tweakeroo.configs.85text"
-      },
-      {
-        "key": "The number of game ticks between automatic attacks (left clicks)",
-        "value": "vp.tweakeroo.configs.86text"
-      },
-      {
-        "key": "periodicUseInterval",
-        "value": "vp.tweakeroo.configs.87text"
-      },
-      {
-        "key": "The number of game ticks between automatic uses (right clicks)",
-        "value": "vp.tweakeroo.configs.88text"
-      },
-      {
-        "key": "permanentSneakAllowInGUIs",
-        "value": "vp.tweakeroo.configs.89text"
-      },
-      {
-        "key": "placementGridSize",
-        "value": "vp.tweakeroo.configs.90text"
-      },
-      {
-        "key": "placementLimit",
-        "value": "vp.tweakeroo.configs.91text"
-      },
-      {
-        "key": "The number of blocks you are able to place at maximum per\nright click, if tweakPlacementLimit is enabled.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.configs.92text"
-      },
-      {
-        "key": "placementRestrictionMode",
-        "value": "vp.tweakeroo.configs.93text"
-      },
-      {
-        "key": "placementRestrictionTiedToFast",
-        "value": "vp.tweakeroo.configs.94text"
-      },
-      {
-        "key": "When enabled, the Placement Restriction mode will toggle\nits state of/off when you toggle the Fast Placement mode.",
-        "value": "vp.tweakeroo.configs.95text"
-      },
-      {
-        "key": "playerOnFireScale",
-        "value": "vp.tweakeroo.configs.96text"
-      },
-      {
-        "key": "potionWarningBeneficialOnly",
-        "value": "vp.tweakeroo.configs.97text"
-      },
-      {
-        "key": "potionWarningThreshold",
-        "value": "vp.tweakeroo.configs.98text"
-      },
-      {
-        "key": "renderLimitItem",
-        "value": "vp.tweakeroo.configs.99text"
-      },
-      {
-        "key": "renderLimitXPOrb",
-        "value": "vp.tweakeroo.configs.100text"
-      },
-      {
-        "key": "shulkerDisplayBgColor",
-        "value": "vp.tweakeroo.configs.101text"
-      },
-      {
-        "key": "shulkerDisplayRequireShift",
-        "value": "vp.tweakeroo.configs.102text"
-      },
-      {
-        "key": "slotSyncWorkaround",
-        "value": "vp.tweakeroo.configs.103text"
-      },
-      {
-        "key": "snapAimIndicator",
-        "value": "vp.tweakeroo.configs.104text"
-      },
-      {
-        "key": "snapAimIndicatorColor",
-        "value": "vp.tweakeroo.configs.105text"
-      },
-      {
-        "key": "snapAimMode",
-        "value": "vp.tweakeroo.configs.106text"
-      },
-      {
-        "key": "snapAimOnlyCloseToAngle",
-        "value": "vp.tweakeroo.configs.107text"
-      },
-      {
-        "key": "snapAimPitchOvershoot",
-        "value": "vp.tweakeroo.configs.108text"
-      },
-      {
-        "key": "snapAimPitchStep",
-        "value": "vp.tweakeroo.configs.109text"
-      },
-      {
-        "key": "snapAimThresholdPitch",
-        "value": "vp.tweakeroo.configs.110text"
-      },
-      {
-        "key": "snapAimThresholdYaw",
-        "value": "vp.tweakeroo.configs.111text"
-      },
-      {
-        "key": "snapAimYawStep",
-        "value": "vp.tweakeroo.configs.112text"
-      },
-      {
-        "key": "structureBlockMaxSize",
-        "value": "vp.tweakeroo.configs.113text"
-      },
-      {
-        "key": "zoomFov",
-        "value": "vp.tweakeroo.configs.114text"
-      },
-      {
-        "key": "Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)",
-        "value": "vp.tweakeroo.configs.115text"
-      },
-      {
-        "key": "Disables the double-tap-forward-key sprinting",
-        "value": "vp.tweakeroo.configs.116text"
-      },
-      {
-        "key": "Removes the fog that boss mobs cause",
-        "value": "vp.tweakeroo.configs.117text"
-      },
-      {
-        "key": "Disables ALL except player entity updates on the client.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
-        "value": "vp.tweakeroo.configs.118text"
-      },
-      {
-        "key": "Prevents rendering dead mobs (entities that are at 0 health)",
-        "value": "vp.tweakeroo.configs.119text"
-      },
-      {
-        "key": "Prevents targeting entities that are at 0 health.\nThis fixes for example hitting already dead mobs.",
-        "value": "vp.tweakeroo.configs.120text"
-      },
-      {
-        "key": "Disables ALL except player entity rendering.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
-        "value": "vp.tweakeroo.configs.121text"
-      },
-      {
-        "key": "Prevent everything except player entities from getting ticked",
-        "value": "vp.tweakeroo.configs.122text"
-      },
-      {
-        "key": "If enabled, then falling block entities won't be rendered at all",
-        "value": "vp.tweakeroo.configs.123text"
-      },
-      {
-        "key": "Removes the potion effect rendering from the inventory GUIs",
-        "value": "vp.tweakeroo.configs.124text"
-      },
-      {
-        "key": "Disables the glint effect from the items.\nThe items to remove it from, or allow it on, can be configured\nin Lists -> itemGlint*",
-        "value": "vp.tweakeroo.configs.125text"
-      },
-      {
-        "key": "If true, then there won't be any cooldown/equip animation\nwhen switching the held item or using the item.",
-        "value": "vp.tweakeroo.configs.126text"
-      },
-      {
-        "key": "If enabled, disables some client-side (rendering related) light updates",
-        "value": "vp.tweakeroo.configs.127text"
-      },
-      {
-        "key": "If enabled, disables ALL client-side light updates.\nThis might look very bad unless you use the Gamma tweak.",
-        "value": "vp.tweakeroo.configs.128text"
-      },
-      {
-        "key": "Removes the entity rendering from mob spawners",
-        "value": "vp.tweakeroo.configs.129text"
-      },
-      {
-        "key": "Removes the fog in the Nether",
-        "value": "vp.tweakeroo.configs.130text"
-      },
-      {
-        "key": "Disable Observers from triggering at all",
-        "value": "vp.tweakeroo.configs.131text"
-      },
-      {
-        "key": "Prevent Observers from triggering when placed",
-        "value": "vp.tweakeroo.configs.132text"
-      },
-      {
-        "key": "Disables the offhand item from getting rendered",
-        "value": "vp.tweakeroo.configs.133text"
-      },
-      {
-        "key": "Disables all particles",
-        "value": "vp.tweakeroo.configs.134text"
-      },
-      {
-        "key": "If enabled, then you can still open GUIs while in a Nether Portal",
-        "value": "vp.tweakeroo.configs.135text"
-      },
-      {
-        "key": "Disables rain rendering and sounds",
-        "value": "vp.tweakeroo.configs.136text"
-      },
-      {
-        "key": "Prevent the Sign edit GUI from opening",
-        "value": "vp.tweakeroo.configs.137text"
-      },
-      {
-        "key": "Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie.)",
-        "value": "vp.tweakeroo.configs.138text"
-      },
-      {
-        "key": "Prevents all TileEntity renderers from rendering",
-        "value": "vp.tweakeroo.configs.139text"
-      },
-      {
-        "key": "Prevent all TileEntities from getting ticked",
-        "value": "vp.tweakeroo.configs.140text"
-      },
-      {
-        "key": "Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented",
-        "value": "vp.tweakeroo.configs.141text"
-      },
-      {
-        "key": "Touching a wall doesn't drop you out from sprint mode",
-        "value": "vp.tweakeroo.configs.142text"
-      },
-      {
-        "key": "The item restriction type for the Fast Block Placement tweak",
-        "value": "vp.tweakeroo.configs.143text"
-      },
-      {
-        "key": "The items that are NOT allowed to be used for the Fast Block Placement tweak,\nif the fastPlacementItemListType is set to Black List",
-        "value": "vp.tweakeroo.configs.144text"
-      },
-      {
-        "key": "The items that are allowed to be used for the Fast Block Placement tweak,\nif the fastPLacementItemListType is set to White List",
-        "value": "vp.tweakeroo.configs.145text"
-      },
-      {
-        "key": "The targeted block restriction type for the Fast Right Click tweak",
-        "value": "vp.tweakeroo.configs.146text"
-      },
-      {
-        "key": "The blocks that are NOT allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to Black List",
-        "value": "vp.tweakeroo.configs.147text"
-      },
-      {
-        "key": "The blocks that are allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to White List",
-        "value": "vp.tweakeroo.configs.148text"
-      },
-      {
-        "key": "The item restriction type for the Fast Right Click tweak",
-        "value": "vp.tweakeroo.configs.149text"
-      },
-      {
-        "key": "The items that are NOT allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to Black List",
-        "value": "vp.tweakeroo.configs.150text"
-      },
-      {
-        "key": "The items that are allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to White List",
-        "value": "vp.tweakeroo.configs.151text"
-      },
-      {
-        "key": "The item restriction type for the Disable Item Glint feature",
-        "value": "vp.tweakeroo.configs.152text"
-      },
-      {
-        "key": "The list type for potion warning effects",
-        "value": "vp.tweakeroo.configs.153text"
-      },
-      {
-        "key": "The potion effects that will not be warned about",
-        "value": "vp.tweakeroo.configs.154text"
-      },
-      {
-        "key": "The only potion effects that will be warned about",
-        "value": "vp.tweakeroo.configs.155text"
-      },
-      {
-        "key": "The slots the repair mode should use\nValid values: mainhand, offhand, head, chest, legs, feet",
-        "value": "vp.tweakeroo.configs.156text"
-      },
-      {
-        "key": "The items that should be considered for the\n'tweakItemUnstackingProtection' tweak",
-        "value": "vp.tweakeroo.configs.157text"
-      },
-      {
-        "key": "Elytra deployment/landing fix by Earthcomputer and Nessie",
-        "value": "vp.tweakeroo.configs.158text"
-      },
-      {
-        "key": "The block reach distance to use if the\noverride tweak is enabled.\nThe maximum the server allows is 8 for placing, 6 for breaking.",
-        "value": "vp.tweakeroo.configs.159text"
-      },
-      {
-        "key": "The grid interval size for the grid breaking mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.configs.160text"
-      },
-      {
-        "key": "The Breaking Restriction mode to use (hotkey-selectable)",
-        "value": "vp.tweakeroo.configs.161text"
-      },
-      {
-        "key": "The background color for the chat messages,\nif 'tweakChatBackgroundColor' is enabled",
-        "value": "vp.tweakeroo.configs.162text"
-      },
-      {
-        "key": "The time format for chat messages, if tweakChatTimestamp is enabled\nUses the Java SimpleDateFormat format specifiers.",
-        "value": "vp.tweakeroo.configs.163text"
-      },
-      {
-        "key": "Enable single player and client side placement rotations,\nsuch as Accurate Placement working in single player without Carpet mod",
-        "value": "vp.tweakeroo.configs.164text"
-      },
-      {
-        "key": "The new cloud height, when tweakCloudHeightOverride is enabled",
-        "value": "vp.tweakeroo.configs.165text"
-      },
-      {
-        "key": "Whether or not to render the real pitch angle\nindicator when the elytra camera mode is active",
-        "value": "vp.tweakeroo.configs.166text"
-      },
-      {
-        "key": "The maximum number of blocks to place per game tick\nwith the Fast Block Placement tweak",
-        "value": "vp.tweakeroo.configs.167text"
-      },
-      {
-        "key": "The new /fill and /clone block limit in single player,\nif the tweak to override them is enabled",
-        "value": "vp.tweakeroo.configs.168text"
-      },
-      {
-        "key": "The color of the currently pointed-at\nregion in block placement the overlay",
-        "value": "vp.tweakeroo.configs.169text"
-      },
-      {
-        "key": "The fly speed for preset 1",
-        "value": "vp.tweakeroo.configs.170text"
-      },
-      {
-        "key": "The fly speed for preset 2",
-        "value": "vp.tweakeroo.configs.171text"
-      },
-      {
-        "key": "The fly speed for preset 3",
-        "value": "vp.tweakeroo.configs.172text"
-      },
-      {
-        "key": "The fly speed for preset 4",
-        "value": "vp.tweakeroo.configs.173text"
-      },
-      {
-        "key": "If enabled, then toggling on/off the Free Camera mode\nwill also automatically toggle on/off the free camera motion feature",
-        "value": "vp.tweakeroo.configs.174text"
-      },
-      {
-        "key": "The gamma value to use when the override option is enabled",
-        "value": "vp.tweakeroo.configs.175text"
-      },
-      {
-        "key": "If enabled, then hand restocking happens\nbefore the stack runs out",
-        "value": "vp.tweakeroo.configs.176text"
-      },
-      {
-        "key": "This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.",
-        "value": "vp.tweakeroo.configs.177text"
-      },
-      {
-        "key": "This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.",
-        "value": "vp.tweakeroo.configs.178text"
-      },
-      {
-        "key": "The positioning of the hotbar swap overlay",
-        "value": "vp.tweakeroo.configs.179text"
-      },
-      {
-        "key": "The horizontal offset of the hotbar swap overlay",
-        "value": "vp.tweakeroo.configs.180text"
-      },
-      {
-        "key": "The vertical offset of the hotbar swap overlay",
-        "value": "vp.tweakeroo.configs.181text"
-      },
-      {
-        "key": "This is the durability threshold (in uses left)\nfor the low-durability item swap feature.\nNote that items with low total durability will go lower\nand be swapped at 5%% left.",
-        "value": "vp.tweakeroo.configs.182text"
-      },
-      {
-        "key": "Use an alternative version of the Lava Visibility,\nwhich is Optifine compatible (but more hacky).\nImplementation credit to Nessie.",
-        "value": "vp.tweakeroo.configs.183text"
-      },
-      {
-        "key": "The size of the rendered map previews",
-        "value": "vp.tweakeroo.configs.184text"
-      },
-      {
-        "key": "If true, then the permanent sneak tweak will\nalso work while GUIs are open",
-        "value": "vp.tweakeroo.configs.185text"
-      },
-      {
-        "key": "The grid interval size for the grid placement mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.configs.186text"
-      },
-      {
-        "key": "The Placement Restriction mode to use (hotkey-selectable)",
-        "value": "vp.tweakeroo.configs.187text"
-      },
-      {
-        "key": "A scaling factor for the player's on-fire effect.\nAccepted range: 0.0 - 10.0",
-        "value": "vp.tweakeroo.configs.188text"
-      },
-      {
-        "key": "Only warn about potion effects running out that are marked as \"beneficial\"",
-        "value": "vp.tweakeroo.configs.189text"
-      },
-      {
-        "key": "The remaining duration of potion effects (in ticks)\nafter which the warning will start showing",
-        "value": "vp.tweakeroo.configs.190text"
-      },
-      {
-        "key": "Maximum number of item entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
-        "value": "vp.tweakeroo.configs.191text"
-      },
-      {
-        "key": "Maximum number of XP orb entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
-        "value": "vp.tweakeroo.configs.192text"
-      },
-      {
-        "key": "Enables tinting/coloring the Shulker Box display\nbackground texture with the dye color of the box",
-        "value": "vp.tweakeroo.configs.193text"
-      },
-      {
-        "key": "Whether or not holding shift is required for the Shulker Box preview",
-        "value": "vp.tweakeroo.configs.194text"
-      },
-      {
-        "key": "This prevents the server from overriding the durability or\nstack size on items that are being used quickly for example\nwith the fast right click tweak.",
-        "value": "vp.tweakeroo.configs.195text"
-      },
-      {
-        "key": "Whether or not to render the snap aim angle indicator",
-        "value": "vp.tweakeroo.configs.196text"
-      },
-      {
-        "key": "The color for the snap aim indicator background",
-        "value": "vp.tweakeroo.configs.197text"
-      },
-      {
-        "key": "Snap aim mode: yaw, or pitch, or both",
-        "value": "vp.tweakeroo.configs.198text"
-      },
-      {
-        "key": "If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold",
-        "value": "vp.tweakeroo.configs.199text"
-      },
-      {
-        "key": "Whether or not to allow overshooting the pitch angle\nfrom the normal +/- 90 degrees up to +/- 180 degrees",
-        "value": "vp.tweakeroo.configs.200text"
-      },
-      {
-        "key": "The pitch angle step of the snap aim tweak",
-        "value": "vp.tweakeroo.configs.201text"
-      },
-      {
-        "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
-        "value": "vp.tweakeroo.configs.202text"
-      },
-      {
-        "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
-        "value": "vp.tweakeroo.configs.203text"
-      },
-      {
-        "key": "The yaw angle step of the snap aim tweak",
-        "value": "vp.tweakeroo.configs.204text"
-      },
-      {
-        "key": "The maximum dimensions for a Structure Block's saved area",
-        "value": "vp.tweakeroo.configs.205text"
-      },
-      {
-        "key": "The FOV value used for the zoom feature",
-        "value": "vp.tweakeroo.configs.206text"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "fi.dy.masa.tweakeroo.config.FeatureToggle"
-    },
-    "pairs": [
-      {
-        "key": "carpetAccuratePlacementProtocol",
-        "value": "vp.tweakeroo.featuretoggle.1text"
-      },
-      {
-        "key": "fastPlacementRememberOrientation",
-        "value": "vp.tweakeroo.featuretoggle.2text"
-      },
-      {
-        "key": "rememberFlexibleFromClick",
-        "value": "vp.tweakeroo.featuretoggle.3text"
-      },
-      {
-        "key": "tweakAccurateBlockPlacement",
-        "value": "vp.tweakeroo.featuretoggle.4text"
-      },
-      {
-        "key": "tweakAfterClicker",
-        "value": "vp.tweakeroo.featuretoggle.5text"
-      },
-      {
-        "key": "tweakAimLock",
-        "value": "vp.tweakeroo.featuretoggle.6text"
-      },
-      {
-        "key": "tweakAngelBlock",
-        "value": "vp.tweakeroo.featuretoggle.7text"
-      },
-      {
-        "key": "tweakBlockReachOverride",
-        "value": "vp.tweakeroo.featuretoggle.8text"
-      },
-      {
-        "key": "tweakBreakingGrid",
-        "value": "vp.tweakeroo.featuretoggle.9text"
-      },
-      {
-        "key": "When enabled, you can only break blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.10text"
-      },
-      {
-        "key": "tweakBreakingRestriction",
-        "value": "vp.tweakeroo.featuretoggle.11text"
-      },
-      {
-        "key": "tweakChatBackgroundColor",
-        "value": "vp.tweakeroo.featuretoggle.12text"
-      },
-      {
-        "key": "tweakChatPersistentText",
-        "value": "vp.tweakeroo.featuretoggle.13text"
-      },
-      {
-        "key": "tweakChatTimestamp",
-        "value": "vp.tweakeroo.featuretoggle.14text"
-      },
-      {
-        "key": "tweakCloudHeightOverride",
-        "value": "vp.tweakeroo.featuretoggle.15text"
-      },
-      {
-        "key": "tweakCommandBlockExtraFields",
-        "value": "vp.tweakeroo.featuretoggle.16text"
-      },
-      {
-        "key": "tweakCustomFlatPresets",
-        "value": "vp.tweakeroo.featuretoggle.17text"
-      },
-      {
-        "key": "tweakElytraCamera",
-        "value": "vp.tweakeroo.featuretoggle.18text"
-      },
-      {
-        "key": "tweakEmptyShulkerBoxesStack",
-        "value": "vp.tweakeroo.featuretoggle.19text"
-      },
-      {
-        "key": "tweakEmptyShulkerBoxesStackOnGround",
-        "value": "vp.tweakeroo.featuretoggle.20text"
-      },
-      {
-        "key": "tweakExplosionReducedParticles",
-        "value": "vp.tweakeroo.featuretoggle.21text"
-      },
-      {
-        "key": "If enabled, then all explosion particles will use the\nEXPLOSION_NORMAL particle instead of possibly\nthe EXPLOSION_LARGE or EXPLOSION_HUGE particles",
-        "value": "vp.tweakeroo.featuretoggle.22text"
-      },
-      {
-        "key": "tweakF3Cursor",
-        "value": "vp.tweakeroo.featuretoggle.23text"
-      },
-      {
-        "key": "tweakFakeSneaking",
-        "value": "vp.tweakeroo.featuretoggle.24text"
-      },
-      {
-        "key": "tweakFastBlockPlacement",
-        "value": "vp.tweakeroo.featuretoggle.25text"
-      },
-      {
-        "key": "tweakFastLeftClick",
-        "value": "vp.tweakeroo.featuretoggle.26text"
-      },
-      {
-        "key": "Enables automatic fast left clicking while holding down\nthe attack button (left click).\nThe number of clicks per tick is set in the Generic configs.",
-        "value": "vp.tweakeroo.featuretoggle.27text"
-      },
-      {
-        "key": "tweakFastRightClick",
-        "value": "vp.tweakeroo.featuretoggle.28text"
-      },
-      {
-        "key": "Enables automatic fast right clicking while holding down\nthe use button (right click).\nThe number of clicks per tick is set in the Generic configs.",
-        "value": "vp.tweakeroo.featuretoggle.29text"
-      },
-      {
-        "key": "tweakFillCloneLimit",
-        "value": "vp.tweakeroo.featuretoggle.30text"
-      },
-      {
-        "key": "tweakFlySpeed",
-        "value": "vp.tweakeroo.featuretoggle.31text"
-      },
-      {
-        "key": "tweakFlexibleBlockPlacement",
-        "value": "vp.tweakeroo.featuretoggle.32text"
-      },
-      {
-        "key": "tweakFreeCamera",
-        "value": "vp.tweakeroo.featuretoggle.33text"
-      },
-      {
-        "key": "tweakFreeCameraMotion",
-        "value": "vp.tweakeroo.featuretoggle.34text"
-      },
-      {
-        "key": "tweakGammaOverride",
-        "value": "vp.tweakeroo.featuretoggle.35text"
-      },
-      {
-        "key": "tweakHandRestock",
-        "value": "vp.tweakeroo.featuretoggle.36text"
-      },
-      {
-        "key": "tweakHoldAttack",
-        "value": "vp.tweakeroo.featuretoggle.37text"
-      },
-      {
-        "key": "tweakHoldUse",
-        "value": "vp.tweakeroo.featuretoggle.38text"
-      },
-      {
-        "key": "tweakHotbarScroll",
-        "value": "vp.tweakeroo.featuretoggle.39text"
-      },
-      {
-        "key": "tweakHotbarSlotCycle",
-        "value": "vp.tweakeroo.featuretoggle.40text"
-      },
-      {
-        "key": "tweakHotbarSlotRandomizer",
-        "value": "vp.tweakeroo.featuretoggle.41text"
-      },
-      {
-        "key": "tweakHotbarSwap",
-        "value": "vp.tweakeroo.featuretoggle.42text"
-      },
-      {
-        "key": "tweakInventoryPreview",
-        "value": "vp.tweakeroo.featuretoggle.43text"
-      },
-      {
-        "key": "tweakItemUnstackingProtection",
-        "value": "vp.tweakeroo.featuretoggle.44text"
-      },
-      {
-        "key": "tweakLavaVisibility",
-        "value": "vp.tweakeroo.featuretoggle.45text"
-      },
-      {
-        "key": "tweakMapPreview",
-        "value": "vp.tweakeroo.featuretoggle.46text"
-      },
-      {
-        "key": "tweakMovementKeysLast",
-        "value": "vp.tweakeroo.featuretoggle.47text"
-      },
-      {
-        "key": "tweakPeriodicAttack",
-        "value": "vp.tweakeroo.featuretoggle.48text"
-      },
-      {
-        "key": "tweakPeriodicUse",
-        "value": "vp.tweakeroo.featuretoggle.49text"
-      },
-      {
-        "key": "tweakPermanentSneak",
-        "value": "vp.tweakeroo.featuretoggle.50text"
-      },
-      {
-        "key": "tweakPermanentSprint",
-        "value": "vp.tweakeroo.featuretoggle.51text"
-      },
-      {
-        "key": "tweakPickBeforePlace",
-        "value": "vp.tweakeroo.featuretoggle.52text"
-      },
-      {
-        "key": "tweakPlacementGrid",
-        "value": "vp.tweakeroo.featuretoggle.53text"
-      },
-      {
-        "key": "When enabled, you can only place blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.54text"
-      },
-      {
-        "key": "tweakPlacementLimit",
-        "value": "vp.tweakeroo.featuretoggle.55text"
-      },
-      {
-        "key": "When enabled, you can only place a set number\nof blocks per use/right click.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.56text"
-      },
-      {
-        "key": "tweakPlacementRestriction",
-        "value": "vp.tweakeroo.featuretoggle.57text"
-      },
-      {
-        "key": "tweakPlacementRestrictionFirst",
-        "value": "vp.tweakeroo.featuretoggle.58text"
-      },
-      {
-        "key": "tweakPlacementRestrictionHand",
-        "value": "vp.tweakeroo.featuretoggle.59text"
-      },
-      {
-        "key": "tweakPlayerInventoryPeek",
-        "value": "vp.tweakeroo.featuretoggle.60text"
-      },
-      {
-        "key": "tweakPlayerListAlwaysVisible",
-        "value": "vp.tweakeroo.featuretoggle.61text"
-      },
-      {
-        "key": "tweakPlayerOnFireScale",
-        "value": "vp.tweakeroo.featuretoggle.62text"
-      },
-      {
-        "key": "tweakPotionWarning",
-        "value": "vp.tweakeroo.featuretoggle.63text"
-      },
-      {
-        "key": "tweakPrintDeathCoordinates",
-        "value": "vp.tweakeroo.featuretoggle.64text"
-      },
-      {
-        "key": "tweakRelaxedBlockPlacement",
-        "value": "vp.tweakeroo.featuretoggle.65text"
-      },
-      {
-        "key": "tweakRemoveOwnPotionEffects",
-        "value": "vp.tweakeroo.featuretoggle.66text"
-      },
-      {
-        "key": "tweakRenderInvisibleEntities",
-        "value": "vp.tweakeroo.featuretoggle.67text"
-      },
-      {
-        "key": "When enabled, invisible entities are rendered like\nthey would be in spectator mode.",
-        "value": "vp.tweakeroo.featuretoggle.68text"
-      },
-      {
-        "key": "tweakRenderLimitEntities",
-        "value": "vp.tweakeroo.featuretoggle.69text"
-      },
-      {
-        "key": "tweakRepairMode",
-        "value": "vp.tweakeroo.featuretoggle.70text"
-      },
-      {
-        "key": "tweakShulkerBoxDisplay",
-        "value": "vp.tweakeroo.featuretoggle.71text"
-      },
-      {
-        "key": "tweakSignCopy",
-        "value": "vp.tweakeroo.featuretoggle.72text"
-      },
-      {
-        "key": "When enabled, placed signs will use the text from\nthe previously placed sign.\nCan be combined with tweakNoSignGui to quickly place copies\nof a sign, by enabling that tweak after making the first sign.",
-        "value": "vp.tweakeroo.featuretoggle.73text"
-      },
-      {
-        "key": "tweakSnapAim",
-        "value": "vp.tweakeroo.featuretoggle.74text"
-      },
-      {
-        "key": "tweakSnapAimLock",
-        "value": "vp.tweakeroo.featuretoggle.75text"
-      },
-      {
-        "key": "tweakSpectatorTeleport",
-        "value": "vp.tweakeroo.featuretoggle.76text"
-      },
-      {
-        "key": "tweakStaticFov",
-        "value": "vp.tweakeroo.featuretoggle.77text"
-      },
-      {
-        "key": "tweakStructureBlockLimit",
-        "value": "vp.tweakeroo.featuretoggle.78text"
-      },
-      {
-        "key": "tweakSwapAlmostBrokenTools",
-        "value": "vp.tweakeroo.featuretoggle.79text"
-      },
-      {
-        "key": "tweakTabCompleteCoordinate",
-        "value": "vp.tweakeroo.featuretoggle.80text"
-      },
-      {
-        "key": "tweakTileEntityRenderDistance",
-        "value": "vp.tweakeroo.featuretoggle.81text"
-      },
-      {
-        "key": "tweakToolSwitch",
-        "value": "vp.tweakeroo.featuretoggle.82text"
-      },
-      {
-        "key": "tweakYMirror",
-        "value": "vp.tweakeroo.featuretoggle.83text"
-      },
-      {
-        "key": "tweakZoom",
-        "value": "vp.tweakeroo.featuretoggle.84text"
-      },
-      {
-        "key": "tweakeroo.label.config_comment.single_player_only",
-        "value": "vp.tweakeroo.featuretoggle.85text"
-      },
-      {
-        "key": "If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented\nin the recent carpet mod versions",
-        "value": "vp.tweakeroo.featuretoggle.86text"
-      },
-      {
-        "key": "Carpet protocol Accurate Placement",
-        "value": "vp.tweakeroo.featuretoggle.87text"
-      },
-      {
-        "key": "If enabled, then the fast placement mode will always remember\nthe orientation of the first block you place.\nWithout this, the orientation will only be remembered\nwith the flexible placement enabled and active.",
-        "value": "vp.tweakeroo.featuretoggle.88text"
-      },
-      {
-        "key": "Fast Placement Remember Orientation",
-        "value": "vp.tweakeroo.featuretoggle.89text"
-      },
-      {
-        "key": "If enabled, then the flexible block placement status\nwill be remembered from the first placed block,\nas long as the use key is held down.",
-        "value": "vp.tweakeroo.featuretoggle.90text"
-      },
-      {
-        "key": "Remember Flexible Orientation From First Click",
-        "value": "vp.tweakeroo.featuretoggle.91text"
-      },
-      {
-        "key": "Enables a simpler version of Flexible placement, similar to\nthe Carpet mod, so basically either facing into or out\nfrom the block face clicked on.",
-        "value": "vp.tweakeroo.featuretoggle.92text"
-      },
-      {
-        "key": "Enables a \"after clicker\" tweak, which does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the delay).\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.93text"
-      },
-      {
-        "key": "Enables an aim lock, locking the yaw and pitch rotations\nto the current values.\nThis is separate from the snap aim lock,\nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.",
-        "value": "vp.tweakeroo.featuretoggle.94text"
-      },
-      {
-        "key": "Enables an \"Angel Block\" tweak, which allows\nplacing blocks in mid-air in Creative mode",
-        "value": "vp.tweakeroo.featuretoggle.95text"
-      },
-      {
-        "key": "Overrides the block reach distance with\nthe one set in Generic -> blockReachDistance",
-        "value": "vp.tweakeroo.featuretoggle.96text"
-      },
-      {
-        "key": "Enables the Breaking Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
-        "value": "vp.tweakeroo.featuretoggle.97text"
-      },
-      {
-        "key": "Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'",
-        "value": "vp.tweakeroo.featuretoggle.98text"
-      },
-      {
-        "key": "Stores the text from the chat input text field\nand restores it when the chat is opened again",
-        "value": "vp.tweakeroo.featuretoggle.99text"
-      },
-      {
-        "key": "Adds timestamps to chat messages",
-        "value": "vp.tweakeroo.featuretoggle.100text"
-      },
-      {
-        "key": "Overrides the normal cloud height with the one set in Generic -> 'cloudHeightOverride'",
-        "value": "vp.tweakeroo.featuretoggle.101text"
-      },
-      {
-        "key": "Adds extra fields to the Command Block GUI, for settings\nthe name of the command block, and seeing the stats results",
-        "value": "vp.tweakeroo.featuretoggle.102text"
-      },
-      {
-        "key": "Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets",
-        "value": "vp.tweakeroo.featuretoggle.103text"
-      },
-      {
-        "key": "Allows locking the real player rotations while holding the 'elytraCamera' activation key.\nThe controls will then only affect the separate 'camera rotations' for the rendering/camera.\nMeant for things like looking down/around while elytra flying nice and straight.",
-        "value": "vp.tweakeroo.featuretoggle.104text"
-      },
-      {
-        "key": "Enables empty Shulker Boxes stacking up to 64.\nNOTE: They will also stack inside inventories!\nOn servers this will cause desyncs/glitches\nunless the server has a mod that does the same.\nIn single player this changes shulker box based system behaviour.",
-        "value": "vp.tweakeroo.featuretoggle.105text"
-      },
-      {
-        "key": "Enables empty Shulker Boxes stacking up to 64\nwhen as items on the ground",
-        "value": "vp.tweakeroo.featuretoggle.106text"
-      },
-      {
-        "key": "Enables always rendering the F3 screen cursor",
-        "value": "vp.tweakeroo.featuretoggle.107text"
-      },
-      {
-        "key": "Enables \"fake sneaking\" ie. prevents you from falling from edges\nwithout slowing down the movement speed",
-        "value": "vp.tweakeroo.featuretoggle.108text"
-      },
-      {
-        "key": "Enables fast/convenient block placement when moving\nthe cursor over new blocks",
-        "value": "vp.tweakeroo.featuretoggle.109text"
-      },
-      {
-        "key": "Enables overriding the /fill and /clone command\nblock limits in single player.\nThe new limit can be set in the Generic configs,\nin the 'fillCloneLimit' config value",
-        "value": "vp.tweakeroo.featuretoggle.110text"
-      },
-      {
-        "key": "Enables overriding the fly speed in creative or spectator mode\nand using some presets for it",
-        "value": "vp.tweakeroo.featuretoggle.111text"
-      },
-      {
-        "key": "Enables placing blocks in different orientations\nor with an offset, while holding down the\nhotkeys for those modes.",
-        "value": "vp.tweakeroo.featuretoggle.112text"
-      },
-      {
-        "key": "Enables a free camera mode, similar to spectator mode,\nbut where the player will remain in place where\nyou first activate the free camera mode",
-        "value": "vp.tweakeroo.featuretoggle.113text"
-      },
-      {
-        "key": "When the Free Camera mode is enabled, if this feature is also enabled,\nthe movement inputs will affect the camera entity instead of the actual player.\nThis option is provided so that it's also possible to control\nthe actual player while in Free Camera mode, by disabling this option.\nNormally, if you just want to control the camera entity while in Free camera mode,\nthen just set the same hotkey for both features.",
-        "value": "vp.tweakeroo.featuretoggle.114text"
-      },
-      {
-        "key": "Overrides the video settings gamma value with\nthe one set in the Generic configs",
-        "value": "vp.tweakeroo.featuretoggle.115text"
-      },
-      {
-        "key": "Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out",
-        "value": "vp.tweakeroo.featuretoggle.116text"
-      },
-      {
-        "key": "Emulates holding down the attack button\n\ufffd6NOTE: You should ONLY toggle this via the toggle hotkey!\n\ufffd6You should also make the toggle hotkey have the attack\n\ufffd6key as part of the keybind, so that it properly activates/deactivates\n\ufffd6 the vanilla keybind when you toggle the tweak on/off",
-        "value": "vp.tweakeroo.featuretoggle.117text"
-      },
-      {
-        "key": "Emulates holding down the use button\n\ufffd6NOTE: You should ONLY toggle this via the toggle hotkey!\n\ufffd6You should also make the toggle hotkey have the use\n\ufffd6key as part of the keybind, so that it properly activates/deactivates\n\ufffd6 the vanilla keybind when you toggle the tweak on/off",
-        "value": "vp.tweakeroo.featuretoggle.118text"
-      },
-      {
-        "key": "Enables the hotbar swapping via scrolling feature",
-        "value": "vp.tweakeroo.featuretoggle.119text"
-      },
-      {
-        "key": "Enables cycling the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.120text"
-      },
-      {
-        "key": "Enables randomizing the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
-        "value": "vp.tweakeroo.featuretoggle.121text"
-      },
-      {
-        "key": "Enables the hotbar swapping via hotkeys feature",
-        "value": "vp.tweakeroo.featuretoggle.122text"
-      },
-      {
-        "key": "Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.",
-        "value": "vp.tweakeroo.featuretoggle.123text"
-      },
-      {
-        "key": "If enabled, then items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.",
-        "value": "vp.tweakeroo.featuretoggle.124text"
-      },
-      {
-        "key": "If enabled and the player has a Respiration helmet and/or\nWather Breathing active, the lava fog is greatly reduced.",
-        "value": "vp.tweakeroo.featuretoggle.125text"
-      },
-      {
-        "key": "If enabled, then holding shift over maps in an inventory\nwill render a preview of the map",
-        "value": "vp.tweakeroo.featuretoggle.126text"
-      },
-      {
-        "key": "If enabled, then opposite movement keys won't cancel each other,\nbut instead the last pressed key is the active input.",
-        "value": "vp.tweakeroo.featuretoggle.127text"
-      },
-      {
-        "key": "Enables periodic attacks (left clicks)\nConfigure the interval in Generic -> periodicAttackInterval",
-        "value": "vp.tweakeroo.featuretoggle.128text"
-      },
-      {
-        "key": "Enables periodic uses (right clicks)\nConfigure the interval in Generic -> periodicUseInterval",
-        "value": "vp.tweakeroo.featuretoggle.129text"
-      },
-      {
-        "key": "If enabled, the player will be sneaking the entire time",
-        "value": "vp.tweakeroo.featuretoggle.130text"
-      },
-      {
-        "key": "If enabled, the player will be always sprinting when moving forward",
-        "value": "vp.tweakeroo.featuretoggle.131text"
-      },
-      {
-        "key": "If enabled, then before each block placement, the same block\nis switched to hand that you are placing against",
-        "value": "vp.tweakeroo.featuretoggle.132text"
-      },
-      {
-        "key": "Enables the Placement Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
-        "value": "vp.tweakeroo.featuretoggle.133text"
-      },
-      {
-        "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on",
-        "value": "vp.tweakeroo.featuretoggle.134text"
-      },
-      {
-        "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou are holding in your hand",
-        "value": "vp.tweakeroo.featuretoggle.135text"
-      },
-      {
-        "key": "Enables a player inventory peek/preview, while holding the\nconfigured hotkey key for it.",
-        "value": "vp.tweakeroo.featuretoggle.136text"
-      },
-      {
-        "key": "If enabled, then the player list is always rendered without\nhaving to hold down the key (tab by default)",
-        "value": "vp.tweakeroo.featuretoggle.137text"
-      },
-      {
-        "key": "Enables scaling the on-fire effect on the player themselves,\nusing the scaling factor from Generic -> playerOnFireScale",
-        "value": "vp.tweakeroo.featuretoggle.138text"
-      },
-      {
-        "key": "Prints a warning message to the hotbar when\nnon-ambient potion effects are about to run out",
-        "value": "vp.tweakeroo.featuretoggle.139text"
-      },
-      {
-        "key": "Enables printing the player's coordinates to chat on death.\nThis feature is originally from usefulmod by nessie.",
-        "value": "vp.tweakeroo.featuretoggle.140text"
-      },
-      {
-        "key": "Allows placing certain blocks without the normal restrictions,\nsuch as fence gates and pumpkins in mid-air",
-        "value": "vp.tweakeroo.featuretoggle.141text"
-      },
-      {
-        "key": "Removes the potion effect particles from the\nplayer itself in first person mode",
-        "value": "vp.tweakeroo.featuretoggle.142text"
-      },
-      {
-        "key": "Enables limiting the number of certain types of entities\nto render per frame. Currently XP Orbs and Item entities\nare supported, see Generic configs for the limits.",
-        "value": "vp.tweakeroo.featuretoggle.143text"
-      },
-      {
-        "key": "If enabled, then fully repaired items held in hand will\nbe swapped to damaged items that have Mending on them.",
-        "value": "vp.tweakeroo.featuretoggle.144text"
-      },
-      {
-        "key": "Enables the Shulker Box contents display when hovering\nover them in an inventory and holding shift",
-        "value": "vp.tweakeroo.featuretoggle.145text"
-      },
-      {
-        "key": "Enabled a snap aim tweak, to make the player face to pre-set exact yaw rotations",
-        "value": "vp.tweakeroo.featuretoggle.146text"
-      },
-      {
-        "key": "Enables a snap aim lock, locking the yaw and/or pitch rotations\nto the currently snapped value",
-        "value": "vp.tweakeroo.featuretoggle.147text"
-      },
-      {
-        "key": "Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.",
-        "value": "vp.tweakeroo.featuretoggle.148text"
-      },
-      {
-        "key": "Prevents speed effects or sprinting etc. from changing the FoV",
-        "value": "vp.tweakeroo.featuretoggle.149text"
-      },
-      {
-        "key": "Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize",
-        "value": "vp.tweakeroo.featuretoggle.150text"
-      },
-      {
-        "key": "If enabled, then any damageable items held in the hand that\nare about to break will be swapped to fresh ones",
-        "value": "vp.tweakeroo.featuretoggle.151text"
-      },
-      {
-        "key": "If enabled, then tab-completing coordinates while not\nlooking at a block, will use the player's position\ninstead of adding the ~ character.",
-        "value": "vp.tweakeroo.featuretoggle.152text"
-      },
-      {
-        "key": "Allows Tile Entities to be rendered from any distance,\nand not only from the usual 64 blocks away",
-        "value": "vp.tweakeroo.featuretoggle.153text"
-      },
-      {
-        "key": "Enables automatically switching to an effective tool for the targeted block",
-        "value": "vp.tweakeroo.featuretoggle.154text"
-      },
-      {
-        "key": "Mirrors the targeted y-position within the block bounds.\nThis is basically for placing slabs or stairs\nin the opposite top/bottom state from normal,\nif you have to place them against another slab for example.",
-        "value": "vp.tweakeroo.featuretoggle.155text"
-      },
-      {
-        "key": "Enables using the zoom hotkey to, well, zoom in",
-        "value": "vp.tweakeroo.featuretoggle.156text"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "fi.dy.masa.tweakeroo.config.Hotkeys"
-    },
-    "pairs": [
-      {
-        "key": "accurateBlockPlacementInto",
-        "value": "vp.tweakeroo.hotkeys.1text"
-      },
-      {
-        "key": "accurateBlockPlacementReverse",
-        "value": "vp.tweakeroo.hotkeys.2text"
-      },
-      {
-        "key": "breakingRestrictionModeColumn",
-        "value": "vp.tweakeroo.hotkeys.3text"
-      },
-      {
-        "key": "breakingRestrictionModeDiagonal",
-        "value": "vp.tweakeroo.hotkeys.4text"
-      },
-      {
-        "key": "breakingRestrictionModeFace",
-        "value": "vp.tweakeroo.hotkeys.5text"
-      },
-      {
-        "key": "breakingRestrictionModeLayer",
-        "value": "vp.tweakeroo.hotkeys.6text"
-      },
-      {
-        "key": "breakingRestrictionModeLine",
-        "value": "vp.tweakeroo.hotkeys.7text"
-      },
-      {
-        "key": "breakingRestrictionModePlane",
-        "value": "vp.tweakeroo.hotkeys.8text"
-      },
-      {
-        "key": "copySignText",
-        "value": "vp.tweakeroo.hotkeys.9text"
-      },
-      {
-        "key": "elytraCamera",
-        "value": "vp.tweakeroo.hotkeys.10text"
-      },
-      {
-        "key": "The key to lock the current real player rotations, only allowing the\ninputs (mouse) to affect separate \"camera rotations\" used only for the rendering\nwhile this key is active.\nMeant for freely looking down/around while elytra flying straight.",
-        "value": "vp.tweakeroo.hotkeys.11text"
-      },
-      {
-        "key": "flexibleBlockPlacementAdjacent",
-        "value": "vp.tweakeroo.hotkeys.12text"
-      },
-      {
-        "key": "flexibleBlockPlacementOffset",
-        "value": "vp.tweakeroo.hotkeys.13text"
-      },
-      {
-        "key": "flexibleBlockPlacementRotation",
-        "value": "vp.tweakeroo.hotkeys.14text"
-      },
-      {
-        "key": "flyPreset1",
-        "value": "vp.tweakeroo.hotkeys.15text"
-      },
-      {
-        "key": "flyPreset2",
-        "value": "vp.tweakeroo.hotkeys.16text"
-      },
-      {
-        "key": "flyPreset3",
-        "value": "vp.tweakeroo.hotkeys.17text"
-      },
-      {
-        "key": "flyPreset4",
-        "value": "vp.tweakeroo.hotkeys.18text"
-      },
-      {
-        "key": "hotbarScroll",
-        "value": "vp.tweakeroo.hotkeys.19text"
-      },
-      {
-        "key": "hotbarSwapBase",
-        "value": "vp.tweakeroo.hotkeys.20text"
-      },
-      {
-        "key": "hotbarSwap1",
-        "value": "vp.tweakeroo.hotkeys.21text"
-      },
-      {
-        "key": "hotbarSwap2",
-        "value": "vp.tweakeroo.hotkeys.22text"
-      },
-      {
-        "key": "hotbarSwap3",
-        "value": "vp.tweakeroo.hotkeys.23text"
-      },
-      {
-        "key": "inventoryPreview",
-        "value": "vp.tweakeroo.hotkeys.24text"
-      },
-      {
-        "key": "openConfigGui",
-        "value": "vp.tweakeroo.hotkeys.25text"
-      },
-      {
-        "key": "placementYMirror",
-        "value": "vp.tweakeroo.hotkeys.26text"
-      },
-      {
-        "key": "playerInventoryPeek",
-        "value": "vp.tweakeroo.hotkeys.27text"
-      },
-      {
-        "key": "placementRestrictionModeColumn",
-        "value": "vp.tweakeroo.hotkeys.28text"
-      },
-      {
-        "key": "placementRestrictionModeDiagonal",
-        "value": "vp.tweakeroo.hotkeys.29text"
-      },
-      {
-        "key": "placementRestrictionModeFace",
-        "value": "vp.tweakeroo.hotkeys.30text"
-      },
-      {
-        "key": "placementRestrictionModeLayer",
-        "value": "vp.tweakeroo.hotkeys.31text"
-      },
-      {
-        "key": "placementRestrictionModeLine",
-        "value": "vp.tweakeroo.hotkeys.32text"
-      },
-      {
-        "key": "placementRestrictionModePlane",
-        "value": "vp.tweakeroo.hotkeys.33text"
-      },
-      {
-        "key": "skipAllRendering",
-        "value": "vp.tweakeroo.hotkeys.34text"
-      },
-      {
-        "key": "Toggles skipping _all_ rendering",
-        "value": "vp.tweakeroo.hotkeys.35text"
-      },
-      {
-        "key": "skipWorldRendering",
-        "value": "vp.tweakeroo.hotkeys.36text"
-      },
-      {
-        "key": "toolPick",
-        "value": "vp.tweakeroo.hotkeys.37text"
-      },
-      {
-        "key": "zoomActivate",
-        "value": "vp.tweakeroo.hotkeys.38text"
-      },
-      {
-        "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face",
-        "value": "vp.tweakeroo.hotkeys.39text"
-      },
-      {
-        "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\nthe opposite way from what it would normally be",
-        "value": "vp.tweakeroo.hotkeys.40text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Column mode",
-        "value": "vp.tweakeroo.hotkeys.41text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Diagonal mode",
-        "value": "vp.tweakeroo.hotkeys.42text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Face mode",
-        "value": "vp.tweakeroo.hotkeys.43text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Layer mode",
-        "value": "vp.tweakeroo.hotkeys.44text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Line mode",
-        "value": "vp.tweakeroo.hotkeys.45text"
-      },
-      {
-        "key": "Switch the Breaking Restriction mode to the Plane mode",
-        "value": "vp.tweakeroo.hotkeys.46text"
-      },
-      {
-        "key": "Copies the text from an already-placed sign.\nThat text can be used with the tweakSignCopy tweak.",
-        "value": "vp.tweakeroo.hotkeys.47text"
-      },
-      {
-        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in an adjacent position",
-        "value": "vp.tweakeroo.hotkeys.48text"
-      },
-      {
-        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in a\noffset or diagonal position",
-        "value": "vp.tweakeroo.hotkeys.49text"
-      },
-      {
-        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block with\na rotation/facing",
-        "value": "vp.tweakeroo.hotkeys.50text"
-      },
-      {
-        "key": "Switch to fly preset 1",
-        "value": "vp.tweakeroo.hotkeys.51text"
-      },
-      {
-        "key": "Switch to fly preset 2",
-        "value": "vp.tweakeroo.hotkeys.52text"
-      },
-      {
-        "key": "Switch to fly preset 3",
-        "value": "vp.tweakeroo.hotkeys.53text"
-      },
-      {
-        "key": "Switch to fly preset 4",
-        "value": "vp.tweakeroo.hotkeys.54text"
-      },
-      {
-        "key": "The key to hold to allow scrolling the hotbar\nthrough the player inventory rows",
-        "value": "vp.tweakeroo.hotkeys.55text"
-      },
-      {
-        "key": "The base key to show the hotbar/inventory overlay",
-        "value": "vp.tweakeroo.hotkeys.56text"
-      },
-      {
-        "key": "Swap the hotbar with the top-most inventory row",
-        "value": "vp.tweakeroo.hotkeys.57text"
-      },
-      {
-        "key": "Swap the hotbar with the middle inventory row",
-        "value": "vp.tweakeroo.hotkeys.58text"
-      },
-      {
-        "key": "Swap the hotbar with the bottom-most inventory row",
-        "value": "vp.tweakeroo.hotkeys.59text"
-      },
-      {
-        "key": "The key to activate the inventory preview feature",
-        "value": "vp.tweakeroo.hotkeys.60text"
-      },
-      {
-        "key": "The key open the in-game config GUI",
-        "value": "vp.tweakeroo.hotkeys.61text"
-      },
-      {
-        "key": "The key to mirror the targeted y-position within the block",
-        "value": "vp.tweakeroo.hotkeys.62text"
-      },
-      {
-        "key": "The key to activate the player inventory peek/preview feature",
-        "value": "vp.tweakeroo.hotkeys.63text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Column mode",
-        "value": "vp.tweakeroo.hotkeys.64text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Diagonal mode",
-        "value": "vp.tweakeroo.hotkeys.65text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Face mode",
-        "value": "vp.tweakeroo.hotkeys.66text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Layer mode",
-        "value": "vp.tweakeroo.hotkeys.67text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Line mode",
-        "value": "vp.tweakeroo.hotkeys.68text"
-      },
-      {
-        "key": "Switch the Placement Restriction mode to the Plane mode",
-        "value": "vp.tweakeroo.hotkeys.69text"
-      },
-      {
-        "key": "Toggles skipping world rendering",
-        "value": "vp.tweakeroo.hotkeys.70text"
-      },
-      {
-        "key": "Switches to the effective tool for the targeted block",
-        "value": "vp.tweakeroo.hotkeys.71text"
-      },
-      {
-        "key": "Zoom activation hotkey",
-        "value": "vp.tweakeroo.hotkeys.72text"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "fi.dy.masa.tweakeroo.gui.GuiConfigs"
-    },
-    "pairs": [
-      {
-        "key": "tweakeroo.gui.button.config_gui.generic",
-        "value": "vp.tweakeroo.guiconfigs.1text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.fixes",
-        "value": "vp.tweakeroo.guiconfigs.2text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.lists",
-        "value": "vp.tweakeroo.guiconfigs.3text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.tweak_toggles",
-        "value": "vp.tweakeroo.guiconfigs.4text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.tweak_hotkeys",
-        "value": "vp.tweakeroo.guiconfigs.5text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.generic_hotkeys",
-        "value": "vp.tweakeroo.guiconfigs.6text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.disable_toggle",
-        "value": "vp.tweakeroo.guiconfigs.7text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.disable_hotkeys",
-        "value": "vp.tweakeroo.guiconfigs.8text"
-      },
-      {
-        "key": "tweakeroo.gui.button.config_gui.placement",
-        "value": "vp.tweakeroo.guiconfigs.9text"
-      },
-      {
-        "key": "tweakeroo.gui.title.configs",
-        "value": "vp.tweakeroo.guiconfigs.10text"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "fi.dy.masa.tweakeroo.event.InputHandler"
-    },
-    "pairs": [
-      {
-        "key": "tweakeroo.hotkeys.category.disable_toggle_hotkeys",
-        "value": "vp.tweakeroo.inputhandler.1text"
-      },
-      {
-        "key": "tweakeroo.hotkeys.category.generic_hotkeys",
-        "value": "vp.tweakeroo.inputhandler.2text"
-      },
-      {
-        "key": "tweakeroo.hotkeys.category.tweak_toggle_hotkeys",
-        "value": "vp.tweakeroo.inputhandler.3text"
-      },
-      {
-        "key": "tweakeroo.message.set_after_clicker_count_to",
-        "value": "vp.tweakeroo.inputhandler.4text"
-      },
-      {
-        "key": "tweakeroo.message.set_placement_limit_to",
-        "value": "vp.tweakeroo.inputhandler.5text"
-      },
-      {
-        "key": "tweakeroo.message.set_hotbar_slot_cycle_max_to",
-        "value": "vp.tweakeroo.inputhandler.6text"
-      },
-      {
-        "key": "tweakeroo.message.set_hotbar_slot_randomizer_max_to",
-        "value": "vp.tweakeroo.inputhandler.7text"
-      },
-      {
-        "key": "tweakeroo.message.set_breaking_grid_size_to",
-        "value": "vp.tweakeroo.inputhandler.8text"
-      },
-      {
-        "key": "tweakeroo.message.set_placement_grid_size_to",
-        "value": "vp.tweakeroo.inputhandler.9text"
-      },
-      {
-        "key": "tweakeroo.message.set_snap_aim_pitch_step_to",
-        "value": "vp.tweakeroo.inputhandler.10text"
-      },
-      {
-        "key": "tweakeroo.message.set_snap_aim_yaw_step_to",
-        "value": "vp.tweakeroo.inputhandler.11text"
-      },
-      {
-        "key": "tweakeroo.message.set_zoom_fov_to",
-        "value": "vp.tweakeroo.inputhandler.12text"
-      },
-      {
-        "key": "tweakeroo.message.set_fly_speed_to",
-        "value": "vp.tweakeroo.inputhandler.13text"
-      }
-    ]
-  },
-  {
-    "target_classes": [
-    {
-      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeyWithMessage"
-    },
-    {
-      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeysGeneric"
-    },
-    {
-      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackToggleWithSpecialMessage"
-    }
-    ],
-    "pairs": [
-      {
-        "key": "tweakeroo.message.value.",
-        "value": "vp.tweakeroo.callbacks.1text"
-      },
-      {
-        "key": "on",
-        "value": "vp.tweakeroo.callbacks.2text"
-      },
-      {
-        "key": "off",
-        "value": "vp.tweakeroo.callbacks.3text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_fly_speed_on",
-        "value": "vp.tweakeroo.callbacks.4text"
-      },
-      {
-        "key": "tweakeroo.message.toggled",
-        "value": "vp.tweakeroo.callbacks.5text"
-      },
-      {
-        "key": "tweakeroo.message.toggled",
-        "value": "vp.tweakeroo.callbacks.6text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_fast_placement_mode_on",
-        "value": "vp.tweakeroo.callbacks.7text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_after_clicker_on",
-        "value": "vp.tweakeroo.callbacks.8text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_placement_limit_on",
-        "value": "vp.tweakeroo.callbacks.9text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_slot_cycle_on",
-        "value": "vp.tweakeroo.callbacks.10text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_slot_randomizer_on",
-        "value": "vp.tweakeroo.callbacks.11text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_placement_grid_on",
-        "value": "vp.tweakeroo.callbacks.12text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_breaking_grid_on",
-        "value": "vp.tweakeroo.callbacks.13text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_zoom_on",
-        "value": "vp.tweakeroo.callbacks.14text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_snap_aim_on_yaw",
-        "value": "vp.tweakeroo.callbacks.15text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_snap_aim_on_pitch",
-        "value": "vp.tweakeroo.callbacks.16text"
-      },
-      {
-        "key": "tweakeroo.message.toggled_snap_aim_on_both",
-        "value": "vp.tweakeroo.callbacks.17text"
-      },
-      {
-        "key": "tweakeroo.message.sign_text_copied",
-        "value": "vp.tweakeroo.callbacks.18text"
-      },
-      {
-        "key": "tweakeroo.message.set_fly_speed_preset_to",
-        "value": "vp.tweakeroo.callbacks.19text"
-      },
-      {
-        "key": "tweakeroo.message.set_breaking_restriction_mode_to",
-        "value": "vp.tweakeroo.callbacks.20text"
-      },
-      {
-        "key": "tweakeroo.message.set_placement_restriction_mode_to",
-        "value": "vp.tweakeroo.callbacks.21text"
-      },
-      {
-        "key": "tweakeroo.message.value.",
-        "value": "vp.tweakeroo.callbacks.22text"
-      },
-      {
-        "key": "on",
-        "value": "vp.tweakeroo.callbacks.23text"
-      },
-      {
-        "key": "off",
-        "value": "vp.tweakeroo.callbacks.24text"
-      },
-      {
-        "key": "tweakeroo.message.toggled",
-        "value": "vp.tweakeroo.callbacks.25text"
-      },
-      {
-        "key": "tweakeroo.message.value.",
-        "value": "vp.tweakeroo.callbacks.26text"
-      },
-      {
-        "key": "on",
-        "value": "vp.tweakeroo.callbacks.27text"
-      },
-      {
-        "key": "off",
-        "value": "vp.tweakeroo.callbacks.28text"
-      },
-      {
-        "key": "tweakeroo.message.toggled",
-        "value": "vp.tweakeroo.callbacks.29text"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "fi.dy.masa.tweakeroo.config.ConfigBooleanClient"
-    },
-    "pairs": [
-      {
-        "key": "tweakeroo.label.config_comment.single_player_only",
-        "value": "vp.tweakeroo.configbooleanclient.1text"
-      }
-    ]
-  }
-
 ]
