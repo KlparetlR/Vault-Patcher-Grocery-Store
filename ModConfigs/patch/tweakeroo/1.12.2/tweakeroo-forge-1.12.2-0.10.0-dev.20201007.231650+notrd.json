@@ -1,0 +1,2029 @@
+[
+  {
+    "authors": "DreamingLri、SnowLin、醉梦巅峰、新兵Sinbing、XYHXH",
+    "name": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
+    "desc": "使用VP模块文件生成器【by 柠娜】生成初版模块文件，之后配合Recaf软件手动修改初版模块文件得到最终版本的模块文件，然后进行汉化，DreamingLri、SnowLin、醉梦巅峰和新兵Sinbing提供了高版本的汉化文本，XYHXH移植高版本的汉化到1.12.2版本，并补全1.12.2版本独有设置的汉化和制作VP汉化补丁文件",
+    "mods": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_classes": [
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Configs$Disable"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Configs$Fixes"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Configs$Generic"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Configs$Internal"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Configs$Lists"
+    }
+    ],
+    "pairs": [
+      {
+        "key": "disableBlockBreakingParticles",
+        "value": "vp.tweakeroo.configs.1text"
+      },
+      {
+        "key": "disableDoubleTapSprint",
+        "value": "vp.tweakeroo.configs.2text"
+      },
+      {
+        "key": "disableBossFog",
+        "value": "vp.tweakeroo.configs.3text"
+      },
+      {
+        "key": "disableClientEntityUpdates",
+        "value": "vp.tweakeroo.configs.4text"
+      },
+      {
+        "key": "disableDeadMobRendering",
+        "value": "vp.tweakeroo.configs.5text"
+      },
+      {
+        "key": "disableDeadMobTargeting",
+        "value": "vp.tweakeroo.configs.6text"
+      },
+      {
+        "key": "disableEntityRendering",
+        "value": "vp.tweakeroo.configs.7text"
+      },
+      {
+        "key": "disableEntityTicking",
+        "value": "vp.tweakeroo.configs.8text"
+      },
+      {
+        "key": "disableFallingBlockEntityRendering",
+        "value": "vp.tweakeroo.configs.9text"
+      },
+      {
+        "key": "disableInventoryEffectRendering",
+        "value": "vp.tweakeroo.configs.10text"
+      },
+      {
+        "key": "disableItemGlint",
+        "value": "vp.tweakeroo.configs.11text"
+      },
+      {
+        "key": "disableItemSwitchRenderCooldown",
+        "value": "vp.tweakeroo.configs.12text"
+      },
+      {
+        "key": "disableLightUpdates",
+        "value": "vp.tweakeroo.configs.13text"
+      },
+      {
+        "key": "disableLightUpdatesAll",
+        "value": "vp.tweakeroo.configs.14text"
+      },
+      {
+        "key": "disableMobSpawnerMobRendering",
+        "value": "vp.tweakeroo.configs.15text"
+      },
+      {
+        "key": "disableNetherFog",
+        "value": "vp.tweakeroo.configs.16text"
+      },
+      {
+        "key": "disableObserver",
+        "value": "vp.tweakeroo.configs.17text"
+      },
+      {
+        "key": "disableObserverPlaceUpdate",
+        "value": "vp.tweakeroo.configs.18text"
+      },
+      {
+        "key": "disableOffhandRendering",
+        "value": "vp.tweakeroo.configs.19text"
+      },
+      {
+        "key": "disableParticles",
+        "value": "vp.tweakeroo.configs.20text"
+      },
+      {
+        "key": "disablePortalGuiClosing",
+        "value": "vp.tweakeroo.configs.21text"
+      },
+      {
+        "key": "disableRainEffects",
+        "value": "vp.tweakeroo.configs.22text"
+      },
+      {
+        "key": "disableSignGui",
+        "value": "vp.tweakeroo.configs.23text"
+      },
+      {
+        "key": "disableSlimeBlockSlowdown",
+        "value": "vp.tweakeroo.configs.24text"
+      },
+      {
+        "key": "disableTileEntityRendering",
+        "value": "vp.tweakeroo.configs.25text"
+      },
+      {
+        "key": "disableTileEntityTicking",
+        "value": "vp.tweakeroo.configs.26text"
+      },
+      {
+        "key": "disableVillagerTradeLocking",
+        "value": "vp.tweakeroo.configs.27text"
+      },
+      {
+        "key": "disableWallUnsprint",
+        "value": "vp.tweakeroo.configs.28text"
+      },
+      {
+        "key": "fastPlacementItemListType",
+        "value": "vp.tweakeroo.configs.29text"
+      },
+      {
+        "key": "fastPlacementItemBlackList",
+        "value": "vp.tweakeroo.configs.30text"
+      },
+      {
+        "key": "fastPlacementItemWhiteList",
+        "value": "vp.tweakeroo.configs.31text"
+      },
+      {
+        "key": "fastRightClickBlockListType",
+        "value": "vp.tweakeroo.configs.32text"
+      },
+      {
+        "key": "fastRightClickBlockBlackList",
+        "value": "vp.tweakeroo.configs.33text"
+      },
+      {
+        "key": "fastRightClickBlockWhiteList",
+        "value": "vp.tweakeroo.configs.34text"
+      },
+      {
+        "key": "fastRightClickItemListType",
+        "value": "vp.tweakeroo.configs.35text"
+      },
+      {
+        "key": "fastRightClickItemBlackList",
+        "value": "vp.tweakeroo.configs.36text"
+      },
+      {
+        "key": "fastRightClickItemWhiteList",
+        "value": "vp.tweakeroo.configs.37text"
+      },
+      {
+        "key": "flatWorldPresets",
+        "value": "vp.tweakeroo.configs.38text"
+      },
+      {
+        "key": "Custom flat world preset strings.\nThese are in the format: name;blocks_string;biome;generation_features;icon_item\nThe blocks string format is the vanilla format, such as: 62*minecraft:dirt,minecraft:grass\nThe biome can be the registry name, or the int ID\nThe icon item name format can be either minecraft:iron_nugget or minecraft:stained_glass@6",
+        "value": "vp.tweakeroo.configs.39text"
+      },
+      {
+        "key": "itemGlintListType",
+        "value": "vp.tweakeroo.configs.40text"
+      },
+      {
+        "key": "itemGlintBlackList",
+        "value": "vp.tweakeroo.configs.41text"
+      },
+      {
+        "key": "The items that will not have the glint effect,\nif itemGlintListType = blacklist",
+        "value": "vp.tweakeroo.configs.42text"
+      },
+      {
+        "key": "itemGlintWhiteList",
+        "value": "vp.tweakeroo.configs.43text"
+      },
+      {
+        "key": "The only items that will have the glint effect,\nif itemGlintListType = whitelist",
+        "value": "vp.tweakeroo.configs.44text"
+      },
+      {
+        "key": "potionWarningListType",
+        "value": "vp.tweakeroo.configs.45text"
+      },
+      {
+        "key": "potionWarningBlackList",
+        "value": "vp.tweakeroo.configs.46text"
+      },
+      {
+        "key": "potionWarningWhiteList",
+        "value": "vp.tweakeroo.configs.47text"
+      },
+      {
+        "key": "repairModeSlots",
+        "value": "vp.tweakeroo.configs.48text"
+      },
+      {
+        "key": "unstackingItems",
+        "value": "vp.tweakeroo.configs.49text"
+      },
+      {
+        "key": "elytraFix",
+        "value": "vp.tweakeroo.configs.50text"
+      },
+      {
+        "key": "tileEntityUnloadOptimization",
+        "value": "vp.tweakeroo.configs.51text"
+      },
+      {
+        "key": "Optimizes the removal of unloading TileEntities from the World lists.\nThis can greatly improve performance if there are lots of\nTileEntities loaded and/or unloading at once.",
+        "value": "vp.tweakeroo.configs.52text"
+      },
+      {
+        "key": "afterClickerClickCount",
+        "value": "vp.tweakeroo.configs.53text"
+      },
+      {
+        "key": "The number of right clicks to do per placed block when\ntweakAfterClicker is enabled",
+        "value": "vp.tweakeroo.configs.54text"
+      },
+      {
+        "key": "blockReachDistance",
+        "value": "vp.tweakeroo.configs.55text"
+      },
+      {
+        "key": "breakingGridSize",
+        "value": "vp.tweakeroo.configs.56text"
+      },
+      {
+        "key": "breakingRestrictionMode",
+        "value": "vp.tweakeroo.configs.57text"
+      },
+      {
+        "key": "chatBackgroundColor",
+        "value": "vp.tweakeroo.configs.58text"
+      },
+      {
+        "key": "chatTimeFormat",
+        "value": "vp.tweakeroo.configs.59text"
+      },
+      {
+        "key": "clientPlacementRotation",
+        "value": "vp.tweakeroo.configs.60text"
+      },
+      {
+        "key": "cloudHeightOverride",
+        "value": "vp.tweakeroo.configs.61text"
+      },
+      {
+        "key": "elytraCameraIndicator",
+        "value": "vp.tweakeroo.configs.62text"
+      },
+      {
+        "key": "fastBlockPlacementCount",
+        "value": "vp.tweakeroo.configs.63text"
+      },
+      {
+        "key": "fastLeftClickCount",
+        "value": "vp.tweakeroo.configs.64text"
+      },
+      {
+        "key": "The number of left clicks to do per game tick when\ntweakFastLeftClick is enabled and the attack button is held down",
+        "value": "vp.tweakeroo.configs.65text"
+      },
+      {
+        "key": "fastRightClickCount",
+        "value": "vp.tweakeroo.configs.66text"
+      },
+      {
+        "key": "The number of right clicks to do per game tick when\ntweakFastRightClick is enabled and the use button is held down",
+        "value": "vp.tweakeroo.configs.67text"
+      },
+      {
+        "key": "fillCloneLimit",
+        "value": "vp.tweakeroo.configs.68text"
+      },
+      {
+        "key": "flexibleBlockPlacementOverlayColor",
+        "value": "vp.tweakeroo.configs.69text"
+      },
+      {
+        "key": "flySpeedPreset1",
+        "value": "vp.tweakeroo.configs.70text"
+      },
+      {
+        "key": "flySpeedPreset2",
+        "value": "vp.tweakeroo.configs.71text"
+      },
+      {
+        "key": "flySpeedPreset3",
+        "value": "vp.tweakeroo.configs.72text"
+      },
+      {
+        "key": "flySpeedPreset4",
+        "value": "vp.tweakeroo.configs.73text"
+      },
+      {
+        "key": "freeCameraMotionToggle",
+        "value": "vp.tweakeroo.configs.74text"
+      },
+      {
+        "key": "gammaOverrideValue",
+        "value": "vp.tweakeroo.configs.75text"
+      },
+      {
+        "key": "handRestockPre",
+        "value": "vp.tweakeroo.configs.76text"
+      },
+      {
+        "key": "hotbarSlotCycleMax",
+        "value": "vp.tweakeroo.configs.77text"
+      },
+      {
+        "key": "hotbarSlotRandomizerMax",
+        "value": "vp.tweakeroo.configs.78text"
+      },
+      {
+        "key": "hotbarSwapOverlayAlignment",
+        "value": "vp.tweakeroo.configs.79text"
+      },
+      {
+        "key": "hotbarSwapOverlayOffsetX",
+        "value": "vp.tweakeroo.configs.80text"
+      },
+      {
+        "key": "hotbarSwapOverlayOffsetY",
+        "value": "vp.tweakeroo.configs.81text"
+      },
+      {
+        "key": "itemSwapDurabilityThreshold",
+        "value": "vp.tweakeroo.configs.82text"
+      },
+      {
+        "key": "lavaVisibilityOptifineCompat",
+        "value": "vp.tweakeroo.configs.83text"
+      },
+      {
+        "key": "mapPreviewSize",
+        "value": "vp.tweakeroo.configs.84text"
+      },
+      {
+        "key": "periodicAttackInterval",
+        "value": "vp.tweakeroo.configs.85text"
+      },
+      {
+        "key": "The number of game ticks between automatic attacks (left clicks)",
+        "value": "vp.tweakeroo.configs.86text"
+      },
+      {
+        "key": "periodicUseInterval",
+        "value": "vp.tweakeroo.configs.87text"
+      },
+      {
+        "key": "The number of game ticks between automatic uses (right clicks)",
+        "value": "vp.tweakeroo.configs.88text"
+      },
+      {
+        "key": "permanentSneakAllowInGUIs",
+        "value": "vp.tweakeroo.configs.89text"
+      },
+      {
+        "key": "placementGridSize",
+        "value": "vp.tweakeroo.configs.90text"
+      },
+      {
+        "key": "placementLimit",
+        "value": "vp.tweakeroo.configs.91text"
+      },
+      {
+        "key": "The number of blocks you are able to place at maximum per\nright click, if tweakPlacementLimit is enabled.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.configs.92text"
+      },
+      {
+        "key": "placementRestrictionMode",
+        "value": "vp.tweakeroo.configs.93text"
+      },
+      {
+        "key": "placementRestrictionTiedToFast",
+        "value": "vp.tweakeroo.configs.94text"
+      },
+      {
+        "key": "When enabled, the Placement Restriction mode will toggle\nits state of/off when you toggle the Fast Placement mode.",
+        "value": "vp.tweakeroo.configs.95text"
+      },
+      {
+        "key": "playerOnFireScale",
+        "value": "vp.tweakeroo.configs.96text"
+      },
+      {
+        "key": "potionWarningBeneficialOnly",
+        "value": "vp.tweakeroo.configs.97text"
+      },
+      {
+        "key": "potionWarningThreshold",
+        "value": "vp.tweakeroo.configs.98text"
+      },
+      {
+        "key": "renderLimitItem",
+        "value": "vp.tweakeroo.configs.99text"
+      },
+      {
+        "key": "renderLimitXPOrb",
+        "value": "vp.tweakeroo.configs.100text"
+      },
+      {
+        "key": "shulkerDisplayBgColor",
+        "value": "vp.tweakeroo.configs.101text"
+      },
+      {
+        "key": "shulkerDisplayRequireShift",
+        "value": "vp.tweakeroo.configs.102text"
+      },
+      {
+        "key": "slotSyncWorkaround",
+        "value": "vp.tweakeroo.configs.103text"
+      },
+      {
+        "key": "snapAimIndicator",
+        "value": "vp.tweakeroo.configs.104text"
+      },
+      {
+        "key": "snapAimIndicatorColor",
+        "value": "vp.tweakeroo.configs.105text"
+      },
+      {
+        "key": "snapAimMode",
+        "value": "vp.tweakeroo.configs.106text"
+      },
+      {
+        "key": "snapAimOnlyCloseToAngle",
+        "value": "vp.tweakeroo.configs.107text"
+      },
+      {
+        "key": "snapAimPitchOvershoot",
+        "value": "vp.tweakeroo.configs.108text"
+      },
+      {
+        "key": "snapAimPitchStep",
+        "value": "vp.tweakeroo.configs.109text"
+      },
+      {
+        "key": "snapAimThresholdPitch",
+        "value": "vp.tweakeroo.configs.110text"
+      },
+      {
+        "key": "snapAimThresholdYaw",
+        "value": "vp.tweakeroo.configs.111text"
+      },
+      {
+        "key": "snapAimYawStep",
+        "value": "vp.tweakeroo.configs.112text"
+      },
+      {
+        "key": "structureBlockMaxSize",
+        "value": "vp.tweakeroo.configs.113text"
+      },
+      {
+        "key": "zoomFov",
+        "value": "vp.tweakeroo.configs.114text"
+      },
+      {
+        "key": "Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)",
+        "value": "vp.tweakeroo.configs.115text"
+      },
+      {
+        "key": "Disables the double-tap-forward-key sprinting",
+        "value": "vp.tweakeroo.configs.116text"
+      },
+      {
+        "key": "Removes the fog that boss mobs cause",
+        "value": "vp.tweakeroo.configs.117text"
+      },
+      {
+        "key": "Disables ALL except player entity updates on the client.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
+        "value": "vp.tweakeroo.configs.118text"
+      },
+      {
+        "key": "Prevents rendering dead mobs (entities that are at 0 health)",
+        "value": "vp.tweakeroo.configs.119text"
+      },
+      {
+        "key": "Prevents targeting entities that are at 0 health.\nThis fixes for example hitting already dead mobs.",
+        "value": "vp.tweakeroo.configs.120text"
+      },
+      {
+        "key": "Disables ALL except player entity rendering.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems",
+        "value": "vp.tweakeroo.configs.121text"
+      },
+      {
+        "key": "Prevent everything except player entities from getting ticked",
+        "value": "vp.tweakeroo.configs.122text"
+      },
+      {
+        "key": "If enabled, then falling block entities won't be rendered at all",
+        "value": "vp.tweakeroo.configs.123text"
+      },
+      {
+        "key": "Removes the potion effect rendering from the inventory GUIs",
+        "value": "vp.tweakeroo.configs.124text"
+      },
+      {
+        "key": "Disables the glint effect from the items.\nThe items to remove it from, or allow it on, can be configured\nin Lists -> itemGlint*",
+        "value": "vp.tweakeroo.configs.125text"
+      },
+      {
+        "key": "If true, then there won't be any cooldown/equip animation\nwhen switching the held item or using the item.",
+        "value": "vp.tweakeroo.configs.126text"
+      },
+      {
+        "key": "If enabled, disables some client-side (rendering related) light updates",
+        "value": "vp.tweakeroo.configs.127text"
+      },
+      {
+        "key": "If enabled, disables ALL client-side light updates.\nThis might look very bad unless you use the Gamma tweak.",
+        "value": "vp.tweakeroo.configs.128text"
+      },
+      {
+        "key": "Removes the entity rendering from mob spawners",
+        "value": "vp.tweakeroo.configs.129text"
+      },
+      {
+        "key": "Removes the fog in the Nether",
+        "value": "vp.tweakeroo.configs.130text"
+      },
+      {
+        "key": "Disable Observers from triggering at all",
+        "value": "vp.tweakeroo.configs.131text"
+      },
+      {
+        "key": "Prevent Observers from triggering when placed",
+        "value": "vp.tweakeroo.configs.132text"
+      },
+      {
+        "key": "Disables the offhand item from getting rendered",
+        "value": "vp.tweakeroo.configs.133text"
+      },
+      {
+        "key": "Disables all particles",
+        "value": "vp.tweakeroo.configs.134text"
+      },
+      {
+        "key": "If enabled, then you can still open GUIs while in a Nether Portal",
+        "value": "vp.tweakeroo.configs.135text"
+      },
+      {
+        "key": "Disables rain rendering and sounds",
+        "value": "vp.tweakeroo.configs.136text"
+      },
+      {
+        "key": "Prevent the Sign edit GUI from opening",
+        "value": "vp.tweakeroo.configs.137text"
+      },
+      {
+        "key": "Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie.)",
+        "value": "vp.tweakeroo.configs.138text"
+      },
+      {
+        "key": "Prevents all TileEntity renderers from rendering",
+        "value": "vp.tweakeroo.configs.139text"
+      },
+      {
+        "key": "Prevent all TileEntities from getting ticked",
+        "value": "vp.tweakeroo.configs.140text"
+      },
+      {
+        "key": "Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented",
+        "value": "vp.tweakeroo.configs.141text"
+      },
+      {
+        "key": "Touching a wall doesn't drop you out from sprint mode",
+        "value": "vp.tweakeroo.configs.142text"
+      },
+      {
+        "key": "The item restriction type for the Fast Block Placement tweak",
+        "value": "vp.tweakeroo.configs.143text"
+      },
+      {
+        "key": "The items that are NOT allowed to be used for the Fast Block Placement tweak,\nif the fastPlacementItemListType is set to Black List",
+        "value": "vp.tweakeroo.configs.144text"
+      },
+      {
+        "key": "The items that are allowed to be used for the Fast Block Placement tweak,\nif the fastPLacementItemListType is set to White List",
+        "value": "vp.tweakeroo.configs.145text"
+      },
+      {
+        "key": "The targeted block restriction type for the Fast Right Click tweak",
+        "value": "vp.tweakeroo.configs.146text"
+      },
+      {
+        "key": "The blocks that are NOT allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to Black List",
+        "value": "vp.tweakeroo.configs.147text"
+      },
+      {
+        "key": "The blocks that are allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to White List",
+        "value": "vp.tweakeroo.configs.148text"
+      },
+      {
+        "key": "The item restriction type for the Fast Right Click tweak",
+        "value": "vp.tweakeroo.configs.149text"
+      },
+      {
+        "key": "The items that are NOT allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to Black List",
+        "value": "vp.tweakeroo.configs.150text"
+      },
+      {
+        "key": "The items that are allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to White List",
+        "value": "vp.tweakeroo.configs.151text"
+      },
+      {
+        "key": "The item restriction type for the Disable Item Glint feature",
+        "value": "vp.tweakeroo.configs.152text"
+      },
+      {
+        "key": "The list type for potion warning effects",
+        "value": "vp.tweakeroo.configs.153text"
+      },
+      {
+        "key": "The potion effects that will not be warned about",
+        "value": "vp.tweakeroo.configs.154text"
+      },
+      {
+        "key": "The only potion effects that will be warned about",
+        "value": "vp.tweakeroo.configs.155text"
+      },
+      {
+        "key": "The slots the repair mode should use\nValid values: mainhand, offhand, head, chest, legs, feet",
+        "value": "vp.tweakeroo.configs.156text"
+      },
+      {
+        "key": "The items that should be considered for the\n'tweakItemUnstackingProtection' tweak",
+        "value": "vp.tweakeroo.configs.157text"
+      },
+      {
+        "key": "Elytra deployment/landing fix by Earthcomputer and Nessie",
+        "value": "vp.tweakeroo.configs.158text"
+      },
+      {
+        "key": "The block reach distance to use if the\noverride tweak is enabled.\nThe maximum the server allows is 8 for placing, 6 for breaking.",
+        "value": "vp.tweakeroo.configs.159text"
+      },
+      {
+        "key": "The grid interval size for the grid breaking mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.configs.160text"
+      },
+      {
+        "key": "The Breaking Restriction mode to use (hotkey-selectable)",
+        "value": "vp.tweakeroo.configs.161text"
+      },
+      {
+        "key": "The background color for the chat messages,\nif 'tweakChatBackgroundColor' is enabled",
+        "value": "vp.tweakeroo.configs.162text"
+      },
+      {
+        "key": "The time format for chat messages, if tweakChatTimestamp is enabled\nUses the Java SimpleDateFormat format specifiers.",
+        "value": "vp.tweakeroo.configs.163text"
+      },
+      {
+        "key": "Enable single player and client side placement rotations,\nsuch as Accurate Placement working in single player without Carpet mod",
+        "value": "vp.tweakeroo.configs.164text"
+      },
+      {
+        "key": "The new cloud height, when tweakCloudHeightOverride is enabled",
+        "value": "vp.tweakeroo.configs.165text"
+      },
+      {
+        "key": "Whether or not to render the real pitch angle\nindicator when the elytra camera mode is active",
+        "value": "vp.tweakeroo.configs.166text"
+      },
+      {
+        "key": "The maximum number of blocks to place per game tick\nwith the Fast Block Placement tweak",
+        "value": "vp.tweakeroo.configs.167text"
+      },
+      {
+        "key": "The new /fill and /clone block limit in single player,\nif the tweak to override them is enabled",
+        "value": "vp.tweakeroo.configs.168text"
+      },
+      {
+        "key": "The color of the currently pointed-at\nregion in block placement the overlay",
+        "value": "vp.tweakeroo.configs.169text"
+      },
+      {
+        "key": "The fly speed for preset 1",
+        "value": "vp.tweakeroo.configs.170text"
+      },
+      {
+        "key": "The fly speed for preset 2",
+        "value": "vp.tweakeroo.configs.171text"
+      },
+      {
+        "key": "The fly speed for preset 3",
+        "value": "vp.tweakeroo.configs.172text"
+      },
+      {
+        "key": "The fly speed for preset 4",
+        "value": "vp.tweakeroo.configs.173text"
+      },
+      {
+        "key": "If enabled, then toggling on/off the Free Camera mode\nwill also automatically toggle on/off the free camera motion feature",
+        "value": "vp.tweakeroo.configs.174text"
+      },
+      {
+        "key": "The gamma value to use when the override option is enabled",
+        "value": "vp.tweakeroo.configs.175text"
+      },
+      {
+        "key": "If enabled, then hand restocking happens\nbefore the stack runs out",
+        "value": "vp.tweakeroo.configs.176text"
+      },
+      {
+        "key": "This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.",
+        "value": "vp.tweakeroo.configs.177text"
+      },
+      {
+        "key": "This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.",
+        "value": "vp.tweakeroo.configs.178text"
+      },
+      {
+        "key": "The positioning of the hotbar swap overlay",
+        "value": "vp.tweakeroo.configs.179text"
+      },
+      {
+        "key": "The horizontal offset of the hotbar swap overlay",
+        "value": "vp.tweakeroo.configs.180text"
+      },
+      {
+        "key": "The vertical offset of the hotbar swap overlay",
+        "value": "vp.tweakeroo.configs.181text"
+      },
+      {
+        "key": "This is the durability threshold (in uses left)\nfor the low-durability item swap feature.\nNote that items with low total durability will go lower\nand be swapped at 5%% left.",
+        "value": "vp.tweakeroo.configs.182text"
+      },
+      {
+        "key": "Use an alternative version of the Lava Visibility,\nwhich is Optifine compatible (but more hacky).\nImplementation credit to Nessie.",
+        "value": "vp.tweakeroo.configs.183text"
+      },
+      {
+        "key": "The size of the rendered map previews",
+        "value": "vp.tweakeroo.configs.184text"
+      },
+      {
+        "key": "If true, then the permanent sneak tweak will\nalso work while GUIs are open",
+        "value": "vp.tweakeroo.configs.185text"
+      },
+      {
+        "key": "The grid interval size for the grid placement mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.configs.186text"
+      },
+      {
+        "key": "The Placement Restriction mode to use (hotkey-selectable)",
+        "value": "vp.tweakeroo.configs.187text"
+      },
+      {
+        "key": "A scaling factor for the player's on-fire effect.\nAccepted range: 0.0 - 10.0",
+        "value": "vp.tweakeroo.configs.188text"
+      },
+      {
+        "key": "Only warn about potion effects running out that are marked as \"beneficial\"",
+        "value": "vp.tweakeroo.configs.189text"
+      },
+      {
+        "key": "The remaining duration of potion effects (in ticks)\nafter which the warning will start showing",
+        "value": "vp.tweakeroo.configs.190text"
+      },
+      {
+        "key": "Maximum number of item entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
+        "value": "vp.tweakeroo.configs.191text"
+      },
+      {
+        "key": "Maximum number of XP orb entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.",
+        "value": "vp.tweakeroo.configs.192text"
+      },
+      {
+        "key": "Enables tinting/coloring the Shulker Box display\nbackground texture with the dye color of the box",
+        "value": "vp.tweakeroo.configs.193text"
+      },
+      {
+        "key": "Whether or not holding shift is required for the Shulker Box preview",
+        "value": "vp.tweakeroo.configs.194text"
+      },
+      {
+        "key": "This prevents the server from overriding the durability or\nstack size on items that are being used quickly for example\nwith the fast right click tweak.",
+        "value": "vp.tweakeroo.configs.195text"
+      },
+      {
+        "key": "Whether or not to render the snap aim angle indicator",
+        "value": "vp.tweakeroo.configs.196text"
+      },
+      {
+        "key": "The color for the snap aim indicator background",
+        "value": "vp.tweakeroo.configs.197text"
+      },
+      {
+        "key": "Snap aim mode: yaw, or pitch, or both",
+        "value": "vp.tweakeroo.configs.198text"
+      },
+      {
+        "key": "If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold",
+        "value": "vp.tweakeroo.configs.199text"
+      },
+      {
+        "key": "Whether or not to allow overshooting the pitch angle\nfrom the normal +/- 90 degrees up to +/- 180 degrees",
+        "value": "vp.tweakeroo.configs.200text"
+      },
+      {
+        "key": "The pitch angle step of the snap aim tweak",
+        "value": "vp.tweakeroo.configs.201text"
+      },
+      {
+        "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
+        "value": "vp.tweakeroo.configs.202text"
+      },
+      {
+        "key": "The angle threshold inside which the player rotation will\nbe snapped to the snap angle.",
+        "value": "vp.tweakeroo.configs.203text"
+      },
+      {
+        "key": "The yaw angle step of the snap aim tweak",
+        "value": "vp.tweakeroo.configs.204text"
+      },
+      {
+        "key": "The maximum dimensions for a Structure Block's saved area",
+        "value": "vp.tweakeroo.configs.205text"
+      },
+      {
+        "key": "The FOV value used for the zoom feature",
+        "value": "vp.tweakeroo.configs.206text"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "fi.dy.masa.tweakeroo.config.FeatureToggle"
+    },
+    "pairs": [
+      {
+        "key": "carpetAccuratePlacementProtocol",
+        "value": "vp.tweakeroo.featuretoggle.1text"
+      },
+      {
+        "key": "fastPlacementRememberOrientation",
+        "value": "vp.tweakeroo.featuretoggle.2text"
+      },
+      {
+        "key": "rememberFlexibleFromClick",
+        "value": "vp.tweakeroo.featuretoggle.3text"
+      },
+      {
+        "key": "tweakAccurateBlockPlacement",
+        "value": "vp.tweakeroo.featuretoggle.4text"
+      },
+      {
+        "key": "tweakAfterClicker",
+        "value": "vp.tweakeroo.featuretoggle.5text"
+      },
+      {
+        "key": "tweakAimLock",
+        "value": "vp.tweakeroo.featuretoggle.6text"
+      },
+      {
+        "key": "tweakAngelBlock",
+        "value": "vp.tweakeroo.featuretoggle.7text"
+      },
+      {
+        "key": "tweakBlockReachOverride",
+        "value": "vp.tweakeroo.featuretoggle.8text"
+      },
+      {
+        "key": "tweakBreakingGrid",
+        "value": "vp.tweakeroo.featuretoggle.9text"
+      },
+      {
+        "key": "When enabled, you can only break blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.10text"
+      },
+      {
+        "key": "tweakBreakingRestriction",
+        "value": "vp.tweakeroo.featuretoggle.11text"
+      },
+      {
+        "key": "tweakChatBackgroundColor",
+        "value": "vp.tweakeroo.featuretoggle.12text"
+      },
+      {
+        "key": "tweakChatPersistentText",
+        "value": "vp.tweakeroo.featuretoggle.13text"
+      },
+      {
+        "key": "tweakChatTimestamp",
+        "value": "vp.tweakeroo.featuretoggle.14text"
+      },
+      {
+        "key": "tweakCloudHeightOverride",
+        "value": "vp.tweakeroo.featuretoggle.15text"
+      },
+      {
+        "key": "tweakCommandBlockExtraFields",
+        "value": "vp.tweakeroo.featuretoggle.16text"
+      },
+      {
+        "key": "tweakCustomFlatPresets",
+        "value": "vp.tweakeroo.featuretoggle.17text"
+      },
+      {
+        "key": "tweakElytraCamera",
+        "value": "vp.tweakeroo.featuretoggle.18text"
+      },
+      {
+        "key": "tweakEmptyShulkerBoxesStack",
+        "value": "vp.tweakeroo.featuretoggle.19text"
+      },
+      {
+        "key": "tweakEmptyShulkerBoxesStackOnGround",
+        "value": "vp.tweakeroo.featuretoggle.20text"
+      },
+      {
+        "key": "tweakExplosionReducedParticles",
+        "value": "vp.tweakeroo.featuretoggle.21text"
+      },
+      {
+        "key": "If enabled, then all explosion particles will use the\nEXPLOSION_NORMAL particle instead of possibly\nthe EXPLOSION_LARGE or EXPLOSION_HUGE particles",
+        "value": "vp.tweakeroo.featuretoggle.22text"
+      },
+      {
+        "key": "tweakF3Cursor",
+        "value": "vp.tweakeroo.featuretoggle.23text"
+      },
+      {
+        "key": "tweakFakeSneaking",
+        "value": "vp.tweakeroo.featuretoggle.24text"
+      },
+      {
+        "key": "tweakFastBlockPlacement",
+        "value": "vp.tweakeroo.featuretoggle.25text"
+      },
+      {
+        "key": "tweakFastLeftClick",
+        "value": "vp.tweakeroo.featuretoggle.26text"
+      },
+      {
+        "key": "Enables automatic fast left clicking while holding down\nthe attack button (left click).\nThe number of clicks per tick is set in the Generic configs.",
+        "value": "vp.tweakeroo.featuretoggle.27text"
+      },
+      {
+        "key": "tweakFastRightClick",
+        "value": "vp.tweakeroo.featuretoggle.28text"
+      },
+      {
+        "key": "Enables automatic fast right clicking while holding down\nthe use button (right click).\nThe number of clicks per tick is set in the Generic configs.",
+        "value": "vp.tweakeroo.featuretoggle.29text"
+      },
+      {
+        "key": "tweakFillCloneLimit",
+        "value": "vp.tweakeroo.featuretoggle.30text"
+      },
+      {
+        "key": "tweakFlySpeed",
+        "value": "vp.tweakeroo.featuretoggle.31text"
+      },
+      {
+        "key": "tweakFlexibleBlockPlacement",
+        "value": "vp.tweakeroo.featuretoggle.32text"
+      },
+      {
+        "key": "tweakFreeCamera",
+        "value": "vp.tweakeroo.featuretoggle.33text"
+      },
+      {
+        "key": "tweakFreeCameraMotion",
+        "value": "vp.tweakeroo.featuretoggle.34text"
+      },
+      {
+        "key": "tweakGammaOverride",
+        "value": "vp.tweakeroo.featuretoggle.35text"
+      },
+      {
+        "key": "tweakHandRestock",
+        "value": "vp.tweakeroo.featuretoggle.36text"
+      },
+      {
+        "key": "tweakHoldAttack",
+        "value": "vp.tweakeroo.featuretoggle.37text"
+      },
+      {
+        "key": "tweakHoldUse",
+        "value": "vp.tweakeroo.featuretoggle.38text"
+      },
+      {
+        "key": "tweakHotbarScroll",
+        "value": "vp.tweakeroo.featuretoggle.39text"
+      },
+      {
+        "key": "tweakHotbarSlotCycle",
+        "value": "vp.tweakeroo.featuretoggle.40text"
+      },
+      {
+        "key": "tweakHotbarSlotRandomizer",
+        "value": "vp.tweakeroo.featuretoggle.41text"
+      },
+      {
+        "key": "tweakHotbarSwap",
+        "value": "vp.tweakeroo.featuretoggle.42text"
+      },
+      {
+        "key": "tweakInventoryPreview",
+        "value": "vp.tweakeroo.featuretoggle.43text"
+      },
+      {
+        "key": "tweakItemUnstackingProtection",
+        "value": "vp.tweakeroo.featuretoggle.44text"
+      },
+      {
+        "key": "tweakLavaVisibility",
+        "value": "vp.tweakeroo.featuretoggle.45text"
+      },
+      {
+        "key": "tweakMapPreview",
+        "value": "vp.tweakeroo.featuretoggle.46text"
+      },
+      {
+        "key": "tweakMovementKeysLast",
+        "value": "vp.tweakeroo.featuretoggle.47text"
+      },
+      {
+        "key": "tweakPeriodicAttack",
+        "value": "vp.tweakeroo.featuretoggle.48text"
+      },
+      {
+        "key": "tweakPeriodicUse",
+        "value": "vp.tweakeroo.featuretoggle.49text"
+      },
+      {
+        "key": "tweakPermanentSneak",
+        "value": "vp.tweakeroo.featuretoggle.50text"
+      },
+      {
+        "key": "tweakPermanentSprint",
+        "value": "vp.tweakeroo.featuretoggle.51text"
+      },
+      {
+        "key": "tweakPickBeforePlace",
+        "value": "vp.tweakeroo.featuretoggle.52text"
+      },
+      {
+        "key": "tweakPlacementGrid",
+        "value": "vp.tweakeroo.featuretoggle.53text"
+      },
+      {
+        "key": "When enabled, you can only place blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.54text"
+      },
+      {
+        "key": "tweakPlacementLimit",
+        "value": "vp.tweakeroo.featuretoggle.55text"
+      },
+      {
+        "key": "When enabled, you can only place a set number\nof blocks per use/right click.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.56text"
+      },
+      {
+        "key": "tweakPlacementRestriction",
+        "value": "vp.tweakeroo.featuretoggle.57text"
+      },
+      {
+        "key": "tweakPlacementRestrictionFirst",
+        "value": "vp.tweakeroo.featuretoggle.58text"
+      },
+      {
+        "key": "tweakPlacementRestrictionHand",
+        "value": "vp.tweakeroo.featuretoggle.59text"
+      },
+      {
+        "key": "tweakPlayerInventoryPeek",
+        "value": "vp.tweakeroo.featuretoggle.60text"
+      },
+      {
+        "key": "tweakPlayerListAlwaysVisible",
+        "value": "vp.tweakeroo.featuretoggle.61text"
+      },
+      {
+        "key": "tweakPlayerOnFireScale",
+        "value": "vp.tweakeroo.featuretoggle.62text"
+      },
+      {
+        "key": "tweakPotionWarning",
+        "value": "vp.tweakeroo.featuretoggle.63text"
+      },
+      {
+        "key": "tweakPrintDeathCoordinates",
+        "value": "vp.tweakeroo.featuretoggle.64text"
+      },
+      {
+        "key": "tweakRelaxedBlockPlacement",
+        "value": "vp.tweakeroo.featuretoggle.65text"
+      },
+      {
+        "key": "tweakRemoveOwnPotionEffects",
+        "value": "vp.tweakeroo.featuretoggle.66text"
+      },
+      {
+        "key": "tweakRenderInvisibleEntities",
+        "value": "vp.tweakeroo.featuretoggle.67text"
+      },
+      {
+        "key": "When enabled, invisible entities are rendered like\nthey would be in spectator mode.",
+        "value": "vp.tweakeroo.featuretoggle.68text"
+      },
+      {
+        "key": "tweakRenderLimitEntities",
+        "value": "vp.tweakeroo.featuretoggle.69text"
+      },
+      {
+        "key": "tweakRepairMode",
+        "value": "vp.tweakeroo.featuretoggle.70text"
+      },
+      {
+        "key": "tweakShulkerBoxDisplay",
+        "value": "vp.tweakeroo.featuretoggle.71text"
+      },
+      {
+        "key": "tweakSignCopy",
+        "value": "vp.tweakeroo.featuretoggle.72text"
+      },
+      {
+        "key": "When enabled, placed signs will use the text from\nthe previously placed sign.\nCan be combined with tweakNoSignGui to quickly place copies\nof a sign, by enabling that tweak after making the first sign.",
+        "value": "vp.tweakeroo.featuretoggle.73text"
+      },
+      {
+        "key": "tweakSnapAim",
+        "value": "vp.tweakeroo.featuretoggle.74text"
+      },
+      {
+        "key": "tweakSnapAimLock",
+        "value": "vp.tweakeroo.featuretoggle.75text"
+      },
+      {
+        "key": "tweakSpectatorTeleport",
+        "value": "vp.tweakeroo.featuretoggle.76text"
+      },
+      {
+        "key": "tweakStaticFov",
+        "value": "vp.tweakeroo.featuretoggle.77text"
+      },
+      {
+        "key": "tweakStructureBlockLimit",
+        "value": "vp.tweakeroo.featuretoggle.78text"
+      },
+      {
+        "key": "tweakSwapAlmostBrokenTools",
+        "value": "vp.tweakeroo.featuretoggle.79text"
+      },
+      {
+        "key": "tweakTabCompleteCoordinate",
+        "value": "vp.tweakeroo.featuretoggle.80text"
+      },
+      {
+        "key": "tweakTileEntityRenderDistance",
+        "value": "vp.tweakeroo.featuretoggle.81text"
+      },
+      {
+        "key": "tweakToolSwitch",
+        "value": "vp.tweakeroo.featuretoggle.82text"
+      },
+      {
+        "key": "tweakYMirror",
+        "value": "vp.tweakeroo.featuretoggle.83text"
+      },
+      {
+        "key": "tweakZoom",
+        "value": "vp.tweakeroo.featuretoggle.84text"
+      },
+      {
+        "key": "tweakeroo.label.config_comment.single_player_only",
+        "value": "vp.tweakeroo.featuretoggle.85text"
+      },
+      {
+        "key": "If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented\nin the recent carpet mod versions",
+        "value": "vp.tweakeroo.featuretoggle.86text"
+      },
+      {
+        "key": "Carpet protocol Accurate Placement",
+        "value": "vp.tweakeroo.featuretoggle.87text"
+      },
+      {
+        "key": "If enabled, then the fast placement mode will always remember\nthe orientation of the first block you place.\nWithout this, the orientation will only be remembered\nwith the flexible placement enabled and active.",
+        "value": "vp.tweakeroo.featuretoggle.88text"
+      },
+      {
+        "key": "Fast Placement Remember Orientation",
+        "value": "vp.tweakeroo.featuretoggle.89text"
+      },
+      {
+        "key": "If enabled, then the flexible block placement status\nwill be remembered from the first placed block,\nas long as the use key is held down.",
+        "value": "vp.tweakeroo.featuretoggle.90text"
+      },
+      {
+        "key": "Remember Flexible Orientation From First Click",
+        "value": "vp.tweakeroo.featuretoggle.91text"
+      },
+      {
+        "key": "Enables a simpler version of Flexible placement, similar to\nthe Carpet mod, so basically either facing into or out\nfrom the block face clicked on.",
+        "value": "vp.tweakeroo.featuretoggle.92text"
+      },
+      {
+        "key": "Enables a \"after clicker\" tweak, which does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the delay).\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.93text"
+      },
+      {
+        "key": "Enables an aim lock, locking the yaw and pitch rotations\nto the current values.\nThis is separate from the snap aim lock,\nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.",
+        "value": "vp.tweakeroo.featuretoggle.94text"
+      },
+      {
+        "key": "Enables an \"Angel Block\" tweak, which allows\nplacing blocks in mid-air in Creative mode",
+        "value": "vp.tweakeroo.featuretoggle.95text"
+      },
+      {
+        "key": "Overrides the block reach distance with\nthe one set in Generic -> blockReachDistance",
+        "value": "vp.tweakeroo.featuretoggle.96text"
+      },
+      {
+        "key": "Enables the Breaking Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
+        "value": "vp.tweakeroo.featuretoggle.97text"
+      },
+      {
+        "key": "Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'",
+        "value": "vp.tweakeroo.featuretoggle.98text"
+      },
+      {
+        "key": "Stores the text from the chat input text field\nand restores it when the chat is opened again",
+        "value": "vp.tweakeroo.featuretoggle.99text"
+      },
+      {
+        "key": "Adds timestamps to chat messages",
+        "value": "vp.tweakeroo.featuretoggle.100text"
+      },
+      {
+        "key": "Overrides the normal cloud height with the one set in Generic -> 'cloudHeightOverride'",
+        "value": "vp.tweakeroo.featuretoggle.101text"
+      },
+      {
+        "key": "Adds extra fields to the Command Block GUI, for settings\nthe name of the command block, and seeing the stats results",
+        "value": "vp.tweakeroo.featuretoggle.102text"
+      },
+      {
+        "key": "Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets",
+        "value": "vp.tweakeroo.featuretoggle.103text"
+      },
+      {
+        "key": "Allows locking the real player rotations while holding the 'elytraCamera' activation key.\nThe controls will then only affect the separate 'camera rotations' for the rendering/camera.\nMeant for things like looking down/around while elytra flying nice and straight.",
+        "value": "vp.tweakeroo.featuretoggle.104text"
+      },
+      {
+        "key": "Enables empty Shulker Boxes stacking up to 64.\nNOTE: They will also stack inside inventories!\nOn servers this will cause desyncs/glitches\nunless the server has a mod that does the same.\nIn single player this changes shulker box based system behaviour.",
+        "value": "vp.tweakeroo.featuretoggle.105text"
+      },
+      {
+        "key": "Enables empty Shulker Boxes stacking up to 64\nwhen as items on the ground",
+        "value": "vp.tweakeroo.featuretoggle.106text"
+      },
+      {
+        "key": "Enables always rendering the F3 screen cursor",
+        "value": "vp.tweakeroo.featuretoggle.107text"
+      },
+      {
+        "key": "Enables \"fake sneaking\" ie. prevents you from falling from edges\nwithout slowing down the movement speed",
+        "value": "vp.tweakeroo.featuretoggle.108text"
+      },
+      {
+        "key": "Enables fast/convenient block placement when moving\nthe cursor over new blocks",
+        "value": "vp.tweakeroo.featuretoggle.109text"
+      },
+      {
+        "key": "Enables overriding the /fill and /clone command\nblock limits in single player.\nThe new limit can be set in the Generic configs,\nin the 'fillCloneLimit' config value",
+        "value": "vp.tweakeroo.featuretoggle.110text"
+      },
+      {
+        "key": "Enables overriding the fly speed in creative or spectator mode\nand using some presets for it",
+        "value": "vp.tweakeroo.featuretoggle.111text"
+      },
+      {
+        "key": "Enables placing blocks in different orientations\nor with an offset, while holding down the\nhotkeys for those modes.",
+        "value": "vp.tweakeroo.featuretoggle.112text"
+      },
+      {
+        "key": "Enables a free camera mode, similar to spectator mode,\nbut where the player will remain in place where\nyou first activate the free camera mode",
+        "value": "vp.tweakeroo.featuretoggle.113text"
+      },
+      {
+        "key": "When the Free Camera mode is enabled, if this feature is also enabled,\nthe movement inputs will affect the camera entity instead of the actual player.\nThis option is provided so that it's also possible to control\nthe actual player while in Free Camera mode, by disabling this option.\nNormally, if you just want to control the camera entity while in Free camera mode,\nthen just set the same hotkey for both features.",
+        "value": "vp.tweakeroo.featuretoggle.114text"
+      },
+      {
+        "key": "Overrides the video settings gamma value with\nthe one set in the Generic configs",
+        "value": "vp.tweakeroo.featuretoggle.115text"
+      },
+      {
+        "key": "Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out",
+        "value": "vp.tweakeroo.featuretoggle.116text"
+      },
+      {
+        "key": "Emulates holding down the attack button\n\ufffd6NOTE: You should ONLY toggle this via the toggle hotkey!\n\ufffd6You should also make the toggle hotkey have the attack\n\ufffd6key as part of the keybind, so that it properly activates/deactivates\n\ufffd6 the vanilla keybind when you toggle the tweak on/off",
+        "value": "vp.tweakeroo.featuretoggle.117text"
+      },
+      {
+        "key": "Emulates holding down the use button\n\ufffd6NOTE: You should ONLY toggle this via the toggle hotkey!\n\ufffd6You should also make the toggle hotkey have the use\n\ufffd6key as part of the keybind, so that it properly activates/deactivates\n\ufffd6 the vanilla keybind when you toggle the tweak on/off",
+        "value": "vp.tweakeroo.featuretoggle.118text"
+      },
+      {
+        "key": "Enables the hotbar swapping via scrolling feature",
+        "value": "vp.tweakeroo.featuretoggle.119text"
+      },
+      {
+        "key": "Enables cycling the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.120text"
+      },
+      {
+        "key": "Enables randomizing the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.",
+        "value": "vp.tweakeroo.featuretoggle.121text"
+      },
+      {
+        "key": "Enables the hotbar swapping via hotkeys feature",
+        "value": "vp.tweakeroo.featuretoggle.122text"
+      },
+      {
+        "key": "Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.",
+        "value": "vp.tweakeroo.featuretoggle.123text"
+      },
+      {
+        "key": "If enabled, then items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.",
+        "value": "vp.tweakeroo.featuretoggle.124text"
+      },
+      {
+        "key": "If enabled and the player has a Respiration helmet and/or\nWather Breathing active, the lava fog is greatly reduced.",
+        "value": "vp.tweakeroo.featuretoggle.125text"
+      },
+      {
+        "key": "If enabled, then holding shift over maps in an inventory\nwill render a preview of the map",
+        "value": "vp.tweakeroo.featuretoggle.126text"
+      },
+      {
+        "key": "If enabled, then opposite movement keys won't cancel each other,\nbut instead the last pressed key is the active input.",
+        "value": "vp.tweakeroo.featuretoggle.127text"
+      },
+      {
+        "key": "Enables periodic attacks (left clicks)\nConfigure the interval in Generic -> periodicAttackInterval",
+        "value": "vp.tweakeroo.featuretoggle.128text"
+      },
+      {
+        "key": "Enables periodic uses (right clicks)\nConfigure the interval in Generic -> periodicUseInterval",
+        "value": "vp.tweakeroo.featuretoggle.129text"
+      },
+      {
+        "key": "If enabled, the player will be sneaking the entire time",
+        "value": "vp.tweakeroo.featuretoggle.130text"
+      },
+      {
+        "key": "If enabled, the player will be always sprinting when moving forward",
+        "value": "vp.tweakeroo.featuretoggle.131text"
+      },
+      {
+        "key": "If enabled, then before each block placement, the same block\nis switched to hand that you are placing against",
+        "value": "vp.tweakeroo.featuretoggle.132text"
+      },
+      {
+        "key": "Enables the Placement Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)",
+        "value": "vp.tweakeroo.featuretoggle.133text"
+      },
+      {
+        "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on",
+        "value": "vp.tweakeroo.featuretoggle.134text"
+      },
+      {
+        "key": "Restricts block placement so that you can only\nplace blocks against the same block type\nyou are holding in your hand",
+        "value": "vp.tweakeroo.featuretoggle.135text"
+      },
+      {
+        "key": "Enables a player inventory peek/preview, while holding the\nconfigured hotkey key for it.",
+        "value": "vp.tweakeroo.featuretoggle.136text"
+      },
+      {
+        "key": "If enabled, then the player list is always rendered without\nhaving to hold down the key (tab by default)",
+        "value": "vp.tweakeroo.featuretoggle.137text"
+      },
+      {
+        "key": "Enables scaling the on-fire effect on the player themselves,\nusing the scaling factor from Generic -> playerOnFireScale",
+        "value": "vp.tweakeroo.featuretoggle.138text"
+      },
+      {
+        "key": "Prints a warning message to the hotbar when\nnon-ambient potion effects are about to run out",
+        "value": "vp.tweakeroo.featuretoggle.139text"
+      },
+      {
+        "key": "Enables printing the player's coordinates to chat on death.\nThis feature is originally from usefulmod by nessie.",
+        "value": "vp.tweakeroo.featuretoggle.140text"
+      },
+      {
+        "key": "Allows placing certain blocks without the normal restrictions,\nsuch as fence gates and pumpkins in mid-air",
+        "value": "vp.tweakeroo.featuretoggle.141text"
+      },
+      {
+        "key": "Removes the potion effect particles from the\nplayer itself in first person mode",
+        "value": "vp.tweakeroo.featuretoggle.142text"
+      },
+      {
+        "key": "Enables limiting the number of certain types of entities\nto render per frame. Currently XP Orbs and Item entities\nare supported, see Generic configs for the limits.",
+        "value": "vp.tweakeroo.featuretoggle.143text"
+      },
+      {
+        "key": "If enabled, then fully repaired items held in hand will\nbe swapped to damaged items that have Mending on them.",
+        "value": "vp.tweakeroo.featuretoggle.144text"
+      },
+      {
+        "key": "Enables the Shulker Box contents display when hovering\nover them in an inventory and holding shift",
+        "value": "vp.tweakeroo.featuretoggle.145text"
+      },
+      {
+        "key": "Enabled a snap aim tweak, to make the player face to pre-set exact yaw rotations",
+        "value": "vp.tweakeroo.featuretoggle.146text"
+      },
+      {
+        "key": "Enables a snap aim lock, locking the yaw and/or pitch rotations\nto the currently snapped value",
+        "value": "vp.tweakeroo.featuretoggle.147text"
+      },
+      {
+        "key": "Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.",
+        "value": "vp.tweakeroo.featuretoggle.148text"
+      },
+      {
+        "key": "Prevents speed effects or sprinting etc. from changing the FoV",
+        "value": "vp.tweakeroo.featuretoggle.149text"
+      },
+      {
+        "key": "Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize",
+        "value": "vp.tweakeroo.featuretoggle.150text"
+      },
+      {
+        "key": "If enabled, then any damageable items held in the hand that\nare about to break will be swapped to fresh ones",
+        "value": "vp.tweakeroo.featuretoggle.151text"
+      },
+      {
+        "key": "If enabled, then tab-completing coordinates while not\nlooking at a block, will use the player's position\ninstead of adding the ~ character.",
+        "value": "vp.tweakeroo.featuretoggle.152text"
+      },
+      {
+        "key": "Allows Tile Entities to be rendered from any distance,\nand not only from the usual 64 blocks away",
+        "value": "vp.tweakeroo.featuretoggle.153text"
+      },
+      {
+        "key": "Enables automatically switching to an effective tool for the targeted block",
+        "value": "vp.tweakeroo.featuretoggle.154text"
+      },
+      {
+        "key": "Mirrors the targeted y-position within the block bounds.\nThis is basically for placing slabs or stairs\nin the opposite top/bottom state from normal,\nif you have to place them against another slab for example.",
+        "value": "vp.tweakeroo.featuretoggle.155text"
+      },
+      {
+        "key": "Enables using the zoom hotkey to, well, zoom in",
+        "value": "vp.tweakeroo.featuretoggle.156text"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "fi.dy.masa.tweakeroo.config.Hotkeys"
+    },
+    "pairs": [
+      {
+        "key": "accurateBlockPlacementInto",
+        "value": "vp.tweakeroo.hotkeys.1text"
+      },
+      {
+        "key": "accurateBlockPlacementReverse",
+        "value": "vp.tweakeroo.hotkeys.2text"
+      },
+      {
+        "key": "breakingRestrictionModeColumn",
+        "value": "vp.tweakeroo.hotkeys.3text"
+      },
+      {
+        "key": "breakingRestrictionModeDiagonal",
+        "value": "vp.tweakeroo.hotkeys.4text"
+      },
+      {
+        "key": "breakingRestrictionModeFace",
+        "value": "vp.tweakeroo.hotkeys.5text"
+      },
+      {
+        "key": "breakingRestrictionModeLayer",
+        "value": "vp.tweakeroo.hotkeys.6text"
+      },
+      {
+        "key": "breakingRestrictionModeLine",
+        "value": "vp.tweakeroo.hotkeys.7text"
+      },
+      {
+        "key": "breakingRestrictionModePlane",
+        "value": "vp.tweakeroo.hotkeys.8text"
+      },
+      {
+        "key": "copySignText",
+        "value": "vp.tweakeroo.hotkeys.9text"
+      },
+      {
+        "key": "elytraCamera",
+        "value": "vp.tweakeroo.hotkeys.10text"
+      },
+      {
+        "key": "The key to lock the current real player rotations, only allowing the\ninputs (mouse) to affect separate \"camera rotations\" used only for the rendering\nwhile this key is active.\nMeant for freely looking down/around while elytra flying straight.",
+        "value": "vp.tweakeroo.hotkeys.11text"
+      },
+      {
+        "key": "flexibleBlockPlacementAdjacent",
+        "value": "vp.tweakeroo.hotkeys.12text"
+      },
+      {
+        "key": "flexibleBlockPlacementOffset",
+        "value": "vp.tweakeroo.hotkeys.13text"
+      },
+      {
+        "key": "flexibleBlockPlacementRotation",
+        "value": "vp.tweakeroo.hotkeys.14text"
+      },
+      {
+        "key": "flyPreset1",
+        "value": "vp.tweakeroo.hotkeys.15text"
+      },
+      {
+        "key": "flyPreset2",
+        "value": "vp.tweakeroo.hotkeys.16text"
+      },
+      {
+        "key": "flyPreset3",
+        "value": "vp.tweakeroo.hotkeys.17text"
+      },
+      {
+        "key": "flyPreset4",
+        "value": "vp.tweakeroo.hotkeys.18text"
+      },
+      {
+        "key": "hotbarScroll",
+        "value": "vp.tweakeroo.hotkeys.19text"
+      },
+      {
+        "key": "hotbarSwapBase",
+        "value": "vp.tweakeroo.hotkeys.20text"
+      },
+      {
+        "key": "hotbarSwap1",
+        "value": "vp.tweakeroo.hotkeys.21text"
+      },
+      {
+        "key": "hotbarSwap2",
+        "value": "vp.tweakeroo.hotkeys.22text"
+      },
+      {
+        "key": "hotbarSwap3",
+        "value": "vp.tweakeroo.hotkeys.23text"
+      },
+      {
+        "key": "inventoryPreview",
+        "value": "vp.tweakeroo.hotkeys.24text"
+      },
+      {
+        "key": "openConfigGui",
+        "value": "vp.tweakeroo.hotkeys.25text"
+      },
+      {
+        "key": "placementYMirror",
+        "value": "vp.tweakeroo.hotkeys.26text"
+      },
+      {
+        "key": "playerInventoryPeek",
+        "value": "vp.tweakeroo.hotkeys.27text"
+      },
+      {
+        "key": "placementRestrictionModeColumn",
+        "value": "vp.tweakeroo.hotkeys.28text"
+      },
+      {
+        "key": "placementRestrictionModeDiagonal",
+        "value": "vp.tweakeroo.hotkeys.29text"
+      },
+      {
+        "key": "placementRestrictionModeFace",
+        "value": "vp.tweakeroo.hotkeys.30text"
+      },
+      {
+        "key": "placementRestrictionModeLayer",
+        "value": "vp.tweakeroo.hotkeys.31text"
+      },
+      {
+        "key": "placementRestrictionModeLine",
+        "value": "vp.tweakeroo.hotkeys.32text"
+      },
+      {
+        "key": "placementRestrictionModePlane",
+        "value": "vp.tweakeroo.hotkeys.33text"
+      },
+      {
+        "key": "skipAllRendering",
+        "value": "vp.tweakeroo.hotkeys.34text"
+      },
+      {
+        "key": "Toggles skipping _all_ rendering",
+        "value": "vp.tweakeroo.hotkeys.35text"
+      },
+      {
+        "key": "skipWorldRendering",
+        "value": "vp.tweakeroo.hotkeys.36text"
+      },
+      {
+        "key": "toolPick",
+        "value": "vp.tweakeroo.hotkeys.37text"
+      },
+      {
+        "key": "zoomActivate",
+        "value": "vp.tweakeroo.hotkeys.38text"
+      },
+      {
+        "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face",
+        "value": "vp.tweakeroo.hotkeys.39text"
+      },
+      {
+        "key": "The key to activate the accurate block placement\nmode/overlay for placing the block facing\nthe opposite way from what it would normally be",
+        "value": "vp.tweakeroo.hotkeys.40text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Column mode",
+        "value": "vp.tweakeroo.hotkeys.41text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Diagonal mode",
+        "value": "vp.tweakeroo.hotkeys.42text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Face mode",
+        "value": "vp.tweakeroo.hotkeys.43text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Layer mode",
+        "value": "vp.tweakeroo.hotkeys.44text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Line mode",
+        "value": "vp.tweakeroo.hotkeys.45text"
+      },
+      {
+        "key": "Switch the Breaking Restriction mode to the Plane mode",
+        "value": "vp.tweakeroo.hotkeys.46text"
+      },
+      {
+        "key": "Copies the text from an already-placed sign.\nThat text can be used with the tweakSignCopy tweak.",
+        "value": "vp.tweakeroo.hotkeys.47text"
+      },
+      {
+        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in an adjacent position",
+        "value": "vp.tweakeroo.hotkeys.48text"
+      },
+      {
+        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block in a\noffset or diagonal position",
+        "value": "vp.tweakeroo.hotkeys.49text"
+      },
+      {
+        "key": "The key to activate the flexible block placement\nmode/overlay for placing the block with\na rotation/facing",
+        "value": "vp.tweakeroo.hotkeys.50text"
+      },
+      {
+        "key": "Switch to fly preset 1",
+        "value": "vp.tweakeroo.hotkeys.51text"
+      },
+      {
+        "key": "Switch to fly preset 2",
+        "value": "vp.tweakeroo.hotkeys.52text"
+      },
+      {
+        "key": "Switch to fly preset 3",
+        "value": "vp.tweakeroo.hotkeys.53text"
+      },
+      {
+        "key": "Switch to fly preset 4",
+        "value": "vp.tweakeroo.hotkeys.54text"
+      },
+      {
+        "key": "The key to hold to allow scrolling the hotbar\nthrough the player inventory rows",
+        "value": "vp.tweakeroo.hotkeys.55text"
+      },
+      {
+        "key": "The base key to show the hotbar/inventory overlay",
+        "value": "vp.tweakeroo.hotkeys.56text"
+      },
+      {
+        "key": "Swap the hotbar with the top-most inventory row",
+        "value": "vp.tweakeroo.hotkeys.57text"
+      },
+      {
+        "key": "Swap the hotbar with the middle inventory row",
+        "value": "vp.tweakeroo.hotkeys.58text"
+      },
+      {
+        "key": "Swap the hotbar with the bottom-most inventory row",
+        "value": "vp.tweakeroo.hotkeys.59text"
+      },
+      {
+        "key": "The key to activate the inventory preview feature",
+        "value": "vp.tweakeroo.hotkeys.60text"
+      },
+      {
+        "key": "The key open the in-game config GUI",
+        "value": "vp.tweakeroo.hotkeys.61text"
+      },
+      {
+        "key": "The key to mirror the targeted y-position within the block",
+        "value": "vp.tweakeroo.hotkeys.62text"
+      },
+      {
+        "key": "The key to activate the player inventory peek/preview feature",
+        "value": "vp.tweakeroo.hotkeys.63text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Column mode",
+        "value": "vp.tweakeroo.hotkeys.64text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Diagonal mode",
+        "value": "vp.tweakeroo.hotkeys.65text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Face mode",
+        "value": "vp.tweakeroo.hotkeys.66text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Layer mode",
+        "value": "vp.tweakeroo.hotkeys.67text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Line mode",
+        "value": "vp.tweakeroo.hotkeys.68text"
+      },
+      {
+        "key": "Switch the Placement Restriction mode to the Plane mode",
+        "value": "vp.tweakeroo.hotkeys.69text"
+      },
+      {
+        "key": "Toggles skipping world rendering",
+        "value": "vp.tweakeroo.hotkeys.70text"
+      },
+      {
+        "key": "Switches to the effective tool for the targeted block",
+        "value": "vp.tweakeroo.hotkeys.71text"
+      },
+      {
+        "key": "Zoom activation hotkey",
+        "value": "vp.tweakeroo.hotkeys.72text"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "fi.dy.masa.tweakeroo.gui.GuiConfigs"
+    },
+    "pairs": [
+      {
+        "key": "tweakeroo.gui.button.config_gui.generic",
+        "value": "vp.tweakeroo.guiconfigs.1text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.fixes",
+        "value": "vp.tweakeroo.guiconfigs.2text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.lists",
+        "value": "vp.tweakeroo.guiconfigs.3text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.tweak_toggles",
+        "value": "vp.tweakeroo.guiconfigs.4text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.tweak_hotkeys",
+        "value": "vp.tweakeroo.guiconfigs.5text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.generic_hotkeys",
+        "value": "vp.tweakeroo.guiconfigs.6text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.disable_toggle",
+        "value": "vp.tweakeroo.guiconfigs.7text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.disable_hotkeys",
+        "value": "vp.tweakeroo.guiconfigs.8text"
+      },
+      {
+        "key": "tweakeroo.gui.button.config_gui.placement",
+        "value": "vp.tweakeroo.guiconfigs.9text"
+      },
+      {
+        "key": "tweakeroo.gui.title.configs",
+        "value": "vp.tweakeroo.guiconfigs.10text"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "fi.dy.masa.tweakeroo.event.InputHandler"
+    },
+    "pairs": [
+      {
+        "key": "tweakeroo.hotkeys.category.disable_toggle_hotkeys",
+        "value": "vp.tweakeroo.inputhandler.1text"
+      },
+      {
+        "key": "tweakeroo.hotkeys.category.generic_hotkeys",
+        "value": "vp.tweakeroo.inputhandler.2text"
+      },
+      {
+        "key": "tweakeroo.hotkeys.category.tweak_toggle_hotkeys",
+        "value": "vp.tweakeroo.inputhandler.3text"
+      },
+      {
+        "key": "tweakeroo.message.set_after_clicker_count_to",
+        "value": "vp.tweakeroo.inputhandler.4text"
+      },
+      {
+        "key": "tweakeroo.message.set_placement_limit_to",
+        "value": "vp.tweakeroo.inputhandler.5text"
+      },
+      {
+        "key": "tweakeroo.message.set_hotbar_slot_cycle_max_to",
+        "value": "vp.tweakeroo.inputhandler.6text"
+      },
+      {
+        "key": "tweakeroo.message.set_hotbar_slot_randomizer_max_to",
+        "value": "vp.tweakeroo.inputhandler.7text"
+      },
+      {
+        "key": "tweakeroo.message.set_breaking_grid_size_to",
+        "value": "vp.tweakeroo.inputhandler.8text"
+      },
+      {
+        "key": "tweakeroo.message.set_placement_grid_size_to",
+        "value": "vp.tweakeroo.inputhandler.9text"
+      },
+      {
+        "key": "tweakeroo.message.set_snap_aim_pitch_step_to",
+        "value": "vp.tweakeroo.inputhandler.10text"
+      },
+      {
+        "key": "tweakeroo.message.set_snap_aim_yaw_step_to",
+        "value": "vp.tweakeroo.inputhandler.11text"
+      },
+      {
+        "key": "tweakeroo.message.set_zoom_fov_to",
+        "value": "vp.tweakeroo.inputhandler.12text"
+      },
+      {
+        "key": "tweakeroo.message.set_fly_speed_to",
+        "value": "vp.tweakeroo.inputhandler.13text"
+      }
+    ]
+  },
+  {
+    "target_classes": [
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeyWithMessage"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackHotkeysGeneric"
+    },
+    {
+      "name": "fi.dy.masa.tweakeroo.config.Callbacks$KeyCallbackToggleWithSpecialMessage"
+    }
+    ],
+    "pairs": [
+      {
+        "key": "tweakeroo.message.value.",
+        "value": "vp.tweakeroo.callbacks.1text"
+      },
+      {
+        "key": "on",
+        "value": "vp.tweakeroo.callbacks.2text"
+      },
+      {
+        "key": "off",
+        "value": "vp.tweakeroo.callbacks.3text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_fly_speed_on",
+        "value": "vp.tweakeroo.callbacks.4text"
+      },
+      {
+        "key": "tweakeroo.message.toggled",
+        "value": "vp.tweakeroo.callbacks.5text"
+      },
+      {
+        "key": "tweakeroo.message.toggled",
+        "value": "vp.tweakeroo.callbacks.6text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_fast_placement_mode_on",
+        "value": "vp.tweakeroo.callbacks.7text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_after_clicker_on",
+        "value": "vp.tweakeroo.callbacks.8text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_placement_limit_on",
+        "value": "vp.tweakeroo.callbacks.9text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_slot_cycle_on",
+        "value": "vp.tweakeroo.callbacks.10text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_slot_randomizer_on",
+        "value": "vp.tweakeroo.callbacks.11text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_placement_grid_on",
+        "value": "vp.tweakeroo.callbacks.12text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_breaking_grid_on",
+        "value": "vp.tweakeroo.callbacks.13text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_zoom_on",
+        "value": "vp.tweakeroo.callbacks.14text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_snap_aim_on_yaw",
+        "value": "vp.tweakeroo.callbacks.15text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_snap_aim_on_pitch",
+        "value": "vp.tweakeroo.callbacks.16text"
+      },
+      {
+        "key": "tweakeroo.message.toggled_snap_aim_on_both",
+        "value": "vp.tweakeroo.callbacks.17text"
+      },
+      {
+        "key": "tweakeroo.message.sign_text_copied",
+        "value": "vp.tweakeroo.callbacks.18text"
+      },
+      {
+        "key": "tweakeroo.message.set_fly_speed_preset_to",
+        "value": "vp.tweakeroo.callbacks.19text"
+      },
+      {
+        "key": "tweakeroo.message.set_breaking_restriction_mode_to",
+        "value": "vp.tweakeroo.callbacks.20text"
+      },
+      {
+        "key": "tweakeroo.message.set_placement_restriction_mode_to",
+        "value": "vp.tweakeroo.callbacks.21text"
+      },
+      {
+        "key": "tweakeroo.message.value.",
+        "value": "vp.tweakeroo.callbacks.22text"
+      },
+      {
+        "key": "on",
+        "value": "vp.tweakeroo.callbacks.23text"
+      },
+      {
+        "key": "off",
+        "value": "vp.tweakeroo.callbacks.24text"
+      },
+      {
+        "key": "tweakeroo.message.toggled",
+        "value": "vp.tweakeroo.callbacks.25text"
+      },
+      {
+        "key": "tweakeroo.message.value.",
+        "value": "vp.tweakeroo.callbacks.26text"
+      },
+      {
+        "key": "on",
+        "value": "vp.tweakeroo.callbacks.27text"
+      },
+      {
+        "key": "off",
+        "value": "vp.tweakeroo.callbacks.28text"
+      },
+      {
+        "key": "tweakeroo.message.toggled",
+        "value": "vp.tweakeroo.callbacks.29text"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "fi.dy.masa.tweakeroo.config.ConfigBooleanClient"
+    },
+    "pairs": [
+      {
+        "key": "tweakeroo.label.config_comment.single_player_only",
+        "value": "vp.tweakeroo.configbooleanclient.1text"
+      }
+    ]
+  }
+]
