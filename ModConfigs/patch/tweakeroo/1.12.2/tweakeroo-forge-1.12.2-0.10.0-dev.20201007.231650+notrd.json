@@ -1,8 +1,8 @@
 [
   {
     "authors": "DreamingLri、SnowLin、醉梦巅峰、新兵Sinbing、XYHXH",
-    "name": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
-    "desc": "使用VP模块文件生成器【by 柠娜】生成初版模块文件，之后配合Recaf软件手动修改初版模块文件得到最终版本的模块文件，然后进行汉化，DreamingLri、SnowLin、醉梦巅峰和新兵Sinbing提供了高版本的汉化文本，XYHXH移植高版本的汉化到1.12.2版本，并补全1.12.2版本独有设置的汉化和制作VP汉化补丁文件",
+    "name": "Tweakeroo 1.12.2 Forge模组汉化",
+    "desc": "VP<1.4.4+3>+可启用，使用VP模块文件生成器【by 柠娜】生成初版模块文件，之后配合Recaf软件手动修改初版模块文件得到最终版本的模块文件，然后进行汉化，DreamingLri、SnowLin、醉梦巅峰和新兵Sinbing提供了高版本的汉化文本，XYHXH移植高版本的汉化到1.12.2版本，并补全1.12.2版本独有设置的汉化和制作VP汉化补丁文件",
     "mods": "tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+notrd.jar",
     "dynamic": false,
     "i18n": true
@@ -2026,4 +2026,5 @@
       }
     ]
   }
+
 ]
