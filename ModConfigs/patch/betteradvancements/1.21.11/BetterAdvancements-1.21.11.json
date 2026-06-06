@@ -96,5 +96,48 @@
         "info": {
             "method": "build"
         }
+    },
+    {
+        "target_class": [
+            "betteradvancements.common.util.CriteriaDetail"
+        ],
+        "pairs": [
+            {
+                "key": "Off",
+                "value": "关闭"
+            },
+            {
+                "key": "Vanilla default",
+                "value": "原版默认"
+            },
+            {
+                "key": "Default",
+                "value": "默认"
+            },
+            {
+                "key": "List which criteria you have already obtained",
+                "value": "列出你已经获得的条件"
+            },
+            {
+                "key": "Spoiler",
+                "value": "剧透模式"
+            },
+            {
+                "key": "Only reveal unobtained criteria",
+                "value": "仅显示未获得的条件"
+            },
+            {
+                "key": "All",
+                "value": "全部"
+            },
+            {
+                "key": "Show both obtained and unobtained criteria",
+                "value": "同时显示已获得和未获得的条件"
+            },
+            {
+                "key": "Lists the criteria for partially completed advancements, e.g. the biomes required for 'Adventuring Time'",
+                "value": "列出部分完成进度的条件，例如“探索时光”所需的生物群系"
+            }
+        ]
     }
 ]
