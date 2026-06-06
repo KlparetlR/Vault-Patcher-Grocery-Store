@@ -1,0 +1,100 @@
+[
+    {
+        "name": "BetterAdvancements模组汉化",
+        "desc": "VP1.5.2+可启用, 对 更好的进度 模组硬编码部分的汉化(使用AI翻译)",
+        "mods": "BetterAdvancements (Fabric-1.21.11) v0.4.8.54",
+        "authors": "Spruce-Leaves",
+        "dynamic": false,
+        "i18n": false
+    },
+    {
+        "target_class": [
+            "betteradvancements.fabric.config.ConfigValues"
+        ],
+        "pairs": [
+            {
+                "key": "defaultUncompletedIconColor",
+                "value": "未完成进度图标默认颜色"
+            },
+            {
+                "key": "defaultUncompletedTitleColor",
+                "value": "未完成进度标题默认颜色"
+            },
+            {
+                "key": "defaultCompletedIconColor",
+                "value": "已完成进度图标默认颜色"
+            },
+            {
+                "key": "defaultCompletedTitleColor",
+                "value": "已完成进度标题默认颜色"
+            },
+            {
+                "key": "doAdvancementsBackgroundFade",
+                "value": "进度背景淡入淡出"
+            },
+            {
+                "key": "showDebugCoordinates",
+                "value": "显示调试坐标"
+            },
+            {
+                "key": "orderTabsAlphabetically",
+                "value": "按字母顺序排列选项卡"
+            },
+            {
+                "key": "uiScaling",
+                "value": "界面缩放"
+            },
+            {
+                "key": "Values below 50% might give odd results, use on own risk ;)",
+                "value": "低于50%的值可能导致异常结果，使用风险自负 ;)"
+            },
+            {
+                "key": "defaultZoom",
+                "value": "默认缩放"
+            },
+            {
+                "key": "UI zoom steps are 0.1",
+                "value": "界面缩放步长为0.1"
+            },
+            {
+                "key": "criteriaDetail",
+                "value": "条件详情"
+            },
+            {
+                "key": "criteriaDetailRequiresShift",
+                "value": "条件详情需要按住Shift"
+            },
+            {
+                "key": "addInventoryButton",
+                "value": "添加背包按钮"
+            },
+            {
+                "key": "defaultDrawDirectLines",
+                "value": "默认绘制直接连线"
+            },
+            {
+                "key": "defaultHideLines",
+                "value": "默认隐藏连线"
+            },
+            {
+                "key": "defaultCompletedLineColor",
+                "value": "已完成连线默认颜色"
+            },
+            {
+                "key": "defaultUncompletedLineColor",
+                "value": "未完成连线默认颜色"
+            },
+            {
+                "key": "onlyUseAboveAdvancementTabs",
+                "value": "仅使用上方进度选项卡"
+            },
+            {
+                "key": "keepAdvancementsTitle",
+                "value": "保留进度标题"
+            }
+        ],
+        "info": {
+            "method": "build"
+        }
+    }
+]
